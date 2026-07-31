@@ -25,12 +25,18 @@ The goal is not to collect every robot-learning paper. Include a work only when
 data collection, processing, transformation, mixing, infrastructure, quality,
 or data-value evaluation is a central contribution.
 
-## Single-file content policy
+## Curated-list and archive policy
 
-All curated content lives in `README.md`.
+All manually curated content lives in `README.md`.
 
 Do **not** create `contents/` pages or split the list into per-topic Markdown
 files unless the user explicitly requests it.
+
+The explicitly requested `arXiv_daily/` subtree is the only exception. It is
+an automatically generated, high-recall candidate archive rather than curated
+content. Its four generated topic views live under `arXiv_daily/sections/`,
+while `arXiv_daily/data/papers.json` remains the deduplicated source of truth.
+Do not automatically promote archive entries into the root `README.md`.
 
 Allowed root-level files:
 
@@ -39,6 +45,8 @@ Allowed root-level files:
 - `LICENSE`
 - `.gitignore`
 - optional static assets under `assets/` or `imgs/`
+- `arXiv_daily/` — automated candidate archive, configuration, and scripts
+- `.github/workflows/` — repository automation
 
 ## Canonical section layout
 

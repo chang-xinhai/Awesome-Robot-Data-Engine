@@ -47,6 +47,10 @@ evaluation. Related sections use links rather than duplicate rows.
 date when available. See [AGENTS.md](AGENTS.md) for source priority, placement,
 table, sorting, and commit rules.
 
+**Daily candidate feed.** The automatically updated [arXiv Daily](arXiv_daily/README.md)
+provides a broader, high-recall paper pool across all four data sources. Its
+entries are promoted into this curated README only after manual review.
+
 ## Must Read
 
 | Goal | Start with |
@@ -60,6 +64,8 @@ table, sorting, and commit rules.
 
 ## News
 
+- [2026-07-31] Added an automated four-topic [arXiv Daily](arXiv_daily/README.md)
+  candidate archive with historical backfill from 2025-01-01 and daily updates.
 - [2026-07-31] Expanded the primary-source-verified index from 296 to 567
   entries after five deep thematic audits covering robot-centric, UMI, human /
   egocentric, simulation, and cross-source taxonomy; added missing simulation

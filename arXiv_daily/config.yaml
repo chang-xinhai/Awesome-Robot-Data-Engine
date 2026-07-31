@@ -1,0 +1,153 @@
+archive:
+  start_date: "2025-01-01"
+  lookback_days: 14
+  page_size: 100
+  delay_seconds: 3.1
+  num_retries: 8
+  max_results_per_window: 5000
+
+validation:
+  required_ids:
+    # AutoMoMa: a known Simulation omission that motivated this archive.
+    - "2604.12565"
+
+# Candidate discovery is deliberately broader than the curated root README.
+# Every query is still filtered by the topic rules below before it is stored.
+queries:
+  - name: cs-ro
+    query: 'cat:cs.RO'
+  - name: robot-data
+    query: '(cat:cs.CV OR cat:cs.AI OR cat:cs.LG) AND (all:"robot data" OR all:"robot dataset" OR all:"robot demonstration" OR all:teleoperation OR all:"human-in-the-loop")'
+  - name: umi
+    query: '(all:"universal manipulation interface" OR all:"handheld gripper" OR all:"robot-free demonstration" OR all:"portable manipulation interface")'
+  - name: human-egocentric
+    query: '(cat:cs.CV OR cat:cs.AI OR cat:cs.LG OR cat:cs.RO) AND (all:egocentric OR all:"first-person manipulation" OR all:"human video" OR all:"hand-object" OR all:"imitation from observation" OR all:"human-to-robot")'
+  - name: simulation-data
+    query: '(cat:cs.RO OR cat:cs.CV OR cat:cs.AI OR cat:cs.LG) AND (all:"synthetic robot data" OR all:"synthetic demonstration" OR all:"real-to-sim" OR all:real2sim OR all:"sim-to-real" OR all:sim2real OR all:"digital twin" OR all:"simulation-ready" OR all:"robot simulation")'
+  - name: cross-source-data
+    query: '(cat:cs.RO OR cat:cs.CV OR cat:cs.AI OR cat:cs.LG) AND (all:"data engine" OR all:"data curation" OR all:"data scaling" OR all:"cross-embodiment" OR all:"trajectory quality")'
+
+topics:
+  robot_centric:
+    title: Robot-Centric
+    file: sections/robot-centric.md
+    require_any:
+      - '\brobot(?:ic|s)?\b'
+      - '\bmanipulation\b'
+      - '\bhumanoid\b'
+      - '\bdexterous\b'
+      - '\bembodied\b'
+      - '\bvision[- ]language[- ]action\b|\bvla\b'
+    exclude:
+      - '\bautonomous driv\w*\b|\bself[- ]driving\b'
+      - '\b(?:uav|drone|aerial vehicle)\b'
+    patterns:
+      - label: Teleoperation
+        regex: '\bteleoperat\w*\b'
+      - label: Robot Dataset
+        regex: '\brobot(?:ic)?[- ](?:data|dataset|demonstration)s?\b|\bdataset\b.{0,80}\brobot(?:ic)?\b'
+      - label: Data Collection
+        regex: '\b(?:data|demonstration|trajectory) collection\b|\bcollect(?:ing|ion)?\b.{0,60}\b(?:robot|demonstration|trajectory)\b'
+      - label: Human Intervention
+        regex: '\bhuman[- ]in[- ]the[- ]loop\b|\bhuman intervention\b|\bcorrective demonstration\b|\bdagger\b'
+      - label: Autonomous Collection
+        regex: '\bautonomous\b.{0,50}\bdata collection\b|\bself[- ]improv\w*\b|\bdata flywheel\b|\bfleet learning\b'
+      - label: Robot Data Processing
+        regex: '\b(?:robot|trajectory)\b.{0,70}\b(?:augmentation|curation|filtering|relabeling|quality|deduplication)\b'
+      - label: Scalable Demonstrations
+        regex: '\b(?:large[- ]scale|scalable)\b.{0,80}\b(?:robot data|demonstration|trajectory)\b'
+
+  umi:
+    title: UMI
+    file: sections/umi.md
+    require_any:
+      - '\brobot(?:ic|s)?\b'
+      - '\bmanipulation\b'
+      - '\bgripper\b'
+      - '\bdemonstration\b'
+      - '\bhumanoid\b'
+    patterns:
+      - label: Universal Manipulation Interface
+        regex: '\buniversal manipulation interface\b|\bumi\b'
+      - label: Handheld Gripper
+        regex: '\bhandheld\b.{0,50}\b(?:gripper|manipulation|demonstration|interface)\b'
+      - label: Robot-Free Demonstration
+        regex: '\brobot[- ]free\b.{0,50}\b(?:demonstration|data|collection|policy)\b'
+      - label: Portable Interface
+        regex: '\bportable\b.{0,40}\bmanipulation interface\b'
+      - label: In-the-Wild Teaching
+        regex: '\bin[- ]the[- ]wild\b.{0,70}\b(?:robot teaching|demonstration|manipulation)\b'
+      - label: Wrist-Sensor Demonstration
+        regex: '\bwrist[- ](?:mounted|camera|rgb|rgb-d|sensor)\b.{0,80}\b(?:demonstration|collection|tracking)\b'
+
+  human_egocentric:
+    title: Human / Egocentric
+    file: sections/human-egocentric.md
+    require_any:
+      - '\brobot(?:ic|s)?\b'
+      - '\bmanipulation\b'
+      - '\bhand[- ]object\b|\bhoi\b'
+      - '\begocentric\b|\bfirst[- ]person\b'
+      - '\bretarget\w*\b'
+      - '\baffordance\b'
+      - '\bembodied\b'
+    exclude:
+      - '\bautonomous driv\w*\b|\bself[- ]driving\b'
+    patterns:
+      - label: Egocentric
+        regex: '\begocentric\b|\bego[- ](?:centric|video|exo)\b'
+      - label: First-Person
+        regex: '\bfirst[- ]person\b.{0,60}\b(?:interaction|manipulation|video|demonstration)\b'
+      - label: Hand-Object Interaction
+        regex: '\bhand[- ]object\b|\bhoi\b'
+      - label: Human Video
+        regex: '\bhuman videos?\b|\bvideo[- ]to[- ]action\b|\blearning from human\b'
+      - label: Human Demonstration
+        regex: '\bhuman demonstrations?\b|\bhuman interaction data\b'
+      - label: Imitation from Observation
+        regex: '\bimitation from observation\b|\blearning from observation\b'
+      - label: Human-to-Robot
+        regex: '\bhuman[- ]to[- ]robot\b|\bhuman.{0,30}robot retarget\w*\b'
+      - label: Tracking / Reconstruction
+        regex: '\b(?:hand|body|object|interaction)\b.{0,50}\b(?:tracking|reconstruction|pose estimation)\b'
+      - label: Affordance / Contact
+        regex: '\b(?:human|ego|hand)\b.{0,50}\b(?:affordance|contact|intent)\b'
+
+  simulation:
+    title: Simulation
+    file: sections/simulation.md
+    require_any:
+      - '\brobot(?:ic|s)?\b'
+      - '\bmanipulation\b'
+      - '\bhumanoid\b'
+      - '\bdexterous\b'
+      - '\bgrasp\w*\b'
+      - '\bembodied\b'
+      - '\bteleoperat\w*\b'
+      - '\bimitation learning\b'
+      - '\bvision[- ]language[- ]action\b|\bvla\b'
+    exclude:
+      - '\bautonomous driv\w*\b|\bself[- ]driving\b'
+      - '\b(?:uav|drone|aerial vehicle)\b'
+      - '\bvisual language navigation\b|\bvision[- ]language navigation\b|\bvln\b'
+    patterns:
+      - label: Simulation Data
+        regex: '\b(?:simulation|simulated|simulator)\b.{0,90}\b(?:data|dataset|demonstration|trajectory|generation|synthesis|benchmark|environment)\b|\b(?:data|dataset|demonstration|trajectory|generation)\b.{0,90}\b(?:simulation|simulated|simulator)\b'
+      - label: Sim-to-Real
+        regex: '\bsim(?:ulation)?[- ]?(?:to|2)[- ]?real\b|\breal[- ]?(?:to|2)[- ]?sim(?:ulation)?\b'
+      - label: Synthetic Data
+        regex: '\bsynthetic\b.{0,50}\b(?:data|demonstration|trajectory|observation|experience|dataset)\b'
+      - label: Task / Scene Generation
+        regex: '\b(?:task|scene|environment|world|layout) generation\b|\bprocedural\b.{0,40}\b(?:scene|environment|world)\b'
+      - label: Simulation-Ready Asset
+        regex: '\bsimulation[- ]ready\b|\b(?:urdf|articulated asset|physical asset) generation\b'
+      - label: Digital Twin / Real-to-Sim
+        regex: '\bdigital twins?\b|\bgaussian splatting\b.{0,80}\b(?:robot|manipulation|simulation)\b'
+      - label: Domain Randomization
+        regex: '\bdomain randomi[sz]ation\b'
+      - label: Synthetic Sensor
+        regex: '\b(?:tactile|event camera|contact audio)\b.{0,70}\b(?:simulation|simulator|synthetic|generation)\b'
+      - label: World Simulator
+        regex: '\b(?:world|neural|video) simulator\b|\bworld model\b.{0,60}\b(?:data generation|synthetic data|policy evaluation)\b'
+      - label: Trajectory Generation
+        regex: '\btrajectory (?:data )?generation\b|\bgenerat\w*\b.{0,60}\b(?:large[- ]scale )?(?:physically valid )?trajector\w*\b|\btrajectory optimization\b.{0,70}\b(?:dataset|data|scalable|parallel)\b'

@@ -1,2 +1,5 @@
 .DS_Store
 .history/
+__pycache__/
+*.py[cod]
+.venv/
