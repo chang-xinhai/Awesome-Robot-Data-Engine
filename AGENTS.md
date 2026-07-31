@@ -11,7 +11,7 @@ across four primary sources:
 1. **Robot-Centric** — teleoperation, interactive/autonomous collection,
    robot-log processing, and robot datasets.
 2. **UMI** — portable manipulation interfaces, state/action recovery,
-   retargeting, and UMI-native datasets.
+   retargeting, source-specific data recipes, and UMI-native datasets.
 3. **Human / Egocentric** — interaction perception, tracking and
    reconstruction, action extraction, retargeting, and learning from human
    video.
@@ -101,9 +101,12 @@ Include:
 - end-effector, dexterous-hand, mobile, and whole-body UMI systems;
 - pose/trajectory tracking and interaction sensing designed for UMI;
 - UMI-to-robot retargeting;
+- source-specific UMI scaling, co-training, and deployability recipes;
 - UMI-native datasets.
 
 Do not turn this section into a generic teleoperation or manipulation survey.
+Do not add a policy merely because it consumes UMI data: its main contribution
+must change how UMI data is scaled, mixed, validated, or transferred.
 UMI-specific standardized benchmarks still belong in
 `Data Engine Taxonomy → Evaluation / Benchmarks`.
 
