@@ -64,19 +64,8 @@ entries are promoted into this curated README only after manual review.
 
 ## News
 
-- [2026-07-31] Promoted 29 primary-source-verified works from the arXiv Daily
-  candidate archive after four-theme review; excluded ordinary policy papers,
-  duplicates, withdrawals, weak-adjacent work, and entries without a distinct
-  data-engine contribution.
 - [2026-07-31] Added an automated four-topic [arXiv Daily](arXiv_daily/README.md)
   candidate archive with historical backfill from 2025-01-01 and daily updates.
-- [2026-07-31] Expanded the primary-source-verified index from 296 to 567
-  entries after five deep thematic audits covering robot-centric, UMI, human /
-  egocentric, simulation, and cross-source taxonomy; added missing simulation
-  teleoperation, platform, multimodal synthesis, provenance, and evaluation
-  lineages.
-- [2026-07-31] Deeply expanded and primary-source-checked the list from 94 to
-  296 entries across all four data sources and the cross-source taxonomy.
 - [2026-07-31] Launched **Awesome Robot Data Engine** with a source-to-policy
   taxonomy and an initial verified list spanning robot-centric, UMI, human /
   egocentric, simulation, and cross-source data systems.
