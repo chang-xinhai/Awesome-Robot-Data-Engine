@@ -1,0 +1,114 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getDailyArchive, getDataAssetFiles } from "../../lib/data";
+
+const daily = getDailyArchive();
+const assetFiles = getDataAssetFiles();
+const githubRoot = "https://github.com/chang-xinhai/Awesome-Robot-Data-Engine";
+const sourceGroups = [
+  {
+    key: "robot-centric" as const,
+    label: "Robot-Centric",
+    file: "robot-centric.md",
+  },
+  { key: "umi" as const, label: "UMI", file: "umi.md" },
+  {
+    key: "human-egocentric" as const,
+    label: "Human / Egocentric",
+    file: "human-egocentric.md",
+  },
+  { key: "simulation" as const, label: "Simulation", file: "simulation.md" },
+];
+---
+
+<BaseLayout
+  title="Data Sources | Awesome Robot Data Engine"
+  description="Inspect the high-recall arXiv candidate archive and manually maintained external data asset sources."
+>
+  <header class="page-intro shell sources-intro">
+    <p class="mono-label">Discovery layer</p>
+    <h1>Candidate data stays separate.</h1>
+    <p>The archive supports discovery. Nothing enters the curated index until its contribution, placement, and primary sources are reviewed.</p>
+  </header>
+
+  <section class="source-ledger shell" aria-labelledby="daily-heading">
+    <div class="ledger-summary">
+      <div>
+        <h2 id="daily-heading">arXiv Daily</h2>
+        <p>A high-recall candidate feed refreshed from four robotics data perspectives.</p>
+      </div>
+      <dl>
+        <div>
+          <dt>Unique candidates</dt>
+          <dd>{daily.total}</dd>
+        </div>
+        <div>
+          <dt>Latest paper date</dt>
+          <dd>{daily.latestPublished}</dd>
+        </div>
+      </dl>
+    </div>
+
+    <div class="daily-groups">
+      {sourceGroups.map((group) => (
+        <section class="daily-group">
+          <header>
+            <div>
+              <h3>{group.label}</h3>
+              <span>{daily.counts[group.key]} candidates</span>
+            </div>
+            <a href={`${githubRoot}/blob/main/arXiv_daily/sections/${group.file}`}>Open archive</a>
+          </header>
+          {daily.recentBySource[group.key].length > 0 ? (
+            <ol>
+              {daily.recentBySource[group.key].slice(0, 4).map((paper) => (
+                <li>
+                  <span>{paper.published}</span>
+                  <a href={paper.url}>{paper.title}</a>
+                </li>
+              ))}
+            </ol>
+          ) : (
+            <p class="group-empty">No candidates are available in the local archive.</p>
+          )}
+        </section>
+      ))}
+    </div>
+  </section>
+
+  <section class="section shell asset-sources" aria-labelledby="asset-heading">
+    <div class="section-heading compact-heading">
+      <h2 id="asset-heading">External data assets</h2>
+      <p>Manual discovery notes cover releases that arXiv cannot reliably surface, including dataset hubs and official release pages.</p>
+    </div>
+
+    {assetFiles.length > 0 ? (
+      <div class="asset-file-grid">
+        {assetFiles.map((file) => (
+          <a href={`${githubRoot}/blob/main/${file.relativePath}`}>
+            <span>{file.name}</span>
+            <small>{file.updatedHint}</small>
+          </a>
+        ))}
+      </div>
+    ) : (
+      <div class="asset-empty">
+        <div>
+          <h3>The manual asset index is being assembled.</h3>
+          <p>Use the repository data-source policy to add verified Hugging Face, ModelScope, and official dataset releases.</p>
+        </div>
+        <a class="button button-secondary" href={`${githubRoot}/tree/main/arXiv_daily`}>Review archive files</a>
+      </div>
+    )}
+  </section>
+
+  <section class="section shell promotion-rule">
+    <h2>Promotion requires evidence.</h2>
+    <div class="promotion-steps">
+      <div><strong>Discover</strong><span>Daily papers and external asset releases</span></div>
+      <div><strong>Verify</strong><span>Primary paper, project, dataset, date, and metadata</span></div>
+      <div><strong>Classify</strong><span>One canonical placement based on the main new asset</span></div>
+      <div><strong>Curate</strong><span>Manual update to README and the public explorer</span></div>
+    </div>
+  </section>
+</BaseLayout>

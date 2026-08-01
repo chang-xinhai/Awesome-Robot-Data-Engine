@@ -1,0 +1,18 @@
+---
+import { sitePath } from "../lib/paths";
+---
+
+<footer class="site-footer">
+  <div class="shell footer-grid">
+    <div>
+      <a class="footer-title" href={sitePath()}>Awesome Robot Data Engine</a>
+      <p>A curated map of the systems that make modern robot learning data possible.</p>
+    </div>
+    <nav aria-label="Footer navigation">
+      <a href={sitePath("explore/")}>Explore research</a>
+      <a href={sitePath("sources/")}>Review data sources</a>
+      <a href="https://github.com/chang-xinhai/Awesome-Robot-Data-Engine">Open on GitHub</a>
+    </nav>
+    <p class="footer-note">Curated manually. Candidate feeds remain separate from the canonical list.</p>
+  </div>
+</footer>

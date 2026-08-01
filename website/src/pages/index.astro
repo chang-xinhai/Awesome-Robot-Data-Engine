@@ -1,0 +1,159 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import WorkItem from "../components/WorkItem.astro";
+import { getCuratedWorks, getDailyArchive, getSourceCounts } from "../lib/data";
+import { sitePath } from "../lib/paths";
+
+const works = getCuratedWorks();
+const counts = getSourceCounts(works);
+const daily = getDailyArchive();
+const recent = works.slice(0, 5);
+const totalCurated = works.length;
+
+const sources = [
+  {
+    key: "robot-centric" as const,
+    name: "Robot-Centric",
+    description: "Embodiment-matched experience from teleoperation, intervention, autonomous collection, and physical robot logs.",
+  },
+  {
+    key: "umi" as const,
+    name: "UMI",
+    description: "Portable interfaces that recover robot-usable trajectories, interaction signals, and deployable actions.",
+  },
+  {
+    key: "human-egocentric" as const,
+    name: "Human / Egocentric",
+    description: "Natural interaction video transformed into geometry, action, contact, reward, and policy supervision.",
+  },
+  {
+    key: "simulation" as const,
+    name: "Simulation",
+    description: "Controlled generation of demonstrations, environments, assets, sensor observations, and ground truth.",
+  },
+];
+
+const pipeline = ["Collect", "Recover", "Curate", "Align", "Mix", "Train", "Evaluate"];
+---
+
+<BaseLayout
+  title="Awesome Robot Data Engine"
+  description="A curated map of how robotics data is collected, processed, aligned, scaled, and evaluated."
+>
+  <section class="hero shell">
+    <div class="hero-copy">
+      <h1>Robot data, mapped.</h1>
+      <p>Track how robot experience is collected, processed, aligned, scaled, and evaluated across four data sources.</p>
+      <div class="hero-actions">
+        <a class="button button-primary" href={sitePath("explore/")}>Explore research</a>
+        <a class="button button-secondary" href={sitePath("sources/")}>Review sources</a>
+      </div>
+    </div>
+
+    <figure class="hero-figure">
+      <img
+        src={sitePath("images/data-engine-hero.webp")}
+        alt="A researcher supervises a bimanual robot while spatial data traces connect its observations and actions."
+        width="1586"
+        height="992"
+        loading="eager"
+        fetchpriority="high"
+      />
+      <figcaption>Robot experience becomes useful only after collection, recovery, alignment, and evaluation.</figcaption>
+    </figure>
+  </section>
+
+  <section class="index-rail" aria-label="Collection status">
+    <div class="shell index-rail-grid">
+      <div class="index-summary">
+        <span class="mono-label">Curated index</span>
+        <strong>{totalCurated}</strong>
+        <span>verified works</span>
+      </div>
+      {sources.map((source) => (
+        <a href={sitePath(`explore/?source=${source.key}`)}>
+          <span>{source.name}</span>
+          <strong>{counts[source.key]}</strong>
+        </a>
+      ))}
+      <a href={sitePath("explore/?source=taxonomy")}>
+        <span>Cross-source taxonomy</span>
+        <strong>{counts.taxonomy}</strong>
+      </a>
+    </div>
+  </section>
+
+  <section class="section shell source-atlas">
+    <div class="section-heading">
+      <h2>Four origins. One data engine.</h2>
+      <p>The source changes, but every usable dataset must preserve task-relevant observations, actions, and evidence.</p>
+    </div>
+
+    <figure class="source-figure">
+      <img
+        src={sitePath("images/data-sources.webp")}
+        alt="Robot-centric, portable UMI, human egocentric, and simulated data collection shown side by side."
+        width="1774"
+        height="887"
+        loading="lazy"
+      />
+      <figcaption>Robot-Centric, UMI, Human / Egocentric, and Simulation form the four primary source families.</figcaption>
+    </figure>
+
+    <div class="source-map">
+      {sources.map((source, index) => (
+        <a class={`source-block source-block-${index + 1}`} href={sitePath(`explore/?source=${source.key}`)}>
+          <div>
+            <h3>{source.name}</h3>
+            <p>{source.description}</p>
+          </div>
+          <span class="source-count"><strong>{counts[source.key]}</strong> curated</span>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="section engine-cycle">
+    <div class="shell">
+      <div class="section-heading compact-heading">
+        <h2>Follow the full data lifecycle.</h2>
+        <p>Collection is the beginning. The index also covers transformation, infrastructure, scaling, and downstream evidence.</p>
+      </div>
+      <ol class="cycle-track">
+        {pipeline.map((step) => <li>{step}</li>)}
+      </ol>
+    </div>
+  </section>
+
+  <section class="section shell recent-curation">
+    <div class="recent-heading">
+      <h2>Recently curated</h2>
+      <a class="text-link" href={sitePath("explore/")}>Browse the full index</a>
+    </div>
+    <div class="work-list home-work-list">
+      {recent.map((work) => <WorkItem work={work} />)}
+    </div>
+  </section>
+
+  <section class="section shell intake-panel">
+    <div class="intake-copy">
+      <h2>A broad intake, with a strict promotion gate.</h2>
+      <p>The daily archive keeps discovery high-recall. Only manually verified work enters the curated index.</p>
+      <a class="button button-secondary" href={sitePath("sources/")}>Inspect the intake</a>
+    </div>
+    <dl class="intake-facts">
+      <div>
+        <dt>Daily candidates</dt>
+        <dd>{daily.total}</dd>
+      </div>
+      <div>
+        <dt>Latest paper date</dt>
+        <dd>{daily.latestPublished}</dd>
+      </div>
+      <div>
+        <dt>Canonical rule</dt>
+        <dd>One verified entry</dd>
+      </div>
+    </dl>
+  </section>
+</BaseLayout>

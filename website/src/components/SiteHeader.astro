@@ -1,0 +1,50 @@
+---
+import { sitePath } from "../lib/paths";
+
+interface Props {
+  pathname: string;
+}
+
+const { pathname } = Astro.props;
+const links = [
+  { label: "Home", href: sitePath(), match: `${import.meta.env.BASE_URL}` },
+  { label: "Explore", href: sitePath("explore/"), match: "/explore/" },
+  { label: "Data sources", href: sitePath("sources/"), match: "/sources/" },
+];
+
+const isActive = (match: string) =>
+  match === import.meta.env.BASE_URL ? pathname === match : pathname.includes(match);
+---
+
+<header class="site-header">
+  <div class="shell nav-shell">
+    <a class="wordmark" href={sitePath()} aria-label="Awesome Robot Data Engine home">
+      <span class="wordmark-mark" aria-hidden="true">RD</span>
+      <span class="wordmark-name">Awesome Robot Data Engine</span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      {links.map((link) => (
+        <a href={link.href} aria-current={isActive(link.match) ? "page" : undefined}>
+          {link.label}
+        </a>
+      ))}
+      <a
+        class="github-link"
+        href="https://github.com/chang-xinhai/Awesome-Robot-Data-Engine"
+      >GitHub</a>
+    </nav>
+
+    <details class="mobile-nav">
+      <summary>Menu</summary>
+      <nav aria-label="Mobile navigation">
+        {links.map((link) => (
+          <a href={link.href} aria-current={isActive(link.match) ? "page" : undefined}>
+            {link.label}
+          </a>
+        ))}
+        <a href="https://github.com/chang-xinhai/Awesome-Robot-Data-Engine">GitHub</a>
+      </nav>
+    </details>
+  </div>
+</header>

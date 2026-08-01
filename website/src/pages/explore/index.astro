@@ -1,0 +1,156 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import WorkItem from "../../components/WorkItem.astro";
+import { getCuratedWorks } from "../../lib/data";
+
+const works = getCuratedWorks();
+const years = [...new Set(works.map((work) => work.year))].sort((a, b) => b.localeCompare(a));
+const sourceOptions = [
+  ["all", "All sources"],
+  ["robot-centric", "Robot-Centric"],
+  ["umi", "UMI"],
+  ["human-egocentric", "Human / Egocentric"],
+  ["simulation", "Simulation"],
+  ["taxonomy", "Data Engine Taxonomy"],
+];
+---
+
+<BaseLayout
+  title="Explore | Awesome Robot Data Engine"
+  description="Search the manually curated Awesome Robot Data Engine research index."
+>
+  <header class="page-intro shell">
+    <p class="mono-label">Curated research index</p>
+    <h1>Find the work behind the data.</h1>
+    <p>Search by method, dataset, institution, modality, publication, or source family. Every result comes from the canonical README.</p>
+  </header>
+
+  <section class="explorer shell" aria-labelledby="explorer-title">
+    <h2 id="explorer-title" class="visually-hidden">Research explorer</h2>
+    <form class="filter-bar" id="filters">
+      <label class="search-field">
+        <span>Search</span>
+        <input id="search" type="search" placeholder="Dataset, modality, method, institute" autocomplete="off" />
+      </label>
+      <label>
+        <span>Source</span>
+        <select id="source">
+          {sourceOptions.map(([value, label]) => <option value={value}>{label}</option>)}
+        </select>
+      </label>
+      <label>
+        <span>Year</span>
+        <select id="year">
+          <option value="all">All years</option>
+          {years.map((year) => <option value={year}>{year}</option>)}
+        </select>
+      </label>
+      <button class="button button-secondary filter-reset" id="reset" type="reset">Clear</button>
+    </form>
+
+    <div class="result-toolbar">
+      <p id="result-count" aria-live="polite">{works.length} curated works</p>
+      <p>Sorted by initial release date</p>
+    </div>
+
+    <div class="work-list explore-work-list" id="results">
+      {works.map((work) => <WorkItem work={work} searchable />)}
+    </div>
+
+    <div class="empty-state" id="empty-state" hidden>
+      <h2>No matching work</h2>
+      <p>Try a broader term or clear one of the filters.</p>
+      <button class="button button-secondary" id="empty-reset" type="button">Clear filters</button>
+    </div>
+
+    <div class="load-more-wrap">
+      <button class="button button-secondary" id="load-more" type="button">Show more</button>
+    </div>
+  </section>
+
+  <script>
+    const PAGE_SIZE = 36;
+    const form = document.querySelector<HTMLFormElement>("#filters");
+    const search = document.querySelector<HTMLInputElement>("#search");
+    const source = document.querySelector<HTMLSelectElement>("#source");
+    const year = document.querySelector<HTMLSelectElement>("#year");
+    const count = document.querySelector<HTMLElement>("#result-count");
+    const loadMore = document.querySelector<HTMLButtonElement>("#load-more");
+    const emptyState = document.querySelector<HTMLElement>("#empty-state");
+    const emptyReset = document.querySelector<HTMLButtonElement>("#empty-reset");
+    const items = Array.from(document.querySelectorAll<HTMLElement>("[data-item]"));
+    let visibleLimit = PAGE_SIZE;
+
+    function readInitialState() {
+      const params = new URLSearchParams(window.location.search);
+      const initialSource = params.get("source");
+      const initialYear = params.get("year");
+      const initialQuery = params.get("q");
+
+      if (source && initialSource && Array.from(source.options).some((option) => option.value === initialSource)) {
+        source.value = initialSource;
+      }
+      if (year && initialYear && Array.from(year.options).some((option) => option.value === initialYear)) {
+        year.value = initialYear;
+      }
+      if (search && initialQuery) search.value = initialQuery;
+    }
+
+    function updateUrl(query: string, sourceValue: string, yearValue: string) {
+      const params = new URLSearchParams();
+      if (query) params.set("q", query);
+      if (sourceValue !== "all") params.set("source", sourceValue);
+      if (yearValue !== "all") params.set("year", yearValue);
+      const suffix = params.toString();
+      history.replaceState(null, "", suffix ? `?${suffix}` : window.location.pathname);
+    }
+
+    function applyFilters() {
+      const query = search?.value.trim().toLowerCase() ?? "";
+      const sourceValue = source?.value ?? "all";
+      const yearValue = year?.value ?? "all";
+      const matches = items.filter((item) => {
+        const queryMatch = !query || item.dataset.search?.includes(query);
+        const sourceMatch = sourceValue === "all" || item.dataset.source === sourceValue;
+        const yearMatch = yearValue === "all" || item.dataset.year === yearValue;
+        return queryMatch && sourceMatch && yearMatch;
+      });
+
+      const matchSet = new Set(matches);
+      items.forEach((item) => {
+        const matchIndex = matches.indexOf(item);
+        item.hidden = !matchSet.has(item) || matchIndex >= visibleLimit;
+      });
+
+      if (count) count.textContent = `${matches.length} curated ${matches.length === 1 ? "work" : "works"}`;
+      if (emptyState) emptyState.hidden = matches.length !== 0;
+      if (loadMore) loadMore.hidden = matches.length <= visibleLimit;
+      updateUrl(query, sourceValue, yearValue);
+    }
+
+    function resetFilters() {
+      if (search) search.value = "";
+      if (source) source.value = "all";
+      if (year) year.value = "all";
+      visibleLimit = PAGE_SIZE;
+      applyFilters();
+      search?.focus();
+    }
+
+    readInitialState();
+    applyFilters();
+    form?.addEventListener("input", () => {
+      visibleLimit = PAGE_SIZE;
+      applyFilters();
+    });
+    form?.addEventListener("reset", (event) => {
+      event.preventDefault();
+      resetFilters();
+    });
+    emptyReset?.addEventListener("click", resetFilters);
+    loadMore?.addEventListener("click", () => {
+      visibleLimit += PAGE_SIZE;
+      applyFilters();
+    });
+  </script>
+</BaseLayout>

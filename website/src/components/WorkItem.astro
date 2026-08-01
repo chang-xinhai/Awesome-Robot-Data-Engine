@@ -1,0 +1,45 @@
+---
+import type { CuratedWork } from "../lib/data";
+
+interface Props {
+  work: CuratedWork;
+  showSource?: boolean;
+  searchable?: boolean;
+}
+
+const { work, showSource = true, searchable = false } = Astro.props;
+const location = [work.section, work.subsection].filter(Boolean).join(" / ");
+const searchText = [
+  work.title,
+  work.keywords,
+  work.institute,
+  work.publication,
+  work.sourceLabel,
+  location,
+].join(" ").toLowerCase();
+---
+
+<article
+  class:list={["work-item", searchable && "is-searchable"]}
+  data-item={searchable ? "true" : undefined}
+  data-search={searchable ? searchText : undefined}
+  data-source={searchable ? work.source : undefined}
+  data-year={searchable ? work.year : undefined}
+>
+  <div class="work-date">{work.date}</div>
+  <div class="work-copy">
+    <div class="work-context">
+      {showSource && <span>{work.sourceLabel}</span>}
+      {location && <span>{location}</span>}
+    </div>
+    <h2><a href={work.paperUrl}>{work.title}</a></h2>
+    <p>{work.keywords}</p>
+    <div class="work-meta">
+      <span>{work.institute}</span>
+      <span>{work.publication}</span>
+      {work.others.slice(0, 3).map((link) => (
+        <a href={link.url}>{link.label}</a>
+      ))}
+    </div>
+  </div>
+</article>
