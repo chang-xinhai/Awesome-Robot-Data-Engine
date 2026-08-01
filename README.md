@@ -76,64 +76,38 @@ entries are promoted into this curated README only after manual review.
 - [Must Read](#must-read)
 - [News](#news)
 - [Robot-Centric](#robot-centric)
-  - [Robot Data Collection](#robot-data-collection)
-    - [Direct Teleoperation](#direct-teleoperation)
-    - [Interactive Collection](#interactive-collection)
-    - [Autonomous Collection](#autonomous-collection)
-  - [Robot Data Processing](#robot-data-processing)
-  - [Robot-Centric Datasets](#robot-centric-datasets)
-    - [Single-Embodiment Datasets](#single-embodiment-datasets)
-    - [Multi-Embodiment / Aggregated Datasets](#multi-embodiment--aggregated-datasets)
 - [UMI](#umi)
-  - [UMI Collection Systems](#umi-collection-systems)
-    - [End-effector Interfaces](#end-effector-interfaces)
-    - [Dexterous Hand Interfaces](#dexterous-hand-interfaces)
-    - [Whole-body Interfaces](#whole-body-interfaces)
-  - [UMI State and Action Recovery](#umi-state-and-action-recovery)
-    - [Pose / Trajectory Tracking](#pose--trajectory-tracking)
-    - [Interaction Sensing](#interaction-sensing)
-    - [UMI-to-Robot Retargeting](#umi-to-robot-retargeting)
-  - [UMI Data-to-Policy](#umi-data-to-policy)
-  - [UMI Datasets](#umi-datasets)
 - [Human / Egocentric](#human--egocentric)
-  - [Interaction Perception](#interaction-perception)
-    - [Hand–Object Interaction](#handobject-interaction)
-    - [Tracking / Reconstruction](#tracking--reconstruction)
-  - [Human Action Extraction](#human-action-extraction)
-    - [Image-space / Latent Actions](#image-space--latent-actions)
-    - [Metric Actions / Retargeting](#metric-actions--retargeting)
-  - [Human Data-to-Policy](#human-data-to-policy)
-    - [Human-data Pretraining](#human-data-pretraining)
-    - [Human–Robot Co-training](#humanrobot-co-training)
-    - [Human-derived Rewards / Goals](#human-derived-rewards--goals)
-    - [Robot-free Policy Learning](#robot-free-policy-learning)
-  - [Human / Egocentric Datasets](#human--egocentric-datasets)
 - [Simulation](#simulation)
-  - [Simulation Demonstrations](#simulation-demonstrations)
-    - [Teleoperated / Human-Controlled](#teleoperated--human-controlled)
-    - [Scripted / Planner / Expert / RL Rollouts](#scripted--planner--expert--rl-rollouts)
-    - [Demonstration Expansion](#demonstration-expansion)
-    - [Generated / Model Rollouts](#generated--model-rollouts)
-  - [Simulation Environments](#simulation-environments)
-    - [Task Generation](#task-generation)
-    - [Scene Generation](#scene-generation)
-    - [Asset Generation](#asset-generation)
-    - [Real-to-Sim / Digital Twins](#real-to-sim--digital-twins)
-    - [Platforms / Frameworks](#platforms--frameworks)
-  - [Synthetic Observations](#synthetic-observations)
-    - [Rendering / Domain Randomization](#rendering--domain-randomization)
-    - [Image / Video Generation](#image--video-generation)
-    - [Tactile / Event / Audio](#tactile--event--audio)
-  - [Simulation Datasets](#simulation-datasets)
 - [Data Engine Taxonomy](#data-engine-taxonomy)
-  - [Surveys / Systems](#surveys--systems)
-  - [Modalities / Representations](#modalities--representations)
-  - [Processing / Curation](#processing--curation)
-  - [Formats / Infrastructure](#formats--infrastructure)
-  - [Mixing / Scaling](#mixing--scaling)
-  - [Evaluation / Benchmarks](#evaluation--benchmarks)
 - [Citation](#citation)
 - [Acknowledgement](#acknowledgement)
+
+<details>
+<summary><strong>Detailed contents</strong></summary>
+
+- **Robot-Centric**
+  - [Robot Data Collection](#robot-data-collection): [Direct Teleoperation](#direct-teleoperation) · [Interactive Collection](#interactive-collection) · [Autonomous Collection](#autonomous-collection)
+  - [Robot Data Processing](#robot-data-processing)
+  - [Robot-Centric Datasets](#robot-centric-datasets): [Single-Embodiment](#single-embodiment-datasets) · [Multi-Embodiment / Aggregated](#multi-embodiment--aggregated-datasets)
+- **UMI**
+  - [UMI Collection Systems](#umi-collection-systems): [End-effector](#end-effector-interfaces) · [Dexterous Hand](#dexterous-hand-interfaces) · [Whole-body](#whole-body-interfaces)
+  - [UMI State and Action Recovery](#umi-state-and-action-recovery): [Pose / Trajectory Tracking](#pose--trajectory-tracking) · [Interaction Sensing](#interaction-sensing) · [UMI-to-Robot Retargeting](#umi-to-robot-retargeting)
+  - [UMI Data-to-Policy](#umi-data-to-policy) · [UMI Datasets](#umi-datasets)
+- **Human / Egocentric**
+  - [Interaction Perception](#interaction-perception): [Hand–Object Interaction](#handobject-interaction) · [Tracking / Reconstruction](#tracking--reconstruction)
+  - [Human Action Extraction](#human-action-extraction): [Image-space / Latent Actions](#image-space--latent-actions) · [Metric Actions / Retargeting](#metric-actions--retargeting)
+  - [Human Data-to-Policy](#human-data-to-policy): [Pretraining](#human-data-pretraining) · [Human–Robot Co-training](#humanrobot-co-training) · [Rewards / Goals](#human-derived-rewards--goals) · [Robot-free Policy Learning](#robot-free-policy-learning)
+  - [Human / Egocentric Datasets](#human--egocentric-datasets)
+- **Simulation**
+  - [Simulation Demonstrations](#simulation-demonstrations): [Teleoperated](#teleoperated--human-controlled) · [Scripted / Planner / Expert / RL](#scripted--planner--expert--rl-rollouts) · [Expansion](#demonstration-expansion) · [Generated / Model Rollouts](#generated--model-rollouts)
+  - [Simulation Environments](#simulation-environments): [Task](#task-generation) · [Scene](#scene-generation) · [Asset](#asset-generation) · [Real-to-Sim](#real-to-sim--digital-twins) · [Platforms](#platforms--frameworks)
+  - [Synthetic Observations](#synthetic-observations): [Rendering](#rendering--domain-randomization) · [Image / Video](#image--video-generation) · [Tactile / Event / Audio](#tactile--event--audio)
+  - [Simulation Datasets](#simulation-datasets)
+- **Data Engine Taxonomy**
+  - [Surveys / Systems](#surveys--systems) · [Modalities / Representations](#modalities--representations) · [Processing / Curation](#processing--curation) · [Formats / Infrastructure](#formats--infrastructure) · [Mixing / Scaling](#mixing--scaling) · [Evaluation / Benchmarks](#evaluation--benchmarks)
+
+</details>
 
 ## Robot-Centric
 
@@ -164,6 +138,7 @@ curation, and representative real-world datasets.
 | 2025-11-04 | Humanoid Teleoperation, MoCap-Free, Whole-Body | Amazon FAR | [TWIST2: Scalable, Portable, and Holistic Humanoid Data Collection System](https://arxiv.org/abs/2511.02832) | arXiv | [project](https://yanjieze.com/TWIST2) / [dataset](https://twist-data.github.io) |
 | 2025-08-13 | VR Teleoperation, Multi-Embodiment, LeRobot | MIT | [BEAVR: Bimanual, multi-Embodiment, Accessible, Virtual Reality Teleoperation System for Robots](https://arxiv.org/abs/2508.09606) | ICCR 2025 | [github](https://github.com/ARCLab-MIT/BEAVR-Bot) |
 | 2024-11-04 | Crowdsourced Teleoperation, Incentive Design | Stanford University | [RoboCrowd: Scaling Robot Data Collection through Crowdsourcing](https://arxiv.org/abs/2411.01915) | ICRA 2025 | [project](https://robocrowd.github.io/) |
+| 2024-10-17 | ALOHA 2, Bimanual Teleoperation, 26.2K Trajectories | Google DeepMind | [ALOHA Unleashed: A Simple Recipe for Robot Dexterity](https://arxiv.org/abs/2410.13126) | CoRL 2024 | [project](https://aloha-unleashed.github.io/) |
 | 2024-07-01 | VR / XR, Bimanual, Active Vision | UC San Diego | [Open-TeleVision: Teleoperation with Immersive Active Visual Feedback](https://arxiv.org/abs/2407.01512) | CoRL 2024 | [github](https://github.com/OpenTeleVision/TeleVision) |
 | 2024-03-12 | Mobile Manipulation, Whole-Body, Modular VR | UT Austin | [TeleMoMa: A Modular and Versatile Teleoperation System for Mobile Manipulation](https://arxiv.org/abs/2403.07869) | arXiv | [project](https://robin-lab.cs.utexas.edu/telemoma-web) |
 | 2024-03-12 | VR Teleoperation, Bimanual, Dexterous Hand | NYU | [OPEN TEACH: A Versatile Teleoperation System for Robotic Manipulation](https://arxiv.org/abs/2403.07870) | arXiv | [github](https://github.com/aadhithya14/Open-Teach) |
@@ -308,6 +283,7 @@ observations, actions, interaction signals, and embodiment mappings.
 | 2026-03-18 | Wearable Exoskeleton, Visually Aligned Hand | UCLA | [DexEXO: A Wearability-First Dexterous Exoskeleton for Operator-Agnostic Demonstration and Learning](https://arxiv.org/abs/2603.17323) | IROS 2026 | [project](https://dexexo-research.github.io/) |
 | 2025-09-04 | Passive Hand Exoskeleton, Vision + Tactile, Perioperation | Massachusetts Institute of Technology | [DEXOP: A Device for Robotic Transfer of Dexterous Human Manipulation](https://arxiv.org/abs/2509.04441) | arXiv | [project](https://dex-op.github.io/) |
 | 2025-06-13 | Sensorized Hand Exoskeleton, Robot-Free, Dynamics Filter | Carnegie Mellon University / Google DeepMind | [ExoStart: Efficient learning for dexterous manipulation with sensorized exoskeleton demonstrations](https://arxiv.org/abs/2506.11775) | arXiv | [project](https://sites.google.com/view/exostart) |
+| 2025-05-12 | Palm Cameras, Hand + Wrist Actions, 9,290 Human Demonstrations | Carnegie Mellon University | [DexWild: Dexterous Human Interactions for In-the-Wild Robot Policies](https://arxiv.org/abs/2505.07813) | RSS 2025 | [project](https://dexwild.github.io/) / [github](https://github.com/dexwild/dexwild) |
 | 2025-03-03 | Exoskeleton, SLAM + Hand Tracking, Haptic Feedback | Tsinghua University | [Exo-ViHa: A Cross-Platform Exoskeleton System with Visual and Haptic Feedback for Efficient Dexterous Skill Learning](https://arxiv.org/abs/2503.01543) | arXiv | — |
 | 2023-10-01 | Wearable Grippers / Hands, Optical Markers, Direct Transfer | University of Auckland | [Scalable. Intuitive Human to Robot Skill Transfer with Wearable Human Machine Interfaces: On Complex, Dexterous Tasks](https://doi.org/10.1109/IROS55552.2023.10341661) | IROS 2023 | — |
 | 2023-09-26 | Wearable Robot Hand, 15-DoF Joint Capture | Tsinghua University | [A Wearable Robotic Hand for Hand-over-Hand Imitation Learning](https://arxiv.org/abs/2309.14860) | ICRA 2024 | [project](https://sites.google.com/view/hiro-hand/) |
@@ -326,6 +302,8 @@ observations, actions, interaction signals, and embodiment mappings.
 | 2025-10-02 | Aerial Manipulation, Embodiment-Aware Guidance | Carnegie Mellon University | [UMI-on-Air: Embodiment-Aware Guidance for Embodiment-Agnostic Visuomotor Policies](https://arxiv.org/abs/2510.02614) | ICRA 2026 | [project](https://umi-on-air.github.io/) / [github](https://github.com/LeCAR-Lab/UMI-on-Air) |
 | 2025-03-05 | Dual-Arm Exoskeleton, In-the-Wild Adaptation | Shanghai Jiao Tong University | [AirExo-2: Scaling up Generalizable Robotic Imitation Learning with Low-Cost Exoskeletons](https://arxiv.org/abs/2503.03081) | CoRL 2025 Oral | [project](https://airexo.tech/airexo2/) / [github](https://github.com/AirExo/AirExo-2) |
 | 2024-07-14 | Mobile Manipulation, Whole-Body, Legged | Stanford | [UMI on Legs: Making Manipulation Policies Mobile with Manipulation-Centric Whole-body Controllers](https://arxiv.org/abs/2407.10353) | CoRL 2024 | [github](https://github.com/real-stanford/umi-on-legs) |
+| 2024-06-15 | RGB Shadowing, Whole-Body Teleoperation, Egocentric Skills | Stanford University | [HumanPlus: Humanoid Shadowing and Imitation from Humans](https://arxiv.org/abs/2406.10454) | CoRL 2024 | [project](https://humanoid-ai.github.io/) / [github](https://github.com/MarkFzp/humanplus) |
+| 2024-06-13 | Kinematic Pose Interface, VR / RGB, OmniH2O-6 | Carnegie Mellon University | [OmniH2O: Universal and Dexterous Human-to-Humanoid Whole-Body Teleoperation and Learning](https://arxiv.org/abs/2406.08858) | CoRL 2024 | [project](https://omni.human2humanoid.com/) / [github](https://github.com/LeCAR-Lab/human2humanoid) |
 | 2023-09-26 | Portable Dual-Arm Exoskeleton, Whole-Arm | Shanghai Jiao Tong University | [AirExo: Low-Cost Exoskeletons for Learning Whole-Arm Manipulation in the Wild](https://arxiv.org/abs/2309.14975) | ICRA 2024 | [project](https://airexo.github.io/) / [github](https://github.com/AirExo/collector) |
 
 ### UMI State and Action Recovery
@@ -623,6 +601,8 @@ perception or policy baselines.
 | 2023-11-30 | Ego–Exo, Skilled Activity, 3D | UT Austin | [Ego-Exo4D: Understanding Skilled Human Activity from First- and Third-Person Perspectives](https://arxiv.org/abs/2311.18259) | CVPR 2024 | [project / data](https://ego-exo4d-data.org/) |
 | 2023-09-29 | 166 h, Multimodal, Human Assistance | Microsoft Research | [HoloAssist: an Egocentric Human Interaction Dataset for Interactive AI Assistants in the Real World](https://arxiv.org/abs/2309.17024) | ICCV 2023 | [project / data](https://holoassist.github.io/) |
 | 2023-07-02 | Multimodal, Robot + Paired Human Demonstrations | Shanghai Jiao Tong University | [RH20T: A Comprehensive Robotic Dataset for Learning Diverse Skills in One-Shot](https://arxiv.org/abs/2307.00595) | ICRA 2024 | [project](https://rh20t.github.io/) |
+| 2023-06-10 | Aria RGB + Stereo Mono + IMU, Digital Twin, 200 Sequences | Meta Reality Labs | [Aria Digital Twin: A New Benchmark Dataset for Egocentric 3D Machine Perception](https://arxiv.org/abs/2306.06362) | ICCV 2023 | [dataset](https://www.projectaria.com/datasets/adt/) / [huggingface](https://huggingface.co/datasets/projectaria/aria-digital-twin) |
+| 2022-11-22 | Egocentric RGB + Tactile, Human-Collected, In-the-Wild | University of Michigan | [Touch and Go: Learning from Human-Collected Vision and Touch](https://arxiv.org/abs/2211.12498) | NeurIPS 2022 Datasets and Benchmarks | [project / data / code](https://touch-and-go.github.io/) |
 | 2022-09-10 | 5K Videos, Multi-View RGB-D, Digital Twins | Shanghai Qizhi Institute / Carnegie Mellon University | [RoboTube: Learning Household Manipulation from Human Videos with Simulated Twin Environments](https://proceedings.mlr.press/v205/xiong23a.html) | CoRL 2022 Oral | [project / github / data](https://www.robotube.org/) |
 | 2022-08-07 | Egocentric RGB, Hand–Object Segmentation, Contact | University of Pennsylvania | [Fine-Grained Egocentric Hand-Object Segmentation: Dataset, Model, and Applications](https://arxiv.org/abs/2208.03826) | ECCV 2022 | [github / data](https://github.com/owenzlz/EgoHOS) |
 | 2022-04-28 | Bimanual HOI, Multi-View, Contact | ETH Zurich | [ARCTIC: A Dataset for Dexterous Bimanual Hand-Object Manipulation](https://arxiv.org/abs/2204.13662) | CVPR 2023 | [project / data](https://arctic.is.tue.mpg.de/) |
@@ -745,6 +725,8 @@ asset: demonstrations, environments, observations, or released datasets.
 | 2026-05-20 | Rigid + Deformable + Articulated, PhysXVerse | Nanyang Technological University | [PhysX-Omni: Unified Simulation-Ready Physical 3D Generation for Rigid, Deformable, and Articulated Objects](https://arxiv.org/abs/2605.21572) | arXiv | [project / code / dataset](https://physx-omni.github.io/) |
 | 2026-05-14 | Agentic Asset Generation, 10K Articulated Assets | University of Cambridge | [Articraft: An Agentic System for Scalable Articulated 3D Asset Generation](https://arxiv.org/abs/2605.15187) | arXiv | [project](https://articraft3d.github.io/) / [dataset](https://huggingface.co/datasets/LouisM2001/articraft-10k) |
 | 2026-03-14 | Image-to-URDF, Executable Articulation | Peking University | [URDF-Anything+: End-to-End Generation for Simulation-Ready Articulated Assets](https://arxiv.org/abs/2603.14010) | arXiv | [project](https://urdf-anything-plus.github.io/) / [github](https://github.com/URDF-Anything-plus/Code) |
+| 2025-11-17 | Single Image, Articulation + Physics, Six Sim Formats | Nanyang Technological University | [PhysX-Anything: Simulation-Ready Physical 3D Assets from Single Image](https://arxiv.org/abs/2511.13648) | CVPR 2026 | [project](https://physx-anything.github.io/) / [github](https://github.com/ziangcao0312/PhysX-Anything) |
+| 2025-07-16 | Physics-Annotated Assets, PhysXNet, Image-to-3D | Nanyang Technological University | [PhysX-3D: Physical-Grounded 3D Asset Generation](https://arxiv.org/abs/2507.12465) | NeurIPS 2025 Spotlight | [project](https://physx-3d.github.io/) / [github](https://github.com/ziangcao0312/PhysX-3D) |
 | 2024-10-03 | Text / Image / Video-to-Articulation, Executable Digital Twin | University of Pennsylvania | [Articulate-Anything: Automatic Modeling of Articulated Objects via a Vision-Language Foundation Model](https://arxiv.org/abs/2410.13882) | ICLR 2025 | [github](https://github.com/vlongle/articulate-anything) |
 | 2023-07-11 | 10M+ 3D Objects, Open Assets, Scale | Allen Institute for AI | [Objaverse-XL: A Universe of 10M+ 3D Objects](https://arxiv.org/abs/2307.05663) | NeurIPS 2023 | [project](https://objaverse.allenai.org/) |
 | 2022-12-15 | 3D Assets, Object Dataset, Simulation | Allen Institute for AI | [Objaverse: A Universe of Annotated 3D Objects](https://arxiv.org/abs/2212.08051) | CVPR 2023 | [project](https://objaverse.allenai.org/) / [github](https://github.com/allenai/objaverse-xl) |
@@ -775,6 +757,7 @@ asset: demonstrations, environments, observations, or released datasets.
 
 | Date | Keywords | Institute (first) | Paper | Publication | Others |
 | :--: | :------: | :---------------: | :---: | :---------: | :----: |
+| 2025-02-12 | MJX, GPU Training, Vision + State, Sim-to-Real | UC Berkeley | [MuJoCo Playground](https://arxiv.org/abs/2502.08844) | RSS 2025 Outstanding Demo Paper | [project](https://playground.mujoco.org/) / [github](https://github.com/google-deepmind/mujoco_playground) |
 | 2023-10-10 | Unified Environments, Demonstrations, Hardware Interface | Meta AI | [RoboHive: A Unified Framework for Robot Learning](https://arxiv.org/abs/2310.06828) | arXiv | [github](https://github.com/vikashplus/robohive) |
 | 2023-01-10 | GPU Simulation, Modular Environments, Sim-to-Real | NVIDIA | [Orbit: A Unified Simulation Framework for Interactive Robot Learning Environments](https://arxiv.org/abs/2301.04195) | RA-L 2023 | [github](https://github.com/isaac-sim/IsaacLab) |
 | 2020-09-25 | Modular Simulator, Standardized APIs, Manipulation | Stanford University | [robosuite: A Modular Simulation Framework and Benchmark for Robot Learning](https://arxiv.org/abs/2009.12293) | arXiv | [github](https://github.com/ARISE-Initiative/robosuite) |
@@ -806,6 +789,7 @@ asset: demonstrations, environments, observations, or released datasets.
 | 2026-06-21 | Scalable Tactile Sensor Synthesis | Carnegie Mellon University | [Tactile Genesis: Exploring Tactile Sensors at Scale for Learning Dexterous Tasks](https://arxiv.org/abs/2606.22332) | arXiv | [project](https://neuroagents-lab.github.io/tactile-genesis/) |
 | 2026-02-10 | Unified Visuo-Tactile Data Generation + Benchmark | Nanjing University | [UniVTAC: A Unified Simulation Platform for Visuo-Tactile Manipulation Data Generation, Learning, and Benchmarking](https://arxiv.org/abs/2602.10093) | arXiv | [project / code / dataset](https://univtac.github.io/) |
 | 2025-07-03 | Generative Audio, Audiovisual Trajectories, Sim-to-Real | UC Berkeley | [The Sound of Simulation: Learning Multimodal Sim-to-Real Robot Policies with Generative Audio](https://arxiv.org/abs/2507.02864) | CoRL 2025 Best Paper Finalist | [project / code / models / data](https://multigen-audio.github.io/) |
+| 2025-04-17 | GPU Tactile Simulation, IPC + ABD, Vision-Based Sensors | Peking University | [Taccel: Scaling Up Vision-based Tactile Robotics via High-performance GPU Simulation](https://arxiv.org/abs/2504.12908) | NeurIPS 2025 | [docs](https://taccel-simulator.github.io/) / [github](https://github.com/Taccel-Simulator/Taccel) |
 | 2024-08-12 | Visuotactile Simulation Library, Isaac Gym | NVIDIA | [TacSL: A Library for Visuotactile Sensor Simulation and Learning](https://arxiv.org/abs/2408.06506) | IEEE T-RO 2025 | [project](https://iakinola23.github.io/tacsl/) |
 | 2024-03-13 | Differentiable Tactile Physics, Contact-Rich | Carnegie Mellon University | [DIFFTACTILE: A Physics-based Differentiable Tactile Simulator for Contact-rich Robotic Manipulation](https://arxiv.org/abs/2403.08716) | ICLR 2024 | [project / code](https://difftactile.github.io/) |
 | 2021-09-09 | GelSight, Example-Based Optical Simulation | Carnegie Mellon University | [Taxim: An Example-based Simulation Model for GelSight Tactile Sensors](https://arxiv.org/abs/2109.04027) | RA-L 2022 | [github](https://github.com/CMURoboTouch/Taxim) |
@@ -828,6 +812,8 @@ asset: demonstrations, environments, observations, or released datasets.
 | 2024-10-01 | GPU Simulation, Diverse Tasks, Demonstration Dataset | UC San Diego | [ManiSkill3: GPU Parallelized Robotics Simulation and Rendering for Generalizable Embodied AI](https://arxiv.org/abs/2410.00425) | arXiv | [github](https://github.com/haosulab/ManiSkill) |
 | 2022-11-10 | Actionable Parts, 1,166 Objects, Part-Level Labels | Peking University | [GAPartNet: Cross-Category Domain-Generalizable Object Perception and Manipulation via Generalizable and Actionable Parts](https://arxiv.org/abs/2211.05272) | CVPR 2023 | [project / code / dataset](https://pku-epic.github.io/GAPartNet/) |
 | 2022-10-06 | 1.32M Dexterous Grasps | Peking University | [DexGraspNet: A Large-Scale Robotic Dexterous Grasp Dataset for General Objects Based on Simulation](https://arxiv.org/abs/2210.02697) | ICRA 2023 | [github](https://github.com/PKU-EPIC/DexGraspNet) |
+| 2022-04-25 | 1,030 Scanned Household Objects, Sim-Ready, CC BY 4.0 | Google Research | [Google Scanned Objects: A High-Quality Dataset of 3D Scanned Household Items](https://arxiv.org/abs/2204.11918) | ICRA 2022 | [dataset](https://research.google/pubs/google-scanned-objects-a-high-quality-dataset-of-3d-scanned-household-items/) |
+| 2022-04-05 | 1,000 Objects, Vision + Audio + Tactile, Sim-to-Real | Stanford University | [ObjectFolder 2.0: A Multisensory Object Dataset for Sim2Real Transfer](https://arxiv.org/abs/2204.02389) | CVPR 2022 | [project / dataset](https://ai.stanford.edu/~rhgao/objectfolder2.0/) / [github](https://github.com/rhgao/ObjectFolder) |
 | 2020-11-18 | 17.7M Grasp Poses, Simulation | NVIDIA | [ACRONYM: A Large-Scale Grasp Dataset Based on Simulation](https://arxiv.org/abs/2011.09584) | ICRA 2021 | [project / data](https://sites.google.com/view/graspdataset) / [github](https://github.com/NVlabs/acronym) |
 | 2020-03-19 | PartNet-Mobility, 2,346 Articulated Objects, 46 Categories | UC San Diego | [SAPIEN: A SimulAted Part-based Interactive ENvironment](https://arxiv.org/abs/2003.08515) | CVPR 2020 | [project / dataset](https://sapien.ucsd.edu/) / [github](https://github.com/haosulab/SAPIEN) |
 
@@ -976,7 +962,9 @@ data source—is its primary asset.
 | 2026-04-28 | Physical Reasoning, Manipulation, Planning | Tsinghua University | [KinDER: A Physical Reasoning Benchmark for Robot Learning and Planning](https://arxiv.org/abs/2604.25788) | arXiv | — |
 | 2026-03-04 | Distributed Real-World Benchmarking, Standard Hardware Kits | Rice University | [ManipulationNet: An Infrastructure for Benchmarking Real-World Robot Manipulation with Physical Skill Challenges and Embodied Multimodal Reasoning](https://arxiv.org/abs/2603.04363) | arXiv | [project](https://manipulation-net.org/) |
 | 2025-12-18 | Real-to-Sim Reconstruction, Paired Correlation, Distributed Evaluation | University of Washington | [PolaRiS: Scalable Real-to-Sim Evaluations for Generalist Robot Policies](https://arxiv.org/abs/2512.16881) | arXiv | [project](https://polaris-evals.github.io/) / [github](https://github.com/arhanjain/PolaRiS) / [dataset](https://huggingface.co/datasets/owhan/PolaRiS-Hub) |
+| 2025-10-27 | Real-to-Sim Evaluation, VLM Scoring, Human Preferences | Carnegie Mellon University | [RobotArena ∞: Scalable Robot Benchmarking via Real-to-Sim Translation](https://arxiv.org/abs/2510.23571) | ICLR 2026 | [project](https://robotarenainf.github.io/) / [github](https://github.com/offjangir/RobotArena) |
 | 2025-10-20 | Remote Evaluation, Real Robot, VLA | AgiBot | [RoboChallenge: Large-scale Real-robot Evaluation of Embodied Policies](https://arxiv.org/abs/2510.17950) | arXiv | — |
+| 2025-07-01 | Bimanual Simulation, 3K+ Demonstrations, Diagnostic Metrics | University of Washington | [RoboEval: Where Robotic Manipulation Meets Structured and Scalable Evaluation](https://arxiv.org/abs/2507.00435) | arXiv | [project](https://robo-eval.github.io/) / [github](https://github.com/Robo-Eval/RoboEval) |
 | 2025-03-31 | Autonomous Real-World Evaluation, Auto Reset | UC Berkeley | [AutoEval: Autonomous Evaluation of Generalist Robot Manipulation Policies in the Real World](https://arxiv.org/abs/2503.24278) | arXiv | [project](https://auto-eval.github.io/) / [github](https://github.com/zhouzypaul/auto_eval) |
 | 2025-03-03 | Generalization Taxonomy, STAR-Gen, Evaluation Protocol | Stanford University | [A Taxonomy for Evaluating Generalist Robot Manipulation Policies](https://arxiv.org/abs/2503.01238) | RA-L 2026 | [project](https://stargen-taxonomy.github.io/) |
 | 2024-12-24 | Long-Horizon Reasoning, Language-Conditioned Manipulation | Tsinghua University | [VLABench: A Large-Scale Benchmark for Language-Conditioned Robotics Manipulation with Long-Horizon Reasoning Tasks](https://arxiv.org/abs/2412.18194) | AAAI 2025 | [github](https://github.com/OpenMOSS/VLABench) |
@@ -984,6 +972,7 @@ data source—is its primary asset.
 | 2024-05-09 | SimplerEnv, Sim-to-Real Evaluation, Policy Ranking | UC San Diego | [Evaluating Real-World Robot Manipulation Policies in Simulation](https://arxiv.org/abs/2405.05941) | arXiv | [project](https://simpler-env.github.io/) / [github](https://github.com/simpler-env/SimplerEnv) |
 | 2024-03-14 | BEHAVIOR-1K, Household, 1,000 Activities | Stanford University | [BEHAVIOR-1K: A Human-Centered, Embodied AI Benchmark with 1,000 Everyday Activities and Realistic Simulation](https://arxiv.org/abs/2403.09227) | CoRL 2024 | [project](https://behavior.stanford.edu/) / [github](https://github.com/StanfordVL/BEHAVIOR-1K) |
 | 2024-02-13 | Generalization, Perturbations, Manipulation | University of Washington | [THE COLOSSEUM: A Benchmark for Evaluating Generalization for Robotic Manipulation](https://arxiv.org/abs/2402.08191) | arXiv | [project](https://robot-colosseum.github.io/) |
+| 2024-01-16 | Functional Assembly, 22,550 RGB-D Trajectories, Reproducible CAD | UC Berkeley | [FMB: a Functional Manipulation Benchmark for Generalizable Robotic Learning](https://arxiv.org/abs/2401.08553) | IJRR 2024 | [project / dataset](https://functional-manipulation-benchmark.github.io/) / [github](https://github.com/rail-berkeley/fmb) |
 | 2023-06-05 | Lifelong Learning, Teleoperation, Benchmark | UT Austin | [LIBERO: Benchmarking Knowledge Transfer for Lifelong Robot Learning](https://arxiv.org/abs/2306.03310) | NeurIPS 2023 | [project](https://libero-project.github.io/) / [github](https://github.com/Lifelong-Robot-Learning/LIBERO) |
 | 2023-06-01 | Offline Training, Remote Real-Robot Testing, TOTO | Meta AI | [Train Offline, Test Online: A Real Robot Learning Benchmark](https://arxiv.org/abs/2306.00942) | CoRL 2023 | — |
 | 2023-03-31 | CortexBench, Visual Representations, 17 Tasks | Meta AI | [Where are we in the search for an Artificial Visual Cortex for Embodied Intelligence?](https://arxiv.org/abs/2303.18240) | NeurIPS 2023 | [github](https://github.com/facebookresearch/eai-vc) |

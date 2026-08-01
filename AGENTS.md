@@ -27,16 +27,24 @@ or data-value evaluation is a central contribution.
 
 ## Curated-list and archive policy
 
-All manually curated content lives in `README.md`.
+All manually curated **canonical list content** lives in `README.md`.
 
 Do **not** create `contents/` pages or split the list into per-topic Markdown
 files unless the user explicitly requests it.
 
-The explicitly requested `arXiv_daily/` subtree is the only exception. It is
-an automatically generated, high-recall candidate archive rather than curated
-content. Its four generated topic views live under `arXiv_daily/sections/`,
-while `arXiv_daily/data/papers.json` remains the deduplicated source of truth.
-Do not automatically promote archive entries into the root `README.md`.
+The explicitly requested `arXiv_daily/` subtree is an exception. It is
+the candidate-source layer rather than curated content. Its four generated
+arXiv topic views live under `arXiv_daily/sections/`, while
+`arXiv_daily/data/papers.json` remains the deduplicated paper source of truth.
+Non-arXiv release candidates are maintained manually under
+`arXiv_daily/data_assets/`. Neither source may automatically promote entries
+into the root `README.md`.
+
+The `website/` subtree is a presentation layer. Keep its source, dependencies,
+and static assets inside that directory. Curated website content and the root
+`README.md` are updated manually in the same maintenance pass; do not treat the
+website as a second canonical database or publish unreviewed archive candidates
+as curated entries.
 
 Allowed root-level files:
 
@@ -46,6 +54,7 @@ Allowed root-level files:
 - `.gitignore`
 - optional static assets under `assets/` or `imgs/`
 - `arXiv_daily/` — automated candidate archive, configuration, and scripts
+- `website/` — self-contained website source and assets
 - `.github/workflows/` — repository automation
 
 ## Canonical section layout
@@ -227,6 +236,8 @@ primary sources before adding an entry.
   learning, whole-body data, and simulation.
 - `https://github.com/robotics-survey/Awesome-Robotics-Foundation-Models` —
   foundation-model surveys, datasets, and benchmarks.
+- `https://github.com/worldbench/awesome-embodied-data-pyramid` — embodied
+  data-source taxonomy, dataset-scale hints, and omission discovery.
 
 ### Candidate discovery feeds
 
@@ -237,6 +248,8 @@ primary sources before adding an entry.
 - `https://github.com/jiangranlv/robotics_arXiv_daily`
 - `https://github.com/Vincentqyw/cv-arxiv-daily`
 - `https://huggingface.co/papers`
+- `https://huggingface.co/datasets?sort=trending`
+- `https://modelscope.cn/datasets`
 - `https://openreview.net/group?id=robot-learning.org/CoRL`
 - `https://roboticsconference.org/program/papers/`
 - `https://proceedings.mlr.press/`
@@ -322,6 +335,28 @@ When available, capture compactly in `Keywords` or official links:
 - license/access restrictions when material.
 
 Do not guess unavailable fields.
+
+### Data-asset audit
+
+Before promoting a dataset or collection system from `arXiv_daily/data_assets/`,
+record primary-source evidence and audit six dimensions:
+
+1. **Scalability** — released volume, collection rate, cost, and operational
+   bottlenecks;
+2. **Robot alignment** — whether observations, states, actions, contacts, and
+   embodiment mappings can supervise a robot directly or after stated recovery;
+3. **Quality** — calibration, synchronization, trajectory/annotation evidence,
+   failure data, and documented limitations;
+4. **Diversity** — tasks, objects, scenes, operators, geographies, and
+   embodiments represented in the released portion;
+5. **Reusability** — format, tooling, documentation, access, license, and
+   conversion burden;
+6. **Physical fidelity** — sensor realism, geometry, dynamics, contact, and
+   sim–real evidence where applicable.
+
+This is a review checklist, not a license to invent a score. Mark a field
+`unknown` when the primary source does not provide evidence, and distinguish a
+claimed full corpus from the files currently released.
 
 ## Maintenance workflow
 
