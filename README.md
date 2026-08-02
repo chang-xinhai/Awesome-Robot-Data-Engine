@@ -1008,6 +1008,8 @@ This list builds on the open robotics community and complements
 [VLA Datasets & Benchmarks](https://github.com/ziyaow1010/vla-datasets-benchmarks),
 [Awesome-WAM](https://github.com/OpenMOSS/Awesome-WAM),
 [Robot Learning from Human Videos](https://github.com/IRMVLab/awesome-robot-learning-from-human-videos),
+[robotics_arXiv_daily](https://github.com/jiangranlv/robotics_arXiv_daily),
+[Awesome Embodied Data Pyramid](https://github.com/worldbench/awesome-embodied-data-pyramid),
 and other curated resources listed in [AGENTS.md](AGENTS.md).
 
 Contributions are welcome. Please follow the canonical-placement and

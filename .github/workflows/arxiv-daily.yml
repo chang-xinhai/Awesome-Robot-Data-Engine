@@ -3,8 +3,8 @@ name: Update arXiv Daily
 "on":
   workflow_dispatch: {}
   schedule:
-    # 09:20 Asia/Shanghai. The 14-day lookback catches delayed indexing.
-    - cron: "20 1 * * *"
+    # 08:00 and 20:00 Asia/Shanghai. The 14-day lookback catches delayed indexing.
+    - cron: "0 */12 * * *"
 
 permissions:
   contents: write
