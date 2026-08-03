@@ -4,12 +4,18 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-02 · **Papers:** 1883 · **Unique arXiv IDs:** 1883
+**Coverage:** 2025-01-01 to 2026-08-03 · **Papers:** 1889 · **Unique arXiv IDs:** 1889
 
 ## 2026-07
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-07-31 | [Diagnosing Compositional Generalization in Sequential Robot Tasks](https://arxiv.org/abs/2607.29687) | Yixiao Wang, Cheng-En Wu, Lingfeng Sun, et al. | cs.RO | Robot Dataset, Data Collection | [abs](https://arxiv.org/abs/2607.29687) / [pdf](https://arxiv.org/pdf/2607.29687) |
+| 2026-07-31 | [Bootstrapping Self-Supervised Learning of Binary Classification Using Error Bounds: A Case Study on a Robotic Insertion Task](https://arxiv.org/abs/2607.29640) | Zebin Duan, Norbert Krüger, Juan Heredia, et al. | cs.RO | Data Collection, Autonomous Collection | [abs](https://arxiv.org/abs/2607.29640) / [pdf](https://arxiv.org/pdf/2607.29640) |
+| 2026-07-31 | [TransGraspNet: Physically and Geometrically Consistent Manipulation of Transparent Labware](https://arxiv.org/abs/2607.29567) | Hailing Hu, Mingyi Zhu, Yiquan An, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2607.29567) / [pdf](https://arxiv.org/pdf/2607.29567) |
+| 2026-07-31 | [Temporal Policy: History-Initialized Action Generation for Robotic Learning from Demonstration](https://arxiv.org/abs/2607.29482) | Dylan Miller, Martin Jagersand | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2607.29482) / [pdf](https://arxiv.org/pdf/2607.29482) |
+| 2026-07-31 | [TacPrint: A Wearable Fingertip Tactile Sensor for Human-to-Robot Contact Reproduction](https://arxiv.org/abs/2607.29231) | Yongxi Liu, Chaofan Zhang, Xingyu Zhang, et al. | cs.RO | Data Collection | [abs](https://arxiv.org/abs/2607.29231) / [pdf](https://arxiv.org/pdf/2607.29231) |
+| 2026-07-31 | [Event-Based Upper-Body Humanoid Teleoperation Under Challenging Illumination](https://arxiv.org/abs/2607.29227) | Haoyu Fu, Zhou Ge, Chengze Li, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2607.29227) / [pdf](https://arxiv.org/pdf/2607.29227) |
 | 2026-07-30 | [Hand-Object Interaction in the Age of Large Foundation Models:Reconstruction, Generation, and Embodied Transfer](https://arxiv.org/abs/2607.28394) | Weiquan Lin, Yu Deng, Shiyang Liu, et al. | cs.CV | Robot Dataset | [abs](https://arxiv.org/abs/2607.28394) / [pdf](https://arxiv.org/pdf/2607.28394) |
 | 2026-07-30 | [DexDirect: Direct Kinesthetic Arm Guidance for Efficient Dexterous Demonstration Collection](https://arxiv.org/abs/2607.27784) | Beom Jun Kim, Shiu-Jen Wang, Jonathan Liu, et al. | cs.RO | Data Collection | [abs](https://arxiv.org/abs/2607.27784) / [pdf](https://arxiv.org/pdf/2607.27784) |
 | 2026-07-29 | [DLAM: Distributional Latent Actions with Temporal Constraints](https://arxiv.org/abs/2607.27138) | Zuojin Tang, Feifan Luo, Haoyun Liu, et al. | cs.RO, cs.AI, cs.CV | Robot Dataset | [abs](https://arxiv.org/abs/2607.27138) / [pdf](https://arxiv.org/pdf/2607.27138) |

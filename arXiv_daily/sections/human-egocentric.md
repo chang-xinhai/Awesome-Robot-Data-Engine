@@ -4,12 +4,14 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-02 · **Papers:** 1770 · **Unique arXiv IDs:** 1770
+**Coverage:** 2025-01-01 to 2026-08-03 · **Papers:** 1772 · **Unique arXiv IDs:** 1772
 
 ## 2026-07
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-07-31 | [TacPrint: A Wearable Fingertip Tactile Sensor for Human-to-Robot Contact Reproduction](https://arxiv.org/abs/2607.29231) | Yongxi Liu, Chaofan Zhang, Xingyu Zhang, et al. | cs.RO | Human-to-Robot, Affordance / Contact | [abs](https://arxiv.org/abs/2607.29231) / [pdf](https://arxiv.org/pdf/2607.29231) |
+| 2026-07-31 | [SERUM: State Extraction and Refinement for User Modeling](https://arxiv.org/abs/2607.29181) | Andy J. Phu, James Mooney, Karin de Langis, et al. | cs.LG, cs.AI, cs.CV | Egocentric | [abs](https://arxiv.org/abs/2607.29181) / [pdf](https://arxiv.org/pdf/2607.29181) |
 | 2026-07-30 | [ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine](https://arxiv.org/abs/2607.28625) | Yukang Cao, Haozhe Xie, Beichen Wen, et al. | cs.CV | Egocentric, First-Person, Hand-Object Interaction, Human Demonstration | [abs](https://arxiv.org/abs/2607.28625) / [pdf](https://arxiv.org/pdf/2607.28625) |
 | 2026-07-30 | [FasTac: A Curved Multispectral Vision-Based Tactile Sensor for High-Speed High-Precision 3D Shape and Force Perception](https://arxiv.org/abs/2607.28416) | Xiaofan Lu, Kaiji Huang, Jiahui Chen, et al. | cs.RO | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2607.28416) / [pdf](https://arxiv.org/pdf/2607.28416) |
 | 2026-07-30 | [Hand-Object Interaction in the Age of Large Foundation Models:Reconstruction, Generation, and Embodied Transfer](https://arxiv.org/abs/2607.28394) | Weiquan Lin, Yu Deng, Shiyang Liu, et al. | cs.CV | Hand-Object Interaction, Human-to-Robot, Tracking / Reconstruction, Affordance / Contact | [abs](https://arxiv.org/abs/2607.28394) / [pdf](https://arxiv.org/pdf/2607.28394) |

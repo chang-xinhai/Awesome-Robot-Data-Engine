@@ -4,12 +4,15 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-02 · **Papers:** 2316 · **Unique arXiv IDs:** 2316
+**Coverage:** 2025-01-01 to 2026-08-03 · **Papers:** 2319 · **Unique arXiv IDs:** 2319
 
 ## 2026-07
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-07-31 | [Safe Vision Language Action Models via Barrier Enhanced Flow Matching](https://arxiv.org/abs/2607.29569) | Kasra Sinaei, Hung-Chieh Wu, Donald Ebeigbe | cs.RO, eess.SY | Trajectory Generation | [abs](https://arxiv.org/abs/2607.29569) / [pdf](https://arxiv.org/pdf/2607.29569) |
+| 2026-07-31 | [BWM: A Low-Cost High-Fidelity World Simulator for Robot Learning](https://arxiv.org/abs/2607.29302) | BWM Team | cs.RO, cs.CV | Simulation Data, Sim-to-Real, World Simulator | [abs](https://arxiv.org/abs/2607.29302) / [pdf](https://arxiv.org/pdf/2607.29302) |
+| 2026-07-31 | [TacPrint: A Wearable Fingertip Tactile Sensor for Human-to-Robot Contact Reproduction](https://arxiv.org/abs/2607.29231) | Yongxi Liu, Chaofan Zhang, Xingyu Zhang, et al. | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2607.29231) / [pdf](https://arxiv.org/pdf/2607.29231) |
 | 2026-07-30 | [EgoGenesis: Egocentric World-Action Modeling with Online Anchored Projective Memory and Action-3D RoPE](https://arxiv.org/abs/2607.28243) | Zexuan Yan, Yuzhou Wu, Yue Ma, et al. | cs.CV, cs.AI | Trajectory Generation | [abs](https://arxiv.org/abs/2607.28243) / [pdf](https://arxiv.org/pdf/2607.28243) |
 | 2026-07-30 | [Cross-Embodiment Transfer via Behavior-Aligned Representations](https://arxiv.org/abs/2607.27549) | Ajay Sridhar, Jensen Gao, Jonathan Yang, et al. | cs.RO, cs.AI, cs.CV | Simulation Data, Sim-to-Real | [abs](https://arxiv.org/abs/2607.27549) / [pdf](https://arxiv.org/pdf/2607.27549) |
 | 2026-07-29 | [Simulation of Surgical Suturing Using Position-Based Dynamics and the Material Point Method for Robot Reinforcement Learning](https://arxiv.org/abs/2607.27494) | Tleukhan Mussin, Yafei Ou, Mahdi Tavakoli | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2607.27494) / [pdf](https://arxiv.org/pdf/2607.27494) |
