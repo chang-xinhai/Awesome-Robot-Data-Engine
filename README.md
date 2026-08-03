@@ -69,6 +69,9 @@ entries are promoted into this curated README only after manual review.
 - [2026-07-31] Launched **Awesome Robot Data Engine** with a source-to-policy
   taxonomy and an initial verified list spanning robot-centric, UMI, human /
   egocentric, simulation, and cross-source data systems.
+- [2026-08-04] Added newly verified data-engine work on dense intermediate
+  representations, human-video-to-robot experience synthesis, persistent
+  real-to-sim scene editing, and backward dynamics translation.
 
 ## Contents
 
@@ -224,6 +227,7 @@ curation, and representative real-world datasets.
 
 | Date | Keywords | Institute (first) | Paper | Publication | Others |
 | :--: | :------: | :---------------: | :---: | :---------: | :----: |
+| 2026-07-21 | Intermediate Representations, 230K Episodes, Dense Annotations | Beihang University | [RoboInter1.5: A Holistic Intermediate Representation Suite for Embodied World Modeling and Robotic Manipulation](https://arxiv.org/abs/2607.18709) | arXiv | [github](https://github.com/InternRobotics/RoboInter) / [dataset](https://huggingface.co/datasets/InternRobotics/RoboInter-Data) |
 | 2026-04-22 | Medical Robotics, 20 Platforms, 780 h | NVIDIA | [Open-H-Embodiment: A Large-Scale Dataset for Enabling Foundation Models in Medical Robotics](https://arxiv.org/abs/2604.21017) | arXiv | [project](https://open-h.github.io/open-h-embodiment/) / [github](https://github.com/open-h/open-h-embodiment) / [dataset](https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-Open-H-Embodiment) |
 | 2026-03-06 | Surgical Robotics, Time Synchronization, Multimodal | Worcester Polytechnic Institute | [SurgSync: Time-Synchronized Multi-Modal Data Collection Framework and Dataset for Surgical Robotics](https://arxiv.org/abs/2603.06919) | ICRA 2026 | [project](https://surgsync.github.io/) |
 | 2025-12-31 | 310K Trajectories, 6 Embodiments, 739 Tasks | Beijing Innovation Center of Humanoid Robotics | [RoboMIND 2.0: A Multimodal, Bimanual Mobile Manipulation Dataset for Generalizable Embodied Intelligence](https://arxiv.org/abs/2512.24653) | arXiv | [project](https://log2r.github.io/RoboMIND2.0/) / [dataset](https://modelscope.cn/datasets/X-Humanoid/RoboMIND2.0/) |
@@ -481,6 +485,7 @@ activity into robot-usable supervision.
 
 | Date | Keywords | Institute (first) | Paper | Publication | Others |
 | :--: | :------: | :---------------: | :---: | :---------: | :----: |
+| 2026-07-29 | Human Video, Graph Transfer, Physics-Verified Robot Data | Huazhong University of Science and Technology | [From Passive Video to Editable Experience: Physically Grounded Experience Synthesis for Embodied Intelligence](https://arxiv.org/abs/2607.26903) | arXiv | — |
 | 2026-06-21 | Egocentric Processing Stack, 9.6K h, Steerable Policy | Peking University | [EgoSteer: A Full-Stack System Towards Steerable Dexterous Manipulation from Egocentric Videos](https://arxiv.org/abs/2607.09701) | arXiv | [project](https://egosteer.github.io/) / [github](https://github.com/egosteer/egosteer) / [models](https://huggingface.co/EgoSteer) |
 | 2026-06-18 | Controlled Scaling, Ego vs Robot Data, VLA | Peking University | [HumanScale: Egocentric Human Video Can Outperform Real-Robot Data for Embodied Pretraining](https://arxiv.org/abs/2606.20521) | arXiv | [github](https://github.com/DAGroup-PKU/HumanNet) |
 | 2026-06-04 | Egocentric Pretraining, Active Perception, 27D Action | Fudan University | [ActiveMimic: Egocentric Video Pretraining with Active Perception](https://arxiv.org/abs/2606.06194) | arXiv | [project](https://activemimic.github.io/) |
@@ -735,7 +740,9 @@ asset: demonstrations, environments, observations, or released datasets.
 
 | Date | Keywords | Institute (first) | Paper | Publication | Others |
 | :--: | :------: | :---------------: | :---: | :---------: | :----: |
+| 2026-07-27 | Persistent NeRF Editing, Real2Sim, NEO-Dataset | Poznan University of Technology | [NEO: NeRF It Once, Edit It Many Times for Continuous Object Manipulation](https://arxiv.org/abs/2607.24538) | arXiv | [project](https://csiro-robotics.github.io/NEO/) / [github](https://github.com/csiro-robotics/Neo) |
 | 2026-07-21 | Vision-Language Agents, Physics-Based World Model | University of British Columbia | [Agentic Real2Sim: Physics-based World Modeling with Vision-Language Agents](https://arxiv.org/abs/2607.19190) | arXiv | [project](https://agentic-real2sim.github.io/) |
+| 2026-07-20 | Backward Dynamics, Unpaired Translation, Sim-to-Real | Zhejiang University | [World Translation: Minimizing Sim-to-Real Gap with Backward Dynamics Extraction and Unpaired Domain Translation](https://arxiv.org/abs/2607.18154) | arXiv | — |
 | 2026-07-07 | One Image, DROID-Sim, Policy Evaluation | Shanghai AI Laboratory | [RoboSnap: One-Shot Real-to-Sim Scene Generation for Generalizable Robot Learning and Evaluation](https://arxiv.org/abs/2607.06699) | arXiv | [project](https://robosnap.github.io/) |
 | 2026-07-06 | Single Image + Instruction, Digital Cousins, Personalized Datasets | Kyung Hee University | [PRISM: Personalized Robotic Dataset Generation via Image-based Scene and Motion Synthesis](https://arxiv.org/abs/2607.04880) | arXiv | — |
 | 2026-06-29 | Contact-Centric, One Demonstration, Real2Sim2Real | Microsoft Research Asia - Tokyo | [ConCent: Contact-Centric Real-to-Sim-to-Real Learning from One Demonstration](https://arxiv.org/abs/2606.30268) | arXiv | — |
