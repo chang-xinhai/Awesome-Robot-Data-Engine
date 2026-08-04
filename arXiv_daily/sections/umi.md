@@ -4,7 +4,13 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-03 · **Papers:** 63 · **Unique arXiv IDs:** 63
+**Coverage:** 2025-01-01 to 2026-08-04 · **Papers:** 64 · **Unique arXiv IDs:** 64
+
+## 2026-08
+
+| Date | Paper | Authors | Categories | Matched signals | Links |
+| :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-02 | [CAAT: Contact-Aware Attention Scaling and Tactile Masking for Data-Efficient Contact-Rich Manipulation](https://arxiv.org/abs/2608.01102) | Jiaming Jiang, Yuzhe Huang, Hao Liang, et al. | cs.RO | Universal Manipulation Interface | [abs](https://arxiv.org/abs/2608.01102) / [pdf](https://arxiv.org/pdf/2608.01102) |
 
 ## 2026-07
 

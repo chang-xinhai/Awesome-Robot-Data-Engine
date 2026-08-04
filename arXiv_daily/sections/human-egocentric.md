@@ -4,12 +4,30 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-03 · **Papers:** 1772 · **Unique arXiv IDs:** 1772
+**Coverage:** 2025-01-01 to 2026-08-04 · **Papers:** 1785 · **Unique arXiv IDs:** 1785
+
+## 2026-08
+
+| Date | Paper | Authors | Categories | Matched signals | Links |
+| :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-03 | [Ego2Robot: Scalable Robot Data Synthesis from Egocentric Human Data](https://arxiv.org/abs/2608.02580) | Ye Wang, Pei Lin, Xiong-Hui Chen, et al. | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2608.02580) / [pdf](https://arxiv.org/pdf/2608.02580) |
+| 2026-08-03 | [HiResNets: Native Full-HD Video Recognition with Foveal Residual Streams](https://arxiv.org/abs/2608.02140) | Shivani Mall, Swarnim Jain, Joao F. Henriques | cs.CV, cs.PF | Egocentric | [abs](https://arxiv.org/abs/2608.02140) / [pdf](https://arxiv.org/pdf/2608.02140) |
+| 2026-08-03 | [PhotoHOI: Synthesizing 3D Hand-Object Interactions from a Single RGB Photograph](https://arxiv.org/abs/2608.01905) | Zhenhao Zhang, Jiajun Zhang, Wei Min, et al. | cs.CV | Hand-Object Interaction | [abs](https://arxiv.org/abs/2608.01905) / [pdf](https://arxiv.org/pdf/2608.01905) |
+| 2026-08-03 | [Dynamic Resolution Routing for Efficient Egocentric Grounding](https://arxiv.org/abs/2608.01638) | Huixin Sun, Wangbo Zhao, Fanyue Wei, et al. | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2608.01638) / [pdf](https://arxiv.org/pdf/2608.01638) |
+| 2026-08-02 | [Sparse Meets Dense: Correspondence Guided Robotic Manipulation with Rigid-Deformable Interactions](https://arxiv.org/abs/2608.01083) | Ziyu Zhu, Yue Chen, Xirui Liang, et al. | cs.RO | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2608.01083) / [pdf](https://arxiv.org/pdf/2608.01083) |
+| 2026-08-01 | [Assistant Placement Aria: A Benchmark for Egocentric Placement Assistance](https://arxiv.org/abs/2608.00652) | Amir Belder, Gonçalo Dias Pais, Refael Vivanti, et al. | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2608.00652) / [pdf](https://arxiv.org/pdf/2608.00652) |
+| 2026-08-01 | [Grasp Execution Without a Planner: Configuration-Space Grasp Distance Fields with Certified Safety & Guaranteed Quality](https://arxiv.org/abs/2608.00600) | Clinton Enwerem, John S. Baras, Calin Belta | cs.RO, eess.SY, math.OC | Hand-Object Interaction, Affordance / Contact | [abs](https://arxiv.org/abs/2608.00600) / [pdf](https://arxiv.org/pdf/2608.00600) |
+| 2026-08-01 | [DexMani: Human-Derived Manipulability Guidance for Dexterous Rotation](https://arxiv.org/abs/2608.00554) | Xiaoyang Chen, Shengcheng Luo, Haoran Guo, et al. | cs.RO, cs.AI, cs.CV | Human Demonstration, Affordance / Contact | [abs](https://arxiv.org/abs/2608.00554) / [pdf](https://arxiv.org/pdf/2608.00554) |
+| 2026-08-01 | [DreamTraj: Generating 6-DoF Object Trajectories by Reading Unrendered Video Diffusion Latents](https://arxiv.org/abs/2608.00486) | Tongsheng Ding, Zhen Luo, Yixuan Yang, et al. | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2608.00486) / [pdf](https://arxiv.org/pdf/2608.00486) |
 
 ## 2026-07
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-07-31 | [RF-HOI: Recognize Human-Object Interaction with Radio Frequency Signals](https://arxiv.org/abs/2608.00289) | Lihao Wang, Linlu Gao, Jiacan Yu, et al. | cs.AI, cs.RO | Hand-Object Interaction | [abs](https://arxiv.org/abs/2608.00289) / [pdf](https://arxiv.org/pdf/2608.00289) |
+| 2026-07-31 | [Hybrid Attention Estimation Pipeline for Adaptive HRI Using an Expressive Robotic Head](https://arxiv.org/abs/2608.00284) | Pablo Moraes, Monica Rodriguez, Christopher Peters, et al. | cs.RO, cs.AI | Egocentric | [abs](https://arxiv.org/abs/2608.00284) / [pdf](https://arxiv.org/pdf/2608.00284) |
+| 2026-07-31 | [Cross-Task Dissociation in Frontier Vision-Language Model Theory of Mind](https://arxiv.org/abs/2608.00261) | Kejia Zhang, Youran Sun, Chugang Yi, et al. | cs.CL, cs.AI, cs.CV | Egocentric | [abs](https://arxiv.org/abs/2608.00261) / [pdf](https://arxiv.org/pdf/2608.00261) |
+| 2026-07-31 | [Developing Combined Manipulation and Locomotion Skills with Interaction Representation and Skill Composition](https://arxiv.org/abs/2608.00208) | Fanxing Meng, Jing Xiao | cs.RO | Hand-Object Interaction | [abs](https://arxiv.org/abs/2608.00208) / [pdf](https://arxiv.org/pdf/2608.00208) |
 | 2026-07-31 | [TacPrint: A Wearable Fingertip Tactile Sensor for Human-to-Robot Contact Reproduction](https://arxiv.org/abs/2607.29231) | Yongxi Liu, Chaofan Zhang, Xingyu Zhang, et al. | cs.RO | Human-to-Robot, Affordance / Contact | [abs](https://arxiv.org/abs/2607.29231) / [pdf](https://arxiv.org/pdf/2607.29231) |
 | 2026-07-31 | [SERUM: State Extraction and Refinement for User Modeling](https://arxiv.org/abs/2607.29181) | Andy J. Phu, James Mooney, Karin de Langis, et al. | cs.LG, cs.AI, cs.CV | Egocentric | [abs](https://arxiv.org/abs/2607.29181) / [pdf](https://arxiv.org/pdf/2607.29181) |
 | 2026-07-30 | [ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine](https://arxiv.org/abs/2607.28625) | Yukang Cao, Haozhe Xie, Beichen Wen, et al. | cs.CV | Egocentric, First-Person, Hand-Object Interaction, Human Demonstration | [abs](https://arxiv.org/abs/2607.28625) / [pdf](https://arxiv.org/pdf/2607.28625) |
