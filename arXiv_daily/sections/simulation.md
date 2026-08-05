@@ -4,12 +4,16 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-04 · **Papers:** 2331 · **Unique arXiv IDs:** 2331
+**Coverage:** 2025-01-01 to 2026-08-05 · **Papers:** 2335 · **Unique arXiv IDs:** 2335
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-04 | [Unified Visuomotor Targets: Supervising VLAs Beyond Physical Actions](https://arxiv.org/abs/2608.03563) | Zhenyang Feng, Unnat Jain | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2608.03563) / [pdf](https://arxiv.org/pdf/2608.03563) |
+| 2026-08-04 | [Human Centric Embodied Intelligence for Soft Wearable Robotics](https://arxiv.org/abs/2608.03556) | Rainier Natividad, Raye Chen-Hua Yeow | cs.RO | Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2608.03556) / [pdf](https://arxiv.org/pdf/2608.03556) |
+| 2026-08-04 | [Accelerating Human-Aware Robot Trajectory Generation via Diffusion and Consistency Distillation](https://arxiv.org/abs/2608.03159) | Byeong-Il Ham, Hyun-Bin Kim, Kyung-Soo Kim | cs.RO | Simulation Data, Trajectory Generation | [abs](https://arxiv.org/abs/2608.03159) / [pdf](https://arxiv.org/pdf/2608.03159) |
+| 2026-08-04 | [A Hierarchical Approach to Imitation Learning for Manipulation Tasks Requiring Time Varying Forces](https://arxiv.org/abs/2608.03103) | Rishabh Shukla, Adithya Santhosh, Shaili Gandhi, et al. | cs.RO, cs.AI | Trajectory Generation | [abs](https://arxiv.org/abs/2608.03103) / [pdf](https://arxiv.org/pdf/2608.03103) |
 | 2026-08-03 | [World Action Models in Real Time: An Empirical Study of Smooth Execution via Asynchronous Deployment](https://arxiv.org/abs/2608.01880) | Motubrain Team | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2608.01880) / [pdf](https://arxiv.org/pdf/2608.01880) |
 | 2026-08-03 | [ReTouch: Empowering Contact-Rich Dexterous Manipulation with Online-Refined Tactile Prediction](https://arxiv.org/abs/2608.01824) | Shiqi Zhang, Xin Zhang, Yedong Shen, et al. | cs.RO | Synthetic Sensor | [abs](https://arxiv.org/abs/2608.01824) / [pdf](https://arxiv.org/pdf/2608.01824) |
 | 2026-08-03 | [ProtoAct: Turning Wet-Lab Protocols into Embodied Robotic Actions](https://arxiv.org/abs/2608.01690) | Zhe Liu, Jiaming Gu, Zhaohui Du, et al. | cs.RO, cs.AI | Simulation Data | [abs](https://arxiv.org/abs/2608.01690) / [pdf](https://arxiv.org/pdf/2608.01690) |
@@ -25,7 +29,7 @@
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
-| 2026-07-31 | [RF-HOI: Recognize Human-Object Interaction with Radio Frequency Signals](https://arxiv.org/abs/2608.00289) | Lihao Wang, Linlu Gao, Jiacan Yu, et al. | cs.AI, cs.RO | Simulation Data, Synthetic Data | [abs](https://arxiv.org/abs/2608.00289) / [pdf](https://arxiv.org/pdf/2608.00289) |
+| 2026-07-31 | [RF-HOI: Recognize Human-Object Interaction with Radio Frequency Signals](https://arxiv.org/abs/2608.00289) | Lihao Wang, Linlu Gao, Jiacan Yu, et al. | cs.AI, cs.HC, cs.RO | Simulation Data, Synthetic Data | [abs](https://arxiv.org/abs/2608.00289) / [pdf](https://arxiv.org/pdf/2608.00289) |
 | 2026-07-31 | [Motion Planning for Mobile Manipulators Navigating Doorways via Model Predictive Control](https://arxiv.org/abs/2608.00206) | Kasra Sinaei, Kasun Weerakoon, Christopher Bradley, et al. | cs.RO, eess.SY | Trajectory Generation | [abs](https://arxiv.org/abs/2608.00206) / [pdf](https://arxiv.org/pdf/2608.00206) |
 | 2026-07-31 | [Safe Vision Language Action Models via Barrier Enhanced Flow Matching](https://arxiv.org/abs/2607.29569) | Kasra Sinaei, Hung-Chieh Wu, Donald Ebeigbe | cs.RO, eess.SY | Trajectory Generation | [abs](https://arxiv.org/abs/2607.29569) / [pdf](https://arxiv.org/pdf/2607.29569) |
 | 2026-07-31 | [BWM: A Low-Cost High-Fidelity World Simulator for Robot Learning](https://arxiv.org/abs/2607.29302) | BWM Team | cs.RO, cs.CV | Simulation Data, Sim-to-Real, World Simulator | [abs](https://arxiv.org/abs/2607.29302) / [pdf](https://arxiv.org/pdf/2607.29302) |
@@ -34,7 +38,7 @@
 | 2026-07-30 | [Cross-Embodiment Transfer via Behavior-Aligned Representations](https://arxiv.org/abs/2607.27549) | Ajay Sridhar, Jensen Gao, Jonathan Yang, et al. | cs.RO, cs.AI, cs.CV | Simulation Data, Sim-to-Real | [abs](https://arxiv.org/abs/2607.27549) / [pdf](https://arxiv.org/pdf/2607.27549) |
 | 2026-07-29 | [Simulation of Surgical Suturing Using Position-Based Dynamics and the Material Point Method for Robot Reinforcement Learning](https://arxiv.org/abs/2607.27494) | Tleukhan Mussin, Yafei Ou, Mahdi Tavakoli | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2607.27494) / [pdf](https://arxiv.org/pdf/2607.27494) |
 | 2026-07-29 | [Vision-TL-Action: Neuro-Symbolic Trajectory Generation from Visual Observations and Temporal Logic](https://arxiv.org/abs/2607.26770) | Zezhi Liu, Zhiwei Zheng, Hanqian Luo, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2607.26770) / [pdf](https://arxiv.org/pdf/2607.26770) |
-| 2026-07-29 | [Enfold: Folding World Model Imagination into Predictive Representations for Ultra-Efficient Embodied Control](https://arxiv.org/abs/2607.26657) | Weili Zeng, Yitong Xing, Fulong Liu, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2607.26657) / [pdf](https://arxiv.org/pdf/2607.26657) |
+| 2026-07-29 | [Enfold: Folding World Model Imagination into Predictive Representations for Ultra-Efficient Embodied Control](https://arxiv.org/abs/2607.26657) | Weili Zeng, Yitong Xing, Fulong Liu, et al. | cs.RO, cs.CV | Trajectory Generation | [abs](https://arxiv.org/abs/2607.26657) / [pdf](https://arxiv.org/pdf/2607.26657) |
 | 2026-07-29 | [Genie Sim PanoWorld: An Infinite Indoor 3D World Generation Pipeline via Panoramic Scene Modeling and Simulation](https://arxiv.org/abs/2607.26646) | Yongxin Su, Linjie Hou, Feng Wang, et al. | cs.CV | Simulation Data, Task / Scene Generation, Simulation-Ready Asset, Trajectory Generation | [abs](https://arxiv.org/abs/2607.26646) / [pdf](https://arxiv.org/pdf/2607.26646) |
 | 2026-07-29 | [Reinforcement Learning on Cost-Constrained Quadrupedal Hardware](https://arxiv.org/abs/2607.26434) | Javier C. Weddington, Bence P. Ölveczky, Stephen A. Baccus | cs.RO, cs.AI | Sim-to-Real | [abs](https://arxiv.org/abs/2607.26434) / [pdf](https://arxiv.org/pdf/2607.26434) |
 | 2026-07-28 | [Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-design](https://arxiv.org/abs/2607.25798) | Huy Ha, C. Karen Liu, Shuran Song | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2607.25798) / [pdf](https://arxiv.org/pdf/2607.25798) |

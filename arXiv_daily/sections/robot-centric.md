@@ -4,12 +4,16 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-04 · **Papers:** 1901 · **Unique arXiv IDs:** 1901
+**Coverage:** 2025-01-01 to 2026-08-05 · **Papers:** 1905 · **Unique arXiv IDs:** 1905
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-04 | [EvoHIL: Self-Evolving Reward and Flow-Matched Policy Optimization for Robust Human-in-the-Loop Reinforcement Learning](https://arxiv.org/abs/2608.03872) | Shuoqin Zhang, Tongtong Cheng, Xiru Gao, et al. | cs.RO | Human Intervention | [abs](https://arxiv.org/abs/2608.03872) / [pdf](https://arxiv.org/pdf/2608.03872) |
+| 2026-08-04 | [RoboReact: Agentic Skill Distillation from Generated Egocentric Videos for Generalizable Whole-Body Manipulation](https://arxiv.org/abs/2608.03387) | Shuliang He, Shuai Wang, Bo Yue, et al. | cs.RO | Teleoperation, Data Collection | [abs](https://arxiv.org/abs/2608.03387) / [pdf](https://arxiv.org/pdf/2608.03387) |
+| 2026-08-04 | [Forbidden Region Dynamic Active Constraints in Robot-Assisted Minimally Invasive Surgery](https://arxiv.org/abs/2608.03010) | Zejian Cui, Ferdinando Rodriguez y Baena | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2608.03010) / [pdf](https://arxiv.org/pdf/2608.03010) |
+| 2026-08-03 | [Semantic Haptic Feedback Enhances Dexterous Robotic Teleoperation](https://arxiv.org/abs/2608.02780) | Bingjian Huang, Sahar Aseeri, Jonas Schmidtler, et al. | cs.RO, cs.HC | Teleoperation | [abs](https://arxiv.org/abs/2608.02780) / [pdf](https://arxiv.org/pdf/2608.02780) |
 | 2026-08-03 | [Ego2Robot: Scalable Robot Data Synthesis from Egocentric Human Data](https://arxiv.org/abs/2608.02580) | Ye Wang, Pei Lin, Xiong-Hui Chen, et al. | cs.RO | Robot Dataset, Robot Data Processing, Scalable Demonstrations | [abs](https://arxiv.org/abs/2608.02580) / [pdf](https://arxiv.org/pdf/2608.02580) |
 | 2026-08-03 | [Learning Panorama-Aware VLA for Mobile Manipulation with Whole-Body Teleoperation](https://arxiv.org/abs/2608.02257) | Donglin Yang, Haoran Chen, Xingyu Chen, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2608.02257) / [pdf](https://arxiv.org/pdf/2608.02257) |
 | 2026-08-03 | [Weights or Skills? A Survey of Robot-Learning Techniques: from Action-Predicting Weights to Robots that Write their Own Skills](https://arxiv.org/abs/2608.01851) | Gaytri Jena, Kapil Wanaskar, Vinija Jain, et al. | cs.RO, cs.AI | Autonomous Collection | [abs](https://arxiv.org/abs/2608.01851) / [pdf](https://arxiv.org/pdf/2608.01851) |
@@ -41,7 +45,7 @@
 | 2026-07-29 | [BioVLN: A Simulation Platform for Visual Language Navigation in Biomedical Laboratories](https://arxiv.org/abs/2607.26914) | Zhe Liu, Quan Lu, Zhaohui Du, et al. | cs.RO, cs.AI | Data Collection | [abs](https://arxiv.org/abs/2607.26914) / [pdf](https://arxiv.org/pdf/2607.26914) |
 | 2026-07-29 | [From Passive Video to Editable Experience: Physically Grounded Experience Synthesis for Embodied Intelligence](https://arxiv.org/abs/2607.26903) | Jia Luo | cs.AI, cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2607.26903) / [pdf](https://arxiv.org/pdf/2607.26903) |
 | 2026-07-29 | [Practice Makes Policies: Bootstrapping and Consolidating Robotic Capabilities from Zero Human Demonstrations](https://arxiv.org/abs/2607.26809) | Jialiang Li, Yuhan Wang, Haojun Li, et al. | cs.RO | Robot Dataset, Data Collection, Human Intervention, Autonomous Collection | [abs](https://arxiv.org/abs/2607.26809) / [pdf](https://arxiv.org/pdf/2607.26809) |
-| 2026-07-29 | [Enfold: Folding World Model Imagination into Predictive Representations for Ultra-Efficient Embodied Control](https://arxiv.org/abs/2607.26657) | Weili Zeng, Yitong Xing, Fulong Liu, et al. | cs.RO | Human Intervention | [abs](https://arxiv.org/abs/2607.26657) / [pdf](https://arxiv.org/pdf/2607.26657) |
+| 2026-07-29 | [Enfold: Folding World Model Imagination into Predictive Representations for Ultra-Efficient Embodied Control](https://arxiv.org/abs/2607.26657) | Weili Zeng, Yitong Xing, Fulong Liu, et al. | cs.RO, cs.CV | Human Intervention | [abs](https://arxiv.org/abs/2607.26657) / [pdf](https://arxiv.org/pdf/2607.26657) |
 | 2026-07-29 | [RLMM-Flow: A Flow-based Mobile Manipulation Framework with Latent-Space Reinforcement Learning](https://arxiv.org/abs/2607.26460) | Shuhang Wang, Ziming Li, Hui Cheng | cs.RO | Robot Data Processing | [abs](https://arxiv.org/abs/2607.26460) / [pdf](https://arxiv.org/pdf/2607.26460) |
 | 2026-07-28 | [HiFi-UMI: Learning Deployable Manipulation Policies from High-Fidelity UMI Data Alone](https://arxiv.org/abs/2607.25895) | Simple AI, :, Yuteng Wei, et al. | cs.RO, cs.CV, cs.LG | Teleoperation | [abs](https://arxiv.org/abs/2607.25895) / [pdf](https://arxiv.org/pdf/2607.25895) |
 | 2026-07-28 | [Tri-Manual Visuomotor Imitation Learning of Robot Policies](https://arxiv.org/abs/2607.25731) | James Zhao, Mingyuan Ba, Weiming Zhi | cs.RO | Teleoperation, Robot Dataset, Data Collection | [abs](https://arxiv.org/abs/2607.25731) / [pdf](https://arxiv.org/pdf/2607.25731) |

@@ -2,16 +2,16 @@
 
 > A high-recall candidate archive for manual curation into [Awesome Robot Data Engine](../README.md). It is intentionally broader than the curated list.
 
-**Coverage:** 2025-01-01 to 2026-08-04 · **Unique papers:** 5014
+**Coverage:** 2025-01-01 to 2026-08-05 · **Unique papers:** 5023
 
 ## Sections
 
 | Section | Papers | Scope |
 | :------ | -----: | :---- |
-| [Robot-Centric](sections/robot-centric.md) | 1901 | Real-robot collection, teleoperation, intervention, datasets, and processing |
+| [Robot-Centric](sections/robot-centric.md) | 1905 | Real-robot collection, teleoperation, intervention, datasets, and processing |
 | [UMI](sections/umi.md) | 64 | Portable manipulation interfaces, robot-free demonstrations, and UMI recovery |
-| [Human / Egocentric](sections/human-egocentric.md) | 1785 | Human video, HOI, tracking, reconstruction, action extraction, and retargeting |
-| [Simulation](sections/simulation.md) | 2331 | Synthetic demonstrations, environments, assets, sensors, and sim–real systems |
+| [Human / Egocentric](sections/human-egocentric.md) | 1787 | Human video, HOI, tracking, reconstruction, action extraction, and retargeting |
+| [Simulation](sections/simulation.md) | 2335 | Synthetic demonstrations, environments, assets, sensors, and sim–real systems |
 
 A paper is stored once in [`data/papers.json`](data/papers.json) but may appear in multiple generated views. The archive uses arXiv `v1` dates and is updated daily by GitHub Actions. Promotion to the root README is always manual.
 
@@ -19,16 +19,16 @@ A paper is stored once in [`data/papers.json`](data/papers.json) but may appear 
 
 ### Robot-Centric
 
+- 2026-08-04 — [EvoHIL: Self-Evolving Reward and Flow-Matched Policy Optimization for Robust Human-in-the-Loop Reinforcement Learning](https://arxiv.org/abs/2608.03872)
+- 2026-08-04 — [RoboReact: Agentic Skill Distillation from Generated Egocentric Videos for Generalizable Whole-Body Manipulation](https://arxiv.org/abs/2608.03387)
+- 2026-08-04 — [Forbidden Region Dynamic Active Constraints in Robot-Assisted Minimally Invasive Surgery](https://arxiv.org/abs/2608.03010)
+- 2026-08-03 — [Semantic Haptic Feedback Enhances Dexterous Robotic Teleoperation](https://arxiv.org/abs/2608.02780)
 - 2026-08-03 — [Ego2Robot: Scalable Robot Data Synthesis from Egocentric Human Data](https://arxiv.org/abs/2608.02580)
 - 2026-08-03 — [Learning Panorama-Aware VLA for Mobile Manipulation with Whole-Body Teleoperation](https://arxiv.org/abs/2608.02257)
 - 2026-08-03 — [Weights or Skills? A Survey of Robot-Learning Techniques: from Action-Predicting Weights to Robots that Write their Own Skills](https://arxiv.org/abs/2608.01851)
 - 2026-08-03 — [Teleopit: A Full-Embodiment Humanoid Teleoperation System](https://arxiv.org/abs/2608.01834)
 - 2026-08-03 — [TWINS: A Tactile Wearable Isomorphic Arm Networked System for Contact-Rich Manipulation Learning](https://arxiv.org/abs/2608.01733)
 - 2026-08-03 — [ProtoAct: Turning Wet-Lab Protocols into Embodied Robotic Actions](https://arxiv.org/abs/2608.01690)
-- 2026-08-02 — [GaussianSelector: Lightweight Human-Guided Object Selection in 3D Gaussian Splatting with Graph Optimization](https://arxiv.org/abs/2608.01492)
-- 2026-08-02 — [GenTrack: Physical Alignment for Robot-Native Motion Generation and Zero-Shot Humanoid Tracking](https://arxiv.org/abs/2608.01410)
-- 2026-08-02 — [KING: Embodiment-Aware Kinematic Graph Neural Network for Unified Motion Representation of Legged and Wheeled Robots](https://arxiv.org/abs/2608.01015)
-- 2026-08-02 — [RL Bootstrapping of OpenVLA-OFT for a Novel Robot Embodiment](https://arxiv.org/abs/2608.01013)
 
 ### UMI
 
@@ -45,6 +45,8 @@ A paper is stored once in [`data/papers.json`](data/papers.json) but may appear 
 
 ### Human / Egocentric
 
+- 2026-08-04 — [RoboReact: Agentic Skill Distillation from Generated Egocentric Videos for Generalizable Whole-Body Manipulation](https://arxiv.org/abs/2608.03387)
+- 2026-08-04 — [From Routes to Steps: Separating Semantic Progress from Local Execution in Vision-and-Language Navigation](https://arxiv.org/abs/2608.03143)
 - 2026-08-03 — [Ego2Robot: Scalable Robot Data Synthesis from Egocentric Human Data](https://arxiv.org/abs/2608.02580)
 - 2026-08-03 — [HiResNets: Native Full-HD Video Recognition with Foveal Residual Streams](https://arxiv.org/abs/2608.02140)
 - 2026-08-03 — [PhotoHOI: Synthesizing 3D Hand-Object Interactions from a Single RGB Photograph](https://arxiv.org/abs/2608.01905)
@@ -53,21 +55,19 @@ A paper is stored once in [`data/papers.json`](data/papers.json) but may appear 
 - 2026-08-01 — [Assistant Placement Aria: A Benchmark for Egocentric Placement Assistance](https://arxiv.org/abs/2608.00652)
 - 2026-08-01 — [Grasp Execution Without a Planner: Configuration-Space Grasp Distance Fields with Certified Safety & Guaranteed Quality](https://arxiv.org/abs/2608.00600)
 - 2026-08-01 — [DexMani: Human-Derived Manipulability Guidance for Dexterous Rotation](https://arxiv.org/abs/2608.00554)
-- 2026-08-01 — [DreamTraj: Generating 6-DoF Object Trajectories by Reading Unrendered Video Diffusion Latents](https://arxiv.org/abs/2608.00486)
-- 2026-07-31 — [RF-HOI: Recognize Human-Object Interaction with Radio Frequency Signals](https://arxiv.org/abs/2608.00289)
 
 ### Simulation
 
+- 2026-08-04 — [Unified Visuomotor Targets: Supervising VLAs Beyond Physical Actions](https://arxiv.org/abs/2608.03563)
+- 2026-08-04 — [Human Centric Embodied Intelligence for Soft Wearable Robotics](https://arxiv.org/abs/2608.03556)
+- 2026-08-04 — [Accelerating Human-Aware Robot Trajectory Generation via Diffusion and Consistency Distillation](https://arxiv.org/abs/2608.03159)
+- 2026-08-04 — [A Hierarchical Approach to Imitation Learning for Manipulation Tasks Requiring Time Varying Forces](https://arxiv.org/abs/2608.03103)
 - 2026-08-03 — [World Action Models in Real Time: An Empirical Study of Smooth Execution via Asynchronous Deployment](https://arxiv.org/abs/2608.01880)
 - 2026-08-03 — [ReTouch: Empowering Contact-Rich Dexterous Manipulation with Online-Refined Tactile Prediction](https://arxiv.org/abs/2608.01824)
 - 2026-08-03 — [ProtoAct: Turning Wet-Lab Protocols into Embodied Robotic Actions](https://arxiv.org/abs/2608.01690)
 - 2026-08-03 — [Learning Smooth SE(3) Trajectories under Left-Invariant Riemannian Metrics](https://arxiv.org/abs/2608.01562)
 - 2026-08-02 — [VertiAKD: Adaptive Off-Road Kinodynamics on Vertically Challenging Terrain](https://arxiv.org/abs/2608.00945)
 - 2026-08-01 — [ORCESTRA: VLM-driven Visual Robot programming in Mixed Reality](https://arxiv.org/abs/2608.00775)
-- 2026-08-01 — [Disentangling Visuo-Tactile Foresight: Oracle-Guided Interface Discovery for World Action Models](https://arxiv.org/abs/2608.00547)
-- 2026-08-01 — [DreamTraj: Generating 6-DoF Object Trajectories by Reading Unrendered Video Diffusion Latents](https://arxiv.org/abs/2608.00486)
-- 2026-08-01 — [Learning to Predict Contact Force Distributions from Vision Leveraging Object Geometry Priors](https://arxiv.org/abs/2608.00464)
-- 2026-08-01 — [LOCUS-DT: Localization via Observation-Conditioned Uncertainty Scoring with Digital Twins](https://arxiv.org/abs/2608.00406)
 
 ## Method
 

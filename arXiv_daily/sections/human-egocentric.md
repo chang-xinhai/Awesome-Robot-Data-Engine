@@ -4,12 +4,14 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-04 · **Papers:** 1785 · **Unique arXiv IDs:** 1785
+**Coverage:** 2025-01-01 to 2026-08-05 · **Papers:** 1787 · **Unique arXiv IDs:** 1787
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-04 | [RoboReact: Agentic Skill Distillation from Generated Egocentric Videos for Generalizable Whole-Body Manipulation](https://arxiv.org/abs/2608.03387) | Shuliang He, Shuai Wang, Bo Yue, et al. | cs.RO | Egocentric, Hand-Object Interaction, Human Demonstration, Tracking / Reconstruction | [abs](https://arxiv.org/abs/2608.03387) / [pdf](https://arxiv.org/pdf/2608.03387) |
+| 2026-08-04 | [From Routes to Steps: Separating Semantic Progress from Local Execution in Vision-and-Language Navigation](https://arxiv.org/abs/2608.03143) | Xiangyun Huang, Xiangchen Wang, Runfeng Lin, et al. | cs.CV, cs.RO | Egocentric | [abs](https://arxiv.org/abs/2608.03143) / [pdf](https://arxiv.org/pdf/2608.03143) |
 | 2026-08-03 | [Ego2Robot: Scalable Robot Data Synthesis from Egocentric Human Data](https://arxiv.org/abs/2608.02580) | Ye Wang, Pei Lin, Xiong-Hui Chen, et al. | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2608.02580) / [pdf](https://arxiv.org/pdf/2608.02580) |
 | 2026-08-03 | [HiResNets: Native Full-HD Video Recognition with Foveal Residual Streams](https://arxiv.org/abs/2608.02140) | Shivani Mall, Swarnim Jain, Joao F. Henriques | cs.CV, cs.PF | Egocentric | [abs](https://arxiv.org/abs/2608.02140) / [pdf](https://arxiv.org/pdf/2608.02140) |
 | 2026-08-03 | [PhotoHOI: Synthesizing 3D Hand-Object Interactions from a Single RGB Photograph](https://arxiv.org/abs/2608.01905) | Zhenhao Zhang, Jiajun Zhang, Wei Min, et al. | cs.CV | Hand-Object Interaction | [abs](https://arxiv.org/abs/2608.01905) / [pdf](https://arxiv.org/pdf/2608.01905) |
@@ -24,7 +26,7 @@
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
-| 2026-07-31 | [RF-HOI: Recognize Human-Object Interaction with Radio Frequency Signals](https://arxiv.org/abs/2608.00289) | Lihao Wang, Linlu Gao, Jiacan Yu, et al. | cs.AI, cs.RO | Hand-Object Interaction | [abs](https://arxiv.org/abs/2608.00289) / [pdf](https://arxiv.org/pdf/2608.00289) |
+| 2026-07-31 | [RF-HOI: Recognize Human-Object Interaction with Radio Frequency Signals](https://arxiv.org/abs/2608.00289) | Lihao Wang, Linlu Gao, Jiacan Yu, et al. | cs.AI, cs.HC, cs.RO | Hand-Object Interaction | [abs](https://arxiv.org/abs/2608.00289) / [pdf](https://arxiv.org/pdf/2608.00289) |
 | 2026-07-31 | [Hybrid Attention Estimation Pipeline for Adaptive HRI Using an Expressive Robotic Head](https://arxiv.org/abs/2608.00284) | Pablo Moraes, Monica Rodriguez, Christopher Peters, et al. | cs.RO, cs.AI | Egocentric | [abs](https://arxiv.org/abs/2608.00284) / [pdf](https://arxiv.org/pdf/2608.00284) |
 | 2026-07-31 | [Cross-Task Dissociation in Frontier Vision-Language Model Theory of Mind](https://arxiv.org/abs/2608.00261) | Kejia Zhang, Youran Sun, Chugang Yi, et al. | cs.CL, cs.AI, cs.CV | Egocentric | [abs](https://arxiv.org/abs/2608.00261) / [pdf](https://arxiv.org/pdf/2608.00261) |
 | 2026-07-31 | [Developing Combined Manipulation and Locomotion Skills with Interaction Representation and Skill Composition](https://arxiv.org/abs/2608.00208) | Fanxing Meng, Jing Xiao | cs.RO | Hand-Object Interaction | [abs](https://arxiv.org/abs/2608.00208) / [pdf](https://arxiv.org/pdf/2608.00208) |
@@ -36,7 +38,7 @@
 | 2026-07-30 | [EgoGenesis: Egocentric World-Action Modeling with Online Anchored Projective Memory and Action-3D RoPE](https://arxiv.org/abs/2607.28243) | Zexuan Yan, Yuzhou Wu, Yue Ma, et al. | cs.CV, cs.AI | Egocentric | [abs](https://arxiv.org/abs/2607.28243) / [pdf](https://arxiv.org/pdf/2607.28243) |
 | 2026-07-30 | [UniCross: Unified Cross-Skill Dexterous Manipulation Synthesis](https://arxiv.org/abs/2607.28198) | Hui Zhang, Julian Ferchow, Jie Song, et al. | cs.RO, cs.CV | Hand-Object Interaction | [abs](https://arxiv.org/abs/2607.28198) / [pdf](https://arxiv.org/pdf/2607.28198) |
 | 2026-07-30 | [Static In, Dynamic Out: Counterfactual Action Augmentation for Moving Object Manipulation](https://arxiv.org/abs/2607.27890) | Woo Chul Shin, Zhenyang Chen, Alfred Cueva, et al. | cs.RO | Hand-Object Interaction | [abs](https://arxiv.org/abs/2607.27890) / [pdf](https://arxiv.org/pdf/2607.27890) |
-| 2026-07-29 | [HumanCLAW: Can Vision-Language Models Act Through a Body?](https://arxiv.org/abs/2607.27180) | Siyao Li, Jiawei Gu, Shuai Liu, et al. | cs.CV, cs.RO | Egocentric | [abs](https://arxiv.org/abs/2607.27180) / [pdf](https://arxiv.org/pdf/2607.27180) |
+| 2026-07-29 | [HumanCLAW: Can Vision-Language Models Act Through a Body?](https://arxiv.org/abs/2607.27180) | Li Siyao, Jiawei Gu, Shuai Liu, et al. | cs.CV, cs.RO | Egocentric | [abs](https://arxiv.org/abs/2607.27180) / [pdf](https://arxiv.org/pdf/2607.27180) |
 | 2026-07-29 | [SymmGrid: Super-Scaling On-Robot Learning with Parallelized Symmetries and Egocentric-Exocentric Visual Perception](https://arxiv.org/abs/2607.26985) | Gabe Everett, Brice Gunter, Ryan Vander Stelt, et al. | cs.RO, cs.AI, cs.LG | Egocentric | [abs](https://arxiv.org/abs/2607.26985) / [pdf](https://arxiv.org/pdf/2607.26985) |
 | 2026-07-29 | [From Passive Video to Editable Experience: Physically Grounded Experience Synthesis for Embodied Intelligence](https://arxiv.org/abs/2607.26903) | Jia Luo | cs.AI, cs.RO | Egocentric, Human Video, Human Demonstration, Affordance / Contact | [abs](https://arxiv.org/abs/2607.26903) / [pdf](https://arxiv.org/pdf/2607.26903) |
 | 2026-07-29 | [From Uncertainty to Determinism: Coarse-to-Fine Visual Floorplan Localization without Ray Matching](https://arxiv.org/abs/2607.26817) | Shiyong Meng, Bolei Chen, Ping Zhong, et al. | cs.RO, cs.CV | Egocentric | [abs](https://arxiv.org/abs/2607.26817) / [pdf](https://arxiv.org/pdf/2607.26817) |

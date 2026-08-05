@@ -1,6 +1,334 @@
 {
   "schema_version": 1,
   "papers": {
+    "2608.03872": {
+      "arxiv_id": "2608.03872",
+      "title": "EvoHIL: Self-Evolving Reward and Flow-Matched Policy Optimization for Robust Human-in-the-Loop Reinforcement Learning",
+      "abstract": "Human-in-the-loop reinforcement learning (HIL-RL) enables robots to learn contact-rich manipulation from limited real-world interaction, but deployment exposes three coupled limitations: static visual reward models fail under scene changes; independently sampled actions cause temporally inconsistent motion; and vision-based policies remain sensitive to appearance shifts. We present EvoHIL, a unified framework that adapts the reward model, action generator, and visual do main within a staged human-in-the-loop learning process. First, self-evolving reward (SER) adapts the success classifier from human-confirmed positives and provisional weak negatives. Second, Action Flow Stabilization (AFS) generates temporally coherent action chunks through flow matching, grounding policy updates in executed action prefixes and demonstrated behavior. Third, retention-aware offline fine-tuning replays relit interaction data while anchoring the AFS actor-critic to prior behavior, adapting the visual domain without additional robot interaction. Across six manipulation tasks on Franka FR3 and SO-101 arms under a controlled lighting shift, EvoHIL improves task success, agreement with human-confirmation labels, motion smoothness, and completion time relative to human-in-the-loop and imitation baselines.Project page: https://anonymous4366.github.io/EvoHIL/",
+      "authors": [
+        "Shuoqin Zhang",
+        "Tongtong Cheng",
+        "Xiru Gao",
+        "Jinzhuo Peng",
+        "Bin Zheng",
+        "Jiahao Tu",
+        "Ke Wang",
+        "Jia Pan",
+        "Zhe Hu",
+        "Kai Liu"
+      ],
+      "published": "2026-08-04",
+      "updated": "2026-08-04",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.03872",
+      "pdf_url": "https://arxiv.org/pdf/2608.03872",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "robot_centric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Human Intervention"
+        ]
+      }
+    },
+    "2608.03563": {
+      "arxiv_id": "2608.03563",
+      "title": "Unified Visuomotor Targets: Supervising VLAs Beyond Physical Actions",
+      "abstract": "VLA models are trained to predict robot actions from visual and language observations. This is a natural choice, but it creates a mismatch: VLMs encode rich, high-level representations of scenes and goals, while robot actions are low-level signals with limited task structure. We ask whether changing what the policy is trained to predict, rather than how it is architecturally designed, can yield better and more efficiently trained policies. We propose UVT (Unified Visuomotor Target), a unified latent prediction target that jointly encodes motor control and visual scene transition information, requiring no architectural changes and no additional data. Applied to two representative VLA systems across simulation benchmarks and real bimanual manipulation tasks, UVT improves training efficiency, final task performance, and policy robustness, with particularly strong gains under limited training budgets and challenging environmental conditions. Rollout videos and additional qualitative results are available at our project webpage: https://unified-visuomotor-targets.github.io/",
+      "authors": [
+        "Zhenyang Feng",
+        "Unnat Jain"
+      ],
+      "published": "2026-08-04",
+      "updated": "2026-08-04",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": "Accepted at IROS 2026. Project page: https://unified-visuomotor-targets.github.io/",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.03563",
+      "pdf_url": "https://arxiv.org/pdf/2608.03563",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Simulation Data"
+        ]
+      }
+    },
+    "2608.03556": {
+      "arxiv_id": "2608.03556",
+      "title": "Human Centric Embodied Intelligence for Soft Wearable Robotics",
+      "abstract": "Soft wearable robots have evolved rapidly from proof-of-concept devices into promising platforms for rehabilitation, occupational assistance, and human augmentation. As the field matures, its central challenge extends beyond the development of softer materials and more capable actuators to the integration of sensing, intelligence, and human adaptation into systems that users can wear comfortably, trust, and benefit from over extended periods. This transition motivates the concept of Human-Centric Embodied Intelligence (HCEI), in which intelligence emerges from the coupled human-robot system through the interaction of morphology, multimodal sensing, adaptive cognition, compliant actuation, and the wearer's own physiological and behavioral adaptation. To organize this perspective, this review introduces the Perception-Cognition-Actuation-Augmentation (PCAA) framework, which positions perception and cognition as the primary drivers of design, shifting development beyond the conventional actuator-first paradigm. Using this framework, the review synthesizes advances in soft materials, wearable sensing, artificial intelligence, actuation, human-robot interaction, digital twins, clinical translation, manufacturing, regulation, and ethics, highlighting how these interdependent components collectively shape long-term personalization and real-world deployment. By providing a unified conceptual framework and design perspective, this review aims to guide future research, foster interdisciplinary collaboration, and accelerate the translation of next-generation soft wearable robots toward personalized, predictive, and human-centric wearable intelligence.",
+      "authors": [
+        "Rainier Natividad",
+        "Raye Chen-Hua Yeow"
+      ],
+      "published": "2026-08-04",
+      "updated": "2026-08-04",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": "Review article; 48 pages, 6 figures, 4 tables, and 2 supplementary tables",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.03556",
+      "pdf_url": "https://arxiv.org/pdf/2608.03556",
+      "query_sources": [
+        "cs-ro",
+        "simulation-data"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Digital Twin / Real-to-Sim"
+        ]
+      }
+    },
+    "2608.03387": {
+      "arxiv_id": "2608.03387",
+      "title": "RoboReact: Agentic Skill Distillation from Generated Egocentric Videos for Generalizable Whole-Body Manipulation",
+      "abstract": "Humanoid robots have the potential to perform dexterous manipulation in human environments, yet acquiring diverse and generalizable skills remains costly due to expensive hardware data collection and labor-intensive annotation. Recent advances in video generative models provide a promising opportunity to synthesize rich manipulation experiences from visual observations, but transferring such imagined behaviors into executable whole-body humanoid skills remains largely unexplored. In this work, we present RoboReact, a framework that automatically synthesizes whole-body humanoid manipulation skills from a single egocentric RGB-D observation. RoboReact generates human manipulation videos, extracts geometry-preserving interaction keyframes through depth-aware 3D reconstruction, and retargets them to high-DoF humanoid platforms while preserving hand-object interaction geometry. To bridge the gap between imagined plans and physical execution, RoboReact performs online object-centric re-grounding and leverages a vision-language model-guided refinement loop to adapt skills under geometric mismatch and execution deviations. The refined skills are executed through a whole-body controller, enabling coordinated whole-body manipulation and dexterous interaction. Experiments on real humanoid robots demonstrate that RoboReact generalizes across diverse object configurations and robustly recovers from execution disturbances without requiring teleoperation or human demonstrations. These results highlight the potential of combining generative models, vision-language reasoning, and closed-loop control for scalable humanoid skill acquisition.",
+      "authors": [
+        "Shuliang He",
+        "Shuai Wang",
+        "Bo Yue",
+        "Junchi Teng",
+        "Changyu Wang",
+        "Guiliang Liu"
+      ],
+      "published": "2026-08-04",
+      "updated": "2026-08-04",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.03387",
+      "pdf_url": "https://arxiv.org/pdf/2608.03387",
+      "query_sources": [
+        "cs-ro",
+        "human-egocentric"
+      ],
+      "topics": [
+        "robot_centric",
+        "human_egocentric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Teleoperation",
+          "Data Collection"
+        ],
+        "human_egocentric": [
+          "Egocentric",
+          "Hand-Object Interaction",
+          "Human Demonstration",
+          "Tracking / Reconstruction"
+        ]
+      }
+    },
+    "2608.03159": {
+      "arxiv_id": "2608.03159",
+      "title": "Accelerating Human-Aware Robot Trajectory Generation via Diffusion and Consistency Distillation",
+      "abstract": "This research proposes a constrained motion planning framework for robot manipulators in human-robot interaction (HRI). For a non-redundant manipulator with a fully specified end-effector pose, additional requirements such as collision avoidance and self-collision avoidance are difficult to handle as simple null-space secondary tasks. This limitation makes it challenging to generate feasible joint-space trajectories in HRI environments where safety and kinematic constraints must be considered simultaneously. To address this limitation, collision- and self-collision-aware trajectories are generated using Rapidly-exploring Random Tree (RRT) and RRT* algorithms, and the resulting dataset is used to train a diffusion model that generates constraint-satisfying trajectories through guided sampling. To reduce the inference time required for iterative diffusion sampling, consistency distillation is applied, and a joint-weighted jerk regularization term is incorporated into the loss function to promote smoother trajectories by penalizing abrupt changes in joint acceleration. Simulation results show that the consistency model generates 150 trajectory candidates in less than 100 ms, maintains a high episode success rate, and substantially reduces joint and end-effector jerk when jerk regularization is applied.",
+      "authors": [
+        "Byeong-Il Ham",
+        "Hyun-Bin Kim",
+        "Kyung-Soo Kim"
+      ],
+      "published": "2026-08-04",
+      "updated": "2026-08-04",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": "8 pages, 4 figures",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.03159",
+      "pdf_url": "https://arxiv.org/pdf/2608.03159",
+      "query_sources": [
+        "cs-ro",
+        "human-egocentric"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Simulation Data",
+          "Trajectory Generation"
+        ]
+      }
+    },
+    "2608.03143": {
+      "arxiv_id": "2608.03143",
+      "title": "From Routes to Steps: Separating Semantic Progress from Local Execution in Vision-and-Language Navigation",
+      "abstract": "Vision-and-Language Navigation (VLN) requires an agent to follow a route-level instruction by executing its constituent steps from egocentric visual observations. Existing VLM-based navigators typically supervise both capabilities through next-action prediction alone, making progress-tracking errors difficult to distinguish from execution errors. When an agent deviates from the route, a corrective action label may recover the next movement but does not indicate whether the agent selected the wrong sub-instruction or failed to execute the correct one. Consequently, the agent may continue making decisions from an erroneous progress state. To resolve this ambiguity, we propose \\textbf{Route2Step}, a framework that decouples semantic progress tracking from action generation through an explicit step-level interface. The Instruction Analysis Module ($\\mathcal{M}_{\\mathrm{IA}}$) predicts this state from the global instruction and visual history. Conditioned on the predicted state and recent observations, the Action Generation Module ($\\mathcal{M}_{\\mathrm{AG}}$) generates local action chunks. To supervise the progress state without manual temporal labels, E-SPA, a step-alignment procedure, associates sub-instructions with their corresponding portions of route-level demonstrations. These alignments enable state supervision for incorrect progress estimates, while direct action supervision is reserved for rollout groups that repeatedly fail under the correct active sub-instruction. On R2R-CE, Route2Step improves SR from 48.1\\% to 55.3\\% and SPL from 43.3\\% to 48.2\\%, using 190K state-level corrective samples while requiring only 11.5K directly action-supervised states. Experiments in real-world indoor and outdoor environments further demonstrate the practical applicability of Route2Step. The project page is: https://sisyphus-hxy.github.io/Route2Step/.",
+      "authors": [
+        "Xiangyun Huang",
+        "Xiangchen Wang",
+        "Runfeng Lin",
+        "Yihao Xu",
+        "Kangyu Huang",
+        "Jiang Hengchen",
+        "Xiwang Dong",
+        "Lin Jiarong"
+      ],
+      "published": "2026-08-04",
+      "updated": "2026-08-04",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "comment": "16 pages, 9 figures",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.03143",
+      "pdf_url": "https://arxiv.org/pdf/2608.03143",
+      "query_sources": [
+        "cs-ro",
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric"
+        ]
+      }
+    },
+    "2608.03103": {
+      "arxiv_id": "2608.03103",
+      "title": "A Hierarchical Approach to Imitation Learning for Manipulation Tasks Requiring Time Varying Forces",
+      "abstract": "Diffusion policies have shown strong performance in learning complex, multi-modal behaviors for robotic manipulation. However, their application to contact-rich disassembly tasks remains limited by a key trade-off: the iterative denoising process introduces inference latencies that makes high frequency control difficult, which is essential for realizing dynamic interactions such as chiseling and prying. Recent action-chunking techniques mitigate latency but use an open-loop execution window, rendering the system blind to rapid force transients caused by fracture events. To bridge this gap, we introduce the Diffusion Policy Augmented by Fast Trajectory Generation (DPA-FTG). Compared to recent visual-tactile approaches that focus on positional correction, DPA-FTG decouples low-frequency planning from high-frequency force regulation. At the high level ($5$ Hz), a conditional diffusion model predicts a sequence of latent parameters for selecting a strategy from a learned vocabulary of task primitives. At the low level ($60$ Hz), a lightweight, force-conditioned policy acts as a neural impedance controller, modulating execution in real-time to maintain contact stability. We validate our approach on a bimanual battery disassembly task involving the separation of a compliant sheet. Experimental evaluation demonstrates that DPA-FTG outperforms state-of-the-art baselines, including Reactive Diffusion Policy (RDP).",
+      "authors": [
+        "Rishabh Shukla",
+        "Adithya Santhosh",
+        "Shaili Gandhi",
+        "Samrudh Moode",
+        "Satyandra K. Gupta"
+      ],
+      "published": "2026-08-04",
+      "updated": "2026-08-04",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": "10.1016/j.rcim.2026.103309",
+      "url": "https://arxiv.org/abs/2608.03103",
+      "pdf_url": "https://arxiv.org/pdf/2608.03103",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Trajectory Generation"
+        ]
+      }
+    },
+    "2608.03010": {
+      "arxiv_id": "2608.03010",
+      "title": "Forbidden Region Dynamic Active Constraints in Robot-Assisted Minimally Invasive Surgery",
+      "abstract": "In robot-assisted surgery, Forbidden Region Active Constraints (FRAC) represent a control strategy that helps maintain task safety by generating anisotropic haptic guidance to surgeons. However, several challenges need to be overcome before FRAC can benefit teleoperative surgery in a clinical setting. These challenges include the ability to allow for dynamic tissue deformation, maintain energetic passivity, and speed of implementation, among others. In this study, we propose the pipeline design for an energy dissipative FRAC strategy, which accommodates the dynamic tissue deformation caused by respiratory movements, by utilizing a depth sensing camera. The proposed FRAC strategy adopts a fine mesh representation, with a total number of 122,806 polygons in the case study presented, while running at 43.48Hz. We designed in vitro trajectory tracking experiments conducted by a \"virtual\" surgeon to aid quantitative assessment of the method, including its effectiveness in maintaining task safety, which was confirmed by successfully maintaining a pre-defined safety distance across all trials. We also conducted comparative studies to investigate the robustness and time-efficiency of our method against other FRAC methods that rely on simple geometry AC representations. We demonstrate that our method provides a more robust and effective guidance overall, while maintaining comparable, if not lower, time costs.",
+      "authors": [
+        "Zejian Cui",
+        "Ferdinando Rodriguez y Baena"
+      ],
+      "published": "2026-08-04",
+      "updated": "2026-08-04",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": "8 pages, 12 figures",
+      "journal_ref": "Volume: 10, Issue: 3, March 2025, Page(s): 2950 - 2957",
+      "doi": "10.1109/LRA.2025.3539105",
+      "url": "https://arxiv.org/abs/2608.03010",
+      "pdf_url": "https://arxiv.org/pdf/2608.03010",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "robot_centric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Teleoperation"
+        ]
+      }
+    },
+    "2608.02780": {
+      "arxiv_id": "2608.02780",
+      "title": "Semantic Haptic Feedback Enhances Dexterous Robotic Teleoperation",
+      "abstract": "In robot teleoperation, haptic feedback can be used to help human operators accomplish dexterous manipulation tasks. However, existing haptic feedback methods try to replicate high-fidelity sensory haptics that are felt in real world interactions, which are constrained by the sensing and feedback hardware capability and may lead to higher workload. To addresses these limitations, this work introduces semantic haptics for teleoperation, which uses abstract haptic patterns to convey critical information about robot states. We categorize robot states into \"Confirmations\" and \"Exceptions\", implement a modular haptic rendering pipeline in robot simulation, and deliver semantic haptic feedback to operators through pneumatic and vibrotactile wristbands. This simplifies hardware requirements and enables one-to-many mappings between haptic patterns and robot states. Through three evaluation studies, we identify the most effective semantic haptic design for a common pick and place teleoperation task and compare semantic haptics to other teleoperation feedback approaches including sensory haptics and visual feedback. Results suggest that while semantic haptics performs similarly as other feedback in unimanual tasks, it achieves superior performance in bimanual tasks, with reduced task workload, increased situational awareness, and overall preference.",
+      "authors": [
+        "Bingjian Huang",
+        "Sahar Aseeri",
+        "Jonas Schmidtler",
+        "Joseph Zhang",
+        "Sonny Chan",
+        "Andrew Doxon",
+        "Jom Preechayasomboon",
+        "Evan Pezent",
+        "Alberto Rigo",
+        "Amir Memar",
+        "Nicholas Colonnese",
+        "Chase Tymms"
+      ],
+      "published": "2026-08-03",
+      "updated": "2026-08-03",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.HC"
+      ],
+      "comment": "18 pages, 7 figures",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.02780",
+      "pdf_url": "https://arxiv.org/pdf/2608.02780",
+      "query_sources": [
+        "cs-ro",
+        "simulation-data"
+      ],
+      "topics": [
+        "robot_centric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Teleoperation"
+        ]
+      }
+    },
     "2608.02580": {
       "arxiv_id": "2608.02580",
       "title": "Ego2Robot: Scalable Robot Data Synthesis from Egocentric Human Data",
@@ -100,7 +428,7 @@
         "Joao F. Henriques"
       ],
       "published": "2026-08-03",
-      "updated": "2026-08-03",
+      "updated": "2026-08-04",
       "primary_category": "cs.CV",
       "categories": [
         "cs.CV",
@@ -808,21 +1136,21 @@
     "2608.00600": {
       "arxiv_id": "2608.00600",
       "title": "Grasp Execution Without a Planner: Configuration-Space Grasp Distance Fields with Certified Safety & Guaranteed Quality",
-      "abstract": "Standard multifingered grasp execution architectures plan a collision-free trajectory to a selected grasp pose and track it with a feedback law. Execution-time object pose uncertainty or perturbations may invalidate the planned trajectory, forcing a costly replanning step. We present Grasp Distance Fields (GDFs), a smooth softmin distance field over grasp configurations in the arm-hand configuration space. Our controller executes a grasp by following this field's negative gradient with a stationary feedback law, eliminating the need for a planner, stored trajectory, or grasp selection. For safety, we filter this command through a CBF-CLF quadratic program (QP) constraining self-collision, workspace, object, and obstacle clearance, reporting impeded progress as explicit slack. We prove that the softmin tracks the true set distance within \\(\\log N/ρ\\) for \\(N\\) candidates and smoothing parameter \\(ρ\\), and that the filtered loop renders the safe set forward invariant. Since no smooth field captures hand-object contact switching, we switch modes with hysteresis at a pregrasp configuration, trading object collision avoidance for contact admission. A wrench-quality barrier then keeps the realized grasp's force-closure margin within a prescribed tolerance of its value at hold onset. We evaluate in kinematic simulation on a fixed-base arm and a Unitree G1 humanoid, both fitted with the same underactuated hand. Our controller navigates cluttered and dynamic scenes to safely reach for, grasp, and lift 46 of 50 objects spanning primitive, household, and adversarial classes. Across those lifts, the executed grasps retain a median 94\\% of their synthesized quality margin, at 0.09 ms QP solve time per 20 ms control step. Per-step softmax weights confirm that our controller executes the nearest candidate, obviating a separate selection step. Project page: www.clintonenwerem.com/gdf.",
+      "abstract": "Standard multifingered grasp execution architectures plan a collision-free trajectory to a selected grasp pose and track it with a feedback law. Execution-time object pose uncertainty or perturbations may invalidate the planned trajectory, forcing a costly replanning step. We present Grasp Distance Fields (GDFs), smooth softmin distance fields over grasp configurations in the arm-hand configuration space. Our controller executes a grasp by following the negative GDF gradient with a stationary feedback law, eliminating the need for a planner, stored trajectory, or grasp selection. For safety, we filter the resulting command through a CBF-CLF quadratic program (QP), constraining self-collision, workspace, object, and obstacle clearance, reporting impeded progress as explicit slack. We prove that the softmin tracks the true set distance within $\\log N/ρ$ for $N$ candidates and smoothing parameter $ρ$, and that the filtered closed loop renders the safe set forward invariant. Since no smooth field captures hand-object contact switching, we switch between hand closure and grasp retention modes using hysteresis at a pregrasp configuration, trading object collision avoidance for contact admission. A wrench-quality CBF then bounds the realized grasp's force-closure margin within a prescribed tolerance of its value at hold onset. We evaluate in kinematic simulation on a fixed-base arm and a Unitree G1 humanoid, both fitted with the same underactuated hand. Our controller navigates cluttered and dynamic scenes to safely reach for, grasp, and lift 46 of 50 test objects spanning primitive, household, and adversarial classes. Across the 46 lifts, the executed grasps retain a median 94% of their synthesized quality margin, at 0.09 ms QP solve time per 20 ms control step. Project page: www.clintonenwerem.com/gdf.",
       "authors": [
         "Clinton Enwerem",
         "John S. Baras",
         "Calin Belta"
       ],
       "published": "2026-08-01",
-      "updated": "2026-08-01",
+      "updated": "2026-08-04",
       "primary_category": "cs.RO",
       "categories": [
         "cs.RO",
         "eess.SY",
         "math.OC"
       ],
-      "comment": "15 pages, 7 figures. Project page at www.clintonenwerem.com/gdf",
+      "comment": "14 pages, 7 figures, 3 tables. Project page: www.clintonenwerem.com/gdf",
       "journal_ref": null,
       "doi": null,
       "url": "https://arxiv.org/abs/2608.00600",
@@ -1043,6 +1371,7 @@
       "primary_category": "cs.AI",
       "categories": [
         "cs.AI",
+        "cs.HC",
         "cs.RO"
       ],
       "comment": "Accepted by ACM IMWUT",
@@ -1904,7 +2233,7 @@
       "title": "HumanCLAW: Can Vision-Language Models Act Through a Body?",
       "abstract": "Evaluating whether a vision-language model (VLM) can act through a physical body is challenging. The outcome of an action couples the VLM's decision with motor control. When a task fails, it is hard to tell whether the VLM made a bad choice or the motor controller simply failed to execute it, e.g., losing balance and falling. In this work, we introduce HumanCLAW, an evaluation framework that decouples action decision-making from low-level execution. At every step, a harnessed, off-the-shelf VLM issues an atomic skill command, and the command is translated into a sub-second chunk of continuous full-body motion with real physical consequences, including gravity and collisions. The body can therefore act freely in the physical world, while execution-side disturbances, balance and motor errors, are factored out. What remains measurable is the model's action intelligence: its moment-to-moment choice of what the body should execute next. Based on this framework, we build HumanCLAW-Bench: 1,218 long-horizon, egocentric find-navigate-interact episodes across 41 indoor scenes. We test nine state-of-the-art VLMs and find that none solves the benchmark; the best model reaches only a 16.8% success rate. Recognizing the target is not the bottleneck. What current VLMs lack is embodied self-awareness: they lose track of their own body, failing to tell where it is, whether it has reached the goal, or whether it has hit an obstacle.",
       "authors": [
-        "Siyao Li",
+        "Li Siyao",
         "Jiawei Gu",
         "Shuai Liu",
         "Kairui Hu",
@@ -1924,7 +2253,7 @@
         "Chuan Guo"
       ],
       "published": "2026-07-29",
-      "updated": "2026-07-29",
+      "updated": "2026-08-03",
       "primary_category": "cs.CV",
       "categories": [
         "cs.CV",
@@ -2292,7 +2621,8 @@
       "updated": "2026-08-03",
       "primary_category": "cs.RO",
       "categories": [
-        "cs.RO"
+        "cs.RO",
+        "cs.CV"
       ],
       "comment": null,
       "journal_ref": null,
@@ -3522,7 +3852,7 @@
         "KC Zhou"
       ],
       "published": "2026-07-25",
-      "updated": "2026-07-25",
+      "updated": "2026-08-03",
       "primary_category": "cs.RO",
       "categories": [
         "cs.RO",
@@ -191617,7 +191947,7 @@
     }
   },
   "coverage_start": "2025-01-01",
-  "coverage_end": "2026-08-04",
-  "paper_count": 5014,
-  "generated_at": "2026-08-04T14:16:14+00:00"
+  "coverage_end": "2026-08-05",
+  "paper_count": 5023,
+  "generated_at": "2026-08-05T09:01:52+00:00"
 }
