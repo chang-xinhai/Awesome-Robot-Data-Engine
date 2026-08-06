@@ -4,12 +4,17 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-05 · **Papers:** 1787 · **Unique arXiv IDs:** 1787
+**Coverage:** 2025-01-01 to 2026-08-06 · **Papers:** 1792 · **Unique arXiv IDs:** 1792
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-05 | [SpikingNav: Robust Embodied Navigation with Spiking Neural Policies](https://arxiv.org/abs/2608.05078) | Jiahong Zhang, Sijun Shen, Dehua Wu, et al. | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2608.05078) / [pdf](https://arxiv.org/pdf/2608.05078) |
+| 2026-08-05 | [RORA: Realistic Object Reconstruction with Articulation](https://arxiv.org/abs/2608.04842) | Hyesung Lee, Youngseon Lee, Kyutae Lee, et al. | cs.RO, cs.GR | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2608.04842) / [pdf](https://arxiv.org/pdf/2608.04842) |
+| 2026-08-05 | [The First EgoCross Challenge at EgoVis 2026: Cross-Domain Egocentric Video Question Answering](https://arxiv.org/abs/2608.04589) | Yuqian Fu, Tianwen Qian, Yanjun Li, et al. | cs.CV, cs.AI | Egocentric | [abs](https://arxiv.org/abs/2608.04589) / [pdf](https://arxiv.org/pdf/2608.04589) |
+| 2026-08-05 | [EgoAfford: Task-Oriented Affordance Grounding via Egocentric Referring Segmentation](https://arxiv.org/abs/2608.04533) | Xinyuan Guan, Feifan Chen, Xinyu Zhan, et al. | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2608.04533) / [pdf](https://arxiv.org/pdf/2608.04533) |
+| 2026-08-04 | [SiMDex: Mining Similar Egocentric Videos for Cross-Embodiment Dexterous Manipulation](https://arxiv.org/abs/2608.04196) | Nie Lin, Takehiko Ohkawa, Sijin Chen, et al. | cs.RO, cs.CV, cs.LG | Egocentric, Human Video | [abs](https://arxiv.org/abs/2608.04196) / [pdf](https://arxiv.org/pdf/2608.04196) |
 | 2026-08-04 | [RoboReact: Agentic Skill Distillation from Generated Egocentric Videos for Generalizable Whole-Body Manipulation](https://arxiv.org/abs/2608.03387) | Shuliang He, Shuai Wang, Bo Yue, et al. | cs.RO | Egocentric, Hand-Object Interaction, Human Demonstration, Tracking / Reconstruction | [abs](https://arxiv.org/abs/2608.03387) / [pdf](https://arxiv.org/pdf/2608.03387) |
 | 2026-08-04 | [From Routes to Steps: Separating Semantic Progress from Local Execution in Vision-and-Language Navigation](https://arxiv.org/abs/2608.03143) | Xiangyun Huang, Xiangchen Wang, Runfeng Lin, et al. | cs.CV, cs.RO | Egocentric | [abs](https://arxiv.org/abs/2608.03143) / [pdf](https://arxiv.org/pdf/2608.03143) |
 | 2026-08-03 | [Ego2Robot: Scalable Robot Data Synthesis from Egocentric Human Data](https://arxiv.org/abs/2608.02580) | Ye Wang, Pei Lin, Xiong-Hui Chen, et al. | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2608.02580) / [pdf](https://arxiv.org/pdf/2608.02580) |

@@ -4,12 +4,16 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-05 · **Papers:** 2335 · **Unique arXiv IDs:** 2335
+**Coverage:** 2025-01-01 to 2026-08-06 · **Papers:** 2339 · **Unique arXiv IDs:** 2339
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-05 | [RORA: Realistic Object Reconstruction with Articulation](https://arxiv.org/abs/2608.04842) | Hyesung Lee, Youngseon Lee, Kyutae Lee, et al. | cs.RO, cs.GR | Sim-to-Real, Simulation-Ready Asset, Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2608.04842) / [pdf](https://arxiv.org/pdf/2608.04842) |
+| 2026-08-05 | [Explicit Language Memory for Long-Horizon Planning in Vision-Language-Action Models](https://arxiv.org/abs/2608.04765) | Houze Xu, Jizhong Li, Ziyi Ye | cs.RO, cs.AI, cs.CV | Sim-to-Real | [abs](https://arxiv.org/abs/2608.04765) / [pdf](https://arxiv.org/pdf/2608.04765) |
+| 2026-08-05 | [GASP: GPU-Accelerated Safe Planner for Real-Time Collision-Aware Motion Generation with Latent Trajectory Sampling](https://arxiv.org/abs/2608.04612) | Colin Merk, Stefanos Charalambous, Peter Dürr, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2608.04612) / [pdf](https://arxiv.org/pdf/2608.04612) |
+| 2026-08-04 | [SAFECAST: Robust Failure Detection for VLA Policies with Contrast-Set Training and Calibration](https://arxiv.org/abs/2608.04246) | Harshitha Rajaprakash, Aditeya Prajapati, Rong Xue, et al. | cs.RO, cs.CV | Sim-to-Real | [abs](https://arxiv.org/abs/2608.04246) / [pdf](https://arxiv.org/pdf/2608.04246) |
 | 2026-08-04 | [Unified Visuomotor Targets: Supervising VLAs Beyond Physical Actions](https://arxiv.org/abs/2608.03563) | Zhenyang Feng, Unnat Jain | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2608.03563) / [pdf](https://arxiv.org/pdf/2608.03563) |
 | 2026-08-04 | [Human Centric Embodied Intelligence for Soft Wearable Robotics](https://arxiv.org/abs/2608.03556) | Rainier Natividad, Raye Chen-Hua Yeow | cs.RO | Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2608.03556) / [pdf](https://arxiv.org/pdf/2608.03556) |
 | 2026-08-04 | [Accelerating Human-Aware Robot Trajectory Generation via Diffusion and Consistency Distillation](https://arxiv.org/abs/2608.03159) | Byeong-Il Ham, Hyun-Bin Kim, Kyung-Soo Kim | cs.RO | Simulation Data, Trajectory Generation | [abs](https://arxiv.org/abs/2608.03159) / [pdf](https://arxiv.org/pdf/2608.03159) |

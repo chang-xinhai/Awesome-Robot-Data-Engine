@@ -4,12 +4,15 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-05 · **Papers:** 1905 · **Unique arXiv IDs:** 1905
+**Coverage:** 2025-01-01 to 2026-08-06 · **Papers:** 1908 · **Unique arXiv IDs:** 1908
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-05 | [RORA: Realistic Object Reconstruction with Articulation](https://arxiv.org/abs/2608.04842) | Hyesung Lee, Youngseon Lee, Kyutae Lee, et al. | cs.RO, cs.GR | Human Intervention | [abs](https://arxiv.org/abs/2608.04842) / [pdf](https://arxiv.org/pdf/2608.04842) |
+| 2026-08-05 | [SCOPE: Field-of-View-Aware Path Planning in Unknown 3D Environments via Safety-Volume Certification](https://arxiv.org/abs/2608.04420) | Junbin Yuan, Muqing Cao, Yunwoo Lee, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2608.04420) / [pdf](https://arxiv.org/pdf/2608.04420) |
+| 2026-08-04 | [SiMDex: Mining Similar Egocentric Videos for Cross-Embodiment Dexterous Manipulation](https://arxiv.org/abs/2608.04196) | Nie Lin, Takehiko Ohkawa, Sijin Chen, et al. | cs.RO, cs.CV, cs.LG | Robot Dataset | [abs](https://arxiv.org/abs/2608.04196) / [pdf](https://arxiv.org/pdf/2608.04196) |
 | 2026-08-04 | [EvoHIL: Self-Evolving Reward and Flow-Matched Policy Optimization for Robust Human-in-the-Loop Reinforcement Learning](https://arxiv.org/abs/2608.03872) | Shuoqin Zhang, Tongtong Cheng, Xiru Gao, et al. | cs.RO | Human Intervention | [abs](https://arxiv.org/abs/2608.03872) / [pdf](https://arxiv.org/pdf/2608.03872) |
 | 2026-08-04 | [RoboReact: Agentic Skill Distillation from Generated Egocentric Videos for Generalizable Whole-Body Manipulation](https://arxiv.org/abs/2608.03387) | Shuliang He, Shuai Wang, Bo Yue, et al. | cs.RO | Teleoperation, Data Collection | [abs](https://arxiv.org/abs/2608.03387) / [pdf](https://arxiv.org/pdf/2608.03387) |
 | 2026-08-04 | [Forbidden Region Dynamic Active Constraints in Robot-Assisted Minimally Invasive Surgery](https://arxiv.org/abs/2608.03010) | Zejian Cui, Ferdinando Rodriguez y Baena | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2608.03010) / [pdf](https://arxiv.org/pdf/2608.03010) |

@@ -1,6 +1,378 @@
 {
   "schema_version": 1,
   "papers": {
+    "2608.05078": {
+      "arxiv_id": "2608.05078",
+      "title": "SpikingNav: Robust Embodied Navigation with Spiking Neural Policies",
+      "abstract": "Embodied navigation requires an agent to make sequential decisions from egocentric observations in a physical environment. Existing Artificial Neural Network (ANN)-based navigation models have achieved strong performance, yet they often rely on dense computation and may degrade under visual corruptions. Spiking neural networks (SNNs) provide event-driven computation and intrinsic temporal dynamics, which are promising for compact and robust navigation on resource-constrained platforms. However, whether spike-based sensing and policy dynamics can improve robustness in visually rich embodied navigation remains an open problem. This paper proposes SpikingNav, a spiking framework for robust indoor embodied navigation. It contains a Spiking Sensing Encoder (SSE) and a Spiking Policy Network (SPN). The SSE extracts task-conditioned visual features with a spike-based backbone. The SPN maintains a recurrent policy state through membrane integration, thresholding, and spike-triggered reset. In this way, SpikingNav exploits the dynamic properties and spike activations of SNNs to improve navigation performance and robustness. We evaluate SpikingNav on PointNav and ObjectNav under clean observations and visual corruptions. SpikingNav achieves competitive clean performance and stronger robustness with fewer parameters and lower per-step computation than a matched ANN baseline. For instance, SpikingNav improves ObjectNav success from 31.05% to 34.12%, and raises the average success under visual corruptions from 8.45% to 13.71%, demonstrating the benefits of spike-based sensing and policy dynamics. We further validate the deployability of our spike-based sensing method on the Thruster-V2 neuromorphic chip. This physical hardware validation shows that SpikingNav can be instantiated on a real neuromorphic substrate for cyber-physical systems.",
+      "authors": [
+        "Jiahong Zhang",
+        "Sijun Shen",
+        "Dehua Wu",
+        "Yifan Lin",
+        "Xuechen Xia",
+        "Xu Chu",
+        "Youhui Zhang",
+        "GuoqiLi"
+      ],
+      "published": "2026-08-05",
+      "updated": "2026-08-05",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.05078",
+      "pdf_url": "https://arxiv.org/pdf/2608.05078",
+      "query_sources": [
+        "cs-ro",
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric"
+        ]
+      }
+    },
+    "2608.04842": {
+      "arxiv_id": "2608.04842",
+      "title": "RORA: Realistic Object Reconstruction with Articulation",
+      "abstract": "Replicating real-world environments into simulation by realistic visual representation like NeRF and 3D Gaussian Splatting (3DGS) has emerged as an effective strategy to reduce the sim-to-real gap in robot learning. However, implementing object articulation during the real-to-sim process is still a challenging task. Existing motion tracking or learning based articulation methods shows low success rates on complex kinematic structures having multiple joints. Furthermore, those methods require scan of dynamic motion of objects, which makes reconstruction process much complicated. In this work, we propose the first end-to-end pipeline that reconstructs simulation-ready assets with accurate articulation from a single static object video input through suggestion based human-in-the-loop process. Our approach exports a hybrid representation combining 3DGS for photorealistic rendering and mesh-based geometry for physical interaction. In the reconstruction process, our pipeline performs convex decomposition followed by user grouping for intuitive part segmentation, subsequently binding 3D Gaussians to the corresponding mesh parts. An Automatic Joint Suggestion Algorithm then calculates candidate joint axes from local boundary geometries and presents them to users for efficient articulated asset reconstruction. We have shown that our method achieves precise articulation results on partnet-mobility-v0 dataset and real objects. Additionally we presented a potential usage of our framework on robot learning, deploying the reconstructed assets in Unreal Engine and NVIDIA Isaac Sim, demonstrating real-time dexterous hand manipulation tasks.",
+      "authors": [
+        "Hyesung Lee",
+        "Youngseon Lee",
+        "Kyutae Lee",
+        "Dongjun Lee",
+        "Yongseok Lee"
+      ],
+      "published": "2026-08-05",
+      "updated": "2026-08-05",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.GR"
+      ],
+      "comment": "This work has been submitted to the IEEE for possible publication. Copyright may be transferred without notice, after which this version may no longer be accessible",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.04842",
+      "pdf_url": "https://arxiv.org/pdf/2608.04842",
+      "query_sources": [
+        "cs-ro",
+        "simulation-data"
+      ],
+      "topics": [
+        "robot_centric",
+        "human_egocentric",
+        "simulation"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Human Intervention"
+        ],
+        "human_egocentric": [
+          "Tracking / Reconstruction"
+        ],
+        "simulation": [
+          "Sim-to-Real",
+          "Simulation-Ready Asset",
+          "Digital Twin / Real-to-Sim"
+        ]
+      }
+    },
+    "2608.04765": {
+      "arxiv_id": "2608.04765",
+      "title": "Explicit Language Memory for Long-Horizon Planning in Vision-Language-Action Models",
+      "abstract": "Vision-language-action (VLA) models provide a unified paradigm for connecting visual perception, language understanding, and robotic control. However, existing VLA models still face major challenges in long-horizon tasks: sparse expert demonstrations constrain cross-task compositional generalization; the non-Markovian nature of long-horizon tasks makes it difficult for policies conditioned only on current observations to maintain temporal consistency; limited closed-loop error correction allows execution errors to accumulate; and end-to-end action fine-tuning may weaken the high-level semantic representations of vision-language model (VLM) backbones. To address these issues, we propose a hierarchical long-horizon VLA architecture with an explicit language-memory module. The central idea is to convert discrete temporal observations into a coherent textual memory sequence with temporal logic. The system is decoupled into a high-level VLM and a low-level VLA: the high-level VLM performs semantic reasoning through a visual question answering training paradigm, while the low-level VLA executes precise continuous control conditioned on subtask instructions and visual observations. The high-level VLM recursively updates both language memory and subtask instructions using the previous memory as a contextual anchor, enabling persistent temporal tracking and dynamic correction during long-horizon execution. We evaluate the proposed method in multiple simulation environments and conduct sim-to-real experiments on a real robotic platform. The results demonstrate that explicit language memory improves the success rate and robustness of VLA models on complex long-horizon tasks while providing an interpretable semantic account of the decision process.",
+      "authors": [
+        "Houze Xu",
+        "Jizhong Li",
+        "Ziyi Ye"
+      ],
+      "published": "2026-08-05",
+      "updated": "2026-08-05",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "comment": "11 pages, 4 figures",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.04765",
+      "pdf_url": "https://arxiv.org/pdf/2608.04765",
+      "query_sources": [
+        "cs-ro",
+        "simulation-data"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Sim-to-Real"
+        ]
+      }
+    },
+    "2608.04612": {
+      "arxiv_id": "2608.04612",
+      "title": "GASP: GPU-Accelerated Safe Planner for Real-Time Collision-Aware Motion Generation with Latent Trajectory Sampling",
+      "abstract": "We present GASP, a GPU-Accelerated Safe Planner for real-time, collision-aware joint-space motion generation in known environments. GASP combines a clamped B-spline trajectory parameterization with a convolutional residual neural network that predicts the free interior control points, while analytically inserted boundary control points enforce initial and final derivative constraints for collision-aware planning under non-stationary conditions. A conditional variational autoencoder samples multiple trajectory candidates, which are decoded and validated in parallel on the GPU, yielding a batched planner for collision-aware coupled joint-space motion with near-millisecond inference. We validate GASP as an online motion-generation module, where it achieves analytical-level success rates with high collision-aware feasibility and substantially reduces inference time relative to GPU-based trajectory optimization. We further deploy GASP as a reinforcement-learning reset planner in competitive robotic table tennis, matching the baseline return rate while roughly halving training-time collisions.",
+      "authors": [
+        "Colin Merk",
+        "Stefanos Charalambous",
+        "Peter Dürr",
+        "Farshad Khadivar"
+      ],
+      "published": "2026-08-05",
+      "updated": "2026-08-05",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.04612",
+      "pdf_url": "https://arxiv.org/pdf/2608.04612",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Trajectory Generation"
+        ]
+      }
+    },
+    "2608.04589": {
+      "arxiv_id": "2608.04589",
+      "title": "The First EgoCross Challenge at EgoVis 2026: Cross-Domain Egocentric Video Question Answering",
+      "abstract": "EgoCross is a cross-domain egocentric video question answering benchmark designed to evaluate whether multimodal large language models can generalize beyond common daily-life scenarios. The first EgoCross Challenge was hosted at the Third EgoVis Workshop at CVPR 2026 and evaluated models on first-person videos from four target domains: surgery, industrial assembly, extreme sports, and animal perspectives. Each test example consists of an egocentric video clip, a question, and four candidate answers, from which the model must select the correct option. This technical report introduces the challenge task, benchmark resources, and two official Codabench tracks. The Source-Limited Track restricts participants to the official baseline model and a small support set, whereas the Open-Source Track permits broader choices of models and training data under rules that prohibit the manual construction of target-domain training data. In total, the challenge received more than 1,500 submissions from over 130 participants, with 19 teams participating in the Open-Source Track and 38 teams in the Source-Limited Track. We further present the official leaderboard results and summarize the winning solutions from both tracks. We hope that this report will serve as a useful technical reference for advancing cross-domain egocentric video understanding. All resources, including the challenge data, baseline implementation, and code released by the winning teams, are made publicly available.",
+      "authors": [
+        "Yuqian Fu",
+        "Tianwen Qian",
+        "Yanjun Li",
+        "Yu Li",
+        "Kunyu Peng",
+        "Xu Zheng",
+        "Yongqin Xian",
+        "Alessio Tonioni",
+        "Yanwei Fu",
+        "Xiaoling Wang",
+        "Danda Paudel",
+        "Federico Tombari",
+        "Luc Van Gool",
+        "Leyi Wu",
+        "Yifan Zhao",
+        "Jinjie Zhang",
+        "Yinchuan Li",
+        "Yingcong Chen",
+        "Zixu Li",
+        "Zhiwei Chen",
+        "Zhiheng Fu",
+        "Wenbo Wang",
+        "Yupeng Hu",
+        "Weili Guan",
+        "Liqiang Nie",
+        "Takuya Murakawa",
+        "Toru Tamaki",
+        "Yi Wen",
+        "Zhenglin Du",
+        "Zhengyang Li",
+        "Lingling Li",
+        "Licheng Jiao",
+        "Wenping Ma"
+      ],
+      "published": "2026-08-05",
+      "updated": "2026-08-05",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comment": "1st EgoCross challenge @ EgoVis workshop, CVPR26",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.04589",
+      "pdf_url": "https://arxiv.org/pdf/2608.04589",
+      "query_sources": [
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric"
+        ]
+      }
+    },
+    "2608.04533": {
+      "arxiv_id": "2608.04533",
+      "title": "EgoAfford: Task-Oriented Affordance Grounding via Egocentric Referring Segmentation",
+      "abstract": "Part-level affordance grounding has advanced the localization of functional object regions associated with elemental actions. Extending this capability to complex tasks calls for connecting the semantic roles of participating objects with task-state-aligned visual observations and multi-step planning. We introduce EgoAfford, a benchmark designed to connect these three aspects. Given an egocentric observation and a high-level tabletop task, a model must generate the remaining plan and segment the functional regions of up to three components of the next action: the direct object, instrument, and destination. EgoAfford comprises approximately 15.5k human-verified images from 2,000 generated multi-step scenes, organized as semantically aligned, task-complete image series, together with EgoAfford-Real, 102 manually captured images spanning 26 tasks. We further present EgoLens, a 3B multimodal large language model with role-specific mask decoders, as an in-domain reference model for this joint task. Evaluations of recent referring-segmentation MLLMs, commercial-VLM--SAM2 pipelines, and EgoLens highlight the complementary challenges of next-step inference and action-role-conditioned part grounding. EgoLens establishes strong reference performance on both generated and manually captured observations. Together, EgoAfford and EgoLens provide a foundation for jointly studying perception and planning in multi-step tabletop tasks. Our project page is available at: https://egoafford.github.io",
+      "authors": [
+        "Xinyuan Guan",
+        "Feifan Chen",
+        "Xinyu Zhan",
+        "Fu-Cheng Zhang",
+        "Cewu Lu",
+        "Lixin Yang"
+      ],
+      "published": "2026-08-05",
+      "updated": "2026-08-05",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.04533",
+      "pdf_url": "https://arxiv.org/pdf/2608.04533",
+      "query_sources": [
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric"
+        ]
+      }
+    },
+    "2608.04420": {
+      "arxiv_id": "2608.04420",
+      "title": "SCOPE: Field-of-View-Aware Path Planning in Unknown 3D Environments via Safety-Volume Certification",
+      "abstract": "Safe navigation with a body-mounted limited-field-of-view sensor requires the complete robot-inflated volume of an intended motion to be observed and verified free before execution. We formulate this requirement as online safety-volume certification in an unknown voxel map and construct a certified graph whose vertices correspond exactly to positions with fully known-free safety volumes. Based on this representation, we propose SCOPE (Safety Certification through Observation Planning and Execution), a planning framework that decouples optimistic goal-directed guidance from certified execution. SCOPE converts the first uncertified point along an optimistic route into an explicit observation obligation, resolves it through target-centric viewpoint search, and recursively clears intermediate obligations when useful viewpoints are not yet certified-reachable. A certified preview mechanism and an observation-aware trajectory optimization backend enable smooth execution. We prove conditional complete planning: under ideal monotone sensing and exhaustive finite-domain graph search, SCOPE reaches the goal whenever a finite feasible sequence of certified sensing actions exists within its planning primitives. Across 60 randomized tasks in three unknown 3D environments, SCOPE reaches every goal while maintaining near-zero entry into non-certified inflated space. Preview reduces mean mission time by 27%, and real-robot demonstrations in two representative scenarios validate the complete system.",
+      "authors": [
+        "Junbin Yuan",
+        "Muqing Cao",
+        "Yunwoo Lee",
+        "Brady Moon",
+        "Sebastian Scherer"
+      ],
+      "published": "2026-08-05",
+      "updated": "2026-08-05",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": "Project website: https://yuanjunbin.github.io/scope-planner/",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.04420",
+      "pdf_url": "https://arxiv.org/pdf/2608.04420",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "robot_centric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Robot Dataset"
+        ]
+      }
+    },
+    "2608.04246": {
+      "arxiv_id": "2608.04246",
+      "title": "SAFECAST: Robust Failure Detection for VLA Policies with Contrast-Set Training and Calibration",
+      "abstract": "Vision-language-action policies often fail under deployment-time distribution shifts such as clutter, distractor objects, lighting changes, novel objects, altered initial states, and reworded instructions. Hidden-state-based risk probes combined with functional conformal prediction can detect rollout failures, but their reliability depends on calibration data matching deployment conditions. We introduce SAFECAST, which leverages contrast set perturbations to improve hidden-state probe training and calibration for deployment time shift. SAFECAST statistically significantly improves failure detection ROC-AUC scores over a state of the art baseline in both real-world DROID and LIBERO simulation experiments across multiple VLM backbones. We further find that SAFECAST benefits most when both visual and language contrast set perturbations are used to augment data, and that with contrast set perturbations, sim-to-real calibration leads to better probes than using real rollout data only.",
+      "authors": [
+        "Harshitha Rajaprakash",
+        "Aditeya Prajapati",
+        "Rong Xue",
+        "Abrar Anwar",
+        "Jesse Thomason"
+      ],
+      "published": "2026-08-04",
+      "updated": "2026-08-04",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.04246",
+      "pdf_url": "https://arxiv.org/pdf/2608.04246",
+      "query_sources": [
+        "cs-ro",
+        "simulation-data"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Sim-to-Real"
+        ]
+      }
+    },
+    "2608.04196": {
+      "arxiv_id": "2608.04196",
+      "title": "SiMDex: Mining Similar Egocentric Videos for Cross-Embodiment Dexterous Manipulation",
+      "abstract": "Recent years have witnessed an explosive trend of scaling ego-centric human videos for robot manipulation, yet it remains unclear which data actually benefits dexterous manipulation. We present SiMDex, a similarity-based data mining framework that casts human data selection for VLA post-training in dexterous manipulation as a recommendation problem. For each robot demonstration, SiMDex employs a three-layer recall-ranking-re-ranking pipeline to extract task-relevant subsets from a pool of ~32M egocentric human samples, operating in a morphology-agnostic action space that requires no changes to VLA architecture or training. Against a strong baseline trained with an equal amount of randomly sampled human data, SiMDex uses only ~1.49M mined samples (<5% of the pool) yet improves the overall success rate from 47.7% to 61.1%, showing that selective curation outperforms indiscriminate data mixing.",
+      "authors": [
+        "Nie Lin",
+        "Takehiko Ohkawa",
+        "Sijin Chen",
+        "Ruoshi Wen",
+        "Zhuohang Li",
+        "Liqun Huang",
+        "Zhengming Zhu",
+        "Yiming Bao",
+        "Yunfei Li",
+        "Minjie Cai",
+        "Xiao Ma",
+        "Wei Xu",
+        "Yoichi Sato"
+      ],
+      "published": "2026-08-04",
+      "updated": "2026-08-04",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "comment": "12 pages, 4 figures. Project page: https://lin-nie.github.io/SiMDex/",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.04196",
+      "pdf_url": "https://arxiv.org/pdf/2608.04196",
+      "query_sources": [
+        "cross-source-data",
+        "cs-ro",
+        "human-egocentric",
+        "robot-data"
+      ],
+      "topics": [
+        "robot_centric",
+        "human_egocentric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Robot Dataset"
+        ],
+        "human_egocentric": [
+          "Egocentric",
+          "Human Video"
+        ]
+      }
+    },
     "2608.03872": {
       "arxiv_id": "2608.03872",
       "title": "EvoHIL: Self-Evolving Reward and Flow-Matched Policy Optimization for Robust Human-in-the-Loop Reinforcement Learning",
@@ -116,7 +488,7 @@
         "Guiliang Liu"
       ],
       "published": "2026-08-04",
-      "updated": "2026-08-04",
+      "updated": "2026-08-05",
       "primary_category": "cs.RO",
       "categories": [
         "cs.RO"
@@ -428,7 +800,7 @@
         "Joao F. Henriques"
       ],
       "published": "2026-08-03",
-      "updated": "2026-08-04",
+      "updated": "2026-08-05",
       "primary_category": "cs.CV",
       "categories": [
         "cs.CV",
@@ -820,7 +1192,7 @@
         "Changqing Zou"
       ],
       "published": "2026-08-02",
-      "updated": "2026-08-02",
+      "updated": "2026-08-05",
       "primary_category": "cs.RO",
       "categories": [
         "cs.RO",
@@ -191947,7 +192319,7 @@
     }
   },
   "coverage_start": "2025-01-01",
-  "coverage_end": "2026-08-05",
-  "paper_count": 5023,
-  "generated_at": "2026-08-05T14:13:59+00:00"
+  "coverage_end": "2026-08-06",
+  "paper_count": 5032,
+  "generated_at": "2026-08-06T03:12:30+00:00"
 }
