@@ -4,12 +4,13 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-06 · **Papers:** 1908 · **Unique arXiv IDs:** 1908
+**Coverage:** 2025-01-01 to 2026-08-07 · **Papers:** 1909 · **Unique arXiv IDs:** 1909
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-06 | [JoyAI-RA 0.5: Scaling Robot Manipulation Learning via Dual Action Alignment](https://arxiv.org/abs/2608.05674) | JoyAI-RA Team | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2608.05674) / [pdf](https://arxiv.org/pdf/2608.05674) |
 | 2026-08-05 | [RORA: Realistic Object Reconstruction with Articulation](https://arxiv.org/abs/2608.04842) | Hyesung Lee, Youngseon Lee, Kyutae Lee, et al. | cs.RO, cs.GR | Human Intervention | [abs](https://arxiv.org/abs/2608.04842) / [pdf](https://arxiv.org/pdf/2608.04842) |
 | 2026-08-05 | [SCOPE: Field-of-View-Aware Path Planning in Unknown 3D Environments via Safety-Volume Certification](https://arxiv.org/abs/2608.04420) | Junbin Yuan, Muqing Cao, Yunwoo Lee, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2608.04420) / [pdf](https://arxiv.org/pdf/2608.04420) |
 | 2026-08-04 | [SiMDex: Mining Similar Egocentric Videos for Cross-Embodiment Dexterous Manipulation](https://arxiv.org/abs/2608.04196) | Nie Lin, Takehiko Ohkawa, Sijin Chen, et al. | cs.RO, cs.CV, cs.LG | Robot Dataset | [abs](https://arxiv.org/abs/2608.04196) / [pdf](https://arxiv.org/pdf/2608.04196) |

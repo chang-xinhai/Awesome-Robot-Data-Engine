@@ -4,12 +4,13 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-06 · **Papers:** 1792 · **Unique arXiv IDs:** 1792
+**Coverage:** 2025-01-01 to 2026-08-07 · **Papers:** 1793 · **Unique arXiv IDs:** 1793
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-06 | [JoyAI-RA 0.5: Scaling Robot Manipulation Learning via Dual Action Alignment](https://arxiv.org/abs/2608.05674) | JoyAI-RA Team | cs.RO | Egocentric, Human Video | [abs](https://arxiv.org/abs/2608.05674) / [pdf](https://arxiv.org/pdf/2608.05674) |
 | 2026-08-05 | [SpikingNav: Robust Embodied Navigation with Spiking Neural Policies](https://arxiv.org/abs/2608.05078) | Jiahong Zhang, Sijun Shen, Dehua Wu, et al. | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2608.05078) / [pdf](https://arxiv.org/pdf/2608.05078) |
 | 2026-08-05 | [RORA: Realistic Object Reconstruction with Articulation](https://arxiv.org/abs/2608.04842) | Hyesung Lee, Youngseon Lee, Kyutae Lee, et al. | cs.RO, cs.GR | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2608.04842) / [pdf](https://arxiv.org/pdf/2608.04842) |
 | 2026-08-05 | [The First EgoCross Challenge at EgoVis 2026: Cross-Domain Egocentric Video Question Answering](https://arxiv.org/abs/2608.04589) | Yuqian Fu, Tianwen Qian, Yanjun Li, et al. | cs.CV, cs.AI | Egocentric | [abs](https://arxiv.org/abs/2608.04589) / [pdf](https://arxiv.org/pdf/2608.04589) |

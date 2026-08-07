@@ -4,12 +4,15 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-06 · **Papers:** 2339 · **Unique arXiv IDs:** 2339
+**Coverage:** 2025-01-01 to 2026-08-07 · **Papers:** 2342 · **Unique arXiv IDs:** 2342
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-06 | [From Passive Mirrors to Active Agents: Holonic Digital Twins for Physical AI over Networks](https://arxiv.org/abs/2608.06227) | Christo Kurisummoottil Thomas, Omar Hashash, Walid Saad | cs.NI, cs.AI, cs.IT | Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2608.06227) / [pdf](https://arxiv.org/pdf/2608.06227) |
+| 2026-08-06 | [TRACE: Learned Proprioceptive Odometry for Legged Robots under Unreliable Contact Conditions](https://arxiv.org/abs/2608.05975) | Taehyeon Kong, Woojin Kim, Jemin Hwangbo | cs.RO, cs.AI | Sim-to-Real | [abs](https://arxiv.org/abs/2608.05975) / [pdf](https://arxiv.org/pdf/2608.05975) |
+| 2026-08-06 | [JoyAI-RA 0.5: Scaling Robot Manipulation Learning via Dual Action Alignment](https://arxiv.org/abs/2608.05674) | JoyAI-RA Team | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2608.05674) / [pdf](https://arxiv.org/pdf/2608.05674) |
 | 2026-08-05 | [RORA: Realistic Object Reconstruction with Articulation](https://arxiv.org/abs/2608.04842) | Hyesung Lee, Youngseon Lee, Kyutae Lee, et al. | cs.RO, cs.GR | Sim-to-Real, Simulation-Ready Asset, Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2608.04842) / [pdf](https://arxiv.org/pdf/2608.04842) |
 | 2026-08-05 | [Explicit Language Memory for Long-Horizon Planning in Vision-Language-Action Models](https://arxiv.org/abs/2608.04765) | Houze Xu, Jizhong Li, Ziyi Ye | cs.RO, cs.AI, cs.CV | Sim-to-Real | [abs](https://arxiv.org/abs/2608.04765) / [pdf](https://arxiv.org/pdf/2608.04765) |
 | 2026-08-05 | [GASP: GPU-Accelerated Safe Planner for Real-Time Collision-Aware Motion Generation with Latent Trajectory Sampling](https://arxiv.org/abs/2608.04612) | Colin Merk, Stefanos Charalambous, Peter Dürr, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2608.04612) / [pdf](https://arxiv.org/pdf/2608.04612) |
