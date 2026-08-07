@@ -4,13 +4,20 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-07 · **Papers:** 1909 · **Unique arXiv IDs:** 1909
+**Coverage:** 2025-01-01 to 2026-08-07 · **Papers:** 1916 · **Unique arXiv IDs:** 1916
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-06 | [$ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation](https://arxiv.org/abs/2608.06375) | Zhe Li, Zhenzhe Zhang, Yangyang Wei, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2608.06375) / [pdf](https://arxiv.org/pdf/2608.06375) |
+| 2026-08-06 | [A Master-Salve Robot Manipulator for Needle-Based Teleoperation in MRI Chamber](https://arxiv.org/abs/2608.06354) | Omar Curiel, Jing-Yuan Huang, Po-Chih Chen, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2608.06354) / [pdf](https://arxiv.org/pdf/2608.06354) |
+| 2026-08-06 | [GeniWorld: A Generalizable Interactive World Model for Robotic Manipulation via Visual Actions](https://arxiv.org/abs/2608.06332) | Chenghao Gu, Hanyang Yu, Jingbo Zhang, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2608.06332) / [pdf](https://arxiv.org/pdf/2608.06332) |
+| 2026-08-06 | [Robot Learning from Human Demonstrations: Handwritten Alphabet Trajectories and Human-Likeness Evaluation](https://arxiv.org/abs/2608.06221) | Alperen Kenan, Paul Bremner, Manuel Giuliani | cs.RO, cs.HC, cs.LG | Teleoperation, Data Collection | [abs](https://arxiv.org/abs/2608.06221) / [pdf](https://arxiv.org/pdf/2608.06221) |
+| 2026-08-06 | [Design and Evaluation of a Touchscreen-Based Teleoperation Interface for Robotic Manipulators](https://arxiv.org/abs/2608.06219) | Juan José García Cárdenas, Alperen Kenan, Hamidreza Raei, et al. | cs.RO, cs.HC | Teleoperation | [abs](https://arxiv.org/abs/2608.06219) / [pdf](https://arxiv.org/pdf/2608.06219) |
+| 2026-08-06 | [SkillMemo: Expert-guided Skill Memory Framework for Compositional Embodied Manipulation](https://arxiv.org/abs/2608.05970) | Changyuan Wang, Chubin Zhang, Zhenyu Wu, et al. | cs.RO, cs.AI | Scalable Demonstrations | [abs](https://arxiv.org/abs/2608.05970) / [pdf](https://arxiv.org/pdf/2608.05970) |
 | 2026-08-06 | [JoyAI-RA 0.5: Scaling Robot Manipulation Learning via Dual Action Alignment](https://arxiv.org/abs/2608.05674) | JoyAI-RA Team | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2608.05674) / [pdf](https://arxiv.org/pdf/2608.05674) |
+| 2026-08-06 | [ARGUS: Aligning Robot Scene Geometry Under Shifting Views with Large 3D Vision Models](https://arxiv.org/abs/2608.05579) | Rishik Sathua, Haonan Chen, Katherine Driggs-Campbell | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2608.05579) / [pdf](https://arxiv.org/pdf/2608.05579) |
 | 2026-08-05 | [RORA: Realistic Object Reconstruction with Articulation](https://arxiv.org/abs/2608.04842) | Hyesung Lee, Youngseon Lee, Kyutae Lee, et al. | cs.RO, cs.GR | Human Intervention | [abs](https://arxiv.org/abs/2608.04842) / [pdf](https://arxiv.org/pdf/2608.04842) |
 | 2026-08-05 | [SCOPE: Field-of-View-Aware Path Planning in Unknown 3D Environments via Safety-Volume Certification](https://arxiv.org/abs/2608.04420) | Junbin Yuan, Muqing Cao, Yunwoo Lee, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2608.04420) / [pdf](https://arxiv.org/pdf/2608.04420) |
 | 2026-08-04 | [SiMDex: Mining Similar Egocentric Videos for Cross-Embodiment Dexterous Manipulation](https://arxiv.org/abs/2608.04196) | Nie Lin, Takehiko Ohkawa, Sijin Chen, et al. | cs.RO, cs.CV, cs.LG | Robot Dataset | [abs](https://arxiv.org/abs/2608.04196) / [pdf](https://arxiv.org/pdf/2608.04196) |

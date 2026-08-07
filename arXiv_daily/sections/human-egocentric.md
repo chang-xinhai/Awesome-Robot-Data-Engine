@@ -4,13 +4,19 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-07 · **Papers:** 1793 · **Unique arXiv IDs:** 1793
+**Coverage:** 2025-01-01 to 2026-08-07 · **Papers:** 1799 · **Unique arXiv IDs:** 1799
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-06 | [$ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation](https://arxiv.org/abs/2608.06375) | Zhe Li, Zhenzhe Zhang, Yangyang Wei, et al. | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2608.06375) / [pdf](https://arxiv.org/pdf/2608.06375) |
+| 2026-08-06 | [Robot Learning from Human Demonstrations: Handwritten Alphabet Trajectories and Human-Likeness Evaluation](https://arxiv.org/abs/2608.06221) | Alperen Kenan, Paul Bremner, Manuel Giuliani | cs.RO, cs.HC, cs.LG | Human Video, Human Demonstration | [abs](https://arxiv.org/abs/2608.06221) / [pdf](https://arxiv.org/pdf/2608.06221) |
+| 2026-08-06 | [HOPE: Hand-Object Pressure Estimation from Monocular Videos](https://arxiv.org/abs/2608.06192) | Subin Jeon, Byungjun Kim, Hanbyul Joo | cs.CV | Egocentric, Hand-Object Interaction, Affordance / Contact | [abs](https://arxiv.org/abs/2608.06192) / [pdf](https://arxiv.org/pdf/2608.06192) |
+| 2026-08-06 | [GST-Bench: Can VLMs Develop Global Spatial Awareness from Video?](https://arxiv.org/abs/2608.05747) | Qifeng Zhang, Kaixiang Huang, Heng Dong, et al. | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2608.05747) / [pdf](https://arxiv.org/pdf/2608.05747) |
+| 2026-08-06 | [LAWM-3D: Learning 3D-Aware Latent Actions from Human Videos for Generalizable Robot World Models](https://arxiv.org/abs/2608.05706) | Jiarui Yang, Jiale Zhange, Jiawei Li, et al. | cs.CV | Human Video | [abs](https://arxiv.org/abs/2608.05706) / [pdf](https://arxiv.org/pdf/2608.05706) |
 | 2026-08-06 | [JoyAI-RA 0.5: Scaling Robot Manipulation Learning via Dual Action Alignment](https://arxiv.org/abs/2608.05674) | JoyAI-RA Team | cs.RO | Egocentric, Human Video | [abs](https://arxiv.org/abs/2608.05674) / [pdf](https://arxiv.org/pdf/2608.05674) |
+| 2026-08-05 | [VLAff: Vision-Language-Affordance Model for Unified Actionable Affordances](https://arxiv.org/abs/2608.05215) | Jihoon Oh, Kento Kawaharazuka, Kei Okada | cs.RO, cs.CV | Egocentric, Human Video, Tracking / Reconstruction | [abs](https://arxiv.org/abs/2608.05215) / [pdf](https://arxiv.org/pdf/2608.05215) |
 | 2026-08-05 | [SpikingNav: Robust Embodied Navigation with Spiking Neural Policies](https://arxiv.org/abs/2608.05078) | Jiahong Zhang, Sijun Shen, Dehua Wu, et al. | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2608.05078) / [pdf](https://arxiv.org/pdf/2608.05078) |
 | 2026-08-05 | [RORA: Realistic Object Reconstruction with Articulation](https://arxiv.org/abs/2608.04842) | Hyesung Lee, Youngseon Lee, Kyutae Lee, et al. | cs.RO, cs.GR | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2608.04842) / [pdf](https://arxiv.org/pdf/2608.04842) |
 | 2026-08-05 | [The First EgoCross Challenge at EgoVis 2026: Cross-Domain Egocentric Video Question Answering](https://arxiv.org/abs/2608.04589) | Yuqian Fu, Tianwen Qian, Yanjun Li, et al. | cs.CV, cs.AI | Egocentric | [abs](https://arxiv.org/abs/2608.04589) / [pdf](https://arxiv.org/pdf/2608.04589) |

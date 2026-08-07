@@ -4,15 +4,22 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-07 · **Papers:** 2342 · **Unique arXiv IDs:** 2342
+**Coverage:** 2025-01-01 to 2026-08-07 · **Papers:** 2349 · **Unique arXiv IDs:** 2349
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-06 | [GeniWorld: A Generalizable Interactive World Model for Robotic Manipulation via Visual Actions](https://arxiv.org/abs/2608.06332) | Chenghao Gu, Hanyang Yu, Jingbo Zhang, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2608.06332) / [pdf](https://arxiv.org/pdf/2608.06332) |
 | 2026-08-06 | [From Passive Mirrors to Active Agents: Holonic Digital Twins for Physical AI over Networks](https://arxiv.org/abs/2608.06227) | Christo Kurisummoottil Thomas, Omar Hashash, Walid Saad | cs.NI, cs.AI, cs.IT | Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2608.06227) / [pdf](https://arxiv.org/pdf/2608.06227) |
+| 2026-08-06 | [Robot Learning from Human Demonstrations: Handwritten Alphabet Trajectories and Human-Likeness Evaluation](https://arxiv.org/abs/2608.06221) | Alperen Kenan, Paul Bremner, Manuel Giuliani | cs.RO, cs.HC, cs.LG | Trajectory Generation | [abs](https://arxiv.org/abs/2608.06221) / [pdf](https://arxiv.org/pdf/2608.06221) |
+| 2026-08-06 | [ErgoSurf: Ergodic Control for the Coverage of Unknown Surfaces](https://arxiv.org/abs/2608.06208) | Stefan Schneyer, Timo Bachmann, Maged Iskandar, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2608.06208) / [pdf](https://arxiv.org/pdf/2608.06208) |
 | 2026-08-06 | [TRACE: Learned Proprioceptive Odometry for Legged Robots under Unreliable Contact Conditions](https://arxiv.org/abs/2608.05975) | Taehyeon Kong, Woojin Kim, Jemin Hwangbo | cs.RO, cs.AI | Sim-to-Real | [abs](https://arxiv.org/abs/2608.05975) / [pdf](https://arxiv.org/pdf/2608.05975) |
+| 2026-08-06 | [SkillMemo: Expert-guided Skill Memory Framework for Compositional Embodied Manipulation](https://arxiv.org/abs/2608.05970) | Changyuan Wang, Chubin Zhang, Zhenyu Wu, et al. | cs.RO, cs.AI | Simulation Data | [abs](https://arxiv.org/abs/2608.05970) / [pdf](https://arxiv.org/pdf/2608.05970) |
 | 2026-08-06 | [JoyAI-RA 0.5: Scaling Robot Manipulation Learning via Dual Action Alignment](https://arxiv.org/abs/2608.05674) | JoyAI-RA Team | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2608.05674) / [pdf](https://arxiv.org/pdf/2608.05674) |
+| 2026-08-06 | [PathCover: A Fast Convex Decomposition along a Path via Randomized Iterative Space Partitioning (RISP) on Point Clouds](https://arxiv.org/abs/2608.05586) | Kunal S. Narkhede, Abhijeet M. Kulkarni, Guoquan Huang, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2608.05586) / [pdf](https://arxiv.org/pdf/2608.05586) |
+| 2026-08-05 | [Failing Gracefully: Mitigating Impact of Inevitable Robot Failures](https://arxiv.org/abs/2608.05313) | Duc M. Nguyen, Saad A. Ghani, Andrew Marshall, et al. | cs.RO, cs.AI, cs.HC | Simulation Data | [abs](https://arxiv.org/abs/2608.05313) / [pdf](https://arxiv.org/pdf/2608.05313) |
+| 2026-08-05 | [VLAff: Vision-Language-Affordance Model for Unified Actionable Affordances](https://arxiv.org/abs/2608.05215) | Jihoon Oh, Kento Kawaharazuka, Kei Okada | cs.RO, cs.CV | Trajectory Generation | [abs](https://arxiv.org/abs/2608.05215) / [pdf](https://arxiv.org/pdf/2608.05215) |
 | 2026-08-05 | [RORA: Realistic Object Reconstruction with Articulation](https://arxiv.org/abs/2608.04842) | Hyesung Lee, Youngseon Lee, Kyutae Lee, et al. | cs.RO, cs.GR | Sim-to-Real, Simulation-Ready Asset, Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2608.04842) / [pdf](https://arxiv.org/pdf/2608.04842) |
 | 2026-08-05 | [Explicit Language Memory for Long-Horizon Planning in Vision-Language-Action Models](https://arxiv.org/abs/2608.04765) | Houze Xu, Jizhong Li, Ziyi Ye | cs.RO, cs.AI, cs.CV | Sim-to-Real | [abs](https://arxiv.org/abs/2608.04765) / [pdf](https://arxiv.org/pdf/2608.04765) |
 | 2026-08-05 | [GASP: GPU-Accelerated Safe Planner for Real-Time Collision-Aware Motion Generation with Latent Trajectory Sampling](https://arxiv.org/abs/2608.04612) | Colin Merk, Stefanos Charalambous, Peter Dürr, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2608.04612) / [pdf](https://arxiv.org/pdf/2608.04612) |
