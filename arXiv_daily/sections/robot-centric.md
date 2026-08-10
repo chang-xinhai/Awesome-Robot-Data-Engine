@@ -4,14 +4,16 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-09 · **Papers:** 1916 · **Unique arXiv IDs:** 1916
+**Coverage:** 2025-01-01 to 2026-08-10 · **Papers:** 1918 · **Unique arXiv IDs:** 1918
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-07 | [WNM-3D: A World Navigation Model with 3D Scene Conditioning for Closed-Loop VLN](https://arxiv.org/abs/2608.07267) | Yuehao Huang, Yunzi Wu, Xiaotao Zhang, et al. | cs.AI, cs.CV, cs.RO | Human Intervention | [abs](https://arxiv.org/abs/2608.07267) / [pdf](https://arxiv.org/pdf/2608.07267) |
+| 2026-08-06 | [Fast and Accurate: An Adaptive VLA Inference Framework through Environment-aware Model Selection](https://arxiv.org/abs/2608.06434) | Yuewei Sun, Lang Qin, Zechuan Tian, et al. | cs.RO, cs.LG | Scalable Demonstrations | [abs](https://arxiv.org/abs/2608.06434) / [pdf](https://arxiv.org/pdf/2608.06434) |
 | 2026-08-06 | [$ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation](https://arxiv.org/abs/2608.06375) | Zhe Li, Zhenzhe Zhang, Yangyang Wei, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2608.06375) / [pdf](https://arxiv.org/pdf/2608.06375) |
-| 2026-08-06 | [A Master-Salve Robot Manipulator for Needle-Based Teleoperation in MRI Chamber](https://arxiv.org/abs/2608.06354) | Omar Curiel, Jing-Yuan Huang, Po-Chih Chen, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2608.06354) / [pdf](https://arxiv.org/pdf/2608.06354) |
+| 2026-08-06 | [A Master-Slave Robot Manipulator for Needle-Based Teleoperation in MRI Chamber](https://arxiv.org/abs/2608.06354) | Omar Curiel, Jing-Yuan Huang, Po-Chih Chen, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2608.06354) / [pdf](https://arxiv.org/pdf/2608.06354) |
 | 2026-08-06 | [GeniWorld: A Generalizable Interactive World Model for Robotic Manipulation via Visual Actions](https://arxiv.org/abs/2608.06332) | Chenghao Gu, Hanyang Yu, Jingbo Zhang, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2608.06332) / [pdf](https://arxiv.org/pdf/2608.06332) |
 | 2026-08-06 | [Robot Learning from Human Demonstrations: Handwritten Alphabet Trajectories and Human-Likeness Evaluation](https://arxiv.org/abs/2608.06221) | Alperen Kenan, Paul Bremner, Manuel Giuliani | cs.RO, cs.HC, cs.LG | Teleoperation, Data Collection | [abs](https://arxiv.org/abs/2608.06221) / [pdf](https://arxiv.org/pdf/2608.06221) |
 | 2026-08-06 | [Design and Evaluation of a Touchscreen-Based Teleoperation Interface for Robotic Manipulators](https://arxiv.org/abs/2608.06219) | Juan José García Cárdenas, Alperen Kenan, Hamidreza Raei, et al. | cs.RO, cs.HC | Teleoperation | [abs](https://arxiv.org/abs/2608.06219) / [pdf](https://arxiv.org/pdf/2608.06219) |

@@ -2,16 +2,16 @@
 
 > A high-recall candidate archive for manual curation into [Awesome Robot Data Engine](../README.md). It is intentionally broader than the curated list.
 
-**Coverage:** 2025-01-01 to 2026-08-09 · **Unique papers:** 5049
+**Coverage:** 2025-01-01 to 2026-08-10 · **Unique papers:** 5055
 
 ## Sections
 
 | Section | Papers | Scope |
 | :------ | -----: | :---- |
-| [Robot-Centric](sections/robot-centric.md) | 1916 | Real-robot collection, teleoperation, intervention, datasets, and processing |
+| [Robot-Centric](sections/robot-centric.md) | 1918 | Real-robot collection, teleoperation, intervention, datasets, and processing |
 | [UMI](sections/umi.md) | 64 | Portable manipulation interfaces, robot-free demonstrations, and UMI recovery |
-| [Human / Egocentric](sections/human-egocentric.md) | 1799 | Human video, HOI, tracking, reconstruction, action extraction, and retargeting |
-| [Simulation](sections/simulation.md) | 2349 | Synthetic demonstrations, environments, assets, sensors, and sim–real systems |
+| [Human / Egocentric](sections/human-egocentric.md) | 1801 | Human video, HOI, tracking, reconstruction, action extraction, and retargeting |
+| [Simulation](sections/simulation.md) | 2354 | Synthetic demonstrations, environments, assets, sensors, and sim–real systems |
 
 A paper is stored once in [`data/papers.json`](data/papers.json) but may appear in multiple generated views. The archive uses arXiv `v1` dates and is updated daily by GitHub Actions. Promotion to the root README is always manual.
 
@@ -19,16 +19,16 @@ A paper is stored once in [`data/papers.json`](data/papers.json) but may appear 
 
 ### Robot-Centric
 
+- 2026-08-07 — [WNM-3D: A World Navigation Model with 3D Scene Conditioning for Closed-Loop VLN](https://arxiv.org/abs/2608.07267)
+- 2026-08-06 — [Fast and Accurate: An Adaptive VLA Inference Framework through Environment-aware Model Selection](https://arxiv.org/abs/2608.06434)
 - 2026-08-06 — [$ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation](https://arxiv.org/abs/2608.06375)
-- 2026-08-06 — [A Master-Salve Robot Manipulator for Needle-Based Teleoperation in MRI Chamber](https://arxiv.org/abs/2608.06354)
+- 2026-08-06 — [A Master-Slave Robot Manipulator for Needle-Based Teleoperation in MRI Chamber](https://arxiv.org/abs/2608.06354)
 - 2026-08-06 — [GeniWorld: A Generalizable Interactive World Model for Robotic Manipulation via Visual Actions](https://arxiv.org/abs/2608.06332)
 - 2026-08-06 — [Robot Learning from Human Demonstrations: Handwritten Alphabet Trajectories and Human-Likeness Evaluation](https://arxiv.org/abs/2608.06221)
 - 2026-08-06 — [Design and Evaluation of a Touchscreen-Based Teleoperation Interface for Robotic Manipulators](https://arxiv.org/abs/2608.06219)
 - 2026-08-06 — [SkillMemo: Expert-guided Skill Memory Framework for Compositional Embodied Manipulation](https://arxiv.org/abs/2608.05970)
 - 2026-08-06 — [JoyAI-RA 0.5: Scaling Robot Manipulation Learning via Dual Action Alignment](https://arxiv.org/abs/2608.05674)
 - 2026-08-06 — [ARGUS: Aligning Robot Scene Geometry Under Shifting Views with Large 3D Vision Models](https://arxiv.org/abs/2608.05579)
-- 2026-08-05 — [RORA: Realistic Object Reconstruction with Articulation](https://arxiv.org/abs/2608.04842)
-- 2026-08-05 — [SCOPE: Field-of-View-Aware Path Planning in Unknown 3D Environments via Safety-Volume Certification](https://arxiv.org/abs/2608.04420)
 
 ### UMI
 
@@ -45,6 +45,9 @@ A paper is stored once in [`data/papers.json`](data/papers.json) but may appear 
 
 ### Human / Egocentric
 
+- 2026-08-07 — [WNM-3D: A World Navigation Model with 3D Scene Conditioning for Closed-Loop VLN](https://arxiv.org/abs/2608.07267)
+- 2026-08-07 — [C2Dex: Contact-Consistent Reconstruction and Retargeting for Dexterous Manipulation from Monocular Video](https://arxiv.org/abs/2608.07045)
+- 2026-08-07 — [CrossTracer: Cross-Embodiment Navigation via VLA Model Reasoning and Trace Residuals Adapting](https://arxiv.org/abs/2608.06688)
 - 2026-08-06 — [$ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation](https://arxiv.org/abs/2608.06375)
 - 2026-08-06 — [Robot Learning from Human Demonstrations: Handwritten Alphabet Trajectories and Human-Likeness Evaluation](https://arxiv.org/abs/2608.06221)
 - 2026-08-06 — [HOPE: Hand-Object Pressure Estimation from Monocular Videos](https://arxiv.org/abs/2608.06192)
@@ -52,22 +55,19 @@ A paper is stored once in [`data/papers.json`](data/papers.json) but may appear 
 - 2026-08-06 — [LAWM-3D: Learning 3D-Aware Latent Actions from Human Videos for Generalizable Robot World Models](https://arxiv.org/abs/2608.05706)
 - 2026-08-06 — [JoyAI-RA 0.5: Scaling Robot Manipulation Learning via Dual Action Alignment](https://arxiv.org/abs/2608.05674)
 - 2026-08-05 — [VLAff: Vision-Language-Affordance Model for Unified Actionable Affordances](https://arxiv.org/abs/2608.05215)
-- 2026-08-05 — [SpikingNav: Robust Embodied Navigation with Spiking Neural Policies](https://arxiv.org/abs/2608.05078)
-- 2026-08-05 — [RORA: Realistic Object Reconstruction with Articulation](https://arxiv.org/abs/2608.04842)
-- 2026-08-05 — [The First EgoCross Challenge at EgoVis 2026: Cross-Domain Egocentric Video Question Answering](https://arxiv.org/abs/2608.04589)
 
 ### Simulation
 
+- 2026-08-07 — [C2Dex: Contact-Consistent Reconstruction and Retargeting for Dexterous Manipulation from Monocular Video](https://arxiv.org/abs/2608.07045)
+- 2026-08-07 — [Decoupling Intention from Trajectory: A Representational Deduction Framework for World Action Models](https://arxiv.org/abs/2608.06994)
+- 2026-08-07 — [Spatiotemporal Agility: Time-Constrained Reinforcement Learning for Vision-Guided Dynamic Quadrupedal Interception](https://arxiv.org/abs/2608.06907)
+- 2026-08-07 — [R2S-EGO: Dual-Proxy Refinement for Sparse-Capture Real-to-Sim](https://arxiv.org/abs/2608.06827)
+- 2026-08-06 — [Fast and Accurate: An Adaptive VLA Inference Framework through Environment-aware Model Selection](https://arxiv.org/abs/2608.06434)
 - 2026-08-06 — [GeniWorld: A Generalizable Interactive World Model for Robotic Manipulation via Visual Actions](https://arxiv.org/abs/2608.06332)
 - 2026-08-06 — [From Passive Mirrors to Active Agents: Holonic Digital Twins for Physical AI over Networks](https://arxiv.org/abs/2608.06227)
 - 2026-08-06 — [Robot Learning from Human Demonstrations: Handwritten Alphabet Trajectories and Human-Likeness Evaluation](https://arxiv.org/abs/2608.06221)
 - 2026-08-06 — [ErgoSurf: Ergodic Control for the Coverage of Unknown Surfaces](https://arxiv.org/abs/2608.06208)
 - 2026-08-06 — [TRACE: Learned Proprioceptive Odometry for Legged Robots under Unreliable Contact Conditions](https://arxiv.org/abs/2608.05975)
-- 2026-08-06 — [SkillMemo: Expert-guided Skill Memory Framework for Compositional Embodied Manipulation](https://arxiv.org/abs/2608.05970)
-- 2026-08-06 — [JoyAI-RA 0.5: Scaling Robot Manipulation Learning via Dual Action Alignment](https://arxiv.org/abs/2608.05674)
-- 2026-08-06 — [PathCover: A Fast Convex Decomposition along a Path via Randomized Iterative Space Partitioning (RISP) on Point Clouds](https://arxiv.org/abs/2608.05586)
-- 2026-08-05 — [Failing Gracefully: Mitigating Impact of Inevitable Robot Failures](https://arxiv.org/abs/2608.05313)
-- 2026-08-05 — [VLAff: Vision-Language-Affordance Model for Unified Actionable Affordances](https://arxiv.org/abs/2608.05215)
 
 ## Method
 

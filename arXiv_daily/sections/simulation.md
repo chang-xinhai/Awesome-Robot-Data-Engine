@@ -4,12 +4,17 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-09 · **Papers:** 2349 · **Unique arXiv IDs:** 2349
+**Coverage:** 2025-01-01 to 2026-08-10 · **Papers:** 2354 · **Unique arXiv IDs:** 2354
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-07 | [C2Dex: Contact-Consistent Reconstruction and Retargeting for Dexterous Manipulation from Monocular Video](https://arxiv.org/abs/2608.07045) | Jie Ren, Zhehao Jiang, Yinhong Yang, et al. | cs.RO, cs.CV | Simulation Data | [abs](https://arxiv.org/abs/2608.07045) / [pdf](https://arxiv.org/pdf/2608.07045) |
+| 2026-08-07 | [Decoupling Intention from Trajectory: A Representational Deduction Framework for World Action Models](https://arxiv.org/abs/2608.06994) | Xiangkai Ma, Yue Ma, Junjie Wang, et al. | cs.RO, cs.AI | Trajectory Generation | [abs](https://arxiv.org/abs/2608.06994) / [pdf](https://arxiv.org/pdf/2608.06994) |
+| 2026-08-07 | [Spatiotemporal Agility: Time-Constrained Reinforcement Learning for Vision-Guided Dynamic Quadrupedal Interception](https://arxiv.org/abs/2608.06907) | Yidong Zhu, Zibo Dai, Tongning Zhang, et al. | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2608.06907) / [pdf](https://arxiv.org/pdf/2608.06907) |
+| 2026-08-07 | [R2S-EGO: Dual-Proxy Refinement for Sparse-Capture Real-to-Sim](https://arxiv.org/abs/2608.06827) | Shuai Fang, Xin Deng, Yuchen Kang, et al. | cs.RO, cs.CV, cs.GR | Sim-to-Real | [abs](https://arxiv.org/abs/2608.06827) / [pdf](https://arxiv.org/pdf/2608.06827) |
+| 2026-08-06 | [Fast and Accurate: An Adaptive VLA Inference Framework through Environment-aware Model Selection](https://arxiv.org/abs/2608.06434) | Yuewei Sun, Lang Qin, Zechuan Tian, et al. | cs.RO, cs.LG | Simulation Data | [abs](https://arxiv.org/abs/2608.06434) / [pdf](https://arxiv.org/pdf/2608.06434) |
 | 2026-08-06 | [GeniWorld: A Generalizable Interactive World Model for Robotic Manipulation via Visual Actions](https://arxiv.org/abs/2608.06332) | Chenghao Gu, Hanyang Yu, Jingbo Zhang, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2608.06332) / [pdf](https://arxiv.org/pdf/2608.06332) |
 | 2026-08-06 | [From Passive Mirrors to Active Agents: Holonic Digital Twins for Physical AI over Networks](https://arxiv.org/abs/2608.06227) | Christo Kurisummoottil Thomas, Omar Hashash, Walid Saad | cs.NI, cs.AI, cs.IT | Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2608.06227) / [pdf](https://arxiv.org/pdf/2608.06227) |
 | 2026-08-06 | [Robot Learning from Human Demonstrations: Handwritten Alphabet Trajectories and Human-Likeness Evaluation](https://arxiv.org/abs/2608.06221) | Alperen Kenan, Paul Bremner, Manuel Giuliani | cs.RO, cs.HC, cs.LG | Trajectory Generation | [abs](https://arxiv.org/abs/2608.06221) / [pdf](https://arxiv.org/pdf/2608.06221) |

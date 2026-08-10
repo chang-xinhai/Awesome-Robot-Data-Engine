@@ -4,12 +4,15 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-09 · **Papers:** 1799 · **Unique arXiv IDs:** 1799
+**Coverage:** 2025-01-01 to 2026-08-10 · **Papers:** 1801 · **Unique arXiv IDs:** 1801
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-07 | [WNM-3D: A World Navigation Model with 3D Scene Conditioning for Closed-Loop VLN](https://arxiv.org/abs/2608.07267) | Yuehao Huang, Yunzi Wu, Xiaotao Zhang, et al. | cs.AI, cs.CV, cs.RO | Egocentric | [abs](https://arxiv.org/abs/2608.07267) / [pdf](https://arxiv.org/pdf/2608.07267) |
+| 2026-08-07 | [C2Dex: Contact-Consistent Reconstruction and Retargeting for Dexterous Manipulation from Monocular Video](https://arxiv.org/abs/2608.07045) | Jie Ren, Zhehao Jiang, Yinhong Yang, et al. | cs.RO, cs.CV | Hand-Object Interaction, Human Video, Tracking / Reconstruction | [abs](https://arxiv.org/abs/2608.07045) / [pdf](https://arxiv.org/pdf/2608.07045) |
+| 2026-08-07 | [CrossTracer: Cross-Embodiment Navigation via VLA Model Reasoning and Trace Residuals Adapting](https://arxiv.org/abs/2608.06688) | Yao Wang, Siyuan Wang, Zhirui Sun, et al. | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2608.06688) / [pdf](https://arxiv.org/pdf/2608.06688) |
 | 2026-08-06 | [$ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation](https://arxiv.org/abs/2608.06375) | Zhe Li, Zhenzhe Zhang, Yangyang Wei, et al. | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2608.06375) / [pdf](https://arxiv.org/pdf/2608.06375) |
 | 2026-08-06 | [Robot Learning from Human Demonstrations: Handwritten Alphabet Trajectories and Human-Likeness Evaluation](https://arxiv.org/abs/2608.06221) | Alperen Kenan, Paul Bremner, Manuel Giuliani | cs.RO, cs.HC, cs.LG | Human Video, Human Demonstration | [abs](https://arxiv.org/abs/2608.06221) / [pdf](https://arxiv.org/pdf/2608.06221) |
 | 2026-08-06 | [HOPE: Hand-Object Pressure Estimation from Monocular Videos](https://arxiv.org/abs/2608.06192) | Subin Jeon, Byungjun Kim, Hanbyul Joo | cs.CV | Egocentric, Hand-Object Interaction, Affordance / Contact | [abs](https://arxiv.org/abs/2608.06192) / [pdf](https://arxiv.org/pdf/2608.06192) |
@@ -30,7 +33,6 @@
 | 2026-08-03 | [Dynamic Resolution Routing for Efficient Egocentric Grounding](https://arxiv.org/abs/2608.01638) | Huixin Sun, Wangbo Zhao, Fanyue Wei, et al. | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2608.01638) / [pdf](https://arxiv.org/pdf/2608.01638) |
 | 2026-08-02 | [Sparse Meets Dense: Correspondence Guided Robotic Manipulation with Rigid-Deformable Interactions](https://arxiv.org/abs/2608.01083) | Ziyu Zhu, Yue Chen, Xirui Liang, et al. | cs.RO | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2608.01083) / [pdf](https://arxiv.org/pdf/2608.01083) |
 | 2026-08-01 | [Assistant Placement Aria: A Benchmark for Egocentric Placement Assistance](https://arxiv.org/abs/2608.00652) | Amir Belder, Gonçalo Dias Pais, Refael Vivanti, et al. | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2608.00652) / [pdf](https://arxiv.org/pdf/2608.00652) |
-| 2026-08-01 | [Grasp Execution Without a Planner: Configuration-Space Grasp Distance Fields with Certified Safety & Guaranteed Quality](https://arxiv.org/abs/2608.00600) | Clinton Enwerem, John S. Baras, Calin Belta | cs.RO, eess.SY, math.OC | Hand-Object Interaction, Affordance / Contact | [abs](https://arxiv.org/abs/2608.00600) / [pdf](https://arxiv.org/pdf/2608.00600) |
 | 2026-08-01 | [DexMani: Human-Derived Manipulability Guidance for Dexterous Rotation](https://arxiv.org/abs/2608.00554) | Xiaoyang Chen, Shengcheng Luo, Haoran Guo, et al. | cs.RO, cs.AI, cs.CV | Human Demonstration, Affordance / Contact | [abs](https://arxiv.org/abs/2608.00554) / [pdf](https://arxiv.org/pdf/2608.00554) |
 | 2026-08-01 | [DreamTraj: Generating 6-DoF Object Trajectories by Reading Unrendered Video Diffusion Latents](https://arxiv.org/abs/2608.00486) | Tongsheng Ding, Zhen Luo, Yixuan Yang, et al. | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2608.00486) / [pdf](https://arxiv.org/pdf/2608.00486) |
 
