@@ -2,7 +2,7 @@
 
 > A high-recall candidate archive for manual curation into [Awesome Robot Data Engine](../README.md). It is intentionally broader than the curated list.
 
-**Coverage:** 2025-01-01 to 2026-08-11 · **Unique papers:** 5081
+**Coverage:** 2025-01-01 to 2026-08-11 · **Unique papers:** 5083
 
 ## Sections
 
@@ -11,7 +11,7 @@
 | [Robot-Centric](sections/robot-centric.md) | 1926 | Real-robot collection, teleoperation, intervention, datasets, and processing |
 | [UMI](sections/umi.md) | 64 | Portable manipulation interfaces, robot-free demonstrations, and UMI recovery |
 | [Human / Egocentric](sections/human-egocentric.md) | 1809 | Human video, HOI, tracking, reconstruction, action extraction, and retargeting |
-| [Simulation](sections/simulation.md) | 2368 | Synthetic demonstrations, environments, assets, sensors, and sim–real systems |
+| [Simulation](sections/simulation.md) | 2370 | Synthetic demonstrations, environments, assets, sensors, and sim–real systems |
 
 A paper is stored once in [`data/papers.json`](data/papers.json) but may appear in multiple generated views. The archive uses arXiv `v1` dates and is updated daily by GitHub Actions. Promotion to the root README is always manual.
 
@@ -58,6 +58,8 @@ A paper is stored once in [`data/papers.json`](data/papers.json) but may appear 
 
 ### Simulation
 
+- 2026-08-10 — [Energy-Structured Latent World Models with Neural Time Fields for Physically Constistent Open-World Motion Planning](https://arxiv.org/abs/2608.09876)
+- 2026-08-10 — [Entanglement-Free Trajectory Planning for Tethered Mobile Robots with a Slack Tether](https://arxiv.org/abs/2608.09860)
 - 2026-08-10 — [SLIM-0.5B: Learning Action-Grounded Predictive Latents for Robot Manipulation](https://arxiv.org/abs/2608.09771)
 - 2026-08-10 — [Efficient Real-World Online Reinforcement Learning for Robot Manipulation via Centralized Training and Critic Decomposition](https://arxiv.org/abs/2608.09762)
 - 2026-08-10 — [Removing Infrastructure Barriers in Human-Robot Collaboration Through Wireless Reconfigurable Cells](https://arxiv.org/abs/2608.09658)
@@ -66,8 +68,6 @@ A paper is stored once in [`data/papers.json`](data/papers.json) but may appear 
 - 2026-08-10 — [WorldSimProbe: Diagnosing Simulator Faithfulness in Action-Conditioned World Models for Embodied Manipulation](https://arxiv.org/abs/2608.09298)
 - 2026-08-10 — [Trajectory Divergence Horizon Decision for Reliable Dual-Arm Surgical Subtask Manipulation](https://arxiv.org/abs/2608.09125)
 - 2026-08-09 — [RAG-Based Auto-Configuration for Industrial Fieldbus Devices](https://arxiv.org/abs/2608.08618)
-- 2026-08-09 — [EsaacSim: A Multimodal Event Camera Add-on for NVIDIA Isaac Sim](https://arxiv.org/abs/2608.08522)
-- 2026-08-08 — [Action- and Language-Conditioned Video Assessment for Embodied Control](https://arxiv.org/abs/2608.08273)
 
 ## Method
 

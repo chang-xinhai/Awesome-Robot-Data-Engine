@@ -4,12 +4,14 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-11 · **Papers:** 2368 · **Unique arXiv IDs:** 2368
+**Coverage:** 2025-01-01 to 2026-08-11 · **Papers:** 2370 · **Unique arXiv IDs:** 2370
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-10 | [Energy-Structured Latent World Models with Neural Time Fields for Physically Constistent Open-World Motion Planning](https://arxiv.org/abs/2608.09876) | Yapeng Liu, Yuanzhao Zhai, Bo Ding, et al. | cs.RO, cs.AI | Trajectory Generation | [abs](https://arxiv.org/abs/2608.09876) / [pdf](https://arxiv.org/pdf/2608.09876) |
+| 2026-08-10 | [Entanglement-Free Trajectory Planning for Tethered Mobile Robots with a Slack Tether](https://arxiv.org/abs/2608.09860) | Gianpietro Battocletti, Dimitris Boskos, Bart De Schutter | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2608.09860) / [pdf](https://arxiv.org/pdf/2608.09860) |
 | 2026-08-10 | [SLIM-0.5B: Learning Action-Grounded Predictive Latents for Robot Manipulation](https://arxiv.org/abs/2608.09771) | Jingkai Wang, Zihan Tang, Gu Zhang, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2608.09771) / [pdf](https://arxiv.org/pdf/2608.09771) |
 | 2026-08-10 | [Efficient Real-World Online Reinforcement Learning for Robot Manipulation via Centralized Training and Critic Decomposition](https://arxiv.org/abs/2608.09762) | Changhao Li, Yifang Zhang, Heng Zhang, et al. | cs.RO | Sim-to-Real, Domain Randomization | [abs](https://arxiv.org/abs/2608.09762) / [pdf](https://arxiv.org/pdf/2608.09762) |
 | 2026-08-10 | [Removing Infrastructure Barriers in Human-Robot Collaboration Through Wireless Reconfigurable Cells](https://arxiv.org/abs/2608.09658) | Emma Takács, Mátyás Hajós, Ádám Juniki, et al. | cs.RO, cs.CV, cs.HC | Synthetic Data | [abs](https://arxiv.org/abs/2608.09658) / [pdf](https://arxiv.org/pdf/2608.09658) |

@@ -1,6 +1,73 @@
 {
   "schema_version": 1,
   "papers": {
+    "2608.09876": {
+      "arxiv_id": "2608.09876",
+      "title": "Energy-Structured Latent World Models with Neural Time Fields for Physically Constistent Open-World Motion Planning",
+      "abstract": "Physically consistent motion planning remains a fundamental challenge in embodied AI, as generated trajectories must strictly conform to real-world execution dynamics. While latent world models offer a promising approach by predicting these dynamics, existing methods learn unconstrained future representations where absorbed physics remains implicit. Therefore, they fail to form reusable physical knowledge, which compromises reliability in unpredictable open-world navigation. To address this, we propose a novel Energy-Structured Latent World Model (ELWM). Our key idea is to structure the ELWM latent state to explicitly carry energy and momentum, ensuring strictly causal transitions via dissipation and control ports. Trained on multimodal RGB-D and inertial interaction histories, our model guarantees physically consistent predictions. We further implement this for motion planning by constructing Physics-Conditioned Neural Time Fields (PC-NTF), a key technical cornerstone that integrates ELWM into an arrival time field via the Eikonal equation to yield a physically-informed navigation policy. Across held-out scenes, our evaluation reveals significant improvements. Compared to generic latent models, PC-NTF reduces 0.8-s motion-prediction NRMSE from 0.36 to 0.29. Against Active Neural Time Fields, it improves navigation success from 81.3% to 89.7% and SPL from 0.64 to 0.73, while cutting the physical collision rate from 12.1% to 5.8% and the Eikonal residual from 0.083 to 0.031. Beyond these targeted gains, our results demonstrate that embedding explicit physical structures into latent spaces intrinsically bridges the gap between predictive world models and safe, dynamically feasible motion planning.",
+      "authors": [
+        "Yapeng Liu",
+        "Yuanzhao Zhai",
+        "Bo Ding",
+        "Huaimin Wang",
+        "Lin Wang"
+      ],
+      "published": "2026-08-10",
+      "updated": "2026-08-10",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "comment": "9 pages, 5 figures",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.09876",
+      "pdf_url": "https://arxiv.org/pdf/2608.09876",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Trajectory Generation"
+        ]
+      }
+    },
+    "2608.09860": {
+      "arxiv_id": "2608.09860",
+      "title": "Entanglement-Free Trajectory Planning for Tethered Mobile Robots with a Slack Tether",
+      "abstract": "In motion planning algorithms for tethered mobile robots, the entanglement state of the tether is a critical aspect to consider during the planning phase. This is particularly important in case of a slack tether, where the shape of the tether is not determined solely by the geometry of the environment and the location of the obstacles, but also by the dynamics of the tether, by the trajectory followed by the robot, and possibly by exogenous forces. In this scenario, preventing entanglement requires planning a robot trajectory that accounts for the entanglement definition and for the dynamics of the robot and of the tether. In this work, we propose a motion planning algorithm for tethered mobile robots with a slack tether that computes dynamically feasible entanglement-free trajectories to navigate through an environment with static obstacles. By considering the entanglement state during all the stages of the planning pipeline, we are able to compute safer trajectories that avoid entanglement during the motion of the robot. We achieve this through a three-step pipeline, which includes (i) the construction of a topological model of the entanglement-free configuration space of the tethered robot, (ii) the generation of a set of candidate paths using this model, and (iii) the computation of a dynamically feasible entanglement-free trajectory by solving a homotopy-constrained trajectory generation problem. The resulting trajectory can then be executed to lead the robot to its target location, while maintaining the tether in an entanglement-free configuration. We demonstrate the benefits of this algorithm in simulations, where we show how the planning algorithm avoids violations of the entanglement constraints, resulting in safer and more reliable trajectories.",
+      "authors": [
+        "Gianpietro Battocletti",
+        "Dimitris Boskos",
+        "Bart De Schutter"
+      ],
+      "published": "2026-08-10",
+      "updated": "2026-08-10",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": "19 pages, 13 figures",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.09860",
+      "pdf_url": "https://arxiv.org/pdf/2608.09860",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Trajectory Generation"
+        ]
+      }
+    },
     "2608.09771": {
       "arxiv_id": "2608.09771",
       "title": "SLIM-0.5B: Learning Action-Grounded Predictive Latents for Robot Manipulation",
@@ -194207,6 +194274,6 @@
   },
   "coverage_start": "2025-01-01",
   "coverage_end": "2026-08-11",
-  "paper_count": 5081,
-  "generated_at": "2026-08-11T02:25:35+00:00"
+  "paper_count": 5083,
+  "generated_at": "2026-08-11T13:10:22+00:00"
 }
