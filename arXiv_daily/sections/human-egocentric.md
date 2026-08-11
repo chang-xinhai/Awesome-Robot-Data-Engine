@@ -4,12 +4,20 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-10 · **Papers:** 1801 · **Unique arXiv IDs:** 1801
+**Coverage:** 2025-01-01 to 2026-08-11 · **Papers:** 1809 · **Unique arXiv IDs:** 1809
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-10 | [Removing Infrastructure Barriers in Human-Robot Collaboration Through Wireless Reconfigurable Cells](https://arxiv.org/abs/2608.09658) | Emma Takács, Mátyás Hajós, Ádám Juniki, et al. | cs.RO, cs.CV, cs.HC | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2608.09658) / [pdf](https://arxiv.org/pdf/2608.09658) |
+| 2026-08-10 | [EgoHieraLoc: A Cortically Inspired Hierarchical Segmentation-Guided Framework for Egocentric Visual Query Localization](https://arxiv.org/abs/2608.09656) | Yifei Cao, Guolong Wang, Mingliang Hou, et al. | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2608.09656) / [pdf](https://arxiv.org/pdf/2608.09656) |
+| 2026-08-10 | [From Semantic Grounding to Decision Optimization: A Unified Framework for Long-Horizon UAV Vision-Language Navigation](https://arxiv.org/abs/2608.09564) | Zeyuan Ma, Jiaxin Chen, Di Huang | cs.CV, cs.AI | Egocentric | [abs](https://arxiv.org/abs/2608.09564) / [pdf](https://arxiv.org/pdf/2608.09564) |
+| 2026-08-10 | [High Fidelity Capture, Reconstruction, and Transfer of Human Demonstrations for Robot-Assisted Bathing](https://arxiv.org/abs/2608.09127) | Arjun S. Lakshmipathy, Jonathan P. King, Ethan Zuo, et al. | cs.RO, cs.GR | Human Demonstration | [abs](https://arxiv.org/abs/2608.09127) / [pdf](https://arxiv.org/pdf/2608.09127) |
+| 2026-08-10 | [Personalized Lower-limb Exoskeleton Assistance via Preference-based Bayesian Optimization](https://arxiv.org/abs/2608.09015) | Xiao-Yin Liu, Guotao Li, Weiqun Wang, et al. | cs.RO | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2608.09015) / [pdf](https://arxiv.org/pdf/2608.09015) |
+| 2026-08-08 | [Ego-OSCAR: Egocentric Open source Stereo CAptuRe System](https://arxiv.org/abs/2608.08285) | Gunjan Paul, Senthil Palanisamy, Satpal Singh Rathore, et al. | cs.CV, cs.AR, cs.RO | Egocentric | [abs](https://arxiv.org/abs/2608.08285) / [pdf](https://arxiv.org/pdf/2608.08285) |
+| 2026-08-08 | [EgoTrack3D: A Modular Framework for Egocentric 3D Object Tracking](https://arxiv.org/abs/2608.08016) | Jan Kulik, Bjarni Dagur Thor Karason, Yung-Hsu Yang, et al. | cs.CV | Egocentric, Tracking / Reconstruction | [abs](https://arxiv.org/abs/2608.08016) / [pdf](https://arxiv.org/pdf/2608.08016) |
+| 2026-08-08 | [SCOUT: Self-Checking and Recovery-Aware Tool-Thought Agents for Ultra-Long Egocentric Video Reasoning](https://arxiv.org/abs/2608.07959) | Keyang Zhong, Kuo Wang, Peng Liu, et al. | cs.AI | Egocentric | [abs](https://arxiv.org/abs/2608.07959) / [pdf](https://arxiv.org/pdf/2608.07959) |
 | 2026-08-07 | [WNM-3D: A World Navigation Model with 3D Scene Conditioning for Closed-Loop VLN](https://arxiv.org/abs/2608.07267) | Yuehao Huang, Yunzi Wu, Xiaotao Zhang, et al. | cs.AI, cs.CV, cs.RO | Egocentric | [abs](https://arxiv.org/abs/2608.07267) / [pdf](https://arxiv.org/pdf/2608.07267) |
 | 2026-08-07 | [C2Dex: Contact-Consistent Reconstruction and Retargeting for Dexterous Manipulation from Monocular Video](https://arxiv.org/abs/2608.07045) | Jie Ren, Zhehao Jiang, Yinhong Yang, et al. | cs.RO, cs.CV | Hand-Object Interaction, Human Video, Tracking / Reconstruction | [abs](https://arxiv.org/abs/2608.07045) / [pdf](https://arxiv.org/pdf/2608.07045) |
 | 2026-08-07 | [CrossTracer: Cross-Embodiment Navigation via VLA Model Reasoning and Trace Residuals Adapting](https://arxiv.org/abs/2608.06688) | Yao Wang, Siyuan Wang, Zhirui Sun, et al. | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2608.06688) / [pdf](https://arxiv.org/pdf/2608.06688) |

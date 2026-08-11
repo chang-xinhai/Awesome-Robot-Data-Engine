@@ -4,12 +4,18 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-10 · **Papers:** 1918 · **Unique arXiv IDs:** 1918
+**Coverage:** 2025-01-01 to 2026-08-11 · **Papers:** 1926 · **Unique arXiv IDs:** 1926
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-10 | [Efficient Real-World Online Reinforcement Learning for Robot Manipulation via Centralized Training and Critic Decomposition](https://arxiv.org/abs/2608.09762) | Changhao Li, Yifang Zhang, Heng Zhang, et al. | cs.RO | Human Intervention | [abs](https://arxiv.org/abs/2608.09762) / [pdf](https://arxiv.org/pdf/2608.09762) |
+| 2026-08-10 | [TAMS: Task-Aware Multi-View Adaptive Streaming for Wireless Telerobotic Manipulation](https://arxiv.org/abs/2608.09731) | Zexin Deng, Zhenhui Yuan, Lu Tian, et al. | cs.RO, cs.MM | Teleoperation | [abs](https://arxiv.org/abs/2608.09731) / [pdf](https://arxiv.org/pdf/2608.09731) |
+| 2026-08-10 | [SpeedTuning: Speeding Up Policy Execution with Lightweight Reinforcement Learning](https://arxiv.org/abs/2608.09138) | David D. Yuan, Tony Z. Zhao, Kaylee Burns, et al. | cs.RO, cs.AI | Data Collection | [abs](https://arxiv.org/abs/2608.09138) / [pdf](https://arxiv.org/pdf/2608.09138) |
+| 2026-08-10 | [Trajectory Divergence Horizon Decision for Reliable Dual-Arm Surgical Subtask Manipulation](https://arxiv.org/abs/2608.09125) | Mingwu Su, Guankun Wang, Jinsong Lin, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2608.09125) / [pdf](https://arxiv.org/pdf/2608.09125) |
+| 2026-08-08 | [Spatiotemporal Context-dependent Personalized Movement Compensation in Delayed Telemanipulation](https://arxiv.org/abs/2608.08200) | Sai Jiang, Zonghe Chua | cs.RO, cs.HC, eess.SY | Teleoperation | [abs](https://arxiv.org/abs/2608.08200) / [pdf](https://arxiv.org/pdf/2608.08200) |
+| 2026-08-08 | [Auditing Instruction-Trajectory Mismatches in Multimodal Robot Demonstrations](https://arxiv.org/abs/2608.07895) | Simon Holk, Ryosuke Takanami, Tatsuya Matsushima, et al. | cs.RO, cs.LG | Robot Dataset | [abs](https://arxiv.org/abs/2608.07895) / [pdf](https://arxiv.org/pdf/2608.07895) |
 | 2026-08-07 | [WNM-3D: A World Navigation Model with 3D Scene Conditioning for Closed-Loop VLN](https://arxiv.org/abs/2608.07267) | Yuehao Huang, Yunzi Wu, Xiaotao Zhang, et al. | cs.AI, cs.CV, cs.RO | Human Intervention | [abs](https://arxiv.org/abs/2608.07267) / [pdf](https://arxiv.org/pdf/2608.07267) |
 | 2026-08-06 | [Fast and Accurate: An Adaptive VLA Inference Framework through Environment-aware Model Selection](https://arxiv.org/abs/2608.06434) | Yuewei Sun, Lang Qin, Zechuan Tian, et al. | cs.RO, cs.LG | Scalable Demonstrations | [abs](https://arxiv.org/abs/2608.06434) / [pdf](https://arxiv.org/pdf/2608.06434) |
 | 2026-08-06 | [$ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation](https://arxiv.org/abs/2608.06375) | Zhe Li, Zhenzhe Zhang, Yangyang Wei, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2608.06375) / [pdf](https://arxiv.org/pdf/2608.06375) |
@@ -33,11 +39,13 @@
 | 2026-08-03 | [Teleopit: A Full-Embodiment Humanoid Teleoperation System](https://arxiv.org/abs/2608.01834) | Bingqian Wu, Zicheng Xu, Xianghui Fan, et al. | cs.RO | Teleoperation, Data Collection | [abs](https://arxiv.org/abs/2608.01834) / [pdf](https://arxiv.org/pdf/2608.01834) |
 | 2026-08-03 | [TWINS: A Tactile Wearable Isomorphic Arm Networked System for Contact-Rich Manipulation Learning](https://arxiv.org/abs/2608.01733) | Takahide Kitamura, Masaki Murooka, Natsuki Yamanobe, et al. | cs.RO | Data Collection | [abs](https://arxiv.org/abs/2608.01733) / [pdf](https://arxiv.org/pdf/2608.01733) |
 | 2026-08-03 | [ProtoAct: Turning Wet-Lab Protocols into Embodied Robotic Actions](https://arxiv.org/abs/2608.01690) | Zhe Liu, Jiaming Gu, Zhaohui Du, et al. | cs.RO, cs.AI | Data Collection | [abs](https://arxiv.org/abs/2608.01690) / [pdf](https://arxiv.org/pdf/2608.01690) |
+| 2026-08-02 | [You Don't Need To Stay in The Loop: An Agentic Robotics Loop for Robot-Policy Improvement](https://arxiv.org/abs/2608.07555) | Hang Yu | cs.RO | Data Collection | [abs](https://arxiv.org/abs/2608.07555) / [pdf](https://arxiv.org/pdf/2608.07555) |
 | 2026-08-02 | [GaussianSelector: Lightweight Human-Guided Object Selection in 3D Gaussian Splatting with Graph Optimization](https://arxiv.org/abs/2608.01492) | Baihan Yang, Tiexin Li, Yuheng Liu, et al. | cs.CV | Human Intervention | [abs](https://arxiv.org/abs/2608.01492) / [pdf](https://arxiv.org/pdf/2608.01492) |
 | 2026-08-02 | [GenTrack: Physical Alignment for Robot-Native Motion Generation and Zero-Shot Humanoid Tracking](https://arxiv.org/abs/2608.01410) | Zeyu Ling, Xinyao Yu, Renye Yan, et al. | cs.RO, cs.CV | Data Collection | [abs](https://arxiv.org/abs/2608.01410) / [pdf](https://arxiv.org/pdf/2608.01410) |
 | 2026-08-02 | [KING: Embodiment-Aware Kinematic Graph Neural Network for Unified Motion Representation of Legged and Wheeled Robots](https://arxiv.org/abs/2608.01015) | Taku Okawara, Aoki Takanose, Kenji Koide, et al. | cs.RO, cs.AI | Robot Dataset | [abs](https://arxiv.org/abs/2608.01015) / [pdf](https://arxiv.org/pdf/2608.01015) |
 | 2026-08-02 | [RL Bootstrapping of OpenVLA-OFT for a Novel Robot Embodiment](https://arxiv.org/abs/2608.01013) | Damir Nurtdinov, Alexei Kornaev, Alexander Maloletov | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2608.01013) / [pdf](https://arxiv.org/pdf/2608.01013) |
 | 2026-08-02 | [VertiAKD: Adaptive Off-Road Kinodynamics on Vertically Challenging Terrain](https://arxiv.org/abs/2608.00945) | Tong Xu, Chenhui Pan, Francesco Cancelliere, et al. | cs.RO | Data Collection | [abs](https://arxiv.org/abs/2608.00945) / [pdf](https://arxiv.org/pdf/2608.00945) |
+| 2026-08-01 | [Self Supervised Learning from Automatically Generated Demonstrations for Visual Robotic Manipulation](https://arxiv.org/abs/2608.07553) | Andres Rivas, Anselmo R. Cukla, Rodrigo S. Guerra, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2608.07553) / [pdf](https://arxiv.org/pdf/2608.07553) |
 | 2026-08-01 | [GeminiPainter's sequence-formed pipeline comprised of perception, cognition, planning, and action stages](https://arxiv.org/abs/2608.00829) | Miguel Altamirano Cabrera, Aleksey Fedoseev, Iana Zhura, et al. | cs.RO | Robot Data Processing | [abs](https://arxiv.org/abs/2608.00829) / [pdf](https://arxiv.org/pdf/2608.00829) |
 
 ## 2026-07
