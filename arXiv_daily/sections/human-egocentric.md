@@ -4,12 +4,15 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-11 · **Papers:** 1809 · **Unique arXiv IDs:** 1809
+**Coverage:** 2025-01-01 to 2026-08-12 · **Papers:** 1812 · **Unique arXiv IDs:** 1812
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-11 | [HUI360: A 360° Egocentric Dataset and Baselines for Human-Robot Interaction Anticipation](https://arxiv.org/abs/2608.11051) | Raphael Lorenzo-Louis, Fabio Amadio, Bertrand Luvison, et al. | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2608.11051) / [pdf](https://arxiv.org/pdf/2608.11051) |
+| 2026-08-11 | [R4DSG: Relative 4D Scene Graph Memory for Object-Centric Question Answering in Long Egocentric Video](https://arxiv.org/abs/2608.11017) | Ke Ma, Yamin Mao, Weiming Li, et al. | cs.CV, cs.AI, cs.HC | Egocentric | [abs](https://arxiv.org/abs/2608.11017) / [pdf](https://arxiv.org/pdf/2608.11017) |
+| 2026-08-10 | [MAD-HOI: Masked Autoregressive Diffusion for Generating Articulated Hand Object Interactions from Text](https://arxiv.org/abs/2608.10162) | Ananya Bal, Kartik Sharma, Ethan Lai, et al. | cs.CV | Hand-Object Interaction | [abs](https://arxiv.org/abs/2608.10162) / [pdf](https://arxiv.org/pdf/2608.10162) |
 | 2026-08-10 | [Removing Infrastructure Barriers in Human-Robot Collaboration Through Wireless Reconfigurable Cells](https://arxiv.org/abs/2608.09658) | Emma Takács, Mátyás Hajós, Ádám Juniki, et al. | cs.RO, cs.CV, cs.HC | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2608.09658) / [pdf](https://arxiv.org/pdf/2608.09658) |
 | 2026-08-10 | [EgoHieraLoc: A Cortically Inspired Hierarchical Segmentation-Guided Framework for Egocentric Visual Query Localization](https://arxiv.org/abs/2608.09656) | Yifei Cao, Guolong Wang, Mingliang Hou, et al. | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2608.09656) / [pdf](https://arxiv.org/pdf/2608.09656) |
 | 2026-08-10 | [From Semantic Grounding to Decision Optimization: A Unified Framework for Long-Horizon UAV Vision-Language Navigation](https://arxiv.org/abs/2608.09564) | Zeyuan Ma, Jiaxin Chen, Di Huang | cs.CV, cs.AI | Egocentric | [abs](https://arxiv.org/abs/2608.09564) / [pdf](https://arxiv.org/pdf/2608.09564) |

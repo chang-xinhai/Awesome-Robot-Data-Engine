@@ -4,12 +4,15 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-11 · **Papers:** 2370 · **Unique arXiv IDs:** 2370
+**Coverage:** 2025-01-01 to 2026-08-12 · **Papers:** 2373 · **Unique arXiv IDs:** 2373
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-11 | [ComBodied Agents: a New Paradigm of Human-Centric Agentic AI](https://arxiv.org/abs/2608.10915) | Qianggang Ding, Xingyao Wang, Rui Feng, et al. | cs.AI | Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2608.10915) / [pdf](https://arxiv.org/pdf/2608.10915) |
+| 2026-08-11 | [Embodied Multimodal Grounding for Open-Vocabulary Mobile Manipulation via Semantic 3D Gaussian Splatting](https://arxiv.org/abs/2608.10756) | Huosen Ou, Dongni Song, Yuncong Wang, et al. | cs.RO, cs.CV | Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2608.10756) / [pdf](https://arxiv.org/pdf/2608.10756) |
+| 2026-08-10 | [Whole-Body Planning for Humanoids Navigating Confined Spaces via Self-Collision Avoidance References](https://arxiv.org/abs/2608.10220) | Carlos Gonzalez, Luis Sentis | cs.RO | Domain Randomization, Trajectory Generation | [abs](https://arxiv.org/abs/2608.10220) / [pdf](https://arxiv.org/pdf/2608.10220) |
 | 2026-08-10 | [Energy-Structured Latent World Models with Neural Time Fields for Physically Constistent Open-World Motion Planning](https://arxiv.org/abs/2608.09876) | Yapeng Liu, Yuanzhao Zhai, Bo Ding, et al. | cs.RO, cs.AI | Trajectory Generation | [abs](https://arxiv.org/abs/2608.09876) / [pdf](https://arxiv.org/pdf/2608.09876) |
 | 2026-08-10 | [Entanglement-Free Trajectory Planning for Tethered Mobile Robots with a Slack Tether](https://arxiv.org/abs/2608.09860) | Gianpietro Battocletti, Dimitris Boskos, Bart De Schutter | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2608.09860) / [pdf](https://arxiv.org/pdf/2608.09860) |
 | 2026-08-10 | [SLIM-0.5B: Learning Action-Grounded Predictive Latents for Robot Manipulation](https://arxiv.org/abs/2608.09771) | Jingkai Wang, Zihan Tang, Gu Zhang, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2608.09771) / [pdf](https://arxiv.org/pdf/2608.09771) |

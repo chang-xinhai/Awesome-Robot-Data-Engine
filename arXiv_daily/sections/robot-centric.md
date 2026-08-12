@@ -4,12 +4,18 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-11 · **Papers:** 1926 · **Unique arXiv IDs:** 1926
+**Coverage:** 2025-01-01 to 2026-08-12 · **Papers:** 1932 · **Unique arXiv IDs:** 1932
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-11 | [Surgical WAM: A World-Action Model for Data-Efficient Surgical Robot Learning](https://arxiv.org/abs/2608.11204) | Wenrui Bao, Tianyun Jiang, Zhiben Chen, et al. | cs.RO, cs.AI, cs.CV | Teleoperation | [abs](https://arxiv.org/abs/2608.11204) / [pdf](https://arxiv.org/pdf/2608.11204) |
+| 2026-08-11 | [HUI360: A 360° Egocentric Dataset and Baselines for Human-Robot Interaction Anticipation](https://arxiv.org/abs/2608.11051) | Raphael Lorenzo-Louis, Fabio Amadio, Bertrand Luvison, et al. | cs.CV | Robot Dataset | [abs](https://arxiv.org/abs/2608.11051) / [pdf](https://arxiv.org/pdf/2608.11051) |
+| 2026-08-11 | [Enabling Scalable Kinesthetic Teaching via Observer-based Hand-guiding with Active Support](https://arxiv.org/abs/2608.10847) | Anna Tuma, Giuseppe Monetti, Jochen J. Steil, et al. | cs.RO | Data Collection | [abs](https://arxiv.org/abs/2608.10847) / [pdf](https://arxiv.org/pdf/2608.10847) |
+| 2026-08-11 | [TCAM for Autonomous Deformable Manipulation: The RMC2 Champion System for WBCD 2026 Track 4](https://arxiv.org/abs/2608.10718) | Guangrui Shen, Zhili He, Shigang Wang, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2608.10718) / [pdf](https://arxiv.org/pdf/2608.10718) |
+| 2026-08-11 | [PBD-AG: Persistent Baseline-Delta Active Graphs with Uncertainty-Aware Inspection for Long-Horizon Service Robots](https://arxiv.org/abs/2608.10449) | Shuo Bao, Wei Dong, Shuyue Zhang, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2608.10449) / [pdf](https://arxiv.org/pdf/2608.10449) |
+| 2026-08-11 | [A Neural Network Based Teleoperation for Remote Controlled Vehicles](https://arxiv.org/abs/2608.10367) | Ning Ding, Azim Eskandarian | cs.RO, cs.HC | Teleoperation | [abs](https://arxiv.org/abs/2608.10367) / [pdf](https://arxiv.org/pdf/2608.10367) |
 | 2026-08-10 | [Efficient Real-World Online Reinforcement Learning for Robot Manipulation via Centralized Training and Critic Decomposition](https://arxiv.org/abs/2608.09762) | Changhao Li, Yifang Zhang, Heng Zhang, et al. | cs.RO | Human Intervention | [abs](https://arxiv.org/abs/2608.09762) / [pdf](https://arxiv.org/pdf/2608.09762) |
 | 2026-08-10 | [TAMS: Task-Aware Multi-View Adaptive Streaming for Wireless Telerobotic Manipulation](https://arxiv.org/abs/2608.09731) | Zexin Deng, Zhenhui Yuan, Lu Tian, et al. | cs.RO, cs.MM | Teleoperation | [abs](https://arxiv.org/abs/2608.09731) / [pdf](https://arxiv.org/pdf/2608.09731) |
 | 2026-08-10 | [SpeedTuning: Speeding Up Policy Execution with Lightweight Reinforcement Learning](https://arxiv.org/abs/2608.09138) | David D. Yuan, Tony Z. Zhao, Kaylee Burns, et al. | cs.RO, cs.AI | Data Collection | [abs](https://arxiv.org/abs/2608.09138) / [pdf](https://arxiv.org/pdf/2608.09138) |

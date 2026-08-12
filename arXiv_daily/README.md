@@ -2,16 +2,16 @@
 
 > A high-recall candidate archive for manual curation into [Awesome Robot Data Engine](../README.md). It is intentionally broader than the curated list.
 
-**Coverage:** 2025-01-01 to 2026-08-11 · **Unique papers:** 5083
+**Coverage:** 2025-01-01 to 2026-08-12 · **Unique papers:** 5094
 
 ## Sections
 
 | Section | Papers | Scope |
 | :------ | -----: | :---- |
-| [Robot-Centric](sections/robot-centric.md) | 1926 | Real-robot collection, teleoperation, intervention, datasets, and processing |
-| [UMI](sections/umi.md) | 64 | Portable manipulation interfaces, robot-free demonstrations, and UMI recovery |
-| [Human / Egocentric](sections/human-egocentric.md) | 1809 | Human video, HOI, tracking, reconstruction, action extraction, and retargeting |
-| [Simulation](sections/simulation.md) | 2370 | Synthetic demonstrations, environments, assets, sensors, and sim–real systems |
+| [Robot-Centric](sections/robot-centric.md) | 1932 | Real-robot collection, teleoperation, intervention, datasets, and processing |
+| [UMI](sections/umi.md) | 65 | Portable manipulation interfaces, robot-free demonstrations, and UMI recovery |
+| [Human / Egocentric](sections/human-egocentric.md) | 1812 | Human video, HOI, tracking, reconstruction, action extraction, and retargeting |
+| [Simulation](sections/simulation.md) | 2373 | Synthetic demonstrations, environments, assets, sensors, and sim–real systems |
 
 A paper is stored once in [`data/papers.json`](data/papers.json) but may appear in multiple generated views. The archive uses arXiv `v1` dates and is updated daily by GitHub Actions. Promotion to the root README is always manual.
 
@@ -19,19 +19,20 @@ A paper is stored once in [`data/papers.json`](data/papers.json) but may appear 
 
 ### Robot-Centric
 
+- 2026-08-11 — [Surgical WAM: A World-Action Model for Data-Efficient Surgical Robot Learning](https://arxiv.org/abs/2608.11204)
+- 2026-08-11 — [HUI360: A 360° Egocentric Dataset and Baselines for Human-Robot Interaction Anticipation](https://arxiv.org/abs/2608.11051)
+- 2026-08-11 — [Enabling Scalable Kinesthetic Teaching via Observer-based Hand-guiding with Active Support](https://arxiv.org/abs/2608.10847)
+- 2026-08-11 — [TCAM for Autonomous Deformable Manipulation: The RMC2 Champion System for WBCD 2026 Track 4](https://arxiv.org/abs/2608.10718)
+- 2026-08-11 — [PBD-AG: Persistent Baseline-Delta Active Graphs with Uncertainty-Aware Inspection for Long-Horizon Service Robots](https://arxiv.org/abs/2608.10449)
+- 2026-08-11 — [A Neural Network Based Teleoperation for Remote Controlled Vehicles](https://arxiv.org/abs/2608.10367)
 - 2026-08-10 — [Efficient Real-World Online Reinforcement Learning for Robot Manipulation via Centralized Training and Critic Decomposition](https://arxiv.org/abs/2608.09762)
 - 2026-08-10 — [TAMS: Task-Aware Multi-View Adaptive Streaming for Wireless Telerobotic Manipulation](https://arxiv.org/abs/2608.09731)
 - 2026-08-10 — [SpeedTuning: Speeding Up Policy Execution with Lightweight Reinforcement Learning](https://arxiv.org/abs/2608.09138)
 - 2026-08-10 — [Trajectory Divergence Horizon Decision for Reliable Dual-Arm Surgical Subtask Manipulation](https://arxiv.org/abs/2608.09125)
-- 2026-08-08 — [Spatiotemporal Context-dependent Personalized Movement Compensation in Delayed Telemanipulation](https://arxiv.org/abs/2608.08200)
-- 2026-08-08 — [Auditing Instruction-Trajectory Mismatches in Multimodal Robot Demonstrations](https://arxiv.org/abs/2608.07895)
-- 2026-08-07 — [WNM-3D: A World Navigation Model with 3D Scene Conditioning for Closed-Loop VLN](https://arxiv.org/abs/2608.07267)
-- 2026-08-06 — [Fast and Accurate: An Adaptive VLA Inference Framework through Environment-aware Model Selection](https://arxiv.org/abs/2608.06434)
-- 2026-08-06 — [$ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation](https://arxiv.org/abs/2608.06375)
-- 2026-08-06 — [A Master-Slave Robot Manipulator for Needle-Based Teleoperation in MRI Chamber](https://arxiv.org/abs/2608.06354)
 
 ### UMI
 
+- 2026-08-11 — [TCAM for Autonomous Deformable Manipulation: The RMC2 Champion System for WBCD 2026 Track 4](https://arxiv.org/abs/2608.10718)
 - 2026-08-02 — [CAAT: Contact-Aware Attention Scaling and Tactile Masking for Data-Efficient Contact-Rich Manipulation](https://arxiv.org/abs/2608.01102)
 - 2026-07-28 — [HiFi-UMI: Learning Deployable Manipulation Policies from High-Fidelity UMI Data Alone](https://arxiv.org/abs/2607.25895)
 - 2026-07-27 — [Data Pyramid for Embodied Manipulation](https://arxiv.org/abs/2607.24744)
@@ -41,10 +42,12 @@ A paper is stored once in [`data/papers.json`](data/papers.json) but may appear 
 - 2026-06-25 — [HumanoidUMI: Bridging Robot-Free Demonstrations and Humanoid Whole-Body Manipulation](https://arxiv.org/abs/2606.27239)
 - 2026-06-25 — [Bridging Handheld and Teleoperated Supervision for Contact-Rich Manipulation via State-Gated Experts](https://arxiv.org/abs/2606.26603)
 - 2026-06-20 — [OpenHLM: An Empirical Recipe for Whole-Body Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.22174)
-- 2026-06-17 — [HALOMI: Learning Humanoid Loco-Manipulation with Active Perception from Human Demonstrations](https://arxiv.org/abs/2606.18772)
 
 ### Human / Egocentric
 
+- 2026-08-11 — [HUI360: A 360° Egocentric Dataset and Baselines for Human-Robot Interaction Anticipation](https://arxiv.org/abs/2608.11051)
+- 2026-08-11 — [R4DSG: Relative 4D Scene Graph Memory for Object-Centric Question Answering in Long Egocentric Video](https://arxiv.org/abs/2608.11017)
+- 2026-08-10 — [MAD-HOI: Masked Autoregressive Diffusion for Generating Articulated Hand Object Interactions from Text](https://arxiv.org/abs/2608.10162)
 - 2026-08-10 — [Removing Infrastructure Barriers in Human-Robot Collaboration Through Wireless Reconfigurable Cells](https://arxiv.org/abs/2608.09658)
 - 2026-08-10 — [EgoHieraLoc: A Cortically Inspired Hierarchical Segmentation-Guided Framework for Egocentric Visual Query Localization](https://arxiv.org/abs/2608.09656)
 - 2026-08-10 — [From Semantic Grounding to Decision Optimization: A Unified Framework for Long-Horizon UAV Vision-Language Navigation](https://arxiv.org/abs/2608.09564)
@@ -52,12 +55,12 @@ A paper is stored once in [`data/papers.json`](data/papers.json) but may appear 
 - 2026-08-10 — [Personalized Lower-limb Exoskeleton Assistance via Preference-based Bayesian Optimization](https://arxiv.org/abs/2608.09015)
 - 2026-08-08 — [Ego-OSCAR: Egocentric Open source Stereo CAptuRe System](https://arxiv.org/abs/2608.08285)
 - 2026-08-08 — [EgoTrack3D: A Modular Framework for Egocentric 3D Object Tracking](https://arxiv.org/abs/2608.08016)
-- 2026-08-08 — [SCOUT: Self-Checking and Recovery-Aware Tool-Thought Agents for Ultra-Long Egocentric Video Reasoning](https://arxiv.org/abs/2608.07959)
-- 2026-08-07 — [WNM-3D: A World Navigation Model with 3D Scene Conditioning for Closed-Loop VLN](https://arxiv.org/abs/2608.07267)
-- 2026-08-07 — [C2Dex: Contact-Consistent Reconstruction and Retargeting for Dexterous Manipulation from Monocular Video](https://arxiv.org/abs/2608.07045)
 
 ### Simulation
 
+- 2026-08-11 — [ComBodied Agents: a New Paradigm of Human-Centric Agentic AI](https://arxiv.org/abs/2608.10915)
+- 2026-08-11 — [Embodied Multimodal Grounding for Open-Vocabulary Mobile Manipulation via Semantic 3D Gaussian Splatting](https://arxiv.org/abs/2608.10756)
+- 2026-08-10 — [Whole-Body Planning for Humanoids Navigating Confined Spaces via Self-Collision Avoidance References](https://arxiv.org/abs/2608.10220)
 - 2026-08-10 — [Energy-Structured Latent World Models with Neural Time Fields for Physically Constistent Open-World Motion Planning](https://arxiv.org/abs/2608.09876)
 - 2026-08-10 — [Entanglement-Free Trajectory Planning for Tethered Mobile Robots with a Slack Tether](https://arxiv.org/abs/2608.09860)
 - 2026-08-10 — [SLIM-0.5B: Learning Action-Grounded Predictive Latents for Robot Manipulation](https://arxiv.org/abs/2608.09771)
@@ -65,9 +68,6 @@ A paper is stored once in [`data/papers.json`](data/papers.json) but may appear 
 - 2026-08-10 — [Removing Infrastructure Barriers in Human-Robot Collaboration Through Wireless Reconfigurable Cells](https://arxiv.org/abs/2608.09658)
 - 2026-08-10 — [A Height-Constrained 2-Point Minimal Solver for Pose Estimation from Active LED Markers with Event Cameras](https://arxiv.org/abs/2608.09520)
 - 2026-08-10 — [SAFE-CHEM: Uncertainty-Aware Policy Switching for Robust Robotic Chemistry](https://arxiv.org/abs/2608.09303)
-- 2026-08-10 — [WorldSimProbe: Diagnosing Simulator Faithfulness in Action-Conditioned World Models for Embodied Manipulation](https://arxiv.org/abs/2608.09298)
-- 2026-08-10 — [Trajectory Divergence Horizon Decision for Reliable Dual-Arm Surgical Subtask Manipulation](https://arxiv.org/abs/2608.09125)
-- 2026-08-09 — [RAG-Based Auto-Configuration for Industrial Fieldbus Devices](https://arxiv.org/abs/2608.08618)
 
 ## Method
 
