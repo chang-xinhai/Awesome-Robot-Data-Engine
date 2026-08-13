@@ -4,12 +4,16 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-12 · **Papers:** 2373 · **Unique arXiv IDs:** 2373
+**Coverage:** 2025-01-01 to 2026-08-13 · **Papers:** 2377 · **Unique arXiv IDs:** 2377
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-12 | [Learning Loco-Manipulation From SMPC Demonstrations With Sparse Offline-to-Online RL](https://arxiv.org/abs/2608.12063) | Martin Schuck, Maks Sorokin, Simone Manni, et al. | cs.RO, cs.AI | Sim-to-Real | [abs](https://arxiv.org/abs/2608.12063) / [pdf](https://arxiv.org/pdf/2608.12063) |
+| 2026-08-12 | [D3D-GEN: Robot-Aware Domain-Grounded Interactive 3D World Generation for Social Robotics](https://arxiv.org/abs/2608.11876) | Anh Duc Do, Volodymyr Scherbyna, Tai Duc Nguyen, et al. | cs.RO, cs.HC | Simulation Data, Task / Scene Generation | [abs](https://arxiv.org/abs/2608.11876) / [pdf](https://arxiv.org/pdf/2608.11876) |
+| 2026-08-12 | [Policy-Induced Hand Priors in Humanoid Dual-Arm Manipulation: Diagnosing and Mitigating Initial-Pose Dependence](https://arxiv.org/abs/2608.11769) | Chaeyeon Jung, Juyoun Park | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2608.11769) / [pdf](https://arxiv.org/pdf/2608.11769) |
+| 2026-08-12 | [Keep the Future, Drop the Rollout: RIFT for World Action Models](https://arxiv.org/abs/2608.11521) | Chushan Zhang, Jinguang Tong, Xuesong Li, et al. | cs.RO, cs.AI | Trajectory Generation | [abs](https://arxiv.org/abs/2608.11521) / [pdf](https://arxiv.org/pdf/2608.11521) |
 | 2026-08-11 | [ComBodied Agents: a New Paradigm of Human-Centric Agentic AI](https://arxiv.org/abs/2608.10915) | Qianggang Ding, Xingyao Wang, Rui Feng, et al. | cs.AI | Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2608.10915) / [pdf](https://arxiv.org/pdf/2608.10915) |
 | 2026-08-11 | [Embodied Multimodal Grounding for Open-Vocabulary Mobile Manipulation via Semantic 3D Gaussian Splatting](https://arxiv.org/abs/2608.10756) | Huosen Ou, Dongni Song, Yuncong Wang, et al. | cs.RO, cs.CV | Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2608.10756) / [pdf](https://arxiv.org/pdf/2608.10756) |
 | 2026-08-10 | [Whole-Body Planning for Humanoids Navigating Confined Spaces via Self-Collision Avoidance References](https://arxiv.org/abs/2608.10220) | Carlos Gonzalez, Luis Sentis | cs.RO | Domain Randomization, Trajectory Generation | [abs](https://arxiv.org/abs/2608.10220) / [pdf](https://arxiv.org/pdf/2608.10220) |

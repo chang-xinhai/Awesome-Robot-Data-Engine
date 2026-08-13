@@ -4,12 +4,16 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-12 · **Papers:** 1932 · **Unique arXiv IDs:** 1932
+**Coverage:** 2025-01-01 to 2026-08-13 · **Papers:** 1936 · **Unique arXiv IDs:** 1936
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-12 | [HandEdit: A Unified Benchmark for Egocentric Human-to-Robot Dexterous Hand Image Editing](https://arxiv.org/abs/2608.12122) | Zhenjie Yang, Xingyu Jiao, Guopeng Zhong, et al. | cs.RO, cs.CV | Teleoperation, Robot Dataset | [abs](https://arxiv.org/abs/2608.12122) / [pdf](https://arxiv.org/pdf/2608.12122) |
+| 2026-08-12 | [G0.5: One Autoregressive Stream for Robot Reasoning and Action](https://arxiv.org/abs/2608.11739) | Yicheng Liu, Zibin Dong, Baijun Ye, et al. | cs.RO, cs.AI | Robot Dataset, Data Collection | [abs](https://arxiv.org/abs/2608.11739) / [pdf](https://arxiv.org/pdf/2608.11739) |
+| 2026-08-12 | [Foresight Without Seeing: Latent Futures for World Action Models](https://arxiv.org/abs/2608.11605) | Jiakai Huang, Zhongbo Wu, Zheng Zhang, et al. | cs.AI | Robot Dataset | [abs](https://arxiv.org/abs/2608.11605) / [pdf](https://arxiv.org/pdf/2608.11605) |
+| 2026-08-11 | [Adaptation of Generalist Robot Policies with Minimal Data](https://arxiv.org/abs/2608.11363) | Shreyas Kowshik, Sreyas Venkataraman, Leo Wang, et al. | cs.RO, cs.LG | Data Collection | [abs](https://arxiv.org/abs/2608.11363) / [pdf](https://arxiv.org/pdf/2608.11363) |
 | 2026-08-11 | [Surgical WAM: A World-Action Model for Data-Efficient Surgical Robot Learning](https://arxiv.org/abs/2608.11204) | Wenrui Bao, Tianyun Jiang, Zhiben Chen, et al. | cs.RO, cs.AI, cs.CV | Teleoperation | [abs](https://arxiv.org/abs/2608.11204) / [pdf](https://arxiv.org/pdf/2608.11204) |
 | 2026-08-11 | [HUI360: A 360° Egocentric Dataset and Baselines for Human-Robot Interaction Anticipation](https://arxiv.org/abs/2608.11051) | Raphael Lorenzo-Louis, Fabio Amadio, Bertrand Luvison, et al. | cs.CV | Robot Dataset | [abs](https://arxiv.org/abs/2608.11051) / [pdf](https://arxiv.org/pdf/2608.11051) |
 | 2026-08-11 | [Enabling Scalable Kinesthetic Teaching via Observer-based Hand-guiding with Active Support](https://arxiv.org/abs/2608.10847) | Anna Tuma, Giuseppe Monetti, Jochen J. Steil, et al. | cs.RO | Data Collection | [abs](https://arxiv.org/abs/2608.10847) / [pdf](https://arxiv.org/pdf/2608.10847) |

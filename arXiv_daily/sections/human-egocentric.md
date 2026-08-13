@@ -4,12 +4,14 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-12 · **Papers:** 1812 · **Unique arXiv IDs:** 1812
+**Coverage:** 2025-01-01 to 2026-08-13 · **Papers:** 1814 · **Unique arXiv IDs:** 1814
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-12 | [HandEdit: A Unified Benchmark for Egocentric Human-to-Robot Dexterous Hand Image Editing](https://arxiv.org/abs/2608.12122) | Zhenjie Yang, Xingyu Jiao, Guopeng Zhong, et al. | cs.RO, cs.CV | Egocentric, Human Video, Human-to-Robot | [abs](https://arxiv.org/abs/2608.12122) / [pdf](https://arxiv.org/pdf/2608.12122) |
+| 2026-08-12 | [StellaVLA: In-Context Structured Demonstration for Generalizable Vision-Language-Action Models](https://arxiv.org/abs/2608.11671) | Siyu Xu, Yunke Wang, Zijian Wang, et al. | cs.RO | Human-to-Robot | [abs](https://arxiv.org/abs/2608.11671) / [pdf](https://arxiv.org/pdf/2608.11671) |
 | 2026-08-11 | [HUI360: A 360° Egocentric Dataset and Baselines for Human-Robot Interaction Anticipation](https://arxiv.org/abs/2608.11051) | Raphael Lorenzo-Louis, Fabio Amadio, Bertrand Luvison, et al. | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2608.11051) / [pdf](https://arxiv.org/pdf/2608.11051) |
 | 2026-08-11 | [R4DSG: Relative 4D Scene Graph Memory for Object-Centric Question Answering in Long Egocentric Video](https://arxiv.org/abs/2608.11017) | Ke Ma, Yamin Mao, Weiming Li, et al. | cs.CV, cs.AI, cs.HC | Egocentric | [abs](https://arxiv.org/abs/2608.11017) / [pdf](https://arxiv.org/pdf/2608.11017) |
 | 2026-08-10 | [MAD-HOI: Masked Autoregressive Diffusion for Generating Articulated Hand Object Interactions from Text](https://arxiv.org/abs/2608.10162) | Ananya Bal, Kartik Sharma, Ethan Lai, et al. | cs.CV | Hand-Object Interaction | [abs](https://arxiv.org/abs/2608.10162) / [pdf](https://arxiv.org/pdf/2608.10162) |
