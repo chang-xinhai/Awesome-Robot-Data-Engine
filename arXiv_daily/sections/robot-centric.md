@@ -4,12 +4,17 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-13 · **Papers:** 1936 · **Unique arXiv IDs:** 1936
+**Coverage:** 2025-01-01 to 2026-08-14 · **Papers:** 1941 · **Unique arXiv IDs:** 1941
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-13 | [HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark](https://arxiv.org/abs/2608.13555) | Dairu Liu, Zekun Qi, Jiayu Zeng, et al. | cs.RO, cs.AI, cs.CV | Teleoperation | [abs](https://arxiv.org/abs/2608.13555) / [pdf](https://arxiv.org/pdf/2608.13555) |
+| 2026-08-13 | [NestDex: Nested Policy Learning with Copilot Assisted Teleoperation for Dexterous Manipulation](https://arxiv.org/abs/2608.13362) | James Zhao, Jinhe Tang, Mingyuan Ba, et al. | cs.RO | Teleoperation, Data Collection | [abs](https://arxiv.org/abs/2608.13362) / [pdf](https://arxiv.org/pdf/2608.13362) |
+| 2026-08-13 | [Predictive Relative-Velocity Steering for Safe Robotic Manipulator Teleoperation in Dynamic Environments](https://arxiv.org/abs/2608.13284) | Changhao Hu, Zeyi Liu, Songqiao Hu, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2608.13284) / [pdf](https://arxiv.org/pdf/2608.13284) |
+| 2026-08-13 | [H2R-Bench: Benchmarking Human-to-Robot Manipulation Video Generation in World Models](https://arxiv.org/abs/2608.13049) | Dingyi Rong, Yue Shi, Chaofan Ma, et al. | cs.RO, cs.CV | Robot Dataset, Data Collection | [abs](https://arxiv.org/abs/2608.13049) / [pdf](https://arxiv.org/pdf/2608.13049) |
+| 2026-08-13 | [HumanoidVLN: A Physics-Grounded Simulator and Benchmark for Vision-Language Navigation Across Diverse Humanoid Embodiments](https://arxiv.org/abs/2608.12860) | Quan-Dung Pham, Anh Dao, The-Anh Nguyen, et al. | cs.RO | Human Intervention | [abs](https://arxiv.org/abs/2608.12860) / [pdf](https://arxiv.org/pdf/2608.12860) |
 | 2026-08-12 | [HandEdit: A Unified Benchmark for Egocentric Human-to-Robot Dexterous Hand Image Editing](https://arxiv.org/abs/2608.12122) | Zhenjie Yang, Xingyu Jiao, Guopeng Zhong, et al. | cs.RO, cs.CV | Teleoperation, Robot Dataset | [abs](https://arxiv.org/abs/2608.12122) / [pdf](https://arxiv.org/pdf/2608.12122) |
 | 2026-08-12 | [G0.5: One Autoregressive Stream for Robot Reasoning and Action](https://arxiv.org/abs/2608.11739) | Yicheng Liu, Zibin Dong, Baijun Ye, et al. | cs.RO, cs.AI | Robot Dataset, Data Collection | [abs](https://arxiv.org/abs/2608.11739) / [pdf](https://arxiv.org/pdf/2608.11739) |
 | 2026-08-12 | [Foresight Without Seeing: Latent Futures for World Action Models](https://arxiv.org/abs/2608.11605) | Jiakai Huang, Zhongbo Wu, Zheng Zhang, et al. | cs.AI | Robot Dataset | [abs](https://arxiv.org/abs/2608.11605) / [pdf](https://arxiv.org/pdf/2608.11605) |

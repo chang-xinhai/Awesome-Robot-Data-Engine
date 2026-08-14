@@ -4,12 +4,20 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-13 · **Papers:** 1814 · **Unique arXiv IDs:** 1814
+**Coverage:** 2025-01-01 to 2026-08-14 · **Papers:** 1822 · **Unique arXiv IDs:** 1822
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-13 | [Towards Context-Aware Clinical Motion Understanding in Daily Living at Home: Freezing of Gait Detection with Egocentric Vision](https://arxiv.org/abs/2608.13283) | Vayalet Stefanova, Diwas Lamsal, Margot Genbrugge, et al. | cs.AI | Egocentric | [abs](https://arxiv.org/abs/2608.13283) / [pdf](https://arxiv.org/pdf/2608.13283) |
+| 2026-08-13 | [EgoMonth: A Month-Level Egocentric Video Benchmark for Long-Term Spatiotemporal Memory](https://arxiv.org/abs/2608.13113) | Weitao Chen, Hu Jiaxin, Xie Tianyidan, et al. | cs.CV, cs.AI | Egocentric | [abs](https://arxiv.org/abs/2608.13113) / [pdf](https://arxiv.org/pdf/2608.13113) |
+| 2026-08-13 | [H2R-Bench: Benchmarking Human-to-Robot Manipulation Video Generation in World Models](https://arxiv.org/abs/2608.13049) | Dingyi Rong, Yue Shi, Chaofan Ma, et al. | cs.RO, cs.CV | Egocentric, Human Demonstration, Human-to-Robot | [abs](https://arxiv.org/abs/2608.13049) / [pdf](https://arxiv.org/pdf/2608.13049) |
+| 2026-08-13 | [RGB-D Video Generation for Improving Human-to-Robot Object Handover Prediction](https://arxiv.org/abs/2608.13028) | Tianyu Sun, Zhoujie Fu, Zihui Gao, et al. | cs.CV, cs.RO | Hand-Object Interaction, Human-to-Robot | [abs](https://arxiv.org/abs/2608.13028) / [pdf](https://arxiv.org/pdf/2608.13028) |
+| 2026-08-13 | [EgoPHI: Estimating Contact and Force from Egocentric Vision](https://arxiv.org/abs/2608.13014) | Andela Ilic, Rachel Schuchert, Yijing Jiang, et al. | cs.CV, cs.GR, cs.HC | Egocentric, Hand-Object Interaction, Affordance / Contact | [abs](https://arxiv.org/abs/2608.13014) / [pdf](https://arxiv.org/pdf/2608.13014) |
+| 2026-08-13 | [HumanoidVLN: A Physics-Grounded Simulator and Benchmark for Vision-Language Navigation Across Diverse Humanoid Embodiments](https://arxiv.org/abs/2608.12860) | Quan-Dung Pham, Anh Dao, The-Anh Nguyen, et al. | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2608.12860) / [pdf](https://arxiv.org/pdf/2608.12860) |
+| 2026-08-12 | [EgoCITE: Context-Augmented Indexing and Time-Aware Retrieval for Long-Horizon Egocentric Memory](https://arxiv.org/abs/2608.12627) | Le Zhang, Ke Sun | cs.CV, cs.AI, cs.CL | Egocentric, First-Person | [abs](https://arxiv.org/abs/2608.12627) / [pdf](https://arxiv.org/pdf/2608.12627) |
+| 2026-08-12 | [Can Vision-Language Models Assess Proxemic Risk from Egocentric Robot Images?](https://arxiv.org/abs/2608.12515) | Vladyslava Rudas, Dmytro Kuzmenko | cs.CV, cs.RO | Egocentric | [abs](https://arxiv.org/abs/2608.12515) / [pdf](https://arxiv.org/pdf/2608.12515) |
 | 2026-08-12 | [HandEdit: A Unified Benchmark for Egocentric Human-to-Robot Dexterous Hand Image Editing](https://arxiv.org/abs/2608.12122) | Zhenjie Yang, Xingyu Jiao, Guopeng Zhong, et al. | cs.RO, cs.CV | Egocentric, Human Video, Human-to-Robot | [abs](https://arxiv.org/abs/2608.12122) / [pdf](https://arxiv.org/pdf/2608.12122) |
 | 2026-08-12 | [StellaVLA: In-Context Structured Demonstration for Generalizable Vision-Language-Action Models](https://arxiv.org/abs/2608.11671) | Siyu Xu, Yunke Wang, Zijian Wang, et al. | cs.RO | Human-to-Robot | [abs](https://arxiv.org/abs/2608.11671) / [pdf](https://arxiv.org/pdf/2608.11671) |
 | 2026-08-11 | [HUI360: A 360° Egocentric Dataset and Baselines for Human-Robot Interaction Anticipation](https://arxiv.org/abs/2608.11051) | Raphael Lorenzo-Louis, Fabio Amadio, Bertrand Luvison, et al. | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2608.11051) / [pdf](https://arxiv.org/pdf/2608.11051) |
