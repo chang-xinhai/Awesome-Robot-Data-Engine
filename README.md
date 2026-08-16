@@ -128,6 +128,7 @@ curation, and representative real-world datasets.
 
 | Date | Keywords | Institute (first) | Paper | Publication | Others |
 | :--: | :------: | :---------------: | :---: | :---------: | :----: |
+| 2026-08-13 | Copilot Teleoperation, Dexterous Hand, Demonstration Collection | University of Sydney | [NestDex: Nested Policy Learning with Copilot Assisted Teleoperation for Dexterous Manipulation](https://arxiv.org/abs/2608.13362) | arXiv | [project](https://aus.bot/research/nestdex) |
 | 2026-07-30 | Kinesthetic Guidance, Dexterous Hand, Low-Setup Collection | UCLA | [DexDirect: Direct Kinesthetic Arm Guidance for Efficient Dexterous Demonstration Collection](https://arxiv.org/abs/2607.27784) | arXiv | — |
 | 2026-07-21 | Modular Teleoperation, Bimanual Mobile, Wearable Backpack | Stanford | [ModPack: An Extensible Teleoperation Interface for Bimanual Mobile Manipulation](https://arxiv.org/abs/2607.19479) | arXiv | [project](https://modpack-robotics.github.io/) |
 | 2026-07-20 | Leader–Follower, Dual-Arm, Open Hardware | University of Tokyo | [MEVION: Low-Cost Open-Source Data Collection System for Powerful and High-Speed Dual-Arm Manipulation](https://arxiv.org/abs/2607.17970) | IEEE RAP 2026 | [project](https://haraduka.github.io/mevion-hardware/) / [github](https://github.com/haraduka/mevion) |
@@ -489,6 +490,7 @@ activity into robot-usable supervision.
 
 | Date | Keywords | Institute (first) | Paper | Publication | Others |
 | :--: | :------: | :---------------: | :---: | :---------: | :----: |
+| 2026-08-03 | Ego-to-Robot Synthesis, Quality Curation, 18,561 h, 15 Embodiments | AIM3 Lab, Renmin University of China | [Ego2Robot: Scalable Robot Data Synthesis from Egocentric Human Data](https://arxiv.org/abs/2608.02580) | arXiv | [project](https://www-ye.github.io/ego2robot_blog/) |
 | 2026-07-29 | Human Video, Graph Transfer, Physics-Verified Robot Data | Huazhong University of Science and Technology | [From Passive Video to Editable Experience: Physically Grounded Experience Synthesis for Embodied Intelligence](https://arxiv.org/abs/2607.26903) | arXiv | — |
 | 2026-06-21 | Egocentric Processing Stack, 9.6K h, Steerable Policy | Peking University | [EgoSteer: A Full-Stack System Towards Steerable Dexterous Manipulation from Egocentric Videos](https://arxiv.org/abs/2607.09701) | arXiv | [project](https://egosteer.github.io/) / [github](https://github.com/egosteer/egosteer) / [models](https://huggingface.co/EgoSteer) |
 | 2026-06-18 | Controlled Scaling, Ego vs Robot Data, VLA | Peking University | [HumanScale: Egocentric Human Video Can Outperform Real-Robot Data for Embodied Pretraining](https://arxiv.org/abs/2606.20521) | arXiv | [github](https://github.com/DAGroup-PKU/HumanNet) |
@@ -912,6 +914,8 @@ data source—is its primary asset.
 
 | Date | Keywords | Institute (first) | Paper | Publication | Others |
 | :--: | :------: | :---------------: | :---: | :---------: | :----: |
+| 2026-08-08 | Instruction–Trajectory Audit, Multimodal Fusion, Label Correction | AI Robot Association (AIRoA) | [Auditing Instruction–Trajectory Mismatches in Multimodal Robot Demonstrations](https://arxiv.org/abs/2608.07895) | RA-L 2026 | — |
+| 2026-08-04 | Egocentric Video Mining, Cross-Embodiment, Data Selection | University of Tokyo | [SiMDex: Mining Similar Egocentric Videos for Cross-Embodiment Dexterous Manipulation](https://arxiv.org/abs/2608.04196) | arXiv | [project](https://lin-nie.github.io/SiMDex/) |
 | 2026-07-29 | Counterfactual Action Sensitivity, Coverage, Robustness | CSIRO Robotics | [It's Not Just More Demos: Counterfactual Action Sensitivity Coverage for Data-Efficient Robust Robot Imitation](https://arxiv.org/abs/2607.27261) | RSS 2026 Workshop | — |
 | 2026-07-07 | Primitive Discovery, Structure-Aware Selection, VLA | Shanghai AI Laboratory | [SIEVE: Structure-Aware Data Selection for Imitation Learning with VLA Models](https://arxiv.org/abs/2607.06442) | arXiv | — |
 | 2026-06-26 | Signed Progress, Frame / Chunk Weighting, Reward Model | UC Berkeley | [WARP-RM: A Warp-Augmented Relative Progress Reward Model for Data Curation](https://arxiv.org/abs/2606.28320) | arXiv | [project](https://uynitsuj.github.io/warp-rm/) / [github](https://github.com/uynitsuj/WARP-RM) |
@@ -995,6 +999,7 @@ data source—is its primary asset.
 
 | Date | Keywords | Institute (first) | Paper | Publication | Others |
 | :--: | :------: | :---------------: | :---: | :---------: | :----: |
+| 2026-08-10 | ACWM Fidelity, Five Diagnostic Suites, 18K Instances | Peking University | [WorldSimProbe: Diagnosing Simulator Faithfulness in Action-Conditioned World Models for Embodied Manipulation](https://arxiv.org/abs/2608.09298) | arXiv | [project](https://evophys.com/WorldSimProbe/) / [github](https://github.com/pxxq25/WorldSimProbe) |
 | 2026-07-29 | Embodied VLM, HumanCLAW, 1,218 Episodes | Meta | [HumanCLAW: Can Vision-Language Models Act Through a Body?](https://arxiv.org/abs/2607.27180) | arXiv | [project](https://human-claw.github.io/) |
 | 2026-07-27 | Real-Robot Evaluation, Arm Farm, Quality-Labeled Rollouts | Armnet | [ArmnetBench v0.1: Parallel Real-World Evaluation of Manipulation Policies on a Low-Cost Arm Farm](https://arxiv.org/abs/2607.24481) | arXiv | [dataset](https://huggingface.co/collections/armnet/armnetbench-v01) |
 | 2026-07-23 | Factor Bias, Generalization Diagnostics, Allocation | Northeastern University | [Scale Up Strategically: Learning Compositional Generalization via Bias-Aware Evaluation and Data Collection for Robotic Manipulation](https://arxiv.org/abs/2607.21582) | arXiv | — |
