@@ -4,12 +4,14 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-17 · **Papers:** 1822 · **Unique arXiv IDs:** 1822
+**Coverage:** 2025-01-01 to 2026-08-17 · **Papers:** 1824 · **Unique arXiv IDs:** 1824
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-14 | [OccPlanner: Goal-Aware Occupancy-Conditioned Diffusion Planner for Pixel-Goal Navigation](https://arxiv.org/abs/2608.14160) | Binling Huang, Nianjin Ye, Xi Yang, et al. | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2608.14160) / [pdf](https://arxiv.org/pdf/2608.14160) |
+| 2026-08-14 | [AdvDex: Learning Dexterous Manipulation from Human Demonstrations via Joint-Aligned Actions and Adversarial Learning](https://arxiv.org/abs/2608.14028) | Zhiyue Zhao, Jingyi Wu, Hairuo Liu, et al. | cs.RO, cs.AI | Human Demonstration, Human-to-Robot | [abs](https://arxiv.org/abs/2608.14028) / [pdf](https://arxiv.org/pdf/2608.14028) |
 | 2026-08-13 | [Towards Context-Aware Clinical Motion Understanding in Daily Living at Home: Freezing of Gait Detection with Egocentric Vision](https://arxiv.org/abs/2608.13283) | Vayalet Stefanova, Diwas Lamsal, Margot Genbrugge, et al. | cs.AI | Egocentric | [abs](https://arxiv.org/abs/2608.13283) / [pdf](https://arxiv.org/pdf/2608.13283) |
 | 2026-08-13 | [EgoMonth: A Month-Level Egocentric Video Benchmark for Long-Term Spatiotemporal Memory](https://arxiv.org/abs/2608.13113) | Weitao Chen, Hu Jiaxin, Xie Tianyidan, et al. | cs.CV, cs.AI | Egocentric | [abs](https://arxiv.org/abs/2608.13113) / [pdf](https://arxiv.org/pdf/2608.13113) |
 | 2026-08-13 | [H2R-Bench: Benchmarking Human-to-Robot Manipulation Video Generation in World Models](https://arxiv.org/abs/2608.13049) | Dingyi Rong, Yue Shi, Chaofan Ma, et al. | cs.RO, cs.CV | Egocentric, Human Demonstration, Human-to-Robot | [abs](https://arxiv.org/abs/2608.13049) / [pdf](https://arxiv.org/pdf/2608.13049) |

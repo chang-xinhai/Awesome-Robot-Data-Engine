@@ -4,12 +4,14 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-17 · **Papers:** 2381 · **Unique arXiv IDs:** 2381
+**Coverage:** 2025-01-01 to 2026-08-17 · **Papers:** 2383 · **Unique arXiv IDs:** 2383
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-14 | [OccPlanner: Goal-Aware Occupancy-Conditioned Diffusion Planner for Pixel-Goal Navigation](https://arxiv.org/abs/2608.14160) | Binling Huang, Nianjin Ye, Xi Yang, et al. | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2608.14160) / [pdf](https://arxiv.org/pdf/2608.14160) |
+| 2026-08-14 | [FlatLab: A Unified Methodology Framework and Simulation-Based Benchmark for Robotic Manipulation of Flat Objects](https://arxiv.org/abs/2608.14049) | Xingyu Zhu, Wenshuo Han, Zhouyu Wang, et al. | cs.RO | Simulation Data, Trajectory Generation | [abs](https://arxiv.org/abs/2608.14049) / [pdf](https://arxiv.org/pdf/2608.14049) |
 | 2026-08-13 | [Attention from Action, for Action: Emergent Visual Bottlenecks for Policy Learning](https://arxiv.org/abs/2608.13422) | Zheyu Zhuang, Ruiyu Wang, Nick Heppert, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2608.13422) / [pdf](https://arxiv.org/pdf/2608.13422) |
 | 2026-08-13 | [RGB-D Video Generation for Improving Human-to-Robot Object Handover Prediction](https://arxiv.org/abs/2608.13028) | Tianyu Sun, Zhoujie Fu, Zihui Gao, et al. | cs.CV, cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2608.13028) / [pdf](https://arxiv.org/pdf/2608.13028) |
 | 2026-08-13 | [EgoPHI: Estimating Contact and Force from Egocentric Vision](https://arxiv.org/abs/2608.13014) | Andela Ilic, Rachel Schuchert, Yijing Jiang, et al. | cs.CV, cs.GR, cs.HC | Sim-to-Real | [abs](https://arxiv.org/abs/2608.13014) / [pdf](https://arxiv.org/pdf/2608.13014) |

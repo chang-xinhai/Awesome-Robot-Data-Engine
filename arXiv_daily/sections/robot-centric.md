@@ -4,12 +4,16 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-17 · **Papers:** 1941 · **Unique arXiv IDs:** 1941
+**Coverage:** 2025-01-01 to 2026-08-17 · **Papers:** 1945 · **Unique arXiv IDs:** 1945
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-14 | [Reflex: Enabling Fast and Predictive Vision-Language-Action Models for Reaction-Critical Manipulation](https://arxiv.org/abs/2608.14379) | Yuxuan Chen, Wanruo Zhang, Xiao Li | cs.RO, cs.AI | Robot Dataset | [abs](https://arxiv.org/abs/2608.14379) / [pdf](https://arxiv.org/pdf/2608.14379) |
+| 2026-08-14 | [FlatLab: A Unified Methodology Framework and Simulation-Based Benchmark for Robotic Manipulation of Flat Objects](https://arxiv.org/abs/2608.14049) | Xingyu Zhu, Wenshuo Han, Zhouyu Wang, et al. | cs.RO | Data Collection | [abs](https://arxiv.org/abs/2608.14049) / [pdf](https://arxiv.org/pdf/2608.14049) |
+| 2026-08-14 | [Demonstration of Space Robot Teleoperation over a Lossy and Delayed Network using ATMOS](https://arxiv.org/abs/2608.14031) | Inkyu Jang, Gregorio Marchesini, Nicola De Carli, et al. | cs.RO, eess.SY, math.OC | Teleoperation | [abs](https://arxiv.org/abs/2608.14031) / [pdf](https://arxiv.org/pdf/2608.14031) |
+| 2026-08-14 | [AdvDex: Learning Dexterous Manipulation from Human Demonstrations via Joint-Aligned Actions and Adversarial Learning](https://arxiv.org/abs/2608.14028) | Zhiyue Zhao, Jingyi Wu, Hairuo Liu, et al. | cs.RO, cs.AI | Teleoperation, Robot Dataset | [abs](https://arxiv.org/abs/2608.14028) / [pdf](https://arxiv.org/pdf/2608.14028) |
 | 2026-08-13 | [HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark](https://arxiv.org/abs/2608.13555) | Dairu Liu, Zekun Qi, Jiayu Zeng, et al. | cs.RO, cs.AI, cs.CV | Teleoperation | [abs](https://arxiv.org/abs/2608.13555) / [pdf](https://arxiv.org/pdf/2608.13555) |
 | 2026-08-13 | [NestDex: Nested Policy Learning with Copilot Assisted Teleoperation for Dexterous Manipulation](https://arxiv.org/abs/2608.13362) | James Zhao, Jinhe Tang, Mingyuan Ba, et al. | cs.RO | Teleoperation, Data Collection | [abs](https://arxiv.org/abs/2608.13362) / [pdf](https://arxiv.org/pdf/2608.13362) |
 | 2026-08-13 | [Predictive Relative-Velocity Steering for Safe Robotic Manipulator Teleoperation in Dynamic Environments](https://arxiv.org/abs/2608.13284) | Changhao Hu, Zeyi Liu, Songqiao Hu, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2608.13284) / [pdf](https://arxiv.org/pdf/2608.13284) |
