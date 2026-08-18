@@ -4,12 +4,22 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-18 · **Papers:** 1824 · **Unique arXiv IDs:** 1824
+**Coverage:** 2025-01-01 to 2026-08-18 · **Papers:** 1834 · **Unique arXiv IDs:** 1834
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-17 | [Neurosymbolic Embodied Agents](https://arxiv.org/abs/2608.16794) | Mohammad Albinhassan, Yuming Feng, Alessandra Russo, et al. | cs.RO, cs.AI, cs.CL | Egocentric | [abs](https://arxiv.org/abs/2608.16794) / [pdf](https://arxiv.org/pdf/2608.16794) |
+| 2026-08-17 | [ViHaTeleop: A Low-Cost, Lightweight Visual-Haptic Teleoperation System for Dexterous Manipulation Learning](https://arxiv.org/abs/2608.16572) | Fucai Zhu, Yanhou Lai, Paul Maestre, et al. | cs.RO | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2608.16572) / [pdf](https://arxiv.org/pdf/2608.16572) |
+| 2026-08-17 | [Exposing the Long-tail in Embodied Urban Navigation via Scalable Learning from In-the-Wild Videos](https://arxiv.org/abs/2608.16476) | Bingyi Xia, Han Bao, Zhewei Chen, et al. | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2608.16476) / [pdf](https://arxiv.org/pdf/2608.16476) |
+| 2026-08-16 | [Pre-training Visual Dexterity in Simulation](https://arxiv.org/abs/2608.15917) | Sarthak Kamat, Adam Rashid, Satvik Sharma, et al. | cs.RO, cs.AI, cs.CV | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2608.15917) / [pdf](https://arxiv.org/pdf/2608.15917) |
+| 2026-08-16 | [EgoGazeLite: On-Device Egocentric Gaze Prediction for Token-Efficient Multimodal LLM Video Input](https://arxiv.org/abs/2608.15614) | Matteo Stoiber, Niels Buus Lassen | cs.CV, cs.AI | Egocentric | [abs](https://arxiv.org/abs/2608.15614) / [pdf](https://arxiv.org/pdf/2608.15614) |
+| 2026-08-16 | [AlloEgo-VLM: Disambiguating Allocentric and Egocentric Reference Frames in Vision-Language Models](https://arxiv.org/abs/2608.15605) | Kuan-Lin Chen, Tzu-Ti Wei, Chao-Chi Liao, et al. | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2608.15605) / [pdf](https://arxiv.org/pdf/2608.15605) |
+| 2026-08-16 | [ReForce: Learning Force-aware Retargeting for Dexterous Manipulation](https://arxiv.org/abs/2608.15560) | Yuhang Wu, Lingqi Zeng, Changwei Jing, et al. | cs.RO | Human Demonstration | [abs](https://arxiv.org/abs/2608.15560) / [pdf](https://arxiv.org/pdf/2608.15560) |
+| 2026-08-15 | [GUIDER: Evaluating Goal-Free Human Intent Inference for Teleoperated Manipulation on Real-Robot Data](https://arxiv.org/abs/2608.15446) | Nicholas Kenny, Cesar Alan Contreras, Basile Ouedraogo, et al. | cs.RO, cs.HC | Affordance / Contact | [abs](https://arxiv.org/abs/2608.15446) / [pdf](https://arxiv.org/pdf/2608.15446) |
+| 2026-08-15 | [VTInstructor: Visual Trajectory Prompting for Navigation Instruction Generation in Continuous Environments](https://arxiv.org/abs/2608.15284) | Haolin Yang, Yuxing Long, Zihan Yang, et al. | cs.RO, cs.AI, cs.CL | Egocentric | [abs](https://arxiv.org/abs/2608.15284) / [pdf](https://arxiv.org/pdf/2608.15284) |
+| 2026-08-15 | [EgoTac: In-the-wild Tactile Prediction from Egocentric Vision](https://arxiv.org/abs/2608.15060) | Wenkang Zhang, Chengbo Yuan, Zicheng Zhang, et al. | cs.CV, cs.RO | Egocentric, Human Video, Affordance / Contact | [abs](https://arxiv.org/abs/2608.15060) / [pdf](https://arxiv.org/pdf/2608.15060) |
 | 2026-08-14 | [OccPlanner: Goal-Aware Occupancy-Conditioned Diffusion Planner for Pixel-Goal Navigation](https://arxiv.org/abs/2608.14160) | Binling Huang, Nianjin Ye, Xi Yang, et al. | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2608.14160) / [pdf](https://arxiv.org/pdf/2608.14160) |
 | 2026-08-14 | [AdvDex: Learning Dexterous Manipulation from Human Demonstrations via Joint-Aligned Actions and Adversarial Learning](https://arxiv.org/abs/2608.14028) | Zhiyue Zhao, Jingyi Wu, Hairuo Liu, et al. | cs.RO, cs.AI | Human Demonstration, Human-to-Robot | [abs](https://arxiv.org/abs/2608.14028) / [pdf](https://arxiv.org/pdf/2608.14028) |
 | 2026-08-13 | [Towards Context-Aware Clinical Motion Understanding in Daily Living at Home: Freezing of Gait Detection with Egocentric Vision](https://arxiv.org/abs/2608.13283) | Vayalet Stefanova, Diwas Lamsal, Margot Genbrugge, et al. | cs.AI | Egocentric | [abs](https://arxiv.org/abs/2608.13283) / [pdf](https://arxiv.org/pdf/2608.13283) |

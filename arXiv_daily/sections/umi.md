@@ -4,12 +4,13 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-18 · **Papers:** 65 · **Unique arXiv IDs:** 65
+**Coverage:** 2025-01-01 to 2026-08-18 · **Papers:** 66 · **Unique arXiv IDs:** 66
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-16 | [Pre-training Visual Dexterity in Simulation](https://arxiv.org/abs/2608.15917) | Sarthak Kamat, Adam Rashid, Satvik Sharma, et al. | cs.RO, cs.AI, cs.CV | Robot-Free Demonstration | [abs](https://arxiv.org/abs/2608.15917) / [pdf](https://arxiv.org/pdf/2608.15917) |
 | 2026-08-11 | [TCAM for Autonomous Deformable Manipulation: The RMC2 Champion System for WBCD 2026 Track 4](https://arxiv.org/abs/2608.10718) | Guangrui Shen, Zhili He, Shigang Wang, et al. | cs.RO | Universal Manipulation Interface | [abs](https://arxiv.org/abs/2608.10718) / [pdf](https://arxiv.org/pdf/2608.10718) |
 | 2026-08-02 | [CAAT: Contact-Aware Attention Scaling and Tactile Masking for Data-Efficient Contact-Rich Manipulation](https://arxiv.org/abs/2608.01102) | Jiaming Jiang, Yuzhe Huang, Hao Liang, et al. | cs.RO | Universal Manipulation Interface | [abs](https://arxiv.org/abs/2608.01102) / [pdf](https://arxiv.org/pdf/2608.01102) |
 

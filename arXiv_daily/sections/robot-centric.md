@@ -4,12 +4,21 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-18 · **Papers:** 1945 · **Unique arXiv IDs:** 1945
+**Coverage:** 2025-01-01 to 2026-08-18 · **Papers:** 1954 · **Unique arXiv IDs:** 1954
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-17 | [Adaptive Repulsive Pheromone Clustering for Foraging Robot Swarms](https://arxiv.org/abs/2608.16822) | Carlos Pena-Caballero, Constantine Tarawneh, Qi Lu | cs.RO | Data Collection | [abs](https://arxiv.org/abs/2608.16822) / [pdf](https://arxiv.org/pdf/2608.16822) |
+| 2026-08-17 | [ViHaTeleop: A Low-Cost, Lightweight Visual-Haptic Teleoperation System for Dexterous Manipulation Learning](https://arxiv.org/abs/2608.16572) | Fucai Zhu, Yanhou Lai, Paul Maestre, et al. | cs.RO | Teleoperation, Data Collection | [abs](https://arxiv.org/abs/2608.16572) / [pdf](https://arxiv.org/pdf/2608.16572) |
+| 2026-08-17 | [Exposing the Long-tail in Embodied Urban Navigation via Scalable Learning from In-the-Wild Videos](https://arxiv.org/abs/2608.16476) | Bingyi Xia, Han Bao, Zhewei Chen, et al. | cs.RO | Data Collection | [abs](https://arxiv.org/abs/2608.16476) / [pdf](https://arxiv.org/pdf/2608.16476) |
+| 2026-08-17 | [SurgVIL: Scaling Surgical Robot Imitation Learning with Open-source Surgical Videos](https://arxiv.org/abs/2608.16058) | Xinhao Chen, JuoTung Chen, Nigel Nelson, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2608.16058) / [pdf](https://arxiv.org/pdf/2608.16058) |
+| 2026-08-16 | [Pre-training Visual Dexterity in Simulation](https://arxiv.org/abs/2608.15917) | Sarthak Kamat, Adam Rashid, Satvik Sharma, et al. | cs.RO, cs.AI, cs.CV | Teleoperation | [abs](https://arxiv.org/abs/2608.15917) / [pdf](https://arxiv.org/pdf/2608.15917) |
+| 2026-08-16 | [GAINS: Leveraging Inconsistent Human Intervention Signals in Reinforcement Learning](https://arxiv.org/abs/2608.15707) | Xinyi Zhang, Yinuo Zhao, Pei Ren, et al. | cs.RO | Human Intervention | [abs](https://arxiv.org/abs/2608.15707) / [pdf](https://arxiv.org/pdf/2608.15707) |
+| 2026-08-16 | [ReForce: Learning Force-aware Retargeting for Dexterous Manipulation](https://arxiv.org/abs/2608.15560) | Yuhang Wu, Lingqi Zeng, Changwei Jing, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2608.15560) / [pdf](https://arxiv.org/pdf/2608.15560) |
+| 2026-08-15 | [GUIDER: Evaluating Goal-Free Human Intent Inference for Teleoperated Manipulation on Real-Robot Data](https://arxiv.org/abs/2608.15446) | Nicholas Kenny, Cesar Alan Contreras, Basile Ouedraogo, et al. | cs.RO, cs.HC | Teleoperation, Robot Dataset | [abs](https://arxiv.org/abs/2608.15446) / [pdf](https://arxiv.org/pdf/2608.15446) |
+| 2026-08-15 | [Max-Q Selective Imitation for Human-in-the-Loop Online Robot Learning](https://arxiv.org/abs/2608.15088) | Zihang Wang, Yishan Wang | cs.RO, cs.AI | Human Intervention, Autonomous Collection | [abs](https://arxiv.org/abs/2608.15088) / [pdf](https://arxiv.org/pdf/2608.15088) |
 | 2026-08-14 | [Reflex: Enabling Fast and Predictive Vision-Language-Action Models for Reaction-Critical Manipulation](https://arxiv.org/abs/2608.14379) | Yuxuan Chen, Wanruo Zhang, Xiao Li | cs.RO, cs.AI | Robot Dataset | [abs](https://arxiv.org/abs/2608.14379) / [pdf](https://arxiv.org/pdf/2608.14379) |
 | 2026-08-14 | [FlatLab: A Unified Methodology Framework and Simulation-Based Benchmark for Robotic Manipulation of Flat Objects](https://arxiv.org/abs/2608.14049) | Xingyu Zhu, Wenshuo Han, Zhouyu Wang, et al. | cs.RO | Data Collection | [abs](https://arxiv.org/abs/2608.14049) / [pdf](https://arxiv.org/pdf/2608.14049) |
 | 2026-08-14 | [Demonstration of Space Robot Teleoperation over a Lossy and Delayed Network using ATMOS](https://arxiv.org/abs/2608.14031) | Inkyu Jang, Gregorio Marchesini, Nicola De Carli, et al. | cs.RO, eess.SY, math.OC | Teleoperation | [abs](https://arxiv.org/abs/2608.14031) / [pdf](https://arxiv.org/pdf/2608.14031) |

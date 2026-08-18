@@ -4,12 +4,21 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-18 · **Papers:** 2383 · **Unique arXiv IDs:** 2383
+**Coverage:** 2025-01-01 to 2026-08-18 · **Papers:** 2392 · **Unique arXiv IDs:** 2392
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-17 | [DeepInsight II: One Trace from Benchmark to Robot](https://arxiv.org/abs/2608.16556) | Siyi Li, Yuchen Kang, Wuliang Wang, et al. | cs.AI | Sim-to-Real | [abs](https://arxiv.org/abs/2608.16556) / [pdf](https://arxiv.org/pdf/2608.16556) |
+| 2026-08-17 | [Planner-Conditioned Diffusion for Coordinated Multi-Agent Exploration](https://arxiv.org/abs/2608.16229) | Marcus Yu Siong Teo, Jeric Lew, Tanishq Duhan, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2608.16229) / [pdf](https://arxiv.org/pdf/2608.16229) |
+| 2026-08-17 | [Digital Twin Degradation: Detecting Cyber Physical Attacks via Temporal Inconsistencies](https://arxiv.org/abs/2608.16159) | Konstantinos E. Kampourakis, Vasileios Gkioulos, Sokratis Katsikas | cs.CR, cs.AI, cs.LG | Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2608.16159) / [pdf](https://arxiv.org/pdf/2608.16159) |
+| 2026-08-16 | [Pre-training Visual Dexterity in Simulation](https://arxiv.org/abs/2608.15917) | Sarthak Kamat, Adam Rashid, Satvik Sharma, et al. | cs.RO, cs.AI, cs.CV | Simulation Data | [abs](https://arxiv.org/abs/2608.15917) / [pdf](https://arxiv.org/pdf/2608.15917) |
+| 2026-08-16 | [Tactile Sim2Real without Tactile Simulation via Bottlenecked Latent Reconstruction](https://arxiv.org/abs/2608.15897) | Fan Yang, Youngsun Wi, Jinhao Yu, et al. | cs.RO | Simulation Data, Sim-to-Real, Synthetic Sensor | [abs](https://arxiv.org/abs/2608.15897) / [pdf](https://arxiv.org/pdf/2608.15897) |
+| 2026-08-16 | [Scaling Manual-Grounded Appliance Manipulation with Data Synthesis and Unified Planning](https://arxiv.org/abs/2608.15863) | Yuxing Long, Lei Kang, Ziyan Yu, et al. | cs.RO, cs.AI, cs.CL | Sim-to-Real | [abs](https://arxiv.org/abs/2608.15863) / [pdf](https://arxiv.org/pdf/2608.15863) |
+| 2026-08-16 | [ViTaR: Visuo-Tactile Residual Adaptation for Foundation VLA Manipulation](https://arxiv.org/abs/2608.15816) | Yi Wang, Renjun Wu, Jinyan Liu, et al. | cs.RO | Synthetic Sensor | [abs](https://arxiv.org/abs/2608.15816) / [pdf](https://arxiv.org/pdf/2608.15816) |
+| 2026-08-16 | [ReForce: Learning Force-aware Retargeting for Dexterous Manipulation](https://arxiv.org/abs/2608.15560) | Yuhang Wu, Lingqi Zeng, Changwei Jing, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2608.15560) / [pdf](https://arxiv.org/pdf/2608.15560) |
+| 2026-08-16 | [Vision-Based Tactile Intelligence for Robotics: Sensing, Learning, and Embodied Manipulation](https://arxiv.org/abs/2608.15490) | Peng Zhou, Jun Hu, Sihan Chen, et al. | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2608.15490) / [pdf](https://arxiv.org/pdf/2608.15490) |
 | 2026-08-14 | [OccPlanner: Goal-Aware Occupancy-Conditioned Diffusion Planner for Pixel-Goal Navigation](https://arxiv.org/abs/2608.14160) | Binling Huang, Nianjin Ye, Xi Yang, et al. | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2608.14160) / [pdf](https://arxiv.org/pdf/2608.14160) |
 | 2026-08-14 | [FlatLab: A Unified Methodology Framework and Simulation-Based Benchmark for Robotic Manipulation of Flat Objects](https://arxiv.org/abs/2608.14049) | Xingyu Zhu, Wenshuo Han, Zhouyu Wang, et al. | cs.RO | Simulation Data, Trajectory Generation | [abs](https://arxiv.org/abs/2608.14049) / [pdf](https://arxiv.org/pdf/2608.14049) |
 | 2026-08-13 | [Attention from Action, for Action: Emergent Visual Bottlenecks for Policy Learning](https://arxiv.org/abs/2608.13422) | Zheyu Zhuang, Ruiyu Wang, Nick Heppert, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2608.13422) / [pdf](https://arxiv.org/pdf/2608.13422) |
