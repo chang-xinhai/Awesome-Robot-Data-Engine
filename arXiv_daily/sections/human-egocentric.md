@@ -4,12 +4,13 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-19 · **Papers:** 1834 · **Unique arXiv IDs:** 1834
+**Coverage:** 2025-01-01 to 2026-08-19 · **Papers:** 1835 · **Unique arXiv IDs:** 1835
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-18 | [Hydra-0: Action Flow for Generalist World Modeling and Control](https://arxiv.org/abs/2608.18077) | Hongyu Li, Bowen Wen, Xinghao Zhu, et al. | cs.RO | Human Demonstration | [abs](https://arxiv.org/abs/2608.18077) / [pdf](https://arxiv.org/pdf/2608.18077) |
 | 2026-08-17 | [Neurosymbolic Embodied Agents](https://arxiv.org/abs/2608.16794) | Mohammad Albinhassan, Yuming Feng, Alessandra Russo, et al. | cs.RO, cs.AI, cs.CL | Egocentric | [abs](https://arxiv.org/abs/2608.16794) / [pdf](https://arxiv.org/pdf/2608.16794) |
 | 2026-08-17 | [ViHaTeleop: A Low-Cost, Lightweight Visual-Haptic Teleoperation System for Dexterous Manipulation Learning](https://arxiv.org/abs/2608.16572) | Fucai Zhu, Yanhou Lai, Paul Maestre, et al. | cs.RO | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2608.16572) / [pdf](https://arxiv.org/pdf/2608.16572) |
 | 2026-08-17 | [Exposing the Long-tail in Embodied Urban Navigation via Scalable Learning from In-the-Wild Videos](https://arxiv.org/abs/2608.16476) | Bingyi Xia, Han Bao, Zhewei Chen, et al. | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2608.16476) / [pdf](https://arxiv.org/pdf/2608.16476) |

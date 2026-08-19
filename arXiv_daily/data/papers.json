@@ -1,6 +1,87 @@
 {
   "schema_version": 1,
   "papers": {
+    "2608.18077": {
+      "arxiv_id": "2608.18077",
+      "title": "Hydra-0: Action Flow for Generalist World Modeling and Control",
+      "abstract": "We introduce Hydra-0, a generalist world model conditioned on action flow, which represents robot actions as pixel motion. This shared visual interface enables generalist world modeling and control by learning action consequences across embodiments, tasks, environments, and video-generation backbones. Our best configuration achieves 90.4% lower robot-motion error and 60.2% lower object-motion error than our action-conditioned baseline, while supporting zero-shot composition and data-efficient adaptation. On the RoboLab benchmark, Hydra-0 achieves a Pearson correlation of r=0.96 between replayed and reference success rates. Finally, we uncover an emergent inverse mode of this interface: a world action model that predicts compatible robot motion from desired object flow transferred from a human demonstration. A trained action head maps the resulting latent features to executable actions without requiring task-specific expert robot demonstrations. Together, these results demonstrate the potential of action flow as a shared control interface connecting heterogeneous training data, open-loop policy evaluation, and robot control.",
+      "authors": [
+        "Hongyu Li",
+        "Bowen Wen",
+        "Xinghao Zhu",
+        "Yixuan Wang",
+        "Yilun Du",
+        "Yunzhu Li",
+        "George Konidaris",
+        "Stan Birchfield",
+        "Soha Pouya",
+        "Chenran Li",
+        "Yan Chang"
+      ],
+      "published": "2026-08-18",
+      "updated": "2026-08-18",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": "Project page: https://nvidia-isaac.github.io/video_to_data/hydra-0/",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.18077",
+      "pdf_url": "https://arxiv.org/pdf/2608.18077",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "robot_centric",
+        "human_egocentric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Robot Dataset"
+        ],
+        "human_egocentric": [
+          "Human Demonstration"
+        ]
+      }
+    },
+    "2608.17962": {
+      "arxiv_id": "2608.17962",
+      "title": "PRISM: Precision and contact-rich Real-world Industrial Skill dataset with Multimodal sensing",
+      "abstract": "Recent progress in robotic learning has been fueled by large-scale datasets collected in everyday environments. However, most existing datasets emphasize short-horizon, low-contact tasks such as pick-and-place, and therefore do not capture the precision control, force/torque or tactile regulation, and multimodal feedback required for industrial assembly. To address this gap, we introduce PRISM, a large-scale multimodal dataset for contact-rich industrial operations. The dataset spans more than 25 manipulation tasks (e.g., electronic components plug/unplug, conveyor-based sorting) and covers diverse mechanical constraints. PRISM includes more than 5,000 trajectories totaling 45 hours of teleoperated demonstrations, recorded using synchronized multi-view RGB-D, force/torque, tactile, and robot-state measurements. In contrast to datasets collected in household or laboratory settings, PRISM provides a realistic benchmark for multimodal perception and control under high-precision industrial constraints, and serves as a foundation for contact-rich, generalizable manipulation in real-world manufacturing environments. The dataset is open-sourced at: https://tengbo-yu.github.io/PRISM/",
+      "authors": [
+        "Tengbo Yu",
+        "Jiahao Wu",
+        "Hanning Wang",
+        "Rui Chen",
+        "Chuanhou Liu",
+        "Chuang Sun",
+        "Hangxin Liu"
+      ],
+      "published": "2026-08-18",
+      "updated": "2026-08-18",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.17962",
+      "pdf_url": "https://arxiv.org/pdf/2608.17962",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "robot_centric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Teleoperation",
+          "Robot Dataset"
+        ]
+      }
+    },
     "2608.17628": {
       "arxiv_id": "2608.17628",
       "title": "Iterative Grasp Pose Refinement: A Deep Reinforcement Learning Approach for 2D Vision",
@@ -26,7 +107,8 @@
       "url": "https://arxiv.org/abs/2608.17628",
       "pdf_url": "https://arxiv.org/pdf/2608.17628",
       "query_sources": [
-        "cs-ro"
+        "cs-ro",
+        "simulation-data"
       ],
       "topics": [
         "simulation"
@@ -243,7 +325,8 @@
       "url": "https://arxiv.org/abs/2608.17320",
       "pdf_url": "https://arxiv.org/pdf/2608.17320",
       "query_sources": [
-        "cs-ro"
+        "cs-ro",
+        "simulation-data"
       ],
       "topics": [
         "simulation"
@@ -278,7 +361,8 @@
       "url": "https://arxiv.org/abs/2608.17209",
       "pdf_url": "https://arxiv.org/pdf/2608.17209",
       "query_sources": [
-        "cs-ro"
+        "cs-ro",
+        "robot-data"
       ],
       "topics": [
         "robot_centric"
@@ -315,7 +399,8 @@
       "url": "https://arxiv.org/abs/2608.17129",
       "pdf_url": "https://arxiv.org/pdf/2608.17129",
       "query_sources": [
-        "cs-ro"
+        "cs-ro",
+        "simulation-data"
       ],
       "topics": [
         "simulation"
@@ -351,7 +436,9 @@
       "url": "https://arxiv.org/abs/2608.17027",
       "pdf_url": "https://arxiv.org/pdf/2608.17027",
       "query_sources": [
-        "cs-ro"
+        "cross-source-data",
+        "cs-ro",
+        "simulation-data"
       ],
       "topics": [
         "simulation"
@@ -196968,6 +197055,6 @@
   },
   "coverage_start": "2025-01-01",
   "coverage_end": "2026-08-19",
-  "paper_count": 5152,
-  "generated_at": "2026-08-19T01:51:59+00:00"
+  "paper_count": 5154,
+  "generated_at": "2026-08-19T12:50:47+00:00"
 }

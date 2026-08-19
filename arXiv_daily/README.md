@@ -2,15 +2,15 @@
 
 > A high-recall candidate archive for manual curation into [Awesome Robot Data Engine](../README.md). It is intentionally broader than the curated list.
 
-**Coverage:** 2025-01-01 to 2026-08-19 · **Unique papers:** 5152
+**Coverage:** 2025-01-01 to 2026-08-19 · **Unique papers:** 5154
 
 ## Sections
 
 | Section | Papers | Scope |
 | :------ | -----: | :---- |
-| [Robot-Centric](sections/robot-centric.md) | 1958 | Real-robot collection, teleoperation, intervention, datasets, and processing |
+| [Robot-Centric](sections/robot-centric.md) | 1960 | Real-robot collection, teleoperation, intervention, datasets, and processing |
 | [UMI](sections/umi.md) | 66 | Portable manipulation interfaces, robot-free demonstrations, and UMI recovery |
-| [Human / Egocentric](sections/human-egocentric.md) | 1834 | Human video, HOI, tracking, reconstruction, action extraction, and retargeting |
+| [Human / Egocentric](sections/human-egocentric.md) | 1835 | Human video, HOI, tracking, reconstruction, action extraction, and retargeting |
 | [Simulation](sections/simulation.md) | 2398 | Synthetic demonstrations, environments, assets, sensors, and sim–real systems |
 
 A paper is stored once in [`data/papers.json`](data/papers.json) but may appear in multiple generated views. The archive uses arXiv `v1` dates and is updated daily by GitHub Actions. Promotion to the root README is always manual.
@@ -19,6 +19,8 @@ A paper is stored once in [`data/papers.json`](data/papers.json) but may appear 
 
 ### Robot-Centric
 
+- 2026-08-18 — [Hydra-0: Action Flow for Generalist World Modeling and Control](https://arxiv.org/abs/2608.18077)
+- 2026-08-18 — [PRISM: Precision and contact-rich Real-world Industrial Skill dataset with Multimodal sensing](https://arxiv.org/abs/2608.17962)
 - 2026-08-18 — [Prism-GRPO: Faster VLA Policy Optimization via Splitting Same-outcome Groups](https://arxiv.org/abs/2608.17423)
 - 2026-08-18 — [MANIGUARD: A Benchmark and Data Suite for Specification-Grounded Safety Evaluation and Improvement of Robotic Manipulation](https://arxiv.org/abs/2608.17386)
 - 2026-08-18 — [Repetition as Reinforcement: Enhancing Sample Efficiency via Instant Episode Repetition in Reinforcement Learning](https://arxiv.org/abs/2608.17347)
@@ -27,8 +29,6 @@ A paper is stored once in [`data/papers.json`](data/papers.json) but may appear 
 - 2026-08-17 — [ViHaTeleop: A Low-Cost, Lightweight Visual-Haptic Teleoperation System for Dexterous Manipulation Learning](https://arxiv.org/abs/2608.16572)
 - 2026-08-17 — [Exposing the Long-tail in Embodied Urban Navigation via Scalable Learning from In-the-Wild Videos](https://arxiv.org/abs/2608.16476)
 - 2026-08-17 — [SurgVIL: Scaling Surgical Robot Imitation Learning with Open-source Surgical Videos](https://arxiv.org/abs/2608.16058)
-- 2026-08-16 — [Pre-training Visual Dexterity in Simulation](https://arxiv.org/abs/2608.15917)
-- 2026-08-16 — [GAINS: Leveraging Inconsistent Human Intervention Signals in Reinforcement Learning](https://arxiv.org/abs/2608.15707)
 
 ### UMI
 
@@ -45,6 +45,7 @@ A paper is stored once in [`data/papers.json`](data/papers.json) but may appear 
 
 ### Human / Egocentric
 
+- 2026-08-18 — [Hydra-0: Action Flow for Generalist World Modeling and Control](https://arxiv.org/abs/2608.18077)
 - 2026-08-17 — [Neurosymbolic Embodied Agents](https://arxiv.org/abs/2608.16794)
 - 2026-08-17 — [ViHaTeleop: A Low-Cost, Lightweight Visual-Haptic Teleoperation System for Dexterous Manipulation Learning](https://arxiv.org/abs/2608.16572)
 - 2026-08-17 — [Exposing the Long-tail in Embodied Urban Navigation via Scalable Learning from In-the-Wild Videos](https://arxiv.org/abs/2608.16476)
@@ -54,7 +55,6 @@ A paper is stored once in [`data/papers.json`](data/papers.json) but may appear 
 - 2026-08-16 — [ReForce: Learning Force-aware Retargeting for Dexterous Manipulation](https://arxiv.org/abs/2608.15560)
 - 2026-08-15 — [GUIDER: Evaluating Goal-Free Human Intent Inference for Teleoperated Manipulation on Real-Robot Data](https://arxiv.org/abs/2608.15446)
 - 2026-08-15 — [VTInstructor: Visual Trajectory Prompting for Navigation Instruction Generation in Continuous Environments](https://arxiv.org/abs/2608.15284)
-- 2026-08-15 — [EgoTac: In-the-wild Tactile Prediction from Egocentric Vision](https://arxiv.org/abs/2608.15060)
 
 ### Simulation
 

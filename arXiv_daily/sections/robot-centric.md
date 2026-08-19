@@ -4,12 +4,14 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-19 · **Papers:** 1958 · **Unique arXiv IDs:** 1958
+**Coverage:** 2025-01-01 to 2026-08-19 · **Papers:** 1960 · **Unique arXiv IDs:** 1960
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-18 | [Hydra-0: Action Flow for Generalist World Modeling and Control](https://arxiv.org/abs/2608.18077) | Hongyu Li, Bowen Wen, Xinghao Zhu, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2608.18077) / [pdf](https://arxiv.org/pdf/2608.18077) |
+| 2026-08-18 | [PRISM: Precision and contact-rich Real-world Industrial Skill dataset with Multimodal sensing](https://arxiv.org/abs/2608.17962) | Tengbo Yu, Jiahao Wu, Hanning Wang, et al. | cs.RO | Teleoperation, Robot Dataset | [abs](https://arxiv.org/abs/2608.17962) / [pdf](https://arxiv.org/pdf/2608.17962) |
 | 2026-08-18 | [Prism-GRPO: Faster VLA Policy Optimization via Splitting Same-outcome Groups](https://arxiv.org/abs/2608.17423) | Zeyun Deng, Yuzhe Lu, Yawei Wang, et al. | cs.RO, cs.LG | Robot Data Processing | [abs](https://arxiv.org/abs/2608.17423) / [pdf](https://arxiv.org/pdf/2608.17423) |
 | 2026-08-18 | [MANIGUARD: A Benchmark and Data Suite for Specification-Grounded Safety Evaluation and Improvement of Robotic Manipulation](https://arxiv.org/abs/2608.17386) | Yiyan Peng, Philip Wang, Simon Sinong Zhan, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2608.17386) / [pdf](https://arxiv.org/pdf/2608.17386) |
 | 2026-08-18 | [Repetition as Reinforcement: Enhancing Sample Efficiency via Instant Episode Repetition in Reinforcement Learning](https://arxiv.org/abs/2608.17347) | Hoda Yamani, Yuning Xing, Koen van Rijnsoever, et al. | cs.LG, cs.RO | Data Collection | [abs](https://arxiv.org/abs/2608.17347) / [pdf](https://arxiv.org/pdf/2608.17347) |
