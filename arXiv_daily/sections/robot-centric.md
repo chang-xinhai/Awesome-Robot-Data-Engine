@@ -4,12 +4,16 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-18 · **Papers:** 1954 · **Unique arXiv IDs:** 1954
+**Coverage:** 2025-01-01 to 2026-08-19 · **Papers:** 1958 · **Unique arXiv IDs:** 1958
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-18 | [Prism-GRPO: Faster VLA Policy Optimization via Splitting Same-outcome Groups](https://arxiv.org/abs/2608.17423) | Zeyun Deng, Yuzhe Lu, Yawei Wang, et al. | cs.RO, cs.LG | Robot Data Processing | [abs](https://arxiv.org/abs/2608.17423) / [pdf](https://arxiv.org/pdf/2608.17423) |
+| 2026-08-18 | [MANIGUARD: A Benchmark and Data Suite for Specification-Grounded Safety Evaluation and Improvement of Robotic Manipulation](https://arxiv.org/abs/2608.17386) | Yiyan Peng, Philip Wang, Simon Sinong Zhan, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2608.17386) / [pdf](https://arxiv.org/pdf/2608.17386) |
+| 2026-08-18 | [Repetition as Reinforcement: Enhancing Sample Efficiency via Instant Episode Repetition in Reinforcement Learning](https://arxiv.org/abs/2608.17347) | Hoda Yamani, Yuning Xing, Koen van Rijnsoever, et al. | cs.LG, cs.RO | Data Collection | [abs](https://arxiv.org/abs/2608.17347) / [pdf](https://arxiv.org/pdf/2608.17347) |
+| 2026-08-17 | [Teach and Grow: An Agent-Centered Architecture for General Robot Learning](https://arxiv.org/abs/2608.17209) | Chang Nie, Zhe Liu, Hesheng Wang | cs.RO, cs.AI, cs.CV | Robot Dataset | [abs](https://arxiv.org/abs/2608.17209) / [pdf](https://arxiv.org/pdf/2608.17209) |
 | 2026-08-17 | [Adaptive Repulsive Pheromone Clustering for Foraging Robot Swarms](https://arxiv.org/abs/2608.16822) | Carlos Pena-Caballero, Constantine Tarawneh, Qi Lu | cs.RO | Data Collection | [abs](https://arxiv.org/abs/2608.16822) / [pdf](https://arxiv.org/pdf/2608.16822) |
 | 2026-08-17 | [ViHaTeleop: A Low-Cost, Lightweight Visual-Haptic Teleoperation System for Dexterous Manipulation Learning](https://arxiv.org/abs/2608.16572) | Fucai Zhu, Yanhou Lai, Paul Maestre, et al. | cs.RO | Teleoperation, Data Collection | [abs](https://arxiv.org/abs/2608.16572) / [pdf](https://arxiv.org/pdf/2608.16572) |
 | 2026-08-17 | [Exposing the Long-tail in Embodied Urban Navigation via Scalable Learning from In-the-Wild Videos](https://arxiv.org/abs/2608.16476) | Bingyi Xia, Han Bao, Zhewei Chen, et al. | cs.RO | Data Collection | [abs](https://arxiv.org/abs/2608.16476) / [pdf](https://arxiv.org/pdf/2608.16476) |

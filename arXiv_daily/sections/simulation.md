@@ -4,12 +4,18 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-18 · **Papers:** 2392 · **Unique arXiv IDs:** 2392
+**Coverage:** 2025-01-01 to 2026-08-19 · **Papers:** 2398 · **Unique arXiv IDs:** 2398
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-18 | [Iterative Grasp Pose Refinement: A Deep Reinforcement Learning Approach for 2D Vision](https://arxiv.org/abs/2608.17628) | Amir Arsalan Nematollahi, Shayan Ahmadi, Mehdi Tale Masouleh, et al. | cs.RO, cs.AI, cs.LG | Simulation Data, Sim-to-Real | [abs](https://arxiv.org/abs/2608.17628) / [pdf](https://arxiv.org/pdf/2608.17628) |
+| 2026-08-18 | [Calibrated Predictive Safety for Heterogeneous Robots: An Action-Conditioned JEPA Framework with Model-Based Safety Shields](https://arxiv.org/abs/2608.17496) | Kaiming Zhong, Tianhua Liu, Yue Wang | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2608.17496) / [pdf](https://arxiv.org/pdf/2608.17496) |
+| 2026-08-18 | [UniReflex: Plug-and-Play Force Control for Pretrained Generative Policies via Fast-Slow Reflex](https://arxiv.org/abs/2608.17432) | Yan Huang, Shoujie Li, Ziwu Song, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2608.17432) / [pdf](https://arxiv.org/pdf/2608.17432) |
+| 2026-08-18 | [Robust Brachiation on a Life-Sized Dual-Arm Robot Using Waypoint-Guided Reinforcement Learning](https://arxiv.org/abs/2608.17320) | Ayumu Iwata, Kento Kawaharazuka, Keita Yoneda, et al. | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2608.17320) / [pdf](https://arxiv.org/pdf/2608.17320) |
+| 2026-08-17 | [PROBE: Manipulation-Grounded Visual Question Answering with VLM Agents](https://arxiv.org/abs/2608.17129) | Vineet Bhat, Siyi Chen, Alex Zook, et al. | cs.CV, cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2608.17129) / [pdf](https://arxiv.org/pdf/2608.17129) |
+| 2026-08-17 | [FetchMan: Learning Visual Humanoid Loco-Manipulation Policies from Simulated Experiences](https://arxiv.org/abs/2608.17027) | Omar Rayyan, Zhi Li, Max Argus, et al. | cs.RO | Simulation Data, Sim-to-Real | [abs](https://arxiv.org/abs/2608.17027) / [pdf](https://arxiv.org/pdf/2608.17027) |
 | 2026-08-17 | [DeepInsight II: One Trace from Benchmark to Robot](https://arxiv.org/abs/2608.16556) | Siyi Li, Yuchen Kang, Wuliang Wang, et al. | cs.AI | Sim-to-Real | [abs](https://arxiv.org/abs/2608.16556) / [pdf](https://arxiv.org/pdf/2608.16556) |
 | 2026-08-17 | [Planner-Conditioned Diffusion for Coordinated Multi-Agent Exploration](https://arxiv.org/abs/2608.16229) | Marcus Yu Siong Teo, Jeric Lew, Tanishq Duhan, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2608.16229) / [pdf](https://arxiv.org/pdf/2608.16229) |
 | 2026-08-17 | [Digital Twin Degradation: Detecting Cyber Physical Attacks via Temporal Inconsistencies](https://arxiv.org/abs/2608.16159) | Konstantinos E. Kampourakis, Vasileios Gkioulos, Sokratis Katsikas | cs.CR, cs.AI, cs.LG | Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2608.16159) / [pdf](https://arxiv.org/pdf/2608.16159) |

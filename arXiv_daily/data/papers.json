@@ -1,6 +1,368 @@
 {
   "schema_version": 1,
   "papers": {
+    "2608.17628": {
+      "arxiv_id": "2608.17628",
+      "title": "Iterative Grasp Pose Refinement: A Deep Reinforcement Learning Approach for 2D Vision",
+      "abstract": "Developing robots capable of understanding and manipulating objects requires compact, interpretable, and generalizable representations. This work proposes a reinforcement learning-based framework for robotic grasp refinement, integrating keypoint-based object representations with a Deep Q-Network (DQN). Using 2D overhead images captured in a simulated environment, a geometric-based algorithm generates initial grasp candidates, which are iteratively refined by the proposed framework, transforming failed grasps into successful ones. Experiments conducted on 300 objects from the Dex-Net dataset using a UR5 manipulator demonstrate the framework's effectiveness, achieving a 100% success rate on objects previously deemed ungraspable by geometrical methods. The framework's sim-to-real transferability is further validated through physical experiments on a Delta parallel robot, where a refined grasp successfully manipulates an object that was previously ungraspable. The findings underscore the effectiveness of reinforcement learning in addressing challenges in robotic grasping, offering a scalable and adaptable solution for contact-rich manipulation tasks.",
+      "authors": [
+        "Amir Arsalan Nematollahi",
+        "Shayan Ahmadi",
+        "Mehdi Tale Masouleh",
+        "Ahmad Kalhor"
+      ],
+      "published": "2026-08-18",
+      "updated": "2026-08-18",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG",
+        "eess.IV"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.17628",
+      "pdf_url": "https://arxiv.org/pdf/2608.17628",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Simulation Data",
+          "Sim-to-Real"
+        ]
+      }
+    },
+    "2608.17496": {
+      "arxiv_id": "2608.17496",
+      "title": "Calibrated Predictive Safety for Heterogeneous Robots: An Action-Conditioned JEPA Framework with Model-Based Safety Shields",
+      "abstract": "Vision-language-action policies generalize broadly but provide no execution-time guarantees; classical model-based planners respect kinematic and geometric constraints but generalize poorly. We study whether an action-conditioned Joint-Embedding Predictive Architecture (JEPA) world model can predict, before execution, both task progress and physical risk for candidate action chunks, and whether coupling these predictions to an embodiment-specific model-based safety shield yields a deployable pipeline for heterogeneous robots. We propose a receding-horizon decision pipeline: (1) a proposer produces K candidate action chunks; (2) an action-conditioned JEPA rolls each candidate forward in a frozen-encoder latent space conditioned on an embodiment embedding; (3) calibrated risk and progress heads score each rollout and report uncertainty; (4) a deterministic per-embodiment safety shield filters inadmissible candidates; (5) a fallback ladder handles empty-admissible-set cases. The learned ranking only reorders admissible candidates; enforcement guarantees come from the deterministic shield and fallback ladder. We evaluate with a pre-registered protocol in simulation (LIBERO-Long). In 600-episode configurations the full framework improved success over a shield-only baseline and reduced collision false negatives at matched recall. Deployment-efficiency measurements on target on-robot and edge accelerators are included. Real-robot experiments and an offline reranking significance test remain future work; see the paper for disclosures.",
+      "authors": [
+        "Kaiming Zhong",
+        "Tianhua Liu",
+        "Yue Wang"
+      ],
+      "published": "2026-08-18",
+      "updated": "2026-08-18",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": "17 pages, 9 figures. Simulation-only empirical results on LIBERO-Long (no real-robot experiments). Source, figure-generation scripts and reproducibility checklist included. Level-3 offline reranking significance test not executed; see Sec. 7 (Scope and honesty statement) for detailed disclosure",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.17496",
+      "pdf_url": "https://arxiv.org/pdf/2608.17496",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Simulation Data"
+        ]
+      }
+    },
+    "2608.17432": {
+      "arxiv_id": "2608.17432",
+      "title": "UniReflex: Plug-and-Play Force Control for Pretrained Generative Policies via Fast-Slow Reflex",
+      "abstract": "Generative imitation learning policies excel at trajectory planning but lack closed-loop force regulation, while directly incorporating force modalities often requires redesigning or retraining the network. We present UniReflex, a universal plug-and-play framework that equips frozen generative policies with variable impedance control (VIC) for contact regulation, guided by force-direction intent collected during demonstration, without further slow-backbone fine-tuning. By non-invasively intercepting deep latent representations from the action head, UniReflex drives a fast reflex network that decouples active force exertion from external interaction response. This scheme predicts normalized anisotropic stiffness directions for directional compliance allocation. Furthermore, UniReflex integrates an adaptive gating mechanism that enables seamless transitions between position-dominant planning and force-dominant execution. Real-world bimanual experiments demonstrate that UniReflex significantly improves contact stability and success rates while preserving original position accuracy. Our approach achieves 25-66x lower per-step backward latency relative to joint training strategies on the evaluated backbones.",
+      "authors": [
+        "Yan Huang",
+        "Shoujie Li",
+        "Ziwu Song",
+        "Wenbo Ding"
+      ],
+      "published": "2026-08-18",
+      "updated": "2026-08-18",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.17432",
+      "pdf_url": "https://arxiv.org/pdf/2608.17432",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Trajectory Generation"
+        ]
+      }
+    },
+    "2608.17423": {
+      "arxiv_id": "2608.17423",
+      "title": "Prism-GRPO: Faster VLA Policy Optimization via Splitting Same-outcome Groups",
+      "abstract": "GRPO is increasingly used for reinforcement learning of vision-language-action (VLA) policies because, unlike PPO, it does not require training a critic. This simplification comes with a sampling cost: group-relative advantages require multiple rollouts from each scene. Under binary success rewards, groups whose rollouts all succeed or all fail have zero advantage and are discarded by dynamic sampling. These groups are especially common early in training, when most rollouts fail, wasting much of the expensive robotic rollout budget. We introduce Prism-GRPO, which augments binary outcome reward with a weighted trajectory-level execution-quality score. By splitting same-outcome groups into a quality spectrum, Prism-GRPO recovers training signal while ensuring that every success still outranks every failure. Quality scores can be derived from simulator contacts, executed actions, or visual observations, avoiding task-specific progress rewards. We prove that Prism-GRPO never increases the probability that a sampled group is discarded for having zero advantages, and derive a gradient-alignment condition under which its combined update remains a local ascent direction for task success. Across four RoboTwin tasks spanning different horizons and coordination patterns, Prism-GRPO improves success and quality at matched rollout budgets and reaches target success rates with up to 56% fewer rollouts. It also suppresses a reward-hacking shortcut, with the cleaner behavior transferring under direct deployment to a real robot. Through ablations, we show consistent gains across contact-, smoothness-, and VLM-derived quality signals.",
+      "authors": [
+        "Zeyun Deng",
+        "Yuzhe Lu",
+        "Yawei Wang",
+        "Linbo Liu",
+        "Qing Ping",
+        "Han Ding",
+        "Guande Wu",
+        "Panpan Xu",
+        "Jun Huan"
+      ],
+      "published": "2026-08-18",
+      "updated": "2026-08-18",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.17423",
+      "pdf_url": "https://arxiv.org/pdf/2608.17423",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "robot_centric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Robot Data Processing"
+        ]
+      }
+    },
+    "2608.17386": {
+      "arxiv_id": "2608.17386",
+      "title": "MANIGUARD: A Benchmark and Data Suite for Specification-Grounded Safety Evaluation and Improvement of Robotic Manipulation",
+      "abstract": "Foundation-model policies for robotic manipulation are advancing rapidly on task success, but rigorous evaluation of whether they succeed safely is still lacking. We introduce ManiGuard, a specification-grounded framework for evaluating and improving the safety of foundation-model manipulation, comprising the ManiGuard-Bench task suite and a paired safety-annotated trajectory-generation pipeline. ManiGuard-Bench organizes six contact-rich household task families into 200 locked base tasks along a skill $\\times$ constraint taxonomy, with safety specified independently of task success. Each task is evaluated under one in-distribution and four single-axis out-of-distribution perturbations that hold the safety specification fixed, giving 1,000 locked scenarios. Every rollout is runtime-checked by LTL$_f$-grounded automaton monitors over physics-grounded predicates rather than learned classifiers or LLM judges, in simulation and on a physical Franka platform. The pipeline pairs an automated motion-planning generator with human teleoperation, annotated by the same per-step monitor, and directly supports safety-aware fine-tuning; we release 8,000 safety-annotated demonstrations, 40 per base task. Benchmarking zero-shot and fine-tuned VLAs across more than 23,000 rollouts, we find: (i) safety must be evaluated independently of task success, as 6-21% of successful rollouts violate the specification; (ii) fine-tuning on our suite raises safe task completion from near zero to 7.5-29.8% and engaged-and-safe behavior from 16-40% to 51-72%; but (iii) a gap remains that scaling demonstrations does not close, with 21-42% of engaged rollouts still violating, two of six families below 2% safe success for every policy, and these failures persisting under distribution shift and on hardware.",
+      "authors": [
+        "Yiyan Peng",
+        "Philip Wang",
+        "Simon Sinong Zhan",
+        "Yiqi Lyu",
+        "Zhenyang Ni",
+        "Jixin Yan",
+        "Fiorelli Wong",
+        "Ruochen Jiao",
+        "Hang Yin",
+        "Xinyu Cao",
+        "Huajie Shao",
+        "Manling Li",
+        "Ruohan Zhang",
+        "Qi Zhu"
+      ],
+      "published": "2026-08-18",
+      "updated": "2026-08-18",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.17386",
+      "pdf_url": "https://arxiv.org/pdf/2608.17386",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "robot_centric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Teleoperation"
+        ]
+      }
+    },
+    "2608.17347": {
+      "arxiv_id": "2608.17347",
+      "title": "Repetition as Reinforcement: Enhancing Sample Efficiency via Instant Episode Repetition in Reinforcement Learning",
+      "abstract": "Repetition is a fundamental mechanism in human learning, where revisiting successful experiences strengthens memory, consolidates skills, and improves future performance. Motivated by this biological principle, we introduce Instant Episode Repetition (IER), a simple and novel mechanism that improves sample efficiency by immediately repeating action sequences from successful episodes during environment interaction. Unlike conventional approaches such as Experience Replay and Self-Imitation Learning (SIL), which passively reuse past experience during training updates, IER directly influences the data collection process. Upon identifying a high-reward episode, the agent repeats its action sequence for a fixed number of subsequent episodes, reinforcing valuable behaviors through renewed interaction with the environment. We integrate IER into state-of-the-art SAC and TD3 algorithms and evaluate its effectiveness on continuous-control benchmarks, including MuJoCo, the DeepMind Control Suite, and a real-world dynamic object translation task with a robotic manipulator. Experimental results demonstrate that this simple mechanism improves learning performance over standard and self-imitation-based baselines.",
+      "authors": [
+        "Hoda Yamani",
+        "Yuning Xing",
+        "Koen van Rijnsoever",
+        "Bruce A. MacDonald",
+        "Henry Williams"
+      ],
+      "published": "2026-08-18",
+      "updated": "2026-08-18",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.RO"
+      ],
+      "comment": "23 pages, 12 figures. Accepted at RLC 2026; to appear in Reinforcement Learning Journal (RLJ) 2026. Code: https://github.com/UoA-CARES/instant-episode-repetition",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.17347",
+      "pdf_url": "https://arxiv.org/pdf/2608.17347",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "robot_centric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Data Collection"
+        ]
+      }
+    },
+    "2608.17320": {
+      "arxiv_id": "2608.17320",
+      "title": "Robust Brachiation on a Life-Sized Dual-Arm Robot Using Waypoint-Guided Reinforcement Learning",
+      "abstract": "Brachiation is a form of locomotion in which primates move primarily using their arms, enabling traversal in environments without footholds. However, this motion requires highly coordinated whole-body movement and precise timing control for bar grasping and release. As a result, achieving robust behavior on life-sized robotic platforms remains challenging. In this study, we present a reinforcement learning-based method to realize brachiation on a life-sized dual-arm robot. The core of the proposed approach is Waypoint-Guided Reinforcement Learning (WGRL), a learning framework for inducing non-linear and complex motions. For high-difficulty tasks where imitation learning data are unavailable, WGRL guides behavior acquisition by sparsely specifying waypoints for the end-effector trajectory, while whole-body motion is generated through reinforcement learning. In addition, by integrating the waypoint-following guidance with rewards based on task success and mechanical energy, and training in an environment designed for Sim-to-Real transfer, the proposed method achieves both forward progression and motion stability. The acquired behavior is evaluated through Sim-to-Sim experiments under monkey-bar environments with geometric variations and hardware experiments, confirming robust brachiation including failure recovery behavior. This study provides effective learning design guidelines for realizing arm-based locomotion on life-sized robotic hardware and expanding the traversable workspace of robots.",
+      "authors": [
+        "Ayumu Iwata",
+        "Kento Kawaharazuka",
+        "Keita Yoneda",
+        "Takahiro Hattori",
+        "Kei Okada"
+      ],
+      "published": "2026-08-18",
+      "updated": "2026-08-18",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": "Accepted to 2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.17320",
+      "pdf_url": "https://arxiv.org/pdf/2608.17320",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Sim-to-Real"
+        ]
+      }
+    },
+    "2608.17209": {
+      "arxiv_id": "2608.17209",
+      "title": "Teach and Grow: An Agent-Centered Architecture for General Robot Learning",
+      "abstract": "End-to-end vision-language-action (VLA) and world-action models offer an elegant route to general-purpose robotics, but their reliability is bounded by validated physical coverage. When an unfamiliar object, sensor, embodiment, or contact falls outside that coverage and no validated fallback exists, correcting the failure requires new robot data, a policy update, and regression testing. This recurring burden is the retraining tax. Unlike text, embodied data must often be created by operating machines. We present Teach-and-Grow Learning (TGL), an agent-centered architecture for general robot learning. In its general form, a multimodal agent turns a few successful demonstrations into reusable Skill Blocks: closed-loop behaviors for meaningful subgoals. In a new scene, the agent grounds and composes these blocks, selects learned or geometric tools, observes the physical outcome, and revises the route when execution departs from intent. A Skill Library stores executable behavior, while structured Experience Memory carries forward success, failure, and repair. New tasks are acquired without task-specific policy retraining. Our LIBERO evaluation attains state-of-the-art performance; controlled studies expose skill induction, persistent reuse, and agent-directed adaptation. Finally, we propose the Teach-and-Grow scaling-law hypothesis: if X denotes effective reusable experience, future-task error and teaching demand should approach irreducible floors as power laws in X. The architecture therefore treats deployment as a period of continued learning, in which one task can make the next easier.",
+      "authors": [
+        "Chang Nie",
+        "Zhe Liu",
+        "Hesheng Wang"
+      ],
+      "published": "2026-08-17",
+      "updated": "2026-08-17",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.17209",
+      "pdf_url": "https://arxiv.org/pdf/2608.17209",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "robot_centric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Robot Dataset"
+        ]
+      }
+    },
+    "2608.17129": {
+      "arxiv_id": "2608.17129",
+      "title": "PROBE: Manipulation-Grounded Visual Question Answering with VLM Agents",
+      "abstract": "Vision-language Models (VLMs) excel at 2D grounding, spatial reasoning and agentic tool-based planning in static scenes. However, consider asking a home robot \"Is my medication still in the cabinet?\" The answer may be physically hidden behind a row of containers that must first be moved aside. Answering such questions in real-world cluttered environments requires reasoning in dynamic scenes: distractors must be manipulated to reveal occluded objects, and each action changes the scene the model must reason over. We formalize this setting as Manipulation-Grounded Visual Question Answering (MG-VQA) and introduce PROBE, a framework for benchmarking and finetuning VLM agents on such tasks. We first develop PROBE-Sim, a high-fidelity tabletop simulator with everyday objects and a robot manipulator equipped with grasping and pushing tools. PROBE-Sim is used to create PROBE-Bench: an evaluation suite of 150 tasks across 6 question types on cluttered tabletop scenes, where a VLM perceives, picks up or pushes objects before answering. We observe consistent trend across all frontier VLMs: agentic tool-based methods outperform their perception-only baselines (8.0% on average) across all task types. We further design PROBE-Agent, a finetuning recipe to distill successful trajectories from a powerful teacher foundation model to a smaller open-weight model using a mixed data recipe that encourages manipulation-efficient question answering. PROBE Agent finetuned models outperform their off-the-shelf agent baseline (11.5% on average) and demonstrate positive transfer to unseen objects and a held-out task. We validate sim-to-real transfer by deploying PROBE-Agent finetuned policies in real-world tabletop environments.",
+      "authors": [
+        "Vineet Bhat",
+        "Siyi Chen",
+        "Alex Zook",
+        "Xuning Yang",
+        "Stan Birchfield",
+        "Valts Blukis",
+        "Jonathan Tremblay"
+      ],
+      "published": "2026-08-17",
+      "updated": "2026-08-17",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.17129",
+      "pdf_url": "https://arxiv.org/pdf/2608.17129",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Sim-to-Real"
+        ]
+      }
+    },
+    "2608.17027": {
+      "arxiv_id": "2608.17027",
+      "title": "FetchMan: Learning Visual Humanoid Loco-Manipulation Policies from Simulated Experiences",
+      "abstract": "Visual loco-manipulation policies that can generalize to novel scenes and objects have long been a goal of robotics research. However, today's data-hungry algorithms make collecting sufficient demonstrations a struggle for tabletop manipulation, and even more so for humanoids that must also walk and balance. Learning from simulated data and transferring that behavior to the real world, as is commonly done in locomotion, sidesteps this struggle, so we replicate that recipe for loco-manipulation. In doing so, we find that cloning synthetic demonstrations results in a low performance ceiling no matter the amount of training data. Reinforcement learning breaks through it, and refining the cloned policy with Flow-GRPO on a single sparse reward yields performance that synthetic behavior cloning cannot match. Together, these stages form our end-to-end sim-to-real pipeline spanning more than 150,000 scenes, which we use to train FetchMan. We evaluate it on FetchMan-Bench, a simulation benchmark we release, and deploy it zero-shot on a real Unitree G1, where our single-object reach-and-pick policy walks to and grasps a target across unseen scenes at 73.3% success. Finally, we extend this recipe to multi-object training, a first step toward loco-manipulation generalist policies at this data scale.",
+      "authors": [
+        "Omar Rayyan",
+        "Zhi Li",
+        "Max Argus",
+        "Yuxin Jiang",
+        "Chang Yu",
+        "Chenfanfu Jiang",
+        "Yuchen Cui"
+      ],
+      "published": "2026-08-17",
+      "updated": "2026-08-17",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": "Project website: https://orayyan.com/fetchman",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.17027",
+      "pdf_url": "https://arxiv.org/pdf/2608.17027",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Simulation Data",
+          "Sim-to-Real"
+        ]
+      }
+    },
     "2608.16822": {
       "arxiv_id": "2608.16822",
       "title": "Adaptive Repulsive Pheromone Clustering for Foraging Robot Swarms",
@@ -196605,7 +196967,7 @@
     }
   },
   "coverage_start": "2025-01-01",
-  "coverage_end": "2026-08-18",
-  "paper_count": 5142,
-  "generated_at": "2026-08-18T12:50:19+00:00"
+  "coverage_end": "2026-08-19",
+  "paper_count": 5152,
+  "generated_at": "2026-08-19T01:51:59+00:00"
 }
