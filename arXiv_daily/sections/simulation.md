@@ -4,12 +4,15 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-20 · **Papers:** 2398 · **Unique arXiv IDs:** 2398
+**Coverage:** 2025-01-01 to 2026-08-20 · **Papers:** 2401 · **Unique arXiv IDs:** 2401
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-19 | [ADEPT: Accelerating Dexterity via Pre-Training and Post-Training using Reinforcement Learning](https://arxiv.org/abs/2608.19182) | Jayjun Lee, Jessica Yin, Asif Rana, et al. | cs.RO, cs.AI | Sim-to-Real | [abs](https://arxiv.org/abs/2608.19182) / [pdf](https://arxiv.org/pdf/2608.19182) |
+| 2026-08-19 | [Beyond Placement and Articulation: Usage-Driven Code Scenes for Embodied Interaction](https://arxiv.org/abs/2608.18840) | Zijian Xiao, Zipeng Ye, Jinkun Hao, et al. | cs.RO, cs.CV | Simulation Data, Task / Scene Generation, Simulation-Ready Asset | [abs](https://arxiv.org/abs/2608.18840) / [pdf](https://arxiv.org/pdf/2608.18840) |
+| 2026-08-19 | [DevGRU: Depth-guided Visual Navigation using a Collision-aware Recurrent Model](https://arxiv.org/abs/2608.18470) | Kyung Min Han, Eunsom Kim, Young J. Kim | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2608.18470) / [pdf](https://arxiv.org/pdf/2608.18470) |
 | 2026-08-18 | [Iterative Grasp Pose Refinement: A Deep Reinforcement Learning Approach for 2D Vision](https://arxiv.org/abs/2608.17628) | Amir Arsalan Nematollahi, Shayan Ahmadi, Mehdi Tale Masouleh, et al. | cs.RO, cs.AI, cs.LG | Simulation Data, Sim-to-Real | [abs](https://arxiv.org/abs/2608.17628) / [pdf](https://arxiv.org/pdf/2608.17628) |
 | 2026-08-18 | [Calibrated Predictive Safety for Heterogeneous Robots: An Action-Conditioned JEPA Framework with Model-Based Safety Shields](https://arxiv.org/abs/2608.17496) | Kaiming Zhong, Tianhua Liu, Yue Wang | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2608.17496) / [pdf](https://arxiv.org/pdf/2608.17496) |
 | 2026-08-18 | [UniReflex: Plug-and-Play Force Control for Pretrained Generative Policies via Fast-Slow Reflex](https://arxiv.org/abs/2608.17432) | Yan Huang, Shoujie Li, Ziwu Song, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2608.17432) / [pdf](https://arxiv.org/pdf/2608.17432) |

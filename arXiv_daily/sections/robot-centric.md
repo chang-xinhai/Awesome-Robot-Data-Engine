@@ -4,12 +4,15 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-20 · **Papers:** 1960 · **Unique arXiv IDs:** 1960
+**Coverage:** 2025-01-01 to 2026-08-20 · **Papers:** 1963 · **Unique arXiv IDs:** 1963
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-19 | [RoboEdit: Turning Human Manipulation Videos into Scalable Robot Experience](https://arxiv.org/abs/2608.18948) | Yaowei Guo, Zeng Tao, Yuxin Jiang, et al. | cs.RO | Robot Dataset, Data Collection | [abs](https://arxiv.org/abs/2608.18948) / [pdf](https://arxiv.org/pdf/2608.18948) |
+| 2026-08-19 | [The Embodiment Gap in Robot Foundation Models](https://arxiv.org/abs/2608.18433) | Yukiyasu Domae, Keisuke Shirai, Hanbit Oh, et al. | cs.RO, cs.LG | Robot Dataset | [abs](https://arxiv.org/abs/2608.18433) / [pdf](https://arxiv.org/pdf/2608.18433) |
+| 2026-08-18 | [GigaBrain-WBC-0.5: A Behavior World Model for Robust Whole-Body Control with Environment Interaction](https://arxiv.org/abs/2608.18234) | Ziyang Cheng, Tianshu Tang, Jinxin Lan, et al. | cs.RO, cs.AI, cs.LG | Teleoperation | [abs](https://arxiv.org/abs/2608.18234) / [pdf](https://arxiv.org/pdf/2608.18234) |
 | 2026-08-18 | [Hydra-0: Action Flow for Generalist World Modeling and Control](https://arxiv.org/abs/2608.18077) | Hongyu Li, Bowen Wen, Xinghao Zhu, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2608.18077) / [pdf](https://arxiv.org/pdf/2608.18077) |
 | 2026-08-18 | [PRISM: Precision and contact-rich Real-world Industrial Skill dataset with Multimodal sensing](https://arxiv.org/abs/2608.17962) | Tengbo Yu, Jiahao Wu, Hanning Wang, et al. | cs.RO | Teleoperation, Robot Dataset | [abs](https://arxiv.org/abs/2608.17962) / [pdf](https://arxiv.org/pdf/2608.17962) |
 | 2026-08-18 | [Prism-GRPO: Faster VLA Policy Optimization via Splitting Same-outcome Groups](https://arxiv.org/abs/2608.17423) | Zeyun Deng, Yuzhe Lu, Yawei Wang, et al. | cs.RO, cs.LG | Robot Data Processing | [abs](https://arxiv.org/abs/2608.17423) / [pdf](https://arxiv.org/pdf/2608.17423) |
