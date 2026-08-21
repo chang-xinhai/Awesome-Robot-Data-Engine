@@ -4,12 +4,20 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-21 · **Papers:** 1963 · **Unique arXiv IDs:** 1963
+**Coverage:** 2025-01-01 to 2026-08-21 · **Papers:** 1971 · **Unique arXiv IDs:** 1971
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-20 | [DECOWAM: Decoupled Whole-Body World-Action Model for Legged Mobile Manipulation](https://arxiv.org/abs/2608.20114) | Siyuan Ma, Boshi Zhang, Yutian Zhang, et al. | cs.AI, cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2608.20114) / [pdf](https://arxiv.org/pdf/2608.20114) |
+| 2026-08-20 | [Wave-Based Bilateral Teleoperation between Nonlinear Manipulators with Direct Contact Force Feedback](https://arxiv.org/abs/2608.20043) | G. Q. Bao Tran, Takanori Miyoshi, Ho Duc Tho | eess.SY, cs.RO, math.DS | Teleoperation | [abs](https://arxiv.org/abs/2608.20043) / [pdf](https://arxiv.org/pdf/2608.20043) |
+| 2026-08-20 | [EXIMO: VLM Guided Exploration of VLA Policies](https://arxiv.org/abs/2608.19891) | Bhavya Sukhija, Oliver Groth, Mohit Shridhar, et al. | cs.AI | Teleoperation | [abs](https://arxiv.org/abs/2608.19891) / [pdf](https://arxiv.org/pdf/2608.19891) |
+| 2026-08-20 | [CoToGrasp: Contact-Topology-Conditioned Dexterous Grasp Synthesis via Canonical Workspace Learning](https://arxiv.org/abs/2608.19776) | Julien Merand, Boris Meden, Liming Chen, et al. | cs.RO, cs.AI | Data Collection | [abs](https://arxiv.org/abs/2608.19776) / [pdf](https://arxiv.org/pdf/2608.19776) |
+| 2026-08-20 | [Keeping the Franka Emika Panda alive: a ROS 2 stack with a reliable position interface](https://arxiv.org/abs/2608.19740) | Antonio Langella, Davide Risi, Vincenzo Petrone, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2608.19740) / [pdf](https://arxiv.org/pdf/2608.19740) |
+| 2026-08-20 | [Learning Hierarchical Skill Policies with Offline Quality-Diversity Reinforcement Learning](https://arxiv.org/abs/2608.19684) | Tanachai Anakewat, Takayuki Osa, Tatsuya Harada | cs.AI, cs.LG, cs.RO | Robot Data Processing | [abs](https://arxiv.org/abs/2608.19684) / [pdf](https://arxiv.org/pdf/2608.19684) |
+| 2026-08-19 | [The Missing Touch: Spatially Distributed Tactile Feedback Brings Teleoperation Closer to Human Dexterity](https://arxiv.org/abs/2608.19372) | Rohan Kota, Gregory Reardon, J. Edward Colgate | cs.RO | Teleoperation, Data Collection | [abs](https://arxiv.org/abs/2608.19372) / [pdf](https://arxiv.org/pdf/2608.19372) |
+| 2026-08-19 | [Multi-Tool Robotics Enables In-Situ Sample Manipulation for Time-Resolved Synchrotron Measurements](https://arxiv.org/abs/2608.19280) | Aditya Bondada, Elizabeth M. Wall, Eric Yuan Xiao, et al. | cond-mat.mtrl-sci, cs.RO | Human Intervention | [abs](https://arxiv.org/abs/2608.19280) / [pdf](https://arxiv.org/pdf/2608.19280) |
 | 2026-08-19 | [RoboEdit: Turning Human Manipulation Videos into Scalable Robot Experience](https://arxiv.org/abs/2608.18948) | Yaowei Guo, Zeng Tao, Yuxin Jiang, et al. | cs.RO | Robot Dataset, Data Collection | [abs](https://arxiv.org/abs/2608.18948) / [pdf](https://arxiv.org/pdf/2608.18948) |
 | 2026-08-19 | [The Embodiment Gap in Robot Foundation Models](https://arxiv.org/abs/2608.18433) | Yukiyasu Domae, Keisuke Shirai, Hanbit Oh, et al. | cs.RO, cs.LG | Robot Dataset | [abs](https://arxiv.org/abs/2608.18433) / [pdf](https://arxiv.org/pdf/2608.18433) |
 | 2026-08-18 | [GigaBrain-WBC-0.5: A Behavior World Model for Robust Whole-Body Control with Environment Interaction](https://arxiv.org/abs/2608.18234) | Ziyang Cheng, Tianshu Tang, Jinxin Lan, et al. | cs.RO, cs.AI, cs.LG | Teleoperation | [abs](https://arxiv.org/abs/2608.18234) / [pdf](https://arxiv.org/pdf/2608.18234) |

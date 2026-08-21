@@ -4,12 +4,16 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-21 · **Papers:** 2401 · **Unique arXiv IDs:** 2401
+**Coverage:** 2025-01-01 to 2026-08-21 · **Papers:** 2405 · **Unique arXiv IDs:** 2405
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-20 | [Video2DoorTraversal: Push Door Traversal via Simulated Door Twins](https://arxiv.org/abs/2608.20251) | Xincheng Tang, Yiji Chen, Youhan Xie, et al. | cs.RO | Sim-to-Real, Simulation-Ready Asset | [abs](https://arxiv.org/abs/2608.20251) / [pdf](https://arxiv.org/pdf/2608.20251) |
+| 2026-08-20 | [Towards Professional Tennis Styles for Humanoid Robots with Adaptive Motion Planning and Tracking](https://arxiv.org/abs/2608.20087) | Tao Huang, Ruofei Liu, Xuchen Tang, et al. | cs.RO, cs.AI | Sim-to-Real | [abs](https://arxiv.org/abs/2608.20087) / [pdf](https://arxiv.org/pdf/2608.20087) |
+| 2026-08-19 | [Fine-Tuning VLAs with Self-Demonstrated Generative Control for Multi-Task Manipulation](https://arxiv.org/abs/2608.19490) | Prachi Garg, Steve Xing, Prahit Yaugand, et al. | cs.RO, cs.CV, cs.LG | Simulation Data | [abs](https://arxiv.org/abs/2608.19490) / [pdf](https://arxiv.org/pdf/2608.19490) |
+| 2026-08-19 | [Learning the Right Abstraction: Neural Reduced Dynamics for Complex Robot Control](https://arxiv.org/abs/2608.19375) | Harry Zhang, Dan Negrut | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2608.19375) / [pdf](https://arxiv.org/pdf/2608.19375) |
 | 2026-08-19 | [ADEPT: Accelerating Dexterity via Pre-Training and Post-Training using Reinforcement Learning](https://arxiv.org/abs/2608.19182) | Jayjun Lee, Jessica Yin, Asif Rana, et al. | cs.RO, cs.AI | Sim-to-Real | [abs](https://arxiv.org/abs/2608.19182) / [pdf](https://arxiv.org/pdf/2608.19182) |
 | 2026-08-19 | [Beyond Placement and Articulation: Usage-Driven Code Scenes for Embodied Interaction](https://arxiv.org/abs/2608.18840) | Zijian Xiao, Zipeng Ye, Jinkun Hao, et al. | cs.RO, cs.CV | Simulation Data, Task / Scene Generation, Simulation-Ready Asset | [abs](https://arxiv.org/abs/2608.18840) / [pdf](https://arxiv.org/pdf/2608.18840) |
 | 2026-08-19 | [DevGRU: Depth-guided Visual Navigation using a Collision-aware Recurrent Model](https://arxiv.org/abs/2608.18470) | Kyung Min Han, Eunsom Kim, Young J. Kim | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2608.18470) / [pdf](https://arxiv.org/pdf/2608.18470) |

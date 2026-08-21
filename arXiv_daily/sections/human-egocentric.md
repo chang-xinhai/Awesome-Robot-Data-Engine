@@ -4,12 +4,14 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-21 · **Papers:** 1841 · **Unique arXiv IDs:** 1841
+**Coverage:** 2025-01-01 to 2026-08-21 · **Papers:** 1843 · **Unique arXiv IDs:** 1843
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-20 | [DreamHand: Repurposing Video Diffusion Models for Occlusion-Robust Egocentric 3D Hand Motion Recovery](https://arxiv.org/abs/2608.20308) | Yufei Liu, Xixi Wang, Hao Li, et al. | cs.CV | Egocentric, Human Video | [abs](https://arxiv.org/abs/2608.20308) / [pdf](https://arxiv.org/pdf/2608.20308) |
+| 2026-08-20 | [G3Ego: Gaze-Guided Graphs for Egocentric Action Understanding](https://arxiv.org/abs/2608.20157) | Marko Haralović, Akash Ramakrishnan, Estefania Talavera Martinez | cs.CV | Egocentric, Hand-Object Interaction | [abs](https://arxiv.org/abs/2608.20157) / [pdf](https://arxiv.org/pdf/2608.20157) |
 | 2026-08-19 | [RoboEdit: Turning Human Manipulation Videos into Scalable Robot Experience](https://arxiv.org/abs/2608.18948) | Yaowei Guo, Zeng Tao, Yuxin Jiang, et al. | cs.RO | Hand-Object Interaction, Human Video, Human-to-Robot | [abs](https://arxiv.org/abs/2608.18948) / [pdf](https://arxiv.org/pdf/2608.18948) |
 | 2026-08-19 | [EgoHRV: Continuous Heart Rate Variability Estimation from Egocentric Systems for Autonomic Response and Skill Assessment](https://arxiv.org/abs/2608.18711) | Berken Utku Demirel, Christian Holz | cs.CV, eess.SP | Egocentric | [abs](https://arxiv.org/abs/2608.18711) / [pdf](https://arxiv.org/pdf/2608.18711) |
 | 2026-08-19 | [Vision-Language Models for Egocentric Video: From Hand-Object Interaction to Embodied AI](https://arxiv.org/abs/2608.18671) | Mohammad Zamani, Fatemeh Ziaeetabar | cs.CV | Egocentric, Hand-Object Interaction, Human-to-Robot | [abs](https://arxiv.org/abs/2608.18671) / [pdf](https://arxiv.org/pdf/2608.18671) |
