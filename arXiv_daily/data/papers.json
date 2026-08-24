@@ -1,6 +1,490 @@
 {
   "schema_version": 1,
   "papers": {
+    "2608.21358": {
+      "arxiv_id": "2608.21358",
+      "title": "Mining beyond Earth with Space Robots: Exploration, Sampling, and Extraction",
+      "abstract": "Space resource acquisition and utilization, commonly referred to as Space Mining, represent critical pathways for enabling sustained human exploration and unlocking commercial opportunities in space. These resources mainly include helium-3, water, mineral resources on the Moon and Mars, and abundant mineral deposits on asteroids. Due to the harsh conditions of space, communication delays, and high launch costs, the development of autonomous robotic systems is critical to achieving efficient, cost-effective space mining. This paper provides a comprehensive overview of space mining robotics and associated technologies. First, we review the background of space mining, including international policies, commercial entities, and recent advancements. We define a systematic six-stage architecture for space mining: Exploration is initiated by (1) remote sensing for target identification and (2) precise in situ robotic detection; Sampling progresses from (3) single-robot small-scale sampling to (4) multi-robot large-scale excavation; and Extraction integrates (5) autonomous resource extraction and (6) final integration into in situ construction or terrestrial transport. Additionally, we review and curate existing resources for space mining research, including real-world mission data, terrestrial analog datasets, and high-fidelity simulation environments. Finally, we identify critical open challenges in autonomous space mining and delineate a strategic research roadmap to bridge current technological gaps, fostering the transition toward a sustainable off-world economy. To track ongoing developments in space mining, we maintain an updated project page: https://github.com/OpenSpace-Lab/Space-Mining-with-Robotics-List.",
+      "authors": [
+        "Dong Li",
+        "Dujun Nie",
+        "Xiaotong Zhang",
+        "Ruilin Wang",
+        "Yuchen Li",
+        "Chang Ge",
+        "Chao Xiong",
+        "Kaichang Di",
+        "Andreas Nüchter",
+        "Levente Kovács",
+        "Qingquan Li",
+        "Shirong Ge",
+        "Fei-Yue Wang",
+        "Long Chen"
+      ],
+      "published": "2026-08-21",
+      "updated": "2026-08-21",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.21358",
+      "pdf_url": "https://arxiv.org/pdf/2608.21358",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Simulation Data"
+        ]
+      }
+    },
+    "2608.21355": {
+      "arxiv_id": "2608.21355",
+      "title": "ViTacPhys: Physical Property-Aware Grasping from Human Visual-Tactile Demonstrations",
+      "abstract": "Recent vision-based action models have demonstrated strong capabilities in complex manipulation, but they rarely leverage explicit object physical properties to adapt their policies. We introduce ViTacPhys, a visual-tactile framework and data acquisition system that estimates object mass and friction-coefficient classes, together with continuous stiffness, from human manipulation demonstrations. Trained on data from 60 rigid and deformable objects, ViTacPhys combines temporal visual-tactile modeling, cross-attention multimodal fusion, and a semantic prior derived from a vision-language model. On seen objects, it achieves 97.2% mass classification accuracy, 98.8% friction-coefficient classification accuracy, and a stiffness mean absolute percentage error (MAPE) of 5.51%. On held-out objects from known categories, it achieves 87.5% mass accuracy, 97.5% friction-coefficient accuracy, and a stiffness MAPE of 9.08%. We transfer ViTacPhys from the human domain to the robot domain using limited robot teleoperation data, robot-style video augmentation, and human demonstrations with matched actions, and deploy it as an online module for adaptive grasping. The resulting physical-property-conditioned policy achieves total grasping success rates of 95.0% on in-distribution objects and 83.4% on out-of-distribution objects. For out-of-distribution objects successfully grasped by both methods, its force profiles are more consistent with human teleoperation than those produced by ACT. These results demonstrate the feasibility of explicitly estimating and conditioning on object physical properties for real-world adaptive grasping.",
+      "authors": [
+        "Yiwen Liu",
+        "Yujun Zhu",
+        "Kui Jia",
+        "Zhao Liao",
+        "Yangwei You",
+        "Shuaijun Wang"
+      ],
+      "published": "2026-08-21",
+      "updated": "2026-08-21",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": "11 pages, 7 figures. Project page: https://vitacphys.github.io/ViTacPhys/",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.21355",
+      "pdf_url": "https://arxiv.org/pdf/2608.21355",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "robot_centric",
+        "human_egocentric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Teleoperation",
+          "Robot Data Processing"
+        ],
+        "human_egocentric": [
+          "Human Demonstration"
+        ]
+      }
+    },
+    "2608.21290": {
+      "arxiv_id": "2608.21290",
+      "title": "VT-MUSE: Multimodal Unified Sequential Visuotactile Representation Learning for Manipulation",
+      "abstract": "We propose VT-MUSE, a Multimodal Unified SEquential representation learning framework for visuotactilemanipulation. Existing approaches often encode visual and tactile observations independently before fusion, limiting their ability to capture fine-grained cross-modal dependencies. Moreover, most methods focus on observations at the current time step and overlook the temporal evolution of contact. VT-MUSE addresses both limitations through a two-stage representation learning framework. In Stage I, modality specific encoders are jointly adapted via cross-modal temporal alignment and masked-view consistency. In Stage II, a conditional variational latent model processes masked visual sequences together with full tactile histories. Auxiliary decoders reconstruct the masked recent visual observations and predict tactile depth changes, encouraging the latent representation to retain both global visual context and local contact dynamics. The learned representation is subsequently integrated into a lightweight Transformer policy through gated cross-attention. On the simulation benchmark, VT-MUSE outperforms the strongest baseline evaluated on all tasks by 11 percentage points and also achieves substantial improvements in real-world experiments.",
+      "authors": [
+        "Congsheng Xu",
+        "Qiaochu Yang",
+        "Fangyuan Shi",
+        "Yifan Han",
+        "Baijun Chen",
+        "Yiming Wang",
+        "Haonan Zhao",
+        "Daolin Ma",
+        "Xiaokang Yang",
+        "Hesheng Wang"
+      ],
+      "published": "2026-08-21",
+      "updated": "2026-08-21",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.21290",
+      "pdf_url": "https://arxiv.org/pdf/2608.21290",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Simulation Data"
+        ]
+      }
+    },
+    "2608.21204": {
+      "arxiv_id": "2608.21204",
+      "title": "Beyond Imitation: Self-Improving Robot Policies via Off-Policy Q-Planning",
+      "abstract": "Behaviour Cloning (BC) has driven remarkable progress in robot manipulation, yet it is fundamentally limited by its inability to self-improve: a policy that fails cannot learn from that failure without additional human demonstrations. Reinforcement Learning fine-tuning offers a path to self-improvement but has proven difficult to scale to the multi-billion-parameter models underpinning modern robot policies. We propose Q-Planning, which equips a large visuomotor BC policy with a small off-policy Q-function. Because a Q-function estimates value rather than imitates actions, it can be trained on the same successful demonstrations as the BC policy and later absorb both successful and failed deployment rollouts, an asymmetry BC does not have. We exploit this asymmetry to enable value-guided action selection at inference (a single-step Q-weighted average over BC draws) and online self-improvement that fine-tunes only the Q-function, leaving the BC weights untouched. On LIBERO and bimanual RoboTwin, ten iterations of self-improvement lift every benchmark score we tested (LIBERO-10 93% to 99%, RoboTwin 83.8% to 91.4%) and shorten successful episodes on the near-ceiling suites (LIBERO-Object, LIBERO-Goal). On two contact-rich bimanual real-robot tasks, the same loop (BC frozen, no human intervention) improves purely from its own deployment rollouts: stack-cups 40% to 90% and insert-wallet 25% to 80% in five iterations, whereas SFT on successful rollouts alone stalls at 55% and 30%. Under an identical online budget Q-Planning is the only method, among Best-of-N, filtered SFT, IBRL, DSRL, and DAWR, that improves stably from failures without training an auxiliary actor.",
+      "authors": [
+        "Varun Giridhar",
+        "Anant Khandelwal",
+        "Jeremy A. Collins",
+        "Ignat Georgiev",
+        "Animesh Garg"
+      ],
+      "published": "2026-08-21",
+      "updated": "2026-08-21",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "comment": "Project page with videos: https://varungiridhar.github.io/qplanning/",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.21204",
+      "pdf_url": "https://arxiv.org/pdf/2608.21204",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "robot_centric",
+        "human_egocentric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Human Intervention",
+          "Autonomous Collection"
+        ],
+        "human_egocentric": [
+          "Human Demonstration"
+        ]
+      }
+    },
+    "2608.21083": {
+      "arxiv_id": "2608.21083",
+      "title": "Teaching is a Process: The TOSS Framework for Modeling Human Teaching Decisions in Human-Interactive Robot Learning",
+      "abstract": "Successful Human-Robot Teaching assumes alignment between robot processing needs and human teaching intent. To better understand this alignment, this work seeks to uncover the underlying logic that humans intuitively apply when teaching. Through an exploratory, bottom-up study with N=34, participants observing two distinct robot Reinforcement Learning (RL) scenarios, we analyze 204 intuitive teaching responses across early, middle, and late learning phases. Results reveal that teaching decisions consist of a nuanced, interconnected network of Triggers (situational catalysts), Objectives (subjective teaching targets), Signals (communicative acts), and Strategies (high-level governance) in which teachers spontaneously adopt diverse roles, acting as coaches, engineers, or designers and prioritize different objectives. Based on these results, we introduce the TOSS Framework, which conceptualizes Human-Robot teaching as a procedural loop between robot behavior and human teaching actions, in which human teaching decisions are modeled as Trigger-Signal responses modulated by teaching Objectives and Strategies. It provides future research with an openly accessible dataset and a theoretical foundation for a) understanding teaching decisions and b) simulating realistic oracles as well as c) designing human-centered teaching settings and novel robot learning algorithms that go beyond the constraints of current robot learning settings.",
+      "authors": [
+        "Bernhard Hilpert",
+        "Kim Baraka",
+        "Joost Broekens"
+      ],
+      "published": "2026-08-21",
+      "updated": "2026-08-21",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.HC"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.21083",
+      "pdf_url": "https://arxiv.org/pdf/2608.21083",
+      "query_sources": [
+        "cs-ro",
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Affordance / Contact"
+        ]
+      }
+    },
+    "2608.21035": {
+      "arxiv_id": "2608.21035",
+      "title": "TaPeR: Probabilistic Recovery of Sparse Task Precedence Graphs from a Handful of Demonstrations",
+      "abstract": "Long-horizon manipulation tasks are often only partially ordered. For example, when assembling an electronic device, the battery and circuit board may be installed in either order, but both must be in place before the enclosure is closed. Recovering such dependencies enables robots to flexibly reorder subtasks while preserving task validity. Existing approaches typically infer task structure from human demonstrations using both temporal and symbolic supervision. However, symbolic predicates require explicit grounding, which is difficult to obtain in realistic settings. In this work, we present an approach for extracting task dependency structures from demonstrations using only simple kinematic graphs and distributions over relative object poses. From these representations, our method estimates pairwise task-step-dependency probabilities and uses them to initialize the edge weights of a precedence graph. We then introduce a filtering pipeline that converts this graph of probability estimates into the final task dependency graph. We evaluate our approach on an existing benchmark and on a new dataset comprising longer tasks with more complex dependencies. We find that our method recovers more accurate task structures from fewer demonstrations than the baselines. Finally, we demonstrate that the inferred graphs can be used to generate multiple valid robotic execution orders for the same task.",
+      "authors": [
+        "Adrian Röfer",
+        "Karla Stepanova",
+        "Abhinav Valada"
+      ],
+      "published": "2026-08-21",
+      "updated": "2026-08-21",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": "8 pages, 5 figures, 3 tables, under review",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.21035",
+      "pdf_url": "https://arxiv.org/pdf/2608.21035",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Human Demonstration"
+        ]
+      }
+    },
+    "2608.21009": {
+      "arxiv_id": "2608.21009",
+      "title": "Dorsal Hand Images for Immersive (XR) and Privacy-preserving Age Assurance and Child Safety",
+      "abstract": "Ensuring that Extended Reality (XR) environments are age-appropriate is an important regulatory and safety challenge. However, current age assurance operates only at registration and cannot verify the age of the active user during a session. Face-based approaches, the dominant solution in social media and adult platforms, are impractical in XR, because they require removing the headset and taking a self-captured image, often on a mobile app. This both breaks immersion and introduces the privacy risk of sharing face pictures with third parties, which leaves XR platforms without a viable path to continuous, in-session and privacy-preserving age assurance. We propose the dorsal part of the hand as an alternative to the face, by exploiting the egocentric cameras that XR headsets inherently and naturally use to capture gesture interactions. To evaluate this, we collect an age- and sex-stratified, ethnodiverse dataset of 436 participants spanning the minor--adult boundary, captured under unconstrained lighting and orientation conditions. To characterise what is achievable with off-the-shelf methods at the minor--adult boundary, we evaluate standard neural network architectures for age assurance at the legally critical 18-year threshold. Analysis confirms performance is robust to skin-tone variation. On this dataset, the challenge-31 operating point achieves zero minor admission, making the system a viable first-stage filter for age assurance. These findings position dorsal hand morphometrics as an effective and more privacy-preserving biometric modality for in-session age assurance in XR.",
+      "authors": [
+        "Riccardo Bovo",
+        "George Loukas",
+        "Josh P. Davis"
+      ],
+      "published": "2026-08-21",
+      "updated": "2026-08-21",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.21009",
+      "pdf_url": "https://arxiv.org/pdf/2608.21009",
+      "query_sources": [
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric"
+        ]
+      }
+    },
+    "2608.20948": {
+      "arxiv_id": "2608.20948",
+      "title": "Neural-Primitive: An Efficient End-to-end Local Planner with Primitive-based Imitation Learning for Autonomous Flight",
+      "abstract": "Autonomous flight in unknown cluttered environments is hindered by the computation-quality-memory trilemma of onboard trajectory generation. In this paper, we propose an efficient end-to-end local planner via imitation learning. A lightweight offline-primitive-based dataset collection framework is designed to produce safe and high-quality trajectory primitives in non-convex environments. A compact neural network directly maps sensory inputs to polynomial coefficients that inherently encode higher-order dynamical information. The learned policy generates smooth, empirically collision-free and dynamically feasible trajectories in real time without back-end solving. It achieves ultra-fast computation (below 1ms on a standard desktop and average 3.68ms during onboard flight), while maintaining low onboard memory requirements (less than 1.5MiB). Extensive simulation benchmarks demonstrate superiority in both planning latency and target-reaching progress quality. Zero-shot deployment in real-world experiments further validates the robust sim-to-real transfer capability of the proposed method.",
+      "authors": [
+        "Zhitao Liu",
+        "Guangtong Xu",
+        "Zihan Wang",
+        "Jialiang Hou",
+        "Chao Xu",
+        "Fei Gao"
+      ],
+      "published": "2026-08-21",
+      "updated": "2026-08-21",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "comment": "Accepted by IEEE Transactions on Industrial Informatics",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.20948",
+      "pdf_url": "https://arxiv.org/pdf/2608.20948",
+      "query_sources": [
+        "cs-ro",
+        "simulation-data"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Sim-to-Real",
+          "Trajectory Generation"
+        ]
+      }
+    },
+    "2608.20852": {
+      "arxiv_id": "2608.20852",
+      "title": "Demonstration-Guided Humanoid Stand-Up on an Emulated Deformable Surface",
+      "abstract": "This paper presents a reference-guided reinforcement learning framework to generate stand-up motion for a 29-DOF Unitree G1 humanoid on deformable soft ground, using a human demonstration recorded on hard ground. The terrain compliance is modelled using solref and solimp parameters from MuJoCo's rigid body soft-contact model. The rewards consists of (i) reference motion tracking through residual joint-position control and (ii) explicit recovery objectives such as pelvis height, torso uprightness, and the final posture. First, the policy is trained with the specified rewards considering hard ground. Next, the terrain stiffness is lowered by updating solref and the nominal surface penetration zone is expanded using solimp. Subsequent training enables the policy to adapt to the delayed support force generation due to significant surface penetration during contact-intensive phases while preserving the original demonstration pattern. The learned policy successfully completes the fallen-to-standing task in simulation, reaching the targeted pelvis height and uprightness, with a maximum contact penetration of approximately 40 mm during the process. The proposed method is demonstrated on two stand-up sequences and successfully achieves the final recovery objective on both hard and soft ground. Ablation studies show that reference tracking alone is insufficient for successful stand-up, and that explicit recovery rewards are essential.",
+      "authors": [
+        "Aniruddh Kushwah",
+        "Vyankatesh Ashtekar",
+        "Ashish Dutta"
+      ],
+      "published": "2026-08-21",
+      "updated": "2026-08-21",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.20852",
+      "pdf_url": "https://arxiv.org/pdf/2608.20852",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Simulation Data"
+        ]
+      }
+    },
+    "2608.20784": {
+      "arxiv_id": "2608.20784",
+      "title": "Rethinking Demonstration Unlearning in Imitation Learning for Robotics",
+      "abstract": "Imitation learning for robotics depends on human demonstrations, some of which people may later ask to remove. Retraining without them is the natural reference, but its cost grows with policy and dataset scale, motivating cheaper operators that edit a trained policy. Metrics inherited from machine unlearning, such as forgetting loss or a single membership attack, do not establish what an edit removed from a policy acting in closed loop. We therefore introduce a retrain-calibrated audit that reads demonstration unlearning along two axes: behavior, whether the edited policy acts like one retrained without the removed demonstrations, and evidence, whether an auditor can still detect it was trained on them. The behavior axis measures action divergence to that retrain at matched states, calibrated by a floor built from independent retrains, so a policy at the floor is as close to a retrain as retrains are to each other. The evidence axis applies a per-demonstration membership attack against a retrain null, reporting both its rank and its absolute member-loss level, since rank alone accepts operators that inflate member losses past the null. A conformal test then combines both axes into one hypothesis of joint retrain consistency, against a fleet of independent retrains large enough to reject at conventional significance. Across five preregistered conditions on three real-robot policy classes and two simulation suites, the axes dissociate in both directions on one checkpoint, as an edit may repair task behavior while leaving evidence unchanged, or reduce evidence while moving behavior away from retraining. On the ACT arm, a redirect edit restores blind-scored robot success to 18 of 20 trials.",
+      "authors": [
+        "Jiazhuo Li",
+        "Yu Zhang",
+        "Yiming Fei",
+        "Kangkang Dong",
+        "Xiaojun Zhu",
+        "Houde Liu",
+        "Jinze Tao"
+      ],
+      "published": "2026-08-21",
+      "updated": "2026-08-21",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "comment": "21 pages, 7 figures, 14 tables",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.20784",
+      "pdf_url": "https://arxiv.org/pdf/2608.20784",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Human Demonstration"
+        ]
+      }
+    },
+    "2608.20691": {
+      "arxiv_id": "2608.20691",
+      "title": "Bridging Language and Spherical Space: Object-Centric Control for Text-to-Panorama Generation",
+      "abstract": "Panoramic image generation is increasingly important for immersive applications such as virtual reality, augmented reality, and 3D content creation. Unlike perspective images, panoramic images represent a viewer-centered $360^\\circ$ surrounding space, where directional expressions such as left, right, front, and behind play a central role in spatial understanding. However, existing text-to-panorama methods largely rely on implicit spatial reasoning and often fail to faithfully ground object-level directional descriptions in spherical panoramic scenes. A straightforward alternative is to introduce explicit layouts, but requiring manually specified spatial conditions reduces the flexibility of language-based interaction and does not directly resolve the misalignment between egocentric directional language and panoramic image space. To address this issue, we propose PanoCtrl, an object-centric framework for controllable text-to-panorama generation. Our method explicitly bridges natural language and spherical panoramic space by converting textual descriptions into structured object-level spherical conditions and integrating them into the diffusion process. Specifically, we introduce PanoParse, a text-conditioned parser that predicts object semantics and spherical bounding field-of-view (BFoV) parameters, and \\textbf{PanoControl}, which injects object-level semantic and spatial guidance into the diffusion transformer through object-aware attention and spatial residual enhancement. To support this task, we construct PanoGround, a dataset with object-level spherical annotations and diverse directional descriptions for controllable panoramic generation. Extensive experiments demonstrate that PanoCtrl achieves state-of-the-art performance in both spatial alignment and image quality.",
+      "authors": [
+        "Derui Li",
+        "Qian Qiao",
+        "Yuhao Sun",
+        "Wenhao Guo",
+        "Peng Lu"
+      ],
+      "published": "2026-08-21",
+      "updated": "2026-08-21",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.20691",
+      "pdf_url": "https://arxiv.org/pdf/2608.20691",
+      "query_sources": [
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric"
+        ]
+      }
+    },
+    "2608.20546": {
+      "arxiv_id": "2608.20546",
+      "title": "Koala Gripper: Co-designing Robotic Grippers and Data-Capture Devices for Scaling Dexterous Manipulation Learning",
+      "abstract": "As the demand for larger manipulation datasets grows, handheld robotic gripper data collection and the associated gripper designs become more vital. Current data collection device designs trend towards matching the morphologies of existing robotic grippers, sacrificing ergonomics and manipulation performance. In this paper, we propose a co-design framework that guides the simultaneous development of both data collection and robotic execution devices by weaving both platform constraints into the design process. Through this workflow, we present the Koala Gripper system, a data capture device and robotic gripper platform that improves dexterity and grasp capability compared to parallel jaw grippers while preserving scalability and ease-of-use. The design introduces a novel force-optimized finger/trigger linkage mechanism with directional reflected mass characteristics, a unique monolithic dual-thumb, and user-centered ergonomic design. The design's actuated robotic fingers are backdrivable, with effective mass on the order of tens of grams. We show that these grippers are capable of secure grasps over a wide range of objects, forceful tool use, and precise singulation. We further validate the platform by deploying it with an end-to-end data collection and policy execution pipeline that highlights its capabilities through learning from demonstration. More information available at http://koalagripper.rai-inst.com",
+      "authors": [
+        "Amar Hajj-Ahmad",
+        "Zubin Kremer Guha",
+        "Tim Fofonoff",
+        "Zhi Ern Teoh",
+        "Ciarán T. O'Neill",
+        "Ben Thacher",
+        "Igor Fala",
+        "Vidullan Surendran",
+        "Murphy Wonsick",
+        "Peter Whitney",
+        "David Watkins"
+      ],
+      "published": "2026-08-20",
+      "updated": "2026-08-20",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": "Paper website: http://koalagripper.rai-inst.com Paper video: http://www.youtube.com/watch?v=ZoygFCWAVhg",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.20546",
+      "pdf_url": "https://arxiv.org/pdf/2608.20546",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "robot_centric",
+        "umi"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Data Collection"
+        ],
+        "umi": [
+          "Handheld Gripper"
+        ]
+      }
+    },
+    "2608.20534": {
+      "arxiv_id": "2608.20534",
+      "title": "Grounded-Exo2Ego: Structured Semantic Grounding for Robust Exocentric-to-Egocentric Video Generation",
+      "abstract": "Generating egocentric video from a single exocentric video is an emerging and important topic for AR/VR and physical AI. Compared with conventional novel view synthesis, exo-to-ego generation is a significantly harder task because the standard geometric conditioning becomes highly unreliable under extreme view changes and large unobservable regions. We present Grounded-Exo2Ego, a principled framework that addresses these challenges at both the architectural and data levels. Architecturally, Grounded-Exo2Ego is a dual-branch video diffusion model that couples a geometric anchoring branch, which conditions the generation on the rendering of a 3D reconstruction, with a novel semantic grounding branch, which goes beyond the prevailing geometry-based approach and improves quality by synthesizing challenging regions based on object-level context. Additionally, we found that the overlooked issue of camera-reconstruction misalignment severely undermines exo-to-ego learning. We thus introduce a camera re-localization algorithm that resolves this issue and substantially improves quality across all metrics. We further develop a fully automated synthetic data engine that generates and renders rigged 3D characters in procedurally generated environments. Evaluation on the challenging EgoExo4D dataset shows that our method outperforms recent state-of-the-art approaches by large margins across all metrics. Detailed ablations validate improvements from each of our contributions at both the data and architectural level.",
+      "authors": [
+        "Shengze Wang",
+        "Michael Stengel",
+        "Tianye Li",
+        "Seonwook Park",
+        "Amrita Mazumdar",
+        "Koki Nagano",
+        "Alex Trevithick",
+        "Shalini De Mello"
+      ],
+      "published": "2026-08-20",
+      "updated": "2026-08-20",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "comment": "website url: https://research.nvidia.com/labs/amri/projects/grounded-exo2ego/",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.20534",
+      "pdf_url": "https://arxiv.org/pdf/2608.20534",
+      "query_sources": [
+        "cross-source-data",
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric"
+        ]
+      }
+    },
     "2608.20308": {
       "arxiv_id": "2608.20308",
       "title": "DreamHand: Repurposing Video Diffusion Models for Occlusion-Robust Egocentric 3D Hand Motion Recovery",
@@ -131,7 +615,7 @@
         "Qiaojun Yu"
       ],
       "published": "2026-08-20",
-      "updated": "2026-08-20",
+      "updated": "2026-08-21",
       "primary_category": "cs.AI",
       "categories": [
         "cs.AI",
@@ -279,7 +763,7 @@
     "2608.19776": {
       "arxiv_id": "2608.19776",
       "title": "CoToGrasp: Contact-Topology-Conditioned Dexterous Grasp Synthesis via Canonical Workspace Learning",
-      "abstract": "Current dexterous grasp planners primarily optimize for physical stability, focusing on whether an object can be grasped rather than how it should be grasped to support downstream functional tasks. However, conditioning grasp synthesis on specific human grasp taxonomies typically requires prohibitively expensive, object-annotated datasets. To address these limitations, we propose CoToGrasp, a novel generative framework that synthesizes diverse, stable grasps strictly conditioned on specific contact topologies. To bypass the data collection bottleneck, CoToGrasp is trained entirely in an object-agnostic manner. We introduce a feature-based canonical workspace that projects local object features into a unified gripper-centric domain, effectively decoupling the semantic functional intent from the arbitrary object geometry. By learning the intrinsic contact manifold of the gripper within this workspace, our model achieves zero-shot generalization to unseen objects at inference. Extensive evaluations on the large-scale DexGraspNet dataset demonstrate that CoToGrasp achieves state-of-the-art performance, outperforming existing taxonomy-guided planners. Finally, we demonstrate the physical viability and kinematic feasibility of our synthesized contact topologies on a physical robot platform. Code is available on our project website https://cea-list.github.io/cotograspweb/ .",
+      "abstract": "Current dexterous grasp planners primarily optimize for physical stability, focusing on whether an object can be grasped rather than how it should be grasped to support downstream functional tasks. However, conditioning grasp synthesis on specific human grasp taxonomies typically requires prohibitively expensive, object-annotated datasets. To address these limitations, we propose CoToGrasp, a novel generative framework that synthesizes diverse, stable grasps strictly conditioned on specific contact topologies. To bypass the data collection bottleneck, CoToGrasp is trained entirely in an object-agnostic manner. We introduce a feature-based canonical workspace that projects local object features into a unified gripper-centric domain, effectively decoupling the semantic functional intent from the arbitrary object geometry. By learning the intrinsic contact manifold of the gripper within this workspace, our model achieves zero-shot generalization to unseen objects at inference. Extensive evaluations on the large-scale DexGraspNet dataset demonstrate that CoToGrasp achieves state-of-the-art performance, outperforming existing taxonomy-guided planners. Finally, we demonstrate the physical viability and kinematic feasibility of our synthesized contact topologies on a physical robot platform. Code is available on our project website at https://cea-list.github.io/cotograspweb/ .",
       "authors": [
         "Julien Merand",
         "Boris Meden",
@@ -287,13 +771,13 @@
         "Mathieu Grossard"
       ],
       "published": "2026-08-20",
-      "updated": "2026-08-20",
+      "updated": "2026-08-21",
       "primary_category": "cs.RO",
       "categories": [
         "cs.RO",
         "cs.AI"
       ],
-      "comment": "Project website: https://cea-list.github.io/cotograspweb/",
+      "comment": "Project website at https://cea-list.github.io/cotograspweb/",
       "journal_ref": "19th European Conference on Computer Vision (ECCV), 2026",
       "doi": null,
       "url": "https://arxiv.org/abs/2608.19776",
@@ -197961,6 +198445,6 @@
   },
   "coverage_start": "2025-01-01",
   "coverage_end": "2026-08-24",
-  "paper_count": 5178,
-  "generated_at": "2026-08-24T01:40:31+00:00"
+  "paper_count": 5191,
+  "generated_at": "2026-08-24T12:53:43+00:00"
 }

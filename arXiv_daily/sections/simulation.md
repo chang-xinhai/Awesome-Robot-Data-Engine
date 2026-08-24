@@ -4,12 +4,16 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-24 · **Papers:** 2405 · **Unique arXiv IDs:** 2405
+**Coverage:** 2025-01-01 to 2026-08-24 · **Papers:** 2409 · **Unique arXiv IDs:** 2409
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-21 | [Mining beyond Earth with Space Robots: Exploration, Sampling, and Extraction](https://arxiv.org/abs/2608.21358) | Dong Li, Dujun Nie, Xiaotong Zhang, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2608.21358) / [pdf](https://arxiv.org/pdf/2608.21358) |
+| 2026-08-21 | [VT-MUSE: Multimodal Unified Sequential Visuotactile Representation Learning for Manipulation](https://arxiv.org/abs/2608.21290) | Congsheng Xu, Qiaochu Yang, Fangyuan Shi, et al. | cs.RO, cs.CV | Simulation Data | [abs](https://arxiv.org/abs/2608.21290) / [pdf](https://arxiv.org/pdf/2608.21290) |
+| 2026-08-21 | [Neural-Primitive: An Efficient End-to-end Local Planner with Primitive-based Imitation Learning for Autonomous Flight](https://arxiv.org/abs/2608.20948) | Zhitao Liu, Guangtong Xu, Zihan Wang, et al. | cs.RO, cs.AI | Sim-to-Real, Trajectory Generation | [abs](https://arxiv.org/abs/2608.20948) / [pdf](https://arxiv.org/pdf/2608.20948) |
+| 2026-08-21 | [Demonstration-Guided Humanoid Stand-Up on an Emulated Deformable Surface](https://arxiv.org/abs/2608.20852) | Aniruddh Kushwah, Vyankatesh Ashtekar, Ashish Dutta | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2608.20852) / [pdf](https://arxiv.org/pdf/2608.20852) |
 | 2026-08-20 | [Video2DoorTraversal: Push Door Traversal via Simulated Door Twins](https://arxiv.org/abs/2608.20251) | Xincheng Tang, Yiji Chen, Youhan Xie, et al. | cs.RO | Sim-to-Real, Simulation-Ready Asset | [abs](https://arxiv.org/abs/2608.20251) / [pdf](https://arxiv.org/pdf/2608.20251) |
 | 2026-08-20 | [Towards Professional Tennis Styles for Humanoid Robots with Adaptive Motion Planning and Tracking](https://arxiv.org/abs/2608.20087) | Tao Huang, Ruofei Liu, Xuchen Tang, et al. | cs.RO, cs.AI | Sim-to-Real | [abs](https://arxiv.org/abs/2608.20087) / [pdf](https://arxiv.org/pdf/2608.20087) |
 | 2026-08-19 | [Fine-Tuning VLAs with Self-Demonstrated Generative Control for Multi-Task Manipulation](https://arxiv.org/abs/2608.19490) | Prachi Garg, Steve Xing, Prahit Yaugand, et al. | cs.RO, cs.CV, cs.LG | Simulation Data | [abs](https://arxiv.org/abs/2608.19490) / [pdf](https://arxiv.org/pdf/2608.19490) |

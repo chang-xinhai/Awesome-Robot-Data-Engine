@@ -4,12 +4,20 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-24 · **Papers:** 1843 · **Unique arXiv IDs:** 1843
+**Coverage:** 2025-01-01 to 2026-08-24 · **Papers:** 1851 · **Unique arXiv IDs:** 1851
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-21 | [ViTacPhys: Physical Property-Aware Grasping from Human Visual-Tactile Demonstrations](https://arxiv.org/abs/2608.21355) | Yiwen Liu, Yujun Zhu, Kui Jia, et al. | cs.RO | Human Demonstration | [abs](https://arxiv.org/abs/2608.21355) / [pdf](https://arxiv.org/pdf/2608.21355) |
+| 2026-08-21 | [Beyond Imitation: Self-Improving Robot Policies via Off-Policy Q-Planning](https://arxiv.org/abs/2608.21204) | Varun Giridhar, Anant Khandelwal, Jeremy A. Collins, et al. | cs.RO, cs.LG | Human Demonstration | [abs](https://arxiv.org/abs/2608.21204) / [pdf](https://arxiv.org/pdf/2608.21204) |
+| 2026-08-21 | [Teaching is a Process: The TOSS Framework for Modeling Human Teaching Decisions in Human-Interactive Robot Learning](https://arxiv.org/abs/2608.21083) | Bernhard Hilpert, Kim Baraka, Joost Broekens | cs.RO, cs.HC | Affordance / Contact | [abs](https://arxiv.org/abs/2608.21083) / [pdf](https://arxiv.org/pdf/2608.21083) |
+| 2026-08-21 | [TaPeR: Probabilistic Recovery of Sparse Task Precedence Graphs from a Handful of Demonstrations](https://arxiv.org/abs/2608.21035) | Adrian Röfer, Karla Stepanova, Abhinav Valada | cs.RO | Human Demonstration | [abs](https://arxiv.org/abs/2608.21035) / [pdf](https://arxiv.org/pdf/2608.21035) |
+| 2026-08-21 | [Dorsal Hand Images for Immersive (XR) and Privacy-preserving Age Assurance and Child Safety](https://arxiv.org/abs/2608.21009) | Riccardo Bovo, George Loukas, Josh P. Davis | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2608.21009) / [pdf](https://arxiv.org/pdf/2608.21009) |
+| 2026-08-21 | [Rethinking Demonstration Unlearning in Imitation Learning for Robotics](https://arxiv.org/abs/2608.20784) | Jiazhuo Li, Yu Zhang, Yiming Fei, et al. | cs.RO, cs.LG | Human Demonstration | [abs](https://arxiv.org/abs/2608.20784) / [pdf](https://arxiv.org/pdf/2608.20784) |
+| 2026-08-21 | [Bridging Language and Spherical Space: Object-Centric Control for Text-to-Panorama Generation](https://arxiv.org/abs/2608.20691) | Derui Li, Qian Qiao, Yuhao Sun, et al. | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2608.20691) / [pdf](https://arxiv.org/pdf/2608.20691) |
+| 2026-08-20 | [Grounded-Exo2Ego: Structured Semantic Grounding for Robust Exocentric-to-Egocentric Video Generation](https://arxiv.org/abs/2608.20534) | Shengze Wang, Michael Stengel, Tianye Li, et al. | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2608.20534) / [pdf](https://arxiv.org/pdf/2608.20534) |
 | 2026-08-20 | [DreamHand: Repurposing Video Diffusion Models for Occlusion-Robust Egocentric 3D Hand Motion Recovery](https://arxiv.org/abs/2608.20308) | Yufei Liu, Xixi Wang, Hao Li, et al. | cs.CV | Egocentric, Human Video | [abs](https://arxiv.org/abs/2608.20308) / [pdf](https://arxiv.org/pdf/2608.20308) |
 | 2026-08-20 | [G3Ego: Gaze-Guided Graphs for Egocentric Action Understanding](https://arxiv.org/abs/2608.20157) | Marko Haralović, Akash Ramakrishnan, Estefania Talavera Martinez | cs.CV | Egocentric, Hand-Object Interaction | [abs](https://arxiv.org/abs/2608.20157) / [pdf](https://arxiv.org/pdf/2608.20157) |
 | 2026-08-19 | [RoboEdit: Turning Human Manipulation Videos into Scalable Robot Experience](https://arxiv.org/abs/2608.18948) | Yaowei Guo, Zeng Tao, Yuxin Jiang, et al. | cs.RO | Hand-Object Interaction, Human Video, Human-to-Robot | [abs](https://arxiv.org/abs/2608.18948) / [pdf](https://arxiv.org/pdf/2608.18948) |

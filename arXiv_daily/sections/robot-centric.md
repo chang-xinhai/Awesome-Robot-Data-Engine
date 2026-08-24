@@ -4,12 +4,15 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-24 · **Papers:** 1971 · **Unique arXiv IDs:** 1971
+**Coverage:** 2025-01-01 to 2026-08-24 · **Papers:** 1974 · **Unique arXiv IDs:** 1974
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-21 | [ViTacPhys: Physical Property-Aware Grasping from Human Visual-Tactile Demonstrations](https://arxiv.org/abs/2608.21355) | Yiwen Liu, Yujun Zhu, Kui Jia, et al. | cs.RO | Teleoperation, Robot Data Processing | [abs](https://arxiv.org/abs/2608.21355) / [pdf](https://arxiv.org/pdf/2608.21355) |
+| 2026-08-21 | [Beyond Imitation: Self-Improving Robot Policies via Off-Policy Q-Planning](https://arxiv.org/abs/2608.21204) | Varun Giridhar, Anant Khandelwal, Jeremy A. Collins, et al. | cs.RO, cs.LG | Human Intervention, Autonomous Collection | [abs](https://arxiv.org/abs/2608.21204) / [pdf](https://arxiv.org/pdf/2608.21204) |
+| 2026-08-20 | [Koala Gripper: Co-designing Robotic Grippers and Data-Capture Devices for Scaling Dexterous Manipulation Learning](https://arxiv.org/abs/2608.20546) | Amar Hajj-Ahmad, Zubin Kremer Guha, Tim Fofonoff, et al. | cs.RO | Data Collection | [abs](https://arxiv.org/abs/2608.20546) / [pdf](https://arxiv.org/pdf/2608.20546) |
 | 2026-08-20 | [DECOWAM: Decoupled Whole-Body World-Action Model for Legged Mobile Manipulation](https://arxiv.org/abs/2608.20114) | Siyuan Ma, Boshi Zhang, Yutian Zhang, et al. | cs.AI, cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2608.20114) / [pdf](https://arxiv.org/pdf/2608.20114) |
 | 2026-08-20 | [Wave-Based Bilateral Teleoperation between Nonlinear Manipulators with Direct Contact Force Feedback](https://arxiv.org/abs/2608.20043) | G. Q. Bao Tran, Takanori Miyoshi, Ho Duc Tho | eess.SY, cs.RO, math.DS | Teleoperation | [abs](https://arxiv.org/abs/2608.20043) / [pdf](https://arxiv.org/pdf/2608.20043) |
 | 2026-08-20 | [EXIMO: VLM Guided Exploration of VLA Policies](https://arxiv.org/abs/2608.19891) | Bhavya Sukhija, Oliver Groth, Mohit Shridhar, et al. | cs.AI | Teleoperation | [abs](https://arxiv.org/abs/2608.19891) / [pdf](https://arxiv.org/pdf/2608.19891) |
