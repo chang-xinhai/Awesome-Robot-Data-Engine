@@ -4,12 +4,21 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-25 · **Papers:** 1851 · **Unique arXiv IDs:** 1851
+**Coverage:** 2025-01-01 to 2026-08-25 · **Papers:** 1860 · **Unique arXiv IDs:** 1860
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-24 | [Motion-Based Tokenization for Cross-Dataset Egocentric Gaze Modeling](https://arxiv.org/abs/2608.22926) | Virmarie Maquiling, Zhuojiang Cai, Enkelejda Kasneci | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2608.22926) / [pdf](https://arxiv.org/pdf/2608.22926) |
+| 2026-08-24 | [Results of the 1st Asynchronous CASTLE Challenge at the Joint Egocentric Vision Workshop in Conjunction with CVPR 2026](https://arxiv.org/abs/2608.22914) | Luca Rossetto, Werner Bailer, Cathal Gurrin, et al. | cs.CV, cs.MM | Egocentric | [abs](https://arxiv.org/abs/2608.22914) / [pdf](https://arxiv.org/pdf/2608.22914) |
+| 2026-08-24 | [Triplet2Track: A Hierarchical System with Object-Centric Representations for Reliable Long-Horizon Manipulation](https://arxiv.org/abs/2608.22800) | Jianxiang Liu, Gaojing Zhang, Chuan Wen, et al. | cs.RO, cs.AI | Human Video | [abs](https://arxiv.org/abs/2608.22800) / [pdf](https://arxiv.org/pdf/2608.22800) |
+| 2026-08-23 | [AI-based worker guidance in assembly and disassembly operations using multimodal ego/exo-centric data capture and structured task knowledge](https://arxiv.org/abs/2608.22617) | Vivek Chavan, Jörg Krüger | cs.CV, cs.AI, cs.HC | Egocentric | [abs](https://arxiv.org/abs/2608.22617) / [pdf](https://arxiv.org/pdf/2608.22617) |
+| 2026-08-23 | [EMPIRE: Explicit Manipulation Planning as a Learnable Intermediate Representation for Egocentric Hand-Motion Forecasting](https://arxiv.org/abs/2608.22449) | Wen Wang, Ruibing Hou, Hong Chang, et al. | cs.RO, cs.AI | Egocentric, Hand-Object Interaction | [abs](https://arxiv.org/abs/2608.22449) / [pdf](https://arxiv.org/pdf/2608.22449) |
+| 2026-08-23 | [LD4WAM: Learning Latent Dynamics from Human Videos for World Action Models](https://arxiv.org/abs/2608.22403) | Zhenhao Shen, Jiaqi Liang, Jasper Lu, et al. | cs.RO | Human Video | [abs](https://arxiv.org/abs/2608.22403) / [pdf](https://arxiv.org/pdf/2608.22403) |
+| 2026-08-23 | [Pre-Decoding Acoustic Triage for Budgeted Vision-Language Captioning of Untrimmed Egocentric Video](https://arxiv.org/abs/2608.22359) | Masoud Jalayer, Changyi Li, Yu Xiao | cs.CV, cs.AI, cs.SD | Egocentric | [abs](https://arxiv.org/abs/2608.22359) / [pdf](https://arxiv.org/pdf/2608.22359) |
+| 2026-08-23 | [TransHands: Repurposing Human Pose Encoders as Hand Pose Encoders](https://arxiv.org/abs/2608.22341) | Milo Piccioli, Gianluca Amprimo, Claudia Ferraris, et al. | cs.CV, cs.AI | Egocentric, Tracking / Reconstruction | [abs](https://arxiv.org/abs/2608.22341) / [pdf](https://arxiv.org/pdf/2608.22341) |
+| 2026-08-23 | [The Imitator Game: Benchmarking Robot Imitative Ability Beyond Action Prediction](https://arxiv.org/abs/2608.22301) | Xunzhe Zhou, Yiyang Cai, Fengyi Wang, et al. | cs.RO, cs.AI | Human Video, Human Demonstration | [abs](https://arxiv.org/abs/2608.22301) / [pdf](https://arxiv.org/pdf/2608.22301) |
 | 2026-08-21 | [ViTacPhys: Physical Property-Aware Grasping from Human Visual-Tactile Demonstrations](https://arxiv.org/abs/2608.21355) | Yiwen Liu, Yujun Zhu, Kui Jia, et al. | cs.RO | Human Demonstration | [abs](https://arxiv.org/abs/2608.21355) / [pdf](https://arxiv.org/pdf/2608.21355) |
 | 2026-08-21 | [Beyond Imitation: Self-Improving Robot Policies via Off-Policy Q-Planning](https://arxiv.org/abs/2608.21204) | Varun Giridhar, Anant Khandelwal, Jeremy A. Collins, et al. | cs.RO, cs.LG | Human Demonstration | [abs](https://arxiv.org/abs/2608.21204) / [pdf](https://arxiv.org/pdf/2608.21204) |
 | 2026-08-21 | [Teaching is a Process: The TOSS Framework for Modeling Human Teaching Decisions in Human-Interactive Robot Learning](https://arxiv.org/abs/2608.21083) | Bernhard Hilpert, Kim Baraka, Joost Broekens | cs.RO, cs.HC | Affordance / Contact | [abs](https://arxiv.org/abs/2608.21083) / [pdf](https://arxiv.org/pdf/2608.21083) |
