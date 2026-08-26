@@ -4,12 +4,16 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-26 · **Papers:** 2422 · **Unique arXiv IDs:** 2422
+**Coverage:** 2025-01-01 to 2026-08-26 · **Papers:** 2426 · **Unique arXiv IDs:** 2426
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-25 | [WarpSAC: Towards the Pinnacle of Scalable Off-policy RL by Rethinking Exploration and Exploitation](https://arxiv.org/abs/2608.24479) | Zihao Wu, Hongyao Tang, Yi Ma, et al. | cs.LG | Simulation Data, Sim-to-Real | [abs](https://arxiv.org/abs/2608.24479) / [pdf](https://arxiv.org/pdf/2608.24479) |
+| 2026-08-25 | [NeoWorld-Pro: Programming Interactive Scenes from Monocular Images for Embodied Simulation](https://arxiv.org/abs/2608.24212) | Yumeng He, Yichen Song, Xiaotian Yang, et al. | cs.CV | Simulation-Ready Asset | [abs](https://arxiv.org/abs/2608.24212) / [pdf](https://arxiv.org/pdf/2608.24212) |
+| 2026-08-25 | [NVIDIA Cosmos-H-Dreams: Real-Time Generative Physics Simulation for Surgical Robotics](https://arxiv.org/abs/2608.24199) | Javier Gamazo Tejero, Lukas Zbinden, Keyur Sheth, et al. | cs.RO | Simulation Data, Synthetic Data | [abs](https://arxiv.org/abs/2608.24199) / [pdf](https://arxiv.org/pdf/2608.24199) |
+| 2026-08-25 | [NeurRAFT: Robot Motion Planning via Anchor-Level Flow Matching with Clearance-Aware Preference Tuning](https://arxiv.org/abs/2608.24026) | Sibo Tian, Chang Liu, Minghui Zheng, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2608.24026) / [pdf](https://arxiv.org/pdf/2608.24026) |
 | 2026-08-24 | [InstructMove: A Text-Indispensable Benchmark for Instruction-Following Manipulation](https://arxiv.org/abs/2608.22990) | Mengao Zhao, Ziang Li, Chaodong Huang, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2608.22990) / [pdf](https://arxiv.org/pdf/2608.22990) |
 | 2026-08-23 | [Enhancing Sim2Real Transfer for Torque-Controlled Robots through Real2Sim Dynamics Estimation and Reinforcement Learning](https://arxiv.org/abs/2608.22629) | Davide Bargellini, Alex Pasquali, Andrea Govoni, et al. | cs.RO, eess.SY | Sim-to-Real, Domain Randomization | [abs](https://arxiv.org/abs/2608.22629) / [pdf](https://arxiv.org/pdf/2608.22629) |
 | 2026-08-23 | [LD4WAM: Learning Latent Dynamics from Human Videos for World Action Models](https://arxiv.org/abs/2608.22403) | Zhenhao Shen, Jiaqi Liang, Jasper Lu, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2608.22403) / [pdf](https://arxiv.org/pdf/2608.22403) |

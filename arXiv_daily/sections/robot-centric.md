@@ -4,12 +4,15 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-26 · **Papers:** 1984 · **Unique arXiv IDs:** 1984
+**Coverage:** 2025-01-01 to 2026-08-26 · **Papers:** 1987 · **Unique arXiv IDs:** 1987
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-25 | [Latent Action as Intention Enables Efficient Future Imagination for World Action Models](https://arxiv.org/abs/2608.24882) | Xiang Li, Yupeng Zheng, Songen Gu, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2608.24882) / [pdf](https://arxiv.org/pdf/2608.24882) |
+| 2026-08-25 | [Fiber Optic Sensing Glove for High Performance Dexterous Manipulation Capture](https://arxiv.org/abs/2608.24572) | J. D. Peiffer, Taylor Niehues, Li Guan, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2608.24572) / [pdf](https://arxiv.org/pdf/2608.24572) |
+| 2026-08-25 | [Hierarchical Skill Retrieval for Data-Efficient Adaptation of Vision-Language-Action Models](https://arxiv.org/abs/2608.24042) | Haoran Hao, Shahram Najam Syed, Jeff Schneider, et al. | cs.RO, cs.AI, cs.LG | Robot Dataset | [abs](https://arxiv.org/abs/2608.24042) / [pdf](https://arxiv.org/pdf/2608.24042) |
 | 2026-08-24 | [Switched Turn-based Adaptive Source Seeking Strategy using Estimation and Information-driven Direction of Improvement](https://arxiv.org/abs/2608.23068) | Shubhra Banerjee, Satadal Ghosh | cs.RO, eess.SY | Robot Data Processing | [abs](https://arxiv.org/abs/2608.23068) / [pdf](https://arxiv.org/pdf/2608.23068) |
 | 2026-08-23 | [LD4WAM: Learning Latent Dynamics from Human Videos for World Action Models](https://arxiv.org/abs/2608.22403) | Zhenhao Shen, Jiaqi Liang, Jasper Lu, et al. | cs.RO | Teleoperation, Robot Dataset, Data Collection | [abs](https://arxiv.org/abs/2608.22403) / [pdf](https://arxiv.org/pdf/2608.22403) |
 | 2026-08-23 | [The Imitator Game: Benchmarking Robot Imitative Ability Beyond Action Prediction](https://arxiv.org/abs/2608.22301) | Xunzhe Zhou, Yiyang Cai, Fengyi Wang, et al. | cs.RO, cs.AI | Robot Dataset | [abs](https://arxiv.org/abs/2608.22301) / [pdf](https://arxiv.org/pdf/2608.22301) |

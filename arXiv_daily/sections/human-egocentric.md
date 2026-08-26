@@ -4,12 +4,15 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-26 · **Papers:** 1860 · **Unique arXiv IDs:** 1860
+**Coverage:** 2025-01-01 to 2026-08-26 · **Papers:** 1863 · **Unique arXiv IDs:** 1863
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-25 | [From Seeing to Acting: Smart Glasses as First-Person Intelligence Platforms](https://arxiv.org/abs/2608.24877) | Jiangning Zhang, Haojun Chen, Yong Liu | cs.CV | Egocentric, Hand-Object Interaction | [abs](https://arxiv.org/abs/2608.24877) / [pdf](https://arxiv.org/pdf/2608.24877) |
+| 2026-08-25 | [Fiber Optic Sensing Glove for High Performance Dexterous Manipulation Capture](https://arxiv.org/abs/2608.24572) | J. D. Peiffer, Taylor Niehues, Li Guan, et al. | cs.RO | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2608.24572) / [pdf](https://arxiv.org/pdf/2608.24572) |
+| 2026-08-25 | [EgoErrorVQA: Assess Egocentric Comprehension Capabilities through Procedural Errors for Ego-Agentic AI](https://arxiv.org/abs/2608.24134) | Junlong Li, Junxi Li, Jianjun Gao, et al. | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2608.24134) / [pdf](https://arxiv.org/pdf/2608.24134) |
 | 2026-08-24 | [Motion-Based Tokenization for Cross-Dataset Egocentric Gaze Modeling](https://arxiv.org/abs/2608.22926) | Virmarie Maquiling, Zhuojiang Cai, Enkelejda Kasneci | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2608.22926) / [pdf](https://arxiv.org/pdf/2608.22926) |
 | 2026-08-24 | [Results of the 1st Asynchronous CASTLE Challenge at the Joint Egocentric Vision Workshop in Conjunction with CVPR 2026](https://arxiv.org/abs/2608.22914) | Luca Rossetto, Werner Bailer, Cathal Gurrin, et al. | cs.CV, cs.MM | Egocentric | [abs](https://arxiv.org/abs/2608.22914) / [pdf](https://arxiv.org/pdf/2608.22914) |
 | 2026-08-24 | [Triplet2Track: A Hierarchical System with Object-Centric Representations for Reliable Long-Horizon Manipulation](https://arxiv.org/abs/2608.22800) | Jianxiang Liu, Gaojing Zhang, Chuan Wen, et al. | cs.RO, cs.AI | Human Video | [abs](https://arxiv.org/abs/2608.22800) / [pdf](https://arxiv.org/pdf/2608.22800) |
