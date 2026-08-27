@@ -1,6 +1,429 @@
 {
   "schema_version": 1,
   "papers": {
+    "2608.26103": {
+      "arxiv_id": "2608.26103",
+      "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+      "abstract": "Zero-shot cross-task generalization, where a policy must execute manipulation tasks never seen during training, remains a central challenge in robot learning. In large language models, a novel task can be performed simply by specifying it in the context, without any parameter update. This form of in-context learning (ICL) turns generalization into a problem of task specification. To achieve cross-task generalization, we bring this paradigm to robotic manipulation, and argue that the natural task specification for manipulation is a human video: unlike language, it provides rich visual cues about the intended task evolution. We present Zero-WAM, a causal video-action model that executes unseen tasks by following in-context human video guidance. To address the scarcity of task-rich paired human-robot data, we propose an automatic pipeline that converts task-sampled robot trajectories into semantically matched human videos, yielding HumanGen, a dataset of 74.2K human-robot ICL pairs across 8.6K tasks. For model training, we further introduce an in-context future chunk prediction (IFP) objective that suppresses shortcuts learned from seen tasks and forces the policy to draw task information from the video prompt. On seven unseen tasks in RoboTwin 2.0 simulation, Zero-WAM achieves a 47.0% average success rate, an absolute improvement of 29.5 percentage points over the strongest video-action baseline. In real-world evaluations, it follows human video guidance to generalize to unseen task configurations involving multi-object scenes, long-horizon manipulation, and fine-grained insertion.",
+      "authors": [
+        "Jiaming Zhou",
+        "Qihang Zhang",
+        "Gangwei Xu",
+        "Cunxin Fan",
+        "Yujie Zhao",
+        "Ruilin Wang",
+        "Yiming Luo",
+        "Shuai Yang",
+        "Xing Zhu",
+        "Yujun Shen",
+        "Junwei Liang",
+        "Yinghao Xu"
+      ],
+      "published": "2026-08-26",
+      "updated": "2026-08-26",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "comment": "https://robbyant-research.github.io/Zero-WAM/",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.26103",
+      "pdf_url": "https://arxiv.org/pdf/2608.26103",
+      "query_sources": [
+        "cs-ro",
+        "human-egocentric",
+        "robot-data"
+      ],
+      "topics": [
+        "robot_centric",
+        "human_egocentric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Robot Dataset"
+        ],
+        "human_egocentric": [
+          "Human Video"
+        ]
+      }
+    },
+    "2608.26058": {
+      "arxiv_id": "2608.26058",
+      "title": "One Policy, Many Embodiments: Unified Camera-Centric Action Geometry Pre-training for Heterogeneous Embodied Manipulation",
+      "abstract": "Scaling generalist vision-language-action (VLA) policies is severely bottlenecked by the inherent heterogeneity of embodied data, which spans diverse robot morphologies, camera configurations, and low-level action spaces. Existing paradigms typically address this mismatch through explicit action retargeting, human-to-robot video synthesis, or dataset-specific adaptation branches, fundamentally hindering the joint learning of a unified policy. We introduce UCAG-P, a camera-centric unified action formulation that structurally aligns heterogeneous embodied datasets into a shared geometric action space. Rather than treating robot-specific commands as the shared policy target, UCAG-P represents manipulation through camera-observable anchor motion in image and camera-frame coordinates, treating robot arms, humanoids, and human hands as different embodiments of a common action schema. A geometry-conditioned action translator combines predicted motion with target-embodiment kinematics to produce executable controls. The resulting decoupled architecture allows a shared VLA policy to learn transferable manipulation geometry while retaining embodiment-specific controllability. UCAG-P is trained on 4.03K hours of robot and simulation data and 2.34K hours of human demonstrations. A single checkpoint reaches 98.3% on LIBERO, 88.7% and 89.2% on RoboTwin Easy and Hard, 82.0% zero-shot on LIBERO-Plus, and 62.0% on RoboCasa GR-1, without benchmark-specific fine-tuning.",
+      "authors": [
+        "Xiaomi Embodied Intelligence Team",
+        "University of Macau",
+        ":",
+        "Shaoqing Xu",
+        "Fang Li",
+        "Guozhi Zhan",
+        "Zhixiang Duan",
+        "Yuhan Wang",
+        "Yuechen Luo",
+        "Shengyin Jiang",
+        "Hanbing Li",
+        "Zhiying Du",
+        "Longlong Wang",
+        "Longmei Jiang",
+        "Weixiang Liang",
+        "Ying Gong",
+        "Yong Pan",
+        "Ziping Zhao",
+        "Zhiyuan Chen",
+        "Yangwei You",
+        "Kun Ma",
+        "Qinyuan Liu",
+        "Hangjun Ye",
+        "Zhi-xin Yang"
+      ],
+      "published": "2026-08-26",
+      "updated": "2026-08-26",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": "Technical Report,Project page: https://public-bots.github.io/UCAG-P",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.26058",
+      "pdf_url": "https://arxiv.org/pdf/2608.26058",
+      "query_sources": [
+        "cs-ro",
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric",
+        "simulation"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Human Demonstration",
+          "Human-to-Robot"
+        ],
+        "simulation": [
+          "Simulation Data"
+        ]
+      }
+    },
+    "2608.25736": {
+      "arxiv_id": "2608.25736",
+      "title": "Moving Beyond More Views: Redundancy-Aware Ego-Exo Fusion for Proficiency Estimation",
+      "abstract": "EgoExo proficiency estimation aims to assess action quality by integrating fine-grained motion cues from egocentric (1st-person) views with spatial context from multiple exocentric (3rd-person) views. Simply adding more exocentric views degrades EgoExo performance, as redundant or noisy perspectives dilute useful motion cues. Our analysis identifies two key causes: (1) Multiview redundancy - From the data perspective, certain views provide limited or noisy information, diluting discriminative cues; (2) Overfitting - From the feature perspective, conventional fusion increases representational complexity, causing the model to memorise view-specific patterns rather than learn generalisable representations. To address these issues, we propose two complementary modules: AdaMVS, which adaptively identifies and fuses the most informative view tokens under weak supervision from the data perspective, and VIB-GB, which combines Gradient Blending and Variational Information Bottleneck regularisation from the feature perspective to compress redundant signals and suppress overfitting during training. Experiments on EgoExo-4D and EgoExo-Fitness demonstrate that our method learns both which view to look at and how to fuse them, achieving new state-of-the-art results. Our source code is available at https://github.com/dx199771/AdaMVS",
+      "authors": [
+        "Xu Dong",
+        "Wanqing Li",
+        "Anthony Adeyemi-Ejeye",
+        "Andrew Gilbert"
+      ],
+      "published": "2026-08-26",
+      "updated": "2026-08-26",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "comment": "Accepted by ECCV 2026",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.25736",
+      "pdf_url": "https://arxiv.org/pdf/2608.25736",
+      "query_sources": [
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric"
+        ]
+      }
+    },
+    "2608.25666": {
+      "arxiv_id": "2608.25666",
+      "title": "PRISM: Projection-Integrated Sampling-Based MPC with Bayesian Cost Tuning for Bimanual Manipulation",
+      "abstract": "Bimanual manipulation in cluttered, contact-rich environments remains challenging because it requires coordinated motion generation, interaction-aware planning, and reliable execution under tight kinematic constraints. We present PRISM, a projection-integrated sampling-based Model Predictive Control (MPC) framework that uses a GPU-accelerated physics simulator as an online world model for complex dual-arm manipulation. The main algorithmic contribution is a QP-guided control sampling strategy that decouples trajectory exploration from kinematic feasibility. At each MPC step, sampled joint-velocity trajectories are projected onto the set of motions satisfying joint position, velocity, acceleration, and jerk bounds, together with an initial-velocity boundary condition, before rollout evaluation. This enables broad yet feasible exploration of coordinated bimanual behaviors. To support efficient online execution, we derive a custom ADMM/Bregman-splitting QP solver that exploits joint-wise separability and reusable matrix factorizations. We further use Bayesian optimization to tune task-cost weights offline, reducing manual parameter selection. We evaluate PRISM on challenging variants of PerAct$^{2}$ tasks, including obstacle-constrained ball transport, tray transport, cube handover, and box lifting. Experiments show improved robustness and task success relative to representative sampling-based baselines, while maintaining real-time or near-real-time execution. We also demonstrate successful sim-to-real transfer on dual UR5e manipulators, highlighting the practical potential of physics-based online planning for contact-rich bimanual manipulation. Project details, including code and supplementary videos, are available at \\href{https://sites.google.com/view/prismbimanual}{\\texttt{https://sites.google.com/view/prismbimanual}}.",
+      "authors": [
+        "Alinjar Dan",
+        "Iryna Hurova",
+        "Karl Kruusamäe",
+        "Arun Kumar Singh"
+      ],
+      "published": "2026-08-26",
+      "updated": "2026-08-26",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.25666",
+      "pdf_url": "https://arxiv.org/pdf/2608.25666",
+      "query_sources": [
+        "cs-ro",
+        "simulation-data"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Sim-to-Real"
+        ]
+      }
+    },
+    "2608.25610": {
+      "arxiv_id": "2608.25610",
+      "title": "Advantage-Driven Explicit Memory for Social Navigation",
+      "abstract": "Robot policies are predominantly learned with classical parametric variants of imitation learning or RL, where training stores the agent's behavior exclusively in the policy's network parameters, putting a heavy burden on the representation learning algorithm. We propose a new navigation agent equipped with non-parametric memory which explicitly indexes prior steps leading to critical events. The advantages are twofold: first, it allows the policy to outsource some of its behavior into an explicit memory; second, it encourages a form of continual learning by allowing an agent to collect data from its testing episodes during deployment and therefore to better generalize to OOD situations. In the context of social navigation, we show that this improves the agent's capability to retain sparse, high-cost failures, such as human collisions. If the policy is trained in simulation, this also naturally addresses the sim-to-real gap, partially, by basing some of the decision making on real data. We integrate the explicit memory into a recurrent PPO architecture and use hidden states for memory retrieval to capture continuous spatiotemporal dynamics. The goal of exploiting rare, high-impact events is achieved by leveraging the RL agent's advantage signals. We train our agent in simulation with a combination of photorealistic rendering and non-visual crowd simulation and show that the agent is robust with respect to OOD social behavior.",
+      "authors": [
+        "Yeonsoo Park",
+        "Mattia Racca",
+        "Guillaume Bono",
+        "Steeven Janny",
+        "Gianluca Monaci",
+        "Tomi Silander",
+        "Christian Wolf"
+      ],
+      "published": "2026-08-26",
+      "updated": "2026-08-26",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.25610",
+      "pdf_url": "https://arxiv.org/pdf/2608.25610",
+      "query_sources": [
+        "cs-ro",
+        "simulation-data"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Sim-to-Real"
+        ]
+      }
+    },
+    "2608.25572": {
+      "arxiv_id": "2608.25572",
+      "title": "ConfAL-WM: Confidence-Guided Active Learning for Action-Conditioned World Models",
+      "abstract": "Action-conditioned world models have become an important foundation for embodied prediction, planning, and synthetic data generation, but their errors under new task and scene distributions are often concentrated in localized spatiotemporal regions such as robot arms, manipulated objects, contact areas, and occluded objects. This paper presents ConfAL-WM, a confidence-guided active learning framework for post-training embodied world models. Built upon EVAC, we attach a lightweight confidence probe to UNet decoder features and predict dense confidence maps in the latent space. These maps are aggregated into task-, frame-, and patch-level scores, enabling both efficient data selection and localized training enhancement. Our pipeline first retrains the confidence probe and warms up EVAC with a small subset of target-domain data, then performs task-level prescreening to allocate sampling budgets, and finally applies selected-data retraining with optional frame or patch weighted data enhancement. Experiments on RoboTwin2.0 show that confidence-guided selection improves post-training efficiency, while dense frame and patch weighting further enhances prediction quality and embodied trajectory consistency compared with scalar reward, progress, and judge-based scoring baselines. A quick visual overview of this work is available at https://ConfAL-WM.github.io.",
+      "authors": [
+        "Xiang Liu",
+        "Sen Cui",
+        "Changshui Zhang"
+      ],
+      "published": "2026-08-26",
+      "updated": "2026-08-26",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "comment": "Project page: https://ConfAL-WM.github.io",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.25572",
+      "pdf_url": "https://arxiv.org/pdf/2608.25572",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Synthetic Data"
+        ]
+      }
+    },
+    "2608.25405": {
+      "arxiv_id": "2608.25405",
+      "title": "LAC: Linear and Angular Compliance for Humanoid Whole-body Control",
+      "abstract": "Real-world humanoid tasks involve physical interaction with objects and humans, yet current controllers either reject external forces as disturbances or restrict compliance to limited body links while ignoring angular effects. We present LAC, a general whole-body controller that simultaneously realizes commanded Linear and Angular Compliance for wrenches applied to the upper body. First, we synthesize whole-body compliant responses into a large-scale augmented dataset. Sampled force and couple events are imposed on contact frames extracted from human interaction data. At each contact link, the external force and a virtual torque from the passively yielding kinematic chain drive a virtual admittance under the commanded stiffness. Subsequently, teacher-student reinforcement learning trains a single policy to track the compliant motions under external wrenches. Finally, extensive simulation and real-world experiments demonstrate whole-body compliant responses to wrenches across the upper body, monotonic modulation over the full range of both stiffness commands, and applicability to teleoperated loco-manipulation tasks. Project website: https://lac-humanoid.github.io/",
+      "authors": [
+        "Yang Liu",
+        "Zhongkai Gu",
+        "Wei Zhu",
+        "Mitsuhiro Hayashibe"
+      ],
+      "published": "2026-08-26",
+      "updated": "2026-08-26",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.25405",
+      "pdf_url": "https://arxiv.org/pdf/2608.25405",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "robot_centric",
+        "human_egocentric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Teleoperation"
+        ],
+        "human_egocentric": [
+          "Human Demonstration",
+          "Affordance / Contact"
+        ]
+      }
+    },
+    "2608.25350": {
+      "arxiv_id": "2608.25350",
+      "title": "Beyond Pairwise Feedback: Listwise Vision-Language Supervision for Preference-Based Reward Learning",
+      "abstract": "Vision-language models (VLMs) have emerged as a powerful source of supervision for reinforcement learning, enabling agents to leverage rich semantic knowledge during training. Inspired by the success of preference-based reward learning (PbRL) in reinforcement learning from human feedback (RLHF), vision-language model generated image-based preferences provide an effective source for learning reward functions. This can be done by visually comparing two outcomes through the Bradley-Terry (BT) model. However, this pairwise formulation utilizes only two observations at a time, despite VLMs being capable of ranking multiple candidates. The Plackett-Luce (PL) formulation can shape a reward model with listwise rankings as opposed to pairwise preferences, allowing for a more suited use of a VLM based ranking. In this work, to our knowledge, we introduce the first framework that combines VLM-generated preferences with the Plackett-Luce model for reward learning. We evaluate our approach on Meta-World manipulation tasks and show that Plackett-Luce (PL) reward models can train robotic policies from VLM-generated rankings as effectively as pairwise Bradley-Terry, $K$-wise Bradley-Terry, and RL-VLM-F baselines. Across all environments, at least one PL ranking size ($K \\in \\{3,4,5\\}$) consistently performs with or outperforms other methods in mean success rate. Unlike pairwise methods, which are restricted to $K=2$, PL supports different ranking sizes and can therefore be adapted to the environment and desired feedback format. Our best PL configuration achieves an 86% mean final success rate and matches the Oracle baseline on Drawer Open. Overall, these results demonstrate that listwise VLM preference supervision is a competitive and flexible approach to reward learning for reinforcement learning.",
+      "authors": [
+        "Srivalli Katkuri",
+        "Maxwell Kawada",
+        "Juan Wachs"
+      ],
+      "published": "2026-08-26",
+      "updated": "2026-08-26",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.RO"
+      ],
+      "comment": "13 pages, 10 figures. Srivalli Katkuri and Maxwell Kawada contributed equally to this work",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.25350",
+      "pdf_url": "https://arxiv.org/pdf/2608.25350",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Human Video"
+        ]
+      }
+    },
+    "2608.25196": {
+      "arxiv_id": "2608.25196",
+      "title": "Longitudinal Robot Learning from Demonstration with Care Providers in a Home Environment",
+      "abstract": "Learning from demonstration (LfD) methods enable non-expert end users to teach robots novel skills without explicit programming. However most evaluations of the usability of LfD with non-experts has been conducted in controlled laboratory environments with a robotics experimenter present. In this work we identify non-expert end users' key barriers when teaching robots via demonstration without live robotics expert feedback in a home environment. In our human subjects experiment we support the non-expert end users through two forms of demonstrator guidance developed in prior work: pre-training and adaptive feedback. Towards the ecological validity of the evaluation, we conduct this experimentation over multiple visits, with a population of care providers. Finally, we propose to open source the resulting LfD dataset of care providers teaching a robot assistive tasks over multiple visits to a home environment.",
+      "authors": [
+        "Nina Moorman",
+        "Julianna Schalkwyk",
+        "Vriksha Srihari",
+        "Qingyu Xiao",
+        "Kamel Alrashedy",
+        "Hongseok Jeong",
+        "Kiersten Lange",
+        "Matthew B. Luebbers",
+        "Matthew Gombolay"
+      ],
+      "published": "2026-08-25",
+      "updated": "2026-08-25",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.HC"
+      ],
+      "comment": "ICRA 2026 Workshop on Bridging the Gap between Robot Learning and Human-Robot Interaction",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.25196",
+      "pdf_url": "https://arxiv.org/pdf/2608.25196",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "robot_centric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Robot Dataset"
+        ]
+      }
+    },
+    "2608.25192": {
+      "arxiv_id": "2608.25192",
+      "title": "CRESSim-Neo: A Batched GPU Simulation Engine for Surgical Robotics and Robot Learning",
+      "abstract": "We introduce CRESSim-Neo, a batched GPU simulation engine for surgical robotics and robot learning. CRESSim-Neo combines position-based simulation of rigid bodies, deformable tissues, fluids, and strands with batched rendering, surgery-specific sensing, and a GPU-resident data pipeline. The engine supports applications including tissue manipulation, fluid suction, suturing, cable-driven robots, and ultrasound image synthesis. Direct access to physics and rendering buffers enables GPU-resident robot learning and zero-copy PyTorch integration using DLPack. We demonstrate CRESSim-Neo across rigid-body, deformable-body, and fluid simulation tasks, including vision-based and surgical robot-learning scenarios. On an NVIDIA RTX 4090, the engine achieves up to 2.03 million environment steps per second for 8192 parallel CartPole environments, and scales to batched surgical scenarios involving tissue deformation, fluid interaction, and ultrasound sensing. Overall, CRESSim-Neo provides a unified and scalable platform for surgical simulation, synthetic data generation, and surgical robot learning.",
+      "authors": [
+        "Yafei Ou",
+        "Ahnaf Naheen",
+        "Tleukhan Mussin",
+        "Hans Jarales",
+        "Melwin Moncy",
+        "Mahdi Tavakoli"
+      ],
+      "published": "2026-08-25",
+      "updated": "2026-08-25",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": "8 pages, 11 figures",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.25192",
+      "pdf_url": "https://arxiv.org/pdf/2608.25192",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Simulation Data",
+          "Synthetic Data"
+        ]
+      }
+    },
+    "2608.25102": {
+      "arxiv_id": "2608.25102",
+      "title": "ROS2 Connect: A new ROS2 over WAN Solution",
+      "abstract": "The Robot Operating System 2 (ROS2) has become a widely adopted framework for the development of distributed robotic systems. However, its communication architecture, based on DDS and RTPS, relies on multicast discovery mechanisms that are typically unavailable in wide-area network (WAN) environments, making remote operation challenging. This work presents ROS2 Connect, a WebSocket-based communication framework that enables transparent and secure ROS2 interaction across routed networks without requiring modifications to network infrastructure or DDS configurations. The proposed client-server architecture supports bidirectional exchange of topics, services, actions, and system data while integrating authentication and access control mechanisms. Experimental evaluation over a real WAN connection demonstrates significantly lower latency, higher stability, and improved scalability compared to existing solutions, including DDS Router, rosbridge and Zenoh. Initial results show that ROS2 Connect provides a reliable foundation for teleoperation and distributed robotics applications over wide-area networks.",
+      "authors": [
+        "Daniel Schott",
+        "Lakshminarasimhan Srinivasan",
+        "Christian Herrmann",
+        "Andreas Nüchter"
+      ],
+      "published": "2026-08-25",
+      "updated": "2026-08-25",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": "Proceedings of the 8th International Workshop on Robotics Software Engineering co-located with the 2026 IEEE International Conference on Robotics and Automation (ROSE '26)",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.25102",
+      "pdf_url": "https://arxiv.org/pdf/2608.25102",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "robot_centric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Teleoperation"
+        ]
+      }
+    },
     "2608.24882": {
       "arxiv_id": "2608.24882",
       "title": "Latent Action as Intention Enables Efficient Future Imagination for World Action Models",
@@ -887,7 +1310,7 @@
     },
     "2608.22067": {
       "arxiv_id": "2608.22067",
-      "title": "Inferring Action from Future Latent State for Robotic Manipulation",
+      "title": "DELE-w0.5: Inferring Action from Future Latent State for Robotic Manipulation",
       "abstract": "World-Action Models (WAMs) build robot control on video-generation backbones, which jointly predict dense future visual trajectories and robot actions. We argue that video generation is an unnecessary intermediate objective for world-action modeling. For robotic manipulation, the goal of a world model is not to reproduce how the world looks at every intermediate moment, but to predict the state that the world will reach after an action is executed. The intermediate frames only describe the visual transition between physical states, which consumes substantial model capacity and computation, but do not directly specify the physical outcome that the robot action is intended to produce. In this paper, we propose DELE-w0.5, which infers robot actions from predicted future states without relying on video generation. Concretely, DELE-w0.5 infers the action sequence from its corresponding compact future latent state. The future latent state captures the action-relevant physical outcome of robot interaction and serves as an explicit bridge between world modeling and action generation. The core design principle of DELE-w0.5 is to model how the physical world changes under robot actions, rather than how its visual appearance evolves frame by frame. This formulation removes the high-dimensional visual redundancy introduced by dense video representations, and it therefore enables cheaper training and low-latency inference. Across 480 real-robot trials on four long-horizon manipulation tasks, our DELE-w0.5 achieves the best performance among all compared policies, attaining 62.5 overall full-task success and 81.3 macro ordered-stage progress, outperforming the strongest baseline by 47.5 and 30.7 percentage points, respectively.",
       "authors": [
         "Fenghao Lei",
@@ -900,7 +1323,7 @@
         "Xiaoxue Ren"
       ],
       "published": "2026-08-22",
-      "updated": "2026-08-25",
+      "updated": "2026-08-26",
       "primary_category": "cs.RO",
       "categories": [
         "cs.RO",
@@ -199775,7 +200198,7 @@
     }
   },
   "coverage_start": "2025-01-01",
-  "coverage_end": "2026-08-26",
-  "paper_count": 5226,
-  "generated_at": "2026-08-26T12:55:18+00:00"
+  "coverage_end": "2026-08-27",
+  "paper_count": 5237,
+  "generated_at": "2026-08-27T08:02:41+00:00"
 }

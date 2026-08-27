@@ -4,12 +4,17 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-26 · **Papers:** 1863 · **Unique arXiv IDs:** 1863
+**Coverage:** 2025-01-01 to 2026-08-27 · **Papers:** 1868 · **Unique arXiv IDs:** 1868
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-26 | [Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization](https://arxiv.org/abs/2608.26103) | Jiaming Zhou, Qihang Zhang, Gangwei Xu, et al. | cs.RO, cs.CV | Human Video | [abs](https://arxiv.org/abs/2608.26103) / [pdf](https://arxiv.org/pdf/2608.26103) |
+| 2026-08-26 | [One Policy, Many Embodiments: Unified Camera-Centric Action Geometry Pre-training for Heterogeneous Embodied Manipulation](https://arxiv.org/abs/2608.26058) | Xiaomi Embodied Intelligence Team, University of Macau, :, et al. | cs.RO | Human Demonstration, Human-to-Robot | [abs](https://arxiv.org/abs/2608.26058) / [pdf](https://arxiv.org/pdf/2608.26058) |
+| 2026-08-26 | [Moving Beyond More Views: Redundancy-Aware Ego-Exo Fusion for Proficiency Estimation](https://arxiv.org/abs/2608.25736) | Xu Dong, Wanqing Li, Anthony Adeyemi-Ejeye, et al. | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2608.25736) / [pdf](https://arxiv.org/pdf/2608.25736) |
+| 2026-08-26 | [LAC: Linear and Angular Compliance for Humanoid Whole-body Control](https://arxiv.org/abs/2608.25405) | Yang Liu, Zhongkai Gu, Wei Zhu, et al. | cs.RO | Human Demonstration, Affordance / Contact | [abs](https://arxiv.org/abs/2608.25405) / [pdf](https://arxiv.org/pdf/2608.25405) |
+| 2026-08-26 | [Beyond Pairwise Feedback: Listwise Vision-Language Supervision for Preference-Based Reward Learning](https://arxiv.org/abs/2608.25350) | Srivalli Katkuri, Maxwell Kawada, Juan Wachs | cs.LG, cs.RO | Human Video | [abs](https://arxiv.org/abs/2608.25350) / [pdf](https://arxiv.org/pdf/2608.25350) |
 | 2026-08-25 | [From Seeing to Acting: Smart Glasses as First-Person Intelligence Platforms](https://arxiv.org/abs/2608.24877) | Jiangning Zhang, Haojun Chen, Yong Liu | cs.CV | Egocentric, Hand-Object Interaction | [abs](https://arxiv.org/abs/2608.24877) / [pdf](https://arxiv.org/pdf/2608.24877) |
 | 2026-08-25 | [Fiber Optic Sensing Glove for High Performance Dexterous Manipulation Capture](https://arxiv.org/abs/2608.24572) | J. D. Peiffer, Taylor Niehues, Li Guan, et al. | cs.RO | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2608.24572) / [pdf](https://arxiv.org/pdf/2608.24572) |
 | 2026-08-25 | [EgoErrorVQA: Assess Egocentric Comprehension Capabilities through Procedural Errors for Ego-Agentic AI](https://arxiv.org/abs/2608.24134) | Junlong Li, Junxi Li, Jianjun Gao, et al. | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2608.24134) / [pdf](https://arxiv.org/pdf/2608.24134) |

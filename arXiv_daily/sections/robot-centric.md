@@ -4,12 +4,16 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-26 · **Papers:** 1987 · **Unique arXiv IDs:** 1987
+**Coverage:** 2025-01-01 to 2026-08-27 · **Papers:** 1991 · **Unique arXiv IDs:** 1991
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-26 | [Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization](https://arxiv.org/abs/2608.26103) | Jiaming Zhou, Qihang Zhang, Gangwei Xu, et al. | cs.RO, cs.CV | Robot Dataset | [abs](https://arxiv.org/abs/2608.26103) / [pdf](https://arxiv.org/pdf/2608.26103) |
+| 2026-08-26 | [LAC: Linear and Angular Compliance for Humanoid Whole-body Control](https://arxiv.org/abs/2608.25405) | Yang Liu, Zhongkai Gu, Wei Zhu, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2608.25405) / [pdf](https://arxiv.org/pdf/2608.25405) |
+| 2026-08-25 | [Longitudinal Robot Learning from Demonstration with Care Providers in a Home Environment](https://arxiv.org/abs/2608.25196) | Nina Moorman, Julianna Schalkwyk, Vriksha Srihari, et al. | cs.RO, cs.HC | Robot Dataset | [abs](https://arxiv.org/abs/2608.25196) / [pdf](https://arxiv.org/pdf/2608.25196) |
+| 2026-08-25 | [ROS2 Connect: A new ROS2 over WAN Solution](https://arxiv.org/abs/2608.25102) | Daniel Schott, Lakshminarasimhan Srinivasan, Christian Herrmann, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2608.25102) / [pdf](https://arxiv.org/pdf/2608.25102) |
 | 2026-08-25 | [Latent Action as Intention Enables Efficient Future Imagination for World Action Models](https://arxiv.org/abs/2608.24882) | Xiang Li, Yupeng Zheng, Songen Gu, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2608.24882) / [pdf](https://arxiv.org/pdf/2608.24882) |
 | 2026-08-25 | [Fiber Optic Sensing Glove for High Performance Dexterous Manipulation Capture](https://arxiv.org/abs/2608.24572) | J. D. Peiffer, Taylor Niehues, Li Guan, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2608.24572) / [pdf](https://arxiv.org/pdf/2608.24572) |
 | 2026-08-25 | [Hierarchical Skill Retrieval for Data-Efficient Adaptation of Vision-Language-Action Models](https://arxiv.org/abs/2608.24042) | Haoran Hao, Shahram Najam Syed, Jeff Schneider, et al. | cs.RO, cs.AI, cs.LG | Robot Dataset | [abs](https://arxiv.org/abs/2608.24042) / [pdf](https://arxiv.org/pdf/2608.24042) |

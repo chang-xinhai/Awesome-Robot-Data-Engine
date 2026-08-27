@@ -4,12 +4,17 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-26 · **Papers:** 2426 · **Unique arXiv IDs:** 2426
+**Coverage:** 2025-01-01 to 2026-08-27 · **Papers:** 2431 · **Unique arXiv IDs:** 2431
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-26 | [One Policy, Many Embodiments: Unified Camera-Centric Action Geometry Pre-training for Heterogeneous Embodied Manipulation](https://arxiv.org/abs/2608.26058) | Xiaomi Embodied Intelligence Team, University of Macau, :, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2608.26058) / [pdf](https://arxiv.org/pdf/2608.26058) |
+| 2026-08-26 | [PRISM: Projection-Integrated Sampling-Based MPC with Bayesian Cost Tuning for Bimanual Manipulation](https://arxiv.org/abs/2608.25666) | Alinjar Dan, Iryna Hurova, Karl Kruusamäe, et al. | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2608.25666) / [pdf](https://arxiv.org/pdf/2608.25666) |
+| 2026-08-26 | [Advantage-Driven Explicit Memory for Social Navigation](https://arxiv.org/abs/2608.25610) | Yeonsoo Park, Mattia Racca, Guillaume Bono, et al. | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2608.25610) / [pdf](https://arxiv.org/pdf/2608.25610) |
+| 2026-08-26 | [ConfAL-WM: Confidence-Guided Active Learning for Action-Conditioned World Models](https://arxiv.org/abs/2608.25572) | Xiang Liu, Sen Cui, Changshui Zhang | cs.RO, cs.AI | Synthetic Data | [abs](https://arxiv.org/abs/2608.25572) / [pdf](https://arxiv.org/pdf/2608.25572) |
+| 2026-08-25 | [CRESSim-Neo: A Batched GPU Simulation Engine for Surgical Robotics and Robot Learning](https://arxiv.org/abs/2608.25192) | Yafei Ou, Ahnaf Naheen, Tleukhan Mussin, et al. | cs.RO | Simulation Data, Synthetic Data | [abs](https://arxiv.org/abs/2608.25192) / [pdf](https://arxiv.org/pdf/2608.25192) |
 | 2026-08-25 | [WarpSAC: Towards the Pinnacle of Scalable Off-policy RL by Rethinking Exploration and Exploitation](https://arxiv.org/abs/2608.24479) | Zihao Wu, Hongyao Tang, Yi Ma, et al. | cs.LG | Simulation Data, Sim-to-Real | [abs](https://arxiv.org/abs/2608.24479) / [pdf](https://arxiv.org/pdf/2608.24479) |
 | 2026-08-25 | [NeoWorld-Pro: Programming Interactive Scenes from Monocular Images for Embodied Simulation](https://arxiv.org/abs/2608.24212) | Yumeng He, Yichen Song, Xiaotian Yang, et al. | cs.CV | Simulation-Ready Asset | [abs](https://arxiv.org/abs/2608.24212) / [pdf](https://arxiv.org/pdf/2608.24212) |
 | 2026-08-25 | [NVIDIA Cosmos-H-Dreams: Real-Time Generative Physics Simulation for Surgical Robotics](https://arxiv.org/abs/2608.24199) | Javier Gamazo Tejero, Lukas Zbinden, Keyur Sheth, et al. | cs.RO | Simulation Data, Synthetic Data | [abs](https://arxiv.org/abs/2608.24199) / [pdf](https://arxiv.org/pdf/2608.24199) |
@@ -19,7 +24,7 @@
 | 2026-08-23 | [LD4WAM: Learning Latent Dynamics from Human Videos for World Action Models](https://arxiv.org/abs/2608.22403) | Zhenhao Shen, Jiaqi Liang, Jasper Lu, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2608.22403) / [pdf](https://arxiv.org/pdf/2608.22403) |
 | 2026-08-23 | [The Imitator Game: Benchmarking Robot Imitative Ability Beyond Action Prediction](https://arxiv.org/abs/2608.22301) | Xunzhe Zhou, Yiyang Cai, Fengyi Wang, et al. | cs.RO, cs.AI | Simulation Data | [abs](https://arxiv.org/abs/2608.22301) / [pdf](https://arxiv.org/pdf/2608.22301) |
 | 2026-08-22 | [Contact-Rich Robotic Manipulation in Construction via Zero-Shot Learning: A Diffusion Policy-Guided Adaptive Control](https://arxiv.org/abs/2608.22100) | Roman Ibrahimov, Salma Mozaffari, Arash Adel | cs.RO | Simulation Data, Sim-to-Real | [abs](https://arxiv.org/abs/2608.22100) / [pdf](https://arxiv.org/pdf/2608.22100) |
-| 2026-08-22 | [Inferring Action from Future Latent State for Robotic Manipulation](https://arxiv.org/abs/2608.22067) | Fenghao Lei, Zhixiong Huang, Long Yang, et al. | cs.RO, cs.AI, cs.CV | Trajectory Generation | [abs](https://arxiv.org/abs/2608.22067) / [pdf](https://arxiv.org/pdf/2608.22067) |
+| 2026-08-22 | [DELE-w0.5: Inferring Action from Future Latent State for Robotic Manipulation](https://arxiv.org/abs/2608.22067) | Fenghao Lei, Zhixiong Huang, Long Yang, et al. | cs.RO, cs.AI, cs.CV | Trajectory Generation | [abs](https://arxiv.org/abs/2608.22067) / [pdf](https://arxiv.org/pdf/2608.22067) |
 | 2026-08-22 | [Vision-Guided Morphing Quadcopter for Multi-Geometry Payload Transport through Narrow Passages](https://arxiv.org/abs/2608.21879) | Aashish Sahu, Shriram Hari, R. Prasanth Kumar | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2608.21879) / [pdf](https://arxiv.org/pdf/2608.21879) |
 | 2026-08-22 | [Vision Guided Target Conditioned Control for Autonomous Excavation](https://arxiv.org/abs/2608.21778) | Shuai Zhao, Ji-An Pan, Junwei Li, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2608.21778) / [pdf](https://arxiv.org/pdf/2608.21778) |
 | 2026-08-21 | [In-Situ Reconstruction of the International Space Station Using 3D Gaussian Splatting and Astrobee](https://arxiv.org/abs/2608.21685) | Hudson Kim, Ryan Soussan, Brian Coltin, et al. | cs.RO | Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2608.21685) / [pdf](https://arxiv.org/pdf/2608.21685) |
