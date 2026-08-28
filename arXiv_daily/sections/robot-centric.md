@@ -4,12 +4,14 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-28 · **Papers:** 1991 · **Unique arXiv IDs:** 1991
+**Coverage:** 2025-01-01 to 2026-08-28 · **Papers:** 1993 · **Unique arXiv IDs:** 1993
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-27 | [Contact-Aided Factor-Graph Localization for Underwater Sampling](https://arxiv.org/abs/2608.26932) | Michele Grimaldi, Yosaku Maeda, Hitoshi Kakami, et al. | cs.RO | Robot Data Processing | [abs](https://arxiv.org/abs/2608.26932) / [pdf](https://arxiv.org/pdf/2608.26932) |
+| 2026-08-27 | [PredVLA: A Sub-Million-Parameter Predictive-Coding Policy for Robot Manipulation](https://arxiv.org/abs/2608.26673) | Hiroki Sawada, Shunichi Kasahara | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2608.26673) / [pdf](https://arxiv.org/pdf/2608.26673) |
 | 2026-08-26 | [Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization](https://arxiv.org/abs/2608.26103) | Jiaming Zhou, Qihang Zhang, Gangwei Xu, et al. | cs.RO, cs.CV | Robot Dataset | [abs](https://arxiv.org/abs/2608.26103) / [pdf](https://arxiv.org/pdf/2608.26103) |
 | 2026-08-26 | [LAC: Linear and Angular Compliance for Humanoid Whole-body Control](https://arxiv.org/abs/2608.25405) | Yang Liu, Zhongkai Gu, Wei Zhu, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2608.25405) / [pdf](https://arxiv.org/pdf/2608.25405) |
 | 2026-08-25 | [Longitudinal Robot Learning from Demonstration with Care Providers in a Home Environment](https://arxiv.org/abs/2608.25196) | Nina Moorman, Julianna Schalkwyk, Vriksha Srihari, et al. | cs.RO, cs.HC | Robot Dataset | [abs](https://arxiv.org/abs/2608.25196) / [pdf](https://arxiv.org/pdf/2608.25196) |

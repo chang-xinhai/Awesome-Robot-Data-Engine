@@ -2,16 +2,16 @@
 
 > A high-recall candidate archive for manual curation into [Awesome Robot Data Engine](../README.md). It is intentionally broader than the curated list.
 
-**Coverage:** 2025-01-01 to 2026-08-28 · **Unique papers:** 5241
+**Coverage:** 2025-01-01 to 2026-08-28 · **Unique papers:** 5247
 
 ## Sections
 
 | Section | Papers | Scope |
 | :------ | -----: | :---- |
-| [Robot-Centric](sections/robot-centric.md) | 1991 | Real-robot collection, teleoperation, intervention, datasets, and processing |
+| [Robot-Centric](sections/robot-centric.md) | 1993 | Real-robot collection, teleoperation, intervention, datasets, and processing |
 | [UMI](sections/umi.md) | 68 | Portable manipulation interfaces, robot-free demonstrations, and UMI recovery |
 | [Human / Egocentric](sections/human-egocentric.md) | 1871 | Human video, HOI, tracking, reconstruction, action extraction, and retargeting |
-| [Simulation](sections/simulation.md) | 2433 | Synthetic demonstrations, environments, assets, sensors, and sim–real systems |
+| [Simulation](sections/simulation.md) | 2438 | Synthetic demonstrations, environments, assets, sensors, and sim–real systems |
 
 A paper is stored once in [`data/papers.json`](data/papers.json) but may appear in multiple generated views. The archive uses arXiv `v1` dates and is updated daily by GitHub Actions. Promotion to the root README is always manual.
 
@@ -19,6 +19,8 @@ A paper is stored once in [`data/papers.json`](data/papers.json) but may appear 
 
 ### Robot-Centric
 
+- 2026-08-27 — [Contact-Aided Factor-Graph Localization for Underwater Sampling](https://arxiv.org/abs/2608.26932)
+- 2026-08-27 — [PredVLA: A Sub-Million-Parameter Predictive-Coding Policy for Robot Manipulation](https://arxiv.org/abs/2608.26673)
 - 2026-08-26 — [Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization](https://arxiv.org/abs/2608.26103)
 - 2026-08-26 — [LAC: Linear and Angular Compliance for Humanoid Whole-body Control](https://arxiv.org/abs/2608.25405)
 - 2026-08-25 — [Longitudinal Robot Learning from Demonstration with Care Providers in a Home Environment](https://arxiv.org/abs/2608.25196)
@@ -27,8 +29,6 @@ A paper is stored once in [`data/papers.json`](data/papers.json) but may appear 
 - 2026-08-25 — [Fiber Optic Sensing Glove for High Performance Dexterous Manipulation Capture](https://arxiv.org/abs/2608.24572)
 - 2026-08-25 — [Hierarchical Skill Retrieval for Data-Efficient Adaptation of Vision-Language-Action Models](https://arxiv.org/abs/2608.24042)
 - 2026-08-24 — [Switched Turn-based Adaptive Source Seeking Strategy using Estimation and Information-driven Direction of Improvement](https://arxiv.org/abs/2608.23068)
-- 2026-08-23 — [LD4WAM: Learning Latent Dynamics from Human Videos for World Action Models](https://arxiv.org/abs/2608.22403)
-- 2026-08-23 — [The Imitator Game: Benchmarking Robot Imitative Ability Beyond Action Prediction](https://arxiv.org/abs/2608.22301)
 
 ### UMI
 
@@ -58,16 +58,16 @@ A paper is stored once in [`data/papers.json`](data/papers.json) but may appear 
 
 ### Simulation
 
+- 2026-08-27 — [STEP: State-Aware Task Estimation and Planning with Multi-Modal LLMs for Human-Robot Collaboration](https://arxiv.org/abs/2608.27225)
+- 2026-08-27 — [Active sensing to characterize the heterogeneity of plant stress](https://arxiv.org/abs/2608.27088)
 - 2026-08-27 — [Riemann-1.0: An Embodied World Action Model for Physical AI](https://arxiv.org/abs/2608.27033)
+- 2026-08-27 — [4DSynth: Controllable Procedural World Synthesis for Dynamic Embodied Simulation](https://arxiv.org/abs/2608.26947)
+- 2026-08-27 — [Contact-Aided Factor-Graph Localization for Underwater Sampling](https://arxiv.org/abs/2608.26932)
 - 2026-08-27 — [Rapid On-Robot Learning for Dynamic Manipulation Skills: Robot Juggling](https://arxiv.org/abs/2608.26800)
+- 2026-08-26 — [Constraint-Aware Physics-Informed Neural Networks for Static Shape Estimation of Co-Manipulative Continuum Robots](https://arxiv.org/abs/2608.26273)
 - 2026-08-26 — [One Policy, Many Embodiments: Unified Camera-Centric Action Geometry Pre-training for Heterogeneous Embodied Manipulation](https://arxiv.org/abs/2608.26058)
 - 2026-08-26 — [PRISM: Projection-Integrated Sampling-Based MPC with Bayesian Cost Tuning for Bimanual Manipulation](https://arxiv.org/abs/2608.25666)
 - 2026-08-26 — [Advantage-Driven Explicit Memory for Social Navigation](https://arxiv.org/abs/2608.25610)
-- 2026-08-26 — [ConfAL-WM: Confidence-Guided Active Learning for Action-Conditioned World Models](https://arxiv.org/abs/2608.25572)
-- 2026-08-25 — [CRESSim-Neo: A Batched GPU Simulation Engine for Surgical Robotics and Robot Learning](https://arxiv.org/abs/2608.25192)
-- 2026-08-25 — [WarpSAC: Towards the Pinnacle of Scalable Off-policy RL by Rethinking Exploration and Exploitation](https://arxiv.org/abs/2608.24479)
-- 2026-08-25 — [NeoWorld-Pro: Programming Interactive Scenes from Monocular Images for Embodied Simulation](https://arxiv.org/abs/2608.24212)
-- 2026-08-25 — [NVIDIA Cosmos-H-Dreams: Real-Time Generative Physics Simulation for Surgical Robotics](https://arxiv.org/abs/2608.24199)
 
 ## Method
 

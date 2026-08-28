@@ -24,6 +24,7 @@
       "pdf_url": "https://arxiv.org/pdf/2608.27406",
       "query_sources": [
         "cross-source-data",
+        "cs-ro",
         "human-egocentric"
       ],
       "topics": [
@@ -59,6 +60,7 @@
       "url": "https://arxiv.org/abs/2608.27371",
       "pdf_url": "https://arxiv.org/pdf/2608.27371",
       "query_sources": [
+        "cs-ro",
         "human-egocentric"
       ],
       "topics": [
@@ -67,6 +69,74 @@
       "matches": {
         "human_egocentric": [
           "Egocentric"
+        ]
+      }
+    },
+    "2608.27225": {
+      "arxiv_id": "2608.27225",
+      "title": "STEP: State-Aware Task Estimation and Planning with Multi-Modal LLMs for Human-Robot Collaboration",
+      "abstract": "Effective human-robot collaboration in industrial settings requires robots to understand human intentions and assist with task planning, reducing workload. Recent works have explored the use of Multi-modal Large Language Models (MM-LLMs) for task planning in such data-scarce scenarios, leveraging in-context learning to interpret user actions and generate long-horizon action plans in natural language. However, MM-LLMs inherently lack an understanding of system states and do not track state transitions, often leading to hallucinated actions that deviate from the intended goal. Additionally, generating action plans in natural language tends to limit the generated plans to a high level, introducing ambiguity in action execution. To address these limitations, we propose the State-aware Task Estimator and Planner (STEP), which prompts a MM-LLM to explicitly estimate the state of the system and predict the state transitions resulting from executed actions. By forecasting future states alongside actions, STEP ensures task-convergent planning while also providing additional assistance parameters necessary for executing the predicted actions. We evaluate STEP in a simulated environment using a robot assembly task. Our approach outperforms the state-of-the-art by 32.8% in action executability and 14.8% in final-state error.",
+      "authors": [
+        "Maitrey Gramopadhye",
+        "Prakash Baskaran",
+        "Xiao Liu",
+        "Songpo Li",
+        "Soshi Iba"
+      ],
+      "published": "2026-08-27",
+      "updated": "2026-08-27",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "comment": "Published in IEEE International Conference on Robot and Human Interactive Communication (RO-MAN), 2026, 8 pages, 4 figuers, 5 tables",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.27225",
+      "pdf_url": "https://arxiv.org/pdf/2608.27225",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Simulation Data"
+        ]
+      }
+    },
+    "2608.27088": {
+      "arxiv_id": "2608.27088",
+      "title": "Active sensing to characterize the heterogeneity of plant stress",
+      "abstract": "While most phenotyping platforms rely primarily on image-based measurements, advanced plant characterization requires the integration of active physiological sensing modali- ties such as chlorophyll fluorescence. We present an autonomous robotic platform designed to perform targeted fluorescence measurements on plant leaves. The system combines 3D plant reconstruction, geometric analysis, and motion planning to localize suitable measurement points and generate collision-free trajectories for a robotic manipulator. A dense 3D model of the plant is reconstructed from multi-view data and used to extract candidate leaf surfaces based on orientation, accessibility, and sensing constraints. These targets are then integrated into a task-level planning framework that guides the end-effector to precise contact or near-contact configurations required for point-based fluorescence acquisition. The platform enables automated, repeatable, and spatially resolved physiological measurements that go beyond passive imaging. By tightly coupling perception, geometric reasoning, and manipulation, the proposed system provides a robotics-driven approach to high-resolution plant phenotyping and opens new directions for autonomous agricultural inspection and plant-aware manipulation.",
+      "authors": [
+        "Ayman Laaroussi",
+        "Peter Hanappe",
+        "David Colliaux"
+      ],
+      "published": "2026-08-27",
+      "updated": "2026-08-27",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "comment": "UR2026",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.27088",
+      "pdf_url": "https://arxiv.org/pdf/2608.27088",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Trajectory Generation"
         ]
       }
     },
@@ -104,6 +174,7 @@
       "url": "https://arxiv.org/abs/2608.27033",
       "pdf_url": "https://arxiv.org/pdf/2608.27033",
       "query_sources": [
+        "cs-ro",
         "human-egocentric",
         "umi"
       ],
@@ -123,6 +194,80 @@
         "simulation": [
           "Simulation Data",
           "World Simulator"
+        ]
+      }
+    },
+    "2608.26947": {
+      "arxiv_id": "2608.26947",
+      "title": "4DSynth: Controllable Procedural World Synthesis for Dynamic Embodied Simulation",
+      "abstract": "Embodied agents need environments that are visually diverse, physically interactive, and changing over time. Procedural simulators can generate large interactive scene collections, and recent 4D generators produce compelling visual dynamics. Combining these properties in one environment, however, still demands extensive manual effort, and the result is rarely editable or controllable enough to reuse at scale. We present 4DSynth, a controllable procedural system that turns a natural-language description, a blueprint mask, or a single photograph into an editable 4D environment with explicit geometry, animated actors, collision-free trajectories, and physics-ready simulation state. Multiple scene routes share one geometry-grounded representation, so the same pipeline handles animation, camera planning, rendering, and task generation. To validate the full pipeline, we construct 4DSynth-Nav, an interactive navigation benchmark generated entirely from 4DSynth's procedural scenes. Two vision-language models evaluated across three difficulty tiers both fail the majority of tasks and stall after early subtasks. The same procedural controllability that produces these environments also makes each failure reproducible and each difficulty axis independently tunable. This paper presents both a controllable generation pipeline and the scalable benchmark it enables, offering a practical foundation for developing and evaluating embodied agents.",
+      "authors": [
+        "Zehao Qi",
+        "Haochen Luo",
+        "Jia-Wang Bian",
+        "Zeyu Ma",
+        "Shuyang Sun"
+      ],
+      "published": "2026-08-27",
+      "updated": "2026-08-27",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.26947",
+      "pdf_url": "https://arxiv.org/pdf/2608.26947",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Task / Scene Generation"
+        ]
+      }
+    },
+    "2608.26932": {
+      "arxiv_id": "2608.26932",
+      "title": "Contact-Aided Factor-Graph Localization for Underwater Sampling",
+      "abstract": "Accurate state estimation for autonomous underwater vehicles performing close-range seafloor sampling remains challenging. In low-altitude operation, down-looking cameras over featureless planar seabeds produce scale ambiguity, lateral degeneracy, and inconsistent feature tracking. Meanwhile, inertial-Doppler Velocity Log (DVL) fusion alone provides no mechanism for structural drift correction. We propose a Contact-Aided Factor-Graph Localization framework that treats physical interaction as an informative geometric constraint within a smoothing-based localization formulation. The method tightly fuses suction-based manipulator contact events with adaptive visual odometry, learned object detections, and on-board sensors. Visual odometry relative-pose factors and landmark bearing-range factors are uncertainty-scaled according to inlier statistics to prevent visually weak frames from destabilizing the estimator, while contact events are modeled as high-confidence factors that induce implicit loop closures without appearance-based place recognition. Furthermore, the system can fully initialize online during motion. Experimental evaluation in tanks, harbor, and simulation environments demonstrates that contact-induced constraints significantly reduce trajectory drift and improve object revisit accuracy compared to filtering-based navigation and contact-free graph formulations. These results highlight the role of embodied physical interaction as a localization primitive in perception-degraded underwater environments",
+      "authors": [
+        "Michele Grimaldi",
+        "Yosaku Maeda",
+        "Hitoshi Kakami",
+        "Ignacio Carlucho",
+        "Yvan R. Petillot",
+        "Tomoya Inoue"
+      ],
+      "published": "2026-08-27",
+      "updated": "2026-08-27",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.26932",
+      "pdf_url": "https://arxiv.org/pdf/2608.26932",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "robot_centric",
+        "simulation"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Robot Data Processing"
+        ],
+        "simulation": [
+          "Simulation Data"
         ]
       }
     },
@@ -149,6 +294,7 @@
       "url": "https://arxiv.org/abs/2608.26800",
       "pdf_url": "https://arxiv.org/pdf/2608.26800",
       "query_sources": [
+        "cs-ro",
         "simulation-data"
       ],
       "topics": [
@@ -157,6 +303,70 @@
       "matches": {
         "simulation": [
           "Sim-to-Real"
+        ]
+      }
+    },
+    "2608.26673": {
+      "arxiv_id": "2608.26673",
+      "title": "PredVLA: A Sub-Million-Parameter Predictive-Coding Policy for Robot Manipulation",
+      "abstract": "Large pretrained vision-language-action models dominate modern robot-manipulation benchmarks, but it remains unclear how much model scale is necessary for strong language-conditioned control, or whether fundamentally different control architectures can remain competitive at much smaller parameter budgets. We present PredVLA, a language-conditioned predictive-coding policy with only 0.68 million trainable network parameters and no robot-data pretraining, whose hierarchical generative recurrent dynamics predict visual features and proprioception while observations influence latent state only through online inference from the resulting sensory prediction errors. On LIBERO, PredVLA achieves an 86.9% mean success rate across the three short-horizon suites and 75.4% when the long-horizon suite is included. Under a controlled comparison using the same frozen front end, demonstrations, action decoder, and evaluation protocol, PredVLA achieves 3.7x and 7.4x mean success rates of parameter-matched Transformer and LSTM policies, respectively. The predictive-coding formulation also makes the contribution of observation-driven correction directly measurable: because observations influence the recurrent state only through prediction-error-based latent inference, disabling this inference yields an exact open-loop control condition. Together, these results show that a sub-million-parameter recurrent generative policy can achieve strong performance on modern language-conditioned manipulation benchmarks while providing an explicit mechanism for prediction-error-driven online state correction.",
+      "authors": [
+        "Hiroki Sawada",
+        "Shunichi Kasahara"
+      ],
+      "published": "2026-08-27",
+      "updated": "2026-08-27",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.26673",
+      "pdf_url": "https://arxiv.org/pdf/2608.26673",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "robot_centric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Robot Dataset"
+        ]
+      }
+    },
+    "2608.26273": {
+      "arxiv_id": "2608.26273",
+      "title": "Constraint-Aware Physics-Informed Neural Networks for Static Shape Estimation of Co-Manipulative Continuum Robots",
+      "abstract": "Static shape estimation of co-manipulative continuum robots (CCRs) is challenging because the continuum arms and manipulated flexible object form a closed chain that must satisfy both static equilibrium and geometric loop-closure constraints. This paper presents a constraint-aware physics-informed neural network (PINN) for static shape estimation of a tendon-driven CCR modeled using the geometric variable strain formulation. The proposed method incorporates a projected static equilibrium residual and a configuration-level geometric residual to enforce the governing mechanics and closed-chain geometry. In simulation, the PINN is compared with a purely data-driven artificial neural network (ANN) under limited and noisy training data. With 140 samples and 50% label noise, the PINN reduces the relative configuration error, equilibrium residual, and closed-chain residual by 67.88%, 67.35%, and 88.06%, respectively. Using the full dataset, the PINN achieves 0.1597% relative configuration error with an inference time of 0.1773 ms, compared with 17.97 s for an iterative nonlinear solver. Experimental fine-tuning reduces the marker RMSE from 2.657 mm to 0.497 mm and increases R2 from -0.788 to 0.937. These results demonstrate accurate, physically consistent, and computationally efficient static shape estimation of closed-chain CCRs.",
+      "authors": [
+        "Rana Danesh",
+        "Pari Qarehdaghi",
+        "Farrokh Janabi-Sharifi"
+      ],
+      "published": "2026-08-26",
+      "updated": "2026-08-26",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.26273",
+      "pdf_url": "https://arxiv.org/pdf/2608.26273",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Simulation Data"
         ]
       }
     },
@@ -792,7 +1002,7 @@
         "Sean D. Huver"
       ],
       "published": "2026-08-25",
-      "updated": "2026-08-25",
+      "updated": "2026-08-27",
       "primary_category": "cs.RO",
       "categories": [
         "cs.RO"
@@ -3940,7 +4150,7 @@
         "C. Karen Liu"
       ],
       "published": "2026-08-16",
-      "updated": "2026-08-16",
+      "updated": "2026-08-27",
       "primary_category": "cs.RO",
       "categories": [
         "cs.RO",
@@ -200358,6 +200568,6 @@
   },
   "coverage_start": "2025-01-01",
   "coverage_end": "2026-08-28",
-  "paper_count": 5241,
-  "generated_at": "2026-08-28T10:20:35+00:00"
+  "paper_count": 5247,
+  "generated_at": "2026-08-28T21:48:50+00:00"
 }
