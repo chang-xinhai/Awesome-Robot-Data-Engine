@@ -4,12 +4,14 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-27 · **Papers:** 2431 · **Unique arXiv IDs:** 2431
+**Coverage:** 2025-01-01 to 2026-08-28 · **Papers:** 2433 · **Unique arXiv IDs:** 2433
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-27 | [Riemann-1.0: An Embodied World Action Model for Physical AI](https://arxiv.org/abs/2608.27033) | Haofeng Sun, Jiangbo Pei, Fei Kang, et al. | cs.RO | Simulation Data, World Simulator | [abs](https://arxiv.org/abs/2608.27033) / [pdf](https://arxiv.org/pdf/2608.27033) |
+| 2026-08-27 | [Rapid On-Robot Learning for Dynamic Manipulation Skills: Robot Juggling](https://arxiv.org/abs/2608.26800) | Taeyoon Lee, Chunpeng Wang, Christopher G. Atkeson, et al. | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2608.26800) / [pdf](https://arxiv.org/pdf/2608.26800) |
 | 2026-08-26 | [One Policy, Many Embodiments: Unified Camera-Centric Action Geometry Pre-training for Heterogeneous Embodied Manipulation](https://arxiv.org/abs/2608.26058) | Xiaomi Embodied Intelligence Team, University of Macau, :, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2608.26058) / [pdf](https://arxiv.org/pdf/2608.26058) |
 | 2026-08-26 | [PRISM: Projection-Integrated Sampling-Based MPC with Bayesian Cost Tuning for Bimanual Manipulation](https://arxiv.org/abs/2608.25666) | Alinjar Dan, Iryna Hurova, Karl Kruusamäe, et al. | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2608.25666) / [pdf](https://arxiv.org/pdf/2608.25666) |
 | 2026-08-26 | [Advantage-Driven Explicit Memory for Social Navigation](https://arxiv.org/abs/2608.25610) | Yeonsoo Park, Mattia Racca, Guillaume Bono, et al. | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2608.25610) / [pdf](https://arxiv.org/pdf/2608.25610) |

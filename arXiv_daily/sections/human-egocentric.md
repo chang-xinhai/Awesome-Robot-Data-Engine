@@ -4,12 +4,15 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-27 · **Papers:** 1868 · **Unique arXiv IDs:** 1868
+**Coverage:** 2025-01-01 to 2026-08-28 · **Papers:** 1871 · **Unique arXiv IDs:** 1871
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-27 | [CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators](https://arxiv.org/abs/2608.27406) | Kechen Liu, Ola Shorinwa | cs.RO, cs.AI, cs.CV | Human Video | [abs](https://arxiv.org/abs/2608.27406) / [pdf](https://arxiv.org/pdf/2608.27406) |
+| 2026-08-27 | [Embodied Scene Rearrangement Planning](https://arxiv.org/abs/2608.27371) | Canzhi Chen, Zan Wang, Siqi Zhu, et al. | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2608.27371) / [pdf](https://arxiv.org/pdf/2608.27371) |
+| 2026-08-27 | [Riemann-1.0: An Embodied World Action Model for Physical AI](https://arxiv.org/abs/2608.27033) | Haofeng Sun, Jiangbo Pei, Fei Kang, et al. | cs.RO | Egocentric, Human Video | [abs](https://arxiv.org/abs/2608.27033) / [pdf](https://arxiv.org/pdf/2608.27033) |
 | 2026-08-26 | [Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization](https://arxiv.org/abs/2608.26103) | Jiaming Zhou, Qihang Zhang, Gangwei Xu, et al. | cs.RO, cs.CV | Human Video | [abs](https://arxiv.org/abs/2608.26103) / [pdf](https://arxiv.org/pdf/2608.26103) |
 | 2026-08-26 | [One Policy, Many Embodiments: Unified Camera-Centric Action Geometry Pre-training for Heterogeneous Embodied Manipulation](https://arxiv.org/abs/2608.26058) | Xiaomi Embodied Intelligence Team, University of Macau, :, et al. | cs.RO | Human Demonstration, Human-to-Robot | [abs](https://arxiv.org/abs/2608.26058) / [pdf](https://arxiv.org/pdf/2608.26058) |
 | 2026-08-26 | [Moving Beyond More Views: Redundancy-Aware Ego-Exo Fusion for Proficiency Estimation](https://arxiv.org/abs/2608.25736) | Xu Dong, Wanqing Li, Anthony Adeyemi-Ejeye, et al. | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2608.25736) / [pdf](https://arxiv.org/pdf/2608.25736) |
