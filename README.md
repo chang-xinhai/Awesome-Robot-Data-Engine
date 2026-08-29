@@ -73,9 +73,6 @@ entries are promoted into this curated README only after manual review.
 - [2026-07-31] Launched **Awesome Robot Data Engine** with a source-to-policy
   taxonomy and an initial verified list spanning robot-centric, UMI, human /
   egocentric, simulation, and cross-source data systems.
-- [2026-08-04] Added newly verified data-engine work on dense intermediate
-  representations, human-video-to-robot experience synthesis, persistent
-  real-to-sim scene editing, and backward dynamics translation.
 
 ## Contents
 

@@ -360,6 +360,16 @@ claimed full corpus from the files currently released.
 
 ## Maintenance workflow
 
+### News policy
+
+`News` is a milestone log, not a paper-update changelog.
+
+Only add a `News` entry for repository initialization, a major new module or
+top-level taxonomy, a substantial navigation/restructuring change, or a new
+automated/infrastructure capability. Routine paper additions, deep-audit
+passes, metadata fixes, link refreshes, and bulk content updates do **not**
+qualify, regardless of how many rows changed.
+
 When adding or updating entries:
 
 1. identify the paper's main new asset;
@@ -370,7 +380,7 @@ When adding or updating entries:
 6. insert in descending date order;
 7. update Contents only when headings change;
 8. run link and Markdown-table checks;
-9. update `News` only for meaningful releases or structural changes.
+9. update `News` only when the milestone policy above is satisfied.
 
 ## Commit conventions
 
