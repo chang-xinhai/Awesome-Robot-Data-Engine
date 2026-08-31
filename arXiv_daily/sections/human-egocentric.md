@@ -4,12 +4,14 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-30 · **Papers:** 1871 · **Unique arXiv IDs:** 1871
+**Coverage:** 2025-01-01 to 2026-08-31 · **Papers:** 1873 · **Unique arXiv IDs:** 1873
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-28 | [Linear Temporal Logic Translation via Human-Inspired Self-Constrained Reasoning for Robot Task Specification](https://arxiv.org/abs/2608.28435) | Haofei Hou, Fanxu Meng, Shunyi Zhao, et al. | cs.RO | Affordance / Contact | [abs](https://arxiv.org/abs/2608.28435) / [pdf](https://arxiv.org/pdf/2608.28435) |
+| 2026-08-27 | [VidParse: Online Parsing of Egocentric Procedures Like a Pro](https://arxiv.org/abs/2608.27562) | Anubhav Gupta, Archit Kambhamettu, Vatsal Agarwal, et al. | cs.CV | Egocentric, Hand-Object Interaction | [abs](https://arxiv.org/abs/2608.27562) / [pdf](https://arxiv.org/pdf/2608.27562) |
 | 2026-08-27 | [CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators](https://arxiv.org/abs/2608.27406) | Kechen Liu, Ola Shorinwa | cs.RO, cs.AI, cs.CV | Human Video | [abs](https://arxiv.org/abs/2608.27406) / [pdf](https://arxiv.org/pdf/2608.27406) |
 | 2026-08-27 | [Embodied Scene Rearrangement Planning](https://arxiv.org/abs/2608.27371) | Canzhi Chen, Zan Wang, Siqi Zhu, et al. | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2608.27371) / [pdf](https://arxiv.org/pdf/2608.27371) |
 | 2026-08-27 | [Riemann-1.0: An Embodied World Action Model for Physical AI](https://arxiv.org/abs/2608.27033) | Haofeng Sun, Jiangbo Pei, Fei Kang, et al. | cs.RO | Egocentric, Human Video | [abs](https://arxiv.org/abs/2608.27033) / [pdf](https://arxiv.org/pdf/2608.27033) |

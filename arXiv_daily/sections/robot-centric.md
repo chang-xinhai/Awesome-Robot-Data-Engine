@@ -4,12 +4,14 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-30 · **Papers:** 1993 · **Unique arXiv IDs:** 1993
+**Coverage:** 2025-01-01 to 2026-08-31 · **Papers:** 1995 · **Unique arXiv IDs:** 1995
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-27 | [Beyond Data Scaling: Representation-Centric Continued Pre-training for Vision-Language-Action Models](https://arxiv.org/abs/2608.27550) | Senqiao Yang, Chengyao Wang, Yuxin Chen, et al. | cs.RO, cs.CV | Robot Dataset | [abs](https://arxiv.org/abs/2608.27550) / [pdf](https://arxiv.org/pdf/2608.27550) |
+| 2026-08-27 | [Remote Human and Robot Interaction for Greenhouse Gardening Using Virtual Reality](https://arxiv.org/abs/2608.27545) | Daniel Udekwe, Hasan Seyyedhasani | cs.RO, eess.SY | Teleoperation | [abs](https://arxiv.org/abs/2608.27545) / [pdf](https://arxiv.org/pdf/2608.27545) |
 | 2026-08-27 | [Contact-Aided Factor-Graph Localization for Underwater Sampling](https://arxiv.org/abs/2608.26932) | Michele Grimaldi, Yosaku Maeda, Hitoshi Kakami, et al. | cs.RO | Robot Data Processing | [abs](https://arxiv.org/abs/2608.26932) / [pdf](https://arxiv.org/pdf/2608.26932) |
 | 2026-08-27 | [PredVLA: A Sub-Million-Parameter Predictive-Coding Policy for Robot Manipulation](https://arxiv.org/abs/2608.26673) | Hiroki Sawada, Shunichi Kasahara | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2608.26673) / [pdf](https://arxiv.org/pdf/2608.26673) |
 | 2026-08-26 | [Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization](https://arxiv.org/abs/2608.26103) | Jiaming Zhou, Qihang Zhang, Gangwei Xu, et al. | cs.RO, cs.CV | Robot Dataset | [abs](https://arxiv.org/abs/2608.26103) / [pdf](https://arxiv.org/pdf/2608.26103) |

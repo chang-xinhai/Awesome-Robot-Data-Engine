@@ -4,12 +4,15 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-30 · **Papers:** 2438 · **Unique arXiv IDs:** 2438
+**Coverage:** 2025-01-01 to 2026-08-31 · **Papers:** 2441 · **Unique arXiv IDs:** 2441
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-28 | [Aero Hand Open: A Simulation-Ready Tendon-Driven Hand for Dexterous Manipulation Learning](https://arxiv.org/abs/2608.28578) | Nan Wang, Mohit Yadav, Jonathan Wulff, et al. | cs.RO, cs.AI, cs.LG | Simulation Data, Simulation-Ready Asset | [abs](https://arxiv.org/abs/2608.28578) / [pdf](https://arxiv.org/pdf/2608.28578) |
+| 2026-08-28 | [Stay Seated: Learning Omnidirectional Humanoid Locomotion on a Passive Mobile Chair with Casters](https://arxiv.org/abs/2608.28090) | Kango Yanagida, Kazuki Miyazawa, Takato Horii | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2608.28090) / [pdf](https://arxiv.org/pdf/2608.28090) |
+| 2026-08-27 | [Coordinated Motion Planning for Multi-Arm Systems via Iterative LQ Games](https://arxiv.org/abs/2608.27726) | Junyoung Kim, Hanwen Ren, Lei Zhang, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2608.27726) / [pdf](https://arxiv.org/pdf/2608.27726) |
 | 2026-08-27 | [STEP: State-Aware Task Estimation and Planning with Multi-Modal LLMs for Human-Robot Collaboration](https://arxiv.org/abs/2608.27225) | Maitrey Gramopadhye, Prakash Baskaran, Xiao Liu, et al. | cs.RO, cs.AI | Simulation Data | [abs](https://arxiv.org/abs/2608.27225) / [pdf](https://arxiv.org/pdf/2608.27225) |
 | 2026-08-27 | [Active sensing to characterize the heterogeneity of plant stress](https://arxiv.org/abs/2608.27088) | Ayman Laaroussi, Peter Hanappe, David Colliaux | cs.RO, cs.AI | Trajectory Generation | [abs](https://arxiv.org/abs/2608.27088) / [pdf](https://arxiv.org/pdf/2608.27088) |
 | 2026-08-27 | [Riemann-1.0: An Embodied World Action Model for Physical AI](https://arxiv.org/abs/2608.27033) | Haofeng Sun, Jiangbo Pei, Fei Kang, et al. | cs.RO | Simulation Data, World Simulator | [abs](https://arxiv.org/abs/2608.27033) / [pdf](https://arxiv.org/pdf/2608.27033) |
