@@ -4,17 +4,20 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-09-01 · **Papers:** 1882 · **Unique arXiv IDs:** 1882
+**Coverage:** 2025-01-01 to 2026-09-01 · **Papers:** 1885 · **Unique arXiv IDs:** 1885
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-31 | [LightNav-0: Eliciting VLM Spatial Intelligence for Generalist Embodied Navigation](https://arxiv.org/abs/2608.30935) | Shaoan Wang, Aocheng Luo, Fei Huang, et al. | cs.RO, cs.AI | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2608.30935) / [pdf](https://arxiv.org/pdf/2608.30935) |
 | 2026-08-31 | [Lucida: Parse, Generate, and Place for Composable Real-to-Sim Scene Modeling](https://arxiv.org/abs/2608.30821) | Minghan Qin, Yuang Wang, Xiuyu Yang, et al. | cs.CV, cs.AI | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2608.30821) / [pdf](https://arxiv.org/pdf/2608.30821) |
 | 2026-08-31 | [PRISM: Predictive Recomposition via Semantic Latent Decomposition for View-invariant Video Representation Learning](https://arxiv.org/abs/2608.30388) | Youngchae Chee, Hosu Lee, Sungjune Park, et al. | cs.CV, cs.AI | Egocentric | [abs](https://arxiv.org/abs/2608.30388) / [pdf](https://arxiv.org/pdf/2608.30388) |
+| 2026-08-31 | [Proximity3D: Shape from Capacitive Proximity on Sensing Manifold](https://arxiv.org/abs/2608.30344) | Hao Chen, Chenming Wu, Chun Ping Lam, et al. | cs.CV, cs.CG, cs.GR | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2608.30344) / [pdf](https://arxiv.org/pdf/2608.30344) |
 | 2026-08-31 | [CometVLA: Co-Training on an Embodied Data Pyramid towards Physical Understanding](https://arxiv.org/abs/2608.30289) | Hanwen Wan, Dafeng Chi, Linbo Zhai, et al. | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2608.30289) / [pdf](https://arxiv.org/pdf/2608.30289) |
 | 2026-08-31 | [Motus2: A Self-Evolving General World Model for Dexterous Manipulation](https://arxiv.org/abs/2608.30237) | Hongzhe Bi, Zihao Zhou, Yihang Tang, et al. | cs.RO, cs.AI, cs.CV | Egocentric | [abs](https://arxiv.org/abs/2608.30237) / [pdf](https://arxiv.org/pdf/2608.30237) |
 | 2026-08-30 | [Everybody Tracking Every Body](https://arxiv.org/abs/2608.29927) | Daeyun Shin, Yunhan Zhao, Shu Kong, et al. | cs.CV | Egocentric, Tracking / Reconstruction | [abs](https://arxiv.org/abs/2608.29927) / [pdf](https://arxiv.org/pdf/2608.29927) |
+| 2026-08-30 | [AGM: Achievement-Grounded Memory for Closed-Loop Agents with Frozen VLA Policies](https://arxiv.org/abs/2608.29537) | Hongbo Gao, Zeyu Ni, Xin Wen, et al. | cs.RO, cs.AI | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2608.29537) / [pdf](https://arxiv.org/pdf/2608.29537) |
 | 2026-08-29 | [AnyWorld: Factorized Egocentric World Models for Cross-Embodiment Generalization](https://arxiv.org/abs/2608.29242) | Cheng Chen, Jerry Bai, Jiacheng Wei, et al. | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2608.29242) / [pdf](https://arxiv.org/pdf/2608.29242) |
 | 2026-08-29 | [DREAM: Deployment-Time Demonstration Generation via Real-to-Sim for Scalable Policy Adaptation](https://arxiv.org/abs/2608.29078) | Makoto Sato, Tatsuya Matsushima, Yutaka Matsuo, et al. | cs.RO | Human Demonstration | [abs](https://arxiv.org/abs/2608.29078) / [pdf](https://arxiv.org/pdf/2608.29078) |
 | 2026-08-28 | [ClearText-Video: A Large-Scale Text-Centric Video Dataset Bridging Video Restoration and Scene-Text Enhancement](https://arxiv.org/abs/2608.28784) | Jinlong Li, Jiaming Ding, Dingfu Lu, et al. | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2608.28784) / [pdf](https://arxiv.org/pdf/2608.28784) |

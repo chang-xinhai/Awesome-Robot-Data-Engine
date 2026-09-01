@@ -4,7 +4,7 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-09-01 · **Papers:** 2453 · **Unique arXiv IDs:** 2453
+**Coverage:** 2025-01-01 to 2026-09-01 · **Papers:** 2455 · **Unique arXiv IDs:** 2455
 
 ## 2026-08
 
@@ -21,6 +21,7 @@
 | 2026-08-29 | [From Multi-Modal Paths to Executable Trajectories: A Trajectory Planning Framework for 4WIS Robots](https://arxiv.org/abs/2608.29108) | Runjiao Bao, Lin Zhang, Yongkang Xu, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2608.29108) / [pdf](https://arxiv.org/pdf/2608.29108) |
 | 2026-08-29 | [Agri-Sim: Agricultural Simulation Platform for Embodied Intelligence Evaluation in Greenhouse Robotics](https://arxiv.org/abs/2608.29100) | Shuhan Shi, Zhenfeng Xue, Minghao Mei, et al. | cs.RO | Sim-to-Real, Trajectory Generation | [abs](https://arxiv.org/abs/2608.29100) / [pdf](https://arxiv.org/pdf/2608.29100) |
 | 2026-08-29 | [DREAM: Deployment-Time Demonstration Generation via Real-to-Sim for Scalable Policy Adaptation](https://arxiv.org/abs/2608.29078) | Makoto Sato, Tatsuya Matsushima, Yutaka Matsuo, et al. | cs.RO | Sim-to-Real, Trajectory Generation | [abs](https://arxiv.org/abs/2608.29078) / [pdf](https://arxiv.org/pdf/2608.29078) |
+| 2026-08-28 | [Adversarial Calibration Attack on Autonomous Vehicles](https://arxiv.org/abs/2608.28778) | Liangkai Liu, Qingzhao Zhang, Kang G. Shin | cs.RO, cs.CV, cs.ET | Simulation Data | [abs](https://arxiv.org/abs/2608.28778) / [pdf](https://arxiv.org/pdf/2608.28778) |
 | 2026-08-28 | [Aero Hand Open: A Simulation-Ready Tendon-Driven Hand for Dexterous Manipulation Learning](https://arxiv.org/abs/2608.28578) | Nan Wang, Mohit Yadav, Jonathan Wulff, et al. | cs.RO, cs.AI, cs.LG | Simulation Data, Simulation-Ready Asset | [abs](https://arxiv.org/abs/2608.28578) / [pdf](https://arxiv.org/pdf/2608.28578) |
 | 2026-08-28 | [Stay Seated: Learning Omnidirectional Humanoid Locomotion on a Passive Mobile Chair with Casters](https://arxiv.org/abs/2608.28090) | Kango Yanagida, Kazuki Miyazawa, Takato Horii | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2608.28090) / [pdf](https://arxiv.org/pdf/2608.28090) |
 | 2026-08-27 | [RoboGesture: Real-Time Semantic-aligned Co-Speech Gestures Generation for Humanoid Interaction](https://arxiv.org/abs/2608.28693) | Zifan Wang, Ziang Ren, Pengyang Shi, et al. | cs.RO, cs.CV | Sim-to-Real | [abs](https://arxiv.org/abs/2608.28693) / [pdf](https://arxiv.org/pdf/2608.28693) |
@@ -49,6 +50,7 @@
 | 2026-08-22 | [DELE-w0.5: Inferring Action from Future Latent State for Robotic Manipulation](https://arxiv.org/abs/2608.22067) | Fenghao Lei, Zhixiong Huang, Long Yang, et al. | cs.RO, cs.AI, cs.CV | Trajectory Generation | [abs](https://arxiv.org/abs/2608.22067) / [pdf](https://arxiv.org/pdf/2608.22067) |
 | 2026-08-22 | [Vision-Guided Morphing Quadcopter for Multi-Geometry Payload Transport through Narrow Passages](https://arxiv.org/abs/2608.21879) | Aashish Sahu, Shriram Hari, R. Prasanth Kumar | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2608.21879) / [pdf](https://arxiv.org/pdf/2608.21879) |
 | 2026-08-22 | [Vision Guided Target Conditioned Control for Autonomous Excavation](https://arxiv.org/abs/2608.21778) | Shuai Zhao, Ji-An Pan, Junwei Li, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2608.21778) / [pdf](https://arxiv.org/pdf/2608.21778) |
+| 2026-08-21 | [RedLight-VLA: Models for traffic-rule grounding and behavioral emphasis in driving policies](https://arxiv.org/abs/2608.28656) | Bala Murali Manoghar Sai Sudhakar, Sourab Bapu Sridhar, Sandipan Das, et al. | cs.RO, cs.CV | Trajectory Generation | [abs](https://arxiv.org/abs/2608.28656) / [pdf](https://arxiv.org/pdf/2608.28656) |
 | 2026-08-21 | [In-Situ Reconstruction of the International Space Station Using 3D Gaussian Splatting and Astrobee](https://arxiv.org/abs/2608.21685) | Hudson Kim, Ryan Soussan, Brian Coltin, et al. | cs.RO | Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2608.21685) / [pdf](https://arxiv.org/pdf/2608.21685) |
 | 2026-08-21 | [Betting for Sim-to-Real Performance Certificates](https://arxiv.org/abs/2608.21572) | Yujia Chen, Bowen Weng | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2608.21572) / [pdf](https://arxiv.org/pdf/2608.21572) |
 | 2026-08-21 | [GOLEM: Modular Humanoid Autonomy Towards Electric Vehicle Battery Disassembly](https://arxiv.org/abs/2608.21550) | Max Conway, William Xie, Allen Devaraj, et al. | cs.RO | Simulation Data, Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2608.21550) / [pdf](https://arxiv.org/pdf/2608.21550) |

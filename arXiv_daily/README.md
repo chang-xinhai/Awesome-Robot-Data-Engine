@@ -2,16 +2,16 @@
 
 > A high-recall candidate archive for manual curation into [Awesome Robot Data Engine](../README.md). It is intentionally broader than the curated list.
 
-**Coverage:** 2025-01-01 to 2026-09-01 · **Unique papers:** 5272
+**Coverage:** 2025-01-01 to 2026-09-01 · **Unique papers:** 5282
 
 ## Sections
 
 | Section | Papers | Scope |
 | :------ | -----: | :---- |
-| [Robot-Centric](sections/robot-centric.md) | 2003 | Real-robot collection, teleoperation, intervention, datasets, and processing |
+| [Robot-Centric](sections/robot-centric.md) | 2008 | Real-robot collection, teleoperation, intervention, datasets, and processing |
 | [UMI](sections/umi.md) | 69 | Portable manipulation interfaces, robot-free demonstrations, and UMI recovery |
-| [Human / Egocentric](sections/human-egocentric.md) | 1882 | Human video, HOI, tracking, reconstruction, action extraction, and retargeting |
-| [Simulation](sections/simulation.md) | 2453 | Synthetic demonstrations, environments, assets, sensors, and sim–real systems |
+| [Human / Egocentric](sections/human-egocentric.md) | 1885 | Human video, HOI, tracking, reconstruction, action extraction, and retargeting |
+| [Simulation](sections/simulation.md) | 2455 | Synthetic demonstrations, environments, assets, sensors, and sim–real systems |
 
 A paper is stored once in [`data/papers.json`](data/papers.json) but may appear in multiple generated views. The archive uses arXiv `v1` dates and is updated daily by GitHub Actions. Promotion to the root README is always manual.
 
@@ -20,15 +20,15 @@ A paper is stored once in [`data/papers.json`](data/papers.json) but may appear 
 ### Robot-Centric
 
 - 2026-08-31 — [SUN: Persistent Programs For Language-Grounded Control-to-Learning-to-Real Policies](https://arxiv.org/abs/2608.31167)
+- 2026-08-31 — [DARP: A Calibrated Dual-Arm RGB-D-IR Dataset for Multi-View Robotic Perception](https://arxiv.org/abs/2608.31002)
+- 2026-08-31 — [Autonomously Acquiring Robot Manipulation Skills with Language-Driven Quality-Diversity](https://arxiv.org/abs/2608.30983)
 - 2026-08-31 — [CometVLA: Co-Training on an Embodied Data Pyramid towards Physical Understanding](https://arxiv.org/abs/2608.30289)
 - 2026-08-31 — [Contrast-Free Autonomous Navigation of Untethered Endovascular Microrobots Using Single-Plane Fluoroscopy](https://arxiv.org/abs/2608.30220)
 - 2026-08-30 — [$\mathcal{N}_0$-Foundation: Towards the Age of Tactile Intelligence](https://arxiv.org/abs/2608.29601)
+- 2026-08-30 — [Module Number Adaptive Visual Shape Control for Serial Modular Soft Robots](https://arxiv.org/abs/2608.29547)
 - 2026-08-30 — [Task-Relevant Feature-Dynamics Fidelity Enables Zero-Shot Sim-to-Real Transfer for Robotic Ultrasound Scanning](https://arxiv.org/abs/2608.29516)
 - 2026-08-29 — [AnyWorld: Factorized Egocentric World Models for Cross-Embodiment Generalization](https://arxiv.org/abs/2608.29242)
 - 2026-08-29 — [From Multi-Modal Paths to Executable Trajectories: A Trajectory Planning Framework for 4WIS Robots](https://arxiv.org/abs/2608.29108)
-- 2026-08-29 — [DREAM: Deployment-Time Demonstration Generation via Real-to-Sim for Scalable Policy Adaptation](https://arxiv.org/abs/2608.29078)
-- 2026-08-27 — [Beyond Data Scaling: Representation-Centric Continued Pre-training for Vision-Language-Action Models](https://arxiv.org/abs/2608.27550)
-- 2026-08-27 — [Remote Human and Robot Interaction for Greenhouse Gardening Using Virtual Reality](https://arxiv.org/abs/2608.27545)
 
 ### UMI
 
@@ -45,16 +45,16 @@ A paper is stored once in [`data/papers.json`](data/papers.json) but may appear 
 
 ### Human / Egocentric
 
+- 2026-08-31 — [LightNav-0: Eliciting VLM Spatial Intelligence for Generalist Embodied Navigation](https://arxiv.org/abs/2608.30935)
 - 2026-08-31 — [Lucida: Parse, Generate, and Place for Composable Real-to-Sim Scene Modeling](https://arxiv.org/abs/2608.30821)
 - 2026-08-31 — [PRISM: Predictive Recomposition via Semantic Latent Decomposition for View-invariant Video Representation Learning](https://arxiv.org/abs/2608.30388)
+- 2026-08-31 — [Proximity3D: Shape from Capacitive Proximity on Sensing Manifold](https://arxiv.org/abs/2608.30344)
 - 2026-08-31 — [CometVLA: Co-Training on an Embodied Data Pyramid towards Physical Understanding](https://arxiv.org/abs/2608.30289)
 - 2026-08-31 — [Motus2: A Self-Evolving General World Model for Dexterous Manipulation](https://arxiv.org/abs/2608.30237)
 - 2026-08-30 — [Everybody Tracking Every Body](https://arxiv.org/abs/2608.29927)
+- 2026-08-30 — [AGM: Achievement-Grounded Memory for Closed-Loop Agents with Frozen VLA Policies](https://arxiv.org/abs/2608.29537)
 - 2026-08-29 — [AnyWorld: Factorized Egocentric World Models for Cross-Embodiment Generalization](https://arxiv.org/abs/2608.29242)
 - 2026-08-29 — [DREAM: Deployment-Time Demonstration Generation via Real-to-Sim for Scalable Policy Adaptation](https://arxiv.org/abs/2608.29078)
-- 2026-08-28 — [ClearText-Video: A Large-Scale Text-Centric Video Dataset Bridging Video Restoration and Scene-Text Enhancement](https://arxiv.org/abs/2608.28784)
-- 2026-08-28 — [Linear Temporal Logic Translation via Human-Inspired Self-Constrained Reasoning for Robot Task Specification](https://arxiv.org/abs/2608.28435)
-- 2026-08-27 — [VidParse: Online Parsing of Egocentric Procedures Like a Pro](https://arxiv.org/abs/2608.27562)
 
 ### Simulation
 
