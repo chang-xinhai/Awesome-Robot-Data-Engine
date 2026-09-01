@@ -1,6 +1,659 @@
 {
   "schema_version": 1,
   "papers": {
+    "2608.31167": {
+      "arxiv_id": "2608.31167",
+      "title": "SUN: Persistent Programs For Language-Grounded Control-to-Learning-to-Real Policies",
+      "abstract": "Bridging model-based control and learned policies in long-horizon manipulation has harbored a silent disagreement: control executes specified objectives, learning amortizes that behavior into a reactive policy, yet existing protocols discard task semantics, leaving rewards hand-crafted and behavior drifting from what control verified.We introduce Semantically UNified (SUN) Programs, typed executables where geometric and contact relations are defined once and compiled into aligned Model Predictive Control (MPC) costs, satisfaction predicates, RL rewards, transition guards, and diagnostics. Our system, Kuafu, driven by large vision language systems, automatically synthesizes SUN Programs from language and scene semantics, screens feasibility via MPC, and retains semantics while training stage-conditioned policies. Across nine tasks, Kuafu achieves 82.03% macro-success, outperforming sparse-reward (35.67%) and Stage-BC (24.75%) baselines. At 8192-way scale, it generates 10.57x the successful trajectory time per hour of human teleoperation. With 500 trajectories per task, Kuafu data trains DP3 policies to 46.0% simulation success (vs. 22.4% for alternatives) and 34.7% on physical Franka and Kinova robots. These results establish that simulation-screened task semantics can effectively amortize control into robust policies, without demonstrations or manual dense rewards, unifying symbolic planning and data-driven execution.",
+      "authors": [
+        "Weiqi Wang",
+        "Zhi Li",
+        "Yudong Lei",
+        "David Martinez",
+        "Xiaofeng Gao",
+        "Yuxin Jiang",
+        "Chenfanfu Jiang",
+        "Yingnian Wu",
+        "Demetri Terzopoulos",
+        "Ran Gong"
+      ],
+      "published": "2026-08-31",
+      "updated": "2026-08-31",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.31167",
+      "pdf_url": "https://arxiv.org/pdf/2608.31167",
+      "query_sources": [
+        "robot-data"
+      ],
+      "topics": [
+        "robot_centric",
+        "simulation"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Teleoperation"
+        ],
+        "simulation": [
+          "Simulation Data",
+          "Trajectory Generation"
+        ]
+      }
+    },
+    "2608.30821": {
+      "arxiv_id": "2608.30821",
+      "title": "Lucida: Parse, Generate, and Place for Composable Real-to-Sim Scene Modeling",
+      "abstract": "Composable scene modeling aims to recover a real indoor scene as complete, editable object assets arranged as observed, giving robot simulation and embodied AI a simulation-ready replica of the real environment whose objects can be manipulated individually. Existing pipelines decompose the task into three steps---parse the observations into instances, generate an asset for each, and place each asset back---but every step presumes an input that a cluttered capture rarely provides: accurate instance geometry, unoccluded views, and assets that accurately match the observations. We propose Lucida, which keeps this order but redistributes the requirements, so each step consumes only what a real capture reliably provides and precision is reached at the end of the pipeline rather than demanded at its start. Lucida parses the video into a scene graph whose nodes carry per-instance multi-view evidence, generates a complete asset for each instance from its evidence, and places assets with GizmoAct, a VLM policy that casts placement as multi-turn GUI interaction, manipulating the object's gizmo in a closed loop and deciding itself when alignment is reached. Across scene-level 3D object detection, object pose estimation, and scene reconstruction, Lucida improves mAP over Boxer by 69% on R2S-Scene, raises ADD-SB@0.05 from 57.8% to 83.4% on CA-1M, and increases scene F-Score from 0.794 for SAM3D to 0.924.",
+      "authors": [
+        "Minghan Qin",
+        "Yuang Wang",
+        "Xiuyu Yang",
+        "Yushi Long",
+        "Yujian Zhang",
+        "Ruihuan Wang",
+        "Kai Ye",
+        "Yangang Zhang",
+        "Hang Li"
+      ],
+      "published": "2026-08-31",
+      "updated": "2026-08-31",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comment": "Project Page: https://lucida-r2s.github.io/",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.30821",
+      "pdf_url": "https://arxiv.org/pdf/2608.30821",
+      "query_sources": [
+        "simulation-data"
+      ],
+      "topics": [
+        "human_egocentric",
+        "simulation"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Tracking / Reconstruction"
+        ],
+        "simulation": [
+          "Simulation Data",
+          "Sim-to-Real",
+          "Simulation-Ready Asset"
+        ]
+      }
+    },
+    "2608.30773": {
+      "arxiv_id": "2608.30773",
+      "title": "Learning to infer and manipulate through distributed whole-arm interaction in a soft robot",
+      "abstract": "In animals such as elephants and octopuses, acquiring non-visual information about an object and physically engaging with it are inseparable processes mediated by rich, large-area interactions between compliant appendages and the environment. Soft robots provide a natural platform for translating this principle into engineered systems. Yet current robotic intelligence makes limited use of physical interaction, treating it primarily as a disturbance to be rejected or, at best, as a means of compensating for object misalignment. Here, we introduce a physical intelligence framework in which distributed compliant interactions jointly reveal task-relevant information and organize manipulation behavior. This results in an intrinsically partially observable problem: key task-relevant information is never measured directly, but must instead be inferred from the history of physical interactions. We propose a reinforcement-learning architecture that addresses this challenge by learning a memory-based control policy end-to-end. The key innovations making this possible are (i) a pretrained exploration policy that provides a reference for broad workspace exploration, (ii) joint optimization that integrates exploration and grasping objectives within a single recurrent policy, and (iii) a two-stage sim-to-real adaptation including observation mapping and policy fine-tuning. We demonstrate this principle through blind whole-arm grasping with a hybrid rigid-soft robotic arm that we equip with IMUs embedded directly within its compliant structure, providing its only source of proprioceptive sensing. The learned policy successfully identifies and grasps various objects by autonomously coordinating workspace exploration, object encounter and localization, inference of grasp-relevant properties, and stable whole-arm wrapping.",
+      "authors": [
+        "Chuhan Zhang",
+        "Ebrahim Shahabi",
+        "Kseniia Khomenko",
+        "Wei Pan",
+        "Cosimo Della Santina"
+      ],
+      "published": "2026-08-31",
+      "updated": "2026-08-31",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.30773",
+      "pdf_url": "https://arxiv.org/pdf/2608.30773",
+      "query_sources": [
+        "simulation-data"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Sim-to-Real"
+        ]
+      }
+    },
+    "2608.30388": {
+      "arxiv_id": "2608.30388",
+      "title": "PRISM: Predictive Recomposition via Semantic Latent Decomposition for View-invariant Video Representation Learning",
+      "abstract": "Cross-view video representation learning aims to capture viewpoint-invariant action semantics despite substantial appearance changes across egocentric and exocentric videos. However, existing methods encode each video as a unified embedding, where view-invariant and view-variant semantics inevitably entangle under co-occurrences - a failure mode we show persists even in cross-view methods explicitly trained for view-invariance. Our key insight is that a view-invariant feature is truly disentangled when it can be sufficiently recomposed with an arbitrary view-variant feature while preserving their independent semantics. Building on this, we propose PRISM, that decomposes video into view-invariant and view-variant latents and recompose them under language supervision encouraging clean decomposition of the two streams. PRISM achieves state-of-the-art results on EgoExo4D, EgoExoLearn, AE2, even surpassing in-domain models under zero-shot setting. Code is available at https://github.com/litcoderr/prism.",
+      "authors": [
+        "Youngchae Chee",
+        "Hosu Lee",
+        "Sungjune Park",
+        "Junho Kim",
+        "Yong Man Ro"
+      ],
+      "published": "2026-08-31",
+      "updated": "2026-08-31",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.30388",
+      "pdf_url": "https://arxiv.org/pdf/2608.30388",
+      "query_sources": [
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric"
+        ]
+      }
+    },
+    "2608.30289": {
+      "arxiv_id": "2608.30289",
+      "title": "CometVLA: Co-Training on an Embodied Data Pyramid towards Physical Understanding",
+      "abstract": "Vision-language-action (VLA) models remain brittle in manipulation tasks that require physical commonsense. Current physical VQA data is typically disembodied and misaligned with robot action domains. Egocentric videos are used only as auxiliary pre-training. It remains unclear whether improved VLM physical understanding actually benefits downstream action generation. Therefore, we present CometVLA to close this gap. We construct CometData and CometBench, an embodied physical VQA corpus and benchmark strictly aligned with the robot's action data and embodiment. We introduce Global Action Prior (GAP) tokens, a compact learnable bottleneck that isolates task-agnostic motion regularities and lets the action head consume physical commonsense without corrupting the pre-trained VLM backbone. We co-train CometVLA across the embodied data pyramid, spanning teleoperation, simulation, egocentric trajectories, and VQA layers. On real-world manipulation tasks and RoboTwin simulation, CometVLA consistently outperforms strong VLA baselines. Correlation analysis shows that stronger VLM performance on CometBench indicates higher VLA success rates. Results demonstrate that physical understanding pre-training genuinely benefits downstream manipulation.",
+      "authors": [
+        "Hanwen Wan",
+        "Dafeng Chi",
+        "Linbo Zhai",
+        "Tianao Shen",
+        "Yuzheng Zhuang",
+        "Tianle Zhang",
+        "Peidong Liu",
+        "Liang Lin",
+        "Xiaoqiang Ji"
+      ],
+      "published": "2026-08-31",
+      "updated": "2026-08-31",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.30289",
+      "pdf_url": "https://arxiv.org/pdf/2608.30289",
+      "query_sources": [
+        "human-egocentric"
+      ],
+      "topics": [
+        "robot_centric",
+        "human_egocentric",
+        "simulation"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Teleoperation"
+        ],
+        "human_egocentric": [
+          "Egocentric"
+        ],
+        "simulation": [
+          "Simulation Data"
+        ]
+      }
+    },
+    "2608.30237": {
+      "arxiv_id": "2608.30237",
+      "title": "Motus2: A Self-Evolving General World Model for Dexterous Manipulation",
+      "abstract": "General embodied agents should perceive, predict, act, evaluate, and improve within a unified system. World models have shown great promise in building such agents, yet existing models typically append an action output head to a world simulator, without coupling them into a closed decision-and-learning loop for policy improvement. We present Motus2, a self-evolving general world model for dexterous manipulation. Motus2 advances world modeling through model scaling and data scaling. For model scaling, a single model with shared weights exposes three control interfaces: a policy (world-action model), a simulator (action-conditioned world model), and an evaluator (value model). The policy proposes candidate action chunks, the simulator predicts their visual consequences, and the evaluator assesses the predicted outcomes. Their coupling forms a closed decision-and-learning loop for policy improvement. This formulation uses curated expert demonstrations for action learning, while failed and suboptimal interactions provide valuable evidence for dynamics modeling and value learning. For data scaling, Motus2 progresses from large-scale monocular egocentric data to synchronized stereo egocentric data, followed by robot-domain adaptation with robot trajectories and supplementary human-robot alignment data. Motus2 further studies global-autoregressive and hybrid-memory extensions of its sliding-window context, adds tactile feedback for contact-aware control, and is instantiated on a fully biomimetic platform with stereo vision, dual arms, dual dexterous hands, and tactile sensing. Together, egocentric data scaling and closed-loop general world model scaling provide a general path toward self-evolving dexterous manipulation.",
+      "authors": [
+        "Hongzhe Bi",
+        "Zihao Zhou",
+        "Yihang Tang",
+        "Jingrui Pang",
+        "Shuhe Huang",
+        "Haitian Liu",
+        "Runqing Wang",
+        "Shuai Huang",
+        "Yichen Wang",
+        "Yiming Cheng",
+        "Ruowen Zhao",
+        "Zhenghua Li",
+        "Hengkai Tan",
+        "Xiaolong Liu",
+        "Jinhui Wan",
+        "Jiabao Liu",
+        "Min Zhao",
+        "Fan Bao",
+        "Jun Zhu"
+      ],
+      "published": "2026-08-31",
+      "updated": "2026-08-31",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.30237",
+      "pdf_url": "https://arxiv.org/pdf/2608.30237",
+      "query_sources": [
+        "cross-source-data",
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric",
+        "simulation"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric"
+        ],
+        "simulation": [
+          "World Simulator"
+        ]
+      }
+    },
+    "2608.30220": {
+      "arxiv_id": "2608.30220",
+      "title": "Contrast-Free Autonomous Navigation of Untethered Endovascular Microrobots Using Single-Plane Fluoroscopy",
+      "abstract": "Reliable three-dimensional (3D) navigation of magnetically actuated untethered microrobots remains a major barrier to clinical translation. X-ray fluoroscopy is the standard real-time imaging modality for endovascular procedures, but single-plane fluoroscopy provides only a two-dimensional (2D) projection, eliminating depth information and complicating autonomous navigation. Recovering this information through biplane imaging or repeated contrast-enhanced angiography increases procedural complexity, radiation exposure, or contrast burden. Here, we introduce VISTA (Virtual Integration for Spatial Tracking and Autonomy), a digital twin framework enabling contrast-free autonomous navigation under single-plane fluoroscopy. VISTA reconstructs vascular anatomy as a 3D digital twin, discretizes the vessel centerline into navigation milestones, and assigns the detected 2D robot position to the nearest projected milestone. Consecutive milestones define the local vessel orientation used to generate magnetic actuation commands, converting single-plane fluoroscopic observations into topology-constrained navigation states without requiring contrast injection during navigation. VISTA is demonstrated across anatomically distinct vascular phantoms under continuous flow and within the inferior vena cava of a live rat in vivo. Compared with conventional fluoroscopic human-in-the-loop control, VISTA reduced navigation time by up to 62%, corrective actuation commands by up to 98%, and radiation exposure by up to 57%. These results establish VISTA as a digital twin-guided framework for contrast-free autonomous navigation of untethered endovascular microrobots using widely available single-plane fluoroscopy.",
+      "authors": [
+        "Husnu Halid Alabay",
+        "Tuan-Anh Le",
+        "Ping Wang",
+        "Hakan Ceylan"
+      ],
+      "published": "2026-08-31",
+      "updated": "2026-08-31",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": "34 pages, 9374 words",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.30220",
+      "pdf_url": "https://arxiv.org/pdf/2608.30220",
+      "query_sources": [
+        "simulation-data"
+      ],
+      "topics": [
+        "robot_centric",
+        "simulation"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Human Intervention"
+        ],
+        "simulation": [
+          "Digital Twin / Real-to-Sim"
+        ]
+      }
+    },
+    "2608.29927": {
+      "arxiv_id": "2608.29927",
+      "title": "Everybody Tracking Every Body",
+      "abstract": "We address the problem of 3D body pose estimation of multiple interacting people from their egocentric views with centralized coordination. Each individual wears a camera recording egocentric video and IMU data. Processing this video with VIO SLAM provides high-quality tracking of each egocentric camera through space. The first-person view from one individual provides third-person observations of other people, although these exocentric observations are sparse, intermittent, and of highly variable reliability as both cameras and subjects move. To integrate these synchronized data streams, we propose a diffusion-based approach that fuses estimates of pose based on head motion derived from egocentric camera motion with exocentric pose observations, conditioning on both observation content and reliability. Our model is trained on a mixture of single-person motion-capture data and multi-person video in order to learn rich priors for body motion trajectories and video observation reliability. Evaluation on challenging multi-person datasets suggests our fusion approach improves over motion-only and vision-only baselines in terms of both absolute and relative pose accuracy.",
+      "authors": [
+        "Daeyun Shin",
+        "Yunhan Zhao",
+        "Shu Kong",
+        "Alexander C. Berg",
+        "Charless Fowlkes"
+      ],
+      "published": "2026-08-30",
+      "updated": "2026-08-30",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.29927",
+      "pdf_url": "https://arxiv.org/pdf/2608.29927",
+      "query_sources": [
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric",
+          "Tracking / Reconstruction"
+        ]
+      }
+    },
+    "2608.29601": {
+      "arxiv_id": "2608.29601",
+      "title": "$\\mathcal{N}_0$-Foundation: Towards the Age of Tactile Intelligence",
+      "abstract": "We present $\\mathcal{N}_0$-Foundation, a paradigm for tactile-enabled embodied manipulation, which integrates tactile sensing hardware, large-scale multimodal data, tactile representation learning, and standardized evaluation. First, we engineer the infrastructure for scalable data collection, including a vision-based tactile sensor, a tactile Universal Manipulation Interface (UMI), and a synchronized visuo-tactile data collection system supporting both robot embodiments and UMI-based demonstrations. Leveraging this infrastructure, we construct NeoData, which contains more than 30000 hours of synchronized visual and tactile demonstrations, spanning six embodiments, 450 tasks, and billions of paired RGB and tactile frames collected through a mixture of real-robot teleoperation and UMI-based demonstrations. To facilitate open research, we further release OpenNeoData, a 5000-hour open-source subset of NeoData. The dataset addresses a central limitation of existing manipulation corpora, critical for deformable-object manipulation, precise assembly, delicate force control, and sustained surface interaction. Capitalizing on the large-scale, heterogeneous tactile measurements, we propose NeoForce, a visuo-tactile representation model that learn transferable tactile representations across different sensor designs. To enable systematic evaluation of tactile embodied models built upon our infrastructure, datasets and tactile representations, we further propose a comprehensive benchmark, which combines the real-world NeoReal suite and the simulated NeoSim suite for standardized evaluation. Experiments across both suites show that policies benefit from the physical contact state rather than from the device-specific appearance of the tactile signal. We release the dataset, the representation, and the benchmark, aiming at supporting future work on tactile-enabled embodied manipulation.",
+      "authors": [
+        "NeoteAI Team",
+        "Fudan TEAI Team"
+      ],
+      "published": "2026-08-30",
+      "updated": "2026-08-30",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "comment": "13 figures, 5 tables",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.29601",
+      "pdf_url": "https://arxiv.org/pdf/2608.29601",
+      "query_sources": [
+        "robot-data",
+        "umi"
+      ],
+      "topics": [
+        "robot_centric",
+        "umi"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Teleoperation",
+          "Data Collection"
+        ],
+        "umi": [
+          "Universal Manipulation Interface"
+        ]
+      }
+    },
+    "2608.29516": {
+      "arxiv_id": "2608.29516",
+      "title": "Task-Relevant Feature-Dynamics Fidelity Enables Zero-Shot Sim-to-Real Transfer for Robotic Ultrasound Scanning",
+      "abstract": "Robotic ultrasound policies operating directly on B-mode images require extensive interaction data, whereas real-robot data collection is costly and safety-constrained. Simulation provides a scalable alternative, but zero-shot transfer depends not only on single-frame realism but also on whether simulated observations reproduce task-relevant feature changes induced by probe motion. We term this cross-domain consistency task-relevant feature-dynamics fidelity (TR-FDF). Under local regularity assumptions, our contraction analysis shows that greater sensitivity of TR-FDF mismatch to probe motion reduces the effective closed-loop contraction margin, whereas motion-independent errors primarily enlarge the residual error bound. Guided by this analysis, we develop a TR-FDF-oriented ultrasound simulator that combines a shared structural intermediate domain, trajectory-level fixed noise, and few-step conditional flow generation. In phantom experiments, a policy trained exclusively in simulation succeeded in 390 of 400 zero-shot deployments across four target planes. The simulator achieved an FID of 29.66 and generated observations at 67.1 Hz. Controlled interventions, ablations, and baseline comparisons showed that TR-FDF sensitivity complements single-frame realism in predicting zero-shot transfer performance.",
+      "authors": [
+        "Yizhao Qian",
+        "Jiayuan Luo",
+        "Wanyi Zhu",
+        "Yameng Zhang",
+        "Max Q. -H. Meng",
+        "Yixuan Yuan",
+        "Li Liu"
+      ],
+      "published": "2026-08-30",
+      "updated": "2026-08-30",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.29516",
+      "pdf_url": "https://arxiv.org/pdf/2608.29516",
+      "query_sources": [
+        "simulation-data"
+      ],
+      "topics": [
+        "robot_centric",
+        "simulation"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Robot Dataset",
+          "Data Collection"
+        ],
+        "simulation": [
+          "Simulation Data",
+          "Sim-to-Real"
+        ]
+      }
+    },
+    "2608.29396": {
+      "arxiv_id": "2608.29396",
+      "title": "Toward Trustworthy Robot-Assisted Sliding Palpation for Shallow Vessel Localisation with a Calibrated Digital Twin",
+      "abstract": "Reliable localisation of shallow subsurface vessels is important for safe robot-assisted venous access and vessel-aware manipulation, but collecting diverse tactile data on physical hardware is costly, time-consuming, and can degrade soft vision-based tactile sensors. We present a robot-assisted sliding-palpation framework in which a calibrated digital twin generates labelled tactile sequences, reducing reliance on real-world data. The twin models sensor-vessel contact, is calibrated against real palpation trajectories using Bayesian-optimisation-based domain adaptation, and is randomised over sliding direction and contact conditions. A spatio-temporal graph neural network trained on simulated marker trajectories performs per-node vessel classification and produces a human-verifiable top-view localisation map through 2D-to-3D-to-2D geometric projection. We evaluate three datasets: Sim, Silicone, and Meat, the latter a raw-meat phantom with vessel models at nominal depths of 0 to 30 mm, using four train-to-test configurations: Sim to Sim, Sim to Silicone, Sim to Meat, and Meat to Silicone. The calibrated twin achieves a simulated-to-real marker-alignment mean absolute error of 0.50 mm at deepest contact across four canonical interactions. After reprojection onto a 1 mm top-view grid, predicted vessel pixels lie on average 1.05 to 5.49 mm from the nearest true vessel pixel across the four models, with 1.05 to 1.31 mm for all except Sim to Meat. The larger error for Sim to Meat reflects the greater domain shift and current limit of simulation transfer. These results demonstrate progress toward trustworthy tactile palpation through calibrated simulation, interpretable localisation, and transparent cross-domain evaluation. Code, model weights, and data are publicly available on GitHub and Zenodo.",
+      "authors": [
+        "Piotr Blaszyk",
+        "Wen Fan",
+        "Kaizhong Deng",
+        "Daniel Elson",
+        "Dandan Zhang"
+      ],
+      "published": "2026-08-29",
+      "updated": "2026-08-29",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": "ECCV workshop paper",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.29396",
+      "pdf_url": "https://arxiv.org/pdf/2608.29396",
+      "query_sources": [
+        "simulation-data"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Digital Twin / Real-to-Sim",
+          "Synthetic Sensor"
+        ]
+      }
+    },
+    "2608.29242": {
+      "arxiv_id": "2608.29242",
+      "title": "AnyWorld: Factorized Egocentric World Models for Cross-Embodiment Generalization",
+      "abstract": "Collecting contact-rich robot experiences at scale remains a major bottleneck for generalizable manipulation. Beyond data quantity, robot learning also requires diverse experiences across embodiments, viewpoints, and scenes. Human egocentric videos provide abundant physical interactions, but each video captures only a narrow slice of experience under a single body, camera trajectory, and environment. We propose AnyWorld, a cross-embodiment world modeling framework that expands a single human interaction into diverse robot-native rollouts without paired human-robot demonstrations. Our model factorizes an interaction into action, camera, and embodiment: action controls capture the motion structure, camera controls specify viewpoint evolution, and the target embodiment context defines the acting body and its interaction geometry. This formulation enables independent recomposition of embodiment, viewpoint, and scene factors, allowing a single model to generate many robot-domain experiences while preserving the underlying dynamics and object interactions. We train the model with large-scale human interaction pretraining followed by mixed-embodiment fine-tuning. Experiments show that our model supports controllable recomposition across embodiments, viewpoints, and scenes, and we further demonstrate that the generated data can improve manipulation performance on the RoboCasa GR1 tabletop benchmark and a real IRON humanoid robot. Beyond aggregate gains, we test whether unpaired human experience can be recomposed into robot-native video-action pairs that target a policy gap. Controlled IRON interventions correct a spurious completion prior and establish language-grounded spatial target selection; an action-only counterfactual intervention fails to learn the latter reliably, showing that both action calibration and visual recomposition are necessary.",
+      "authors": [
+        "Cheng Chen",
+        "Jerry Bai",
+        "Jiacheng Wei",
+        "Boyu Chen",
+        "Xiaoji Zheng",
+        "Fan Wu",
+        "Minghao Yang",
+        "Tianrun Chen",
+        "Ruibo Li",
+        "Xiaoyu Yue",
+        "Xiaoyang Guo",
+        "Yixiao Ge",
+        "Guosheng Lin",
+        "Fayao Liu"
+      ],
+      "published": "2026-08-29",
+      "updated": "2026-08-29",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": "Project page: https://xpeng-robotics.github.io/anyworld/",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.29242",
+      "pdf_url": "https://arxiv.org/pdf/2608.29242",
+      "query_sources": [
+        "cross-source-data",
+        "human-egocentric"
+      ],
+      "topics": [
+        "robot_centric",
+        "human_egocentric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Robot Dataset",
+          "Data Collection"
+        ],
+        "human_egocentric": [
+          "Egocentric"
+        ]
+      }
+    },
+    "2608.29108": {
+      "arxiv_id": "2608.29108",
+      "title": "From Multi-Modal Paths to Executable Trajectories: A Trajectory Planning Framework for 4WIS Robots",
+      "abstract": "Four-wheel independent steering (4WIS) mobile robots support multiple motion modes, offering high maneuverability in narrow and complex environments. However, existing planning methods often fail to fully exploit these capabilities, leading to suboptimal trajectory quality. To address this limitation, this paper proposes a multi-modal global trajectory planning framework that couples mode-augmented front-end search with mode-consistent segment-wise trajectory optimization. In the front-end stage, Hybrid A* is extended to a four-dimensional state space incorporating motion modes, while mode-switching-aware cost and heuristic functions embed mode decisions into the global search process. Multi-modal Reeds-Shepp curves and an intelligent terminal connection strategy are further designed to improve search efficiency. In the back-end stage, a segment-wise trajectory optimization framework based on an improved iterative safe corridor scheme is developed to convert discrete multi-modal paths into smooth, kinematically feasible trajectories with stationary mode transitions. Experimental results show that the proposed method achieves the best overall performance in safety, arrival time, terminal accuracy and computation time. Real-world experiments on a physical 4WIS robot further validate the practical effectiveness and executability of the generated trajectories, providing a flexible and high-performance solution for multi-modal mobile robot trajectory planning.",
+      "authors": [
+        "Runjiao Bao",
+        "Lin Zhang",
+        "Yongkang Xu",
+        "Shoukun Wang"
+      ],
+      "published": "2026-08-29",
+      "updated": "2026-08-29",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.29108",
+      "pdf_url": "https://arxiv.org/pdf/2608.29108",
+      "query_sources": [
+        "cross-source-data"
+      ],
+      "topics": [
+        "robot_centric",
+        "simulation"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Robot Data Processing"
+        ],
+        "simulation": [
+          "Trajectory Generation"
+        ]
+      }
+    },
+    "2608.29100": {
+      "arxiv_id": "2608.29100",
+      "title": "Agri-Sim: Agricultural Simulation Platform for Embodied Intelligence Evaluation in Greenhouse Robotics",
+      "abstract": "Agricultural-robot development requires simulation environments that can jointly support realistic scene construction, virtual sensing, autonomous navigation, motion planning, and manipulation-task execution. This paper presents Agri-Sim, a Unity and ROS2-based simulation platform for the closed-loop development and functional evaluation of agricultural robots. The platform contains a configurable tomato-greenhouse environment, a mobile dual-arm harvesting robot, virtual RGB-D, LiDAR, IMU, and joint sensors, and a bidirectional communication interface between Unity and ROS2. Unity is responsible for scene rendering, rigid-body dynamics, collision detection, virtual sensing, and task-state execution, whereas ROS2 and MoveIt 2 provide localization, navigation, collision-aware motion planning, inverse kinematics, and trajectory generation. Autonomous greenhouse navigation and dual-arm tomato harvesting were used to evaluate the complete simulation workflow. The experiments covered virtual sensor publication, ROS2-based navigation, collision-aware motion planning, mobile-base control, tomato acquisition, inter-arm handover, and box placement. The results demonstrate that Agri-Sim supports closed-loop integration and repeatable functional evaluation of navigation and manipulation workflows in a controlled virtual greenhouse, providing a practical foundation for subsequent algorithm development and Sim-to-Real studies.",
+      "authors": [
+        "Shuhan Shi",
+        "Zhenfeng Xue",
+        "Minghao Mei",
+        "Chao Zheng",
+        "Nan Li",
+        "Zhonghua Miao"
+      ],
+      "published": "2026-08-29",
+      "updated": "2026-08-29",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": "13 pages, 9 figures, and 5 tables",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.29100",
+      "pdf_url": "https://arxiv.org/pdf/2608.29100",
+      "query_sources": [
+        "simulation-data"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Sim-to-Real",
+          "Trajectory Generation"
+        ]
+      }
+    },
+    "2608.29078": {
+      "arxiv_id": "2608.29078",
+      "title": "DREAM: Deployment-Time Demonstration Generation via Real-to-Sim for Scalable Policy Adaptation",
+      "abstract": "Vision-language-action (VLA) models have made strong progress in language-conditioned robot manipulation, but improving their performance in a new workspace still often requires action-labeled data from that environment. Collecting such data by human teleoperation is costly, especially when each workspace, object arrangement, or task may require new demonstrations. We present DREAM, a framework that generates fine-tuning data for a pretrained VLA from a captured workspace and a language instruction, without requiring a task-specific human demonstration. DREAM reconstructs the workspace, automatically translates the instruction into symbolic task goals and success criteria using a large language model, and uses task-and-motion planning to generate feasible robot trajectories. The planned trajectories are augmented across randomized object configurations, verified by the generated success criteria, and rendered into image-action examples for VLA fine-tuning. Through real-robot experiments on language-conditioned manipulation tasks, we study whether DREAM can serve as a scalable data-collection system for the deployment workspace by examining whether fine-tuning on its automatically generated data improves success over direct deployment and how its data-collection cost compares with human teleoperation when adapting a VLA to a new workspace.",
+      "authors": [
+        "Makoto Sato",
+        "Tatsuya Matsushima",
+        "Yutaka Matsuo",
+        "Yusuke Iwasawa"
+      ],
+      "published": "2026-08-29",
+      "updated": "2026-08-29",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": "8 pages, 5 figures",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.29078",
+      "pdf_url": "https://arxiv.org/pdf/2608.29078",
+      "query_sources": [
+        "simulation-data"
+      ],
+      "topics": [
+        "robot_centric",
+        "human_egocentric",
+        "simulation"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Teleoperation"
+        ],
+        "human_egocentric": [
+          "Human Demonstration"
+        ],
+        "simulation": [
+          "Sim-to-Real",
+          "Trajectory Generation"
+        ]
+      }
+    },
+    "2608.28784": {
+      "arxiv_id": "2608.28784",
+      "title": "ClearText-Video: A Large-Scale Text-Centric Video Dataset Bridging Video Restoration and Scene-Text Enhancement",
+      "abstract": "Multimodal Large Language Models (MLLMs) have recently made strong progress in visual--linguistic understanding. However, their performance on text-centric video reasoning remains highly sensitive to input quality. Real-world user-provided videos often contain motion blur, compression artifacts, noise, and low-resolution text, which impair reliable text reading and downstream reasoning. Whether MLLMs can robustly read and reason about real-world scene text under diverse quality conditions remains a fundamental open question. We introduce ClearText-Video (CTVid), a large-scale, scene-text-aware benchmark for studying text-centric video understanding under controlled quality variation. CTVid contains 4,639 real-world text-rich egocentric videos, 550K+ frames, 1.6M human-verified scene-text annotations, and 220K+ spatial/temporal question--answer pairs in Chinese and English. For each high-quality video, CTVid provides content-matched Degraded-Quality and Restored-Quality variants, supporting two task families: Text-Centric Video Restoration and Multi-Quality VideoQA. We evaluate 18 representative restoration methods and 16 state-of-the-art MLLMs on CTVid. The results show that visual enhancement does not guarantee textual fidelity or downstream reasoning gains: blur is more damaging than low resolution, restored videos can alter the textual evidence used by MLLMs, and OCR-only pipelines remain far below direct multimodal reasoning. CTVid exposes the gap between video restoration and text-grounded understanding, providing a rigorous foundation for restoration-aware, quality-robust text-centric video systems.",
+      "authors": [
+        "Jinlong Li",
+        "Jiaming Ding",
+        "Dingfu Lu",
+        "Malcolm Hsiu",
+        "Chuang Ke",
+        "Kangning Yang",
+        "Bochen Guan",
+        "Lan Fu",
+        "Jie Cai",
+        "Huiming Sun",
+        "Zibo Meng"
+      ],
+      "published": "2026-08-28",
+      "updated": "2026-08-28",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "comment": "This paper is accepted by 2026 Proceedings of the European Conference on Computer Vision",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.28784",
+      "pdf_url": "https://arxiv.org/pdf/2608.28784",
+      "query_sources": [
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric"
+        ]
+      }
+    },
     "2608.28578": {
       "arxiv_id": "2608.28578",
       "title": "Aero Hand Open: A Simulation-Ready Tendon-Driven Hand for Dexterous Manipulation Learning",
@@ -100,6 +753,46 @@
       "pdf_url": "https://arxiv.org/pdf/2608.28090",
       "query_sources": [
         "cs-ro",
+        "simulation-data"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Sim-to-Real"
+        ]
+      }
+    },
+    "2608.28693": {
+      "arxiv_id": "2608.28693",
+      "title": "RoboGesture: Real-Time Semantic-aligned Co-Speech Gestures Generation for Humanoid Interaction",
+      "abstract": "Enabling humanoid robots to respond to human speech with synchronized and semantically meaningful gestures is fundamental to natural human-robot interaction. However, this task faces three critical barriers: the scarcity of semantically rich datasets, the \"modality eclipse\" where models ignore audio cues in favor of kinematic inertia, and the sim-to-real gap regarding physical safety. We propose RoboGesture, a robot-centric framework that co-designs data, modeling, and control to power a complete interactive human-humanoid system in which the robot listens, responds, and gestures in real time. We first establish the RoboGesture dataset featuring over 300 gesture categories and develop an automated pipeline to synthesize large-scale collision-free, robot-specific audio-motion pairs. Our architecture features a Hierarchical Semantic-Acoustic Aligner that extracts multi-granular prosodic and semantic cues directly from raw audio tokens. These cues drive a Streaming Conditional Motion Generator based on a diffusion transformer with conditional flow matching. To ensure high responsiveness, we introduce Anti-Inertia CFG Masking, which prevents the model from collapsing into repetitive historical patterns by compelling it to proactively mine control signals from the audio modality. Finally, an MPC-based safety filter ensures real-time, collision-free execution on physical hardware. Experiments on a Unitree G1 humanoid demonstrate that RoboGesture generates safer, more rhythmic, and more semantically appropriate responses compared to state-of-the-art baselines.",
+      "authors": [
+        "Zifan Wang",
+        "Ziang Ren",
+        "Pengyang Shi",
+        "Zirui Wang",
+        "Chenghuai Lin",
+        "Tianze Wang",
+        "Zekun Qi",
+        "Liangliang Zhao",
+        "He Wang",
+        "Li Yi"
+      ],
+      "published": "2026-08-27",
+      "updated": "2026-08-27",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "comment": "Accepted at ECCV 2026. Project page: https://RoboGesture.github.io",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.28693",
+      "pdf_url": "https://arxiv.org/pdf/2608.28693",
+      "query_sources": [
         "simulation-data"
       ],
       "topics": [
@@ -593,6 +1286,43 @@
       "matches": {
         "robot_centric": [
           "Robot Dataset"
+        ]
+      }
+    },
+    "2608.28691": {
+      "arxiv_id": "2608.28691",
+      "title": "Defending Wearable VLMs Against Private Attribute Inference",
+      "abstract": "Wearable VLM pipelines promise continuous multimodal assistance from egocentric visual capture: a user asks a task-driven question about the surrounding scene, and the system uses compact visual tokens to support language reasoning. The challenge motivating this work is that the same egocentric evidence needed for useful assistance can also reveal private attributes about the wearer or nearby bystanders. We investigate this as a joint privacy-utility problem for split VLM inference, where visual encoding occurs within a trusted device boundary but intermediate visual tokens may be transmitted to downstream reasoning components. This exposes an understudied leakage surface: even when final textual responses are benign, external attackers or untrusted downstream components can recover private attributes from transmitted visual tokens. To evaluate this tension, we construct a paired privacy-utility benchmark with 3,221 image-question records, each paired with a utility question and privacy labels covering location, income, sex, and interests. We further propose Token-Guided Attribute Privacy (TGAP), a pre-LLM token disentangler that learns a residual transformation of visual tokens before they leave the trusted boundary. TGAP combines utility preservation, identity regularization, semantic privacy suppression, and image-driven representation suppression, avoiding the utility loss caused by coarse hard or attention masking. On the benchmark used for source-model evaluation, TGAP reduces privacy accuracy from 56.7\\% to 7.4\\%, a 49.3\\% absolute drop, while maintaining relaxed utility at 74.4\\%. These results suggest that securing the compact token interface is a practical path toward privacy-preserving wearable multimodal AI.",
+      "authors": [
+        "Zhimin Li",
+        "Pan Wang",
+        "Jingxian Chen",
+        "Yuantao Tang",
+        "Anthony Chen",
+        "Qian Lou",
+        "Jingtong Hu"
+      ],
+      "published": "2026-08-26",
+      "updated": "2026-08-26",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2608.28691",
+      "pdf_url": "https://arxiv.org/pdf/2608.28691",
+      "query_sources": [
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric"
         ]
       }
     },
@@ -2758,8 +3488,8 @@
     },
     "2608.20308": {
       "arxiv_id": "2608.20308",
-      "title": "DreamHand: Repurposing Video Diffusion Models for Occlusion-Robust Egocentric 3D Hand Motion Recovery",
-      "abstract": "Egocentric video offers scalable manipulation data for embodied AI, yet recovering metric 3D hand trajectories remains challenging due to severe object occlusion and frequent out-of-sight gaps. Existing single-frame and windowed temporal regressors fail when hand shortly leaves the frame, while recent video diffusion models (VDMs) rely on heavy, stochastic multi-step sampling as pixel-space renderers. We instead repurpose VDM into a deterministic geometry encoder. A single forward pass over the clean latent exposes scene content beyond current observations, including occluded and out-of-sight hands. We introduce DreamHand, an offline clip-level framework that extracts features via a Deterministic Clean-Latent Encoder and decodes them with a Bidirectional Spatiotemporal Decoder. DreamHand recovers continuous bimanual trajectories with metric placement and no external detector, while a Ray-Based Camera Solver supports a second configuration that needs no test-time camera intrinsics. Across five egocentric benchmarks, DreamHand sets a new state of the art, cutting MPJPE-p by 30% on occlusion-heavy ARCTIC and 40% on HOT3D. These gains reach 46%-61% once out-of-sight hands are included in the evaluation, offering a scalable path from everyday human video to robot manipulation data.",
+      "title": "ACE-Ego-Hand: Repurposing Video Diffusion Models for Occlusion-Robust Egocentric 3D Hand Motion Recovery",
+      "abstract": "Egocentric video offers scalable manipulation data for embodied AI, yet recovering metric 3D hand trajectories remains challenging due to severe object occlusion and frequent out-of-sight gaps. Existing single-frame and windowed temporal regressors fail when a hand shortly leaves the frame, while recent video diffusion models (VDMs) rely on heavy, stochastic multi-step sampling as pixel-space renderers. We instead repurpose VDM into a deterministic geometry encoder. A single forward pass over the clean latent exposes scene content beyond current observations, including occluded and out-of-sight hands. We introduce DreamHand, an offline clip-level framework that extracts features via a Deterministic Clean-Latent Encoder and decodes them with a Bidirectional Spatiotemporal Decoder. DreamHand recovers continuous bimanual trajectories with metric placement and no external detector, while a Ray-Based Camera Solver supports a second configuration that requires no test-time camera intrinsics. Across five egocentric benchmarks, DreamHand sets a new state of the art, cutting MPJPE-p by 30% on occlusion-heavy ARCTIC and 40% on HOT3D. These gains reach 46%-61% once out-of-sight hands are included in the evaluation, offering a scalable path from everyday human video to robot manipulation data.",
       "authors": [
         "Yufei Liu",
         "Xixi Wang",
@@ -2774,12 +3504,12 @@
         "Hongsheng Li"
       ],
       "published": "2026-08-20",
-      "updated": "2026-08-20",
+      "updated": "2026-08-31",
       "primary_category": "cs.CV",
       "categories": [
         "cs.CV"
       ],
-      "comment": "Project Page: https://ggxxii.github.io/dreamhand/",
+      "comment": "Project Page: https://ggxxii.github.io/ace-ego-hand",
       "journal_ref": null,
       "doi": null,
       "url": "https://arxiv.org/abs/2608.20308",
@@ -200826,7 +201556,7 @@
     }
   },
   "coverage_start": "2025-01-01",
-  "coverage_end": "2026-08-31",
-  "paper_count": 5254,
-  "generated_at": "2026-08-31T18:55:21+00:00"
+  "coverage_end": "2026-09-01",
+  "paper_count": 5272,
+  "generated_at": "2026-09-01T04:09:39+00:00"
 }

@@ -4,12 +4,20 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-31 · **Papers:** 1995 · **Unique arXiv IDs:** 1995
+**Coverage:** 2025-01-01 to 2026-09-01 · **Papers:** 2003 · **Unique arXiv IDs:** 2003
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-31 | [SUN: Persistent Programs For Language-Grounded Control-to-Learning-to-Real Policies](https://arxiv.org/abs/2608.31167) | Weiqi Wang, Zhi Li, Yudong Lei, et al. | cs.RO, cs.AI | Teleoperation | [abs](https://arxiv.org/abs/2608.31167) / [pdf](https://arxiv.org/pdf/2608.31167) |
+| 2026-08-31 | [CometVLA: Co-Training on an Embodied Data Pyramid towards Physical Understanding](https://arxiv.org/abs/2608.30289) | Hanwen Wan, Dafeng Chi, Linbo Zhai, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2608.30289) / [pdf](https://arxiv.org/pdf/2608.30289) |
+| 2026-08-31 | [Contrast-Free Autonomous Navigation of Untethered Endovascular Microrobots Using Single-Plane Fluoroscopy](https://arxiv.org/abs/2608.30220) | Husnu Halid Alabay, Tuan-Anh Le, Ping Wang, et al. | cs.RO | Human Intervention | [abs](https://arxiv.org/abs/2608.30220) / [pdf](https://arxiv.org/pdf/2608.30220) |
+| 2026-08-30 | [$\mathcal{N}_0$-Foundation: Towards the Age of Tactile Intelligence](https://arxiv.org/abs/2608.29601) | NeoteAI Team, Fudan TEAI Team | cs.RO, cs.CV, cs.LG | Teleoperation, Data Collection | [abs](https://arxiv.org/abs/2608.29601) / [pdf](https://arxiv.org/pdf/2608.29601) |
+| 2026-08-30 | [Task-Relevant Feature-Dynamics Fidelity Enables Zero-Shot Sim-to-Real Transfer for Robotic Ultrasound Scanning](https://arxiv.org/abs/2608.29516) | Yizhao Qian, Jiayuan Luo, Wanyi Zhu, et al. | cs.RO | Robot Dataset, Data Collection | [abs](https://arxiv.org/abs/2608.29516) / [pdf](https://arxiv.org/pdf/2608.29516) |
+| 2026-08-29 | [AnyWorld: Factorized Egocentric World Models for Cross-Embodiment Generalization](https://arxiv.org/abs/2608.29242) | Cheng Chen, Jerry Bai, Jiacheng Wei, et al. | cs.RO | Robot Dataset, Data Collection | [abs](https://arxiv.org/abs/2608.29242) / [pdf](https://arxiv.org/pdf/2608.29242) |
+| 2026-08-29 | [From Multi-Modal Paths to Executable Trajectories: A Trajectory Planning Framework for 4WIS Robots](https://arxiv.org/abs/2608.29108) | Runjiao Bao, Lin Zhang, Yongkang Xu, et al. | cs.RO | Robot Data Processing | [abs](https://arxiv.org/abs/2608.29108) / [pdf](https://arxiv.org/pdf/2608.29108) |
+| 2026-08-29 | [DREAM: Deployment-Time Demonstration Generation via Real-to-Sim for Scalable Policy Adaptation](https://arxiv.org/abs/2608.29078) | Makoto Sato, Tatsuya Matsushima, Yutaka Matsuo, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2608.29078) / [pdf](https://arxiv.org/pdf/2608.29078) |
 | 2026-08-27 | [Beyond Data Scaling: Representation-Centric Continued Pre-training for Vision-Language-Action Models](https://arxiv.org/abs/2608.27550) | Senqiao Yang, Chengyao Wang, Yuxin Chen, et al. | cs.RO, cs.CV | Robot Dataset | [abs](https://arxiv.org/abs/2608.27550) / [pdf](https://arxiv.org/pdf/2608.27550) |
 | 2026-08-27 | [Remote Human and Robot Interaction for Greenhouse Gardening Using Virtual Reality](https://arxiv.org/abs/2608.27545) | Daniel Udekwe, Hasan Seyyedhasani | cs.RO, eess.SY | Teleoperation | [abs](https://arxiv.org/abs/2608.27545) / [pdf](https://arxiv.org/pdf/2608.27545) |
 | 2026-08-27 | [Contact-Aided Factor-Graph Localization for Underwater Sampling](https://arxiv.org/abs/2608.26932) | Michele Grimaldi, Yosaku Maeda, Hitoshi Kakami, et al. | cs.RO | Robot Data Processing | [abs](https://arxiv.org/abs/2608.26932) / [pdf](https://arxiv.org/pdf/2608.26932) |

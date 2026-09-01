@@ -4,12 +4,13 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-08-31 · **Papers:** 68 · **Unique arXiv IDs:** 68
+**Coverage:** 2025-01-01 to 2026-09-01 · **Papers:** 69 · **Unique arXiv IDs:** 69
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-30 | [$\mathcal{N}_0$-Foundation: Towards the Age of Tactile Intelligence](https://arxiv.org/abs/2608.29601) | NeoteAI Team, Fudan TEAI Team | cs.RO, cs.CV, cs.LG | Universal Manipulation Interface | [abs](https://arxiv.org/abs/2608.29601) / [pdf](https://arxiv.org/pdf/2608.29601) |
 | 2026-08-27 | [Riemann-1.0: An Embodied World Action Model for Physical AI](https://arxiv.org/abs/2608.27033) | Haofeng Sun, Jiangbo Pei, Fei Kang, et al. | cs.RO | Handheld Gripper | [abs](https://arxiv.org/abs/2608.27033) / [pdf](https://arxiv.org/pdf/2608.27033) |
 | 2026-08-20 | [Koala Gripper: Co-designing Robotic Grippers and Data-Capture Devices for Scaling Dexterous Manipulation Learning](https://arxiv.org/abs/2608.20546) | Amar Hajj-Ahmad, Zubin Kremer Guha, Tim Fofonoff, et al. | cs.RO | Handheld Gripper | [abs](https://arxiv.org/abs/2608.20546) / [pdf](https://arxiv.org/pdf/2608.20546) |
 | 2026-08-16 | [Pre-training Visual Dexterity in Simulation](https://arxiv.org/abs/2608.15917) | Sarthak Kamat, Adam Rashid, Satvik Sharma, et al. | cs.RO, cs.AI, cs.CV | Robot-Free Demonstration | [abs](https://arxiv.org/abs/2608.15917) / [pdf](https://arxiv.org/pdf/2608.15917) |
