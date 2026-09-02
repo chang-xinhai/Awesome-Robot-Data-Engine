@@ -4,12 +4,22 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-09-01 · **Papers:** 2008 · **Unique arXiv IDs:** 2008
+**Coverage:** 2025-01-01 to 2026-09-02 · **Papers:** 2013 · **Unique arXiv IDs:** 2013
+
+## 2026-09
+
+| Date | Paper | Authors | Categories | Matched signals | Links |
+| :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-09-01 | [Non-Prehensile Throwing: A Reinforcement Learning Perspective](https://arxiv.org/abs/2609.00771) | Abdullah Mustafa, Ryo Hanai, Ixchel G. Ramirez-Alpizar, et al. | cs.RO | Robot Data Processing | [abs](https://arxiv.org/abs/2609.00771) / [pdf](https://arxiv.org/pdf/2609.00771) |
+| 2026-09-01 | [One Print, Many Moves: Monolithic Origami-inspired Folding Actuator for Composable Soft Multi-DoF Systems](https://arxiv.org/abs/2609.00751) | Jaehyung Jang, Zhenish Zhakypov, Jasmin Elena Palmer, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2609.00751) / [pdf](https://arxiv.org/pdf/2609.00751) |
+| 2026-09-01 | [A Wearable Pneumatic Device for Continuous, Closed-Loop, Bidirectional Tactile Interaction](https://arxiv.org/abs/2609.00612) | Cosima du Pasquier, Aliyah Smith, Serin Huber, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2609.00612) / [pdf](https://arxiv.org/pdf/2609.00612) |
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-31 | [Beyond Object Selection:Markerless Gaze-based Robot Placement at Arbitrary Position](https://arxiv.org/abs/2609.00478) | Yuzhi Lai, William Marx, Shenghai Yuan, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2609.00478) / [pdf](https://arxiv.org/pdf/2609.00478) |
+| 2026-08-31 | [ZimaBlue: Evolving Generalizable World Action Models through Scalable Video Pre-training](https://arxiv.org/abs/2609.00188) | Xionghao Wu, Yijun Yang, Shiyang Zhou, et al. | cs.CV | Robot Dataset | [abs](https://arxiv.org/abs/2609.00188) / [pdf](https://arxiv.org/pdf/2609.00188) |
 | 2026-08-31 | [SUN: Persistent Programs For Language-Grounded Control-to-Learning-to-Real Policies](https://arxiv.org/abs/2608.31167) | Weiqi Wang, Zhi Li, Yudong Lei, et al. | cs.RO, cs.AI | Teleoperation | [abs](https://arxiv.org/abs/2608.31167) / [pdf](https://arxiv.org/pdf/2608.31167) |
 | 2026-08-31 | [DARP: A Calibrated Dual-Arm RGB-D-IR Dataset for Multi-View Robotic Perception](https://arxiv.org/abs/2608.31002) | Manish Kansana, Mohammed Yusuf Mujawar, Sudip Mittal, et al. | cs.RO, cs.CV | Robot Dataset | [abs](https://arxiv.org/abs/2608.31002) / [pdf](https://arxiv.org/pdf/2608.31002) |
 | 2026-08-31 | [Autonomously Acquiring Robot Manipulation Skills with Language-Driven Quality-Diversity](https://arxiv.org/abs/2608.30983) | Émiland Garrabé, Mahdi Khoramshahi, Stéphane Doncieux | cs.RO | Robot Data Processing | [abs](https://arxiv.org/abs/2608.30983) / [pdf](https://arxiv.org/pdf/2608.30983) |

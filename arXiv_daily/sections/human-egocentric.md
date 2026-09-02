@@ -4,12 +4,21 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-09-01 · **Papers:** 1885 · **Unique arXiv IDs:** 1885
+**Coverage:** 2025-01-01 to 2026-09-02 · **Papers:** 1889 · **Unique arXiv IDs:** 1889
+
+## 2026-09
+
+| Date | Paper | Authors | Categories | Matched signals | Links |
+| :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-09-01 | [TempCloze: Can Video-LLMs Identify the Missing Middle?](https://arxiv.org/abs/2609.01515) | Wenqi Pei, Henry Hengyuan Zhao, Yilai Liu, et al. | cs.CV, cs.AI | Egocentric | [abs](https://arxiv.org/abs/2609.01515) / [pdf](https://arxiv.org/pdf/2609.01515) |
+| 2026-09-01 | [Seeing the World and the Self from Egocentric Video](https://arxiv.org/abs/2609.01276) | Kai Guan, Minchao Jiang, Ruichen WangLi, et al. | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2609.01276) / [pdf](https://arxiv.org/pdf/2609.01276) |
 
 ## 2026-08
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-08-31 | [Scene Graph-based Driving Scenario Extraction for Automotive Egocentric Datasets](https://arxiv.org/abs/2609.00333) | Stefan Ramdhan, Kyanna Dagenais, Vera Pantelic, et al. | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2609.00333) / [pdf](https://arxiv.org/pdf/2609.00333) |
+| 2026-08-31 | [ZimaBlue: Evolving Generalizable World Action Models through Scalable Video Pre-training](https://arxiv.org/abs/2609.00188) | Xionghao Wu, Yijun Yang, Shiyang Zhou, et al. | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2609.00188) / [pdf](https://arxiv.org/pdf/2609.00188) |
 | 2026-08-31 | [LightNav-0: Eliciting VLM Spatial Intelligence for Generalist Embodied Navigation](https://arxiv.org/abs/2608.30935) | Shaoan Wang, Aocheng Luo, Fei Huang, et al. | cs.RO, cs.AI | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2608.30935) / [pdf](https://arxiv.org/pdf/2608.30935) |
 | 2026-08-31 | [Lucida: Parse, Generate, and Place for Composable Real-to-Sim Scene Modeling](https://arxiv.org/abs/2608.30821) | Minghan Qin, Yuang Wang, Xiuyu Yang, et al. | cs.CV, cs.AI | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2608.30821) / [pdf](https://arxiv.org/pdf/2608.30821) |
 | 2026-08-31 | [PRISM: Predictive Recomposition via Semantic Latent Decomposition for View-invariant Video Representation Learning](https://arxiv.org/abs/2608.30388) | Youngchae Chee, Hosu Lee, Sungjune Park, et al. | cs.CV, cs.AI | Egocentric | [abs](https://arxiv.org/abs/2608.30388) / [pdf](https://arxiv.org/pdf/2608.30388) |

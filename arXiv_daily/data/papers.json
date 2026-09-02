@@ -1,6 +1,355 @@
 {
   "schema_version": 1,
   "papers": {
+    "2609.01515": {
+      "arxiv_id": "2609.01515",
+      "title": "TempCloze: Can Video-LLMs Identify the Missing Middle?",
+      "abstract": "Temporal reasoning benchmarks for Video-LLMs are often mediated by language, leaving room for linguistic shortcuts from option wording, answer correlations, or language priors. To reduce such shortcuts, we introduce TempCloze, a video cloze benchmark for evaluating visual temporal reasoning in Video-LLMs. Given the beginning and ending clips of a video, models must identify the true missing middle from four candidates. TempCloze contains 1,521 carefully filtered videos from seven sources, mainly long-take and egocentric videos. We construct same-source distractors along three dimensions: Semantic asks what event should happen, Alignment probes when it should occur, and Progression tests how it should unfold, while shared scenes and objects reduce appearance cues. Our evaluation of 10 proprietary and 21 open-source Video-LLMs reveals Alignment as the primary bottleneck: models often recognize plausible semantic content and local event progression but struggle with temporal alignment. We further conduct error pattern and behavioral sensitivity analyses on TempCloze-Mixed and TempCloze-Hard with four representative models to examine where errors arise and how candidate order, context direction, visible span, frame density, and test-time scaling influence model choices.",
+      "authors": [
+        "Wenqi Pei",
+        "Henry Hengyuan Zhao",
+        "Yilai Liu",
+        "Jiahao Meng",
+        "Han Chen",
+        "Ziyu Wang",
+        "Hongyang Du"
+      ],
+      "published": "2026-09-01",
+      "updated": "2026-09-01",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comment": "EMNLP 2026 Findings",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2609.01515",
+      "pdf_url": "https://arxiv.org/pdf/2609.01515",
+      "query_sources": [
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric"
+        ]
+      }
+    },
+    "2609.01276": {
+      "arxiv_id": "2609.01276",
+      "title": "Seeing the World and the Self from Egocentric Video",
+      "abstract": "Complete 3D perception from egocentric video requires recovering the surrounding scene and the wearer's full-body motion in a shared metric frame. Existing methods typically address scene reconstruction and motion estimation separately: scene reconstruction methods ignore the wearer, whereas motion estimation methods lack explicit scene geometry and often depend on external trajectories. Joint recovery is challenging because the two tasks exhibit asymmetric visibility and require different prediction paradigms. The largely visible scene supports deterministic geometric regression, whereas the severely occluded body requires generative motion inference. We therefore propose RESELF (REconstructing the Scene and the sELF), a unified framework that couples deterministic metric geometry reconstruction with geometry-conditioned motion generation. RESELF adapts a geometry foundation model pre-trained on large-scale exocentric data to egocentric video using frame-wise scale and relative-pose consistency objectives. The resulting camera trajectory and latent geometric features condition a diffusion model that recovers the wearer's motion. A subsequent closed-loop kinematic feedback stage further refines the camera head while preserving the reconstructed scene geometry. To support training and evaluation, we curate EE4D-JSM from EgoExo4D by aligning egocentric video, sparse metric scene geometry, camera trajectories, and full-body motion annotations. Experiments show that RESELF outperforms state-of-the-art methods designed for the individual tasks across depth estimation, camera tracking, and full-body motion estimation. Code, models, and datasets will be available at https://ka1guan.github.io/RESELF/.",
+      "authors": [
+        "Kai Guan",
+        "Minchao Jiang",
+        "Ruichen WangLi",
+        "Wentao Zhu",
+        "Lei Zhang"
+      ],
+      "published": "2026-09-01",
+      "updated": "2026-09-01",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2609.01276",
+      "pdf_url": "https://arxiv.org/pdf/2609.01276",
+      "query_sources": [
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric"
+        ]
+      }
+    },
+    "2609.00771": {
+      "arxiv_id": "2609.00771",
+      "title": "Non-Prehensile Throwing: A Reinforcement Learning Perspective",
+      "abstract": "Robotic throwing enables fast object transport and extends a robot's reachable workspace beyond traditional pick-and-place. While prehensile (grasp-based) throwing works well for graspable items, non-prehensile (grasp-free) throwing is better suited for large, heavy, and/or deformable objects. Existing approaches rely on model-based optimization with simplified contact models (e.g., dynamic grasping) and low-dimensional trajectory parameterizations, which limit solution quality and reachable workspace. We propose a reinforcement learning approach that additionally leverages sliding and rolling contact modes and directly optimizes joint-space trajectories without analytical contact models or custom parameterizations. The Markov Decision Process (MDP) is formulated as a dynamical system that evolves the robot's joint state conditioned on the throwing target, object model, and initial configuration. Joint-jerk trajectories are planned offline at a low control rate and upsampled into smooth, high-rate velocity commands for deployment. For sim-to-real transfer, we minimize the robot-dynamics gap through minimum-jerk system identification and train uncertainty-aware policies to mitigate object-modeling errors, particularly sensitivity to dynamic friction. In simulation, the policy achieves 99% success across thousands of configurations and generalizes to unseen objects. Sensitivity analysis shows robustness to mass uncertainty but high sensitivity to dynamic friction, consistent with the sliding-based release mechanism. Deployed zero-shot on a UR5e operating near its physical limits (5 m/s end-effector velocity), our method throws diverse objects including heavy (790 g) and large (20x20x28 cm) items to targets up to 350 cm distance or 180 cm elevation, achieving a 97% real-world success rate.",
+      "authors": [
+        "Abdullah Mustafa",
+        "Ryo Hanai",
+        "Ixchel G. Ramirez-Alpizar",
+        "Floris Erich",
+        "Ryoichi Nakajo",
+        "Yukiyasu Domae",
+        "Tetsuya Ogata"
+      ],
+      "published": "2026-09-01",
+      "updated": "2026-09-01",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": "8 pages, 9 figures, Accepted to IEEE IROS 2026",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2609.00771",
+      "pdf_url": "https://arxiv.org/pdf/2609.00771",
+      "query_sources": [
+        "cs-ro",
+        "simulation-data"
+      ],
+      "topics": [
+        "robot_centric",
+        "simulation"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Robot Data Processing"
+        ],
+        "simulation": [
+          "Sim-to-Real"
+        ]
+      }
+    },
+    "2609.00751": {
+      "arxiv_id": "2609.00751",
+      "title": "One Print, Many Moves: Monolithic Origami-inspired Folding Actuator for Composable Soft Multi-DoF Systems",
+      "abstract": "Conventional soft robot actuators excel in compliance, but their uncontrolled deformations compromise accuracy and hinder scaling to multi-degree-of-freedom (DoF) systems. We introduce a MONOlithic ORIGAMI-inspired soft folding actuator design (MONORIGAMI) that establishes a design strategy based on spatially programmed stiffness anisotropy to preserve material compliance along desired folding directions while selectively restricting deformation in unwanted directions. The actuator leverages stiffness tiers based on material thickness, patterned in an origami-inspired geometry with facets and creases, converting unconstrained soft deformation into accurate, repeatable, and composable folding motions without additional reinforcements. The design is fully 3D-printable through a single-material, single-print process that requires no assembly. Each actuator serves as a scalable motion primitive, and linking and orienting multiple actuators mechanically programs multi-DoF trajectories. Using the same fundamental module, we demonstrate three 3D-printed soft multi-DoF robotic systems spanning distinct application domains: (1) a compact 4-DoF wearable haptic device for high-fidelity cutaneous feedback in virtual reality (VR), (2) a 3-DoF joystick for kinesthetic feedback in teleoperation, and (3) a modular robotic gripper capable of underwater operation with geometry-encoded grasp trajectories. These systems demonstrate the module's capabilities for compact multi-axis integration, controlled physical interaction, and geometry-programmed operation across different environments. Together, these results show that MONORIGAMI provides a general, composable, accessible, reliable, and scalable platform for high-precision soft multi-DoF robotics, addressing long-standing limitations in both soft actuator design and fabrication.",
+      "authors": [
+        "Jaehyung Jang",
+        "Zhenish Zhakypov",
+        "Jasmin Elena Palmer",
+        "Melissa Klein",
+        "Jee-Hwan Ryu",
+        "Allison Mariko Okamura"
+      ],
+      "published": "2026-09-01",
+      "updated": "2026-09-01",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": "26 pages, 7 figures",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2609.00751",
+      "pdf_url": "https://arxiv.org/pdf/2609.00751",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "robot_centric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Teleoperation"
+        ]
+      }
+    },
+    "2609.00641": {
+      "arxiv_id": "2609.00641",
+      "title": "AM-Bench: A Modular Simulation Suite and Benchmark for Aerial Manipulation Policy Learning",
+      "abstract": "Standardized benchmarks have played a central role in advancing robot manipulation learning, yet most focus on ground-supported manipulation systems, which limits their applicability to dynamics-critical domains such as aerial manipulation (AM). AM presents distinct system-level challenges, including environmental disturbances, coupled dynamics between the manipulator and floating base, and constrained degrees of freedom. Consequently, task performance depends jointly on robot embodiment, low-level control, and high-level policy design. We introduce AM-Bench, a modular simulation suite and benchmark for multirotor-based AM policy learning. AM-Bench includes representative embodiments spanning underactuated, fully actuated, and overactuated systems, 12 tasks across contact, transport, and constrained interaction, configurable aerodynamic disturbances and actuator saturation, standard low-level controllers, and baseline policy-learning algorithms. Unlike prior manipulation benchmarks that primarily emphasize end-to-end policy performance, AM-Bench enables system-level evaluation of how embodiment, control, disturbances, and policy choices interact. We demonstrate its diagnostic value through three simulation studies spanning high-level policies, policy--control interfaces, and embodiments, together with real-world validation of modeled effects and a hardware test of the learning pipeline.",
+      "authors": [
+        "Yutong Wang",
+        "Dongjae Lee",
+        "Xiaofeng Guo",
+        "Yuanzhu Zhan",
+        "Yufei Jiang",
+        "Bavin Saravanan",
+        "Muqing Cao",
+        "Jia Xie",
+        "Chenyang Mao",
+        "Sebastian Scherer",
+        "Junyi Geng",
+        "Guanya Shi"
+      ],
+      "published": "2026-09-01",
+      "updated": "2026-09-01",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": "28 pages, 7 figures, 15 tables",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2609.00641",
+      "pdf_url": "https://arxiv.org/pdf/2609.00641",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Simulation Data"
+        ]
+      }
+    },
+    "2609.00612": {
+      "arxiv_id": "2609.00612",
+      "title": "A Wearable Pneumatic Device for Continuous, Closed-Loop, Bidirectional Tactile Interaction",
+      "abstract": "We present a system of two wearable pneumatic haptic devices that supports continuous, closed-loop, bidirectional tactile interaction at perceptually relevant force and temporal scales. A single device can contain up to twelve pressure sensing channels connected to textile-based pneumatic pouches. Each channel in a device can be used as a sensor, an actuator, or both. As an actuator with integrated sensing, the channel generates stable skin indentation through local closed-loop control. As a sensor, a channel can be mounted (or worn) on any surface, including on a robot gripper or on the human body, and used to measure touch interactions with the environment or a human user. A distributed architecture supports sustained pressure output, rapid dynamic response, and wireless pairing of identical devices in a system to transmit and reproduce tactile pressure signals in real time. Device-level characterization demonstrates force bandwidth exceeding 30 Hz, rapid and well-damped step responses, and extended pressure retention compared to prior compact pneumatic platforms. Human studies show that pressure-based fingertip feedback enables discrimination of force and stiffness, improves teleoperated manipulation by reducing applied pressures by up to 23.1% and task duration by up to 27.4%, and lowers subjective mental workload by 18.8%, particularly under visually constrained conditions. By unifying tactile sensing and haptic feedback within a single pneumatic modality, the device provides a practical foundation for bidirectional touch interaction in teleoperation.",
+      "authors": [
+        "Cosima du Pasquier",
+        "Aliyah Smith",
+        "Serin Huber",
+        "Joshua Phelps",
+        "Ilana A. Cohen",
+        "Ava Chen",
+        "Monroe Kennedy",
+        "Allison M. Okamura"
+      ],
+      "published": "2026-09-01",
+      "updated": "2026-09-01",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2609.00612",
+      "pdf_url": "https://arxiv.org/pdf/2609.00612",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "robot_centric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Teleoperation"
+        ]
+      }
+    },
+    "2609.00478": {
+      "arxiv_id": "2609.00478",
+      "title": "Beyond Object Selection:Markerless Gaze-based Robot Placement at Arbitrary Position",
+      "abstract": "Gaze-based assistive manipulation typically supports object selection, while arbitrary-position placement requires accurate spatial alignment between the headset and robot. However, for gaze-based manipulation, pose accuracy does not necessarily translate into task accuracy: translational and rotational errors jointly affect the transformed gaze ray and may compensate for each other. To study cross-device alignment from this task-oriented perspective, we present a markerless interaction framework and a dedicated cross-device dataset. We propose Graph-based Reference Selection to address sparse robot references. We further develop and benchmark multiple task-specific alignment pipelines under a unified protocol. Specifically, we introduce Gaze--Surface Intersection Error (GSIE), which directly measures the spatial error of the gaze-specified target. Experiments show that alignment methods ranked highly by conventional pose metrics are not always optimal in GSIE, demonstrating the importance of evaluating gaze-based manipulation at the task level.",
+      "authors": [
+        "Yuzhi Lai",
+        "William Marx",
+        "Shenghai Yuan",
+        "Peizheng Li",
+        "Zhuoyu Ran",
+        "Andreas Zell"
+      ],
+      "published": "2026-08-31",
+      "updated": "2026-08-31",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2609.00478",
+      "pdf_url": "https://arxiv.org/pdf/2609.00478",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "robot_centric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Robot Dataset"
+        ]
+      }
+    },
+    "2609.00333": {
+      "arxiv_id": "2609.00333",
+      "title": "Scene Graph-based Driving Scenario Extraction for Automotive Egocentric Datasets",
+      "abstract": "Extracting scenarios from unlabelled real-world sensor data streams is a critical but challenging task in the development process of automated driving systems (ADS). Automatically sifting through large datasets to spatially and temporally locate critical scenarios can enable scenario-based coverage analysis of ADS datasets. In this paper, we present a method for extracting scenarios from egocentric datasets using scene graphs and Linear Temporal Logic (LTL). We first process egocentric sensor data and HD maps to generate a sequence of scene graphs representing a driving scenario. Next, we use LTL to formally specify driving scenarios of interest, then extract all instances of the scenarios from the dataset using an off-the-shelf model checker, which evaluates the LTL formula against the sequence of scene graphs. Our approach can be used on both simulated and real world datasets. We evaluate the method on the training and validation datasets from Argoverse 2 consisting of 850 15-second real-world driving logs, and several videos of dashcam footage. We demonstrate the effectiveness of our approach for extracting and querying scenarios by evaluating against a rule-based benchmark based on track annotations and HD maps.",
+      "authors": [
+        "Stefan Ramdhan",
+        "Kyanna Dagenais",
+        "Vera Pantelic",
+        "Victor Bandur",
+        "Mark Lawford"
+      ],
+      "published": "2026-08-31",
+      "updated": "2026-08-31",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2609.00333",
+      "pdf_url": "https://arxiv.org/pdf/2609.00333",
+      "query_sources": [
+        "cs-ro",
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric"
+        ]
+      }
+    },
+    "2609.00188": {
+      "arxiv_id": "2609.00188",
+      "title": "ZimaBlue: Evolving Generalizable World Action Models through Scalable Video Pre-training",
+      "abstract": "Robotic manipulation faces a fundamental scaling challenge: robust generalization demands broad physical experience, yet action-labeled robot trajectories are expensive to collect and inherently limited in diversity. Egocentric videos offer a far more scalable source of embodied experience, capturing object interactions, contact dynamics, tool use, and long-horizon behaviors across diverse environments. The central challenge is how to convert this abundant but action-free experience into effective robot control. We introduce ZimaBlue, a scalable framework for learning generalizable World Action Models (WAMs) from large-scale video. ZimaBlue follows a three-stage training curriculum: it first performs causal embodied video pre-training on large-scale human and robot egocentric videos, then grounds the learned visual dynamics in heterogeneous robot trajectories through video-action mid-training with a unified action representation, and finally specializes the model to a target robot for deployment. To make generative WAMs practical for real-time control, ZimaBluefurther adopts an asynchronous Slow-Fast dual-system architecture, where a high-capacity Slow world model provides generalizable spatiotemporal representations and a lightweight Fast branch enables 30 Hz action prediction on NVIDIA RTX 4090. On real-robot zero-shot evaluations, scaling from target-robot data alone to over 120,000 hours of embodied video improves success from 36.1% to 77.8%. ZimaBlue further delivers strong performance across multiple benchmarks, with particularly pronounced gains on unseen tasks.",
+      "authors": [
+        "Xionghao Wu",
+        "Yijun Yang",
+        "Shiyang Zhou",
+        "Haoze Sun",
+        "Jianhui Liu",
+        "Songsong Yu",
+        "Jiyao Zhang",
+        "Wenbo Li",
+        "Bo Wang",
+        "Guoqing Ma",
+        "Lin Song",
+        "Renjie Liao",
+        "Shenghe Zheng",
+        "Wei Tang",
+        "Xiaojuan Qi",
+        "Yanwei Li",
+        "Yuan Zhang",
+        "Zhuotao Tian",
+        "Haoyang Huang",
+        "Nan Duan"
+      ],
+      "published": "2026-08-31",
+      "updated": "2026-08-31",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2609.00188",
+      "pdf_url": "https://arxiv.org/pdf/2609.00188",
+      "query_sources": [
+        "human-egocentric",
+        "robot-data"
+      ],
+      "topics": [
+        "robot_centric",
+        "human_egocentric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Robot Dataset"
+        ],
+        "human_egocentric": [
+          "Egocentric"
+        ]
+      }
+    },
     "2608.31167": {
       "arxiv_id": "2608.31167",
       "title": "SUN: Persistent Programs For Language-Grounded Control-to-Learning-to-Real Policies",
@@ -295,7 +644,7 @@
         "Chengkai Dai"
       ],
       "published": "2026-08-31",
-      "updated": "2026-08-31",
+      "updated": "2026-09-01",
       "primary_category": "cs.CV",
       "categories": [
         "cs.CV",
@@ -705,7 +1054,7 @@
         "Fayao Liu"
       ],
       "published": "2026-08-29",
-      "updated": "2026-08-29",
+      "updated": "2026-09-01",
       "primary_category": "cs.RO",
       "categories": [
         "cs.RO"
@@ -2034,11 +2383,11 @@
         "Ahnaf Naheen",
         "Tleukhan Mussin",
         "Hans Jarales",
-        "Melwin Moncy",
+        "Melwin Chacko Moncy",
         "Mahdi Tavakoli"
       ],
       "published": "2026-08-25",
-      "updated": "2026-08-25",
+      "updated": "2026-08-31",
       "primary_category": "cs.RO",
       "categories": [
         "cs.RO"
@@ -2104,6 +2453,7 @@
         "Songen Gu",
         "Huailiang Ma",
         "Feng Yu",
+        "Yuhang Zheng",
         "Xian Nie",
         "Shanshuai Yuan",
         "Yujie Zang",
@@ -2114,7 +2464,7 @@
         "Wenchao Ding"
       ],
       "published": "2026-08-25",
-      "updated": "2026-08-25",
+      "updated": "2026-09-01",
       "primary_category": "cs.RO",
       "categories": [
         "cs.RO"
@@ -3660,7 +4010,7 @@
         "Fei Gao"
       ],
       "published": "2026-08-21",
-      "updated": "2026-08-21",
+      "updated": "2026-09-01",
       "primary_category": "cs.RO",
       "categories": [
         "cs.RO",
@@ -3888,7 +4238,7 @@
         "Hongsheng Li"
       ],
       "published": "2026-08-20",
-      "updated": "2026-08-31",
+      "updated": "2026-09-01",
       "primary_category": "cs.CV",
       "categories": [
         "cs.CV"
@@ -201940,7 +202290,7 @@
     }
   },
   "coverage_start": "2025-01-01",
-  "coverage_end": "2026-09-01",
-  "paper_count": 5282,
-  "generated_at": "2026-09-01T16:16:09+00:00"
+  "coverage_end": "2026-09-02",
+  "paper_count": 5291,
+  "generated_at": "2026-09-02T03:26:33+00:00"
 }

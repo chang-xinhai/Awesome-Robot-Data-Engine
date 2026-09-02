@@ -4,7 +4,14 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-09-01 · **Papers:** 2455 · **Unique arXiv IDs:** 2455
+**Coverage:** 2025-01-01 to 2026-09-02 · **Papers:** 2457 · **Unique arXiv IDs:** 2457
+
+## 2026-09
+
+| Date | Paper | Authors | Categories | Matched signals | Links |
+| :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-09-01 | [Non-Prehensile Throwing: A Reinforcement Learning Perspective](https://arxiv.org/abs/2609.00771) | Abdullah Mustafa, Ryo Hanai, Ixchel G. Ramirez-Alpizar, et al. | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2609.00771) / [pdf](https://arxiv.org/pdf/2609.00771) |
+| 2026-09-01 | [AM-Bench: A Modular Simulation Suite and Benchmark for Aerial Manipulation Policy Learning](https://arxiv.org/abs/2609.00641) | Yutong Wang, Dongjae Lee, Xiaofeng Guo, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2609.00641) / [pdf](https://arxiv.org/pdf/2609.00641) |
 
 ## 2026-08
 
