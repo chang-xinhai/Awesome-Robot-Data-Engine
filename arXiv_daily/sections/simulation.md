@@ -4,12 +4,15 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-09-02 · **Papers:** 2457 · **Unique arXiv IDs:** 2457
+**Coverage:** 2025-01-01 to 2026-09-03 · **Papers:** 2460 · **Unique arXiv IDs:** 2460
 
 ## 2026-09
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-09-02 | [FOCUS: Foot Observation Confidence for Robust Humanoid Proprioceptive Odometry](https://arxiv.org/abs/2609.02222) | Kaixin Feng, Angsong Li, Shaopeng Zhang, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2609.02222) / [pdf](https://arxiv.org/pdf/2609.02222) |
+| 2026-09-01 | [One Demonstration, Many Objects: Generalizing Manipulation via Local Contact Geometry](https://arxiv.org/abs/2609.01938) | Satvik Sharma, Samrat Sahoo, Huang Huang, et al. | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2609.01938) / [pdf](https://arxiv.org/pdf/2609.01938) |
+| 2026-09-01 | [Tri-Band Channel Measurement-Enabled Multi-Layer Digital Twin for Terahertz Wireless Data Centers](https://arxiv.org/abs/2609.01699) | Mingjie Zhu, Ziming Yu, Guangjian Wang, et al. | cs.LG, cs.IT | Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2609.01699) / [pdf](https://arxiv.org/pdf/2609.01699) |
 | 2026-09-01 | [Non-Prehensile Throwing: A Reinforcement Learning Perspective](https://arxiv.org/abs/2609.00771) | Abdullah Mustafa, Ryo Hanai, Ixchel G. Ramirez-Alpizar, et al. | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2609.00771) / [pdf](https://arxiv.org/pdf/2609.00771) |
 | 2026-09-01 | [AM-Bench: A Modular Simulation Suite and Benchmark for Aerial Manipulation Policy Learning](https://arxiv.org/abs/2609.00641) | Yutong Wang, Dongjae Lee, Xiaofeng Guo, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2609.00641) / [pdf](https://arxiv.org/pdf/2609.00641) |
 

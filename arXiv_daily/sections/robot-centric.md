@@ -4,12 +4,14 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-09-02 · **Papers:** 2013 · **Unique arXiv IDs:** 2013
+**Coverage:** 2025-01-01 to 2026-09-03 · **Papers:** 2015 · **Unique arXiv IDs:** 2015
 
 ## 2026-09
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-09-02 | [ZETA: A Controlled Study of Zero-Shot Cross-Embodiment VLA Transfer for Tabletop Manipulation](https://arxiv.org/abs/2609.02546) | Mi Yan, Wenhao Zhang, Zhiqi Zhang, et al. | cs.RO | Data Collection | [abs](https://arxiv.org/abs/2609.02546) / [pdf](https://arxiv.org/pdf/2609.02546) |
+| 2026-09-01 | [One Demonstration, Many Objects: Generalizing Manipulation via Local Contact Geometry](https://arxiv.org/abs/2609.01938) | Satvik Sharma, Samrat Sahoo, Huang Huang, et al. | cs.RO | Teleoperation, Data Collection | [abs](https://arxiv.org/abs/2609.01938) / [pdf](https://arxiv.org/pdf/2609.01938) |
 | 2026-09-01 | [Non-Prehensile Throwing: A Reinforcement Learning Perspective](https://arxiv.org/abs/2609.00771) | Abdullah Mustafa, Ryo Hanai, Ixchel G. Ramirez-Alpizar, et al. | cs.RO | Robot Data Processing | [abs](https://arxiv.org/abs/2609.00771) / [pdf](https://arxiv.org/pdf/2609.00771) |
 | 2026-09-01 | [One Print, Many Moves: Monolithic Origami-inspired Folding Actuator for Composable Soft Multi-DoF Systems](https://arxiv.org/abs/2609.00751) | Jaehyung Jang, Zhenish Zhakypov, Jasmin Elena Palmer, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2609.00751) / [pdf](https://arxiv.org/pdf/2609.00751) |
 | 2026-09-01 | [A Wearable Pneumatic Device for Continuous, Closed-Loop, Bidirectional Tactile Interaction](https://arxiv.org/abs/2609.00612) | Cosima du Pasquier, Aliyah Smith, Serin Huber, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2609.00612) / [pdf](https://arxiv.org/pdf/2609.00612) |

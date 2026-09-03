@@ -4,12 +4,16 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-09-02 · **Papers:** 1889 · **Unique arXiv IDs:** 1889
+**Coverage:** 2025-01-01 to 2026-09-03 · **Papers:** 1893 · **Unique arXiv IDs:** 1893
 
 ## 2026-09
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-09-02 | [AutoCompass: Accurate Visual Localization on Public Maps by Learning from Weak Labels](https://arxiv.org/abs/2609.02798) | Javier Tirado-Garín, Alan Savio Paul, Shuai Chen, et al. | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2609.02798) / [pdf](https://arxiv.org/pdf/2609.02798) |
+| 2026-09-02 | [HINT: Human-Intent Inception for Long-Horizon Robot Manipulation](https://arxiv.org/abs/2609.02653) | Mingyu Mei, Haojie Xu, Shihao Jin, et al. | cs.RO | Affordance / Contact | [abs](https://arxiv.org/abs/2609.02653) / [pdf](https://arxiv.org/pdf/2609.02653) |
+| 2026-09-02 | [A Physics-Consistent Benchmark for Contact-Rich Human-Robot Interaction in Assistive Care](https://arxiv.org/abs/2609.02402) | Chengxiao He, Shanghai Yuan, Liuqun Fan, et al. | cs.RO | Affordance / Contact | [abs](https://arxiv.org/abs/2609.02402) / [pdf](https://arxiv.org/pdf/2609.02402) |
+| 2026-09-01 | [One Demonstration, Many Objects: Generalizing Manipulation via Local Contact Geometry](https://arxiv.org/abs/2609.01938) | Satvik Sharma, Samrat Sahoo, Huang Huang, et al. | cs.RO | Human Video, Human Demonstration | [abs](https://arxiv.org/abs/2609.01938) / [pdf](https://arxiv.org/pdf/2609.01938) |
 | 2026-09-01 | [TempCloze: Can Video-LLMs Identify the Missing Middle?](https://arxiv.org/abs/2609.01515) | Wenqi Pei, Henry Hengyuan Zhao, Yilai Liu, et al. | cs.CV, cs.AI | Egocentric | [abs](https://arxiv.org/abs/2609.01515) / [pdf](https://arxiv.org/pdf/2609.01515) |
 | 2026-09-01 | [Seeing the World and the Self from Egocentric Video](https://arxiv.org/abs/2609.01276) | Kai Guan, Minchao Jiang, Ruichen WangLi, et al. | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2609.01276) / [pdf](https://arxiv.org/pdf/2609.01276) |
 
