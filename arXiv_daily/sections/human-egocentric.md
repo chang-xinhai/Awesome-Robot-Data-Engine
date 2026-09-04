@@ -4,12 +4,16 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-09-03 · **Papers:** 1893 · **Unique arXiv IDs:** 1893
+**Coverage:** 2025-01-01 to 2026-09-04 · **Papers:** 1897 · **Unique arXiv IDs:** 1897
 
 ## 2026-09
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-09-03 | [GraFT: A Training-Free Framework for Spatial Reasoning in Multimodal Large Language Models via 3D Scene Graphs](https://arxiv.org/abs/2609.03892) | Junqing Du, Fernando Ropero, Erkin Turkoz, et al. | cs.CV, cs.AI, cs.RO | Egocentric | [abs](https://arxiv.org/abs/2609.03892) / [pdf](https://arxiv.org/pdf/2609.03892) |
+| 2026-09-03 | [A hybrid pipeline for dynamic ontology-based semantic mapping](https://arxiv.org/abs/2609.03891) | Konstantinos Dimitropoulos, Ioannis Hatzilygeroudis | cs.RO | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2609.03891) / [pdf](https://arxiv.org/pdf/2609.03891) |
+| 2026-09-03 | [Scaling Bimanual Household Manipulation from 1,500 hours of Demonstrations to On-Policy Corrections](https://arxiv.org/abs/2609.03591) | Jiafeng Xu, Qi Li, Yan Shen, et al. | cs.RO | Human Demonstration | [abs](https://arxiv.org/abs/2609.03591) / [pdf](https://arxiv.org/pdf/2609.03591) |
+| 2026-09-02 | [RoboTok: An Internet-Scale Data Engine for Human Demonstration Retrieval and Dexterous Manipulation Learning](https://arxiv.org/abs/2609.03199) | Howard Qian, Yiting Chen, Yunfei Xie, et al. | cs.CV, cs.RO | Human Demonstration | [abs](https://arxiv.org/abs/2609.03199) / [pdf](https://arxiv.org/pdf/2609.03199) |
 | 2026-09-02 | [AutoCompass: Accurate Visual Localization on Public Maps by Learning from Weak Labels](https://arxiv.org/abs/2609.02798) | Javier Tirado-Garín, Alan Savio Paul, Shuai Chen, et al. | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2609.02798) / [pdf](https://arxiv.org/pdf/2609.02798) |
 | 2026-09-02 | [HINT: Human-Intent Inception for Long-Horizon Robot Manipulation](https://arxiv.org/abs/2609.02653) | Mingyu Mei, Haojie Xu, Shihao Jin, et al. | cs.RO | Affordance / Contact | [abs](https://arxiv.org/abs/2609.02653) / [pdf](https://arxiv.org/pdf/2609.02653) |
 | 2026-09-02 | [A Physics-Consistent Benchmark for Contact-Rich Human-Robot Interaction in Assistive Care](https://arxiv.org/abs/2609.02402) | Chengxiao He, Shanghai Yuan, Liuqun Fan, et al. | cs.RO | Affordance / Contact | [abs](https://arxiv.org/abs/2609.02402) / [pdf](https://arxiv.org/pdf/2609.02402) |

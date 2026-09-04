@@ -4,12 +4,16 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-09-03 · **Papers:** 2460 · **Unique arXiv IDs:** 2460
+**Coverage:** 2025-01-01 to 2026-09-04 · **Papers:** 2464 · **Unique arXiv IDs:** 2464
 
 ## 2026-09
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-09-03 | [MulDP: Multimodal Diffusion Policy for Autonomous Quadruped Parkour Navigation across Complex Terrains](https://arxiv.org/abs/2609.03984) | Kangmai Hu, Yueqi Zhang, Peng Zhai, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2609.03984) / [pdf](https://arxiv.org/pdf/2609.03984) |
+| 2026-09-03 | [Building Pretraining Data for World Models: An Unreal Engine-Based Pipeline for Action-Conditioned Video Generation](https://arxiv.org/abs/2609.03557) | Haoyu Wang, Songchun Zhang, Haoran Li, et al. | cs.CV, cs.GR | Synthetic Data, Trajectory Generation | [abs](https://arxiv.org/abs/2609.03557) / [pdf](https://arxiv.org/pdf/2609.03557) |
+| 2026-09-03 | [R2S-Eval: Robot Evaluation with Real-to-Sim Calibration via Vision-Language Models](https://arxiv.org/abs/2609.03276) | Yidi Wang, Feixiang Ruan, Ruoqu Chen, et al. | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2609.03276) / [pdf](https://arxiv.org/pdf/2609.03276) |
+| 2026-09-02 | [Sensing Which Modality Matters: Evidence-Gated Regularization for Robust VLA Policies](https://arxiv.org/abs/2609.03142) | Yue Yang, Diego Romeres, Chiori Hori, et al. | cs.RO, cs.CV, cs.LG | Synthetic Sensor | [abs](https://arxiv.org/abs/2609.03142) / [pdf](https://arxiv.org/pdf/2609.03142) |
 | 2026-09-02 | [FOCUS: Foot Observation Confidence for Robust Humanoid Proprioceptive Odometry](https://arxiv.org/abs/2609.02222) | Kaixin Feng, Angsong Li, Shaopeng Zhang, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2609.02222) / [pdf](https://arxiv.org/pdf/2609.02222) |
 | 2026-09-01 | [One Demonstration, Many Objects: Generalizing Manipulation via Local Contact Geometry](https://arxiv.org/abs/2609.01938) | Satvik Sharma, Samrat Sahoo, Huang Huang, et al. | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2609.01938) / [pdf](https://arxiv.org/pdf/2609.01938) |
 | 2026-09-01 | [Tri-Band Channel Measurement-Enabled Multi-Layer Digital Twin for Terahertz Wireless Data Centers](https://arxiv.org/abs/2609.01699) | Mingjie Zhu, Ziming Yu, Guangjian Wang, et al. | cs.LG, cs.IT | Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2609.01699) / [pdf](https://arxiv.org/pdf/2609.01699) |

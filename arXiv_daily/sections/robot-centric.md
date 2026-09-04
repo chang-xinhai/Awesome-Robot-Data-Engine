@@ -4,12 +4,19 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-09-03 · **Papers:** 2015 · **Unique arXiv IDs:** 2015
+**Coverage:** 2025-01-01 to 2026-09-04 · **Papers:** 2022 · **Unique arXiv IDs:** 2022
 
 ## 2026-09
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-09-03 | [MulDP: Multimodal Diffusion Policy for Autonomous Quadruped Parkour Navigation across Complex Terrains](https://arxiv.org/abs/2609.03984) | Kangmai Hu, Yueqi Zhang, Peng Zhai, et al. | cs.RO | Human Intervention | [abs](https://arxiv.org/abs/2609.03984) / [pdf](https://arxiv.org/pdf/2609.03984) |
+| 2026-09-03 | [FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation](https://arxiv.org/abs/2609.03889) | Yutian Zhang, Siyuan Ma, Liwen Yang, et al. | cs.RO, cs.AI | Robot Dataset | [abs](https://arxiv.org/abs/2609.03889) / [pdf](https://arxiv.org/pdf/2609.03889) |
+| 2026-09-03 | [DropClick: Semi-Automated One-Click Segmentation for Agricultural Robotic Data](https://arxiv.org/abs/2609.03680) | Patrick Zimmer, Michael Halstead, Chris McCool | cs.CV, cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2609.03680) / [pdf](https://arxiv.org/pdf/2609.03680) |
+| 2026-09-03 | [Scaling Bimanual Household Manipulation from 1,500 hours of Demonstrations to On-Policy Corrections](https://arxiv.org/abs/2609.03591) | Jiafeng Xu, Qi Li, Yan Shen, et al. | cs.RO | Robot Dataset, Human Intervention, Scalable Demonstrations | [abs](https://arxiv.org/abs/2609.03591) / [pdf](https://arxiv.org/pdf/2609.03591) |
+| 2026-09-03 | [Establishing a Dynamic Multimodal HRI Dataset for Engagement Analysis with a Humanoid Robot](https://arxiv.org/abs/2609.03255) | Buwan Kim, Wonse Jo | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2609.03255) / [pdf](https://arxiv.org/pdf/2609.03255) |
+| 2026-09-02 | [RoboTok: An Internet-Scale Data Engine for Human Demonstration Retrieval and Dexterous Manipulation Learning](https://arxiv.org/abs/2609.03199) | Howard Qian, Yiting Chen, Yunfei Xie, et al. | cs.CV, cs.RO | Robot Dataset, Data Collection | [abs](https://arxiv.org/abs/2609.03199) / [pdf](https://arxiv.org/pdf/2609.03199) |
+| 2026-09-02 | [Sensing Which Modality Matters: Evidence-Gated Regularization for Robust VLA Policies](https://arxiv.org/abs/2609.03142) | Yue Yang, Diego Romeres, Chiori Hori, et al. | cs.RO, cs.CV, cs.LG | Robot Dataset | [abs](https://arxiv.org/abs/2609.03142) / [pdf](https://arxiv.org/pdf/2609.03142) |
 | 2026-09-02 | [ZETA: A Controlled Study of Zero-Shot Cross-Embodiment VLA Transfer for Tabletop Manipulation](https://arxiv.org/abs/2609.02546) | Mi Yan, Wenhao Zhang, Zhiqi Zhang, et al. | cs.RO | Data Collection | [abs](https://arxiv.org/abs/2609.02546) / [pdf](https://arxiv.org/pdf/2609.02546) |
 | 2026-09-01 | [One Demonstration, Many Objects: Generalizing Manipulation via Local Contact Geometry](https://arxiv.org/abs/2609.01938) | Satvik Sharma, Samrat Sahoo, Huang Huang, et al. | cs.RO | Teleoperation, Data Collection | [abs](https://arxiv.org/abs/2609.01938) / [pdf](https://arxiv.org/pdf/2609.01938) |
 | 2026-09-01 | [Non-Prehensile Throwing: A Reinforcement Learning Perspective](https://arxiv.org/abs/2609.00771) | Abdullah Mustafa, Ryo Hanai, Ixchel G. Ramirez-Alpizar, et al. | cs.RO | Robot Data Processing | [abs](https://arxiv.org/abs/2609.00771) / [pdf](https://arxiv.org/pdf/2609.00771) |

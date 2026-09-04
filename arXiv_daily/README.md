@@ -2,16 +2,16 @@
 
 > A high-recall candidate archive for manual curation into [Awesome Robot Data Engine](../README.md). It is intentionally broader than the curated list.
 
-**Coverage:** 2025-01-01 to 2026-09-03 · **Unique papers:** 5298
+**Coverage:** 2025-01-01 to 2026-09-04 · **Unique papers:** 5309
 
 ## Sections
 
 | Section | Papers | Scope |
 | :------ | -----: | :---- |
-| [Robot-Centric](sections/robot-centric.md) | 2015 | Real-robot collection, teleoperation, intervention, datasets, and processing |
+| [Robot-Centric](sections/robot-centric.md) | 2022 | Real-robot collection, teleoperation, intervention, datasets, and processing |
 | [UMI](sections/umi.md) | 69 | Portable manipulation interfaces, robot-free demonstrations, and UMI recovery |
-| [Human / Egocentric](sections/human-egocentric.md) | 1893 | Human video, HOI, tracking, reconstruction, action extraction, and retargeting |
-| [Simulation](sections/simulation.md) | 2460 | Synthetic demonstrations, environments, assets, sensors, and sim–real systems |
+| [Human / Egocentric](sections/human-egocentric.md) | 1897 | Human video, HOI, tracking, reconstruction, action extraction, and retargeting |
+| [Simulation](sections/simulation.md) | 2464 | Synthetic demonstrations, environments, assets, sensors, and sim–real systems |
 
 A paper is stored once in [`data/papers.json`](data/papers.json) but may appear in multiple generated views. The archive uses arXiv `v1` dates and is updated daily by GitHub Actions. Promotion to the root README is always manual.
 
@@ -19,16 +19,16 @@ A paper is stored once in [`data/papers.json`](data/papers.json) but may appear 
 
 ### Robot-Centric
 
+- 2026-09-03 — [MulDP: Multimodal Diffusion Policy for Autonomous Quadruped Parkour Navigation across Complex Terrains](https://arxiv.org/abs/2609.03984)
+- 2026-09-03 — [FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation](https://arxiv.org/abs/2609.03889)
+- 2026-09-03 — [DropClick: Semi-Automated One-Click Segmentation for Agricultural Robotic Data](https://arxiv.org/abs/2609.03680)
+- 2026-09-03 — [Scaling Bimanual Household Manipulation from 1,500 hours of Demonstrations to On-Policy Corrections](https://arxiv.org/abs/2609.03591)
+- 2026-09-03 — [Establishing a Dynamic Multimodal HRI Dataset for Engagement Analysis with a Humanoid Robot](https://arxiv.org/abs/2609.03255)
+- 2026-09-02 — [RoboTok: An Internet-Scale Data Engine for Human Demonstration Retrieval and Dexterous Manipulation Learning](https://arxiv.org/abs/2609.03199)
+- 2026-09-02 — [Sensing Which Modality Matters: Evidence-Gated Regularization for Robust VLA Policies](https://arxiv.org/abs/2609.03142)
 - 2026-09-02 — [ZETA: A Controlled Study of Zero-Shot Cross-Embodiment VLA Transfer for Tabletop Manipulation](https://arxiv.org/abs/2609.02546)
 - 2026-09-01 — [One Demonstration, Many Objects: Generalizing Manipulation via Local Contact Geometry](https://arxiv.org/abs/2609.01938)
 - 2026-09-01 — [Non-Prehensile Throwing: A Reinforcement Learning Perspective](https://arxiv.org/abs/2609.00771)
-- 2026-09-01 — [One Print, Many Moves: Monolithic Origami-inspired Folding Actuator for Composable Soft Multi-DoF Systems](https://arxiv.org/abs/2609.00751)
-- 2026-09-01 — [A Wearable Pneumatic Device for Continuous, Closed-Loop, Bidirectional Tactile Interaction](https://arxiv.org/abs/2609.00612)
-- 2026-08-31 — [Beyond Object Selection:Markerless Gaze-based Robot Placement at Arbitrary Position](https://arxiv.org/abs/2609.00478)
-- 2026-08-31 — [ZimaBlue: Evolving Generalizable World Action Models through Scalable Video Pre-training](https://arxiv.org/abs/2609.00188)
-- 2026-08-31 — [SUN: Persistent Programs For Language-Grounded Control-to-Learning-to-Real Policies](https://arxiv.org/abs/2608.31167)
-- 2026-08-31 — [DARP: A Calibrated Dual-Arm RGB-D-IR Dataset for Multi-View Robotic Perception](https://arxiv.org/abs/2608.31002)
-- 2026-08-31 — [Autonomously Acquiring Robot Manipulation Skills with Language-Driven Quality-Diversity](https://arxiv.org/abs/2608.30983)
 
 ### UMI
 
@@ -45,29 +45,29 @@ A paper is stored once in [`data/papers.json`](data/papers.json) but may appear 
 
 ### Human / Egocentric
 
+- 2026-09-03 — [GraFT: A Training-Free Framework for Spatial Reasoning in Multimodal Large Language Models via 3D Scene Graphs](https://arxiv.org/abs/2609.03892)
+- 2026-09-03 — [A hybrid pipeline for dynamic ontology-based semantic mapping](https://arxiv.org/abs/2609.03891)
+- 2026-09-03 — [Scaling Bimanual Household Manipulation from 1,500 hours of Demonstrations to On-Policy Corrections](https://arxiv.org/abs/2609.03591)
+- 2026-09-02 — [RoboTok: An Internet-Scale Data Engine for Human Demonstration Retrieval and Dexterous Manipulation Learning](https://arxiv.org/abs/2609.03199)
 - 2026-09-02 — [AutoCompass: Accurate Visual Localization on Public Maps by Learning from Weak Labels](https://arxiv.org/abs/2609.02798)
 - 2026-09-02 — [HINT: Human-Intent Inception for Long-Horizon Robot Manipulation](https://arxiv.org/abs/2609.02653)
 - 2026-09-02 — [A Physics-Consistent Benchmark for Contact-Rich Human-Robot Interaction in Assistive Care](https://arxiv.org/abs/2609.02402)
 - 2026-09-01 — [One Demonstration, Many Objects: Generalizing Manipulation via Local Contact Geometry](https://arxiv.org/abs/2609.01938)
 - 2026-09-01 — [TempCloze: Can Video-LLMs Identify the Missing Middle?](https://arxiv.org/abs/2609.01515)
 - 2026-09-01 — [Seeing the World and the Self from Egocentric Video](https://arxiv.org/abs/2609.01276)
-- 2026-08-31 — [Scene Graph-based Driving Scenario Extraction for Automotive Egocentric Datasets](https://arxiv.org/abs/2609.00333)
-- 2026-08-31 — [ZimaBlue: Evolving Generalizable World Action Models through Scalable Video Pre-training](https://arxiv.org/abs/2609.00188)
-- 2026-08-31 — [LightNav-0: Eliciting VLM Spatial Intelligence for Generalist Embodied Navigation](https://arxiv.org/abs/2608.30935)
-- 2026-08-31 — [Lucida: Parse, Generate, and Place for Composable Real-to-Sim Scene Modeling](https://arxiv.org/abs/2608.30821)
 
 ### Simulation
 
+- 2026-09-03 — [MulDP: Multimodal Diffusion Policy for Autonomous Quadruped Parkour Navigation across Complex Terrains](https://arxiv.org/abs/2609.03984)
+- 2026-09-03 — [Building Pretraining Data for World Models: An Unreal Engine-Based Pipeline for Action-Conditioned Video Generation](https://arxiv.org/abs/2609.03557)
+- 2026-09-03 — [R2S-Eval: Robot Evaluation with Real-to-Sim Calibration via Vision-Language Models](https://arxiv.org/abs/2609.03276)
+- 2026-09-02 — [Sensing Which Modality Matters: Evidence-Gated Regularization for Robust VLA Policies](https://arxiv.org/abs/2609.03142)
 - 2026-09-02 — [FOCUS: Foot Observation Confidence for Robust Humanoid Proprioceptive Odometry](https://arxiv.org/abs/2609.02222)
 - 2026-09-01 — [One Demonstration, Many Objects: Generalizing Manipulation via Local Contact Geometry](https://arxiv.org/abs/2609.01938)
 - 2026-09-01 — [Tri-Band Channel Measurement-Enabled Multi-Layer Digital Twin for Terahertz Wireless Data Centers](https://arxiv.org/abs/2609.01699)
 - 2026-09-01 — [Non-Prehensile Throwing: A Reinforcement Learning Perspective](https://arxiv.org/abs/2609.00771)
 - 2026-09-01 — [AM-Bench: A Modular Simulation Suite and Benchmark for Aerial Manipulation Policy Learning](https://arxiv.org/abs/2609.00641)
 - 2026-08-31 — [SUN: Persistent Programs For Language-Grounded Control-to-Learning-to-Real Policies](https://arxiv.org/abs/2608.31167)
-- 2026-08-31 — [Lucida: Parse, Generate, and Place for Composable Real-to-Sim Scene Modeling](https://arxiv.org/abs/2608.30821)
-- 2026-08-31 — [Learning to infer and manipulate through distributed whole-arm interaction in a soft robot](https://arxiv.org/abs/2608.30773)
-- 2026-08-31 — [CometVLA: Co-Training on an Embodied Data Pyramid towards Physical Understanding](https://arxiv.org/abs/2608.30289)
-- 2026-08-31 — [Motus2: A Self-Evolving General World Model for Dexterous Manipulation](https://arxiv.org/abs/2608.30237)
 
 ## Method
 

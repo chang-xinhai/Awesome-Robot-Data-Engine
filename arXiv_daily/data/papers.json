@@ -1,6 +1,428 @@
 {
   "schema_version": 1,
   "papers": {
+    "2609.03984": {
+      "arxiv_id": "2609.03984",
+      "title": "MulDP: Multimodal Diffusion Policy for Autonomous Quadruped Parkour Navigation across Complex Terrains",
+      "abstract": "Quadruped robots have demonstrated impressive agility in parkour locomotion across complex terrains. However, most systems still rely on human intervention for high-level planning, and autonomous parkour navigation remains underexplored. The key challenges include fine-grained velocity regulation, long-horizon anticipatory behaviors, and tight coupling between perception and embodied execution. To address these challenges, we propose a Multimodal Diffusion Policy (MulDP) that integrates visual perception with robot proprioception and goal information to generate temporally coherent and anticipatory navigation velocity commands, tightly coupling perception with embodied control to enable robust autonomous navigation. To support the training of MulDP, we construct the first Quadruped Parkour Navigation Dataset (QPND), a multimodal dataset that encompasses diverse navigation behaviors and complex terrains. Extensive simulation and real-world experiments demonstrate that MulDP enables robust long-horizon autonomous navigation and effective traversal across complex terrains.",
+      "authors": [
+        "Kangmai Hu",
+        "Yueqi Zhang",
+        "Peng Zhai",
+        "Xiaoyi Wei",
+        "Jiabin Hu",
+        "Zhixiang Liu",
+        "Quancheng Qian",
+        "Lihua Zhang"
+      ],
+      "published": "2026-09-03",
+      "updated": "2026-09-03",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": "8 pages, 8 figures, IROS 2026 Accept",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2609.03984",
+      "pdf_url": "https://arxiv.org/pdf/2609.03984",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "robot_centric",
+        "simulation"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Human Intervention"
+        ],
+        "simulation": [
+          "Simulation Data"
+        ]
+      }
+    },
+    "2609.03892": {
+      "arxiv_id": "2609.03892",
+      "title": "GraFT: A Training-Free Framework for Spatial Reasoning in Multimodal Large Language Models via 3D Scene Graphs",
+      "abstract": "3D spatial reasoning underpins understanding and acting in the physical world, yet it remains unreliable in current multimodal large language models (MLLMs). These models falter at precise geometric measurement, at transforming between egocentric and allocentric viewpoints, and at grounding fine-grained appearance. The most common remedies fine-tune the model on large-scale curated spatial-reasoning datasets or attach dedicated encoders for 3D geometry, which typically couples the solution to costly supervision and a specific backbone. We instead introduce GraFT, a training-free framework that supplies the missing 3D structure through a compact, easily maintained 3D scene graph (3DSG). From this 3DSG, GraFT provides three spatial reasoning capabilities: (1) deterministic geometry through symbolic tools, (2) allocentric layout through a bird's-eye-view (BEV) rendering, and (3) visual-attribute grounding through task-relevant egocentric frames. On ScanQA, GraFT improves every metric over the same-backbone baseline, raising CIDEr by 27%. On VSI-Bench, GraFT improves frozen MLLMs by up to 65%, surpassing every proprietary and general-purpose open-source baseline, and several prominent fine-tuned spatial models.",
+      "authors": [
+        "Junqing Du",
+        "Fernando Ropero",
+        "Erkin Turkoz",
+        "Yanfeng Zhang",
+        "Lu Liu"
+      ],
+      "published": "2026-09-03",
+      "updated": "2026-09-03",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2609.03892",
+      "pdf_url": "https://arxiv.org/pdf/2609.03892",
+      "query_sources": [
+        "cs-ro",
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric"
+        ]
+      }
+    },
+    "2609.03891": {
+      "arxiv_id": "2609.03891",
+      "title": "A hybrid pipeline for dynamic ontology-based semantic mapping",
+      "abstract": "Semantic mapping plays a crucial role in the ability of a robot to interact with objects, operate and navigate a complex environment. The most common pipeline for semantic mapping consists of geometric mapping and localization (SLAM), perception, semantic fusion and semantic representation. However, more recent works also integrate a form of prior knowledge in their application, most notably knowledge graphs or semantic scene graphs, to improve contextual understanding of the environment. In this paper, we present a hybrid pipeline for semantic mapping. Our system incorporates an external calibrated camera using homography projection for geometric mapping and localization, combined with object detection, persistent object tracking and ontology driven semantic updates to build a dynamic semantic world model. Linear regression models are also used for correction of the estimated values of real world coordinates. The system continuously updates object instances, spatial properties and semantic relations based on real time sensory data. Ontologies are selected as form of knowledge representation due to their hierarchical structure, semantic expressiveness and support for dynamic world modelling.",
+      "authors": [
+        "Konstantinos Dimitropoulos",
+        "Ioannis Hatzilygeroudis"
+      ],
+      "published": "2026-09-03",
+      "updated": "2026-09-03",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2609.03891",
+      "pdf_url": "https://arxiv.org/pdf/2609.03891",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Tracking / Reconstruction"
+        ]
+      }
+    },
+    "2609.03889": {
+      "arxiv_id": "2609.03889",
+      "title": "FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation",
+      "abstract": "Contact-rich loco-manipulation requires a bridge between semantic action generation and physical interaction control. Existing Vision-language-action (VLA) models generate task-level actions from visual and linguistic observations, but cannot interpret the physical interactions induced by those actions. While the whole-body control (WBC) policy can stabilize the robot, it cannot distinguish task-relevant interaction forces from forces induced by external disturbances during manipulation. Although force/torque sensors provide direct measurements of physical interactions, retrofitting them entails additional hardware costs and substantial integration effort, particularly for platforms not designed with sensor integration in mind. To address this problem, we propose FWBC-VLA, a force-aware framework that bridges task-level VLA action generation and low-level whole-body compensation control for wheeled-legged robots. First, we introduce HSR-Force, a sensorless residual-torque estimator for inferring contact strength and its temporal variation. These contact estimates are then encoded as tokens and injected into the VLA action expert during action decoding, enabling the policy to perceive contact onset, sustained loading, and release. For loco-manipulation tasks, all parameters of the pretrained VLA backbone are fine-tuned on our WL\\&Arm Dataset, which comprises more than 5,000 episodes. Moreover, the robot's proprioceptive state, the Jacobian-derived body-frame force estimate, and the estimated contact state are jointly fed into a compensation generator to produce corrective actions. The manipulation-centric actions are subsequently combined with the corrective actions and passed to the WBC policy for execution. Real-world experiments on whiteboard wiping and door opening with a door closer demonstrate the effectiveness of our FWBC-VLA in contact-rich loco-manipulation.",
+      "authors": [
+        "Yutian Zhang",
+        "Siyuan Ma",
+        "Liwen Yang",
+        "Yang Li",
+        "Ce Hao",
+        "Haozhen Chi",
+        "Dong We",
+        "Qiaojun Yu",
+        "Dibo Hou"
+      ],
+      "published": "2026-09-03",
+      "updated": "2026-09-03",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "comment": "9 pages, 6 figures",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2609.03889",
+      "pdf_url": "https://arxiv.org/pdf/2609.03889",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "robot_centric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Robot Dataset"
+        ]
+      }
+    },
+    "2609.03680": {
+      "arxiv_id": "2609.03680",
+      "title": "DropClick: Semi-Automated One-Click Segmentation for Agricultural Robotic Data",
+      "abstract": "Labelling vision datasets, especially for segmentation tasks, is a laborious and costly process that stymies novel developments in agricultural robotics. In this paper, we present DropClick, a click-guided segmentation tool that simplifies the annotation process. Our system utilises single-click inputs on objects to generate pseudo-labels, which can replace manual annotations. DropClick stands out as it is a semi-automated approach and does not require a click for every object in the scene. It can therefore further reduce the required amount of user input drastically. We evaluate our method on two challenging agricultural robotic datasets, SB20 and BUP20 for plant and fruit segmentation, respectively. DropClick is first trained on a small subset of just 5 images from the original training data. This DropClick model can then be deployed as a one-click segmentation system and achieves comparable or higher performance than other one-click methods achieving an mIoU of 70.0 and 72.6 points, for SB20 and BUP20 respectively. DropClick then excels at maintaining high performance when clicks are not given (e.g. dropped); when 50% of the clicks are missing it still maintains an mIoU of 68.9 and 71.3 points, for SB20 and BUP20 respectively. We validate DropClick as a pseudo-labelling approach by taking its outputs to train a Mask2Former instance-based segmentation model in a semi-supervised manner. In this process, partially removing user input from DropClick yields similar high performance when compared to providing all clicks, at 70.1 vs 70.7 points AP50 for SB20 and no difference for BUP20 at 77.0 for both models; at the same time saving 46.3% of total input for SB20 and 31.9% for BUP20.",
+      "authors": [
+        "Patrick Zimmer",
+        "Michael Halstead",
+        "Chris McCool"
+      ],
+      "published": "2026-09-03",
+      "updated": "2026-09-03",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "comment": "Accepted to ICRA 2026",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2609.03680",
+      "pdf_url": "https://arxiv.org/pdf/2609.03680",
+      "query_sources": [
+        "cs-ro",
+        "robot-data"
+      ],
+      "topics": [
+        "robot_centric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Robot Dataset"
+        ]
+      }
+    },
+    "2609.03591": {
+      "arxiv_id": "2609.03591",
+      "title": "Scaling Bimanual Household Manipulation from 1,500 hours of Demonstrations to On-Policy Corrections",
+      "abstract": "Learning generalist policies for robust bimanual manipulation is bottlenecked by the scarcity of high quality large scale human demonstration data. In this work, we release 1,500 hours of diverse bimanual manipulation demonstrations covering everyday household tasks, and use this comprehensive corpus to train XR-2, a powerful vision-language-action (VLA) model. Enabled by a purpose built high throughput data pipeline and a carefully designed multi stage training paradigm, XR-2 attains strong manipulation performance in our systematic experiments while retaining favorable training efficiency and high data utilization. We further study two critical scaling axes: varying the amount of expert demonstration data, and post training on DAgger correction data from real time human interventions. In both settings, task success rate improves steadily over the data ranges we probe, exhibiting a clear consistent scaling trend at our current data scale. These results validate both the learning capacity of XR-2 and the promising scaling properties of the released dataset, which we open source to support reproducible research on bimanual robot manipulation learning.",
+      "authors": [
+        "Jiafeng Xu",
+        "Qi Li",
+        "Yan Shen",
+        "Yiyu Ren",
+        "Travis Davies",
+        "Shaowen He",
+        "Ze Wang",
+        "Yifan Yang",
+        "Ran Cheng",
+        "Hao Dong"
+      ],
+      "published": "2026-09-03",
+      "updated": "2026-09-03",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2609.03591",
+      "pdf_url": "https://arxiv.org/pdf/2609.03591",
+      "query_sources": [
+        "cross-source-data",
+        "cs-ro"
+      ],
+      "topics": [
+        "robot_centric",
+        "human_egocentric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Robot Dataset",
+          "Human Intervention",
+          "Scalable Demonstrations"
+        ],
+        "human_egocentric": [
+          "Human Demonstration"
+        ]
+      }
+    },
+    "2609.03557": {
+      "arxiv_id": "2609.03557",
+      "title": "Building Pretraining Data for World Models: An Unreal Engine-Based Pipeline for Action-Conditioned Video Generation",
+      "abstract": "Action-conditioned video models require large-scale visual data paired with control signals that are temporally aligned with the resulting scene transitions. Such supervision is difficult to obtain from ordinary real-world video because the actions that caused each visual change are typically unknown. We present a large-scale synthetic data production pipeline built on Unreal Engine for generating action-conditioned, multi-view video. To accommodate the different execution requirements of real-time physics and high-quality offline rendering, the pipeline executes trajectory generation and final rendering in two stages: Stage I runs real physics in PIE and records per-frame character states, control inputs, and camera states into an intermediate trajectory representation; Stage II replays those trajectories in a new engine process and renders them offline with Movie Render Queue (MRQ). Around this core, we develop a distributed production system with cache-aware task partitioning, node-local slot scheduling, automated scene screening, aesthetic and luminance filtering, partial-output recovery, asynchronous upload, and continuous cluster health monitoring. The production cluster contains 25 servers with eight NVIDIA RTX 5090 GPUs per server. From 2,384 asset packs, 429 levels were retained for production together with a pool of 40 humanoid characters. The pipeline has produced 2,691 hours of 1080p video and 6,076 hours of 720p video. We describe the system architecture, the implementation decisions that emerged from production failures, and the limitations of using perceptual quality proxies for world-model data curation. The pipeline described in this report constitutes the Unreal Engine synthetic-data production component used in EchoWM.",
+      "authors": [
+        "Haoyu Wang",
+        "Songchun Zhang",
+        "Haoran Li",
+        "Haoyang Huang",
+        "Zeyue Xue",
+        "Nan Duan"
+      ],
+      "published": "2026-09-03",
+      "updated": "2026-09-03",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "comment": "16 pages, 5 figures",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2609.03557",
+      "pdf_url": "https://arxiv.org/pdf/2609.03557",
+      "query_sources": [
+        "cross-source-data"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Synthetic Data",
+          "Trajectory Generation"
+        ]
+      }
+    },
+    "2609.03276": {
+      "arxiv_id": "2609.03276",
+      "title": "R2S-Eval: Robot Evaluation with Real-to-Sim Calibration via Vision-Language Models",
+      "abstract": "Evaluating robot manipulation policies is becoming increasingly important as generalist models, particularly vision-language-action (VLA) models, are deployed on physical robots. However, conventional real-world evaluation remains labor-intensive, unstable, and insufficiently informative. It requires repeated hardware trials, manual scene resets, and continuous operator monitoring, may produce different policy rankings across repeated evaluations, and primarily relies on success-rate metrics that provide limited information about execution quality. In contrast, humans assess robot performance by observing and comparing complete behaviors rather than relying solely on binary success outcomes. To this end, we propose R2S-Eval, an evaluation pipeline that combines real-to-sim calibration with vision-language model (VLM) preference evaluation. The real-to-sim component efficiently generates rollout videos in a simulator calibrated to the real-world evaluation setting, thereby reducing the need for repeated hardware trials. The VLM evaluator assesses the execution quality of rollout videos and produces pairwise preferences, which are subsequently aggregated into policy rankings. We further introduce a protocol to assess whether the proposed evaluation pipeline yields validated policy conclusions while mitigating the key challenges of conventional real-world evaluation. Experiments in both simulation and real-world settings demonstrate that R2S-Eval produces reliable and stable policy conclusions, achieves agreement with human preferences, substantially reduces repeated hardware-operation effort, and reveals behavior-quality differences that are not captured by binary success labels. In general, R2S-Eval advances robot evaluation from manual success counting toward automated, statistically stable, and quality-aware evaluation of robot behavior. Project page: https://r2s-eval.github.io.",
+      "authors": [
+        "Yidi Wang",
+        "Feixiang Ruan",
+        "Ruoqu Chen",
+        "Jie Yin",
+        "Yang Yu",
+        "Mengdi Xu",
+        "Kaifeng Zhang"
+      ],
+      "published": "2026-09-03",
+      "updated": "2026-09-03",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2609.03276",
+      "pdf_url": "https://arxiv.org/pdf/2609.03276",
+      "query_sources": [
+        "cs-ro",
+        "human-egocentric",
+        "simulation-data"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Sim-to-Real"
+        ]
+      }
+    },
+    "2609.03255": {
+      "arxiv_id": "2609.03255",
+      "title": "Establishing a Dynamic Multimodal HRI Dataset for Engagement Analysis with a Humanoid Robot",
+      "abstract": "This paper presents an experimental design for constructing a multimodal dataset to analyze user engagement in human-robot interaction (HRI). Prior studies have mainly relied on observable behavioral cues, with limited frameworks integrating physiological signals. We therefore propose a structured data-collection protocol to build a multimodal dataset that includes wearable physiological signals, behavioral data, and self-report measures under different levels of task complexity defined in this experiment.",
+      "authors": [
+        "Buwan Kim",
+        "Wonse Jo"
+      ],
+      "published": "2026-09-03",
+      "updated": "2026-09-03",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2609.03255",
+      "pdf_url": "https://arxiv.org/pdf/2609.03255",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "robot_centric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Robot Dataset"
+        ]
+      }
+    },
+    "2609.03199": {
+      "arxiv_id": "2609.03199",
+      "title": "RoboTok: An Internet-Scale Data Engine for Human Demonstration Retrieval and Dexterous Manipulation Learning",
+      "abstract": "Robot learning increasingly depends on broad and diverse demonstrations, yet collecting robot data remains expensive and poorly suited to covering the long tail of real-world tasks. To address this bottleneck, we introduce RoboTok, an internet-scale data engine that, given a query human manipulation video, retrieves manipulation-relevant human demonstrations from web videos for training dexterous robot policies. Specifically, we learn a latent motion space from 3D hand trajectories expressed in estimated actor-centered reference frames. This representation enables manipulation behaviors to be compared across variations in camera viewpoint, scene appearance, and actor occlusions, while remaining compact enough for efficient search and continual indexing over internet-scale video collections. We evaluate RoboTok against existing robot-data retrieval approaches on retrieval benchmarks and downstream robot policy performance. Our results show that RoboTok retrieves more relevant manipulation demonstrations and improves downstream task success, establishing hand-pose trajectory-aware retrieval as a way to make web video a scalable and continuously growing source of supervision for robot learning.",
+      "authors": [
+        "Howard Qian",
+        "Yiting Chen",
+        "Yunfei Xie",
+        "Kejia Ren",
+        "Podshara Chanrungmaneekul",
+        "Gaotian Wang",
+        "Bowen Wen",
+        "Chen Wei",
+        "Kaiyu Hang"
+      ],
+      "published": "2026-09-02",
+      "updated": "2026-09-02",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2609.03199",
+      "pdf_url": "https://arxiv.org/pdf/2609.03199",
+      "query_sources": [
+        "cross-source-data",
+        "cs-ro",
+        "robot-data"
+      ],
+      "topics": [
+        "robot_centric",
+        "human_egocentric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Robot Dataset",
+          "Data Collection"
+        ],
+        "human_egocentric": [
+          "Human Demonstration"
+        ]
+      }
+    },
+    "2609.03142": {
+      "arxiv_id": "2609.03142",
+      "title": "Sensing Which Modality Matters: Evidence-Gated Regularization for Robust VLA Policies",
+      "abstract": "Vision-Language-Action (VLA) policies fuse multimodal sensory inputs, but training on limited and homogeneous robot demonstrations encourages spurious inter-sensor correlations rather than task-relevant signal, a failure we term modality entanglement. Under real-world occlusions and distractors, this manifests as nuisance sensitivity to corruption of uninformative sensors and single-modality insufficiency when only one informative sensor remains intact. We propose Evidence-Gated Regularization (EGR), a modality-agnostic training objective that introduces zero inference-time overhead. EGR derives a per-frame and per-sensor task-relevance signal to gate two state-conditional consistency objectives: invariance on low-evidence sensors, and single-sensor sufficiency on high-evidence ones. We introduce a benchmark based on BEHAVIOR-1K, comprising a fast inference-only diagnostic suite and 47 rollout-based skills targeting modality entanglement. We validate EGR on this benchmark and on two real-robot setups with fundamentally different embodiments: a bi-manual setup with two Kinova arms and three RGB cameras, and a single-arm MELFA ASSISTA setup combining vision and GelSight tactile sensors. EGR improves simulation success rates (SR) from 12.5% to 16.4% under full modalities (+31%), from 9.4% to 16.5% under uninformative-sensor corruption (+75%), and from 2.8% to 6.1% under single-sensor fallback (+120%). Under physical-object distractors, EGR boosts SR from 30% to 85% on the bi-manual setup (+183%) and from 55% to 70% on the tactile setup (+27%).",
+      "authors": [
+        "Yue Yang",
+        "Diego Romeres",
+        "Chiori Hori",
+        "Gedas Bertasius",
+        "Daniel Szafir",
+        "Siddarth Jain"
+      ],
+      "published": "2026-09-02",
+      "updated": "2026-09-02",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2609.03142",
+      "pdf_url": "https://arxiv.org/pdf/2609.03142",
+      "query_sources": [
+        "cs-ro",
+        "robot-data"
+      ],
+      "topics": [
+        "robot_centric",
+        "simulation"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Robot Dataset"
+        ],
+        "simulation": [
+          "Synthetic Sensor"
+        ]
+      }
+    },
     "2609.02798": {
       "arxiv_id": "2609.02798",
       "title": "AutoCompass: Accurate Visual Localization on Public Maps by Learning from Weak Labels",
@@ -204,12 +626,13 @@
         "Satvik Sharma",
         "Samrat Sahoo",
         "Huang Huang",
-        "Fei-Fei Li Jiajun Wu",
+        "Fei-Fei Li",
+        "Jiajun Wu",
         "Dorsa Sadigh",
         "Jeannette Bohg"
       ],
       "published": "2026-09-01",
-      "updated": "2026-09-01",
+      "updated": "2026-09-03",
       "primary_category": "cs.RO",
       "categories": [
         "cs.RO"
@@ -683,7 +1106,7 @@
         "Noorbakhsh Amiri Golilarz"
       ],
       "published": "2026-08-31",
-      "updated": "2026-08-31",
+      "updated": "2026-09-02",
       "primary_category": "cs.RO",
       "categories": [
         "cs.RO",
@@ -202565,7 +202988,7 @@
     }
   },
   "coverage_start": "2025-01-01",
-  "coverage_end": "2026-09-03",
-  "paper_count": 5298,
-  "generated_at": "2026-09-03T15:59:30+00:00"
+  "coverage_end": "2026-09-04",
+  "paper_count": 5309,
+  "generated_at": "2026-09-04T03:24:48+00:00"
 }
