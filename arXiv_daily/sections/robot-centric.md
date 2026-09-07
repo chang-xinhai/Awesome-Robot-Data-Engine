@@ -4,12 +4,15 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-09-06 · **Papers:** 2022 · **Unique arXiv IDs:** 2022
+**Coverage:** 2025-01-01 to 2026-09-07 · **Papers:** 2025 · **Unique arXiv IDs:** 2025
 
 ## 2026-09
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-09-04 | [Towards Neuro-Symbolic Procedural Reasoning for Long-Horizon Vision-Language-Action Manipulation](https://arxiv.org/abs/2609.05369) | Vivek Chavan, Yahuan Shi, Oliver Heimann, et al. | cs.RO, cs.CV | Teleoperation | [abs](https://arxiv.org/abs/2609.05369) / [pdf](https://arxiv.org/pdf/2609.05369) |
+| 2026-09-04 | [Pack It My Way: Triadic Human-Robot Collaboration for Personalized Autonomous Packing](https://arxiv.org/abs/2609.04620) | Sandeep Chowdary Kotapati, Yanxin Gao, Tsung-Chi Lin | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2609.04620) / [pdf](https://arxiv.org/pdf/2609.04620) |
+| 2026-09-04 | [Open-Set 3D Scene Graphs for Field Robotics: An Outdoor Case Study](https://arxiv.org/abs/2609.04607) | Chad R. Samuelson, Gabriel R. Slade, Joshua G. Mangelson | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2609.04607) / [pdf](https://arxiv.org/pdf/2609.04607) |
 | 2026-09-03 | [MulDP: Multimodal Diffusion Policy for Autonomous Quadruped Parkour Navigation across Complex Terrains](https://arxiv.org/abs/2609.03984) | Kangmai Hu, Yueqi Zhang, Peng Zhai, et al. | cs.RO | Human Intervention | [abs](https://arxiv.org/abs/2609.03984) / [pdf](https://arxiv.org/pdf/2609.03984) |
 | 2026-09-03 | [FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation](https://arxiv.org/abs/2609.03889) | Yutian Zhang, Siyuan Ma, Liwen Yang, et al. | cs.RO, cs.AI | Robot Dataset | [abs](https://arxiv.org/abs/2609.03889) / [pdf](https://arxiv.org/pdf/2609.03889) |
 | 2026-09-03 | [DropClick: Semi-Automated One-Click Segmentation for Agricultural Robotic Data](https://arxiv.org/abs/2609.03680) | Patrick Zimmer, Michael Halstead, Chris McCool | cs.CV, cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2609.03680) / [pdf](https://arxiv.org/pdf/2609.03680) |

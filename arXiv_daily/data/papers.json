@@ -1,6 +1,331 @@
 {
   "schema_version": 1,
   "papers": {
+    "2609.05369": {
+      "arxiv_id": "2609.05369",
+      "title": "Towards Neuro-Symbolic Procedural Reasoning for Long-Horizon Vision-Language-Action Manipulation",
+      "abstract": "Vision-language-action (VLA) models can execute short manipulation skills, but remain brittle in long-horizon procedures requiring persistent task state, dependency-aware reasoning, conditional decisions, and reliable grounding. We investigate a neuro-symbolic framework that combines learned VLA control with explicit task graphs and multimodal procedural memory. Task graphs encode action dependencies, valid transitions, and branch conditions, while memory maintains the active step, completed actions, textual context, and task-relevant visual evidence. Together, these structures guide object selection, destination grounding, subgoal dispatch, and verification of expected state transitions. Human demonstrations provide additional spatial and temporal guidance through gaze or saliency cues. To isolate their effect on policy learning, our initial study bypasses cross-view gaze transfer and directly annotates pseudo-gaze in robot-view teleoperation videos. The resulting guidance is used during VLA fine-tuning and inference. We study two long-horizon manipulation domains, workspace clearing and surgical-instrument handling, which require ordered execution, visually grounded decisions, and conditional branching. We evaluate correct-object and destination selection, subtask completion, task progress, step-order consistency, complete-task success, and procedural or execution mistakes. This work positions structured symbolic reasoning and demonstration-derived visual guidance as complementary mechanisms for reliable long-horizon VLA manipulation.",
+      "authors": [
+        "Vivek Chavan",
+        "Yahuan Shi",
+        "Oliver Heimann",
+        "Kevin Haninger",
+        "Jörg Krüger"
+      ],
+      "published": "2026-09-04",
+      "updated": "2026-09-04",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "comment": "Accepted as an oral presentation at the X-Reason Workshop, ECCV 2026. Non-archival extended abstract. 6 pages, 2 figures, 1 table",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2609.05369",
+      "pdf_url": "https://arxiv.org/pdf/2609.05369",
+      "query_sources": [
+        "cs-ro",
+        "robot-data"
+      ],
+      "topics": [
+        "robot_centric",
+        "human_egocentric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Teleoperation"
+        ],
+        "human_egocentric": [
+          "Human Demonstration"
+        ]
+      }
+    },
+    "2609.05282": {
+      "arxiv_id": "2609.05282",
+      "title": "Temporal Tactile Encoding and Compliance for Intent-Aware Robot-to-Human Bimanual Handover",
+      "abstract": "Reliable robot-to-human handover requires the robot to infer when the person is ready to receive the object, and release it safely, comfortably, and at the right time. This is challenging because visual observations alone may not disambiguate clear taking intent from accidental contact, weak grasping, wrong-direction forces, or transient interactions. In this work we treat human-robot handover as an intrinsically multimodal problem. Our approach couples a VLA model with a compliance controller that reduces interaction forces during object transfer. We finetune the VLA model with human demonstrations using RGB observation, temporally encoded tactile feedback and proprioception. We evaluate the complete system in a human-subject study against two baselines: one without tactile feedback and one using tactile feedback without compliance control. We hypothesize that combining compliance and temporal tactile encoding yields the most reliable and comfortable handovers, as compliance facilitates physical interaction while tactile history captures sustained taking intent. Performance is measured through objective metrics and an ad-hoc questionnaire. The results show that the two components provide complementary benefits and substantially outperform the baselines. Code and data will be released upon acceptance.",
+      "authors": [
+        "Pasquale Marra",
+        "Stefano Berti",
+        "Gabriele Mario Caddeo",
+        "Lorenzo Natale"
+      ],
+      "published": "2026-09-04",
+      "updated": "2026-09-04",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2609.05282",
+      "pdf_url": "https://arxiv.org/pdf/2609.05282",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Human Demonstration"
+        ]
+      }
+    },
+    "2609.04958": {
+      "arxiv_id": "2609.04958",
+      "title": "MINT: A Unified Model for World-Space Camera and Hand Motion Estimation from Scalable Egocentric Pipeline Supervision",
+      "abstract": "Recovering camera and hand motion in world coordinates from egocentric video is a key capability for activity understanding, robot learning, and augmented reality. Existing systems typically decompose this problem into separate stages for camera motion, depth, hand reconstruction, and trajectory refinement, resulting in substantial computational overhead and preventing the joint modeling of camera and hand motion. We introduce MINT (Minting IN-the-Wild Trajectories), the first foundation model that directly produces complete world-space two-hand trajectories from ego-centric RGB video. From a single shared spatiotemporal video representation, MINT jointly predicts the camera trajectory, camera-frame hand states, and per-frame hand presence, and then produces world-space hand motion via explicit coordinate transformations. Training such a model at scale is challenging, since paired world-space camera and hand annotations are scarce. We therefore develop an open-source labeling EGOPIPELINE that converts large collections of public egocentric videos into structured camera-and-hand trajectory supervision. MINT is first pretrained on these large-scale pseudo-labels and then fine-tuned on a small set of high-quality joint annotations. Across public benchmarks, MINT achieves [xxx] improvement in world-space hand trajectory accuracy, [xxx] improvement in camera trajectory estimation, and [xxx] faster end-to-end trajectory generation than the labeling pipeline, while generalizing zero-shot to unseen egocentric datasets. We release the model, training and inference code, labeling pipeline, and a curated 1,021-hour egocentric trajectory dataset.",
+      "authors": [
+        "Zijie Zhu",
+        "Weiren Cai",
+        "Yizhou Wang",
+        "Zhenjie Yang",
+        "Yide Liu",
+        "Jiahao Chen",
+        "Guanqi He"
+      ],
+      "published": "2026-09-04",
+      "updated": "2026-09-04",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2609.04958",
+      "pdf_url": "https://arxiv.org/pdf/2609.04958",
+      "query_sources": [
+        "cs-ro",
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric",
+        "simulation"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric",
+          "Tracking / Reconstruction"
+        ],
+        "simulation": [
+          "Trajectory Generation"
+        ]
+      }
+    },
+    "2609.04851": {
+      "arxiv_id": "2609.04851",
+      "title": "Coupled Control and Wireless World Models for Resilient Remote Robotic Control",
+      "abstract": "Remote robotic systems operating over wireless networks must maintain reliable control despite limited communication resources, changing channel conditions, and environmental disturbances.However, continuously transmitting high-dimensional sensory observations, such as camera images, increases communication overhead and energy consumption while reducing robustness under unreliable connectivity.To address these challenges, this paper proposes a resilient communication-aware remote robotic control framework based on coupled control and wireless Joint Embedding Predictive Architecture (JEPA) world models that jointly capture robot dynamics and wireless channel evolution from visual observations and a combination of raw and structured radio frequency (RF) representations based on spectrograms and Persistence Images(PIs).The learned latent representations enable predictive communication scheduling by jointly forecasting future robot states and wireless conditions, thereby reducing unnecessary uplink transmissions while maintaining reliable control performance.Furthermore, an adaptive resilience mechanism detects latent prediction discrepancies and efficiently adapts perception embeddings to accommodate wireless and visual environmental changes without retraining the complete control policy.The proposed framework is evaluated in a synchronized Gazebo-Robot Operating System (ROS)-Sionna robot-wireless simulation environment under diverse wireless propagation and perception perturbations.Experimental results demonstrate significant improvements in communication efficiency, robustness, and resilience while maintaining navigation performance compared with conventional Proportional Integral Derivative (PID), model-free Deep Q-Network (DQN), and predictive approaches based on Vision Transformers(ViTs).",
+      "authors": [
+        "H. P. Madushanka",
+        "Sumudu Samarakoon",
+        "Mehdi Bennis"
+      ],
+      "published": "2026-09-04",
+      "updated": "2026-09-04",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "comment": "13 pages, 13 figures. Submitted to IEEE Internet of Things Journal",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2609.04851",
+      "pdf_url": "https://arxiv.org/pdf/2609.04851",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Simulation Data"
+        ]
+      }
+    },
+    "2609.04759": {
+      "arxiv_id": "2609.04759",
+      "title": "Dressing in Motion: A Human Motion-Aware Diffusion Policy for Robot-Assisted Dressing",
+      "abstract": "Robotic dressing assistance is a promising solution for supporting older adults with physical impairments in daily living. However, dressing under human motion remains challenging, as complex garment--human contact and occlusions make it difficult to generate actions aligned with arm movements. In this letter, we propose a visuomotor policy that learns dressing skills from static expert demonstrations and generalizes to dynamic user-motion scenarios. A diffusion policy tailored to garment--human interaction geometry learns from partially observed point clouds with varied arm postures. We then introduce an object-centric representation based on PDE diffusion to capture the axial distribution of the arm. By sampling motion-relevant regions and registering them across consecutive observations, the proposed method approximates arm motion and reactively adapts the executed trajectory. We evaluate our method in simulation and a real-world human study involving nine participants, three garment types, and six arm-motion patterns. Results show that our method outperforms baselines in dressing progress, freedom of movement, and user comfort. The project website is https://anonymous.4open.science/w/dressing-in-motion.",
+      "authors": [
+        "Haoxiang Sun",
+        "Fangyuan Wang",
+        "Songhao Huang",
+        "Justina Y. W. Liu",
+        "Jihong Zhu",
+        "Peng Zhou",
+        "David Navarro-Alarcon"
+      ],
+      "published": "2026-09-04",
+      "updated": "2026-09-04",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": "9 pages, 11 figures",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2609.04759",
+      "pdf_url": "https://arxiv.org/pdf/2609.04759",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "human_egocentric",
+        "simulation"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Affordance / Contact"
+        ],
+        "simulation": [
+          "Simulation Data"
+        ]
+      }
+    },
+    "2609.04620": {
+      "arxiv_id": "2609.04620",
+      "title": "Pack It My Way: Triadic Human-Robot Collaboration for Personalized Autonomous Packing",
+      "abstract": "Personalized autonomous packing requires robots to account for resident preferences that cannot be inferred from scene geometry alone. Expert teleoperators can interpret these preferences and translate them into feasible robot actions, but continuous expert involvement limits scalable deployment. In this paper, we investigate triadic human-robot collaboration among a resident, a correction mediator, and a robot by comparing human-expert and voice-agent mediation. We evaluate the two conditions in a user study across Protection, Compactness, andGrouping tasks, using a Show-Correct-Generalize process to assess preference correction and subsequent generalization after the surrounding objects are rearranged. Results show that voice-agent mediation achieves outcomes comparable to human-expert mediation in two of the three preference categories, despite receiving shorter and less detailed instructions. Both mediators are similarly easy to use, although the human expert is perceived as more reliable. These findings demonstrate the potential of voice agents to reduce expert involvement while identifying perceived reliability and preference generalization as remaining challenges.",
+      "authors": [
+        "Sandeep Chowdary Kotapati",
+        "Yanxin Gao",
+        "Tsung-Chi Lin"
+      ],
+      "published": "2026-09-04",
+      "updated": "2026-09-04",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2609.04620",
+      "pdf_url": "https://arxiv.org/pdf/2609.04620",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "robot_centric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Teleoperation"
+        ]
+      }
+    },
+    "2609.04607": {
+      "arxiv_id": "2609.04607",
+      "title": "Open-Set 3D Scene Graphs for Field Robotics: An Outdoor Case Study",
+      "abstract": "Three-dimensional scene graphs (3DSGs) have emerged as a promising approach for building geometrically grounded, semantically informed, hierarchical general-purpose maps to support high-level robotic reasoning. However, the behavior of 3DSGs in real-world outdoor deployments remains poorly understood, particularly when combined with open-set vision-language models (VLMs). In this field report, we analyze the components common to most 3DSG representations across five outdoor robotic datasets to characterize challenges that arise in complex outdoor environments. Using the recently proposed Terra 3DSG as a case study, we investigate semantic point embeddings, place-node graph navigation, region-level understanding, and memory size across the five diverse datasets. We additionally introduce novel consistency metrics to evaluate whether semantic and structural graph properties remain stable across repeated traversals of the same environment. Our analysis reveals that outliers and multiple modes are common in VLM point embeddings across all tested datasets with outlier ratios above $0.1$ for around $30\\%$ of points. We demonstrate the feasibility of outdoor 3DSGs for navigation-based object retrieval, achieving success rates near $70\\%$, though performance is limited by traversability failures and inefficient routing, with trajectories averaging approximately $66\\%$ suboptimal path efficiency. Region-level understanding remains challenging in complex natural environments, with low average F1 scores around $0.359$. Overall, our results show that outdoor 3DSGs can maintain compact (less than $600$MB for multi-kilometer trajectories) and relatively consistent large-scale environment representations, while highlighting open challenges in handling multiple semantic modes, incorporating traversability into graph structures, and improving higher-level region understanding.",
+      "authors": [
+        "Chad R. Samuelson",
+        "Gabriel R. Slade",
+        "Joshua G. Mangelson"
+      ],
+      "published": "2026-09-04",
+      "updated": "2026-09-04",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": "This work has been accepted for publication with the IEEE Transactions of Field Robotics Journal",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2609.04607",
+      "pdf_url": "https://arxiv.org/pdf/2609.04607",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "robot_centric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Robot Dataset"
+        ]
+      }
+    },
+    "2609.04602": {
+      "arxiv_id": "2609.04602",
+      "title": "NavArena: Automated Construction of Goal-Oriented Navigation Benchmarks from 3D Gaussian Splatting Reconstructions",
+      "abstract": "Fixed 3D Gaussian Splatting (3DGS) reconstructions provide realistic novel views but lack the traversability constraints, valid goals, and closed-loop protocols required for navigation evaluation. We introduce NavArena, an automated framework that transforms fixed 3DGS reconstructions into benchmarks for goal-oriented visual navigation. NavArena integrates a frozen 3DGS model for egocentric RGB-D rendering, an occupancy costmap derived from Gaussian density and height statistics for reachability and collision queries, and semantic goal candidates lifted from multi-view open-vocabulary masks. These components support the automatic generation and unified closed-loop evaluation of goal-oriented navigation episodes. Across more than 2{,}000 scenes, NavArena generates 22.2 million expert trajectories. Spatial and semantic evaluations assess the derived navigation representations, while policy rollouts demonstrate the diagnostic value of the unified evaluation protocol. NavArena enables scalable and reproducible navigation evaluation on large-scale 3DGS reconstructions, and all benchmark-generation tools, evaluation protocols, and derived assets will be released publicly.",
+      "authors": [
+        "Junhui Wang",
+        "Wei Yang",
+        "Xinyao Li",
+        "Ningjing Fan",
+        "Yuehao Yin",
+        "Xuecheng Chen",
+        "Chao Gao"
+      ],
+      "published": "2026-09-04",
+      "updated": "2026-09-04",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2609.04602",
+      "pdf_url": "https://arxiv.org/pdf/2609.04602",
+      "query_sources": [
+        "cs-ro",
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric"
+        ]
+      }
+    },
+    "2609.04592": {
+      "arxiv_id": "2609.04592",
+      "title": "Hidden In Plain Gaze: Gaze Representations as Privacy Controls for Utility and Re-identification Risk in XR",
+      "abstract": "Intelligent extended reality (XR) systems increasingly use eye and head tracking to infer user intent, task, and attention, but the same signals can also reveal biometric identity. We study whether gaze data representation choice can serve as a lightweight privacy control at feature extraction, before adding perturbation or formal privacy mechanisms. Using the egocentric HoloAssist dataset, we compare three gaze representations under matched model capacity: raw gaze, spatial attention heatmaps, and engineered eye-movement features. We evaluate each representation on action recognition as task utility and closed-set user re-identification as privacy leakage. Representation choice substantially changes the privacy-utility tradeoff. Engineered features retain roughly 85% of raw gaze's action-recognition accuracy while reducing re-identification by about an order of magnitude, to roughly four times the chance rate across 206 identities. This reduction attenuates rather than eliminates identity leakage, and the differences across representations show that abstraction alone does not guarantee privacy. Engineered features expose interpretable and auditable structure, giving designers a transparent privacy lever that complements mechanisms such as differential privacy.",
+      "authors": [
+        "Cory Ilo",
+        "Brendan-David John",
+        "Doug A. Bowman"
+      ],
+      "published": "2026-09-04",
+      "updated": "2026-09-04",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.ET",
+        "cs.HC",
+        "cs.LG"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2609.04592",
+      "pdf_url": "https://arxiv.org/pdf/2609.04592",
+      "query_sources": [
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric"
+        ]
+      }
+    },
     "2609.03984": {
       "arxiv_id": "2609.03984",
       "title": "MulDP: Multimodal Diffusion Policy for Autonomous Quadruped Parkour Navigation across Complex Terrains",
@@ -121,12 +446,12 @@
         "Yang Li",
         "Ce Hao",
         "Haozhen Chi",
-        "Dong We",
+        "Dong Wei",
         "Qiaojun Yu",
         "Dibo Hou"
       ],
       "published": "2026-09-03",
-      "updated": "2026-09-03",
+      "updated": "2026-09-04",
       "primary_category": "cs.RO",
       "categories": [
         "cs.RO",
@@ -1342,7 +1667,7 @@
         "Chengkai Dai"
       ],
       "published": "2026-08-31",
-      "updated": "2026-09-01",
+      "updated": "2026-09-04",
       "primary_category": "cs.CV",
       "categories": [
         "cs.CV",
@@ -1352,7 +1677,7 @@
       ],
       "comment": null,
       "journal_ref": null,
-      "doi": null,
+      "doi": "10.1145/3829340.3842340",
       "url": "https://arxiv.org/abs/2608.30344",
       "pdf_url": "https://arxiv.org/pdf/2608.30344",
       "query_sources": [
@@ -2594,7 +2919,7 @@
         "Nicolas Rojas"
       ],
       "published": "2026-08-27",
-      "updated": "2026-08-27",
+      "updated": "2026-09-04",
       "primary_category": "cs.RO",
       "categories": [
         "cs.RO"
@@ -202988,7 +203313,7 @@
     }
   },
   "coverage_start": "2025-01-01",
-  "coverage_end": "2026-09-06",
-  "paper_count": 5309,
-  "generated_at": "2026-09-06T15:07:05+00:00"
+  "coverage_end": "2026-09-07",
+  "paper_count": 5318,
+  "generated_at": "2026-09-07T03:32:12+00:00"
 }

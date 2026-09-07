@@ -4,12 +4,15 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-09-06 · **Papers:** 2464 · **Unique arXiv IDs:** 2464
+**Coverage:** 2025-01-01 to 2026-09-07 · **Papers:** 2467 · **Unique arXiv IDs:** 2467
 
 ## 2026-09
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-09-04 | [MINT: A Unified Model for World-Space Camera and Hand Motion Estimation from Scalable Egocentric Pipeline Supervision](https://arxiv.org/abs/2609.04958) | Zijie Zhu, Weiren Cai, Yizhou Wang, et al. | cs.CV, cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2609.04958) / [pdf](https://arxiv.org/pdf/2609.04958) |
+| 2026-09-04 | [Coupled Control and Wireless World Models for Resilient Remote Robotic Control](https://arxiv.org/abs/2609.04851) | H. P. Madushanka, Sumudu Samarakoon, Mehdi Bennis | cs.RO, cs.LG | Simulation Data | [abs](https://arxiv.org/abs/2609.04851) / [pdf](https://arxiv.org/pdf/2609.04851) |
+| 2026-09-04 | [Dressing in Motion: A Human Motion-Aware Diffusion Policy for Robot-Assisted Dressing](https://arxiv.org/abs/2609.04759) | Haoxiang Sun, Fangyuan Wang, Songhao Huang, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2609.04759) / [pdf](https://arxiv.org/pdf/2609.04759) |
 | 2026-09-03 | [MulDP: Multimodal Diffusion Policy for Autonomous Quadruped Parkour Navigation across Complex Terrains](https://arxiv.org/abs/2609.03984) | Kangmai Hu, Yueqi Zhang, Peng Zhai, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2609.03984) / [pdf](https://arxiv.org/pdf/2609.03984) |
 | 2026-09-03 | [Building Pretraining Data for World Models: An Unreal Engine-Based Pipeline for Action-Conditioned Video Generation](https://arxiv.org/abs/2609.03557) | Haoyu Wang, Songchun Zhang, Haoran Li, et al. | cs.CV, cs.GR | Synthetic Data, Trajectory Generation | [abs](https://arxiv.org/abs/2609.03557) / [pdf](https://arxiv.org/pdf/2609.03557) |
 | 2026-09-03 | [R2S-Eval: Robot Evaluation with Real-to-Sim Calibration via Vision-Language Models](https://arxiv.org/abs/2609.03276) | Yidi Wang, Feixiang Ruan, Ruoqu Chen, et al. | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2609.03276) / [pdf](https://arxiv.org/pdf/2609.03276) |

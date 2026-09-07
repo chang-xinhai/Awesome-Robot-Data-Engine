@@ -4,12 +4,18 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-09-06 · **Papers:** 1897 · **Unique arXiv IDs:** 1897
+**Coverage:** 2025-01-01 to 2026-09-07 · **Papers:** 1903 · **Unique arXiv IDs:** 1903
 
 ## 2026-09
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-09-04 | [Towards Neuro-Symbolic Procedural Reasoning for Long-Horizon Vision-Language-Action Manipulation](https://arxiv.org/abs/2609.05369) | Vivek Chavan, Yahuan Shi, Oliver Heimann, et al. | cs.RO, cs.CV | Human Demonstration | [abs](https://arxiv.org/abs/2609.05369) / [pdf](https://arxiv.org/pdf/2609.05369) |
+| 2026-09-04 | [Temporal Tactile Encoding and Compliance for Intent-Aware Robot-to-Human Bimanual Handover](https://arxiv.org/abs/2609.05282) | Pasquale Marra, Stefano Berti, Gabriele Mario Caddeo, et al. | cs.RO | Human Demonstration | [abs](https://arxiv.org/abs/2609.05282) / [pdf](https://arxiv.org/pdf/2609.05282) |
+| 2026-09-04 | [MINT: A Unified Model for World-Space Camera and Hand Motion Estimation from Scalable Egocentric Pipeline Supervision](https://arxiv.org/abs/2609.04958) | Zijie Zhu, Weiren Cai, Yizhou Wang, et al. | cs.CV, cs.RO | Egocentric, Tracking / Reconstruction | [abs](https://arxiv.org/abs/2609.04958) / [pdf](https://arxiv.org/pdf/2609.04958) |
+| 2026-09-04 | [Dressing in Motion: A Human Motion-Aware Diffusion Policy for Robot-Assisted Dressing](https://arxiv.org/abs/2609.04759) | Haoxiang Sun, Fangyuan Wang, Songhao Huang, et al. | cs.RO | Affordance / Contact | [abs](https://arxiv.org/abs/2609.04759) / [pdf](https://arxiv.org/pdf/2609.04759) |
+| 2026-09-04 | [NavArena: Automated Construction of Goal-Oriented Navigation Benchmarks from 3D Gaussian Splatting Reconstructions](https://arxiv.org/abs/2609.04602) | Junhui Wang, Wei Yang, Xinyao Li, et al. | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2609.04602) / [pdf](https://arxiv.org/pdf/2609.04602) |
+| 2026-09-04 | [Hidden In Plain Gaze: Gaze Representations as Privacy Controls for Utility and Re-identification Risk in XR](https://arxiv.org/abs/2609.04592) | Cory Ilo, Brendan-David John, Doug A. Bowman | cs.CV, cs.ET, cs.HC | Egocentric | [abs](https://arxiv.org/abs/2609.04592) / [pdf](https://arxiv.org/pdf/2609.04592) |
 | 2026-09-03 | [GraFT: A Training-Free Framework for Spatial Reasoning in Multimodal Large Language Models via 3D Scene Graphs](https://arxiv.org/abs/2609.03892) | Junqing Du, Fernando Ropero, Erkin Turkoz, et al. | cs.CV, cs.AI, cs.RO | Egocentric | [abs](https://arxiv.org/abs/2609.03892) / [pdf](https://arxiv.org/pdf/2609.03892) |
 | 2026-09-03 | [A hybrid pipeline for dynamic ontology-based semantic mapping](https://arxiv.org/abs/2609.03891) | Konstantinos Dimitropoulos, Ioannis Hatzilygeroudis | cs.RO | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2609.03891) / [pdf](https://arxiv.org/pdf/2609.03891) |
 | 2026-09-03 | [Scaling Bimanual Household Manipulation from 1,500 hours of Demonstrations to On-Policy Corrections](https://arxiv.org/abs/2609.03591) | Jiafeng Xu, Qi Li, Yan Shen, et al. | cs.RO | Human Demonstration | [abs](https://arxiv.org/abs/2609.03591) / [pdf](https://arxiv.org/pdf/2609.03591) |
