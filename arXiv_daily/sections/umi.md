@@ -4,7 +4,13 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-09-09 · **Papers:** 69 · **Unique arXiv IDs:** 69
+**Coverage:** 2025-01-01 to 2026-09-09 · **Papers:** 70 · **Unique arXiv IDs:** 70
+
+## 2026-09
+
+| Date | Paper | Authors | Categories | Matched signals | Links |
+| :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-09-07 | [CosmoH2G: A Hand-to-Gripper Transfer Dataset and Baseline Method for Object Manipulation with Complex Spatial Movements](https://arxiv.org/abs/2609.07498) | Hongxiang Zhao, Mutian Xu, Zeyu Jin, et al. | cs.RO, cs.CV | Handheld Gripper | [abs](https://arxiv.org/abs/2609.07498) / [pdf](https://arxiv.org/pdf/2609.07498) |
 
 ## 2026-08
 
