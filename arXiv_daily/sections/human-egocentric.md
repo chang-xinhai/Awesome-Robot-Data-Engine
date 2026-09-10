@@ -4,12 +4,14 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-09-10 · **Papers:** 1928 · **Unique arXiv IDs:** 1928
+**Coverage:** 2025-01-01 to 2026-09-10 · **Papers:** 1930 · **Unique arXiv IDs:** 1930
 
 ## 2026-09
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-09-09 | [Grounding Generated Video Plans in Simulation Towards Versatile Dexterous Controllers](https://arxiv.org/abs/2609.10050) | Tianyue Wu, Boyuan An, Shuqi Zhao, et al. | cs.RO | Hand-Object Interaction, Tracking / Reconstruction | [abs](https://arxiv.org/abs/2609.10050) / [pdf](https://arxiv.org/pdf/2609.10050) |
+| 2026-09-09 | [ViBe: Visual Behavior Adaptation for Perceptive Humanoid Whole-Body Control](https://arxiv.org/abs/2609.09918) | Lokesh Krishna, Sarvesh Venkatesan, An Zhang, et al. | cs.RO | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2609.09918) / [pdf](https://arxiv.org/pdf/2609.09918) |
 | 2026-09-08 | [TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model](https://arxiv.org/abs/2609.09158) | Anqi Li, Yuxin Chen, Zhaobo Li, et al. | cs.RO, cs.AI | Egocentric | [abs](https://arxiv.org/abs/2609.09158) / [pdf](https://arxiv.org/pdf/2609.09158) |
 | 2026-09-08 | [DYAD: A Multimodal Dataset of Co-Located Human Assistance](https://arxiv.org/abs/2609.09023) | Akhil Ajikumar, Mahya Qorbani, Sakib Reza, et al. | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2609.09023) / [pdf](https://arxiv.org/pdf/2609.09023) |
 | 2026-09-08 | [From Where to How: Continuous 4D Interaction Forecasting from Egocentric Video](https://arxiv.org/abs/2609.08636) | Qiaohui Chu, Haoyu Zhang, Meng Liu, et al. | cs.CV, cs.AI | Egocentric | [abs](https://arxiv.org/abs/2609.08636) / [pdf](https://arxiv.org/pdf/2609.08636) |

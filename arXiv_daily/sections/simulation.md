@@ -4,12 +4,19 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-09-10 · **Papers:** 2485 · **Unique arXiv IDs:** 2485
+**Coverage:** 2025-01-01 to 2026-09-10 · **Papers:** 2492 · **Unique arXiv IDs:** 2492
 
 ## 2026-09
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-09-09 | [Coastal Environment Generation with HoloOcean](https://arxiv.org/abs/2609.10484) | Abigail Austin, Brady Moon, Joshua G. Mangelson | cs.RO | Simulation Data, Task / Scene Generation | [abs](https://arxiv.org/abs/2609.10484) / [pdf](https://arxiv.org/pdf/2609.10484) |
+| 2026-09-09 | [Assembling Two Parts in One Hand](https://arxiv.org/abs/2609.10137) | Liuao Pei, Tianyue Wu, Hui Zhang, et al. | cs.RO | Domain Randomization | [abs](https://arxiv.org/abs/2609.10137) / [pdf](https://arxiv.org/pdf/2609.10137) |
+| 2026-09-09 | [Time-Frequency Geometric Cross-Attention for Chunked Vision-Language-Action Models](https://arxiv.org/abs/2609.09925) | Shengye Dong, Haochen Niu, Hao Liu, et al. | cs.AI, cs.RO | Domain Randomization | [abs](https://arxiv.org/abs/2609.09925) / [pdf](https://arxiv.org/pdf/2609.09925) |
+| 2026-09-09 | [ViBe: Visual Behavior Adaptation for Perceptive Humanoid Whole-Body Control](https://arxiv.org/abs/2609.09918) | Lokesh Krishna, Sarvesh Venkatesan, An Zhang, et al. | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2609.09918) / [pdf](https://arxiv.org/pdf/2609.09918) |
+| 2026-09-09 | [InstantMimic: A High Performance System for Learning Physics-based Skills in Seconds](https://arxiv.org/abs/2609.09821) | Ikjun Choi, Geonho Leem, Jungdam Won | cs.GR, cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2609.09821) / [pdf](https://arxiv.org/pdf/2609.09821) |
+| 2026-09-09 | [Seven Sources of Physical AI Capability Formation](https://arxiv.org/abs/2609.09627) | Gang Chen | cs.AI | Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2609.09627) / [pdf](https://arxiv.org/pdf/2609.09627) |
+| 2026-09-08 | [Agentic AI-enabled Semantic Commissioning of a Cognitive Digital Twin for Reconfigurable Manufacturing](https://arxiv.org/abs/2609.09503) | Yangyang Liu, Xun Xu, Jan Polzer | cs.RO, cs.MA | Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2609.09503) / [pdf](https://arxiv.org/pdf/2609.09503) |
 | 2026-09-08 | [Ostrich: Taking Large Strides Through Stiff Contact in Differentiable Dynamics](https://arxiv.org/abs/2609.08800) | Aleš Kučera, Karel Zimmermann | cs.RO, cs.GR, cs.LG | Sim-to-Real | [abs](https://arxiv.org/abs/2609.08800) / [pdf](https://arxiv.org/pdf/2609.08800) |
 | 2026-09-08 | [RoboCousin: Build Your Own Simulation Playground for Robust Bimanual Robotic Manipulation](https://arxiv.org/abs/2609.08339) | Jingxuan Zhu, Jingyi Li, LiangLiang Chen, et al. | cs.RO, cs.AI | Simulation Data, Sim-to-Real, Synthetic Data, Simulation-Ready Asset, Trajectory Generation | [abs](https://arxiv.org/abs/2609.08339) / [pdf](https://arxiv.org/pdf/2609.08339) |
 | 2026-09-08 | [Monkey See, Can Monkey Do? A Benchmark for Evaluating Robot Skill Learning by Observation](https://arxiv.org/abs/2609.08209) | Weiwei Gu, Anmol Gupta, Anant Sah, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2609.08209) / [pdf](https://arxiv.org/pdf/2609.08209) |

@@ -4,12 +4,18 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-09-10 · **Papers:** 2039 · **Unique arXiv IDs:** 2039
+**Coverage:** 2025-01-01 to 2026-09-10 · **Papers:** 2046 · **Unique arXiv IDs:** 2046
 
 ## 2026-09
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-09-09 | [Show-Harness: Just a VLM Agent Can Play Robots](https://arxiv.org/abs/2609.10522) | Yanzhe Chen, Zechen Bai, Zhijun Cao, et al. | cs.RO, cs.AI, cs.CV | Teleoperation, Data Collection | [abs](https://arxiv.org/abs/2609.10522) / [pdf](https://arxiv.org/pdf/2609.10522) |
+| 2026-09-09 | [Semigroup-JEPA: Latent Dynamics Consistency for Zero-Shot Physics Generalization](https://arxiv.org/abs/2609.10464) | Andy Zeyi Liu, Haoran Sun, Lucas Baker, et al. | cs.LG, cs.AI, cs.CV | Robot Dataset | [abs](https://arxiv.org/abs/2609.10464) / [pdf](https://arxiv.org/pdf/2609.10464) |
+| 2026-09-09 | [FolDeX: A Physical-World Benchmark for Long-Horizon Robotic Manipulation of Deformable Objects](https://arxiv.org/abs/2609.10243) | Chenhuan Liu, Yi Xu, Feng Wu, et al. | cs.RO | Robot Dataset, Data Collection, Human Intervention | [abs](https://arxiv.org/abs/2609.10243) / [pdf](https://arxiv.org/pdf/2609.10243) |
+| 2026-09-09 | [Automatic Reproducible Camera Intrinsic Calibration](https://arxiv.org/abs/2609.10082) | Xiangcheng Hu | cs.RO, cs.CV | Robot Data Processing | [abs](https://arxiv.org/abs/2609.10082) / [pdf](https://arxiv.org/pdf/2609.10082) |
+| 2026-09-09 | [RoboDrop: Curating VLA Post-Training Data via Local Gradient Compatibility](https://arxiv.org/abs/2609.10021) | Runze Xu, Yuanfan Xu, Cuijie Xu, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2609.10021) / [pdf](https://arxiv.org/pdf/2609.10021) |
+| 2026-09-09 | [GTA-2: A Multi-VLM Framework for Synthesizing Robot Manipulation Skills via Grounded Task Axes](https://arxiv.org/abs/2609.09808) | M. Yunus Seker, Shobhit Aggarwal, Ruwan Wickramarachchi, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2609.09808) / [pdf](https://arxiv.org/pdf/2609.09808) |
 | 2026-09-08 | [A Controlled Comparison of Manual and Teleoperated Intraocular Instrument Motion for an Input Device](https://arxiv.org/abs/2609.08770) | Korab Hoxha, Mirza Imamovic, Angelo Henriques, et al. | cs.RO, cs.HC | Teleoperation | [abs](https://arxiv.org/abs/2609.08770) / [pdf](https://arxiv.org/pdf/2609.08770) |
 | 2026-09-08 | [PGMT: Perceptive General Motion Tracking for Humanoid Robots](https://arxiv.org/abs/2609.08511) | Hongyi Li, Li Peizhuo, Yucheng Tao, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2609.08511) / [pdf](https://arxiv.org/pdf/2609.08511) |
 | 2026-09-08 | [3DWay: Generalizing Robot Manipulation via 3D Consistent Waypoints](https://arxiv.org/abs/2609.08224) | Ziqin Huang, Yingyue Li, Chenyangguang Zhang, et al. | cs.RO, cs.AI | Scalable Demonstrations | [abs](https://arxiv.org/abs/2609.08224) / [pdf](https://arxiv.org/pdf/2609.08224) |
@@ -19,6 +25,7 @@
 | 2026-09-07 | [Measuring Language Transfer in Robot Policies: Adding Greek to a Cosmos3 Vision-Language-Action Policy](https://arxiv.org/abs/2609.07470) | Ayoub Kirouane, Georgios Giaples, Christos Petrocheilos | cs.RO, cs.AI | Robot Dataset | [abs](https://arxiv.org/abs/2609.07470) / [pdf](https://arxiv.org/pdf/2609.07470) |
 | 2026-09-07 | [CALM: Configuration-Aware Human Intervention Boundaries During Robot Approach](https://arxiv.org/abs/2609.07430) | Xinting Gao, Sipu Zhu, Weimin Zhuang | cs.RO, cs.HC | Human Intervention | [abs](https://arxiv.org/abs/2609.07430) / [pdf](https://arxiv.org/pdf/2609.07430) |
 | 2026-09-07 | [OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining](https://arxiv.org/abs/2609.07398) | Yuran Wang, Siqiao Huang, Mingleyang Li, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2609.07398) / [pdf](https://arxiv.org/pdf/2609.07398) |
+| 2026-09-06 | [Identifying Habit, Physics, and Nuisance in Robot World Models](https://arxiv.org/abs/2609.09210) | Jinting Hang, Zhenhui Cai | cs.RO, cs.CV | Teleoperation | [abs](https://arxiv.org/abs/2609.09210) / [pdf](https://arxiv.org/pdf/2609.09210) |
 | 2026-09-06 | [Can People Distinguish Human and AI Agency in Humanoid Teleoperation? A Preliminary Study of Agency Perception](https://arxiv.org/abs/2609.06434) | Xiang Li, Koya Dendo, Keigo Minamida, et al. | cs.HC, cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2609.06434) / [pdf](https://arxiv.org/pdf/2609.06434) |
 | 2026-09-05 | [IM-ENGINE: Image Editing for Embodied Data Generation](https://arxiv.org/abs/2609.06279) | Yian Wang, Junyi Cao, Xiaowen Qiu, et al. | cs.RO, cs.CV | Data Collection | [abs](https://arxiv.org/abs/2609.06279) / [pdf](https://arxiv.org/pdf/2609.06279) |
 | 2026-09-05 | [How to Learn from What a Human Would Avoid? Intervention-Aware World Models with Real-World RL for Dexterous Manipulation](https://arxiv.org/abs/2609.06009) | Jiaju Yin, Zhenhui Zhang, Lixin Xu, et al. | cs.RO | Human Intervention | [abs](https://arxiv.org/abs/2609.06009) / [pdf](https://arxiv.org/pdf/2609.06009) |
