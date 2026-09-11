@@ -4,12 +4,15 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-09-11 · **Papers:** 1930 · **Unique arXiv IDs:** 1930
+**Coverage:** 2025-01-01 to 2026-09-11 · **Papers:** 1933 · **Unique arXiv IDs:** 1933
 
 ## 2026-09
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-09-10 | [Rapid Learning of Dexterous In-Hand Pen Writing through Real-Time Jacobian Estimation](https://arxiv.org/abs/2609.11775) | Kai Stewart, Yasunori Toshimitsu, Robert K. Katzschmann | cs.RO | Affordance / Contact | [abs](https://arxiv.org/abs/2609.11775) / [pdf](https://arxiv.org/pdf/2609.11775) |
+| 2026-09-10 | [Morphology-Aware Human Motion Retargeting for Wheeled-Humanoid Loco-Manipulation](https://arxiv.org/abs/2609.11357) | Chenbo Xia, Chao Ye | cs.RO | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2609.11357) / [pdf](https://arxiv.org/pdf/2609.11357) |
+| 2026-09-09 | [HuRo: Robotizing Human Videos for Scalable VLA Pretraining](https://arxiv.org/abs/2609.10706) | Jinho Jeong, Se June Joo, Jaehyun Kang, et al. | cs.RO, cs.CV, cs.LG | Human Video, Human-to-Robot | [abs](https://arxiv.org/abs/2609.10706) / [pdf](https://arxiv.org/pdf/2609.10706) |
 | 2026-09-09 | [Grounding Generated Video Plans in Simulation Towards Versatile Dexterous Controllers](https://arxiv.org/abs/2609.10050) | Tianyue Wu, Boyuan An, Shuqi Zhao, et al. | cs.RO | Hand-Object Interaction, Tracking / Reconstruction | [abs](https://arxiv.org/abs/2609.10050) / [pdf](https://arxiv.org/pdf/2609.10050) |
 | 2026-09-09 | [ViBe: Visual Behavior Adaptation for Perceptive Humanoid Whole-Body Control](https://arxiv.org/abs/2609.09918) | Lokesh Krishna, Sarvesh Venkatesan, An Zhang, et al. | cs.RO | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2609.09918) / [pdf](https://arxiv.org/pdf/2609.09918) |
 | 2026-09-08 | [TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model](https://arxiv.org/abs/2609.09158) | Anqi Li, Yuxin Chen, Zhaobo Li, et al. | cs.RO, cs.AI | Egocentric | [abs](https://arxiv.org/abs/2609.09158) / [pdf](https://arxiv.org/pdf/2609.09158) |

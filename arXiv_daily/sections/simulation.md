@@ -4,12 +4,14 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-09-11 · **Papers:** 2492 · **Unique arXiv IDs:** 2492
+**Coverage:** 2025-01-01 to 2026-09-11 · **Papers:** 2494 · **Unique arXiv IDs:** 2494
 
 ## 2026-09
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-09-10 | [Morphology-Aware Human Motion Retargeting for Wheeled-Humanoid Loco-Manipulation](https://arxiv.org/abs/2609.11357) | Chenbo Xia, Chao Ye | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2609.11357) / [pdf](https://arxiv.org/pdf/2609.11357) |
+| 2026-09-10 | [ObstaDiff: Generalizable Diffusion Policy Learning via Obstacle-aware Representations](https://arxiv.org/abs/2609.10918) | Jiawen Wang, Kevin Yao, Khalid Jawed | cs.RO, cs.LG | Trajectory Generation | [abs](https://arxiv.org/abs/2609.10918) / [pdf](https://arxiv.org/pdf/2609.10918) |
 | 2026-09-09 | [Coastal Environment Generation with HoloOcean](https://arxiv.org/abs/2609.10484) | Abigail Austin, Brady Moon, Joshua G. Mangelson | cs.RO | Simulation Data, Task / Scene Generation | [abs](https://arxiv.org/abs/2609.10484) / [pdf](https://arxiv.org/pdf/2609.10484) |
 | 2026-09-09 | [Assembling Two Parts in One Hand](https://arxiv.org/abs/2609.10137) | Liuao Pei, Tianyue Wu, Hui Zhang, et al. | cs.RO | Domain Randomization | [abs](https://arxiv.org/abs/2609.10137) / [pdf](https://arxiv.org/pdf/2609.10137) |
 | 2026-09-09 | [Time-Frequency Geometric Cross-Attention for Chunked Vision-Language-Action Models](https://arxiv.org/abs/2609.09925) | Shengye Dong, Haochen Niu, Hao Liu, et al. | cs.AI, cs.RO | Domain Randomization | [abs](https://arxiv.org/abs/2609.09925) / [pdf](https://arxiv.org/pdf/2609.09925) |

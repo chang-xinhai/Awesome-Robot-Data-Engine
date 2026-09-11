@@ -4,12 +4,15 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-09-11 · **Papers:** 2046 · **Unique arXiv IDs:** 2046
+**Coverage:** 2025-01-01 to 2026-09-11 · **Papers:** 2049 · **Unique arXiv IDs:** 2049
 
 ## 2026-09
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-09-10 | [SEED-UMI: Sharing the Exoskeleton between human and robot for onE-to-one Dexterous demonstration](https://arxiv.org/abs/2609.11753) | Tengbo Yu, Jiahao Wu, Daohan Li, et al. | cs.RO | Teleoperation, Data Collection | [abs](https://arxiv.org/abs/2609.11753) / [pdf](https://arxiv.org/pdf/2609.11753) |
+| 2026-09-10 | [LTLDiff: Finite Linear Temporal Logic-Guided Data Generation and Diffusion Policies for Multi-agent Robotic Manipulation](https://arxiv.org/abs/2609.11043) | Chuhan Meng, Haiyan Yin | cs.RO | Data Collection | [abs](https://arxiv.org/abs/2609.11043) / [pdf](https://arxiv.org/pdf/2609.11043) |
+| 2026-09-09 | [HuRo: Robotizing Human Videos for Scalable VLA Pretraining](https://arxiv.org/abs/2609.10706) | Jinho Jeong, Se June Joo, Jaehyun Kang, et al. | cs.RO, cs.CV, cs.LG | Robot Dataset | [abs](https://arxiv.org/abs/2609.10706) / [pdf](https://arxiv.org/pdf/2609.10706) |
 | 2026-09-09 | [Show-Harness: Just a VLM Agent Can Play Robots](https://arxiv.org/abs/2609.10522) | Yanzhe Chen, Zechen Bai, Zhijun Cao, et al. | cs.RO, cs.AI, cs.CV | Teleoperation, Data Collection | [abs](https://arxiv.org/abs/2609.10522) / [pdf](https://arxiv.org/pdf/2609.10522) |
 | 2026-09-09 | [Semigroup-JEPA: Latent Dynamics Consistency for Zero-Shot Physics Generalization](https://arxiv.org/abs/2609.10464) | Andy Zeyi Liu, Haoran Sun, Lucas Baker, et al. | cs.LG, cs.AI, cs.CV | Robot Dataset | [abs](https://arxiv.org/abs/2609.10464) / [pdf](https://arxiv.org/pdf/2609.10464) |
 | 2026-09-09 | [FolDeX: A Physical-World Benchmark for Long-Horizon Robotic Manipulation of Deformable Objects](https://arxiv.org/abs/2609.10243) | Chenhuan Liu, Yi Xu, Feng Wu, et al. | cs.RO | Robot Dataset, Data Collection, Human Intervention | [abs](https://arxiv.org/abs/2609.10243) / [pdf](https://arxiv.org/pdf/2609.10243) |

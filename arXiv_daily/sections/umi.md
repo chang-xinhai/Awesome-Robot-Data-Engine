@@ -4,12 +4,13 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-09-11 · **Papers:** 70 · **Unique arXiv IDs:** 70
+**Coverage:** 2025-01-01 to 2026-09-11 · **Papers:** 71 · **Unique arXiv IDs:** 71
 
 ## 2026-09
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-09-10 | [SEED-UMI: Sharing the Exoskeleton between human and robot for onE-to-one Dexterous demonstration](https://arxiv.org/abs/2609.11753) | Tengbo Yu, Jiahao Wu, Daohan Li, et al. | cs.RO | Universal Manipulation Interface | [abs](https://arxiv.org/abs/2609.11753) / [pdf](https://arxiv.org/pdf/2609.11753) |
 | 2026-09-07 | [CosmoH2G: A Hand-to-Gripper Transfer Dataset and Baseline Method for Object Manipulation with Complex Spatial Movements](https://arxiv.org/abs/2609.07498) | Hongxiang Zhao, Mutian Xu, Zeyu Jin, et al. | cs.RO, cs.CV | Handheld Gripper | [abs](https://arxiv.org/abs/2609.07498) / [pdf](https://arxiv.org/pdf/2609.07498) |
 
 ## 2026-08
