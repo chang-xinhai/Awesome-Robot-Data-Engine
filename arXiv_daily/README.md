@@ -2,7 +2,7 @@
 
 > A high-recall candidate archive for manual curation into [Awesome Robot Data Engine](../README.md). It is intentionally broader than the curated list.
 
-**Coverage:** 2025-01-01 to 2026-09-12 · **Unique papers:** 5387
+**Coverage:** 2025-01-01 to 2026-09-13 · **Unique papers:** 5387
 
 ## Sections
 
