@@ -173,6 +173,12 @@ Reserve this section for cross-source or source-agnostic work:
 Standardized benchmarks are classified here by their evaluation contribution,
 including source-specific robot, UMI, human, or simulation benchmarks.
 
+Do not use this section as a bibliography of generic computer-vision building
+blocks. General SLAM, SfM, point-tracking, pose-estimation, and calibration
+papers warrant a full row only when they introduce a robot-data adapter,
+dataset-processing workflow, or validation capability beyond the base vision
+method.
+
 ## Inclusion policy
 
 Use a **core + strong adjacent** scope.
