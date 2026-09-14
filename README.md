@@ -125,6 +125,9 @@ curation, and representative real-world datasets.
 
 | Date | Keywords | Institute (first) | Paper | Publication | Others |
 | :--: | :------: | :---------------: | :---: | :---------: | :----: |
+| 2026-09-07 | Multimodal Teleoperation, Mobile Manipulation, Vision + Tactile + F/T | Shenzhen Technology University | [M3-Tele: A Unified Multimodal Teleoperational Framework for Compliant Whole-Body Mobile Manipulation](https://arxiv.org/abs/2609.07859) | arXiv | — |
+| 2026-09-07 | Humanoid VR Teleoperation, Binocular Fisheye, Stabilized Free-Looking | University of Massachusetts Amherst | [SPOT: Spatial Perception-Oriented Long-Horizon Humanoid Teleoperation](https://arxiv.org/abs/2609.07933) | arXiv | — |
+| 2026-08-29 | Dual-Robot VR Teleoperation, Onboard RGB-D, Real-Time 3D Workspace | Brown University | [GHOST in the Robots: Real-Time Exocentric Dual-Robot VR Teleoperation from Onboard Cameras](https://arxiv.org/abs/2608.29080) | RA-L 2026 | [project / github](https://h2r.github.io/GHOST/) |
 | 2026-08-17 | Visual-Haptic Teleoperation, USD 550 System, Vibrotactile Feedback, Multimodal Demos | Tohoku University | [ViHaTeleop: A Low-Cost, Lightweight Visual-Haptic Teleoperation System for Dexterous Manipulation Learning](https://arxiv.org/abs/2608.16572) | IROS 2026 | [project](https://laiyanhou.github.io/ViHaTeleop-website/) |
 | 2026-08-13 | Copilot Teleoperation, Dexterous Hand, Demonstration Collection | University of Sydney | [NestDex: Nested Policy Learning with Copilot Assisted Teleoperation for Dexterous Manipulation](https://arxiv.org/abs/2608.13362) | arXiv | [project](https://aus.bot/research/nestdex) |
 | 2026-07-30 | Kinesthetic Guidance, Dexterous Hand, Low-Setup Collection | UCLA | [DexDirect: Direct Kinesthetic Arm Guidance for Efficient Dexterous Demonstration Collection](https://arxiv.org/abs/2607.27784) | arXiv | — |
@@ -292,6 +295,7 @@ observations, actions, interaction signals, and embodiment mappings.
 
 | Date | Keywords | Institute (first) | Paper | Publication | Others |
 | :--: | :------: | :---------------: | :---: | :---------: | :----: |
+| 2026-09-10 | Shared Human / Robot Exoskeleton, 20-DoF Encoders, Paired Retargeting | Peking University | [SEED-UMI: Sharing the Exoskeleton between human and robot for onE-to-one Dexterous demonstration](https://arxiv.org/abs/2609.11753) | arXiv | [project](https://tengbo-yu.github.io/SEED-UMI/) |
 | 2026-06-08 | Bidigital Gripper, Finger-Aligned, Bimanual | AIRoA | [YUBI: Yielding Universal Bidigital Interface for Bimanual Dexterous Manipulation at Scale](https://arxiv.org/abs/2606.10244) | arXiv | [project](https://yubi.airoa.io/) / [hardware](https://github.com/toyota/yubi-hw) / [software](https://github.com/airoa-org/yubi-sw) |
 | 2026-06-04 | Wearable DexHand, In-Hand Vision, Tactile | Peking University | [RealDexUMI: A Wearable Universal Manipulation Interface for Dexterous Robot Learning](https://arxiv.org/abs/2606.06033) | arXiv | [project](https://research.beingbeyond.com/realdexumi) |
 | 2026-04-16 | Low-Cost Handheld, Dexterous Hand, Force Feedback | Sogang University | [DEX-Mouse: A Low-cost Portable and Universal Interface with Force Feedback for Data Collection of Dexterous Robotic Hands](https://arxiv.org/abs/2604.15013) | arXiv | [project](https://dex-mouse.github.io/) |
@@ -381,6 +385,7 @@ here; a policy is not included merely because it consumes UMI data.
 
 | Date | Keywords | Institute (first) | Paper | Publication | Others |
 | :--: | :------: | :---------------: | :---: | :---------: | :----: |
+| 2026-09-07 | Hand–Gripper Paired RGB-D, 6,189 Episodes, 1,254 Objects | The Chinese University of Hong Kong, Shenzhen | [CosmoH2G: A Hand-to-Gripper Transfer Dataset and Baseline Method for Object Manipulation with Complex Spatial Movements](https://arxiv.org/abs/2609.07498) | SIGGRAPH Asia 2026 | [project](https://cosmoh2g.github.io/) |
 | 2026-07-28 | Bimanual, 2,000 Hours Public, LeRobot v3-Style | Simple AI | [HiFi-UMI: Learning Deployable Manipulation Policies from High-Fidelity UMI Data Alone](https://arxiv.org/abs/2607.25895) | arXiv | [project](https://cloud.simpleai.tech/simple-world-lab/hifi-umi/) / [dataset](https://huggingface.co/datasets/simple-world-lab/HiFi-UMI-2K) |
 | 2026-06-03 | UMI-VQA, Fisheye, Physically Validated Trajectories | TeleAI | [VISTA: Vision-Grounded and Physics-Validated Adaptation of UMI data for VLA Training](https://arxiv.org/abs/2606.04708) | arXiv | [project](https://tele-umi-vista.github.io/) / [github](https://github.com/TeleHuman/umi-vista) / [dataset](https://huggingface.co/collections/TeleEmbodied/vista) |
 | 2025-12-04 | Multimodal, Cross-View, Force-Grounded, Articulated Objects | ETH Zurich | [Hoi! - A Multimodal Dataset for Force-Grounded, Cross-View Articulated Manipulation](https://arxiv.org/abs/2512.04884) | CVPR 2026 | [project](https://timengelbracht.github.io/Hoi-Dataset-Website/) / [github](https://github.com/timengelbracht/hoi-dataset-tools) |
@@ -431,6 +436,7 @@ activity into robot-usable supervision.
 
 | Date | Keywords | Institute (first) | Paper | Publication | Others |
 | :--: | :------: | :---------------: | :---: | :---------: | :----: |
+| 2026-09-02 | Web-Video Retrieval, Actor-Centric 3D Hand Trajectories, 100K Training Clips | Rice University | [RoboTok: An Internet-Scale Data Engine for Human Demonstration Retrieval and Dexterous Manipulation Learning](https://arxiv.org/abs/2609.03199) | arXiv | [project](https://rice-robotpi-lab.github.io/RoboTok/) / [model + evaluation data](https://huggingface.co/Rice-RobotPI-Lab/robotok-public) |
 | 2026-06-17 | Motion-Focused Latent Action, Cross-Embodiment | Tsinghua University | [Motion-Focused Latent Action Enables Cross-Embodiment VLA Training from Human EgoVideos](https://arxiv.org/abs/2606.18955) | IROS 2026 | [github](https://github.com/shuiyigong/Motion-Focused-Latent-Action) |
 | 2026-02-25 | Joint-Aligned Latent Action, In-the-Wild, VLA | Peking University | [Joint-Aligned Latent Action: Towards Scalable VLA Pretraining in the Wild](https://arxiv.org/abs/2602.21736) | CVPR 2026 | [project](https://research.beingbeyond.com/jala) / [github](https://github.com/BeingBeyond/JALA) |
 | 2026-01-31 | Contrastive Latent Action, Human Video, Manipulation | Harbin Institute of Technology, Shenzhen | [ConLA: Contrastive Latent Action Learning from Human Videos for Robotic Manipulation](https://arxiv.org/abs/2602.00557) | arXiv | [github](https://github.com/WeishengDAI/ConLA) |
@@ -595,6 +601,7 @@ perception or policy baselines.
 
 | Date | Keywords | Institute (first) | Paper | Publication | Others |
 | :--: | :------: | :---------------: | :---: | :---------: | :----: |
+| 2026-09-09 | Robotized Human Video, 630K Episodes, 142M Frames, Five Sources | RLWRLD | [HuRo: Robotizing Human Videos for Scalable VLA Pretraining](https://arxiv.org/abs/2609.10706) | CoRL 2026 | [project / code / data](https://3587jjh.github.io/HuRo/) |
 | 2026-08-19 | Human-to-Robot Editing, 174K Paired Clips, 14M Frames, Seven Embodiments | UCLA | [RoboEdit: Turning Human Manipulation Videos into Scalable Robot Experience](https://arxiv.org/abs/2608.18948) | arXiv | [paper](https://arxiv.org/html/2608.18948) |
 | 2026-08-11 | Robot-Egocentric 360°, 71 h Capture, 1M Open Annotations, GDPR-Gated Video | Inria | [HUI360: A 360° Egocentric Dataset and Baselines for Human-Robot Interaction Anticipation](https://arxiv.org/abs/2608.11051) | FG 2026 | [project / code / data](https://hucebot.github.io/hui360/) |
 | 2026-08-08 | Open Hardware, Stereo + IMU, 550 h, Dense Captions + 3D Hands | FPV Labs | [Ego-OSCAR: Egocentric Open source Stereo CAptuRe System](https://arxiv.org/abs/2608.08285) | arXiv | [project](https://www.fpvlabs.ai/essays/ego-oscar) / [github](https://github.com/fpv-labs/ego-oscar) / [dataset](https://huggingface.co/datasets/fpvlabs/stereo-550) |
@@ -670,6 +677,8 @@ asset: demonstrations, environments, observations, or released datasets.
 
 | Date | Keywords | Institute (first) | Paper | Publication | Others |
 | :--: | :------: | :---------------: | :---: | :---------: | :----: |
+| 2026-09-05 | Image Editing, Simulator Grounding, Physics-Validated Grasps + Goals | University of Massachusetts Amherst | [IM-ENGINE: Image Editing for Embodied Data Generation](https://arxiv.org/abs/2609.06279) | arXiv | — |
+| 2026-08-29 | Deployment Real-to-Sim, TAMP Demonstrations, No Task-Specific Demo | The University of Tokyo | [DREAM: Deployment-Time Demonstration Generation via Real-to-Sim for Scalable Policy Adaptation](https://arxiv.org/abs/2608.29078) | arXiv | — |
 | 2026-07-14 | Failure Synthesis, Dense Rewards, Released Dataset | UNC-Chapel Hill | [DenseReward: Dense Reward Learning via Failure Synthesis for Robotic Manipulation](https://arxiv.org/abs/2607.13033) | arXiv | [project / dataset / models / evaluation](https://dense-reward.github.io/) |
 | 2026-07-01 | Bimanual, Furniture Assembly, Simulation Experts | Mitsubishi Electric Research Laboratories | [FurnitureVLA: Learning Long-Horizon Bimanual Furniture Assembly with Vision-Language-Action Model](https://arxiv.org/abs/2607.01212) | arXiv | — |
 | 2026-06-03 | Humanoid, 3D Assets + Video Priors, Loco-Manipulation | NVIDIA | [GRAIL: Generating Humanoid Loco-Manipulation from 3D Assets and Video Priors](https://arxiv.org/abs/2606.05160) | arXiv | [project](https://research.nvidia.com/labs/dair/grail/) / [github](https://github.com/NVlabs/GRAIL/) / [dataset](https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-Locomanipulation-GRAIL) |
@@ -747,6 +756,8 @@ asset: demonstrations, environments, observations, or released datasets.
 
 | Date | Keywords | Institute (first) | Paper | Publication | Others |
 | :--: | :------: | :---------------: | :---: | :---------: | :----: |
+| 2026-09-04 | Hybrid Agentic Layout Evolution, Sim-Ready Variants, 24x Speedup | The University of Hong Kong | [SceneMosaic: Efficient and Diverse Simulation-Ready Scene Generation via Hybrid Agentic Layout Evolution](https://arxiv.org/abs/2609.05594) | arXiv | [project](https://rxjfighting.github.io/SceneMosaic/) / [github](https://github.com/rxjfighting/SceneMosaic) |
+| 2026-08-31 | Composable Real-to-Sim, Complete Object Assets, Agentic Placement | ByteDance Seed | [Lucida: Parse, Generate, and Place for Composable Real-to-Sim Scene Modeling](https://arxiv.org/abs/2608.30821) | arXiv | [project](https://lucida-r2s.github.io/) |
 | 2026-08-25 | Monocular Image-to-Program, Articulation + Physics, Interactive Scenes | Shanghai Jiao Tong University | [NeoWorld-Pro: Programming Interactive Scenes from Monocular Images for Embodied Simulation](https://arxiv.org/abs/2608.24212) | arXiv | [project](https://neoworldproject.github.io/neoworld-pro-website/) |
 | 2026-07-08 | Agentic 3D Worlds, Sim-Ready Assets, Cross-Simulator | Horizon Robotics | [EmbodiedGen V2: An Agentic, Simulation-Ready 3D World Engine for Embodied AI](https://arxiv.org/abs/2607.07459) | arXiv | — |
 | 2026-05-15 | Semantics + Physics, Task-Aligned Tabletop Layouts | SII | [STABLE: Simulation-Ready Tabletop Layout Generation via a Semantics-Physics Dual System](https://arxiv.org/abs/2605.16137) | ICML 2026 | [project](https://lan555.github.io/stable/) |
@@ -918,6 +929,8 @@ data source—is its primary asset.
 
 | Date | Keywords | Institute (first) | Paper | Publication | Others |
 | :--: | :------: | :---------------: | :---: | :---------: | :----: |
+| 2026-09-07 | Open WAM Stack, 6,400 h Human + Robot Pretraining, Models + Data Recipes | National University of Singapore | [OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining](https://arxiv.org/abs/2609.07398) | arXiv | [project](https://openwam-official.github.io/) / [github](https://github.com/OpenWAM-Official/OpenWAM) / [models + data](https://huggingface.co/OpenWAM) |
+| 2026-08-30 | Visuo-Tactile Data Foundation, 200K+ Public Trajectories / 5,000+ h, Six Embodiments | NeoteAI / Fudan University | [$\mathcal{N}_0$-Foundation: Towards the Age of Tactile Intelligence](https://arxiv.org/abs/2608.29601) | Technical report | [project](https://research.neoteai.com:14443/n0-foundation/) / [github](https://github.com/neoteai/N0-Foundation) / [gated dataset, CC BY-NC-SA 4.0](https://huggingface.co/datasets/NeoteAIEmbodied/OpenNeoData) |
 | 2026-07-30 | HOI Survey, Foundation Models, Embodied Transfer | Xidian University | [Hand-Object Interaction in the Age of Large Foundation Models:Reconstruction, Generation, and Embodied Transfer](https://arxiv.org/abs/2607.28394) | arXiv | [project](https://zgca-hmi-lab.github.io/HOISurvey/) / [github](https://github.com/SeanChenxy/Hand3DResearch/tree/hoi-survey) |
 | 2026-07-27 | Data Pyramid, Five Sources, Data Recipes | Peking University | [Data Pyramid for Embodied Manipulation](https://arxiv.org/abs/2607.24744) | arXiv | [project](https://jasper-aaa.github.io/embodied-data-pyramid/) / [github](https://github.com/worldbench/awesome-embodied-data-pyramid) |
 | 2026-06-18 | Humanoid Data Standard, Interoperability, ISO | Shenzhen Institute of Artificial Intelligence and Robotics for Society | [Data Standards for Humanoid Robotics: The Missing Infrastructure for Physical AI](https://arxiv.org/abs/2606.19769) | arXiv | [standard](https://www.iso.org/standard/93011.html) |
@@ -955,6 +968,7 @@ data source—is its primary asset.
 
 | Date | Keywords | Institute (first) | Paper | Publication | Others |
 | :--: | :------: | :---------------: | :---: | :---------: | :----: |
+| 2026-09-09 | VLA Post-Training Curation, Local Gradient Compatibility, Automatic Filtering | Tsinghua University | [RoboDrop: Curating VLA Post-Training Data via Local Gradient Compatibility](https://arxiv.org/abs/2609.10021) | arXiv | — |
 | 2026-08-26 | Active Data Selection, Dense Confidence Maps, World-Model Post-Training | Tsinghua University | [ConfAL-WM: Confidence-Guided Active Learning for Action-Conditioned World Models](https://arxiv.org/abs/2608.25572) | arXiv | — |
 | 2026-08-21 | Demonstration-to-Task Graph, Probabilistic Dependencies, Few Demonstrations | University of Freiburg | [TaPeR: Probabilistic Recovery of Sparse Task Precedence Graphs from a Handful of Demonstrations](https://arxiv.org/abs/2608.21035) | arXiv | — |
 | 2026-08-08 | Instruction–Trajectory Audit, Multimodal Fusion, Label Correction | AI Robot Association (AIRoA) | [Auditing Instruction–Trajectory Mismatches in Multimodal Robot Demonstrations](https://arxiv.org/abs/2608.07895) | RA-L 2026 | — |
@@ -1031,6 +1045,8 @@ data source—is its primary asset.
 
 | Date | Keywords | Institute (first) | Paper | Publication | Others |
 | :--: | :------: | :---------------: | :---: | :---------: | :----: |
+| 2026-09-03 | Expert + DAgger Scaling, 531.7 h Robot + ~1,000 h UMI Claimed, 100 h UMI Public | Peking University | [Scaling Bimanual Household Manipulation from 1,500 hours of Demonstrations to On-Policy Corrections](https://arxiv.org/abs/2609.03591) | arXiv | [dataset, CC BY-SA 4.0](https://huggingface.co/datasets/challenge-2026/challenge_data) |
+| 2026-08-31 | Embodied Data Pyramid, Teleoperation + Simulation + Egocentric + VQA | JD Explore Academy | [CometVLA: Co-Training on an Embodied Data Pyramid towards Physical Understanding](https://arxiv.org/abs/2608.30289) | arXiv | — |
 | 2026-07-28 | Legacy Data, Cross-Configuration Transfer, Threshold | Huazhong University of Science and Technology | [When Does Legacy Data Start to Help? Emergent Transfer in Cross-Configuration Robot Learning](https://arxiv.org/abs/2607.25593) | arXiv | — |
 | 2026-07-25 | Precision Scaling Law, Demonstration Count, System Ceiling | Tsinghua University | [The Curse of Precision: A Data Scaling Law for High-Precision Robotic Manipulation](https://arxiv.org/abs/2607.23108) | ICRA 2026 | — |
 | 2026-04-15 | Sim + Real Co-training, Mechanistic Analysis, Alignment | UT Austin | [A Mechanistic Analysis of Sim-and-Real Co-Training in Generative Robot Policies](https://arxiv.org/abs/2604.13645) | arXiv | [project](https://science-of-co-training.github.io/) |
