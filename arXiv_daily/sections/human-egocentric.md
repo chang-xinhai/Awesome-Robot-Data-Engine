@@ -4,12 +4,14 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-09-14 · **Papers:** 1933 · **Unique arXiv IDs:** 1933
+**Coverage:** 2025-01-01 to 2026-09-15 · **Papers:** 1935 · **Unique arXiv IDs:** 1935
 
 ## 2026-09
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-09-11 | [DWMP: Leveraging Dual World Models for Humanoid Obstacle Traversal](https://arxiv.org/abs/2609.12347) | Rongjun Jin, Jianming Ma, Yue Gao | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2609.12347) / [pdf](https://arxiv.org/pdf/2609.12347) |
+| 2026-09-10 | [Single-Query Person-Centric Bimanual Hand-Object Interaction Detection](https://arxiv.org/abs/2609.12155) | Jonghyun Kim, Junho Roh, Yubin Yoon, et al. | cs.CV | Hand-Object Interaction | [abs](https://arxiv.org/abs/2609.12155) / [pdf](https://arxiv.org/pdf/2609.12155) |
 | 2026-09-10 | [Rapid Learning of Dexterous In-Hand Pen Writing through Real-Time Jacobian Estimation](https://arxiv.org/abs/2609.11775) | Kai Stewart, Yasunori Toshimitsu, Robert K. Katzschmann | cs.RO | Affordance / Contact | [abs](https://arxiv.org/abs/2609.11775) / [pdf](https://arxiv.org/pdf/2609.11775) |
 | 2026-09-10 | [Morphology-Aware Human Motion Retargeting for Wheeled-Humanoid Loco-Manipulation](https://arxiv.org/abs/2609.11357) | Chenbo Xia, Chao Ye | cs.RO | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2609.11357) / [pdf](https://arxiv.org/pdf/2609.11357) |
 | 2026-09-09 | [HuRo: Robotizing Human Videos for Scalable VLA Pretraining](https://arxiv.org/abs/2609.10706) | Jinho Jeong, Se June Joo, Jaehyun Kang, et al. | cs.RO, cs.CV, cs.LG | Human Video, Human-to-Robot | [abs](https://arxiv.org/abs/2609.10706) / [pdf](https://arxiv.org/pdf/2609.10706) |

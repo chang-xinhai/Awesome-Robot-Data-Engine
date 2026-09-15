@@ -1,6 +1,75 @@
 {
   "schema_version": 1,
   "papers": {
+    "2609.12347": {
+      "arxiv_id": "2609.12347",
+      "title": "DWMP: Leveraging Dual World Models for Humanoid Obstacle Traversal",
+      "abstract": "Humanoid robots must traverse cluttered obstacle fields using onboard proprioceptive and visual observations, yet existing methods usually process multimodal observations without explicitly considering their different characteristics: proprioceptive observations are low-dimensional but governed by highly nonlinear robot dynamics, while egocentric visual observations are high-dimensional, noisy, and redundant. We propose DWMP (Dual World Model Policy), a framework that provides the actor with separate but complementary world-model representations for humanoid obstacle traversal. A Koopman-based dynamics world model lifts proprioceptive observations into a latent space where their temporal evolution is approximately linear, making the dynamics features easier for the actor to learn from. An RSSM-based visual world model compresses egocentric depth observations into compact stochastic states while preserving obstacle-related geometry. The student policy receives the fused latent representation for action generation, combining linearized proprioceptive dynamics with compressed visual perception. Experiments in simulation and on a Unitree G1 humanoid robot show that DWMP improves obstacle traversal performance over baselines and supports real-world deployment under randomized obstacle layouts.",
+      "authors": [
+        "Rongjun Jin",
+        "Jianming Ma",
+        "Yue Gao"
+      ],
+      "published": "2026-09-11",
+      "updated": "2026-09-11",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2609.12347",
+      "pdf_url": "https://arxiv.org/pdf/2609.12347",
+      "query_sources": [
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric"
+        ]
+      }
+    },
+    "2609.12155": {
+      "arxiv_id": "2609.12155",
+      "title": "Single-Query Person-Centric Bimanual Hand-Object Interaction Detection",
+      "abstract": "Understanding person-level bi-manual interactions requires not only detecting hands, but also identifying which two hands belong to the same person and what each hand interacts with. Existing hand--object interaction methods are mostly hand-centric: they treat each hand as an independent instance, which can lead to ambiguous ownership in multi-person scenes. We propose a person-centric formulation in which a single query predicts a structured output for one person, including the human box, body pose, hand boxes and states, and interaction targets. We introduce part-aware deformable attention to allocate attention across human, hand, and pose-specific reference regions, enabling one query to capture the full person structure. We further unify detection and interaction reasoning with a hand-to-query relationship matrix, where each hand selects its interaction target from the detected query set plus a learnable off token, directly recovering the target's box and class without separate object regression. We build a COCO-based dataset with person-centric bi-manual interaction annotations and define structured metrics for evaluating hand states and complete hand--object tuples. Experiments with a transformer-based detector show that our formulation improves person-level bi-manual interaction parsing and provides an effective unified framework for joint detection, pose estimation, and hand reasoning.",
+      "authors": [
+        "Jonghyun Kim",
+        "Junho Roh",
+        "Yubin Yoon",
+        "Hyotae Lee",
+        "Jongkuk Park",
+        "Taehwan Hwang",
+        "Jaechul Kim",
+        "Jungho Lee"
+      ],
+      "published": "2026-09-10",
+      "updated": "2026-09-10",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "comment": "Accepted to ECCV2026, Project page: https://lgecto-ail-vil.github.io/SingleQuery-BHOI/",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2609.12155",
+      "pdf_url": "https://arxiv.org/pdf/2609.12155",
+      "query_sources": [
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Hand-Object Interaction"
+        ]
+      }
+    },
     "2609.11775": {
       "arxiv_id": "2609.11775",
       "title": "Rapid Learning of Dexterous In-Hand Pen Writing through Real-Time Jacobian Estimation",
@@ -179,7 +248,7 @@
     "2609.10706": {
       "arxiv_id": "2609.10706",
       "title": "HuRo: Robotizing Human Videos for Scalable VLA Pretraining",
-      "abstract": "Human video datasets have emerged as a compelling alternative to expensive real-robot data, offering rich diversity at scale. To bridge the human-to-robot embodiment gap, existing approaches either robotize videos in task-matched settings or address observation and action alignment separately at scale. In this work, we systematically examine whether robotized human videos can provide effective and scalable supervision for pretraining vision-language-action (VLA) policies. To this end, we develop a robotization pipeline that converts heterogeneous human videos into robot-aligned observations and action trajectories while inferring missing intermediate signals across annotation levels. Using this pipeline, we construct the HuRo dataset, comprising about 630K robotized episodes and 142M processed frames from five human-video sources. Across four real-world manipulation tasks, increasing robotized pretraining scale improves overall completion from 51.5% to 80.3% and OOD completion under spatial and visual shifts from 34.9% to 72.2%. Ablations further show that visual robotization improves OOD robustness and that end-to-end pretraining with retargeted actions outperforms visual-only transfer. Code and data are released on our website: https://3587jjh.github.io/HuRo.",
+      "abstract": "Human video datasets have emerged as a compelling alternative to expensive real-robot data, offering rich diversity at scale. To bridge the human-to-robot embodiment gap, existing approaches either robotize videos in task-matched settings or address observation and action alignment separately at scale. In this work, we systematically examine whether robotized human videos can provide effective and scalable supervision for pretraining vision-language-action (VLA) policies. To this end, we develop a robotization pipeline that converts heterogeneous human videos into robot-aligned observations and action trajectories while inferring missing intermediate signals across annotation levels. Using this pipeline, we construct the HuRo dataset, comprising about 630K robotized episodes and 142M processed frames from five human-video sources. Across four real-world manipulation tasks, increasing robotized pretraining scale improves overall completion from 51.5% to 80.3% and OOD completion under spatial and visual shifts from 34.9% to 72.2%. Ablations further show that visual robotization improves OOD robustness and that end-to-end pretraining with retargeted actions outperforms visual-only transfer. Project website: https://3587jjh.github.io/HuRo.",
       "authors": [
         "Jinho Jeong",
         "Se June Joo",
@@ -190,7 +259,7 @@
         "Seon Joo Kim"
       ],
       "published": "2026-09-09",
-      "updated": "2026-09-09",
+      "updated": "2026-09-11",
       "primary_category": "cs.RO",
       "categories": [
         "cs.RO",
@@ -205872,7 +205941,7 @@
     }
   },
   "coverage_start": "2025-01-01",
-  "coverage_end": "2026-09-14",
-  "paper_count": 5387,
-  "generated_at": "2026-09-14T13:12:23+00:00"
+  "coverage_end": "2026-09-15",
+  "paper_count": 5389,
+  "generated_at": "2026-09-15T01:02:17+00:00"
 }

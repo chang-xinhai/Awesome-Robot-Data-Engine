@@ -2,7 +2,7 @@
 
 > A high-recall candidate archive for manual curation into [Awesome Robot Data Engine](../README.md). It is intentionally broader than the curated list.
 
-**Coverage:** 2025-01-01 to 2026-09-14 · **Unique papers:** 5387
+**Coverage:** 2025-01-01 to 2026-09-15 · **Unique papers:** 5389
 
 ## Sections
 
@@ -10,7 +10,7 @@
 | :------ | -----: | :---- |
 | [Robot-Centric](sections/robot-centric.md) | 2049 | Real-robot collection, teleoperation, intervention, datasets, and processing |
 | [UMI](sections/umi.md) | 71 | Portable manipulation interfaces, robot-free demonstrations, and UMI recovery |
-| [Human / Egocentric](sections/human-egocentric.md) | 1933 | Human video, HOI, tracking, reconstruction, action extraction, and retargeting |
+| [Human / Egocentric](sections/human-egocentric.md) | 1935 | Human video, HOI, tracking, reconstruction, action extraction, and retargeting |
 | [Simulation](sections/simulation.md) | 2494 | Synthetic demonstrations, environments, assets, sensors, and sim–real systems |
 
 A paper is stored once in [`data/papers.json`](data/papers.json) but may appear in multiple generated views. The archive uses arXiv `v1` dates and is updated daily by GitHub Actions. Promotion to the root README is always manual.
@@ -45,6 +45,8 @@ A paper is stored once in [`data/papers.json`](data/papers.json) but may appear 
 
 ### Human / Egocentric
 
+- 2026-09-11 — [DWMP: Leveraging Dual World Models for Humanoid Obstacle Traversal](https://arxiv.org/abs/2609.12347)
+- 2026-09-10 — [Single-Query Person-Centric Bimanual Hand-Object Interaction Detection](https://arxiv.org/abs/2609.12155)
 - 2026-09-10 — [Rapid Learning of Dexterous In-Hand Pen Writing through Real-Time Jacobian Estimation](https://arxiv.org/abs/2609.11775)
 - 2026-09-10 — [Morphology-Aware Human Motion Retargeting for Wheeled-Humanoid Loco-Manipulation](https://arxiv.org/abs/2609.11357)
 - 2026-09-09 — [HuRo: Robotizing Human Videos for Scalable VLA Pretraining](https://arxiv.org/abs/2609.10706)
@@ -53,8 +55,6 @@ A paper is stored once in [`data/papers.json`](data/papers.json) but may appear 
 - 2026-09-08 — [TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model](https://arxiv.org/abs/2609.09158)
 - 2026-09-08 — [DYAD: A Multimodal Dataset of Co-Located Human Assistance](https://arxiv.org/abs/2609.09023)
 - 2026-09-08 — [From Where to How: Continuous 4D Interaction Forecasting from Egocentric Video](https://arxiv.org/abs/2609.08636)
-- 2026-09-08 — [GOLF: Global Observation with Local Focus for Calibration-Aware Stereo Interaction Field Estimation](https://arxiv.org/abs/2609.08607)
-- 2026-09-08 — [AURORA: Active Uncertainty-Driven Re-Orientation for In-Hand Reconstruction](https://arxiv.org/abs/2609.08493)
 
 ### Simulation
 
