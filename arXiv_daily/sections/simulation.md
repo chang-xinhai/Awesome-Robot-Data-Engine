@@ -4,12 +4,24 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-09-16 · **Papers:** 2511 · **Unique arXiv IDs:** 2511
+**Coverage:** 2025-01-01 to 2026-09-16 · **Papers:** 2523 · **Unique arXiv IDs:** 2523
 
 ## 2026-09
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-09-15 | [Residual Fault Adaptation for Dexterous In-Hand Manipulation Under Runtime Joint Faults](https://arxiv.org/abs/2609.17404) | Linan Deng, Xing Liu, Lin Hong, et al. | cs.RO | Domain Randomization | [abs](https://arxiv.org/abs/2609.17404) / [pdf](https://arxiv.org/pdf/2609.17404) |
+| 2026-09-15 | [XPACE: Joint World and Action Modeling from Heterogeneous Experience](https://arxiv.org/abs/2609.17372) | Jiacheng Wei, Jerry Bai, Xiaoyu Yue, et al. | cs.RO | Simulation Data, World Simulator, Trajectory Generation | [abs](https://arxiv.org/abs/2609.17372) / [pdf](https://arxiv.org/pdf/2609.17372) |
+| 2026-09-15 | [RobResilience: Implementing and Evaluating a Resilience Framework for Cyber-Physical Embodied Systems](https://arxiv.org/abs/2609.17349) | Gysella Imrell, Emanuele Miotto, Mahya Mohammadi Kashani, et al. | cs.CR, cs.RO, eess.SY | Simulation Data | [abs](https://arxiv.org/abs/2609.17349) / [pdf](https://arxiv.org/pdf/2609.17349) |
+| 2026-09-15 | [Port-Hamiltonian Koopman Operator Synthesis for Mechanical Systems](https://arxiv.org/abs/2609.17249) | Rajpal Singh, Aditya Singh, Jishnu Keshavan | cs.RO, eess.SY | Simulation Data | [abs](https://arxiv.org/abs/2609.17249) / [pdf](https://arxiv.org/pdf/2609.17249) |
+| 2026-09-15 | [FluxVLA Engine: A One-Stop VLA Engineering Platform for Embodied Intelligence](https://arxiv.org/abs/2609.17210) | Yinhao Li, Weixin Mao, Zihan Lan, et al. | cs.RO, cs.AI | Simulation Data | [abs](https://arxiv.org/abs/2609.17210) / [pdf](https://arxiv.org/pdf/2609.17210) |
+| 2026-09-15 | [EventEgoHands++: Event-based Egocentric 3D Hand Mesh Reconstruction with Real Dataset](https://arxiv.org/abs/2609.17189) | Ryosei Hara, Wataru Ikeda, Masashi Hatano, et al. | cs.CV | Synthetic Data | [abs](https://arxiv.org/abs/2609.17189) / [pdf](https://arxiv.org/pdf/2609.17189) |
+| 2026-09-15 | [Artificial Intelligence-Enabled Space Robot Operations: Technologies, Challenges and Prospects](https://arxiv.org/abs/2609.16880) | Zeyuan Huang, Gang Chen, Zixuan Hao, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2609.16880) / [pdf](https://arxiv.org/pdf/2609.16880) |
+| 2026-09-15 | [Optimal Excitation Trajectories for System Identification of Underwater Vehicles](https://arxiv.org/abs/2609.16786) | Fotis Panetsos, Kostas J. Kyriakopoulos | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2609.16786) / [pdf](https://arxiv.org/pdf/2609.16786) |
+| 2026-09-15 | [The Robot Data Factory](https://arxiv.org/abs/2609.16705) | Sami Haddadin, Ivan Laptev, Ian Reid, et al. | cs.RO | Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2609.16705) / [pdf](https://arxiv.org/pdf/2609.16705) |
+| 2026-09-15 | [ProxiDex: Learning Dynamics-Guided Proximity Policy for Dexterous Manipulation](https://arxiv.org/abs/2609.16586) | Yushan Bai, Boyu Zheng, Zhiyang Mao, et al. | cs.RO, cs.AI | Simulation Data | [abs](https://arxiv.org/abs/2609.16586) / [pdf](https://arxiv.org/pdf/2609.16586) |
+| 2026-09-14 | [Autonomous Droplet Navigation via Model-Based Reinforcement Learning](https://arxiv.org/abs/2609.16369) | Rajneesh Anand, Mayuresh V. Kothare | cs.LG, cs.RO, eess.SY | Simulation Data | [abs](https://arxiv.org/abs/2609.16369) / [pdf](https://arxiv.org/pdf/2609.16369) |
+| 2026-09-14 | [Structure-Preserving Quantum Circuit Architectures for Robot Kinematics](https://arxiv.org/abs/2609.16089) | Andrea Morghen, Pierluigi Arpenti, Roberto Schiattarella, et al. | cs.RO, quant-ph | Simulation Data | [abs](https://arxiv.org/abs/2609.16089) / [pdf](https://arxiv.org/pdf/2609.16089) |
 | 2026-09-14 | [Goal-Oriented Communications for Physical AI: Design and Testbed](https://arxiv.org/abs/2609.15895) | Shutong Chen, Wenkai Zhang, Adnan Aijaz, et al. | cs.RO, eess.IV | Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2609.15895) / [pdf](https://arxiv.org/pdf/2609.15895) |
 | 2026-09-14 | [JEPLO: Joint-Embedding Predictive Learning for LiDAR-Based Legged Locomotion](https://arxiv.org/abs/2609.15770) | Qihao Yuan, Yixuan Qiu, Ziyu Cao, et al. | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2609.15770) / [pdf](https://arxiv.org/pdf/2609.15770) |
 | 2026-09-14 | [Bench2Dex: Benchmarking Visuo-Tactile Bimanual Dexterous Manipulation Across Dexterous Hands](https://arxiv.org/abs/2609.15726) | Zhenjie Yang, Yideng Zhang, Dongjie Zhang, et al. | cs.RO, cs.AI, cs.CV | Simulation Data, Synthetic Sensor | [abs](https://arxiv.org/abs/2609.15726) / [pdf](https://arxiv.org/pdf/2609.15726) |
