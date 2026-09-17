@@ -2,16 +2,16 @@
 
 > A high-recall candidate archive for manual curation into [Awesome Robot Data Engine](../README.md). It is intentionally broader than the curated list.
 
-**Coverage:** 2025-01-01 to 2026-09-17 · **Unique papers:** 5458
+**Coverage:** 2025-01-01 to 2026-09-17 · **Unique papers:** 5494
 
 ## Sections
 
 | Section | Papers | Scope |
 | :------ | -----: | :---- |
-| [Robot-Centric](sections/robot-centric.md) | 2084 | Real-robot collection, teleoperation, intervention, datasets, and processing |
-| [UMI](sections/umi.md) | 73 | Portable manipulation interfaces, robot-free demonstrations, and UMI recovery |
-| [Human / Egocentric](sections/human-egocentric.md) | 1963 | Human video, HOI, tracking, reconstruction, action extraction, and retargeting |
-| [Simulation](sections/simulation.md) | 2523 | Synthetic demonstrations, environments, assets, sensors, and sim–real systems |
+| [Robot-Centric](sections/robot-centric.md) | 2099 | Real-robot collection, teleoperation, intervention, datasets, and processing |
+| [UMI](sections/umi.md) | 74 | Portable manipulation interfaces, robot-free demonstrations, and UMI recovery |
+| [Human / Egocentric](sections/human-egocentric.md) | 1978 | Human video, HOI, tracking, reconstruction, action extraction, and retargeting |
+| [Simulation](sections/simulation.md) | 2540 | Synthetic demonstrations, environments, assets, sensors, and sim–real systems |
 
 A paper is stored once in [`data/papers.json`](data/papers.json) but may appear in multiple generated views. The archive uses arXiv `v1` dates and is updated daily by GitHub Actions. Promotion to the root README is always manual.
 
@@ -19,19 +19,20 @@ A paper is stored once in [`data/papers.json`](data/papers.json) but may appear 
 
 ### Robot-Centric
 
-- 2026-09-15 — [SlotDiT: Object-Centric Representations for Diffusion Transformers](https://arxiv.org/abs/2609.17414)
-- 2026-09-15 — [XPACE: Joint World and Action Modeling from Heterogeneous Experience](https://arxiv.org/abs/2609.17372)
-- 2026-09-15 — [CAD-Based Relation Learning and Geometric-Symbolic Planning for Robotic Assembly](https://arxiv.org/abs/2609.17263)
-- 2026-09-15 — [FluxVLA Engine: A One-Stop VLA Engineering Platform for Embodied Intelligence](https://arxiv.org/abs/2609.17210)
-- 2026-09-15 — [GeoLAM: Learning Geometry-Grounded Latent Actions from Unlabeled Human Videos](https://arxiv.org/abs/2609.17099)
-- 2026-09-15 — [Artificial Intelligence-Enabled Space Robot Operations: Technologies, Challenges and Prospects](https://arxiv.org/abs/2609.16880)
-- 2026-09-15 — [Rethinking Visual Embodiment Dependence in Visuomotor Policies](https://arxiv.org/abs/2609.16815)
-- 2026-09-15 — [Optimal Excitation Trajectories for System Identification of Underwater Vehicles](https://arxiv.org/abs/2609.16786)
-- 2026-09-15 — [The Robot Data Factory](https://arxiv.org/abs/2609.16705)
-- 2026-09-15 — [ProxiDex: Learning Dynamics-Guided Proximity Policy for Dexterous Manipulation](https://arxiv.org/abs/2609.16586)
+- 2026-09-16 — [PointZero: 3D Point Track Completion for Learning Transferable 3D Dynamics](https://arxiv.org/abs/2609.19142)
+- 2026-09-16 — [In-Context Robot Learning with VLM Agents](https://arxiv.org/abs/2609.19138)
+- 2026-09-16 — [Track, Articulate, Act: Generating Articulation from Casual Human Videos](https://arxiv.org/abs/2609.19119)
+- 2026-09-16 — [Learning Holistic Whole-Body Loco-Manipulation with a Bipedal Mobile Manipulator](https://arxiv.org/abs/2609.18930)
+- 2026-09-16 — [Gated Residual Body-Hand Coordination for Whole-Body Humanoid Teleoperation](https://arxiv.org/abs/2609.18763)
+- 2026-09-16 — [From Gameplay to Policy: Towards Scalable Robot Data Collection via Gamified Robot-Free Interaction](https://arxiv.org/abs/2609.18650)
+- 2026-09-16 — [ActiveScale: Scaling Active Perception for Robots across Model, Data, and Hardware](https://arxiv.org/abs/2609.18514)
+- 2026-09-16 — [WetRobo: A Reproducible Robot Kit for Coding Agents in Biological Laboratories](https://arxiv.org/abs/2609.18435)
+- 2026-09-16 — [DetAug: Obstacle-Blind Trajectory Augmentation for Zero-shot Obstacle Avoidance](https://arxiv.org/abs/2609.18395)
+- 2026-09-16 — [Function-Preserving Data Generation for Zero-Shot Real-to-Sim-to-Real Manipulation](https://arxiv.org/abs/2609.18293)
 
 ### UMI
 
+- 2026-09-16 — [UMI-Bridge: Action-Anchored Latent Alignment across Human and Robot Manipulation Data](https://arxiv.org/abs/2609.18232)
 - 2026-09-15 — [MEgoVista: Multi-view Ego-aware Motion Estimation for Metric 4D Hands and Head in the Wild](https://arxiv.org/abs/2609.16684)
 - 2026-09-14 — [SlipSense: Multimodal Tactile Learning for Low-Latency and Generalized Slip Detection](https://arxiv.org/abs/2609.15910)
 - 2026-09-10 — [SEED-UMI: Sharing the Exoskeleton between human and robot for onE-to-one Dexterous demonstration](https://arxiv.org/abs/2609.11753)
@@ -41,33 +42,32 @@ A paper is stored once in [`data/papers.json`](data/papers.json) but may appear 
 - 2026-08-20 — [Koala Gripper: Co-designing Robotic Grippers and Data-Capture Devices for Scaling Dexterous Manipulation Learning](https://arxiv.org/abs/2608.20546)
 - 2026-08-16 — [Pre-training Visual Dexterity in Simulation](https://arxiv.org/abs/2608.15917)
 - 2026-08-11 — [TCAM for Autonomous Deformable Manipulation: The RMC2 Champion System for WBCD 2026 Track 4](https://arxiv.org/abs/2608.10718)
-- 2026-08-02 — [CAAT: Contact-Aware Attention Scaling and Tactile Masking for Data-Efficient Contact-Rich Manipulation](https://arxiv.org/abs/2608.01102)
 
 ### Human / Egocentric
 
-- 2026-09-15 — [EventEgoHands++: Event-based Egocentric 3D Hand Mesh Reconstruction with Real Dataset](https://arxiv.org/abs/2609.17189)
-- 2026-09-15 — [BRAVE-6D: Benchmark for Robotic Active Vision in 6DOF Pose Estimation](https://arxiv.org/abs/2609.17106)
-- 2026-09-15 — [GeoLAM: Learning Geometry-Grounded Latent Actions from Unlabeled Human Videos](https://arxiv.org/abs/2609.17099)
-- 2026-09-15 — [sensVLA: Spatially-Grounded Vision-Language-Action Model for Autonomous Wheel Loader](https://arxiv.org/abs/2609.17021)
-- 2026-09-15 — [Rethinking Visual Embodiment Dependence in Visuomotor Policies](https://arxiv.org/abs/2609.16815)
-- 2026-09-15 — [The Latent That Never Was: A Forensic Re-run of the CVAE Ablation in Action Chunking Transformer](https://arxiv.org/abs/2609.16745)
-- 2026-09-15 — [Seeing What Matters: Visual Cue Guided Video Planning for Generalizable Robot Navigation](https://arxiv.org/abs/2609.16737)
-- 2026-09-15 — [MEgoVista: Multi-view Ego-aware Motion Estimation for Metric 4D Hands and Head in the Wild](https://arxiv.org/abs/2609.16684)
-- 2026-09-15 — [Weave: Learning Whole-Body Dexterous Loco-Manipulation from Human-Object Interactions](https://arxiv.org/abs/2609.16683)
-- 2026-09-15 — [EgoPathBench: Evaluating Zero-Shot Egocentric Waypoint Decision-Making in Vision-Language Models](https://arxiv.org/abs/2609.16610)
+- 2026-09-16 — [In-Context Robot Learning with VLM Agents](https://arxiv.org/abs/2609.19138)
+- 2026-09-16 — [Track, Articulate, Act: Generating Articulation from Casual Human Videos](https://arxiv.org/abs/2609.19119)
+- 2026-09-16 — [Gated Residual Body-Hand Coordination for Whole-Body Humanoid Teleoperation](https://arxiv.org/abs/2609.18763)
+- 2026-09-16 — [PASSAGE: Scaling Scene-Aligned Motion Learning for Perceptive Humanoid Traversal in Cluttered Environments](https://arxiv.org/abs/2609.18732)
+- 2026-09-16 — [From Gameplay to Policy: Towards Scalable Robot Data Collection via Gamified Robot-Free Interaction](https://arxiv.org/abs/2609.18650)
+- 2026-09-16 — [HAP: A Hand-Driven Active Perception Framework for Egocentric Head Motion Prediction](https://arxiv.org/abs/2609.18548)
+- 2026-09-16 — [ActiveScale: Scaling Active Perception for Robots across Model, Data, and Hardware](https://arxiv.org/abs/2609.18514)
+- 2026-09-16 — [InterMASH: A Unified Geometric Representation for Grasp Synthesis](https://arxiv.org/abs/2609.18504)
+- 2026-09-16 — [UAVs Meet Embodied Intelligence: Bridging Human Intents and Flying Dynamics Via Harnessing Physical-Digital AI Agents](https://arxiv.org/abs/2609.18326)
+- 2026-09-16 — [UMI-Bridge: Action-Anchored Latent Alignment across Human and Robot Manipulation Data](https://arxiv.org/abs/2609.18232)
 
 ### Simulation
 
-- 2026-09-15 — [Residual Fault Adaptation for Dexterous In-Hand Manipulation Under Runtime Joint Faults](https://arxiv.org/abs/2609.17404)
-- 2026-09-15 — [XPACE: Joint World and Action Modeling from Heterogeneous Experience](https://arxiv.org/abs/2609.17372)
-- 2026-09-15 — [RobResilience: Implementing and Evaluating a Resilience Framework for Cyber-Physical Embodied Systems](https://arxiv.org/abs/2609.17349)
-- 2026-09-15 — [Port-Hamiltonian Koopman Operator Synthesis for Mechanical Systems](https://arxiv.org/abs/2609.17249)
-- 2026-09-15 — [FluxVLA Engine: A One-Stop VLA Engineering Platform for Embodied Intelligence](https://arxiv.org/abs/2609.17210)
-- 2026-09-15 — [EventEgoHands++: Event-based Egocentric 3D Hand Mesh Reconstruction with Real Dataset](https://arxiv.org/abs/2609.17189)
-- 2026-09-15 — [Artificial Intelligence-Enabled Space Robot Operations: Technologies, Challenges and Prospects](https://arxiv.org/abs/2609.16880)
-- 2026-09-15 — [Optimal Excitation Trajectories for System Identification of Underwater Vehicles](https://arxiv.org/abs/2609.16786)
-- 2026-09-15 — [The Robot Data Factory](https://arxiv.org/abs/2609.16705)
-- 2026-09-15 — [ProxiDex: Learning Dynamics-Guided Proximity Policy for Dexterous Manipulation](https://arxiv.org/abs/2609.16586)
+- 2026-09-16 — [Dreaming the Sound of Contact: Leveraging Video and Audio Generation for Zero-Shot Force-Aware Manipulation and Data Generation](https://arxiv.org/abs/2609.19137)
+- 2026-09-16 — [Track, Articulate, Act: Generating Articulation from Casual Human Videos](https://arxiv.org/abs/2609.19119)
+- 2026-09-16 — [WeaveRL: Weaving Reconstruction into Scene-Aware Fabrics for Perceptive Reinforcement Learning](https://arxiv.org/abs/2609.18685)
+- 2026-09-16 — [VLA-ULAP: Interleaving Cloud VLA Calls with Ultra-Lightweight Local Action Prediction at the Edge](https://arxiv.org/abs/2609.18663)
+- 2026-09-16 — [FIERCE: From Generalist Robot Policies to Fast Specialists via Progress-Failure Feedback](https://arxiv.org/abs/2609.18651)
+- 2026-09-16 — [DeformSmith: Physics Harness-Guided Hierarchical Generation of Deformable Assets for Robot Manipulation](https://arxiv.org/abs/2609.18620)
+- 2026-09-16 — [ForwardDLO: Model-Based Bimanual Shape Matching of Unconstrained Deformable Linear Objects](https://arxiv.org/abs/2609.18455)
+- 2026-09-16 — [Hardware-Free Robotics Laboratories in Mixed Reality](https://arxiv.org/abs/2609.18434)
+- 2026-09-16 — [Function-Preserving Data Generation for Zero-Shot Real-to-Sim-to-Real Manipulation](https://arxiv.org/abs/2609.18293)
+- 2026-09-16 — [TacBPM: A Tactile-conditioned Behavior Prior Model for Dexterous Reorientation](https://arxiv.org/abs/2609.18174)
 
 ## Method
 

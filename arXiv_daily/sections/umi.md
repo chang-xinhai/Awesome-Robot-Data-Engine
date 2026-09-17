@@ -4,12 +4,13 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-09-17 · **Papers:** 73 · **Unique arXiv IDs:** 73
+**Coverage:** 2025-01-01 to 2026-09-17 · **Papers:** 74 · **Unique arXiv IDs:** 74
 
 ## 2026-09
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-09-16 | [UMI-Bridge: Action-Anchored Latent Alignment across Human and Robot Manipulation Data](https://arxiv.org/abs/2609.18232) | Haiyi Liu, Jingming Ma, Ke Rui, et al. | cs.RO | Universal Manipulation Interface, Handheld Gripper | [abs](https://arxiv.org/abs/2609.18232) / [pdf](https://arxiv.org/pdf/2609.18232) |
 | 2026-09-15 | [MEgoVista: Multi-view Ego-aware Motion Estimation for Metric 4D Hands and Head in the Wild](https://arxiv.org/abs/2609.16684) | Jiangong Xiao, Zhihao Zhang, Yifei Dong, et al. | cs.CV | In-the-Wild Teaching | [abs](https://arxiv.org/abs/2609.16684) / [pdf](https://arxiv.org/pdf/2609.16684) |
 | 2026-09-14 | [SlipSense: Multimodal Tactile Learning for Low-Latency and Generalized Slip Detection](https://arxiv.org/abs/2609.15910) | Tong Jian, Aditya Thurvas Senthil Kumar, Xinyi Li, et al. | cs.RO, cs.AI, cs.LG | Universal Manipulation Interface | [abs](https://arxiv.org/abs/2609.15910) / [pdf](https://arxiv.org/pdf/2609.15910) |
 | 2026-09-10 | [SEED-UMI: Sharing the Exoskeleton between human and robot for onE-to-one Dexterous demonstration](https://arxiv.org/abs/2609.11753) | Tengbo Yu, Jiahao Wu, Daohan Li, et al. | cs.RO | Universal Manipulation Interface | [abs](https://arxiv.org/abs/2609.11753) / [pdf](https://arxiv.org/pdf/2609.11753) |

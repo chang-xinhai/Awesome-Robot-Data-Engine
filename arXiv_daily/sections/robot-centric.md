@@ -4,12 +4,27 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-09-17 · **Papers:** 2084 · **Unique arXiv IDs:** 2084
+**Coverage:** 2025-01-01 to 2026-09-17 · **Papers:** 2099 · **Unique arXiv IDs:** 2099
 
 ## 2026-09
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-09-16 | [PointZero: 3D Point Track Completion for Learning Transferable 3D Dynamics](https://arxiv.org/abs/2609.19142) | Bardienus P. Duisterhof, Kaifeng Zhang, Adam Hung, et al. | cs.CV, cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2609.19142) / [pdf](https://arxiv.org/pdf/2609.19142) |
+| 2026-09-16 | [In-Context Robot Learning with VLM Agents](https://arxiv.org/abs/2609.19138) | Dongzhou Cheng, Taoran Yi, Ye Fang, et al. | cs.CV, cs.RO | Data Collection | [abs](https://arxiv.org/abs/2609.19138) / [pdf](https://arxiv.org/pdf/2609.19138) |
+| 2026-09-16 | [Track, Articulate, Act: Generating Articulation from Casual Human Videos](https://arxiv.org/abs/2609.19119) | Jiaming Zhang, Homanga Bharadhwaj | cs.CV | Robot Dataset | [abs](https://arxiv.org/abs/2609.19119) / [pdf](https://arxiv.org/pdf/2609.19119) |
+| 2026-09-16 | [Learning Holistic Whole-Body Loco-Manipulation with a Bipedal Mobile Manipulator](https://arxiv.org/abs/2609.18930) | Zhongyu Chen, Yuxuan Nai, Qian Chen, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2609.18930) / [pdf](https://arxiv.org/pdf/2609.18930) |
+| 2026-09-16 | [Gated Residual Body-Hand Coordination for Whole-Body Humanoid Teleoperation](https://arxiv.org/abs/2609.18763) | Ruiming Wu, Shuang Li, Liding Zhang, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2609.18763) / [pdf](https://arxiv.org/pdf/2609.18763) |
+| 2026-09-16 | [From Gameplay to Policy: Towards Scalable Robot Data Collection via Gamified Robot-Free Interaction](https://arxiv.org/abs/2609.18650) | Zheng Li, Liang Zhu, Junzhe Wang, et al. | cs.RO | Robot Dataset, Data Collection, Scalable Demonstrations | [abs](https://arxiv.org/abs/2609.18650) / [pdf](https://arxiv.org/pdf/2609.18650) |
+| 2026-09-16 | [ActiveScale: Scaling Active Perception for Robots across Model, Data, and Hardware](https://arxiv.org/abs/2609.18514) | Shuai Zhou, Kaisheng Pang, Wenxuan Song, et al. | cs.RO, cs.LG | Teleoperation, Robot Dataset | [abs](https://arxiv.org/abs/2609.18514) / [pdf](https://arxiv.org/pdf/2609.18514) |
+| 2026-09-16 | [WetRobo: A Reproducible Robot Kit for Coding Agents in Biological Laboratories](https://arxiv.org/abs/2609.18435) | Yuna Oikawa, Kei Endo, Takanori Uzawa, et al. | cs.AI, cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2609.18435) / [pdf](https://arxiv.org/pdf/2609.18435) |
+| 2026-09-16 | [DetAug: Obstacle-Blind Trajectory Augmentation for Zero-shot Obstacle Avoidance](https://arxiv.org/abs/2609.18395) | Reece O'Mahoney, Moritz Zoellner, Ioannis Havoutis | cs.RO | Teleoperation, Robot Data Processing | [abs](https://arxiv.org/abs/2609.18395) / [pdf](https://arxiv.org/pdf/2609.18395) |
+| 2026-09-16 | [Function-Preserving Data Generation for Zero-Shot Real-to-Sim-to-Real Manipulation](https://arxiv.org/abs/2609.18293) | Tianyi Xiang, Xupeng Xie, Jiahang Cao, et al. | cs.RO | Teleoperation, Robot Dataset | [abs](https://arxiv.org/abs/2609.18293) / [pdf](https://arxiv.org/pdf/2609.18293) |
+| 2026-09-16 | [UMI-Bridge: Action-Anchored Latent Alignment across Human and Robot Manipulation Data](https://arxiv.org/abs/2609.18232) | Haiyi Liu, Jingming Ma, Ke Rui, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2609.18232) / [pdf](https://arxiv.org/pdf/2609.18232) |
+| 2026-09-16 | [Reinforcement Learning for Real-Time Vision-Language-Action Policies](https://arxiv.org/abs/2609.18207) | Perry Dong, Kuo-Han Hung, Dorsa Sadigh, et al. | cs.RO, cs.LG | Robot Dataset, Human Intervention | [abs](https://arxiv.org/abs/2609.18207) / [pdf](https://arxiv.org/pdf/2609.18207) |
+| 2026-09-16 | [WholeBodyWAM: Learning Whole-Body World Action Models with Scalable Motion Priors](https://arxiv.org/abs/2609.18197) | Bowei Zhang, Qiyao Zhang, Shuanghao Bai, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2609.18197) / [pdf](https://arxiv.org/pdf/2609.18197) |
+| 2026-09-16 | [Fetch My Beer: Synthetic-to-real Hierarchical Policy for Smooth Pick-and-place](https://arxiv.org/abs/2609.18119) | Yingyue Li, Chenyangguang Zhang, Ruida Zhang, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2609.18119) / [pdf](https://arxiv.org/pdf/2609.18119) |
+| 2026-09-16 | [OpenDexGrasp: Open-vocabulary Task-Oriented Dexterous Grasping](https://arxiv.org/abs/2609.18117) | Jiyao Zhang, Junhan Wang, Tianyu Wang, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2609.18117) / [pdf](https://arxiv.org/pdf/2609.18117) |
 | 2026-09-15 | [SlotDiT: Object-Centric Representations for Diffusion Transformers](https://arxiv.org/abs/2609.17414) | Gjergj Plepi, Sven Behnke | cs.CV, cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2609.17414) / [pdf](https://arxiv.org/pdf/2609.17414) |
 | 2026-09-15 | [XPACE: Joint World and Action Modeling from Heterogeneous Experience](https://arxiv.org/abs/2609.17372) | Jiacheng Wei, Jerry Bai, Xiaoyu Yue, et al. | cs.RO | Robot Dataset, Autonomous Collection | [abs](https://arxiv.org/abs/2609.17372) / [pdf](https://arxiv.org/pdf/2609.17372) |
 | 2026-09-15 | [CAD-Based Relation Learning and Geometric-Symbolic Planning for Robotic Assembly](https://arxiv.org/abs/2609.17263) | Fabian Harlacher, Christian Friedrich | cs.RO | Human Intervention | [abs](https://arxiv.org/abs/2609.17263) / [pdf](https://arxiv.org/pdf/2609.17263) |
