@@ -4,12 +4,23 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-09-18 · **Papers:** 2540 · **Unique arXiv IDs:** 2540
+**Coverage:** 2025-01-01 to 2026-09-18 · **Papers:** 2551 · **Unique arXiv IDs:** 2551
 
 ## 2026-09
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-09-17 | [MAGNETAR: Multipath-Guided Spatial Posteriors for Transmitter Pose Inference in the Upper Mid-Band](https://arxiv.org/abs/2609.20670) | Haozhe Lei, Ruibin Chen, Yuhan Jiang, et al. | cs.RO, eess.SP | Sim-to-Real | [abs](https://arxiv.org/abs/2609.20670) / [pdf](https://arxiv.org/pdf/2609.20670) |
+| 2026-09-17 | [DexTouch-WM: Learning Action-Conditioned Tactile World Models from Human Touch for Dexterous Robot Manipulation](https://arxiv.org/abs/2609.20649) | Yan Qin, Yue Chen, Wenwei Lin, et al. | cs.RO, cs.CV | Trajectory Generation | [abs](https://arxiv.org/abs/2609.20649) / [pdf](https://arxiv.org/pdf/2609.20649) |
+| 2026-09-17 | [SmellDiffusion: Diffusion-Based Quadruped Navigation with Olfactory Scene Graphs](https://arxiv.org/abs/2609.20624) | Faith Ogunwoye, Iana Zhura, Hajira Amjad, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2609.20624) / [pdf](https://arxiv.org/pdf/2609.20624) |
+| 2026-09-17 | [Walking on the Slope: Stable Bipedal Gaits with Genetic-Algorithm-Optimized Trajectories](https://arxiv.org/abs/2609.20570) | Madhav Rijal | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2609.20570) / [pdf](https://arxiv.org/pdf/2609.20570) |
+| 2026-09-17 | [Visual Sim-to-Real Learning for Robotic Insertion under Geometric Variations: Application to Rebar Installation](https://arxiv.org/abs/2609.20477) | Tao Sun, Beining Han, Patrick Yin, et al. | cs.RO | Sim-to-Real, Domain Randomization | [abs](https://arxiv.org/abs/2609.20477) / [pdf](https://arxiv.org/pdf/2609.20477) |
+| 2026-09-17 | [BinoGen: Scaling egocentric binocular data for embodied visual perception and learning](https://arxiv.org/abs/2609.19881) | Chunpeng Li, Ya-tang Li | cs.CV, cs.MM | Trajectory Generation | [abs](https://arxiv.org/abs/2609.19881) / [pdf](https://arxiv.org/pdf/2609.19881) |
+| 2026-09-17 | [Feeling Terrain Before Crossing: World Models for Off-Road Navigation](https://arxiv.org/abs/2609.19863) | E-In Son, Dong-Wook Kim, Ji-Hoon Hwang, et al. | cs.RO, cs.CV | Simulation Data | [abs](https://arxiv.org/abs/2609.19863) / [pdf](https://arxiv.org/pdf/2609.19863) |
+| 2026-09-17 | [ReShoot: Generative Visual Domain Randomization of Recorded Robot Demonstrations for Visuomotor Policy Learning](https://arxiv.org/abs/2609.19661) | Chiyoung Kim, Min Sung Choi, Jinho Ju, et al. | cs.RO | Domain Randomization | [abs](https://arxiv.org/abs/2609.19661) / [pdf](https://arxiv.org/pdf/2609.19661) |
+| 2026-09-17 | [WorldContact: A Contact-Centric World Model for Scalable Robot Learning](https://arxiv.org/abs/2609.19600) | Caoliwen Wang, Mengdi Wang, Heng Zhang, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2609.19600) / [pdf](https://arxiv.org/pdf/2609.19600) |
+| 2026-09-17 | [CoreSense: Traceable Failure Recall and Conflict-Aware Belief Gating for Auditable Robot Decisions](https://arxiv.org/abs/2609.19512) | Zoe Li | cs.RO, cs.AI | Simulation Data | [abs](https://arxiv.org/abs/2609.19512) / [pdf](https://arxiv.org/pdf/2609.19512) |
+| 2026-09-16 | [OHRID-Retail: An Open Multimodal Dataset of Human Activity in Retail Environments](https://arxiv.org/abs/2609.19302) | Xiangrui Wang, Yuetong Wu, Jalen Beeman, et al. | cs.RO, cs.HC | Simulation Data | [abs](https://arxiv.org/abs/2609.19302) / [pdf](https://arxiv.org/pdf/2609.19302) |
 | 2026-09-16 | [Dreaming the Sound of Contact: Leveraging Video and Audio Generation for Zero-Shot Force-Aware Manipulation and Data Generation](https://arxiv.org/abs/2609.19137) | Guanhua Ji, Tianyu Li, Dayoon Suh, et al. | cs.RO, cs.AI | Trajectory Generation | [abs](https://arxiv.org/abs/2609.19137) / [pdf](https://arxiv.org/pdf/2609.19137) |
 | 2026-09-16 | [Track, Articulate, Act: Generating Articulation from Casual Human Videos](https://arxiv.org/abs/2609.19119) | Jiaming Zhang, Homanga Bharadhwaj | cs.CV | Sim-to-Real, Simulation-Ready Asset | [abs](https://arxiv.org/abs/2609.19119) / [pdf](https://arxiv.org/pdf/2609.19119) |
 | 2026-09-16 | [WeaveRL: Weaving Reconstruction into Scene-Aware Fabrics for Perceptive Reinforcement Learning](https://arxiv.org/abs/2609.18685) | Remo Steiner, Vikram Ramasamy, David Tingdahl, et al. | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2609.18685) / [pdf](https://arxiv.org/pdf/2609.18685) |
