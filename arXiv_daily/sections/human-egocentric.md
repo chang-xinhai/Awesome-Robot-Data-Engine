@@ -4,12 +4,20 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-09-21 · **Papers:** 1992 · **Unique arXiv IDs:** 1992
+**Coverage:** 2025-01-01 to 2026-09-21 · **Papers:** 2000 · **Unique arXiv IDs:** 2000
 
 ## 2026-09
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-09-18 | [GALA: Geometry-Aware Latent Action Modeling for Vision-Language-Action Model Pretraining across Embodiments](https://arxiv.org/abs/2609.21948) | Yichen Liu, Puzhen Yuan, Xiang Zhu, et al. | cs.RO, cs.CV | Egocentric, Human Video | [abs](https://arxiv.org/abs/2609.21948) / [pdf](https://arxiv.org/pdf/2609.21948) |
+| 2026-09-18 | [Visual Proactivity: Enhancing Human-Robot Collaboration Through Intent Communication](https://arxiv.org/abs/2609.21729) | Valerio Bo, Edison Bejarano, Anaís Garrell, et al. | cs.RO | Human-to-Robot, Affordance / Contact | [abs](https://arxiv.org/abs/2609.21729) / [pdf](https://arxiv.org/pdf/2609.21729) |
+| 2026-09-18 | [SynthDemo-RL: Breaking the Zero-Reward Barrier in VLA Adaptation with LLM-Guided Synthetic Demonstrations](https://arxiv.org/abs/2609.21650) | Hiroaki Kingetsu, Hiroaki Kurihara, Kaoru Yokoo, et al. | cs.RO, cs.AI | Human Demonstration | [abs](https://arxiv.org/abs/2609.21650) / [pdf](https://arxiv.org/pdf/2609.21650) |
+| 2026-09-18 | [Skel-WAM: A Hand-Skeleton-Conditioned World Action Model for Human-to-Robot Manipulation Transfer](https://arxiv.org/abs/2609.21514) | Zetao Cai, Yaping Li, Yiqun Wang, et al. | cs.RO | Human Video, Human Demonstration, Human-to-Robot | [abs](https://arxiv.org/abs/2609.21514) / [pdf](https://arxiv.org/pdf/2609.21514) |
+| 2026-09-18 | [AtomEgo: Exploring Ego-Robot Integration for Embodied Foundation Model Pretraining](https://arxiv.org/abs/2609.21461) | Di Wu, Dongchen Zheng, Junhe Sheng, et al. | cs.RO, cs.AI | Egocentric, Human Demonstration | [abs](https://arxiv.org/abs/2609.21461) / [pdf](https://arxiv.org/pdf/2609.21461) |
+| 2026-09-18 | [NaViRrator: Robot Navigation from Human-Readable Maps through a Learned Visual Route](https://arxiv.org/abs/2609.21316) | Ayun Lee, Jiseon Kim, Giseop Kim | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2609.21316) / [pdf](https://arxiv.org/pdf/2609.21316) |
+| 2026-09-18 | [KnowDemo: Knowledge-Guided Robot Demonstration Generation from Human Videos](https://arxiv.org/abs/2609.21229) | Zhiyuan Gao, Yanxiang Zhan, Mohammad Khoshnazar, et al. | cs.RO, cs.AI | Human Video | [abs](https://arxiv.org/abs/2609.21229) / [pdf](https://arxiv.org/pdf/2609.21229) |
+| 2026-09-17 | [Learning Scene-Aware Humanoid Locomotion through 3D Clutter from Immersive Human Demonstrations](https://arxiv.org/abs/2609.21107) | Beichen Wang, Tong Xu, Daniel Kosukhin, et al. | cs.RO | Human Video, Human Demonstration | [abs](https://arxiv.org/abs/2609.21107) / [pdf](https://arxiv.org/pdf/2609.21107) |
 | 2026-09-17 | [DexTouch-WM: Learning Action-Conditioned Tactile World Models from Human Touch for Dexterous Robot Manipulation](https://arxiv.org/abs/2609.20649) | Yan Qin, Yue Chen, Wenwei Lin, et al. | cs.RO, cs.CV | Human-to-Robot, Affordance / Contact | [abs](https://arxiv.org/abs/2609.20649) / [pdf](https://arxiv.org/pdf/2609.20649) |
 | 2026-09-17 | [PROVIA: Procedure State Tracking for Online Mistake Detection in Egocentric Videos](https://arxiv.org/abs/2609.20638) | Di Wen, Kailun Yang, Jimmy Weissert, et al. | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2609.20638) / [pdf](https://arxiv.org/pdf/2609.20638) |
 | 2026-09-17 | [INSPECT: Learning Robot View Selection from Assistant Use](https://arxiv.org/abs/2609.20615) | Di Wen, Kailun Yang, Wenhao Guo, et al. | cs.RO, cs.CV | Egocentric | [abs](https://arxiv.org/abs/2609.20615) / [pdf](https://arxiv.org/pdf/2609.20615) |
