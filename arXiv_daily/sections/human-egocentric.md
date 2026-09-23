@@ -4,12 +4,20 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-09-23 · **Papers:** 2013 · **Unique arXiv IDs:** 2013
+**Coverage:** 2025-01-01 to 2026-09-23 · **Papers:** 2021 · **Unique arXiv IDs:** 2021
 
 ## 2026-09
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-09-22 | [Sample, Simulate, Select: Physics-in-the-Loop Text-to-Motion for Humanoids Without Training](https://arxiv.org/abs/2609.26420) | Raphael Memmesheimer, Sven Behnke | cs.RO, cs.CV | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2609.26420) / [pdf](https://arxiv.org/pdf/2609.26420) |
+| 2026-09-22 | [VisForce: Visual Grounding of Current and Desired Forces for Goal-Conditioned Dexterous Manipulation](https://arxiv.org/abs/2609.25785) | Jung-Woo Lee, Soo-Chul Lim | cs.RO | Affordance / Contact | [abs](https://arxiv.org/abs/2609.25785) / [pdf](https://arxiv.org/pdf/2609.25785) |
+| 2026-09-22 | [MachEmbodied-U0: Unified Understanding and Generation Model for Embodied Intelligence](https://arxiv.org/abs/2609.25627) | Haoran Wen, Wenfu Wang, Kunsong Shi, et al. | cs.RO, cs.CV | Egocentric | [abs](https://arxiv.org/abs/2609.25627) / [pdf](https://arxiv.org/pdf/2609.25627) |
+| 2026-09-22 | [Relative Contact Velocity-Controlled Hand-Object Mechanism for Dexterous Tool Manipulation](https://arxiv.org/abs/2609.25619) | Sunyu Wang, Jean Oh, Nancy S. Pollard | cs.RO | Hand-Object Interaction, Affordance / Contact | [abs](https://arxiv.org/abs/2609.25619) / [pdf](https://arxiv.org/pdf/2609.25619) |
+| 2026-09-22 | [HABILIS Brain 0: Geometry-Change Supervision for Vision-Language-Action and Residual Flow Recovery](https://arxiv.org/abs/2609.25558) | Jinu Pahk, Jesoon Kang, Taegeon Park, et al. | cs.RO, cs.LG | Egocentric | [abs](https://arxiv.org/abs/2609.25558) / [pdf](https://arxiv.org/pdf/2609.25558) |
+| 2026-09-22 | [Digital Twin-Driven VR Teleoperation with Multi-View Spatial Perception for Surgical Robots](https://arxiv.org/abs/2609.25527) | Chang Liu, Chenhao Yu, Honghao Zhao, et al. | cs.RO | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2609.25527) / [pdf](https://arxiv.org/pdf/2609.25527) |
+| 2026-09-21 | [Capability-Aware Arbitration for Semantic Intent-Based Shared Control](https://arxiv.org/abs/2609.25369) | Zhaoda Du, Michael Bowman, Xiaoli Zhang | cs.RO | Affordance / Contact | [abs](https://arxiv.org/abs/2609.25369) / [pdf](https://arxiv.org/pdf/2609.25369) |
+| 2026-09-21 | [Learning to Plan in Human-Robot Collaboration: Multimodal Reinforcement Learning for Adaptive Interaction](https://arxiv.org/abs/2609.25274) | Afagh Mehri Shervedani, Siyu Li, Natawut Monaikul, et al. | cs.RO | Affordance / Contact | [abs](https://arxiv.org/abs/2609.25274) / [pdf](https://arxiv.org/pdf/2609.25274) |
 | 2026-09-21 | [DualWAM: Dual-System World Action Models for Asynchronous Global Planning and Local Refinement](https://arxiv.org/abs/2609.24868) | Yixin Zheng, Jiangran Lyu, Yuntian Deng, et al. | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2609.24868) / [pdf](https://arxiv.org/pdf/2609.24868) |
 | 2026-09-21 | [H2RBench: A Real-to-Sim Benchmark for Evaluating Human-to-Robot Transfer](https://arxiv.org/abs/2609.24778) | Chuyang Xiao, Haotian Zhan, Sriram Krishna, et al. | cs.RO | Human Video, Human Demonstration, Human-to-Robot | [abs](https://arxiv.org/abs/2609.24778) / [pdf](https://arxiv.org/pdf/2609.24778) |
 | 2026-09-21 | [Touch2Robot: Robot Touch in the Human Demonstration Loop](https://arxiv.org/abs/2609.24660) | Shengcheng Luo, Xiaoyang Cheng, Hong Ying, et al. | cs.RO, cs.AI | Human Demonstration, Affordance / Contact | [abs](https://arxiv.org/abs/2609.24660) / [pdf](https://arxiv.org/pdf/2609.24660) |

@@ -4,12 +4,13 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-09-23 · **Papers:** 80 · **Unique arXiv IDs:** 80
+**Coverage:** 2025-01-01 to 2026-09-23 · **Papers:** 81 · **Unique arXiv IDs:** 81
 
 ## 2026-09
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-09-21 | [X-Planner: Event-Structured Task Planning for Embodied Intelligence](https://arxiv.org/abs/2609.25187) | Howard Lu, Shalfun Li, Porter Pan, et al. | cs.AI | Universal Manipulation Interface | [abs](https://arxiv.org/abs/2609.25187) / [pdf](https://arxiv.org/pdf/2609.25187) |
 | 2026-09-21 | [DualWAM: Dual-System World Action Models for Asynchronous Global Planning and Local Refinement](https://arxiv.org/abs/2609.24868) | Yixin Zheng, Jiangran Lyu, Yuntian Deng, et al. | cs.RO | Universal Manipulation Interface | [abs](https://arxiv.org/abs/2609.24868) / [pdf](https://arxiv.org/pdf/2609.24868) |
 | 2026-09-19 | [Whole-Body UMI: Transferring UMI Manipulation Skills to Humanoid Whole-Body Manipulation via Real-Time Motion Generation](https://arxiv.org/abs/2609.22829) | Yuxuan Nai, Leixin Chang, Liangjing Yang, et al. | cs.RO | Universal Manipulation Interface | [abs](https://arxiv.org/abs/2609.22829) / [pdf](https://arxiv.org/pdf/2609.22829) |
 | 2026-09-19 | [Kinematic Interface for the Wild: Modular Bimanual Loco-Manipulation Capture from 360$^{\circ}$ Cameras Alone](https://arxiv.org/abs/2609.22809) | Benjamin Yang, Weiying Wang, Shenggao Li, et al. | cs.RO | Universal Manipulation Interface, Wrist-Sensor Demonstration | [abs](https://arxiv.org/abs/2609.22809) / [pdf](https://arxiv.org/pdf/2609.22809) |
