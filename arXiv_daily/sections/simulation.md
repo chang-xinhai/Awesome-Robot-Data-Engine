@@ -4,12 +4,23 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-09-24 · **Papers:** 2617 · **Unique arXiv IDs:** 2617
+**Coverage:** 2025-01-01 to 2026-09-24 · **Papers:** 2628 · **Unique arXiv IDs:** 2628
 
 ## 2026-09
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-09-23 | [PointCast: One World Model for Rigid, Articulated, and Deformable Object Manipulation](https://arxiv.org/abs/2609.28393) | Hantao Ye, Ross Worobel, Zhuoli Xie, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2609.28393) / [pdf](https://arxiv.org/pdf/2609.28393) |
+| 2026-09-23 | [Beyond Future Prediction: Denoising as Generative Adaptation for Robot Control](https://arxiv.org/abs/2609.28339) | Zanyi Wang, Yuheng Lei, Dengyang Jiang, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2609.28339) / [pdf](https://arxiv.org/pdf/2609.28339) |
+| 2026-09-23 | [InternW0: A Foundational Physical World Model for Efficient Real-World Interactions](https://arxiv.org/abs/2609.27656) | Jisong Cai, Yao Mu, Ganlin Yang, et al. | cs.RO, cs.AI | Simulation Data | [abs](https://arxiv.org/abs/2609.27656) / [pdf](https://arxiv.org/pdf/2609.27656) |
+| 2026-09-23 | [BEE: Intervention-Adaptive Real-World Reinforcement Learning with Vision-Language-Action Models](https://arxiv.org/abs/2609.27450) | Weihui Zhao, Xiaohan Yan, Zunian Wan, et al. | cs.RO, cs.AI | Simulation Data | [abs](https://arxiv.org/abs/2609.27450) / [pdf](https://arxiv.org/pdf/2609.27450) |
+| 2026-09-23 | [X2Real: an eXtensive simulation benchmark for real-world generalist policies](https://arxiv.org/abs/2609.27449) | Lian Ruan, Jade Yang, Sherphylan Gao, et al. | cs.RO | Simulation Data, Sim-to-Real, Domain Randomization | [abs](https://arxiv.org/abs/2609.27449) / [pdf](https://arxiv.org/pdf/2609.27449) |
+| 2026-09-23 | [Spatial and Semantic Reasoning for LLM-Driven Robot Navigation via MCP](https://arxiv.org/abs/2609.27340) | Jungsoo Lee, Jaegyun Park, Wansoo Kim | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2609.27340) / [pdf](https://arxiv.org/pdf/2609.27340) |
+| 2026-09-23 | [EmbodiedSWE: Coding Agents for Long Horizon Dexterous Robotics](https://arxiv.org/abs/2609.27308) | Haoxiang You, Zeyu Shen, Yilang Liu, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2609.27308) / [pdf](https://arxiv.org/pdf/2609.27308) |
+| 2026-09-23 | [Banana Kick: Response-Informed Skill Evolution for Humanoid Soccer](https://arxiv.org/abs/2609.27269) | Hao E. Zhang, Ruize Geng, Raihan Haque, et al. | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2609.27269) / [pdf](https://arxiv.org/pdf/2609.27269) |
+| 2026-09-22 | [Planning Trajectories that Bounce: Reflection Classes for Collision-Tolerant Robots](https://arxiv.org/abs/2609.27145) | Subhadeep Koley, Subhrajit Bhattacharya, David Saldaña | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2609.27145) / [pdf](https://arxiv.org/pdf/2609.27145) |
+| 2026-09-22 | [The Gaussian Is Enough: Flow-Matching Priors Do Not Help When Fine-Tuning Large Behavior Models](https://arxiv.org/abs/2609.27070) | Chen Xu, Rishi Shah, Hadas Kress-Gazit, et al. | cs.RO, cs.AI | Simulation Data | [abs](https://arxiv.org/abs/2609.27070) / [pdf](https://arxiv.org/pdf/2609.27070) |
+| 2026-09-22 | [Spiderbot: An Open-Source Energy-Efficient Hexapod with Passive Gravity Compensation](https://arxiv.org/abs/2609.26989) | Ritwik Sharma, Vimarsh Shah, Saransh Agrawal | cs.RO, eess.SY | Sim-to-Real | [abs](https://arxiv.org/abs/2609.26989) / [pdf](https://arxiv.org/pdf/2609.26989) |
 | 2026-09-22 | [φ-RIE: From Photorealistic Reconstruction to Interactive Environments](https://arxiv.org/abs/2609.26795) | Runyi Yang, Deheng Zhang, Xiaoye Wang, et al. | cs.RO, cs.CV, cs.GR | Simulation Data | [abs](https://arxiv.org/abs/2609.26795) / [pdf](https://arxiv.org/pdf/2609.26795) |
 | 2026-09-22 | [Manipulation of Deformable Linear Objects Using Model Predictive Path Integral Control with Bidirectional Long Short-Term Memory Learning](https://arxiv.org/abs/2609.26238) | Lukas Zeh, Johannes Meiwaldt, Zexu Zhou, et al. | cs.RO, eess.SY | Synthetic Data | [abs](https://arxiv.org/abs/2609.26238) / [pdf](https://arxiv.org/pdf/2609.26238) |
 | 2026-09-22 | [Unsigned Distance Maps on 2D Point Cloud Registration](https://arxiv.org/abs/2609.25932) | Ricardo B. Sousa, Giorgio Grisetti, Héber Miguel Sobreira, et al. | cs.RO | Synthetic Data | [abs](https://arxiv.org/abs/2609.25932) / [pdf](https://arxiv.org/pdf/2609.25932) |

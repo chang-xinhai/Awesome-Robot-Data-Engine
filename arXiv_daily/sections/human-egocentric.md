@@ -4,12 +4,17 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-09-24 · **Papers:** 2021 · **Unique arXiv IDs:** 2021
+**Coverage:** 2025-01-01 to 2026-09-24 · **Papers:** 2026 · **Unique arXiv IDs:** 2026
 
 ## 2026-09
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-09-23 | [ForgetMimic: Motion Unlearning for Reinforcement Learning Humanoid Control](https://arxiv.org/abs/2609.28378) | Xukun Luan, Zhongxiang Lei, Chen Gong, et al. | cs.RO, cs.CR, cs.LG | Human Demonstration | [abs](https://arxiv.org/abs/2609.28378) / [pdf](https://arxiv.org/pdf/2609.28378) |
+| 2026-09-23 | [Talk2Escape: Conversational Grounding for Vision-and-Language Navigation](https://arxiv.org/abs/2609.28296) | Zerui Li, Sihao Lin, Yanyan Shao, et al. | cs.RO, cs.HC | Egocentric | [abs](https://arxiv.org/abs/2609.28296) / [pdf](https://arxiv.org/pdf/2609.28296) |
+| 2026-09-23 | [DEAL-Grasp: Decoupled Alignment Representation for Geometry-Aware Dexterous Grasp Generation](https://arxiv.org/abs/2609.28131) | Fuqiang Zhao, Qian Liu | cs.RO, cs.GR | Hand-Object Interaction | [abs](https://arxiv.org/abs/2609.28131) / [pdf](https://arxiv.org/pdf/2609.28131) |
+| 2026-09-23 | [InternW0: A Foundational Physical World Model for Efficient Real-World Interactions](https://arxiv.org/abs/2609.27656) | Jisong Cai, Yao Mu, Ganlin Yang, et al. | cs.RO, cs.AI | Egocentric | [abs](https://arxiv.org/abs/2609.27656) / [pdf](https://arxiv.org/pdf/2609.27656) |
+| 2026-09-22 | [HINT-Blimp: Human INTent Inference from Multimodal Cues for Robotic Blimps](https://arxiv.org/abs/2609.27154) | Subhadeep Koley, Benjamin Greenberg, Yifei Simon Shao, et al. | cs.RO | Affordance / Contact | [abs](https://arxiv.org/abs/2609.27154) / [pdf](https://arxiv.org/pdf/2609.27154) |
 | 2026-09-22 | [Sample, Simulate, Select: Physics-in-the-Loop Text-to-Motion for Humanoids Without Training](https://arxiv.org/abs/2609.26420) | Raphael Memmesheimer, Sven Behnke | cs.RO, cs.CV | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2609.26420) / [pdf](https://arxiv.org/pdf/2609.26420) |
 | 2026-09-22 | [VisForce: Visual Grounding of Current and Desired Forces for Goal-Conditioned Dexterous Manipulation](https://arxiv.org/abs/2609.25785) | Jung-Woo Lee, Soo-Chul Lim | cs.RO | Affordance / Contact | [abs](https://arxiv.org/abs/2609.25785) / [pdf](https://arxiv.org/pdf/2609.25785) |
 | 2026-09-22 | [MachEmbodied-U0: Unified Understanding and Generation Model for Embodied Intelligence](https://arxiv.org/abs/2609.25627) | Haoran Wen, Wenfu Wang, Kunsong Shi, et al. | cs.RO, cs.CV | Egocentric | [abs](https://arxiv.org/abs/2609.25627) / [pdf](https://arxiv.org/pdf/2609.25627) |
