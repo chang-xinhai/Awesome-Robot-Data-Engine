@@ -4,12 +4,19 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-09-25 · **Papers:** 2026 · **Unique arXiv IDs:** 2026
+**Coverage:** 2025-01-01 to 2026-09-25 · **Papers:** 2033 · **Unique arXiv IDs:** 2033
 
 ## 2026-09
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-09-24 | [RAPID: Robot Agentic Programming from Demonstrations](https://arxiv.org/abs/2609.30249) | Yuyao Liu, Jiayuan Mao, David Hsu, et al. | cs.RO, cs.AI, cs.CV | Human Demonstration | [abs](https://arxiv.org/abs/2609.30249) / [pdf](https://arxiv.org/pdf/2609.30249) |
+| 2026-09-24 | [Ego-Exo4D Human Meshes Dataset: 4D Human Motion Reconstruction for Ego-Exo Captures](https://arxiv.org/abs/2609.30187) | Abhiram Maddukuri, Georgios Pavlakos | cs.CV, cs.RO | Egocentric | [abs](https://arxiv.org/abs/2609.30187) / [pdf](https://arxiv.org/pdf/2609.30187) |
+| 2026-09-24 | [BeyondRetarget: Learning Executable Humanoid Motions Directly from Monocular Video](https://arxiv.org/abs/2609.29850) | Tianyu Xiong, Yi Lu, Jinrui Wang, et al. | cs.RO, cs.CV | Human Video | [abs](https://arxiv.org/abs/2609.29850) / [pdf](https://arxiv.org/pdf/2609.29850) |
+| 2026-09-24 | [EgoSpeedUp: Transferring Human Manipulation Tempo to Robot Policies](https://arxiv.org/abs/2609.29310) | Hanbit Oh, Yukiyasu Domae, Takuma Yagi | cs.RO, cs.CV | Human Demonstration | [abs](https://arxiv.org/abs/2609.29310) / [pdf](https://arxiv.org/pdf/2609.29310) |
+| 2026-09-24 | [Seeing Is Not Measuring: Tool-Augmented Metric Spatial Reasoning for Vision-Language Models](https://arxiv.org/abs/2609.29073) | Kai Glantz, Clemens Grange | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2609.29073) / [pdf](https://arxiv.org/pdf/2609.29073) |
+| 2026-09-24 | [ReVNM: Learning-Based Visual Navigation from a Remote Camera](https://arxiv.org/abs/2609.28976) | Michikuni Eguchi, Kohei Honda, Masafumi Endo, et al. | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2609.28976) / [pdf](https://arxiv.org/pdf/2609.28976) |
+| 2026-09-23 | [Morphometric Imitation: From Morphology and Contact Aware Hand Retargeting to Sim-to-Real Visuomotor Policy](https://arxiv.org/abs/2609.28660) | Tara Sadjadpour, Siming He, C. K. Wolfe, et al. | cs.RO | Hand-Object Interaction | [abs](https://arxiv.org/abs/2609.28660) / [pdf](https://arxiv.org/pdf/2609.28660) |
 | 2026-09-23 | [ForgetMimic: Motion Unlearning for Reinforcement Learning Humanoid Control](https://arxiv.org/abs/2609.28378) | Xukun Luan, Zhongxiang Lei, Chen Gong, et al. | cs.RO, cs.CR, cs.LG | Human Demonstration | [abs](https://arxiv.org/abs/2609.28378) / [pdf](https://arxiv.org/pdf/2609.28378) |
 | 2026-09-23 | [Talk2Escape: Conversational Grounding for Vision-and-Language Navigation](https://arxiv.org/abs/2609.28296) | Zerui Li, Sihao Lin, Yanyan Shao, et al. | cs.RO, cs.HC | Egocentric | [abs](https://arxiv.org/abs/2609.28296) / [pdf](https://arxiv.org/pdf/2609.28296) |
 | 2026-09-23 | [DEAL-Grasp: Decoupled Alignment Representation for Geometry-Aware Dexterous Grasp Generation](https://arxiv.org/abs/2609.28131) | Fuqiang Zhao, Qian Liu | cs.RO, cs.GR | Hand-Object Interaction | [abs](https://arxiv.org/abs/2609.28131) / [pdf](https://arxiv.org/pdf/2609.28131) |

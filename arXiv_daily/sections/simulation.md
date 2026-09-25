@@ -4,12 +4,22 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-09-25 · **Papers:** 2628 · **Unique arXiv IDs:** 2628
+**Coverage:** 2025-01-01 to 2026-09-25 · **Papers:** 2638 · **Unique arXiv IDs:** 2638
 
 ## 2026-09
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-09-24 | [Training-free Behavior Cloning](https://arxiv.org/abs/2609.30134) | Maximilian Adang, Timothy Chen, Lars Osterberg, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2609.30134) / [pdf](https://arxiv.org/pdf/2609.30134) |
+| 2026-09-24 | [MorphIK: Morphology-Conditioned Neural Inverse Kinematics for Unknown Robots](https://arxiv.org/abs/2609.29908) | Lennart Clasmeier, Jan Gerrit Habekost, Cornelius Weber, et al. | cs.RO, cs.AI | Synthetic Data | [abs](https://arxiv.org/abs/2609.29908) / [pdf](https://arxiv.org/pdf/2609.29908) |
+| 2026-09-24 | [Simple Torque-Observation Alignment for Zero-Shot Sim-to-Real Grasping with a Direct-Drive Gripper](https://arxiv.org/abs/2609.29031) | Doyoung Kim, Edgar Lee, Hyeonsun Park, et al. | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2609.29031) / [pdf](https://arxiv.org/pdf/2609.29031) |
+| 2026-09-24 | [CALM: Current Aligned Link Manipulation for Single Arm Oversized Object Lifting](https://arxiv.org/abs/2609.29017) | Jun Hu, Sihan Chen, Kosta Jovanovic, et al. | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2609.29017) / [pdf](https://arxiv.org/pdf/2609.29017) |
+| 2026-09-24 | [AquaMend: Minimal Re-probing and Conditional Rollback for Latent-Belief Failures in Embodied Agents](https://arxiv.org/abs/2609.28973) | Yufan Liu, Shang Luo, Yang Liu, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2609.28973) / [pdf](https://arxiv.org/pdf/2609.28973) |
+| 2026-09-24 | [TactileStep: Sole Tactile Learning for Regulating Foot-Terrain Interaction in Humanoid Locomotion](https://arxiv.org/abs/2609.28959) | Zizhuo Wang, Ming-ju Lee, Shaoting Zhu, et al. | cs.RO | Synthetic Sensor | [abs](https://arxiv.org/abs/2609.28959) / [pdf](https://arxiv.org/pdf/2609.28959) |
+| 2026-09-24 | [Online Sim-to-Real Adaptation via Closed-Loop System Modeling](https://arxiv.org/abs/2609.28878) | Yuhao Huang, Samuel A. Moore, Boyuan Chen | cs.RO | Simulation Data, Sim-to-Real | [abs](https://arxiv.org/abs/2609.28878) / [pdf](https://arxiv.org/pdf/2609.28878) |
+| 2026-09-24 | [Direction-Scale Decomposition in Action Representation: Rethinking What to Tokenize for Vision-Language-Action Models](https://arxiv.org/abs/2609.28865) | Yufei Duan, Hang Yin, Alberta Longhini, et al. | cs.CV, cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2609.28865) / [pdf](https://arxiv.org/pdf/2609.28865) |
+| 2026-09-23 | [KeyGen: Unsupervised Keypoint based Object-Centric Representations for Category-Level Policy Generalization](https://arxiv.org/abs/2609.28818) | Shuxin Cao, Liquan Wang, Masoud Moghani, et al. | cs.RO, cs.AI | Simulation Data, Trajectory Generation | [abs](https://arxiv.org/abs/2609.28818) / [pdf](https://arxiv.org/pdf/2609.28818) |
+| 2026-09-23 | [Morphometric Imitation: From Morphology and Contact Aware Hand Retargeting to Sim-to-Real Visuomotor Policy](https://arxiv.org/abs/2609.28660) | Tara Sadjadpour, Siming He, C. K. Wolfe, et al. | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2609.28660) / [pdf](https://arxiv.org/pdf/2609.28660) |
 | 2026-09-23 | [PointCast: One World Model for Rigid, Articulated, and Deformable Object Manipulation](https://arxiv.org/abs/2609.28393) | Hantao Ye, Ross Worobel, Zhuoli Xie, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2609.28393) / [pdf](https://arxiv.org/pdf/2609.28393) |
 | 2026-09-23 | [Beyond Future Prediction: Denoising as Generative Adaptation for Robot Control](https://arxiv.org/abs/2609.28339) | Zanyi Wang, Yuheng Lei, Dengyang Jiang, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2609.28339) / [pdf](https://arxiv.org/pdf/2609.28339) |
 | 2026-09-23 | [InternW0: A Foundational Physical World Model for Efficient Real-World Interactions](https://arxiv.org/abs/2609.27656) | Jisong Cai, Yao Mu, Ganlin Yang, et al. | cs.RO, cs.AI | Simulation Data | [abs](https://arxiv.org/abs/2609.27656) / [pdf](https://arxiv.org/pdf/2609.27656) |
