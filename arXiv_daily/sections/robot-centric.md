@@ -4,12 +4,22 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-09-28 · **Papers:** 2199 · **Unique arXiv IDs:** 2199
+**Coverage:** 2025-01-01 to 2026-09-28 · **Papers:** 2209 · **Unique arXiv IDs:** 2209
 
 ## 2026-09
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-09-25 | [CognitiveReality: Robot-Agnostic Semantic Gaussian Mapping with an LLM Agent for Immersive Collaborative VR Teleoperation](https://arxiv.org/abs/2609.31418) | Timofei Kozlov, Dmitrii Maliukov, Andrey Marchenko, et al. | cs.RO | Teleoperation, Robot Dataset | [abs](https://arxiv.org/abs/2609.31418) / [pdf](https://arxiv.org/pdf/2609.31418) |
+| 2026-09-25 | [InternW0-$Δ$: A World Action Model Bridging Predictive Dynamics and Actions with 20K+ Hours of Open Data](https://arxiv.org/abs/2609.31394) | Xingyu Miao, Zizun Li, Baole Fang, et al. | cs.RO, cs.CV | Robot Dataset | [abs](https://arxiv.org/abs/2609.31394) / [pdf](https://arxiv.org/pdf/2609.31394) |
+| 2026-09-25 | [Towards VLA-Dreamer: Refining VLA Behavior Using World Models](https://arxiv.org/abs/2609.31313) | Parsa Mastouri Kashani, Jan-Gerrit Habekost, Stefan Wermter | cs.RO, cs.AI | Robot Data Processing | [abs](https://arxiv.org/abs/2609.31313) / [pdf](https://arxiv.org/pdf/2609.31313) |
+| 2026-09-25 | [Imp-ACT: Adaptive Impedance Control and Action Chunking with Transformers to Learn Contact-Rich Manipulation from Demonstrations](https://arxiv.org/abs/2609.31225) | Luca Zanetti, Doganay Sirintuna, Idil Ozdamar, et al. | cs.RO | Teleoperation, Data Collection | [abs](https://arxiv.org/abs/2609.31225) / [pdf](https://arxiv.org/pdf/2609.31225) |
+| 2026-09-25 | [Kintsugi-VLA: Turning Failed Robot Rollouts into Recovery Data through Interventional Recoverability](https://arxiv.org/abs/2609.31048) | Ivan Snegirev, Elizaveta Semenyakina, Dmitrii Maliukov, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2609.31048) / [pdf](https://arxiv.org/pdf/2609.31048) |
+| 2026-09-25 | [VisTacAlign: Co-Training Dexterous Policies on Tactile Human and Robot Demonstrations](https://arxiv.org/abs/2609.30959) | Julien Poffet, Matthew Strong, Ankush Dhawan, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2609.30959) / [pdf](https://arxiv.org/pdf/2609.30959) |
+| 2026-09-25 | [Impedance Cloning: Learning Equilibrium Point Parameters for Contact-Rich Manipulation](https://arxiv.org/abs/2609.30842) | Hayato Takahashi, Ryoga Oishi, Yuki Kasuga, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2609.30842) / [pdf](https://arxiv.org/pdf/2609.30842) |
+| 2026-09-24 | [HuGo: LLMs as Whole-Body Policy Code Designers for Humanoid Loco-Manipulation](https://arxiv.org/abs/2609.30594) | Seoyeon Choi, Shizhao Ye, Nicholas Bui, et al. | cs.RO | Data Collection | [abs](https://arxiv.org/abs/2609.30594) / [pdf](https://arxiv.org/pdf/2609.30594) |
+| 2026-09-24 | [ST-pRRTC: Parallel Space-Time RRT-C with Adaptive Goal-Time Forests](https://arxiv.org/abs/2609.30533) | Duo Zhang, Jintong Li, Junshan Huang, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2609.30533) / [pdf](https://arxiv.org/pdf/2609.30533) |
+| 2026-09-24 | [Policy-Calibrated DAgger: Offline Calibrated Noise Injection for Imitation Learning](https://arxiv.org/abs/2609.30462) | Jenny Wang, George Kantor | cs.RO | Human Intervention | [abs](https://arxiv.org/abs/2609.30462) / [pdf](https://arxiv.org/pdf/2609.30462) |
 | 2026-09-24 | [M3GD: Multi-Modal Multi-View Geometric Diffusion for Camera--LiDAR Novel View Synthesis](https://arxiv.org/abs/2609.30056) | Yang Zhou, Jiuhong Xiao, Shizhao Ye, et al. | cs.RO, cs.CV | Robot Data Processing | [abs](https://arxiv.org/abs/2609.30056) / [pdf](https://arxiv.org/pdf/2609.30056) |
 | 2026-09-24 | [Res-HIL: Human-Guided Residual Reinforcement Learning for Sample-Efficient Dexterous Manipulation](https://arxiv.org/abs/2609.30023) | Mariia Iavorskaia, Christian Dietz, Sebastian Albrecht, et al. | cs.RO | Human Intervention | [abs](https://arxiv.org/abs/2609.30023) / [pdf](https://arxiv.org/pdf/2609.30023) |
 | 2026-09-24 | [BeyondRetarget: Learning Executable Humanoid Motions Directly from Monocular Video](https://arxiv.org/abs/2609.29850) | Tianyu Xiong, Yi Lu, Jinrui Wang, et al. | cs.RO, cs.CV | Scalable Demonstrations | [abs](https://arxiv.org/abs/2609.29850) / [pdf](https://arxiv.org/pdf/2609.29850) |

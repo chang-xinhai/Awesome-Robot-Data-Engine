@@ -4,12 +4,20 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-09-28 · **Papers:** 2033 · **Unique arXiv IDs:** 2033
+**Coverage:** 2025-01-01 to 2026-09-28 · **Papers:** 2041 · **Unique arXiv IDs:** 2041
 
 ## 2026-09
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-09-25 | [InternW0-$Δ$: A World Action Model Bridging Predictive Dynamics and Actions with 20K+ Hours of Open Data](https://arxiv.org/abs/2609.31394) | Xingyu Miao, Zizun Li, Baole Fang, et al. | cs.RO, cs.CV | Egocentric, Human Demonstration | [abs](https://arxiv.org/abs/2609.31394) / [pdf](https://arxiv.org/pdf/2609.31394) |
+| 2026-09-25 | [Precision at Speed: Sample-Efficient Online Model-Based Reinforcement Learning for Hydraulic Excavator Control](https://arxiv.org/abs/2609.31025) | Claudio Canales, Fang Nan, Marco Hutter, et al. | cs.RO, cs.LG, eess.SY | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2609.31025) / [pdf](https://arxiv.org/pdf/2609.31025) |
+| 2026-09-25 | [STORM-Bench: Evaluating Online Video QA under Evolving and Incomplete Evidence](https://arxiv.org/abs/2609.30981) | Siru Zhong, Shenghan Tan, Rihong Yan, et al. | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2609.30981) / [pdf](https://arxiv.org/pdf/2609.30981) |
+| 2026-09-25 | [VisTacAlign: Co-Training Dexterous Policies on Tactile Human and Robot Demonstrations](https://arxiv.org/abs/2609.30959) | Julien Poffet, Matthew Strong, Ankush Dhawan, et al. | cs.RO | Human Demonstration | [abs](https://arxiv.org/abs/2609.30959) / [pdf](https://arxiv.org/pdf/2609.30959) |
+| 2026-09-25 | [Praxis: Distilling Physical Interaction Priors from Egocentric Videos for Generalizable Whole-Body Manipulation](https://arxiv.org/abs/2609.30735) | Shuliang He, Ruiyan Xu, Bo Yue, et al. | cs.RO | Egocentric, Hand-Object Interaction, Human Demonstration, Affordance / Contact | [abs](https://arxiv.org/abs/2609.30735) / [pdf](https://arxiv.org/pdf/2609.30735) |
+| 2026-09-25 | [Learning Vision-Based Agile Gap Traversal: Differentiable Simulation with a Warm-Started Critic](https://arxiv.org/abs/2609.30696) | Nuthasith Gerdpratoom, Tianchen Sun, Yichao Gao, et al. | cs.RO, eess.SY | Egocentric | [abs](https://arxiv.org/abs/2609.30696) / [pdf](https://arxiv.org/pdf/2609.30696) |
+| 2026-09-24 | [SoGuDiff: Socially Guided Diffusion for Steerable, Norm-Grounded Robot Navigation](https://arxiv.org/abs/2609.30560) | Christian Schaible, Haoran Ji, Yash Vardhan Pant, et al. | cs.RO | Human Demonstration | [abs](https://arxiv.org/abs/2609.30560) / [pdf](https://arxiv.org/pdf/2609.30560) |
+| 2026-09-24 | [POIL: Point-based One-Shot Imitation Learning with Stable Dynamical Systems](https://arxiv.org/abs/2609.30404) | Sang Min Kim, Jinwoo Seo, Hyeongjun Heo, et al. | cs.RO | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2609.30404) / [pdf](https://arxiv.org/pdf/2609.30404) |
 | 2026-09-24 | [RAPID: Robot Agentic Programming from Demonstrations](https://arxiv.org/abs/2609.30249) | Yuyao Liu, Jiayuan Mao, David Hsu, et al. | cs.RO, cs.AI, cs.CV | Human Demonstration | [abs](https://arxiv.org/abs/2609.30249) / [pdf](https://arxiv.org/pdf/2609.30249) |
 | 2026-09-24 | [Ego-Exo4D Human Meshes Dataset: 4D Human Motion Reconstruction for Ego-Exo Captures](https://arxiv.org/abs/2609.30187) | Abhiram Maddukuri, Georgios Pavlakos | cs.CV, cs.RO | Egocentric | [abs](https://arxiv.org/abs/2609.30187) / [pdf](https://arxiv.org/pdf/2609.30187) |
 | 2026-09-24 | [BeyondRetarget: Learning Executable Humanoid Motions Directly from Monocular Video](https://arxiv.org/abs/2609.29850) | Tianyu Xiong, Yi Lu, Jinrui Wang, et al. | cs.RO, cs.CV | Human Video | [abs](https://arxiv.org/abs/2609.29850) / [pdf](https://arxiv.org/pdf/2609.29850) |
