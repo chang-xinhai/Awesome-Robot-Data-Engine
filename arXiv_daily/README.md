@@ -2,16 +2,16 @@
 
 > A high-recall candidate archive for manual curation into [Awesome Robot Data Engine](../README.md). It is intentionally broader than the curated list.
 
-**Coverage:** 2025-01-01 to 2026-09-29 · **Unique papers:** 5717
+**Coverage:** 2025-01-01 to 2026-09-29 · **Unique papers:** 5786
 
 ## Sections
 
 | Section | Papers | Scope |
 | :------ | -----: | :---- |
-| [Robot-Centric](sections/robot-centric.md) | 2209 | Real-robot collection, teleoperation, intervention, datasets, and processing |
+| [Robot-Centric](sections/robot-centric.md) | 2238 | Real-robot collection, teleoperation, intervention, datasets, and processing |
 | [UMI](sections/umi.md) | 83 | Portable manipulation interfaces, robot-free demonstrations, and UMI recovery |
-| [Human / Egocentric](sections/human-egocentric.md) | 2041 | Human video, HOI, tracking, reconstruction, action extraction, and retargeting |
-| [Simulation](sections/simulation.md) | 2648 | Synthetic demonstrations, environments, assets, sensors, and sim–real systems |
+| [Human / Egocentric](sections/human-egocentric.md) | 2073 | Human video, HOI, tracking, reconstruction, action extraction, and retargeting |
+| [Simulation](sections/simulation.md) | 2686 | Synthetic demonstrations, environments, assets, sensors, and sim–real systems |
 
 A paper is stored once in [`data/papers.json`](data/papers.json) but may appear in multiple generated views. The archive uses arXiv `v1` dates and is updated daily by GitHub Actions. Promotion to the root README is always manual.
 
@@ -19,16 +19,16 @@ A paper is stored once in [`data/papers.json`](data/papers.json) but may appear 
 
 ### Robot-Centric
 
-- 2026-09-25 — [CognitiveReality: Robot-Agnostic Semantic Gaussian Mapping with an LLM Agent for Immersive Collaborative VR Teleoperation](https://arxiv.org/abs/2609.31418)
-- 2026-09-25 — [InternW0-$Δ$: A World Action Model Bridging Predictive Dynamics and Actions with 20K+ Hours of Open Data](https://arxiv.org/abs/2609.31394)
-- 2026-09-25 — [Towards VLA-Dreamer: Refining VLA Behavior Using World Models](https://arxiv.org/abs/2609.31313)
-- 2026-09-25 — [Imp-ACT: Adaptive Impedance Control and Action Chunking with Transformers to Learn Contact-Rich Manipulation from Demonstrations](https://arxiv.org/abs/2609.31225)
-- 2026-09-25 — [Kintsugi-VLA: Turning Failed Robot Rollouts into Recovery Data through Interventional Recoverability](https://arxiv.org/abs/2609.31048)
-- 2026-09-25 — [VisTacAlign: Co-Training Dexterous Policies on Tactile Human and Robot Demonstrations](https://arxiv.org/abs/2609.30959)
-- 2026-09-25 — [Impedance Cloning: Learning Equilibrium Point Parameters for Contact-Rich Manipulation](https://arxiv.org/abs/2609.30842)
-- 2026-09-24 — [HuGo: LLMs as Whole-Body Policy Code Designers for Humanoid Loco-Manipulation](https://arxiv.org/abs/2609.30594)
-- 2026-09-24 — [ST-pRRTC: Parallel Space-Time RRT-C with Adaptive Goal-Time Forests](https://arxiv.org/abs/2609.30533)
-- 2026-09-24 — [Policy-Calibrated DAgger: Offline Calibrated Noise Injection for Imitation Learning](https://arxiv.org/abs/2609.30462)
+- 2026-09-28 — [DexRoam: Learning Mobile Bimanual Dexterous Manipulation from Egocentric Whole-Body Human Demonstrations](https://arxiv.org/abs/2609.35761)
+- 2026-09-28 — [X-Reset: Scaling Object-Centric Reinforcement Learning via Cross-Embodiment Resets](https://arxiv.org/abs/2609.35715)
+- 2026-09-28 — [Humanoid Loco-Manipulation With Discrete VLA Model](https://arxiv.org/abs/2609.35709)
+- 2026-09-28 — [MM-ABC: Towards Generalist Mobile Manipulation via Seeing, Coordinating and Imagining](https://arxiv.org/abs/2609.35652)
+- 2026-09-28 — [F4R: Failure-Driven Recognition, Reconstruction, Refinement, and Redeployment for Continual Robot Self-Improvement](https://arxiv.org/abs/2609.35575)
+- 2026-09-28 — [From Pixel to Poses: Object-centric Tool Manipulation Learning from Human Demonstrations](https://arxiv.org/abs/2609.35375)
+- 2026-09-28 — [DexAgent: An Agentic Human2Sim2Robot Framework for Dexterous Manipulation with Self-Evolving Tool Library](https://arxiv.org/abs/2609.35318)
+- 2026-09-28 — [CoHuB: A Simulation Benchmark for Multi-Humanoid Collaboration](https://arxiv.org/abs/2609.34782)
+- 2026-09-28 — [Simulation for Planetary Robotic Perception and Autonomy: A Concise Survey of Recent Capabilities and Gaps](https://arxiv.org/abs/2609.34743)
+- 2026-09-28 — [HOI-Retarget: Contact-Centric Retargeting for Human-Object Interaction](https://arxiv.org/abs/2609.34674)
 
 ### UMI
 
@@ -45,29 +45,29 @@ A paper is stored once in [`data/papers.json`](data/papers.json) but may appear 
 
 ### Human / Egocentric
 
-- 2026-09-25 — [InternW0-$Δ$: A World Action Model Bridging Predictive Dynamics and Actions with 20K+ Hours of Open Data](https://arxiv.org/abs/2609.31394)
-- 2026-09-25 — [Precision at Speed: Sample-Efficient Online Model-Based Reinforcement Learning for Hydraulic Excavator Control](https://arxiv.org/abs/2609.31025)
-- 2026-09-25 — [STORM-Bench: Evaluating Online Video QA under Evolving and Incomplete Evidence](https://arxiv.org/abs/2609.30981)
-- 2026-09-25 — [VisTacAlign: Co-Training Dexterous Policies on Tactile Human and Robot Demonstrations](https://arxiv.org/abs/2609.30959)
-- 2026-09-25 — [Praxis: Distilling Physical Interaction Priors from Egocentric Videos for Generalizable Whole-Body Manipulation](https://arxiv.org/abs/2609.30735)
-- 2026-09-25 — [Learning Vision-Based Agile Gap Traversal: Differentiable Simulation with a Warm-Started Critic](https://arxiv.org/abs/2609.30696)
-- 2026-09-24 — [SoGuDiff: Socially Guided Diffusion for Steerable, Norm-Grounded Robot Navigation](https://arxiv.org/abs/2609.30560)
-- 2026-09-24 — [POIL: Point-based One-Shot Imitation Learning with Stable Dynamical Systems](https://arxiv.org/abs/2609.30404)
-- 2026-09-24 — [RAPID: Robot Agentic Programming from Demonstrations](https://arxiv.org/abs/2609.30249)
-- 2026-09-24 — [Ego-Exo4D Human Meshes Dataset: 4D Human Motion Reconstruction for Ego-Exo Captures](https://arxiv.org/abs/2609.30187)
+- 2026-09-28 — [DexRoam: Learning Mobile Bimanual Dexterous Manipulation from Egocentric Whole-Body Human Demonstrations](https://arxiv.org/abs/2609.35761)
+- 2026-09-28 — [InfiniHand: Streaming World-Space Hand Motion Estimation from Egocentric Video](https://arxiv.org/abs/2609.35743)
+- 2026-09-28 — [X-Reset: Scaling Object-Centric Reinforcement Learning via Cross-Embodiment Resets](https://arxiv.org/abs/2609.35715)
+- 2026-09-28 — [Humanoid Loco-Manipulation With Discrete VLA Model](https://arxiv.org/abs/2609.35709)
+- 2026-09-28 — [CoBrush: A Hierarchical Planning Framework for Human-Robot Co-Painting](https://arxiv.org/abs/2609.35476)
+- 2026-09-28 — [A.D.A.M.O. (Agent for language-Driven Actions with Multimodal Observations): A Visual-Symbolic Framework for Virtual Humans](https://arxiv.org/abs/2609.35463)
+- 2026-09-28 — [Uni-VLaT: Whole-Body Tactile Adaptation of VLA Policies for Humanoid Loco-Manipulation](https://arxiv.org/abs/2609.35450)
+- 2026-09-28 — [From Pixel to Poses: Object-centric Tool Manipulation Learning from Human Demonstrations](https://arxiv.org/abs/2609.35375)
+- 2026-09-28 — [Ego-Forge: Text and Geometric-Attention Free Exo-to-Egocentric Video Generation](https://arxiv.org/abs/2609.35368)
+- 2026-09-28 — [DexAgent: An Agentic Human2Sim2Robot Framework for Dexterous Manipulation with Self-Evolving Tool Library](https://arxiv.org/abs/2609.35318)
 
 ### Simulation
 
-- 2026-09-25 — [Generate, Track, Improve: Perceptive Multi-Skill Humanoid Locomotion with RL-Fine-Tuned Motion Generators](https://arxiv.org/abs/2609.31577)
-- 2026-09-25 — [Transformer-based Monte Carlo Localization in Construction Meshes](https://arxiv.org/abs/2609.31357)
-- 2026-09-25 — [Enabling a Unified Cross-Domain Representation for Two-Finger Gripper Manipulation via Interaction-Centric Modeling](https://arxiv.org/abs/2609.31207)
-- 2026-09-25 — [Kintsugi-VLA: Turning Failed Robot Rollouts into Recovery Data through Interventional Recoverability](https://arxiv.org/abs/2609.31048)
-- 2026-09-25 — [Precision at Speed: Sample-Efficient Online Model-Based Reinforcement Learning for Hydraulic Excavator Control](https://arxiv.org/abs/2609.31025)
-- 2026-09-25 — [VLaRL: Augmenting Vision-Language-Action Models with Simulation-Trained Latent-Conditioned Residual RL](https://arxiv.org/abs/2609.30868)
-- 2026-09-24 — [HuGo: LLMs as Whole-Body Policy Code Designers for Humanoid Loco-Manipulation](https://arxiv.org/abs/2609.30594)
-- 2026-09-24 — [GraspTwin: Zero-Shot Task-Oriented Grasp Optimization via a Digital Twin](https://arxiv.org/abs/2609.30543)
-- 2026-09-24 — [Policy-Calibrated DAgger: Offline Calibrated Noise Injection for Imitation Learning](https://arxiv.org/abs/2609.30462)
-- 2026-09-24 — [POIL: Point-based One-Shot Imitation Learning with Stable Dynamical Systems](https://arxiv.org/abs/2609.30404)
+- 2026-09-28 — [X-Reset: Scaling Object-Centric Reinforcement Learning via Cross-Embodiment Resets](https://arxiv.org/abs/2609.35715)
+- 2026-09-28 — [Humanoid Loco-Manipulation With Discrete VLA Model](https://arxiv.org/abs/2609.35709)
+- 2026-09-28 — [Denoising Multi-Robot Trajectories](https://arxiv.org/abs/2609.35651)
+- 2026-09-28 — [F4R: Failure-Driven Recognition, Reconstruction, Refinement, and Redeployment for Continual Robot Self-Improvement](https://arxiv.org/abs/2609.35575)
+- 2026-09-28 — [Uni-VLaT: Whole-Body Tactile Adaptation of VLA Policies for Humanoid Loco-Manipulation](https://arxiv.org/abs/2609.35450)
+- 2026-09-28 — [DexAgent: An Agentic Human2Sim2Robot Framework for Dexterous Manipulation with Self-Evolving Tool Library](https://arxiv.org/abs/2609.35318)
+- 2026-09-28 — [QuadHand: A Compact Quadrotor Aerial Manipulator with MRC-SDF-Based Whole-Body Motion Planning](https://arxiv.org/abs/2609.35094)
+- 2026-09-28 — [EMPIRIC: Experiment-Driven Learning of Residual World Models for Robot Planning](https://arxiv.org/abs/2609.35047)
+- 2026-09-28 — [CoHuB: A Simulation Benchmark for Multi-Humanoid Collaboration](https://arxiv.org/abs/2609.34782)
+- 2026-09-28 — [Simulation for Planetary Robotic Perception and Autonomy: A Concise Survey of Recent Capabilities and Gaps](https://arxiv.org/abs/2609.34743)
 
 ## Method
 
