@@ -4,12 +4,13 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-09-30 · **Papers:** 83 · **Unique arXiv IDs:** 83
+**Coverage:** 2025-01-01 to 2026-09-30 · **Papers:** 84 · **Unique arXiv IDs:** 84
 
 ## 2026-09
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-09-27 | [Contact-Adaptive Robotic Ultrasound Probe Control for Tissue Exploration and Continuous Task-Relevant Visualization Using Robot-Free Image-Motion Demonstration](https://arxiv.org/abs/2609.37456) | Seong Jeong, Minsung Kim, Dongho Yee, et al. | cs.RO | Robot-Free Demonstration | [abs](https://arxiv.org/abs/2609.37456) / [pdf](https://arxiv.org/pdf/2609.37456) |
 | 2026-09-25 | [InternW0-$Δ$: A World Action Model Bridging Predictive Dynamics and Actions with 20K+ Hours of Open Data](https://arxiv.org/abs/2609.31394) | Xingyu Miao, Zizun Li, Baole Fang, et al. | cs.RO, cs.CV | Universal Manipulation Interface | [abs](https://arxiv.org/abs/2609.31394) / [pdf](https://arxiv.org/pdf/2609.31394) |
 | 2026-09-24 | [PolyUMI: Accessible Visual-Tactile-Audio Data Collection for Object Inference and Manipulation](https://arxiv.org/abs/2609.29760) | Conor W. Hayes, Rickmer Krohn, Aravind Ramaswami, et al. | cs.RO | Handheld Gripper | [abs](https://arxiv.org/abs/2609.29760) / [pdf](https://arxiv.org/pdf/2609.29760) |
 | 2026-09-21 | [X-Planner: Event-Structured Task Planning for Embodied Intelligence](https://arxiv.org/abs/2609.25187) | Howard Lu, Shalfun Li, Porter Pan, et al. | cs.AI | Universal Manipulation Interface | [abs](https://arxiv.org/abs/2609.25187) / [pdf](https://arxiv.org/pdf/2609.25187) |
