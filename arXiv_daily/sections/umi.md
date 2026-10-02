@@ -4,7 +4,13 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-10-02 · **Papers:** 85 · **Unique arXiv IDs:** 85
+**Coverage:** 2025-01-01 to 2026-10-02 · **Papers:** 86 · **Unique arXiv IDs:** 86
+
+## 2026-10
+
+| Date | Paper | Authors | Categories | Matched signals | Links |
+| :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-10-01 | [Experience-Based Feasibility-Aware Generative Adversarial Imitation from Observation under Embodiment Mismatch](https://arxiv.org/abs/2610.01171) | Yoshiki Takebayashi, Giovanni Perantoni, Hikaru Sasaki, et al. | cs.RO | Robot-Free Demonstration | [abs](https://arxiv.org/abs/2610.01171) / [pdf](https://arxiv.org/pdf/2610.01171) |
 
 ## 2026-09
 

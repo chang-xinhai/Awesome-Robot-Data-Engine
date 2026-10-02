@@ -4,12 +4,31 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-10-02 · **Papers:** 2105 · **Unique arXiv IDs:** 2105
+**Coverage:** 2025-01-01 to 2026-10-02 · **Papers:** 2120 · **Unique arXiv IDs:** 2120
+
+## 2026-10
+
+| Date | Paper | Authors | Categories | Matched signals | Links |
+| :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-10-01 | [InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.02196) | Zhuo Lin, Sirui Xu, Liuyu Bian, et al. | cs.RO, cs.CV, cs.GR | Egocentric | [abs](https://arxiv.org/abs/2610.02196) / [pdf](https://arxiv.org/pdf/2610.02196) |
+| 2026-10-01 | [UniWAM: Unified World-Action Model](https://arxiv.org/abs/2610.02054) | Jiayi Chen, Wenxuan Song, Jingbo Wang, et al. | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2610.02054) / [pdf](https://arxiv.org/pdf/2610.02054) |
+| 2026-10-01 | [TouchTherm: Building Multimodal Digital Twins of Objects for Tactile and Thermal Rendering](https://arxiv.org/abs/2610.01943) | Yitao Zhang, Hong Ying, Haoran Guo, et al. | cs.RO | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2610.01943) / [pdf](https://arxiv.org/pdf/2610.01943) |
+| 2026-10-01 | [FlashDexRetarget: Accelerating Dexterous Manipulation Data Generation through Multi-Motion Retargeting](https://arxiv.org/abs/2610.01849) | Kyungmin Lee, Sibeen Kim, Dongyoon Hwang, et al. | cs.RO | Hand-Object Interaction | [abs](https://arxiv.org/abs/2610.01849) / [pdf](https://arxiv.org/pdf/2610.01849) |
+| 2026-10-01 | [World Motion Models: Flexible Sequence Modeling of SE(3) Trajectories](https://arxiv.org/abs/2610.01742) | Jiahui Lei, Qianqian Wang, Trevor Darrell, et al. | cs.RO, cs.CV | Hand-Object Interaction | [abs](https://arxiv.org/abs/2610.01742) / [pdf](https://arxiv.org/pdf/2610.01742) |
+| 2026-10-01 | [NextMe-800: Anticipating Personal Behavior from Months of Egocentric Video](https://arxiv.org/abs/2610.01461) | Zhaoxu Meng, Yiming Sun, Mingyuan Gao, et al. | cs.AI | Egocentric | [abs](https://arxiv.org/abs/2610.01461) / [pdf](https://arxiv.org/pdf/2610.01461) |
+| 2026-10-01 | [EgoFound3R: End-to-End Egocentric Hand Reconstruction in World Space with Point-Wise Interaction Attributes](https://arxiv.org/abs/2610.01210) | Hongming Fu, Jingcheng Shi, Wenjia Wang, et al. | cs.CV | Egocentric, Tracking / Reconstruction | [abs](https://arxiv.org/abs/2610.01210) / [pdf](https://arxiv.org/pdf/2610.01210) |
+| 2026-10-01 | [Recova: Agent-Guided Failure Recovery for Autonomous Robotic Manipulation](https://arxiv.org/abs/2610.01178) | Isabella Liu, An-Chieh Cheng, Johan Bjorck, et al. | cs.RO | Human Demonstration | [abs](https://arxiv.org/abs/2610.01178) / [pdf](https://arxiv.org/pdf/2610.01178) |
+| 2026-10-01 | [Experience-Based Feasibility-Aware Generative Adversarial Imitation from Observation under Embodiment Mismatch](https://arxiv.org/abs/2610.01171) | Yoshiki Takebayashi, Giovanni Perantoni, Hikaru Sasaki, et al. | cs.RO | Human Demonstration, Imitation from Observation | [abs](https://arxiv.org/abs/2610.01171) / [pdf](https://arxiv.org/pdf/2610.01171) |
+| 2026-10-01 | [Ego2Act: Evaluating Goal-Directed Manipulation in Egocentric Video Generation](https://arxiv.org/abs/2610.01092) | Patrick Amadeus Irawan, Iskandar Muda Rizky Parlambang, Rava Maulana, et al. | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2610.01092) / [pdf](https://arxiv.org/pdf/2610.01092) |
 
 ## 2026-09
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-09-30 | [DITTO-X: Forward and Reverse Teleoperation for Dexterous Manipulation and Human Intervention](https://arxiv.org/abs/2610.00781) | Zhanpeng He, Joaquin Palacios, Zhangyu Wang, et al. | cs.RO | Tracking / Reconstruction, Affordance / Contact | [abs](https://arxiv.org/abs/2610.00781) / [pdf](https://arxiv.org/pdf/2610.00781) |
+| 2026-09-30 | [Measuring Asset and Scene Reconstruction Effects in Real-to-Sim Robot Evaluation](https://arxiv.org/abs/2610.00731) | Sanya Verma, Luca Cilio, Velissarios Christodoulou | cs.RO | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2610.00731) / [pdf](https://arxiv.org/pdf/2610.00731) |
+| 2026-09-30 | [Towards a General Humanoid Loco-Manipulation Model via Egocentric Whole-Body Human Data Pretraining](https://arxiv.org/abs/2610.00438) | Chongyang Xu, Zhao Wu, Jin Chen, et al. | cs.RO | Egocentric, Hand-Object Interaction, Human Video | [abs](https://arxiv.org/abs/2610.00438) / [pdf](https://arxiv.org/pdf/2610.00438) |
+| 2026-09-30 | [DexPolicy: Scheduled Exploration for Trajectory-Guided Dexterous Manipulation](https://arxiv.org/abs/2610.00360) | Haoyu Wang, Siyuan Qian, Yanjun Li, et al. | cs.RO, cs.CV | Hand-Object Interaction, Human Video | [abs](https://arxiv.org/abs/2610.00360) / [pdf](https://arxiv.org/pdf/2610.00360) |
 | 2026-09-30 | [Ego4WAM: What Matters When Scaling Egocentric Human Data for Robot Learning?](https://arxiv.org/abs/2609.40341) | Zhihao Sun, Liu Liu, Xinjiang Wang, et al. | cs.RO, cs.CV | Egocentric, Human Demonstration | [abs](https://arxiv.org/abs/2609.40341) / [pdf](https://arxiv.org/pdf/2609.40341) |
 | 2026-09-30 | [MemLife: Curating and Reasoning over Long-Term Egocentric Video Memories](https://arxiv.org/abs/2609.40195) | Guangzhi Xiong, Xinyuan Zhang, Xiao Yang, et al. | cs.CV, cs.AI, cs.CL | Egocentric | [abs](https://arxiv.org/abs/2609.40195) / [pdf](https://arxiv.org/pdf/2609.40195) |
 | 2026-09-30 | [Social-WM: Safety-Aware Latent World Models for Robot Social Navigation](https://arxiv.org/abs/2609.40177) | Zhihao Zheng, Mooi Choo Chuah | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2609.40177) / [pdf](https://arxiv.org/pdf/2609.40177) |
@@ -113,6 +132,7 @@
 | 2026-09-20 | [EgoWild2Dex: Learning Dexterous Robotic Manipulation from In-the-Wild Human Experience](https://arxiv.org/abs/2609.23755) | Kunyang Lin, Xutao Wen, Jingxi Lin, et al. | cs.RO | Egocentric, Hand-Object Interaction | [abs](https://arxiv.org/abs/2609.23755) / [pdf](https://arxiv.org/pdf/2609.23755) |
 | 2026-09-20 | [G6D: Geometric Learning-Free RGB-D 6D Pose Solver for Robotic Manipulation](https://arxiv.org/abs/2609.23566) | Yixuan Liang, William Chen, Yunan Wang, et al. | cs.CV, cs.RO | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2609.23566) / [pdf](https://arxiv.org/pdf/2609.23566) |
 | 2026-09-19 | [General Collaborative Intelligence: Architecting Cognition for Resilient Multi-Agent Ecosystems](https://arxiv.org/abs/2609.22967) | Lei Zhang, Chun Ye, Le Yang, et al. | cs.CV, cs.AI, cs.RO | Egocentric | [abs](https://arxiv.org/abs/2609.22967) / [pdf](https://arxiv.org/pdf/2609.22967) |
+| 2026-09-18 | [HumanoidTTT: Test-Time Capability Reuse for Efficient Humanoid Control](https://arxiv.org/abs/2610.00198) | Jingtai Yang, Yining Wu, Yanjun Li, et al. | cs.RO | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2610.00198) / [pdf](https://arxiv.org/pdf/2610.00198) |
 | 2026-09-18 | [GALA: Geometry-Aware Latent Action Modeling for Vision-Language-Action Model Pretraining across Embodiments](https://arxiv.org/abs/2609.21948) | Yichen Liu, Puzhen Yuan, Xiang Zhu, et al. | cs.RO, cs.CV | Egocentric, Human Video | [abs](https://arxiv.org/abs/2609.21948) / [pdf](https://arxiv.org/pdf/2609.21948) |
 | 2026-09-18 | [Visual Proactivity: Enhancing Human-Robot Collaboration Through Intent Communication](https://arxiv.org/abs/2609.21729) | Valerio Bo, Edison Bejarano, Anaís Garrell, et al. | cs.RO | Human-to-Robot, Affordance / Contact | [abs](https://arxiv.org/abs/2609.21729) / [pdf](https://arxiv.org/pdf/2609.21729) |
 | 2026-09-18 | [SynthDemo-RL: Breaking the Zero-Reward Barrier in VLA Adaptation with LLM-Guided Synthetic Demonstrations](https://arxiv.org/abs/2609.21650) | Hiroaki Kingetsu, Hiroaki Kurihara, Kaoru Yokoo, et al. | cs.RO, cs.AI | Human Demonstration | [abs](https://arxiv.org/abs/2609.21650) / [pdf](https://arxiv.org/pdf/2609.21650) |

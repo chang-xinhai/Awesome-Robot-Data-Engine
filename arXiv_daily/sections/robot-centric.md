@@ -4,12 +4,26 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-10-02 · **Papers:** 2273 · **Unique arXiv IDs:** 2273
+**Coverage:** 2025-01-01 to 2026-10-02 · **Papers:** 2282 · **Unique arXiv IDs:** 2282
+
+## 2026-10
+
+| Date | Paper | Authors | Categories | Matched signals | Links |
+| :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-10-01 | [Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents](https://arxiv.org/abs/2610.02204) | Yen-Jen Wang, Haozhe Jiang, Shuying Deng, et al. | cs.RO, cs.AI, eess.SY | Autonomous Collection | [abs](https://arxiv.org/abs/2610.02204) / [pdf](https://arxiv.org/pdf/2610.02204) |
+| 2026-10-01 | [UniWAM: Unified World-Action Model](https://arxiv.org/abs/2610.02054) | Jiayi Chen, Wenxuan Song, Jingbo Wang, et al. | cs.RO | Robot Dataset, Scalable Demonstrations | [abs](https://arxiv.org/abs/2610.02054) / [pdf](https://arxiv.org/pdf/2610.02054) |
+| 2026-10-01 | [3DROID: A Renderable 3D Gaussian Dataset with Measured Per-Scene Reliability](https://arxiv.org/abs/2610.01744) | Wonguen Cho, Junhoo Lee, Nojun Kwak | cs.CV, cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2610.01744) / [pdf](https://arxiv.org/pdf/2610.01744) |
+| 2026-10-01 | [Recova: Agent-Guided Failure Recovery for Autonomous Robotic Manipulation](https://arxiv.org/abs/2610.01178) | Isabella Liu, An-Chieh Cheng, Johan Bjorck, et al. | cs.RO | Data Collection, Human Intervention | [abs](https://arxiv.org/abs/2610.01178) / [pdf](https://arxiv.org/pdf/2610.01178) |
+| 2026-10-01 | [Extreme Length Generalization in a Compact Recurrent Architecture for One-Shot Exploration](https://arxiv.org/abs/2610.01105) | Izen Thornton, Aaron Shey, William Su | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2610.01105) / [pdf](https://arxiv.org/pdf/2610.01105) |
+| 2026-10-01 | [Real-Time Human-Adaptive Task Allocation for Multi-Human Multi-Robot Supervision](https://arxiv.org/abs/2610.00897) | Seabin Lee, Sujeong Park, Nayoung Kim, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2610.00897) / [pdf](https://arxiv.org/pdf/2610.00897) |
 
 ## 2026-09
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-09-30 | [DITTO-X: Forward and Reverse Teleoperation for Dexterous Manipulation and Human Intervention](https://arxiv.org/abs/2610.00781) | Zhanpeng He, Joaquin Palacios, Zhangyu Wang, et al. | cs.RO | Teleoperation, Data Collection, Human Intervention | [abs](https://arxiv.org/abs/2610.00781) / [pdf](https://arxiv.org/pdf/2610.00781) |
+| 2026-09-30 | [Toward Humanoid Robots in Construction: A Teleoperation Feasibility Study](https://arxiv.org/abs/2610.00718) | Parastoo Ali Pour, David R. Martin, Chang Min Hur, et al. | cs.RO, cs.HC | Teleoperation | [abs](https://arxiv.org/abs/2610.00718) / [pdf](https://arxiv.org/pdf/2610.00718) |
+| 2026-09-30 | [Towards a General Humanoid Loco-Manipulation Model via Egocentric Whole-Body Human Data Pretraining](https://arxiv.org/abs/2610.00438) | Chongyang Xu, Zhao Wu, Jin Chen, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2610.00438) / [pdf](https://arxiv.org/pdf/2610.00438) |
 | 2026-09-30 | [Ego4WAM: What Matters When Scaling Egocentric Human Data for Robot Learning?](https://arxiv.org/abs/2609.40341) | Zhihao Sun, Liu Liu, Xinjiang Wang, et al. | cs.RO, cs.CV | Robot Dataset | [abs](https://arxiv.org/abs/2609.40341) / [pdf](https://arxiv.org/pdf/2609.40341) |
 | 2026-09-30 | [StreamRig: Exploiting Intra-Rig Geometry for Streaming Multi-Camera Odometry](https://arxiv.org/abs/2609.40244) | Yufei Wei, Shuhao Ye, Qi Wang, et al. | cs.CV, cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2609.40244) / [pdf](https://arxiv.org/pdf/2609.40244) |
 | 2026-09-30 | [RoboCoach: World Models as Active Coaches for Compositional Robot Skills](https://arxiv.org/abs/2609.39685) | Jiajun Liu, Yifan Chen, Yichao Liu, et al. | cs.RO, cs.AI | Autonomous Collection | [abs](https://arxiv.org/abs/2609.39685) / [pdf](https://arxiv.org/pdf/2609.39685) |
