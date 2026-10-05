@@ -125,6 +125,8 @@ curation, and representative real-world datasets.
 
 | Date | Keywords | Institute (first) | Paper | Publication | Others |
 | :--: | :------: | :---------------: | :---: | :---------: | :----: |
+| 2026-09-30 | Force Feedback, Reverse Teleoperation, Human Intervention | Stanford | [DITTO-X: Forward and Reverse Teleoperation for Dexterous Manipulation and Human Intervention](https://arxiv.org/abs/2610.00781) | arXiv | [project](https://tml.stanford.edu/ditto-x/) |
+| 2026-09-16 | 7-DoF Hand, Motorized Exoskeleton, Bilateral Force Feedback | Columbia University | [DITTO: Dexterous Interface for Transparent TeleOperation](https://arxiv.org/abs/2609.19196) | arXiv | [project](https://ditto-robotics.github.io/) |
 | 2026-09-07 | Multimodal Teleoperation, Mobile Manipulation, Vision + Tactile + F/T | Shenzhen Technology University | [M3-Tele: A Unified Multimodal Teleoperational Framework for Compliant Whole-Body Mobile Manipulation](https://arxiv.org/abs/2609.07859) | arXiv | — |
 | 2026-09-07 | Humanoid VR Teleoperation, Binocular Fisheye, Stabilized Free-Looking | University of Massachusetts Amherst | [SPOT: Spatial Perception-Oriented Long-Horizon Humanoid Teleoperation](https://arxiv.org/abs/2609.07933) | arXiv | — |
 | 2026-08-29 | Dual-Robot VR Teleoperation, Onboard RGB-D, Real-Time 3D Workspace | Brown University | [GHOST in the Robots: Real-Time Exocentric Dual-Robot VR Teleoperation from Onboard Cameras](https://arxiv.org/abs/2608.29080) | RA-L 2026 | [project / github](https://h2r.github.io/GHOST/) |
@@ -198,6 +200,7 @@ curation, and representative real-world datasets.
 
 | Date | Keywords | Institute (first) | Paper | Publication | Others |
 | :--: | :------: | :---------------: | :---: | :---------: | :----: |
+| 2026-10-01 | Robot-Workspace 3DGS, Metric Calibration, Per-Scene Reliability | Seoul National University | [3DROID: A Renderable 3D Gaussian Dataset with Measured Per-Scene Reliability](https://arxiv.org/abs/2610.01744) | arXiv | [dataset](https://huggingface.co/datasets/wonguen/3DROID) |
 | 2026-07-30 | Counterfactual Augmentation, Object Displacement, Action Morphing | Georgia Tech | [Static In, Dynamic Out: Counterfactual Action Augmentation for Moving Object Manipulation](https://arxiv.org/abs/2607.27890) | arXiv | [project](https://sido-staticindynamicout.github.io/) |
 | 2026-07-29 | Symmetry Augmentation, On-Robot Replay, Ego / Exo Views | Lipscomb University | [SymmGrid: Super-Scaling On-Robot Learning with Parallelized Symmetries and Egocentric-Exocentric Visual Perception](https://arxiv.org/abs/2607.26985) | arXiv | [project](https://symmgrid-robot.github.io/) / [github](https://github.com/lippyRobotics/fractalserl/) |
 | 2026-06-18 | Failure-Driven Augmentation, 6D Object Swap, Multi-View | KAIST | [Pose6DAug: Physically Plausible Multi-view Object Swapping for Robot Data Augmentation](https://arxiv.org/abs/2606.20118) | arXiv | [project](https://jhoonjwa.github.io/pose6daug) |
@@ -265,6 +268,7 @@ observations, actions, interaction signals, and embodiment mappings.
 
 | Date | Keywords | Institute (first) | Paper | Publication | Others |
 | :--: | :------: | :---------------: | :---: | :---------: | :----: |
+| 2026-09-24 | Wireless Handheld, Vision+Touch+Audio, Shared Sensing Finger | Northwestern University | [PolyUMI: Accessible Visual-Tactile-Audio Data Collection for Object Inference and Manipulation](https://arxiv.org/abs/2609.29760) | arXiv | [project](https://polyumi-vista.github.io/) / [github](https://github.com/polyumi/PolyUMI-platform) |
 | 2026-08-20 | Co-Designed Handheld / Robot Gripper, Backdrivable Fingers, Ergonomic Capture | Robotics and AI Institute | [Koala Gripper: Co-designing Robotic Grippers and Data-Capture Devices for Scaling Dexterous Manipulation Learning](https://arxiv.org/abs/2608.20546) | arXiv | [project](http://koalagripper.rai-inst.com/) |
 | 2026-07-21 | Matched Handheld / Robot Grippers, RGB-D + IMU, LeRobot | Pollen Robotics | [Grabette](https://github.com/pollen-robotics/grabette) | Open-source system | [release](https://huggingface.co/blog/grabette) / [processing](https://huggingface.co/spaces/pollen-robotics/grabette-slam) |
 | 2026-06-12 | Egocentric Guidance, Data Quality, AR | Shanghai Jiao Tong University | [EgoGuide: Egocentric Guidance for Efficient Robot-Free Demonstration Collection and Learning](https://arxiv.org/abs/2606.14665) | arXiv | [project](https://silicx.github.io/EgoGuide/) |
@@ -366,6 +370,7 @@ observations, actions, interaction signals, and embodiment mappings.
 
 | Date | Keywords | Institute (first) | Paper | Publication | Others |
 | :--: | :------: | :---------------: | :---: | :---------: | :----: |
+| 2026-09-19 | Native UMI Transfer, Humanoid, Whole-Body Motion Generation | Zhejiang University | [Whole-Body UMI: Transferring UMI Manipulation Skills to Humanoid Whole-Body Manipulation via Real-Time Motion Generation](https://arxiv.org/abs/2609.22829) | arXiv | — |
 | 2025-05-28 | Human Hand, Exoskeleton, Robot-Hand Inpainting | Stanford | [DexUMI: Using Human Hand as the Universal Manipulation Interface for Dexterous Manipulation](https://arxiv.org/abs/2505.21864) | CoRL 2025 | [github](https://github.com/real-stanford/DexUMI) / [data](https://umi-data.github.io/) |
 
 ### UMI Data-to-Policy
@@ -375,6 +380,8 @@ here; a policy is not included merely because it consumes UMI data.
 
 | Date | Keywords | Institute (first) | Paper | Publication | Others |
 | :--: | :------: | :---------------: | :---: | :---------: | :----: |
+| 2026-09-17 | Policy-Guided Collection, Robot-Free HIL, Advantage Conditioning | Xi’an Jiaotong University | [HIL-UMI: Bringing Human-in-the-Loop Post-Training of Vision-Language-Action Models to Universal Manipulation Interface](https://arxiv.org/abs/2609.20659) | arXiv | [project](https://hil-umi.github.io/) |
+| 2026-09-16 | Action-Anchored Alignment, Ego–UMI–Robot, VLA Co-training | Tsinghua University | [UMI-Bridge: Action-Anchored Latent Alignment across Human and Robot Manipulation Data](https://arxiv.org/abs/2609.18232) | arXiv | [project](https://umi-bridge.github.io/) |
 | 2026-07-16 | 100K+ Hours UMI, Scaling, Automatic Annotation | Xiaomi Robotics | [Xiaomi-Robotics-1: Scaling Vision-Language-Action Models with over 100K Hours of Real-World Trajectories](https://arxiv.org/abs/2607.15330) | arXiv | [project](https://robotics.xiaomi.com/xiaomi-robotics-1.html) |
 | 2026-06-25 | Handheld + Teleoperation, State-Gated Experts | RAI Institute | [Bridging Handheld and Teleoperated Supervision for Contact-Rich Manipulation via State-Gated Experts](https://arxiv.org/abs/2606.26603) | arXiv | [project](https://nperi-rai.github.io/bridge-project/) |
 | 2026-06-20 | HuMI Co-training, Whole-Body Humanoid, Data Recipe | Tsinghua University | [OpenHLM: An Empirical Recipe for Whole-Body Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.22174) | arXiv | [project](https://openhlm-project.github.io/) / [github](https://github.com/OpenHLM-project/OpenHLM) / [data](https://huggingface.co/datasets/OpenHLM/OpenHLM-data) |
@@ -419,6 +426,7 @@ activity into robot-usable supervision.
 
 | Date | Keywords | Institute (first) | Paper | Publication | Others |
 | :--: | :------: | :---------------: | :---: | :---------: | :----: |
+| 2026-09-28 | Monocular Demonstration Capture, Passive Wrist Markers, Metric Trajectories | Anyverse Dynamics | [MonoEgo: Monocular Metric Egocentric Demonstration Capture with Passive Wrist Constellations and Sparse Workstation Anchors](https://arxiv.org/abs/2609.34512) | arXiv | — |
 | 2026-08-20 | Occlusion-Robust, Metric 3D Hand Motion, Out-of-Sight Recovery | Shanghai Jiao Tong University | [DreamHand: Repurposing Video Diffusion Models for Occlusion-Robust Egocentric 3D Hand Motion Recovery](https://arxiv.org/abs/2608.20308) | arXiv | — |
 | 2026-07-20 | Monocular Ego, Viewer + Scene, Unified 4D | ETH Zurich | [ReViV: Reconstructing the Viewer and the View in 4D from Monocular Egocentric Video](https://arxiv.org/abs/2607.17790) | ECCV 2026 | [project](https://reviv4d.github.io/) / [github](https://github.com/lvsean/reviv4d) |
 | 2026-07-17 | Ego–Exo, Distributed MoCap, Full Body | Meta Reality Labs | [EgoExoMoCap: Distributed Ego-Exo Human Motion Capture](https://arxiv.org/abs/2607.15868) | ECCV 2026 | [project / code](https://siplab.org/projects/EgoExoMoCap) |
@@ -455,6 +463,7 @@ activity into robot-usable supervision.
 
 | Date | Keywords | Institute (first) | Paper | Publication | Others |
 | :--: | :------: | :---------------: | :---: | :---------: | :----: |
+| 2026-10-01 | Multi-Motion Retargeting, Physics-Based RL, Bimanual Data | KAIST | [FlashDexRetarget: Accelerating Dexterous Manipulation Data Generation through Multi-Motion Retargeting](https://arxiv.org/abs/2610.01849) | arXiv | [project](https://davian-robotics.github.io/FlashDexRetarget/) |
 | 2026-08-25 | Fiber-Optic Glove, 60 Hz, 4.9 mm Calibrated Fingertip Error, Virtual Teleoperation | Meta | [Fiber Optic Sensing Glove for High Performance Dexterous Manipulation Capture](https://arxiv.org/abs/2608.24572) | arXiv | — |
 | 2026-07-09 | Hand Retargeting, Calibration-Free, Few-Shot Guidance | Noematrix | [AnyDexRT: Calibration-Free Dexterous Hand Retargeting with Few-Shot Human Guidance](https://arxiv.org/abs/2607.08341) | arXiv | [project](https://chenxi-wang.github.io/projects/anydexrt/) |
 | 2026-07-08 | Hand Retargeting, Low Jitter, Real-Time | ETH Zurich | [Smooth Operator: A Real-Time Sampling-Based Algorithm for Kinematic Hand Retargeting](https://arxiv.org/abs/2607.07491) | arXiv | [project](https://mimicrobotics.github.io/smooth-operator/) |
@@ -510,6 +519,7 @@ activity into robot-usable supervision.
 
 | Date | Keywords | Institute (first) | Paper | Publication | Others |
 | :--: | :------: | :---------------: | :---: | :---------: | :----: |
+| 2026-09-30 | Egocentric Data Value, Alignment, Diversity, Supervision Scaling | Fudan University | [Ego4WAM: What Matters When Scaling Egocentric Human Data for Robot Learning?](https://arxiv.org/abs/2609.40341) | arXiv | [project](https://sunzhihao18.github.io/Ego4WAM/) |
 | 2026-08-26 | Human-Video Task Prompt, HumanGen, 74.2K Paired Sequences, 8.6K Tasks | Robbyant | [Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization](https://arxiv.org/abs/2608.26103) | arXiv | [project](https://robbyant-research.github.io/Zero-WAM/) |
 | 2026-08-17 | Open Surgical Videos, Weak Kinematics, Phantom+Real Tissue, da Vinci | Johns Hopkins University | [SurgVIL: Scaling Surgical Robot Imitation Learning with Open-source Surgical Videos](https://arxiv.org/abs/2608.16058) | arXiv | [paper](https://arxiv.org/abs/2608.16058) |
 | 2026-08-03 | Ego-to-Robot Synthesis, Quality Curation, 18,561 h, 15 Embodiments | AIM3 Lab, Renmin University of China | [Ego2Robot: Scalable Robot Data Synthesis from Egocentric Human Data](https://arxiv.org/abs/2608.02580) | arXiv | [project](https://www-ye.github.io/ego2robot_blog/) |
@@ -543,6 +553,7 @@ activity into robot-usable supervision.
 
 | Date | Keywords | Institute (first) | Paper | Publication | Others |
 | :--: | :------: | :---------------: | :---: | :---------: | :----: |
+| 2026-09-28 | Mobile Bimanual Dexterity, Tracker-Free Capture, Human–Robot Alignment | HKUST | [DexRoam: Learning Mobile Bimanual Dexterous Manipulation from Egocentric Whole-Body Human Demonstrations](https://arxiv.org/abs/2609.35761) | arXiv | [project](https://dexroam.github.io/) |
 | 2026-07-22 | Human Recovery Demonstrations, Corrective Intent | Fudan University | [EgoRecovery: Acquiring Failure Recovery Ability Through Human Recovery Demonstration](https://arxiv.org/abs/2607.19745) | arXiv | [github](https://github.com/EgoRecovery/EgoRecovery) |
 | 2026-07-08 | World Action Model, Human–Robot Co-training, 3D Flow | Georgia Tech | [EgoWAM: World Action Models Beyond Pixels with In-the-Wild Egocentric Human Data](https://arxiv.org/abs/2607.08436) | arXiv | [project](https://gatech-rl2.github.io/egowam.github.io/) |
 | 2026-06-22 | Latent Physical Reasoning, Human–Robot Alignment | Peking University | [LaST-HD: Learning Latent Physical Reasoning from Scalable Human Data for Robot Manipulation](https://arxiv.org/abs/2606.23685) | arXiv | [project](https://siriyep.github.io/last-hd-project-page/) |
@@ -790,6 +801,10 @@ asset: demonstrations, environments, observations, or released datasets.
 
 | Date | Keywords | Institute (first) | Paper | Publication | Others |
 | :--: | :------: | :---------------: | :---: | :---------: | :----: |
+| 2026-10-01 | RGB-D, Agentic Scene Reconstruction, Articulated Digital Twins | University of Cambridge | [LiteReality-Agent: An Agentic System for Interactable 3D Indoor Scene Reconstruction](https://arxiv.org/abs/2610.01863) | arXiv | [project](https://litereality.github.io/agent/) / [github](https://github.com/LiteReality/LiteReality-Agent) |
+| 2026-09-28 | Sim-Ready Scenes, Deformable Rod/Shell/Solid, Behavioral Verification | Tsinghua University | [CoDimRecon: Agentic Reconstruction of Sim-Ready 3D Scenes with Deformable Curves, Surfaces, and Volumes](https://arxiv.org/abs/2609.36024) | arXiv | [project](https://shuzhaoxie.github.io/CoDimRecon/) |
+| 2026-09-18 | Instrumented Human Interaction, Articulated Dynamics, Physics Identification | ETH Zurich | [ForceTwin: Physics-informed Digital Twins for Robotic Manipulation from Instrumented Human Interaction](https://arxiv.org/abs/2609.21751) | arXiv | [project](https://timengelbracht.github.io/forcetwin-website/) |
+| 2026-09-16 | Monocular Human Video, Articulated Assets, MuJoCo Replay | Johns Hopkins University | [Track, Articulate, Act: Generating Articulation from Casual Human Videos](https://arxiv.org/abs/2609.19119) | arXiv | [project](https://track-articulate-act.github.io/) / [github](https://github.com/brains-bots-n-behavior/track-articulate-act) |
 | 2026-09-08 | User Observations to Sim, 3K Assets, 50 Backgrounds, 1M+ Expert Trajectories | China Telecom | [RoboCousin: Build Your Own Simulation Playground for Robust Bimanual Robotic Manipulation](https://arxiv.org/abs/2609.08339) | arXiv | [paper](https://arxiv.org/abs/2609.08339) |
 | 2026-08-20 | Single-Video Door Twin, Articulated Real-to-Sim, Executable Demonstrations | Shanghai Jiao Tong University | [Video2DoorTraversal: Push Door Traversal via Simulated Door Twins](https://arxiv.org/abs/2608.20251) | arXiv | [project](https://video2doortraversal.github.io/) |
 | 2026-08-07 | Sparse Capture, Robot-Ego View Refinement, 3DGS + Collision Proxy | XPENG Robotics | [R2S-EGO: Dual-Proxy Refinement for Sparse-Capture Real-to-Sim](https://arxiv.org/abs/2608.06827) | arXiv | — |
@@ -812,6 +827,7 @@ asset: demonstrations, environments, observations, or released datasets.
 | 2025-03-01 | Physics-Aware Asset Generation, Pick-and-Place | MIT | [Scalable Real2Sim: Physics-Aware Asset Generation Via Robotic Pick-and-Place Setups](https://arxiv.org/abs/2503.00370) | IROS 2025 | [project](https://scalable-real2sim.github.io/) / [github](https://github.com/nepfaff/scalable-real2sim) |
 | 2024-11-18 | 3DGS, Physics Interaction, Real2Sim2Real | Shanghai Jiao Tong University | [RoboGSim: A Real2Sim2Real Robotic Gaussian Splatting Simulator](https://arxiv.org/abs/2411.11839) | arXiv | [project](https://robogsim.github.io/) |
 | 2024-09-16 | Gaussian Splatting, Photoreal Rendering, Sim-to-Real | Carnegie Mellon University | [SplatSim: Zero-Shot Sim2Real Transfer of RGB Manipulation Policies Using Gaussian Splatting](https://arxiv.org/abs/2409.10161) | arXiv | [project](https://splatsim.github.io/) |
+| 2024-06-12 | Articulated Reconstruction, Part Geometry, Executable Simulation Code | Stanford | [Real2Code: Reconstruct Articulated Objects via Code Generation](https://arxiv.org/abs/2406.08474) | ICLR 2025 | [project](https://real2code.github.io/) / [github](https://github.com/MandiZhao/real2code) |
 | 2024-03-06 | RialTo, Real-to-Sim, Digital Twin | MIT | [Reconciling Reality through Simulation: A Real-to-Sim-to-Real Approach for Robust Manipulation](https://arxiv.org/abs/2403.03949) | RSS 2024 | [project](https://real-to-sim-to-real.github.io/RialTo/) / [github](https://github.com/real-to-sim-to-real/RialToPolicyLearning) |
 
 #### Platforms / Frameworks
@@ -878,6 +894,7 @@ privileged state or rendered observations.
 
 | Date | Keywords | Institute (first) | Paper | Publication | Others |
 | :--: | :------: | :---------------: | :---: | :---------: | :----: |
+| 2026-09-17 | Visual Domain Randomization, Recorded Trajectories, Label-Preserving Generation | Chung-Ang University | [ReShoot: Generative Visual Domain Randomization of Recorded Robot Demonstrations for Visuomotor Policy Learning](https://arxiv.org/abs/2609.19661) | arXiv | — |
 | 2026-03-17 | 4D Generative Simulator, RGB + Pointmap, Robo4D-200K | Nanyang Technological University | [Kinema4D: Kinematic 4D World Modeling for Spatiotemporal Embodied Simulation](https://arxiv.org/abs/2603.16669) | CVPRW 2026 | [project](https://mutianxu.github.io/Kinema4D-project-page/) / [github + dataset + checkpoints](https://github.com/mutianxu/Kinema4D) |
 | 2026-01-08 | Multi-View Video Augmentation, Identity Prompting | Shanghai AI Laboratory | [RoboVIP: Multi-View Video Generation with Visual Identity Prompting Augments Robot Manipulation](https://arxiv.org/abs/2601.05241) | arXiv | [project](https://robovip.github.io/RoboVIP/) / [github](https://github.com/RoboVIP/RoboVIP_VDM) |
 | 2025-03-15 | Video Generation, Data Augmentation, Robot Learning | UNC-Chapel Hill | [ReBot: Scaling Robot Learning with Real-to-Sim-to-Real Robotic Video Synthesis](https://arxiv.org/abs/2503.14526) | arXiv | [project](https://yuffish.github.io/rebot/) |
@@ -886,6 +903,7 @@ privileged state or rendered observations.
 
 | Date | Keywords | Institute (first) | Paper | Publication | Others |
 | :--: | :------: | :---------------: | :---: | :---------: | :----: |
+| 2026-10-01 | Multimodal Digital Twins, Microgeometry, Tactile/Thermal Rendering | ShanghaiTech University | [TouchTherm: Building Multimodal Digital Twins of Objects for Tactile and Thermal Rendering](https://arxiv.org/abs/2610.01943) | arXiv | [project](https://anonymous-research1.github.io/) |
 | 2026-08-09 | Isaac Sim Add-on, Grayscale + Bayer Events, RGB / Depth / IMU, ROS 2 | Leibniz University Hannover | [EsaacSim: A Multimodal Event Camera Add-on for NVIDIA Isaac Sim](https://arxiv.org/abs/2608.08522) | arXiv | — |
 | 2026-07-24 | Visuo-Tactile World Model, Synthetic Rollouts + Evaluation | ShanghaiTech University | [ViTacWorld: Scaling Visuo-Tactile World Models for Contact-Rich Robot Manipulation](https://arxiv.org/abs/2607.22530) | arXiv | [project](https://vitacworld.github.io/) |
 | 2026-07-22 | Vision-to-Tactile, Synthetic Tactile Signals | University of Southern California | [FELT: Generating Tactile Signals from Vision for Visuo-Tactile Manipulation](https://arxiv.org/abs/2607.20683) | arXiv | [project](https://felt-tactile.github.io/) |
@@ -932,6 +950,7 @@ data source—is its primary asset.
 
 | Date | Keywords | Institute (first) | Paper | Publication | Others |
 | :--: | :------: | :---------------: | :---: | :---------: | :----: |
+| 2026-09-15 | Robot Experience Infrastructure, Validation, Fleet/Compute Scaling | MBZUAI | [The Robot Data Factory](https://arxiv.org/abs/2609.16705) | arXiv | [project](https://agentic-robotics-lab.github.io/robot-data-factory) |
 | 2026-09-07 | Open WAM Stack, 6,400 h Human + Robot Pretraining, Models + Data Recipes | National University of Singapore | [OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining](https://arxiv.org/abs/2609.07398) | arXiv | [project](https://openwam-official.github.io/) / [github](https://github.com/OpenWAM-Official/OpenWAM) / [models + data](https://huggingface.co/OpenWAM) |
 | 2026-08-30 | Visuo-Tactile Data Foundation, 200K+ Public Trajectories / 5,000+ h, Six Embodiments | NeoteAI / Fudan University | [$\mathcal{N}_0$-Foundation: Towards the Age of Tactile Intelligence](https://arxiv.org/abs/2608.29601) | Technical report | [project](https://research.neoteai.com:14443/n0-foundation/) / [github](https://github.com/neoteai/N0-Foundation) / [gated dataset, CC BY-NC-SA 4.0](https://huggingface.co/datasets/NeoteAIEmbodied/OpenNeoData) |
 | 2026-07-30 | HOI Survey, Foundation Models, Embodied Transfer | Xidian University | [Hand-Object Interaction in the Age of Large Foundation Models:Reconstruction, Generation, and Embodied Transfer](https://arxiv.org/abs/2607.28394) | arXiv | [project](https://zgca-hmi-lab.github.io/HOISurvey/) / [github](https://github.com/SeanChenxy/Hand3DResearch/tree/hoi-survey) |
@@ -1060,6 +1079,9 @@ data source—is its primary asset.
 
 | Date | Keywords | Institute (first) | Paper | Publication | Others |
 | :--: | :------: | :---------------: | :---: | :---------: | :----: |
+| 2026-09-21 | Human-to-Robot Evaluation, Real-to-Sim, Data-Scaling Protocol | CMU | [H2RBench: A Real-to-Sim Benchmark for Evaluating Human-to-Robot Transfer](https://arxiv.org/abs/2609.24778) | arXiv | — |
+| 2026-09-18 | Failure/Recovery, Precision Assembly, 18 Tasks, 2,160 Demonstrations | University of Calgary | [REBOOT: From Failure to Recovery - A Dataset and Benchmark for Precision Assembly](https://arxiv.org/abs/2609.22591) | arXiv | [project](https://nanayawoa.github.io/REBOOT) |
+| 2026-09-14 | Simulation Benchmark, 12 Hands, 26 Tasks, Visuo-Tactile | Shanghai Jiao Tong University | [Bench2Dex: Benchmarking Visuo-Tactile Bimanual Dexterous Manipulation Across Dexterous Hands](https://arxiv.org/abs/2609.15726) | arXiv | [project](https://bench2dex.github.io/) / [github](https://github.com/Bench2Dex/Bench2Dex) |
 | 2026-08-28 | 3D-Grounded World-Model Evaluation, 50 Tasks, 145K Videos, 50 Metrics | The University of Texas at Austin | [RoboPhys-3D: A Comprehensive Embodied World Model Evaluation via 3D Reconstruction](https://arxiv.org/abs/2608.28718) | arXiv | [paper](https://arxiv.org/abs/2608.28718) |
 | 2026-08-23 | Intent-Level Imitation, IG-10K, 20K+ Paired Episodes, Human A/B Arena | University of Hong Kong | [The Imitator Game: Benchmarking Robot Imitative Ability Beyond Action Prediction](https://arxiv.org/abs/2608.22301) | arXiv | [project / arena](https://imitator-game.github.io/) |
 | 2026-08-21 | Demonstration Unlearning, Retrain-Calibrated Behavior + Membership Audit | University of Michigan | [Rethinking Demonstration Unlearning in Imitation Learning for Robotics](https://arxiv.org/abs/2608.20784) | arXiv | — |
