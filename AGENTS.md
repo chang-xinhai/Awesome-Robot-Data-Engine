@@ -154,6 +154,10 @@ Include:
 - synthetic sensor observations and domain randomization;
 - simulation-only and sim–real paired datasets.
 
+Within `Simulation Datasets`, distinguish complete trajectory datasets, grasp /
+affordance supervision, and reusable object / scene assets. Keep an asset in
+only one subsection, even when its release contains multiple data types.
+
 Benchmarks whose primary contribution is standardized evaluation belong in
 `Data Engine Taxonomy`, even when implemented in simulation.
 
@@ -169,6 +173,11 @@ Reserve this section for cross-source or source-agnostic work:
 - mixture design, sampling, and scaling laws;
 - trajectory accuracy, no-GT proxies, quality/coverage, policy utility,
   efficiency, and standardized benchmarks.
+
+Within `Processing / Curation`, distinguish annotation / grounded supervision
+from selection / standardization. Include vision–language resources only when
+robot-relevant labeling, reasoning supervision, or data transformation is a
+central contribution; keep source-specific datasets with their source.
 
 Standardized benchmarks are classified here by their evaluation contribution,
 including source-specific robot, UMI, human, or simulation benchmarks.
