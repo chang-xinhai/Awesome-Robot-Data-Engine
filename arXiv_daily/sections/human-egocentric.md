@@ -4,12 +4,23 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-10-05 · **Papers:** 2120 · **Unique arXiv IDs:** 2120
+**Coverage:** 2025-01-01 to 2026-10-05 · **Papers:** 2131 · **Unique arXiv IDs:** 2131
 
 ## 2026-10
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-10-02 | [Bridging Frontier Reasoning and Robot Execution: From Autonomous Demonstration Generation to Dense Language Supervision](https://arxiv.org/abs/2610.03615) | Bosung Kim, Alexander Trevithick, Ruiyi Wang, et al. | cs.RO | Human Demonstration | [abs](https://arxiv.org/abs/2610.03615) / [pdf](https://arxiv.org/pdf/2610.03615) |
+| 2026-10-02 | [World Action Learning via Interaction-Centric Spectral Latent Guidance](https://arxiv.org/abs/2610.03607) | Zhiming Liu, Yikun Miao, Ying Chen, et al. | cs.RO | Egocentric, Hand-Object Interaction | [abs](https://arxiv.org/abs/2610.03607) / [pdf](https://arxiv.org/pdf/2610.03607) |
+| 2026-10-02 | [COSMI: COmpositional Synthesis of Multi-object Interactions](https://arxiv.org/abs/2610.03252) | Daniel Eskandar, Ilya A. Petrov, Gerard Pons-Moll | cs.CV | Hand-Object Interaction | [abs](https://arxiv.org/abs/2610.03252) / [pdf](https://arxiv.org/pdf/2610.03252) |
+| 2026-10-02 | [PointWAM: 3D World Action Modeling for Dexterous Robotic Manipulation](https://arxiv.org/abs/2610.02840) | Chunghyun Park, Beomjun Kim, Seungcheol Park, et al. | cs.RO, cs.CV | Human Video, Human Demonstration | [abs](https://arxiv.org/abs/2610.02840) / [pdf](https://arxiv.org/pdf/2610.02840) |
+| 2026-10-02 | [SARI: Phase-Split Sim-Real Co-Training for Contact-Rich Manipulation](https://arxiv.org/abs/2610.02804) | Xingxin He, Yuxuan Jiang, Haonan Zhang, et al. | cs.RO | Affordance / Contact | [abs](https://arxiv.org/abs/2610.02804) / [pdf](https://arxiv.org/pdf/2610.02804) |
+| 2026-10-02 | [Ego2World: Compiling Egocentric Cooking Videos into Executable Worlds for Belief-State Planning](https://arxiv.org/abs/2610.02715) | Qinchuan Cheng, Zhantao Gong, Pengzhan Sun, et al. | cs.AI | Egocentric | [abs](https://arxiv.org/abs/2610.02715) / [pdf](https://arxiv.org/pdf/2610.02715) |
+| 2026-10-02 | [GeoScaffold: Learning Compact Geometric Latents via Reconstruction for Efficient Vision-Language Navigation](https://arxiv.org/abs/2610.02697) | Yixuan Jiang, Wentong Li, An Liu, et al. | cs.RO, cs.CV | Egocentric | [abs](https://arxiv.org/abs/2610.02697) / [pdf](https://arxiv.org/pdf/2610.02697) |
+| 2026-10-01 | [Multi-Fidelity Policy Gradients Stabilize Data-Scarce Reinforcement Learning](https://arxiv.org/abs/2610.02505) | Xinjie Liu, Ruihan Zhao, Anirban Chaudhuri, et al. | cs.LG, cs.AI, cs.RO | Human Demonstration | [abs](https://arxiv.org/abs/2610.02505) / [pdf](https://arxiv.org/pdf/2610.02505) |
+| 2026-10-01 | [Keep the Effect, Drop the Actor: Programmable Effect-to-Execution World-Action Models](https://arxiv.org/abs/2610.02398) | Junyi Hu, Zhewen He, Zhenhua Li, et al. | cs.RO | Human Video | [abs](https://arxiv.org/abs/2610.02398) / [pdf](https://arxiv.org/pdf/2610.02398) |
+| 2026-10-01 | [Filter-Aware Fine-Tuning for Safe Humanoid Whole-Body Tracking](https://arxiv.org/abs/2610.02341) | Pranit Mohnot, Christian Helten, Daniele Gammelli, et al. | cs.RO | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2610.02341) / [pdf](https://arxiv.org/pdf/2610.02341) |
+| 2026-10-01 | [SoTa: Soft Tactile Skins for Dexterous Manipulation](https://arxiv.org/abs/2610.02338) | Jingyun Yang, Baiyu Shi, Timothy Yu, et al. | cs.RO, cs.LG | Human Demonstration | [abs](https://arxiv.org/abs/2610.02338) / [pdf](https://arxiv.org/pdf/2610.02338) |
 | 2026-10-01 | [InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.02196) | Zhuo Lin, Sirui Xu, Liuyu Bian, et al. | cs.RO, cs.CV, cs.GR | Egocentric | [abs](https://arxiv.org/abs/2610.02196) / [pdf](https://arxiv.org/pdf/2610.02196) |
 | 2026-10-01 | [UniWAM: Unified World-Action Model](https://arxiv.org/abs/2610.02054) | Jiayi Chen, Wenxuan Song, Jingbo Wang, et al. | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2610.02054) / [pdf](https://arxiv.org/pdf/2610.02054) |
 | 2026-10-01 | [TouchTherm: Building Multimodal Digital Twins of Objects for Tactile and Thermal Rendering](https://arxiv.org/abs/2610.01943) | Yitao Zhang, Hong Ying, Haoran Guo, et al. | cs.RO | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2610.01943) / [pdf](https://arxiv.org/pdf/2610.01943) |
