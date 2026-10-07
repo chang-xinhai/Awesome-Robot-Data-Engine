@@ -4,12 +4,23 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-10-07 · **Papers:** 2780 · **Unique arXiv IDs:** 2780
+**Coverage:** 2025-01-01 to 2026-10-07 · **Papers:** 2791 · **Unique arXiv IDs:** 2791
 
 ## 2026-10
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-10-06 | [Micro Neural Policies for Safe Real-Time Robotic Control](https://arxiv.org/abs/2610.08541) | Hongpeng Cao, Riccardo Curcio, Daniele Ottaviano, et al. | cs.RO, cs.AI | Sim-to-Real | [abs](https://arxiv.org/abs/2610.08541) / [pdf](https://arxiv.org/pdf/2610.08541) |
+| 2026-10-06 | [A Belief-State World Model for Catheter Navigation under Sparse Fluoroscopy: A Planar Proof of Concept](https://arxiv.org/abs/2610.08469) | Damini Rijhwani | cs.RO | Simulation Data, Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2610.08469) / [pdf](https://arxiv.org/pdf/2610.08469) |
+| 2026-10-06 | [Federated Bayesian Surveillance of Mechanical Thrombectomy Adverse Events: A Population Risk Layer for Surgical Digital Twins](https://arxiv.org/abs/2610.08464) | Damini Rijhwani | cs.CR, cs.RO | Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2610.08464) / [pdf](https://arxiv.org/pdf/2610.08464) |
+| 2026-10-06 | [EmbodiedSmith: Scaling Embodied Data through Recursive Self-Improvement Flywheel in Simulation](https://arxiv.org/abs/2610.07969) | Yikai Qin, Yifei Deng, Mingjian Liang, et al. | cs.CV, cs.RO | Simulation Data, Task / Scene Generation | [abs](https://arxiv.org/abs/2610.07969) / [pdf](https://arxiv.org/pdf/2610.07969) |
+| 2026-10-06 | [Beyond Retargeting: Low-Latency and Robust Humanoid Whole-Body Teleoperation with Learned Atomic Motion Primitives](https://arxiv.org/abs/2610.07891) | Xiayan Xu, Jiyu Yu, Xingzhou Chen, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2610.07891) / [pdf](https://arxiv.org/pdf/2610.07891) |
+| 2026-10-06 | [EigenDEXplore: Structured Exploration for Dexterous Manipulation with Human Priors](https://arxiv.org/abs/2610.07681) | Harsh Gupta, Tyler Ga Wei Lum, Changhao Wang, et al. | cs.RO, cs.AI | Sim-to-Real | [abs](https://arxiv.org/abs/2610.07681) / [pdf](https://arxiv.org/pdf/2610.07681) |
+| 2026-10-06 | [SMART: Zero-Shot Sim-to-Real Articulated Object Manipulation via Large-Scale Synthetic Pretraining](https://arxiv.org/abs/2610.07652) | Jicong Ao, Shuhan Jiang, Yuling Zhong, et al. | cs.RO, cs.AI | Simulation Data, Sim-to-Real, Synthetic Data, Task / Scene Generation | [abs](https://arxiv.org/abs/2610.07652) / [pdf](https://arxiv.org/pdf/2610.07652) |
+| 2026-10-05 | [ReDex: Repairing Sim-to-Real Dexterous Policies by Finger-Level Compliant Interaction](https://arxiv.org/abs/2610.07525) | Jinzhou Li, Hadi Tabatabaee, Kelin Yu, et al. | cs.RO | Sim-to-Real, Synthetic Sensor | [abs](https://arxiv.org/abs/2610.07525) / [pdf](https://arxiv.org/pdf/2610.07525) |
+| 2026-10-05 | [AIM: Adaptive Interaction Modeling Networks for Real-to-Sim Soft-Body Simulation](https://arxiv.org/abs/2610.07116) | Tiancheng Yang, Dingshuo Chen, Tianle Chen, et al. | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2610.07116) / [pdf](https://arxiv.org/pdf/2610.07116) |
+| 2026-10-05 | [Demo: Vision-Language Model-Guided Online Calibration of an Electromagnetic Digital Twin](https://arxiv.org/abs/2610.07081) | Zerui Kang, Yishen Lim, Zhouyou Gu, et al. | cs.RO, cs.AI | Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2610.07081) / [pdf](https://arxiv.org/pdf/2610.07081) |
+| 2026-10-05 | [Behavioral Cloning Mystery](https://arxiv.org/abs/2610.07056) | Seohong Park, Sergey Levine | cs.RO, cs.LG | Simulation Data, Synthetic Data | [abs](https://arxiv.org/abs/2610.07056) / [pdf](https://arxiv.org/pdf/2610.07056) |
 | 2026-10-05 | [SimForcing: Distilling Simulation Motion Priors into Real-Domain Robot World Models](https://arxiv.org/abs/2610.06598) | Xiaodong Wang, Tianle Li, Chuanxin Song, et al. | cs.RO, cs.AI, cs.CV | Simulation Data | [abs](https://arxiv.org/abs/2610.06598) / [pdf](https://arxiv.org/pdf/2610.06598) |
 | 2026-10-05 | [ArtifactArena: Evaluating Models by What They Build in the Physical World](https://arxiv.org/abs/2610.06511) | Kushagra Tiwary*, David Mayo*, Nikhil Behari, et al. | cs.RO, cs.AI | Simulation Data | [abs](https://arxiv.org/abs/2610.06511) / [pdf](https://arxiv.org/pdf/2610.06511) |
 | 2026-10-05 | [Towards Robust Prehensile Manipulation in Open-Ended Environments](https://arxiv.org/abs/2610.06376) | Mathilde Kappel, Mahdi Khoramshahi, Louis Annabi, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2610.06376) / [pdf](https://arxiv.org/pdf/2610.06376) |
