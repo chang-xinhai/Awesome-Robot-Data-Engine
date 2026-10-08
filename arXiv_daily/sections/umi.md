@@ -4,12 +4,14 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-10-08 · **Papers:** 87 · **Unique arXiv IDs:** 87
+**Coverage:** 2025-01-01 to 2026-10-08 · **Papers:** 89 · **Unique arXiv IDs:** 89
 
 ## 2026-10
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-10-07 | [Towards Accurate End-Effector Localization for UMI-Style Robotic Manipulation Teaching](https://arxiv.org/abs/2610.09857) | Junjie Zhang, Deteng Zhang, Zhisong Xu, et al. | cs.RO | Universal Manipulation Interface | [abs](https://arxiv.org/abs/2610.09857) / [pdf](https://arxiv.org/pdf/2610.09857) |
+| 2026-10-07 | [RoboPace: Contact-Aware Time-Optimal Retiming for Action-Chunk Policies](https://arxiv.org/abs/2610.09696) | Mimo Shirasaka, Takehiko Ohkawa, Takuya Okubo, et al. | cs.RO | Universal Manipulation Interface | [abs](https://arxiv.org/abs/2610.09696) / [pdf](https://arxiv.org/pdf/2610.09696) |
 | 2026-10-03 | [Grounded in Time: A Multi-Source Dataset and Benchmark for Temporal Grounding in Robotic Manipulation](https://arxiv.org/abs/2610.04255) | Yi Wang, Yang Yang, Guangqi Xu, et al. | cs.RO, cs.CV | Universal Manipulation Interface | [abs](https://arxiv.org/abs/2610.04255) / [pdf](https://arxiv.org/pdf/2610.04255) |
 | 2026-10-01 | [Experience-Based Feasibility-Aware Generative Adversarial Imitation from Observation under Embodiment Mismatch](https://arxiv.org/abs/2610.01171) | Yoshiki Takebayashi, Giovanni Perantoni, Hikaru Sasaki, et al. | cs.RO | Robot-Free Demonstration | [abs](https://arxiv.org/abs/2610.01171) / [pdf](https://arxiv.org/pdf/2610.01171) |
 

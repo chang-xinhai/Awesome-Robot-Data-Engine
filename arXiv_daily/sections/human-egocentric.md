@@ -4,12 +4,24 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-10-08 · **Papers:** 2175 · **Unique arXiv IDs:** 2175
+**Coverage:** 2025-01-01 to 2026-10-08 · **Papers:** 2187 · **Unique arXiv IDs:** 2187
 
 ## 2026-10
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-10-07 | [Never Look Back: Understanding Persistence in 3D Object Memory from Egocentric Videos](https://arxiv.org/abs/2610.10538) | Shravan Chaudhari, William Paul, Suchi Saria, et al. | cs.CV, cs.AI, cs.RO | Egocentric | [abs](https://arxiv.org/abs/2610.10538) / [pdf](https://arxiv.org/pdf/2610.10538) |
+| 2026-10-07 | [RoboPrompt: Intuitive Robot Policy Steering with Sparse Human Input](https://arxiv.org/abs/2610.10534) | Yanwen Zou, Chenyang Shi, Guoxuan Xu, et al. | cs.RO | Affordance / Contact | [abs](https://arxiv.org/abs/2610.10534) / [pdf](https://arxiv.org/pdf/2610.10534) |
+| 2026-10-07 | [Long-WAM: Scaling the Context of World-Action Models](https://arxiv.org/abs/2610.10528) | Wei Huang, Bohan Zhang, Chenzhi Liu, et al. | cs.RO, cs.AI, cs.CV | Egocentric | [abs](https://arxiv.org/abs/2610.10528) / [pdf](https://arxiv.org/pdf/2610.10528) |
+| 2026-10-07 | [TouchScale: 500 Hours of Human Vision and Touch for Visual-Tactile Learning](https://arxiv.org/abs/2610.10288) | Dayou Li, Hao Wang, Qianqian Yang, et al. | cs.CV | Egocentric, Human Video, Human Demonstration | [abs](https://arxiv.org/abs/2610.10288) / [pdf](https://arxiv.org/pdf/2610.10288) |
+| 2026-10-07 | [VolCo: Volumetric Contact for High-Fidelity Human Grasp Generation](https://arxiv.org/abs/2610.10197) | Zhuo Chen, Yihua Cheng, Aleš Leonardis, et al. | cs.CV | Hand-Object Interaction, Affordance / Contact | [abs](https://arxiv.org/abs/2610.10197) / [pdf](https://arxiv.org/pdf/2610.10197) |
+| 2026-10-07 | [A Scoping Review and Experimental Study on Reinforcement Learning from Human Feedback for Human-Robot Collaboration](https://arxiv.org/abs/2610.09891) | Alexandra Coroiu, Andrea Vogt, Viktor Werbilo, et al. | cs.HC, cs.AI, cs.RO | Human Video | [abs](https://arxiv.org/abs/2610.09891) / [pdf](https://arxiv.org/pdf/2610.09891) |
+| 2026-10-07 | [Precise SE(3) End-Effector Tracking in Whole-Body Humanoid Control](https://arxiv.org/abs/2610.09479) | Joohwan Seo, Xiaofeng Guo, Jinkun Cao, et al. | cs.RO, eess.SY | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2610.09479) / [pdf](https://arxiv.org/pdf/2610.09479) |
+| 2026-10-07 | [RLHND: Video Foundation Models as Physically Grounded Hand Trackers for Robot Learning](https://arxiv.org/abs/2610.09455) | Seungjun Moon, Subin Jeon, Sangwoo Kim, et al. | cs.CV, cs.RO | Egocentric, Hand-Object Interaction, Human Video, Tracking / Reconstruction | [abs](https://arxiv.org/abs/2610.09455) / [pdf](https://arxiv.org/pdf/2610.09455) |
+| 2026-10-07 | [SearchWorld: Spatial Value-Grounded Imagination for UAV Object Search via World Models](https://arxiv.org/abs/2610.09335) | Yatai Ji, Zhengqiu Zhu, Yong Zhao, et al. | cs.AI, cs.LG | Egocentric | [abs](https://arxiv.org/abs/2610.09335) / [pdf](https://arxiv.org/pdf/2610.09335) |
+| 2026-10-06 | [Workhorse: Learning Robust Whole-Body Humanoid Loco-Manipulation from Human Data](https://arxiv.org/abs/2610.09117) | Songbo Hu, Qiayuan Liao, Yufeng Chi, et al. | cs.RO, cs.LG | Egocentric, Human Demonstration, Affordance / Contact | [abs](https://arxiv.org/abs/2610.09117) / [pdf](https://arxiv.org/pdf/2610.09117) |
+| 2026-10-06 | [MimicX: Policy-in-the-Loop Supervision Refinement for Video-Driven Humanoid Motion Tracking](https://arxiv.org/abs/2610.09055) | Shuaijun Liu, Chenglong Zhang, Xuhao Liu, et al. | cs.RO, cs.AI | Human Video, Tracking / Reconstruction | [abs](https://arxiv.org/abs/2610.09055) / [pdf](https://arxiv.org/pdf/2610.09055) |
+| 2026-10-06 | [HULK: Learning Whole-Body Forceful Loco-Manipulation for Humanoids](https://arxiv.org/abs/2610.08970) | An Dang, Arturo Flores Alvarez, Yu-Ming Chen, et al. | cs.RO, cs.LG | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2610.08970) / [pdf](https://arxiv.org/pdf/2610.08970) |
 | 2026-10-06 | [4D-HOF: Hand-Object Flow Matching for Feed-Forward 4D Interaction Reconstruction](https://arxiv.org/abs/2610.08782) | Shiqi Li, Sean Cho, Yijie Li, et al. | cs.CV, cs.AI, cs.GR | Hand-Object Interaction, Tracking / Reconstruction | [abs](https://arxiv.org/abs/2610.08782) / [pdf](https://arxiv.org/pdf/2610.08782) |
 | 2026-10-06 | [EgoLAP: Learning from Egocentric Human Data through Language-Action Reasoning](https://arxiv.org/abs/2610.08726) | Lihan Zha, Shresth Grover, Tenny Yin, et al. | cs.RO, cs.AI | Egocentric | [abs](https://arxiv.org/abs/2610.08726) / [pdf](https://arxiv.org/pdf/2610.08726) |
 | 2026-10-06 | [RenderBench: Benchmarking Render-to-Real Video Transfer with Reconstructed Digital Twins](https://arxiv.org/abs/2610.08684) | Dicong Qiu, Zhiyuan Xu, Yaosheng Liu, et al. | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2610.08684) / [pdf](https://arxiv.org/pdf/2610.08684) |
