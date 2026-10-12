@@ -4,12 +4,21 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-10-12 · **Papers:** 2830 · **Unique arXiv IDs:** 2830
+**Coverage:** 2025-01-01 to 2026-10-12 · **Papers:** 2839 · **Unique arXiv IDs:** 2839
 
 ## 2026-10
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-10-09 | [Splat2Act: From Captured Scenes to Personalized VLA Manipulation](https://arxiv.org/abs/2610.13945) | Xiaomeng Ye, Krishna Jaganathan, Gyubeum Lim, et al. | cs.RO, cs.CV | Simulation Data, Sim-to-Real, Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2610.13945) / [pdf](https://arxiv.org/pdf/2610.13945) |
+| 2026-10-09 | [Chronos Policy: Learning Robot Policies on Physical Time](https://arxiv.org/abs/2610.13929) | Changhao Wang, Jaden Clark, Shuran Song | cs.RO, cs.CV | Simulation Data | [abs](https://arxiv.org/abs/2610.13929) / [pdf](https://arxiv.org/pdf/2610.13929) |
+| 2026-10-09 | [HorizonNav: Geometry-Guided Video Diffusion for Anticipatory 3D Robot Navigation](https://arxiv.org/abs/2610.13849) | Hajira Amjad, Valerii Serpiva, Viacheslav Liubimov, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2610.13849) / [pdf](https://arxiv.org/pdf/2610.13849) |
+| 2026-10-09 | [Cooperative Aerial Transportation of a Payload with a Sliding Cable Attachment](https://arxiv.org/abs/2610.13665) | Sebastian Tilaguy Lezama, Diego S D'Antonio | cs.RO, cs.MA | Trajectory Generation | [abs](https://arxiv.org/abs/2610.13665) / [pdf](https://arxiv.org/pdf/2610.13665) |
+| 2026-10-09 | [AutoBio+: Benchmarking Dexterous Manipulation with Dynamic Experimental Phenomena in Realistic Laboratories](https://arxiv.org/abs/2610.13643) | Xuanye Wu, Yue Shi, Yongcan Yang, et al. | cs.RO | Simulation Data, Sim-to-Real | [abs](https://arxiv.org/abs/2610.13643) / [pdf](https://arxiv.org/pdf/2610.13643) |
+| 2026-10-09 | [Grounded-Dreamer: Robot Learning from World Model Synthetic Data with Physical Grounding](https://arxiv.org/abs/2610.13164) | Feng Jiang, Shu Chen, Yuanfei Wang, et al. | cs.RO | Synthetic Data, World Simulator, Trajectory Generation | [abs](https://arxiv.org/abs/2610.13164) / [pdf](https://arxiv.org/pdf/2610.13164) |
+| 2026-10-09 | [JoyInside-VLM-Agent: Product-Conditioned Multimodal Policy Learning for Embodied Agents](https://arxiv.org/abs/2610.12957) | Gangyi Li, LuYao Wang, Jingfu Sun, et al. | cs.RO, cs.AI, cs.LG | Trajectory Generation | [abs](https://arxiv.org/abs/2610.12957) / [pdf](https://arxiv.org/pdf/2610.12957) |
+| 2026-10-09 | [TAME-Nav: Temporal Asymmetric Mixture-of-Experts Distillation for Agile and Versatile Robot Navigation](https://arxiv.org/abs/2610.12877) | Lingjie Zhang, Jun Xue, Shanze Wang, et al. | cs.RO | Simulation Data, Sim-to-Real, Domain Randomization | [abs](https://arxiv.org/abs/2610.12877) / [pdf](https://arxiv.org/pdf/2610.12877) |
+| 2026-10-08 | [CASTER: Formalizing Zero-Shot Manipulation from Synthetic Videos as Constrained Optimization](https://arxiv.org/abs/2610.12567) | Yinlong Dai, Homanga Bharadhwaj, Dylan P. Losey | cs.RO, cs.CV | Digital Twin / Real-to-Sim, Trajectory Generation | [abs](https://arxiv.org/abs/2610.12567) / [pdf](https://arxiv.org/pdf/2610.12567) |
 | 2026-10-08 | [Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration](https://arxiv.org/abs/2610.12470) | Jusuk Lee, Sungha Kim, Yeonsoo Park, et al. | cs.RO, cs.CV | Sim-to-Real | [abs](https://arxiv.org/abs/2610.12470) / [pdf](https://arxiv.org/pdf/2610.12470) |
 | 2026-10-08 | [A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control](https://arxiv.org/abs/2610.12465) | Octi Zhang, Mateo Guaman Castro, Patrick Yin, et al. | cs.RO, cs.LG | Sim-to-Real | [abs](https://arxiv.org/abs/2610.12465) / [pdf](https://arxiv.org/pdf/2610.12465) |
 | 2026-10-08 | [Generative Neural Retargeting for Human-to-Robot Dexterous Manipulation](https://arxiv.org/abs/2610.12440) | Dechen Gao, Yue Yang, Ben Abbatematteo, et al. | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2610.12440) / [pdf](https://arxiv.org/pdf/2610.12440) |

@@ -4,12 +4,23 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-10-12 · **Papers:** 2201 · **Unique arXiv IDs:** 2201
+**Coverage:** 2025-01-01 to 2026-10-12 · **Papers:** 2212 · **Unique arXiv IDs:** 2212
 
 ## 2026-10
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-10-09 | [LAPT-Scale: Scaling Embodied Policies with Latent Action Pre-Training on Human Videos](https://arxiv.org/abs/2610.13732) | Zhiyuan Xiang, Peidong Liu, Mingyang Li, et al. | cs.CV, cs.AI, cs.RO | Egocentric, Human Video | [abs](https://arxiv.org/abs/2610.13732) / [pdf](https://arxiv.org/pdf/2610.13732) |
+| 2026-10-09 | [Beyond Successful Robot Demonstrations: Learning from Human Interactions and Modeling Failure Dynamics](https://arxiv.org/abs/2610.13522) | Peiyan Tu, Cong Wang, Hanxin Zhu, et al. | cs.RO, cs.CV | Egocentric, Human Video | [abs](https://arxiv.org/abs/2610.13522) / [pdf](https://arxiv.org/pdf/2610.13522) |
+| 2026-10-09 | [Grounded-Dreamer: Robot Learning from World Model Synthetic Data with Physical Grounding](https://arxiv.org/abs/2610.13164) | Feng Jiang, Shu Chen, Yuanfei Wang, et al. | cs.RO | Human Video, Human Demonstration | [abs](https://arxiv.org/abs/2610.13164) / [pdf](https://arxiv.org/pdf/2610.13164) |
+| 2026-10-09 | [Human2Dex: Dexterous Robot Learning from Wrist-Centric Human Demonstrations](https://arxiv.org/abs/2610.13119) | Jiachen Zhang, Yuanyuan Li, Shaqi Luo | cs.RO | Human Demonstration | [abs](https://arxiv.org/abs/2610.13119) / [pdf](https://arxiv.org/pdf/2610.13119) |
+| 2026-10-09 | [VICAR: Video Imitation with Contact-Aware Retargeting for Humanoid Interactive Skills](https://arxiv.org/abs/2610.13079) | Dvij Kalaria, Bike Zhang, S. Shankar Sastry | cs.RO | Human Video | [abs](https://arxiv.org/abs/2610.13079) / [pdf](https://arxiv.org/pdf/2610.13079) |
+| 2026-10-09 | [EgoReveal: Learning Active Vision and Object Manipulation under Partial Occlusions from Egocentric Demonstrations](https://arxiv.org/abs/2610.12999) | Hiromu Kurihara, Kazutoshi Tanaka, Masashi Hatano, et al. | cs.RO | Egocentric, Human Demonstration | [abs](https://arxiv.org/abs/2610.12999) / [pdf](https://arxiv.org/pdf/2610.12999) |
+| 2026-10-09 | [What Egocentric Video Embeddings Encode and How to Combine Them with Inertial Sensors for Human Activity Recognition](https://arxiv.org/abs/2610.12926) | Kansuke Habano | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2610.12926) / [pdf](https://arxiv.org/pdf/2610.12926) |
+| 2026-10-08 | [Reflex: Visually Grounded Reactive Humanoid Control](https://arxiv.org/abs/2610.12772) | Taoyang Jia, Weikai Huang, Linxin Song, et al. | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2610.12772) / [pdf](https://arxiv.org/pdf/2610.12772) |
+| 2026-10-08 | [Reference-Free Food Volume Estimation from Egocentric Stereo Video](https://arxiv.org/abs/2610.12735) | Vivan Kumar, Gautham Vinod, Fengqing Zhu | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2610.12735) / [pdf](https://arxiv.org/pdf/2610.12735) |
+| 2026-10-08 | [CASTER: Formalizing Zero-Shot Manipulation from Synthetic Videos as Constrained Optimization](https://arxiv.org/abs/2610.12567) | Yinlong Dai, Homanga Bharadhwaj, Dylan P. Losey | cs.RO, cs.CV | Human Demonstration | [abs](https://arxiv.org/abs/2610.12567) / [pdf](https://arxiv.org/pdf/2610.12567) |
+| 2026-10-08 | [PanTact: Teaching Whole-Body Dexterity with a Wearable Contact Interface](https://arxiv.org/abs/2610.12558) | Xiaomeng Xu, Han Zhang, Zhian Ruan, et al. | cs.RO | Egocentric, Human Demonstration, Affordance / Contact | [abs](https://arxiv.org/abs/2610.12558) / [pdf](https://arxiv.org/pdf/2610.12558) |
 | 2026-10-08 | [Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration](https://arxiv.org/abs/2610.12470) | Jusuk Lee, Sungha Kim, Yeonsoo Park, et al. | cs.RO, cs.CV | Human Video, Human Demonstration | [abs](https://arxiv.org/abs/2610.12470) / [pdf](https://arxiv.org/pdf/2610.12470) |
 | 2026-10-08 | [LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation](https://arxiv.org/abs/2610.12442) | Suhwan Cho, Yonwoo Choi, Soongjin Kim, et al. | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2610.12442) / [pdf](https://arxiv.org/pdf/2610.12442) |
 | 2026-10-08 | [Generative Neural Retargeting for Human-to-Robot Dexterous Manipulation](https://arxiv.org/abs/2610.12440) | Dechen Gao, Yue Yang, Ben Abbatematteo, et al. | cs.RO | Human Demonstration, Human-to-Robot | [abs](https://arxiv.org/abs/2610.12440) / [pdf](https://arxiv.org/pdf/2610.12440) |

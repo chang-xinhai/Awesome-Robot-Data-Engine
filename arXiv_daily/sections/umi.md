@@ -4,12 +4,13 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-10-12 · **Papers:** 89 · **Unique arXiv IDs:** 89
+**Coverage:** 2025-01-01 to 2026-10-12 · **Papers:** 90 · **Unique arXiv IDs:** 90
 
 ## 2026-10
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-10-08 | [PanTact: Teaching Whole-Body Dexterity with a Wearable Contact Interface](https://arxiv.org/abs/2610.12558) | Xiaomeng Xu, Han Zhang, Zhian Ruan, et al. | cs.RO | Universal Manipulation Interface, Robot-Free Demonstration | [abs](https://arxiv.org/abs/2610.12558) / [pdf](https://arxiv.org/pdf/2610.12558) |
 | 2026-10-07 | [Towards Accurate End-Effector Localization for UMI-Style Robotic Manipulation Teaching](https://arxiv.org/abs/2610.09857) | Junjie Zhang, Deteng Zhang, Zhisong Xu, et al. | cs.RO | Universal Manipulation Interface | [abs](https://arxiv.org/abs/2610.09857) / [pdf](https://arxiv.org/pdf/2610.09857) |
 | 2026-10-07 | [RoboPace: Contact-Aware Time-Optimal Retiming for Action-Chunk Policies](https://arxiv.org/abs/2610.09696) | Mimo Shirasaka, Takehiko Ohkawa, Takuya Okubo, et al. | cs.RO | Universal Manipulation Interface | [abs](https://arxiv.org/abs/2610.09696) / [pdf](https://arxiv.org/pdf/2610.09696) |
 | 2026-10-03 | [Grounded in Time: A Multi-Source Dataset and Benchmark for Temporal Grounding in Robotic Manipulation](https://arxiv.org/abs/2610.04255) | Yi Wang, Yang Yang, Guangqi Xu, et al. | cs.RO, cs.CV | Universal Manipulation Interface | [abs](https://arxiv.org/abs/2610.04255) / [pdf](https://arxiv.org/pdf/2610.04255) |
