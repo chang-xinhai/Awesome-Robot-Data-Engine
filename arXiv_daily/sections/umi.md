@@ -4,12 +4,14 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-10-14 · **Papers:** 90 · **Unique arXiv IDs:** 90
+**Coverage:** 2025-01-01 to 2026-10-14 · **Papers:** 92 · **Unique arXiv IDs:** 92
 
 ## 2026-10
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-10-13 | [YUBI-Real2Sim: 3DGS Scene Verification for Reliable Policy Evaluation](https://arxiv.org/abs/2610.17521) | Hiroki Nishizawa, Takehiko Ohkawa, Nicola Scianca, et al. | cs.RO, cs.AI | Handheld Gripper | [abs](https://arxiv.org/abs/2610.17521) / [pdf](https://arxiv.org/pdf/2610.17521) |
+| 2026-10-08 | [Assessing the Marginal Utility of Exocentric Head Views in UMI-Style Large-FoV Wrist-Camera Manipulation](https://arxiv.org/abs/2610.14075) | Yuhui Duan, Shi Jin, Yuntian Wang, et al. | cs.RO | Universal Manipulation Interface | [abs](https://arxiv.org/abs/2610.14075) / [pdf](https://arxiv.org/pdf/2610.14075) |
 | 2026-10-08 | [PanTact: Teaching Whole-Body Dexterity with a Wearable Contact Interface](https://arxiv.org/abs/2610.12558) | Xiaomeng Xu, Han Zhang, Zhian Ruan, et al. | cs.RO | Universal Manipulation Interface, Robot-Free Demonstration | [abs](https://arxiv.org/abs/2610.12558) / [pdf](https://arxiv.org/pdf/2610.12558) |
 | 2026-10-07 | [Towards Accurate End-Effector Localization for UMI-Style Robotic Manipulation Teaching](https://arxiv.org/abs/2610.09857) | Junjie Zhang, Deteng Zhang, Zhisong Xu, et al. | cs.RO | Universal Manipulation Interface | [abs](https://arxiv.org/abs/2610.09857) / [pdf](https://arxiv.org/pdf/2610.09857) |
 | 2026-10-07 | [RoboPace: Contact-Aware Time-Optimal Retiming for Action-Chunk Policies](https://arxiv.org/abs/2610.09696) | Mimo Shirasaka, Takehiko Ohkawa, Takuya Okubo, et al. | cs.RO | Universal Manipulation Interface | [abs](https://arxiv.org/abs/2610.09696) / [pdf](https://arxiv.org/pdf/2610.09696) |
