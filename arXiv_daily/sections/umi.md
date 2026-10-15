@@ -4,12 +4,14 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-10-15 · **Papers:** 92 · **Unique arXiv IDs:** 92
+**Coverage:** 2025-01-01 to 2026-10-15 · **Papers:** 94 · **Unique arXiv IDs:** 94
 
 ## 2026-10
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-10-14 | [TacClaw-Infinity: A Large-Scale Vision-Tactile-Language-Action Dataset for Dexterous Manipulation](https://arxiv.org/abs/2610.20320) | Fucai Zhu, Xidong Zhang, Yichi Zhang, et al. | cs.RO | Universal Manipulation Interface, Handheld Gripper | [abs](https://arxiv.org/abs/2610.20320) / [pdf](https://arxiv.org/pdf/2610.20320) |
+| 2026-10-14 | [FOMI: A Force-Feedback Manipulation Interface for Teaching Contact-Rich Manipulation](https://arxiv.org/abs/2610.19839) | Yishu Shen, Yiming Luo, Ruilin Wang, et al. | cs.RO | Robot-Free Demonstration | [abs](https://arxiv.org/abs/2610.19839) / [pdf](https://arxiv.org/pdf/2610.19839) |
 | 2026-10-13 | [YUBI-Real2Sim: 3DGS Scene Verification for Reliable Policy Evaluation](https://arxiv.org/abs/2610.17521) | Hiroki Nishizawa, Takehiko Ohkawa, Nicola Scianca, et al. | cs.RO, cs.AI | Handheld Gripper | [abs](https://arxiv.org/abs/2610.17521) / [pdf](https://arxiv.org/pdf/2610.17521) |
 | 2026-10-08 | [Assessing the Marginal Utility of Exocentric Head Views in UMI-Style Large-FoV Wrist-Camera Manipulation](https://arxiv.org/abs/2610.14075) | Yuhui Duan, Shi Jin, Yuntian Wang, et al. | cs.RO | Universal Manipulation Interface | [abs](https://arxiv.org/abs/2610.14075) / [pdf](https://arxiv.org/pdf/2610.14075) |
 | 2026-10-08 | [PanTact: Teaching Whole-Body Dexterity with a Wearable Contact Interface](https://arxiv.org/abs/2610.12558) | Xiaomeng Xu, Han Zhang, Zhian Ruan, et al. | cs.RO | Universal Manipulation Interface, Robot-Free Demonstration | [abs](https://arxiv.org/abs/2610.12558) / [pdf](https://arxiv.org/pdf/2610.12558) |
