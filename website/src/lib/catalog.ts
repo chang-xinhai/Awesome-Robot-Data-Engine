@@ -1,8 +1,9 @@
-import { existsSync, readFileSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { resolve } from "node:path";
 import { createHash } from "node:crypto";
 import media from "../data/media.json";
 import { SITE } from "./site";
+import { compareDates } from "./order";
 export interface Work {
   id: string;
   name: string;
@@ -24,6 +25,8 @@ export interface Work {
   format: string;
   dataAccess: string;
   codeAccess: string;
+  hasDataLink?: boolean;
+  hasCodeLink?: boolean;
   imagePage?: string;
   image?: string;
   imageAlt?: string;
@@ -31,7 +34,23 @@ export interface Work {
   credit?: string;
   reviewed?: string;
   summary?: string;
+  sourceKey: string;
+  resourceType: string;
+  scale?: string;
+  representation?: string;
+  access?: string;
+  license?: string;
+  notes?: string;
+  evidence?: { label: string; url: string }[];
+  modalities?: string[];
 }
+export const SOURCES = [
+  { key: "robot", heading: "Robot-Centric", label: "Robot-centric Data", description: "Collection systems, robot trajectories, and multi-embodiment datasets." },
+  { key: "umi", heading: "UMI", label: "UMI Data", description: "Portable interfaces, recovered actions, and demonstrations in the wild." },
+  { key: "ego", heading: "Human / Egocentric", label: "Egocentric Data", description: "Human experience, hand–object interaction, and robot-ready supervision." },
+  { key: "sim", heading: "Simulation", label: "Simulation Data", description: "Generated demonstrations, environments, assets, and synthetic observations." },
+  { key: "general", heading: "Data Engine Taxonomy", label: "General Data", description: "Curation, representations, formats, scaling, and evaluation across sources." },
+] as const;
 const clean = (s: string) =>
   s
     .replace(/\*\*|`/g, "")
@@ -143,13 +162,13 @@ export function getCatalog(): Work[] {
       [/tactile|touch/i, "Tactile"],
       [/force|torque|wrench/i, "Force"],
       [/audio|acoustic|microphone/i, "Audio"],
-      [/RGB-D|depth|point.cloud|LiDAR/i, "Depth"],
+      [/RGB-D|LiDAR/i, "Depth"],
       [/proprio|encoder|joint/i, "Proprioception"],
     ]
       .filter(([r]) => (r as RegExp).test(kw))
       .map(([, v]) => v as string);
     const dataLinks = other.filter((l) =>
-      /dataset|^data$|^data[, /]|^data \(/i.test(l.label),
+      /dataset|(?:^|[\s/])data(?:[\s/,(]|$)/i.test(l.label),
     );
     const dataAccess = /release pending|forthcoming/i.test(kw + " " + c[4])
       ? "Release pending"
@@ -160,8 +179,8 @@ export function getCatalog(): Work[] {
           : dataLinks.length
             ? "Dataset linked"
             : "Not reported";
-    const codeLinks = other.filter((l) =>
-      /github|code|software/i.test(l.label),
+    const codeLinks = [paper, ...other].filter((l) =>
+      (l !== paper && /github|code|software/i.test(l.label)) || /https?:\/\/(?:github\.com|gitlab\.com|bitbucket\.org)\/[^/]+\/[^/]+/i.test(l.url),
     );
     const codeAccess = codeLinks.some((l) => !/forthcoming|soon/i.test(l.label))
       ? "Repository linked"
@@ -184,6 +203,14 @@ export function getCatalog(): Work[] {
       links: other,
       sections: [location],
       source,
+      sourceKey: SOURCES.find((s) => s.heading === top)!.key,
+      resourceType: kind === "Dataset" ? "Dataset"
+        : kind === "Benchmark" ? "Benchmark"
+        : /Formats \/ Infrastructure/.test(section) ? "Infrastructure"
+        : /Surveys/.test(section) ? (/survey|review|taxonomy/i.test(kw + " " + paper.label) ? "Survey" : "Data engine")
+        : /Collection/.test(section) ? "Collection system"
+        : /Simulation Demonstrations|Simulation Environments|Synthetic Observations/.test(section) ? "Data engine"
+        : "Processing method",
       kind,
       stage,
       form,
@@ -231,11 +258,66 @@ export function getCatalog(): Work[] {
     )
       throw new Error(`Missing visual preview for ${item.id}`);
     mediaIds.add(item.id);
-    Object.assign(work, item);
+    // Media may enrich display attributes, never canonical identity or placement.
+    for (const key of ["name", "image", "imageAlt", "imageSource", "imagePage", "credit", "reviewed", "summary", "form", "tracking", "signals"] as const) {
+      const value = item[key];
+      if (value !== undefined) Object.assign(work, { [key]: value });
+    }
+  }
+  // Presentation evidence enriches canonical README IDs, never creates papers.
+  const evidenceIds = new Set<string>();
+  const dataDir = resolve(process.cwd(), "src/data");
+  for (const file of readdirSync(dataDir).filter((f) => /^research-.*\.json$/.test(f)).sort()) {
+    const items = JSON.parse(readFileSync(resolve(dataDir, file), "utf8")) as (Partial<Work> & { id: string; modalities?: string[] })[];
+    for (const item of items) {
+      const work = map.get(item.id);
+      if (!work || evidenceIds.has(item.id)) throw new Error(`Evidence must reference one existing README ID: ${item.id} (${file})`);
+      evidenceIds.add(item.id);
+      if (!item.evidence?.length || !item.summary) throw new Error(`Evidence and summary required: ${item.id}`);
+      if (item.image && !existsSync(resolve(process.cwd(), "public", item.image))) throw new Error(`Missing evidence image: ${item.id}`);
+      // Never let a presentation manifest alter canonical identity or placement.
+      const { name, summary, resourceType, scale, representation, format, access, license, notes, evidence,
+        image, imageAlt, imageSource, imagePage, credit, reviewed, modalities } = item;
+      Object.assign(work, Object.fromEntries(Object.entries({ name, summary, resourceType, scale, representation, format, access, license, notes,
+        evidence, image, imageAlt, imageSource, imagePage, credit, reviewed }).filter(([,v]) => v !== undefined)));
+      if (modalities?.length) {
+        work.modalities = modalities;
+        const channelRules: [RegExp, string][] = [
+          [/RGB|image|vision|video|camera|stereo/i, "Vision"],
+          [/depth|RGB-D|point cloud|LiDAR/i, "Depth"], [/tactile|touch|pressure/i, "Tactile"],
+          [/force|torque|wrench/i, "Force"], [/IMU|inertial/i, "IMU"], [/audio|acoustic/i, "Audio"],
+          [/EMG/i, "EMG"], [/gaze|eye/i, "Gaze"], [/language|text|instruction/i, "Language"],
+          [/pose|joint|state|proprio|action|trajectory|motion|kinematic/i, "State"], [/contact/i, "Contact"],
+        ];
+        work.signals = [...new Set(modalities.flatMap(v => channelRules.filter(([r]) => r.test(v)).map(([, label]) => label)))];
+      }
+    }
   }
   if (!map.size)
     throw new Error(
       "The canonical README produced no curated works. Check the build working directory and taxonomy.",
     );
-  return [...map.values()].sort((a, b) => b.date.localeCompare(a.date));
+  for (const work of map.values()) {
+    const resourceLinks = [{ label: "Primary resource", url: work.paperUrl }, ...work.links];
+    work.hasCodeLink = work.codeAccess === "Repository linked";
+    const explicitDataLink = resourceLinks.some(l =>
+      /dataset|(?:^|[\s/])data(?:[\s/,(]|$)/i.test(l.label) || /(?:huggingface\.co|modelscope\.cn)\/datasets\//i.test(l.url));
+    const state = work.access ?? work.dataAccess;
+    const pending = /coming soon|pending|announced|planned|download not verified/i.test(state);
+    const reviewedData = !!work.evidence?.length && /public.*(?:download|data|subset|release)|example data|dataset.*(?:download|browser)|download.*dataset|data(?:sets)?.*released|full dataset linked|data and hardware|data,.*hardware|source datasets|official.*dataset links|code, data|license agreement required|dataset agreement|registration.*license|competition data gated|gated download|annotation exports/i.test(state);
+    work.hasDataLink = (explicitDataLink && !pending) || (reviewedData && !/download not verified|coming soon/i.test(state));
+    if (work.hasDataLink && work.dataAccess === "Not reported") work.dataAccess = "Dataset linked";
+    work.signals = [...new Set(work.signals.map(s => s === "Proprioception" ? "State" : s))];
+    // This facet includes verified labels, not just sensor streams. Geometric
+    // priors from generic README keywords never establish a measured channel.
+    if (work.evidence?.length && /joint|pose|MANO|SMPL|MHR|skeleton|kinematic|6.DoF|end.effector|trajectory/i.test(work.representation ?? "")) work.signals = [...new Set([...work.signals.filter(s => s !== "Not reported"), "State"])];
+    if (!work.signals.length) work.signals = ["Not reported"];
+    if (work.resourceType === "Dataset" || work.resourceType === "Infrastructure") work.stage = "Share";
+    else if (work.resourceType === "Survey") work.stage = "Map";
+    else if (work.resourceType === "Benchmark") work.stage = "Evaluate";
+    else if (work.sections.some(s => /Data-to-Policy|Pretraining|Co-training/i.test(s))) work.stage = "Mix";
+    else if (work.sections.some(s => /Modalities \/ Representations/i.test(s))) work.stage = "Align";
+    else if (work.resourceType === "Data engine" && work.sections.some(s => /Surveys \/ Systems/.test(s))) work.stage = "End-to-end";
+  }
+  return [...map.values()].sort((a, b) => compareDates(a, b));
 }

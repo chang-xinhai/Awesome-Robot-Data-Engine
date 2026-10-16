@@ -1,0 +1,808 @@
+[
+  {
+    "id": "2402.10329",
+    "name": "UMI",
+    "summary": "Robot-free collection with a GoPro gripper; recovered wrist motion and aperture become reusable manipulation demonstrations.",
+    "resourceType": "Collection system",
+    "scale": "2,543 public training demos",
+    "modalities": [
+      "RGB",
+      "End-effector pose",
+      "Gripper state"
+    ],
+    "representation": "6-DoF trajectory + aperture",
+    "format": "Zarr, MP4",
+    "access": "Public download",
+    "license": "MIT (dataset index)",
+    "evidence": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2402.10329"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://umi-data.github.io/"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://umi-data.github.io/#data-format"
+      },
+      {
+        "label": "Dataset license · official UMI index",
+        "url": "https://raw.githubusercontent.com/umi-data/umi-data.github.io/refs/heads/main/index.html"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "image": "images/research-umi/2402.10329.webp",
+    "imageAlt": "Original UMI task suite: cup arrangement, dynamic tossing, cloth folding, and dish washing.",
+    "imageSource": "https://arxiv.org/html/2402.10329v3/UMI-Task.png",
+    "imagePage": "https://arxiv.org/html/2402.10329v3#S5.F7",
+    "credit": "Stanford"
+  },
+  {
+    "id": "2409.19499",
+    "name": "FastUMI",
+    "summary": "A portable, hardware-independent capture system with a public dataset entry point and offline action recovery.",
+    "resourceType": "Collection system",
+    "scale": "10K+ reported demos · 22 tasks",
+    "modalities": [
+      "RGB",
+      "End-effector pose"
+    ],
+    "representation": "Tracked end-effector pose",
+    "format": "HDF5, Split tar.gz",
+    "access": "Gated download",
+    "license": "MIT",
+    "evidence": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2409.19499"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://huggingface.co/datasets/IPEC-COMMUNITY/FastUMI-Data"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://umi-data.github.io/"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://arxiv.org/abs/2409.19499"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "notes": "HF card documents a 7D pose action; a gripper channel is not specified in that export.",
+    "image": "images/research-umi/2409.19499.webp",
+    "imageAlt": "FastUMI dataset task examples, demonstration counts, and skill distributions from Figure 8.",
+    "imageSource": "https://arxiv.org/html/2409.19499v2/fig_dataset.png",
+    "imagePage": "https://arxiv.org/html/2409.19499v2#S5.F8",
+    "credit": "Shanghai AI Lab"
+  },
+  {
+    "id": "2510.08022",
+    "name": "FastUMI-100K",
+    "summary": "Large-scale single-arm and bimanual demonstrations with task instructions and a standard LeRobot export.",
+    "resourceType": "Dataset",
+    "scale": "100K+ demos · 54 tasks",
+    "modalities": [
+      "RGB",
+      "Language",
+      "End-effector pose",
+      "Gripper state"
+    ],
+    "representation": "7D per hand: pose + gripper",
+    "format": "LeRobot v2.1, Parquet, MP4",
+    "access": "Public download",
+    "license": "Apache-2.0",
+    "evidence": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2510.08022"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://huggingface.co/datasets/IPEC-COMMUNITY/FastUMI_100k_lerobot"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://umi-data.github.io/"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "image": "images/research-umi/2510.08022.webp",
+    "imageAlt": "FastUMI-100K overview with multi-view data samples, task diversity, and robot embodiments.",
+    "imageSource": "https://arxiv.org/html/2510.08022v1/main.png",
+    "imagePage": "https://arxiv.org/html/2510.08022v1#S1.F1",
+    "credit": "Shanghai AI Laboratory"
+  },
+  {
+    "id": "2505.21864",
+    "name": "DexUMI",
+    "summary": "Wearable hand capture and robot-hand inpainting turn human interactions into dexterous policy demonstrations.",
+    "resourceType": "Processing method",
+    "scale": "1,792 public demos · 5 task–hand settings",
+    "modalities": [
+      "RGB",
+      "Tactile",
+      "Force/torque",
+      "Hand state"
+    ],
+    "representation": "Wrist trajectory + dexterous hand",
+    "format": "Zarr ZIP",
+    "access": "Public download",
+    "license": "MIT (dataset index)",
+    "evidence": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2505.21864"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://umi-data.github.io/"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://dex-umi.github.io/"
+      },
+      {
+        "label": "Dataset license · official UMI index",
+        "url": "https://raw.githubusercontent.com/umi-data/umi-data.github.io/refs/heads/main/index.html"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "image": "images/research-umi/2505.21864.webp",
+    "imageAlt": "DexUMI collection and manipulation examples for Inspire and XHand robot hands.",
+    "imageSource": "https://arxiv.org/html/2505.21864v3/Teaser.png",
+    "imagePage": "https://arxiv.org/html/2505.21864v3#S1.F1",
+    "credit": "Stanford",
+    "notes": "Modalities vary by platform: force/torque is listed for Inspire task releases; tactile is listed for XHand releases."
+  },
+  {
+    "id": "2507.15062",
+    "name": "Touch in the Wild",
+    "summary": "Portable visuo-tactile collection for contact-rich learning across indoor and outdoor environments.",
+    "resourceType": "Collection system",
+    "scale": "2,737 indexed demos · 12 reported environments",
+    "modalities": [
+      "RGB",
+      "Tactile",
+      "End-effector pose",
+      "Gripper state"
+    ],
+    "representation": "6-DoF trajectory + aperture",
+    "format": "Zarr ZIP, MP4",
+    "access": "Public download",
+    "license": "MIT",
+    "evidence": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2507.15062"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://umi-data.github.io/"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://huggingface.co/datasets/binghaohuang-robot/touch_in_the_wild-dataset"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://arxiv.org/abs/2507.15062"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "notes": "43 tasks and 12 environments describe the reported study; indexed download rows are a separate accounting.",
+    "image": "images/research-umi/2507.15062.webp",
+    "imageAlt": "Touch in the Wild pretraining distribution and examples of core, indoor, and outdoor tasks.",
+    "imageSource": "https://arxiv.org/html/2507.15062v2/Pretraining_distribution.png",
+    "imagePage": "https://arxiv.org/html/2507.15062v2#S5.F4",
+    "credit": "Columbia University"
+  },
+  {
+    "id": "2406.19464",
+    "name": "ManiWAV",
+    "summary": "Audio-visual UMI demonstrations capture contact sounds alongside images and robot-aligned trajectories.",
+    "resourceType": "Collection system",
+    "scale": "1,014 public demos · 4 task families",
+    "modalities": [
+      "RGB",
+      "Audio",
+      "End-effector pose",
+      "Gripper state"
+    ],
+    "representation": "6-DoF trajectory + aperture",
+    "format": "Zarr ZIP, MP4",
+    "access": "Public download",
+    "license": "MIT (dataset index)",
+    "evidence": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2406.19464"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://umi-data.github.io/"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://maniwav.github.io/"
+      },
+      {
+        "label": "Dataset license · official UMI index",
+        "url": "https://raw.githubusercontent.com/umi-data/umi-data.github.io/refs/heads/main/index.html"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "notes": "Contact audio is distinct from a tactile image or force measurement.",
+    "image": "images/research-umi/2406.19464.webp",
+    "imageAlt": "ManiWAV collection environments for in-the-wild audio-visual manipulation demonstrations.",
+    "imageSource": "https://arxiv.org/html/2406.19464v2/figures/itw-dataset.png",
+    "imagePage": "https://arxiv.org/html/2406.19464v2",
+    "credit": "Stanford"
+  },
+  {
+    "id": "2602.06643",
+    "name": "HuMI",
+    "summary": "Robot-free whole-body demonstrations pair bimanual manipulation with pelvis and foot trajectories.",
+    "resourceType": "Collection system",
+    "scale": "827 public demos · 5 tasks",
+    "modalities": [
+      "RGB",
+      "End-effector pose",
+      "Body pose",
+      "Gripper state"
+    ],
+    "representation": "Hands + pelvis + feet",
+    "format": "Zarr, LeRobot v3.0, Raw data",
+    "access": "Public download",
+    "license": "CC BY 4.0",
+    "evidence": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2602.06643"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://umi-data.github.io/"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://huggingface.co/api/collections/Richard-Nai/humi"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://huggingface.co/datasets/Richard-Nai/HuMI-Toss/resolve/main/meta/info.json"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "image": "images/research-umi/2602.06643.webp",
+    "imageAlt": "HuMI training environments for whole-body manipulation data collection.",
+    "imageSource": "https://arxiv.org/html/2602.06643v2/figures/training_env.jpg",
+    "imagePage": "https://arxiv.org/html/2602.06643v2",
+    "credit": "Tsinghua"
+  },
+  {
+    "id": "2604.14089",
+    "name": "UMI-3D",
+    "summary": "LiDAR-inertial tracking adds metric trajectories and spatial observations to portable UMI data collection.",
+    "resourceType": "Collection system",
+    "scale": "4,609 public demos · 3 tasks",
+    "modalities": [
+      "RGB",
+      "Point cloud",
+      "End-effector pose",
+      "Gripper state"
+    ],
+    "representation": "Metric 6-DoF trajectory + aperture",
+    "format": "Zarr, ROS bag",
+    "access": "Public download",
+    "license": "MIT (dataset index)",
+    "evidence": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2604.14089"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://umi-data.github.io/"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://github.com/Physical-Intelligence-Laboratory/UMI-3D-Dataset"
+      },
+      {
+        "label": "Dataset license · official UMI index",
+        "url": "https://raw.githubusercontent.com/umi-data/umi-data.github.io/refs/heads/main/index.html"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "image": "images/research-umi/2604.14089.webp",
+    "imageAlt": "UMI-3D task sequences illustrating cup arrangement, curtain pulling, and articulated interactions.",
+    "imageSource": "https://arxiv.org/html/2604.14089v1/image/UMI-Task.jpg",
+    "imagePage": "https://arxiv.org/html/2604.14089v1",
+    "credit": "HKU"
+  },
+  {
+    "id": "2504.06156",
+    "name": "ViTaMIn",
+    "summary": "A robot-free visuo-tactile interface collects demonstrations for insertion, reorientation and other contact-rich tasks.",
+    "resourceType": "Collection system",
+    "scale": "6 reported task families",
+    "modalities": [
+      "RGB",
+      "Tactile",
+      "End-effector pose",
+      "Gripper state"
+    ],
+    "representation": "6-DoF trajectory + aperture",
+    "format": "Zarr ZIP",
+    "access": "Public download",
+    "license": "MIT (dataset index)",
+    "evidence": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2504.06156"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://umi-data.github.io/"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://chuanyune.github.io/ViTaMIn_page/"
+      },
+      {
+        "label": "Dataset license · official UMI index",
+        "url": "https://raw.githubusercontent.com/umi-data/umi-data.github.io/refs/heads/main/index.html"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "image": "images/research-umi/2504.06156.webp",
+    "imageAlt": "ViTaMIn contact-rich task examples including insertion, reorientation, hanging, and knife pulling.",
+    "imageSource": "https://arxiv.org/html/2504.06156v2/new_tasks.png",
+    "imagePage": "https://arxiv.org/html/2504.06156v2",
+    "credit": "Tsinghua"
+  },
+  {
+    "id": "2511.05858",
+    "name": "ViTaMIn-B",
+    "summary": "Bimanual vision and touch demonstrations use reliable tracking for coordinated, contact-rich manipulation.",
+    "resourceType": "Collection system",
+    "scale": "844 public demos · 4 tasks",
+    "modalities": [
+      "RGB",
+      "Tactile",
+      "End-effector pose",
+      "Gripper state"
+    ],
+    "representation": "Bimanual 6-DoF trajectory + aperture",
+    "format": "Zarr ZIP, Raw data ZIP",
+    "access": "Public download",
+    "license": "MIT (dataset index)",
+    "evidence": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2511.05858"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://umi-data.github.io/"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://huggingface.co/api/datasets/chuanyune/ViTaMIn-B_data_and_ckpt"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://chuanyune.github.io/ViTaMIn-B_page/"
+      },
+      {
+        "label": "Dataset license · official UMI index",
+        "url": "https://raw.githubusercontent.com/umi-data/umi-data.github.io/refs/heads/main/index.html"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "image": "images/research-umi/2511.05858.webp",
+    "imageAlt": "ViTaMIn-B task sequences for weight placement, bean scooping, cube storage, and beaker wiping.",
+    "imageSource": "https://arxiv.org/html/2511.05858v2/tasks.png",
+    "imagePage": "https://arxiv.org/html/2511.05858v2",
+    "credit": "Tsinghua"
+  },
+  {
+    "id": "2606.10244",
+    "name": "YUBI",
+    "summary": "Finger-aligned bimanual grippers support parallel data collection with VR tracking and sub-action annotation.",
+    "resourceType": "Collection system",
+    "scale": "8,434 reported hours · 119 tasks",
+    "modalities": [
+      "RGB",
+      "End-effector pose",
+      "Gripper state",
+      "Sub-action labels"
+    ],
+    "representation": "Bimanual pose + aperture",
+    "format": "LeRobot",
+    "access": "Coming soon",
+    "license": "Not reported",
+    "evidence": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2606.10244"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://yubi.airoa.io/"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "notes": "The 1.20M-episode corpus is reported; the project still marks the dataset Coming Soon. A competition subset has separate access.",
+    "image": "images/research-umi/2606.10244.webp",
+    "imageAlt": "YUBI data collection overview with 22 desks, bimanual observations, and representative tasks.",
+    "imageSource": "https://yubi.airoa.io/figs/overview.png",
+    "imagePage": "https://yubi.airoa.io/",
+    "credit": "AIRoA"
+  },
+  {
+    "id": "2607.25895",
+    "name": "HiFi-UMI-2K",
+    "summary": "A public bimanual subset with synchronized multi-view video, language, validity masks and metric gripper trajectories.",
+    "resourceType": "Dataset",
+    "scale": "2,000 public hours",
+    "modalities": [
+      "RGB",
+      "Language",
+      "End-effector pose",
+      "Gripper state"
+    ],
+    "representation": "20D bimanual pose + gripper",
+    "format": "LeRobot v3-style, Parquet, MP4",
+    "access": "Public download",
+    "license": "CC BY 4.0",
+    "evidence": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2607.25895"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://huggingface.co/datasets/simple-world-lab/HiFi-UMI-2K"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://umi-data.github.io/"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://huggingface.co/datasets/simple-world-lab/HiFi-UMI-2K/resolve/main/chunk-0000/part-0000/meta/info.json"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "notes": "20K+ hours and 4.32M+ episodes describe the larger source corpus, not the released 2K-hour subset.",
+    "image": "images/research-umi/2607.25895.webp",
+    "imageAlt": "Mosaic of diverse environments and manipulation demonstrations in the HiFi-UMI collection.",
+    "imageSource": "https://cloud.simpleai.tech/simple_world_lab/media/posters/data-canvas.jpg",
+    "imagePage": "https://cloud.simpleai.tech/simple-world-lab/hifi-umi/",
+    "credit": "Simple AI"
+  },
+  {
+    "id": "2610.20320",
+    "name": "TacClaw-Infinity",
+    "summary": "A vision-tactile-language-action collection spanning handheld and dexterous devices, with a released data subset.",
+    "resourceType": "Dataset",
+    "scale": "1,000 public hours · 10K+ reported hours",
+    "modalities": [
+      "RGB",
+      "Tactile",
+      "Language",
+      "End-effector pose",
+      "Gripper state"
+    ],
+    "representation": "Device-dependent pose + hand/gripper state",
+    "format": "LeRobot v3.0, Parquet, MP4, MP3",
+    "access": "Public subset",
+    "license": "CC BY-NC-SA 4.0",
+    "evidence": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2610.20320"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://daimon-robotics.github.io/tacclaw-infinity-page/"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://huggingface.co/datasets/daimonrobotics/Daimon-Infinity"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "notes": "The first release is stated as 1,000 hours. The reported full corpus is 10K+ hours and 1M+ episodes; shared schema blocks are not valid on every device.",
+    "image": "images/research-umi/2610.20320.webp",
+    "imageAlt": "TacClaw-Infinity source-corpus overview showing distributed collection, task hierarchy, objects, and tactile diversity.",
+    "imageSource": "https://daimon-robotics.github.io/tacclaw-infinity-page/assets/statistics.webp",
+    "imagePage": "https://daimon-robotics.github.io/tacclaw-infinity-page/",
+    "credit": "Daimon Robotics"
+  },
+  {
+    "id": "2602.03310",
+    "name": "RDT2",
+    "summary": "A large UMI data recipe combines automatic annotation, action tokenization and cross-embodiment policy transfer.",
+    "resourceType": "Data engine",
+    "scale": "10K+ reported hours · example data only",
+    "modalities": [
+      "RGB",
+      "Language",
+      "End-effector pose",
+      "Gripper state"
+    ],
+    "representation": "Relative action chunks + RVQ tokens",
+    "format": "WebDataset (UR5e example)",
+    "access": "Example data only",
+    "license": "Apache-2.0 (UR5e example only)",
+    "evidence": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2602.03310"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://rdt-robotics.github.io/rdt2/"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://github.com/thu-ml/RDT2"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://huggingface.co/datasets/robotics-diffusion-transformer/BimanualUR5eExample"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "notes": "The full 10K+ hour UMI corpus is not confirmed downloadable. Format and license apply only to the released UR5e robot fine-tuning example.",
+    "image": "images/research-umi/2602.03310.webp",
+    "imageAlt": "RDT2 annotated UMI recording examples with fisheye image sequences and action text.",
+    "imageSource": "https://arxiv.org/html/2602.03310v1/annotation.png",
+    "imagePage": "https://arxiv.org/html/2602.03310v1",
+    "credit": "Tsinghua University"
+  },
+  {
+    "id": "2606.04708",
+    "name": "VISTA",
+    "summary": "Physics-validated trajectories and fisheye-aware visual questions adapt UMI data for VLA training.",
+    "resourceType": "Data engine",
+    "scale": "5K public trajectories · 8M VQA samples",
+    "modalities": [
+      "RGB",
+      "Language",
+      "End-effector pose",
+      "Gripper state",
+      "VQA"
+    ],
+    "representation": "16D bimanual pose + gripper",
+    "format": "LeRobot v3.0, Parquet, MP4, JSONL, TAR image shards",
+    "access": "Public download",
+    "license": "Apache-2.0",
+    "evidence": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2606.04708"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://huggingface.co/datasets/TeleEmbodied/UMI-VQA-8M"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://huggingface.co/datasets/TeleEmbodied/VISTA-UMI-5K"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://tele-umi-vista.github.io/"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "notes": "The 5K trajectory release and 8M VQA release are distinct assets; 30 tasks are reported for VISTA-UMI-5K.",
+    "image": "images/research-umi/2606.04708.webp",
+    "imageAlt": "UMI-VQA overview with wrist-view visual questions and spatial reasoning examples.",
+    "imageSource": "https://tele-umi-vista.github.io/assets/images/vqa.jpg",
+    "imagePage": "https://tele-umi-vista.github.io/",
+    "credit": "TeleAI"
+  },
+  {
+    "id": "2606.14409",
+    "name": "Hy-Embodied-0.5-VLA Data",
+    "summary": "An open UMI subset from a larger robot-learning stack includes bimanual states, three camera views and task language.",
+    "resourceType": "Data engine",
+    "scale": "2,163 public hours · 250,304 episodes",
+    "modalities": [
+      "RGB",
+      "Language",
+      "End-effector pose",
+      "Gripper state"
+    ],
+    "representation": "16D EEF state; 2D gripper action",
+    "format": "Lance, LeRobot v3.0 schema",
+    "access": "Public subset",
+    "license": "CC BY4.0",
+    "evidence": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2606.14409"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://huggingface.co/datasets/tencent/Hy-Embodied-0.5-VLA-Data"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "notes": "The public release is about 20% of a 10K+ hour corpus. The card action column contains gripper openness; EEF poses are stored in observation.state.",
+    "image": "images/research-umi/2606.14409.webp",
+    "imageAlt": "Hy-Embodied source-corpus distribution across task families, skill primitives, objects, and sample scenes.",
+    "imageSource": "https://arxiv.org/html/2606.14409v2/umi_data.png",
+    "imagePage": "https://arxiv.org/html/2606.14409v2",
+    "credit": "Tencent Robotics X"
+  },
+  {
+    "id": "2509.14688",
+    "name": "exUMI",
+    "summary": "Robot-free visual and tactile recordings support action-aware pretraining and downstream manipulation.",
+    "resourceType": "Collection system",
+    "scale": "8 public task datasets",
+    "modalities": [
+      "RGB",
+      "Tactile",
+      "End-effector pose",
+      "Gripper state"
+    ],
+    "representation": "Relative 6-DoF trajectory + aperture",
+    "format": "Zarr ZIP, MP4",
+    "access": "Public download",
+    "license": "Not reported",
+    "evidence": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2509.14688"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://huggingface.co/datasets/silicx/exUMI"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://huggingface.co/api/datasets/silicx/exUMI"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://github.com/silicx/exUMI"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "notes": "The paper describes 1M+ pretraining frames across 10 environments and 300+ objects; this is separate from the task-dataset release.",
+    "image": "images/research-umi/2509.14688.webp",
+    "imageAlt": "exUMI real-world tactile-aware task sequences with visual and tactile observations.",
+    "imageSource": "https://arxiv.org/html/2509.14688v1/demo.png",
+    "imagePage": "https://arxiv.org/html/2509.14688v1",
+    "credit": "Shanghai Jiao Tong University"
+  },
+  {
+    "id": "2604.13001",
+    "name": "XRZero-G0-3K",
+    "summary": "A bimanual demonstration release accompanies a study of interface design, data quality and mixture ratios.",
+    "resourceType": "Collection system",
+    "scale": "3,697 public episodes · 20 tasks",
+    "modalities": [
+      "RGB",
+      "End-effector pose",
+      "Gripper state"
+    ],
+    "representation": "14D bimanual pose + gripper",
+    "format": "LeRobot v3.0, Parquet, MP4",
+    "access": "Public download",
+    "license": "Not reported",
+    "evidence": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2604.13001"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://huggingface.co/datasets/x-square-robot/XRZero-G0-3K/tree/main"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://arxiv.org/html/2604.13001"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "notes": "The paper reports a 2,000-hour corpus over 3,000 tasks; the public XRZero-G0-3K export is a smaller subset.",
+    "image": "images/research-umi/2604.13001.webp",
+    "imageAlt": "XRZero-G0-3K — official dataset overview",
+    "imageSource": "https://arxiv.org/html/2604.13001v2/data.png",
+    "imagePage": "https://huggingface.co/datasets/x-square-robot/XRZero-G0-3K",
+    "credit": "X Square Robot"
+  },
+  {
+    "id": "2512.09851",
+    "name": "TacThru-UMI Tasks",
+    "summary": "See-through sensing records visual appearance and tactile deformation for contact-rich UMI manipulation.",
+    "resourceType": "Collection system",
+    "scale": "5 public task datasets",
+    "modalities": [
+      "RGB",
+      "Tactile",
+      "End-effector pose",
+      "Gripper state"
+    ],
+    "representation": "6-DoF trajectory + aperture",
+    "format": "Zarr, ZIP",
+    "access": "Public download",
+    "license": "MIT",
+    "evidence": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2512.09851"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://huggingface.co/datasets/aidenli/tacthru_umi_tasks"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://arxiv.org/html/2512.09851"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://github.com/YuyangLee/TacThru"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "image": "images/research-umi/2512.09851.webp",
+    "imageAlt": "TacThru-UMI Tasks — official dataset overview",
+    "imageSource": "https://arxiv.org/html/2512.09851v2/fig_task_settings_c.png",
+    "imagePage": "https://huggingface.co/datasets/aidenli/tacthru_umi_tasks",
+    "credit": "Peking University"
+  },
+  {
+    "id": "2604.07335",
+    "name": "TAMEn / BiTacMan",
+    "summary": "A tactile-aware collection engine includes a public dual-arm trajectory release with synchronized videos.",
+    "resourceType": "Collection system",
+    "scale": "724 public trajectories · 4 tasks",
+    "modalities": [
+      "RGB",
+      "Robot joint state",
+      "Gripper state"
+    ],
+    "representation": "Dual-arm joints + gripper width",
+    "format": "CSV, MP4",
+    "access": "Public download",
+    "license": "CC BY-NC-SA 4.0",
+    "evidence": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2604.07335"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://huggingface.co/datasets/OpenDriveLab-org/BiTacMan"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://huggingface.co/api/datasets/OpenDriveLab-org/BiTacMan"
+      },
+      {
+        "label": "Official data / documentation",
+        "url": "https://arxiv.org/html/2604.07335"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "notes": "Sampled BiTacMan files provide four videos and joint/gripper CSV data. Tactile streams are not asserted for that export.",
+    "image": "images/research-umi/2604.07335.webp",
+    "imageAlt": "BiTacMan / TAMEn — official dataset overview",
+    "imageSource": "https://arxiv.org/html/2604.07335v1/dualarmtrajectoryvisualization.png",
+    "imagePage": "https://huggingface.co/datasets/OpenDriveLab-org/BiTacMan",
+    "credit": "Fudan University"
+  }
+]

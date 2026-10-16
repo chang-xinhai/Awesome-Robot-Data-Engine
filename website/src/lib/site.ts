@@ -8,9 +8,9 @@ export const SITE: {
 } = {
   kind: "engine",
   name: "Awesome Robot Data Engine",
-  tagline: "From experience to robot-ready data",
+  tagline: "Better data. More capable robots.",
   description:
-    "Discover how robot, UMI, human, and simulated experience becomes useful training data. Find the collection systems, datasets, and methods for your next pipeline.",
+    "A visual collection of datasets, collection systems, and data engines for robot learning, from real-world experience to simulation.",
   github: "https://github.com/chang-xinhai/Awesome-Robot-Data-Engine",
   headings: [
     "Robot-Centric",

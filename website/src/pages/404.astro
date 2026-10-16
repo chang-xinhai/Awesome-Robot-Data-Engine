@@ -1,0 +1,14 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { sitePath } from "../lib/paths";
+---
+<BaseLayout title="Page not found — Robot Data Engine" description="Return to the robot data collection.">
+  <section class="not-found wrap">
+    <p>404</p>
+    <h1>This page has moved.</h1>
+    <a class="button-dark" href={sitePath()}>Return to the library</a>
+  </section>
+</BaseLayout>
+<style>
+  .not-found{min-height:60vh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:24px;text-align:center}.not-found p{font-size:13px;color:var(--muted);letter-spacing:3px}.not-found h1{font-family:"Source Serif 4",Georgia,serif;font-weight:450;font-size:clamp(36px,5vw,56px);letter-spacing:-.03em}.not-found a{margin-top:10px}
+</style>

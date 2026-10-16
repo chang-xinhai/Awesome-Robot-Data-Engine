@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Pantheon UMI",
+    "summary": "A collection operation combining freeform manipulation, scripted tasks, and failure episodes with automated annotation.",
+    "resourceType": "Dataset",
+    "scale": "1M+ recorded tasks reported · 100 h sample announced",
+    "modalities": [
+      "RGB",
+      "End-effector actions",
+      "Language"
+    ],
+    "representation": "UMI demonstrations with task and phase annotations",
+    "access": "100 h sample announced; download not verified",
+    "notes": "Recorded task instances are not benchmark task classes. The full reported corpus is distinct from the announced sample.",
+    "evidence": [
+      {
+        "label": "Official technical report · 2026-10-06",
+        "url": "https://pantheon.inc/research/diverse-umi"
+      }
+    ],
+    "id": "resource-b5ec1104d1",
+    "reviewed": "2026-10-16"
+  },
+  {
+    "name": "Argus",
+    "summary": "An annotation and quality pipeline that reads multi-view episodes in their original formats and exports dense timelines.",
+    "resourceType": "Data engine",
+    "scale": "3,546 audited episodes · 66.5 h · 9 datasets (report)",
+    "modalities": [
+      "RGB",
+      "Robot state",
+      "Language"
+    ],
+    "representation": "Timeline labels, outcomes, goal frames, and quality flags",
+    "format": "LeRobot / MCAP / video → JSON / JSONL",
+    "access": "Public code and episode annotation exports",
+    "notes": "Model-generated audits are evidence to inspect, not ground-truth rankings of datasets.",
+    "evidence": [
+      {
+        "label": "Official technical report · 2026-10-01",
+        "url": "https://pantheon.inc/research/argus"
+      },
+      {
+        "label": "Official implementation",
+        "url": "https://github.com/Pantheon-Industries-Inc/argus"
+      }
+    ],
+    "id": "resource-a4a803ed5e",
+    "reviewed": "2026-10-16"
+  },
+  {
+    "name": "UMI Arena",
+    "summary": "A shared-robot evaluation protocol for transferring handheld demonstrations to real-world manipulation policies.",
+    "resourceType": "Benchmark",
+    "scale": "8 evaluation tasks · ~580 h initial data (workshop)",
+    "modalities": [
+      "RGB",
+      "End-effector pose",
+      "Gripper state"
+    ],
+    "representation": "YUBI demonstrations and shared-robot evaluation",
+    "access": "Agreement-approved teams; competition data gated",
+    "notes": "Five evaluation tasks are published and three are held out. The planned 20,000-hour corpus is a target, not the released portion.",
+    "evidence": [
+      {
+        "label": "Official workshop and dataset status",
+        "url": "https://umi-arena.airoa.io/"
+      },
+      {
+        "label": "Evaluation protocol",
+        "url": "https://umi-arena.airoa.io/evaluation.html"
+      },
+      {
+        "label": "Dated announcement",
+        "url": "https://airoa.org/updates/20260821/649/"
+      }
+    ],
+    "id": "resource-4c5fbdc603",
+    "reviewed": "2026-10-16"
+  },
+  {
+    "id": "2608.29601",
+    "name": "N0-Foundation / OpenNeoData",
+    "summary": "A vision–tactile data system connecting collection hardware, mixed robot and UMI demonstrations, and evaluation.",
+    "resourceType": "Data engine",
+    "scale": "5K+ h · 200K+ episodes (mixed robot + UMI release)",
+    "modalities": [
+      "Wrist RGB",
+      "Tactile",
+      "Tracked end-effector pose / robot joints",
+      "Language"
+    ],
+    "representation": "UMI end-effector actions; platform-specific robot joint actions",
+    "format": "LeRobot v3.0 / Parquet / HEVC MP4",
+    "access": "Gated download",
+    "license": "CC BY-NC-SA 4.0 (data)",
+    "notes": "The 30K-hour N0 report corpus differs from the 5K+ hour mixed OpenNeoData release. UMI-only hours are not established.",
+    "evidence": [
+      {
+        "label": "Technical report",
+        "url": "https://arxiv.org/abs/2608.29601"
+      },
+      {
+        "label": "Official dataset card and release",
+        "url": "https://huggingface.co/datasets/NeoteAIEmbodied/OpenNeoData"
+      }
+    ],
+    "reviewed": "2026-10-16"
+  }
+]

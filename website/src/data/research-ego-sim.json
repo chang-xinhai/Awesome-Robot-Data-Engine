@@ -1,0 +1,900 @@
+[
+  {
+    "id": "2505.11709",
+    "name": "EgoDex",
+    "summary": "Tabletop human manipulation with egocentric video, tracked head and hand motion, and language annotations.",
+    "resourceType": "Dataset",
+    "scale": "829 hours · 194 tasks",
+    "modalities": [
+      "RGB"
+    ],
+    "representation": "ARKit world-frame skeletal SE(3) poses; language",
+    "format": "MP4 + HDF5",
+    "access": "Public download",
+    "license": "Dataset: CC BY-NC-ND",
+    "evidence": [
+      {
+        "label": "Official paper",
+        "url": "https://arxiv.org/abs/2505.11709"
+      },
+      {
+        "label": "Official resource",
+        "url": "https://github.com/apple-aiml-research/ml-egodex"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "image": "images/research-ego-sim/2505.11709.webp",
+    "imageSource": "https://arxiv.org/html/2505.11709v3/grid_v4.png",
+    "imageAlt": "EgoDex — official dataset or data-engine overview",
+    "imagePage": "https://github.com/apple-aiml-research/ml-egodex",
+    "credit": "EgoDex authors"
+  },
+  {
+    "id": "2411.19167",
+    "name": "HOT3D",
+    "summary": "Synchronized egocentric views paired with motion-capture ground truth for hands and rigid objects.",
+    "resourceType": "Dataset",
+    "scale": "833 minutes · 19 subjects · 33 objects",
+    "modalities": [
+      "RGB",
+      "Monochrome",
+      "Eye gaze"
+    ],
+    "representation": "MANO / UmeTrack hands; object SE(3); Aria scene points",
+    "format": "VRS; HOT3D-Clips: WebDataset",
+    "access": "Download under dataset agreement",
+    "license": "HOT3D license agreement",
+    "evidence": [
+      {
+        "label": "Official paper",
+        "url": "https://arxiv.org/abs/2411.19167"
+      },
+      {
+        "label": "Official resource",
+        "url": "https://facebookresearch.github.io/hot3d/"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "image": "images/research-ego-sim/2411.19167.webp",
+    "imageSource": "https://facebookresearch.github.io/hot3d/assets/hot3d_teaser.jpg",
+    "imageAlt": "HOT3D — official dataset or data-engine overview",
+    "imagePage": "https://facebookresearch.github.io/hot3d/",
+    "credit": "HOT3D authors"
+  },
+  {
+    "id": "2110.07058",
+    "name": "Ego4D",
+    "summary": "Everyday first-person video across countries, with narrations and task-specific annotations. Additional sensors cover selected recordings.",
+    "resourceType": "Dataset",
+    "scale": "3,670 hours · 923 participants · 9 countries",
+    "modalities": [
+      "RGB",
+      "Audio",
+      "IMU",
+      "Eye gaze"
+    ],
+    "representation": "Narrations, temporal events and task-specific annotations",
+    "format": "Video + JSON annotations",
+    "access": "License agreement required",
+    "license": "Ego4D dataset agreement",
+    "evidence": [
+      {
+        "label": "Official paper",
+        "url": "https://arxiv.org/abs/2110.07058"
+      },
+      {
+        "label": "Official resource",
+        "url": "https://ego4d-data.org/"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "image": "images/research-ego-sim/2110.07058.webp",
+    "imageSource": "https://ego4d-data.org/assets/images/Ego4D-Collage.jpg",
+    "imageAlt": "Ego4D — official dataset or data-engine overview",
+    "imagePage": "https://ego4d-data.org/",
+    "credit": "Ego4D authors"
+  },
+  {
+    "id": "2311.18259",
+    "name": "Ego-Exo4D",
+    "summary": "Skilled activities recorded from synchronized first- and third-person views, with expert commentary and body and hand annotations.",
+    "resourceType": "Dataset",
+    "scale": "1,286 ego+exo video-hours · 740 participants",
+    "modalities": [
+      "RGB",
+      "Monochrome",
+      "Audio",
+      "IMU",
+      "Eye gaze"
+    ],
+    "representation": "Ego–exo video; 3D body/hand poses; language commentary",
+    "format": "MP4 + VRS + annotation files",
+    "access": "License agreement required",
+    "license": "Ego-Exo4D dataset agreement",
+    "evidence": [
+      {
+        "label": "Official paper",
+        "url": "https://arxiv.org/abs/2311.18259"
+      },
+      {
+        "label": "Official resource",
+        "url": "https://ego-exo4d-data.org/"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "image": "images/catalog/2311.18259.webp",
+    "imageSource": "https://ego-exo4d-data.org/assets/images/ego-exo-view.png",
+    "imageAlt": "Ego-Exo4D — official dataset or data-engine overview",
+    "imagePage": "https://ego-exo4d-data.org/",
+    "credit": "Ego-Exo4D authors"
+  },
+  {
+    "id": "2406.09905",
+    "name": "Nymeria",
+    "summary": "Daily full-body motion aligned with multi-device egocentric recordings and hierarchical language descriptions.",
+    "resourceType": "Dataset",
+    "scale": "300 hours · 264 participants · 50 locations",
+    "modalities": [
+      "RGB",
+      "Monochrome",
+      "IMU",
+      "Eye gaze"
+    ],
+    "representation": "Metric world-frame body trajectories; motion-language labels",
+    "format": "Aria VRS + motion / annotation files",
+    "access": "Dataset explorer download",
+    "notes": "The main toolkit now supports NymeriaPlus; use the legacy branch for original Nymeria recordings.",
+    "evidence": [
+      {
+        "label": "Official paper",
+        "url": "https://arxiv.org/abs/2406.09905"
+      },
+      {
+        "label": "Official resource",
+        "url": "https://github.com/facebookresearch/nymeria_dataset"
+      }
+    ],
+    "reviewed": "2026-10-16"
+  },
+  {
+    "id": "2603.18496",
+    "name": "NymeriaPlus",
+    "summary": "An enriched Nymeria release with optimized full-body motion, scene objects, reconstructions, and additional wrist video and headset audio.",
+    "resourceType": "Dataset",
+    "scale": "1,100 sequences · about 80 TB",
+    "modalities": [
+      "RGB",
+      "Monochrome",
+      "IMU",
+      "Eye gaze",
+      "Audio"
+    ],
+    "representation": "MHR / SMPL motion; 2D / 3D boxes; object reconstructions",
+    "format": "Aria VRS + motion / annotation files",
+    "access": "Dataset explorer download",
+    "evidence": [
+      {
+        "label": "Official paper",
+        "url": "https://arxiv.org/abs/2603.18496"
+      },
+      {
+        "label": "Official resource",
+        "url": "https://github.com/facebookresearch/nymeria_dataset"
+      },
+      {
+        "label": "Dataset explorer",
+        "url": "https://explorer.projectaria.com/nymeria_plus"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "image": "images/research-ego-sim/2603.18496.webp",
+    "imageSource": "https://raw.githubusercontent.com/facebookresearch/nymeria_dataset/main/.github/nymeria_plus_teaser.jpg",
+    "imageAlt": "NymeriaPlus — official dataset or data-engine overview",
+    "imagePage": "https://github.com/facebookresearch/nymeria_dataset",
+    "credit": "NymeriaPlus authors"
+  },
+  {
+    "id": "2203.01577",
+    "name": "HOI4D",
+    "summary": "RGB-D human–object interactions with frame-wise hand pose, category-level object motion, segmentation, and reconstructed geometry.",
+    "resourceType": "Dataset",
+    "scale": "2.4M frames · 4,000 sequences · 800 objects",
+    "modalities": [
+      "RGB",
+      "Depth"
+    ],
+    "representation": "Hand / object poses, meshes, masks and action segments",
+    "format": "RGB / depth videos + annotation files",
+    "access": "Public download",
+    "license": "CC BY-NC 4.0",
+    "evidence": [
+      {
+        "label": "Official paper",
+        "url": "https://arxiv.org/abs/2203.01577"
+      },
+      {
+        "label": "Official resource",
+        "url": "https://hoi4d.github.io/"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "image": "images/research-ego-sim/2203.01577.webp",
+    "imageSource": "https://hoi4d.github.io/teaser.png",
+    "imageAlt": "HOI4D — official dataset or data-engine overview",
+    "imagePage": "https://hoi4d.github.io/",
+    "credit": "HOI4D authors"
+  },
+  {
+    "id": "2204.13662",
+    "name": "ARCTIC",
+    "summary": "Bimanual manipulation of articulated objects, with accurate hand and object meshes and dynamic contact annotations.",
+    "resourceType": "Dataset",
+    "scale": "2.1M video frames",
+    "modalities": [
+      "RGB"
+    ],
+    "representation": "MANO / SMPL-X motion; articulated objects; contact distances",
+    "access": "Registration and license required",
+    "notes": "Depth visualizations on the project page are rendered geometry, not measured depth images.",
+    "evidence": [
+      {
+        "label": "Official paper",
+        "url": "https://arxiv.org/abs/2204.13662"
+      },
+      {
+        "label": "Official resource",
+        "url": "https://arctic.is.tue.mpg.de/"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "image": "images/research-ego-sim/2204.13662.webp",
+    "imageSource": "https://arctic.is.tue.mpg.de/media/upload/teaser_small.jpg",
+    "imageAlt": "ARCTIC — official dataset or data-engine overview",
+    "imagePage": "https://arctic.is.tue.mpg.de/",
+    "credit": "ARCTIC authors"
+  },
+  {
+    "id": "2309.17024",
+    "name": "HoloAssist",
+    "summary": "Collaborative physical tasks captured with synchronized headset sensors, conversation, and fine-grained action and intervention labels.",
+    "resourceType": "Dataset",
+    "scale": "Project: 169 hours · 350 instructor–performer pairs",
+    "modalities": [
+      "RGB",
+      "Depth",
+      "Audio",
+      "IMU",
+      "Eye gaze"
+    ],
+    "representation": "Hand/head tracking; action, mistake and conversation labels",
+    "access": "Public download",
+    "license": "CDLA Permissive 2.0",
+    "evidence": [
+      {
+        "label": "Official paper",
+        "url": "https://arxiv.org/abs/2309.17024"
+      },
+      {
+        "label": "Official resource",
+        "url": "https://holoassist.github.io/"
+      }
+    ],
+    "reviewed": "2026-10-16"
+  },
+  {
+    "id": "2502.04144",
+    "name": "HD-EPIC",
+    "summary": "Unscripted kitchen activity with dense hand, object, audio, gaze, and action annotations grounded in scene digital twins.",
+    "resourceType": "Dataset",
+    "scale": "41 hours · 4.4M frames · 69 recipes",
+    "modalities": [
+      "RGB",
+      "Audio",
+      "Eye gaze"
+    ],
+    "representation": "Action segments, hand masks, object tracks and 3D scene alignment",
+    "access": "Official dataset download",
+    "notes": "Scene geometry is an annotation source; it is not a raw depth-camera stream.",
+    "evidence": [
+      {
+        "label": "Official paper",
+        "url": "https://arxiv.org/abs/2502.04144"
+      },
+      {
+        "label": "Official resource",
+        "url": "https://hd-epic.github.io/"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "image": "images/research-ego-sim/2502.04144.webp",
+    "imageSource": "https://hd-epic.github.io/static/media/hd_epic_poster.png",
+    "imageAlt": "HD-EPIC — official dataset or data-engine overview",
+    "imagePage": "https://hd-epic.github.io/",
+    "credit": "HD-EPIC authors"
+  },
+  {
+    "id": "2409.02224",
+    "name": "EgoPressure",
+    "summary": "Egocentric RGB-D observations paired with measured touchpad pressure and multi-view optimized hand meshes.",
+    "resourceType": "Dataset",
+    "scale": "5 hours · 21 participants · 8 RGB-D views",
+    "modalities": [
+      "RGB",
+      "Depth",
+      "Pressure"
+    ],
+    "representation": "Measured pressure maps; optimized hand meshes",
+    "access": "Dataset pre-release linked",
+    "notes": "Pressure is measured by a touchpad; the model’s predicted hand pressure is a separate derived output.",
+    "evidence": [
+      {
+        "label": "Official paper",
+        "url": "https://arxiv.org/abs/2409.02224"
+      },
+      {
+        "label": "Official resource",
+        "url": "https://yiming-zhao.github.io/EgoPressure/"
+      }
+    ],
+    "reviewed": "2026-10-16"
+  },
+  {
+    "id": "2211.12498",
+    "name": "Touch and Go",
+    "summary": "People probe everyday surfaces with a GelSight sensor while recording egocentric video, creating paired visual and tactile observations.",
+    "resourceType": "Dataset",
+    "modalities": [
+      "RGB",
+      "Tactile"
+    ],
+    "representation": "RGB / GelSight video pairs; material and touch-onset labels",
+    "format": "MP4 + NumPy timestamps + labels",
+    "access": "Public download",
+    "license": "CC BY 4.0",
+    "evidence": [
+      {
+        "label": "Official paper",
+        "url": "https://arxiv.org/abs/2211.12498"
+      },
+      {
+        "label": "Official resource",
+        "url": "https://touch-and-go.github.io/"
+      }
+    ],
+    "reviewed": "2026-10-16"
+  },
+  {
+    "id": "2604.07607",
+    "name": "EgoVerse",
+    "summary": "A shared human-data platform with standardized manipulation episodes, processing tools, and multi-lab human-to-robot transfer studies.",
+    "resourceType": "Dataset",
+    "scale": "Website: 4,003 hours · paper: 1,362 hours",
+    "modalities": [
+      "RGB"
+    ],
+    "representation": "Camera and hand trajectories; dense language; vendor-dependent sensors",
+    "format": "Zarr; processing paths to LeRobot",
+    "access": "Dataset browser and cloud tooling",
+    "notes": "The live website and paper describe different corpus snapshots; the website reports about 80K episodes.",
+    "evidence": [
+      {
+        "label": "Official paper",
+        "url": "https://arxiv.org/abs/2604.07607"
+      },
+      {
+        "label": "Official resource",
+        "url": "https://egoverse.ai/"
+      },
+      {
+        "label": "Processing and data schema",
+        "url": "https://github.com/GaTech-RL2/EgoVerse"
+      }
+    ],
+    "reviewed": "2026-10-16"
+  },
+  {
+    "id": "2512.24310",
+    "name": "World In Your Hands",
+    "summary": "Human manipulation data with calibrated visual observations, hand trajectories, language, and quality-controlled action annotations.",
+    "resourceType": "Dataset",
+    "scale": "Repository: about 1,000 hours · about 30 TB",
+    "modalities": [
+      "RGB"
+    ],
+    "representation": "Hand / wrist trajectories, skeletons, depth, masks and language",
+    "access": "Full dataset linked on Hugging Face",
+    "license": "CC BY-NC-SA 4.0",
+    "notes": "Depth is listed as an annotation; a raw depth-sensor stream is not assumed.",
+    "evidence": [
+      {
+        "label": "Official paper",
+        "url": "https://arxiv.org/abs/2512.24310"
+      },
+      {
+        "label": "Official resource",
+        "url": "https://github.com/tars-robotics/World-In-Your-Hands"
+      },
+      {
+        "label": "Dataset release",
+        "url": "https://huggingface.co/datasets/tars-robotics/WIYH"
+      }
+    ],
+    "reviewed": "2026-10-16"
+  },
+  {
+    "id": "2605.05712",
+    "name": "EgoEMG",
+    "summary": "Bilateral muscle signals synchronized with egocentric video, external RGB-D, inertial sensing, and motion-capture hand labels.",
+    "resourceType": "Dataset",
+    "scale": "Repository: 18+ hours · 53 participants",
+    "modalities": [
+      "RGB",
+      "Depth",
+      "EMG",
+      "IMU"
+    ],
+    "representation": "Hand joint angles from mocap; synchronized bilateral sEMG",
+    "format": "Memory-mapped arrays + MP4 + LMDB crops",
+    "access": "Public release and preview via Baidu Netdisk",
+    "notes": "The paper describes 10+ hours and 41 participants; the current repository reports an expanded release.",
+    "evidence": [
+      {
+        "label": "Official paper",
+        "url": "https://arxiv.org/abs/2605.05712"
+      },
+      {
+        "label": "Official resource",
+        "url": "https://github.com/zhenqis123/EgoEMG"
+      },
+      {
+        "label": "Release setup",
+        "url": "https://github.com/zhenqis123/EgoEMG/blob/main/docs/ASSET_SETUP.md"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "image": "images/research-ego-sim/2605.05712.webp",
+    "imageSource": "https://arxiv.org/html/2605.05712v1/fig_sample_data.png",
+    "imageAlt": "EgoEMG — official dataset or data-engine overview",
+    "imagePage": "https://github.com/zhenqis123/EgoEMG",
+    "credit": "EgoEMG authors"
+  },
+  {
+    "id": "2306.06362",
+    "name": "Aria Digital Twin",
+    "summary": "Real egocentric recordings paired with digital-twin renderings and geometric ground truth for cameras, people, objects, and scenes.",
+    "resourceType": "Dataset",
+    "scale": "200 sequences · 2 indoor scenes · 398 objects",
+    "modalities": [
+      "RGB",
+      "Monochrome",
+      "IMU",
+      "Eye gaze"
+    ],
+    "representation": "Camera/object/body poses; segmentation; ground-truth depth; synthetic renderings",
+    "format": "VRS + ground-truth files",
+    "access": "Download under dataset agreement",
+    "notes": "Ground-truth depth is supplied by the digital twin, not by an Aria depth sensor.",
+    "evidence": [
+      {
+        "label": "Official paper",
+        "url": "https://arxiv.org/abs/2306.06362"
+      },
+      {
+        "label": "Official resource",
+        "url": "https://www.projectaria.com/datasets/adt/"
+      }
+    ],
+    "reviewed": "2026-10-16"
+  },
+  {
+    "id": "2403.07788",
+    "name": "DexCap",
+    "summary": "Portable RGB-D and electromagnetic glove capture turns human hand motion into point-cloud observations and retargeted dexterous robot demonstrations.",
+    "resourceType": "Collection system",
+    "scale": "Paper evaluation: 6 dexterous tasks",
+    "modalities": [
+      "RGB",
+      "Depth"
+    ],
+    "representation": "Glove finger positions; SLAM wrist poses; retargeted robot joints",
+    "access": "Code, data and hardware guide linked",
+    "notes": "The released policy uses point clouds; available capture channels are not automatically policy inputs.",
+    "evidence": [
+      {
+        "label": "Official paper",
+        "url": "https://arxiv.org/abs/2403.07788"
+      },
+      {
+        "label": "Official resource",
+        "url": "https://dex-cap.github.io/"
+      }
+    ],
+    "reviewed": "2026-10-16"
+  },
+  {
+    "id": "2406.06843",
+    "name": "HO-Cap",
+    "summary": "Multi-view RGB-D and headset recordings with semi-automatic hand–object shape and pose annotation, avoiding a dedicated motion-capture system.",
+    "resourceType": "Dataset",
+    "scale": "8 RealSense cameras + HoloLens · 9 subjects",
+    "modalities": [
+      "RGB",
+      "Depth"
+    ],
+    "representation": "Hand / object meshes and poses; segmentation labels",
+    "format": "JPEG + depth PNG + NPZ / NumPy + YAML",
+    "access": "Public download and toolkit",
+    "license": "CC BY 4.0",
+    "evidence": [
+      {
+        "label": "Official paper",
+        "url": "https://arxiv.org/abs/2406.06843"
+      },
+      {
+        "label": "Official resource",
+        "url": "https://irvlutd.github.io/HOCap/"
+      }
+    ],
+    "reviewed": "2026-10-16"
+  },
+  {
+    "id": "2104.04631",
+    "name": "DexYCB",
+    "summary": "Multi-camera hand–object capture for hand pose, object pose, and robot handover research.",
+    "resourceType": "Dataset",
+    "modalities": [
+      "RGB",
+      "Depth"
+    ],
+    "representation": "MANO hands; YCB object poses; detection labels",
+    "format": "Compressed per-subject archives + toolkit",
+    "access": "Public download",
+    "license": "CC BY-NC 4.0",
+    "evidence": [
+      {
+        "label": "Official paper",
+        "url": "https://arxiv.org/abs/2104.04631"
+      },
+      {
+        "label": "Official resource",
+        "url": "https://dex-ycb.github.io/"
+      }
+    ],
+    "reviewed": "2026-10-16"
+  },
+  {
+    "id": "2410.24221",
+    "name": "EgoMimic",
+    "summary": "A shared learning and data alignment recipe combines everyday egocentric human demonstrations with robot demonstrations.",
+    "resourceType": "Processing method",
+    "modalities": [
+      "RGB"
+    ],
+    "representation": "Human hand trajectories aligned with robot end-effector motion",
+    "access": "Code, data and hardware links available",
+    "evidence": [
+      {
+        "label": "Official paper",
+        "url": "https://arxiv.org/abs/2410.24221"
+      },
+      {
+        "label": "Official resource",
+        "url": "https://egomimic.github.io/"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "image": "images/catalog/2410.24221.webp",
+    "imageSource": "https://egomimic.github.io/static/images/method.jpg",
+    "imageAlt": "EgoMimic — official dataset or data-engine overview",
+    "imagePage": "https://egomimic.github.io/",
+    "credit": "EgoMimic authors"
+  },
+  {
+    "id": "2310.17596",
+    "name": "MimicGen",
+    "summary": "Object-centric demonstration adaptation expands a small seed set into many successful trajectories across new scene configurations.",
+    "resourceType": "Data engine",
+    "scale": "Released: 48K+ demos · 12 tasks",
+    "modalities": [
+      "RGB",
+      "Proprioception"
+    ],
+    "representation": "Simulated states, robot actions and replayable demonstrations",
+    "format": "HDF5 / robomimic",
+    "access": "Data generation code and datasets released",
+    "license": "Data: CC BY 4.0; code: NVIDIA Source Code License",
+    "notes": "The paper studies 50K+ generated demos across 18 tasks; the public dataset is reported separately.",
+    "evidence": [
+      {
+        "label": "Official paper",
+        "url": "https://arxiv.org/abs/2310.17596"
+      },
+      {
+        "label": "Official resource",
+        "url": "https://github.com/NVlabs/mimicgen"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "image": "images/research-ego-sim/2310.17596.webp",
+    "imageSource": "https://arxiv.org/html/2310.17596v1/pull_fig_v2.png",
+    "imageAlt": "MimicGen — official dataset or data-engine overview",
+    "imagePage": "https://github.com/NVlabs/mimicgen",
+    "credit": "MimicGen authors"
+  },
+  {
+    "id": "2410.24185",
+    "name": "DexMimicGen",
+    "summary": "Coordinated object-centric generation expands seed demonstrations for bimanual dexterous manipulation, including real-to-sim-to-real transfer.",
+    "resourceType": "Data engine",
+    "scale": "Paper: 20K+ generated demos · 9 tasks · 60 seeds",
+    "modalities": [
+      "RGB",
+      "Proprioception"
+    ],
+    "representation": "Bimanual arm/hand actions, simulation states and observations",
+    "format": "HDF5 / robomimic",
+    "access": "Environments and datasets released",
+    "license": "Data: CC BY 4.0; code: NVIDIA Source Code License",
+    "evidence": [
+      {
+        "label": "Official paper",
+        "url": "https://arxiv.org/abs/2410.24185"
+      },
+      {
+        "label": "Official resource",
+        "url": "https://github.com/NVlabs/dexmimicgen"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "image": "images/research-ego-sim/2410.24185.webp",
+    "imageSource": "https://dexmimicgen.github.io/resources/pipeline.jpg",
+    "imageAlt": "DexMimicGen — official dataset or data-engine overview",
+    "imagePage": "https://github.com/NVlabs/dexmimicgen",
+    "credit": "DexMimicGen authors"
+  },
+  {
+    "id": "2406.02523",
+    "name": "RoboCasa",
+    "summary": "Generative kitchen scenes, interactive household assets, and expanded robot demonstrations for learning everyday manipulation.",
+    "resourceType": "Data engine",
+    "scale": "Original release: 120 kitchen scenes",
+    "modalities": [
+      "RGB",
+      "Depth",
+      "Proprioception"
+    ],
+    "representation": "Interactive scene assets and robot trajectories",
+    "format": "MuJoCo / robosuite; HDF5 demonstrations",
+    "access": "Code, assets and datasets released",
+    "license": "Code: MIT; assets/data: CC BY 4.0",
+    "evidence": [
+      {
+        "label": "Official paper",
+        "url": "https://arxiv.org/abs/2406.02523"
+      },
+      {
+        "label": "Official resource",
+        "url": "https://robocasa.ai/"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "notes": "Configurable simulator outputs; availability varies by task and export."
+  },
+  {
+    "id": "2603.04356",
+    "name": "RoboCasa365",
+    "summary": "A larger household simulation release with atomic and composite tasks, diverse kitchens, demonstrations, and automatic per-frame subtask annotations.",
+    "resourceType": "Data engine",
+    "scale": "365 tasks · 2,500 kitchens · 2,200+ demo hours",
+    "modalities": [
+      "RGB",
+      "Depth",
+      "Proprioception"
+    ],
+    "representation": "Robot trajectories; simulation state; subtask and language labels",
+    "format": "MuJoCo / robosuite; HDF5 demonstrations",
+    "access": "Code, assets and datasets released",
+    "license": "Code: MIT; assets/data: CC BY 4.0",
+    "notes": "600+ human-demo hours and 1,600+ synthetic-demo hours; the subtask annotation pipeline was released on 2026-10-14. Configurable simulator outputs; availability varies by task and export.",
+    "evidence": [
+      {
+        "label": "Official paper",
+        "url": "https://arxiv.org/abs/2603.04356"
+      },
+      {
+        "label": "Official resource",
+        "url": "https://github.com/robocasa/robocasa"
+      },
+      {
+        "label": "Subtask annotation pipeline",
+        "url": "https://robocasa.ai/docs/build/html/use_cases/subtask_annotations.html"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "image": "images/catalog/2603.04356.webp",
+    "imageSource": "https://robocasa.ai/assets/videos/scene_collage.mp4",
+    "imageAlt": "RoboCasa365 — official dataset or data-engine overview",
+    "imagePage": "https://github.com/robocasa/robocasa",
+    "credit": "RoboCasa365 authors"
+  },
+  {
+    "id": "2505.12705",
+    "name": "DreamGen",
+    "summary": "Video world models produce robot videos that are labeled with inferred actions to form synthetic training trajectories.",
+    "resourceType": "Data engine",
+    "scale": "Study: 22 new behaviors · 10 new environments",
+    "modalities": [
+      "RGB"
+    ],
+    "representation": "Generated video paired with latent or inverse-dynamics pseudo-actions",
+    "access": "Project and code linked",
+    "notes": "These neural trajectories contain inferred action labels, not simulator-ground-truth robot controls.",
+    "evidence": [
+      {
+        "label": "Official paper",
+        "url": "https://arxiv.org/abs/2505.12705"
+      },
+      {
+        "label": "Official resource",
+        "url": "https://research.nvidia.com/labs/gear/dreamgen/"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "image": "images/research-ego-sim/2505.12705.webp",
+    "imageSource": "https://arxiv.org/html/2505.12705v2/figure2_3.png",
+    "imageAlt": "DreamGen — official dataset or data-engine overview",
+    "imagePage": "https://research.nvidia.com/labs/gear/dreamgen/",
+    "credit": "DreamGen authors"
+  },
+  {
+    "id": "2410.03645",
+    "name": "GenSim2",
+    "summary": "Multimodal language models create articulated tasks, while planning and reinforcement-learning solvers generate demonstrations for 3D policy training.",
+    "resourceType": "Data engine",
+    "scale": "Paper: up to 100 tasks · 200 objects",
+    "modalities": [
+      "Depth",
+      "Proprioception"
+    ],
+    "representation": "Simulated point clouds, proprioception and robot actions",
+    "access": "Task creation and training code released",
+    "evidence": [
+      {
+        "label": "Official paper",
+        "url": "https://arxiv.org/abs/2410.03645"
+      },
+      {
+        "label": "Official resource",
+        "url": "https://gensim2.github.io/"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "image": "images/research-ego-sim/2410.03645.webp",
+    "imageSource": "https://arxiv.org/html/2410.03645v1/teasor.png",
+    "imageAlt": "GenSim2 — official dataset or data-engine overview",
+    "imagePage": "https://gensim2.github.io/",
+    "credit": "GenSim2 authors"
+  },
+  {
+    "id": "2311.01455",
+    "name": "RoboGen",
+    "summary": "A propose–generate–learn cycle creates tasks, scenes, rewards, and training supervision for automated skill acquisition in simulation.",
+    "resourceType": "Data engine",
+    "representation": "Generated scene configurations, task decomposition and rewards",
+    "access": "Code and generated examples released",
+    "evidence": [
+      {
+        "label": "Official paper",
+        "url": "https://arxiv.org/abs/2311.01455"
+      },
+      {
+        "label": "Official resource",
+        "url": "https://generativesimulation.github.io/"
+      }
+    ],
+    "reviewed": "2026-10-16"
+  },
+  {
+    "id": "2310.18308",
+    "name": "Gen2Sim",
+    "summary": "Generative models create simulation assets and task rewards, enabling scalable training environments for articulated manipulation.",
+    "resourceType": "Data engine",
+    "representation": "Generated 3D assets, task specifications and reward programs",
+    "access": "Code and project resources released",
+    "evidence": [
+      {
+        "label": "Official paper",
+        "url": "https://arxiv.org/abs/2310.18308"
+      },
+      {
+        "label": "Official resource",
+        "url": "https://gen2sim.github.io/"
+      }
+    ],
+    "reviewed": "2026-10-16"
+  },
+  {
+    "id": "2511.04831",
+    "name": "Isaac Lab",
+    "summary": "GPU-parallel robot learning and demonstration workflows with physics, configurable sensors, and imitation-learning data generation.",
+    "resourceType": "Infrastructure",
+    "scale": "Repository: 16+ robot models · 30+ environments",
+    "modalities": [
+      "RGB",
+      "Depth",
+      "IMU",
+      "Proprioception"
+    ],
+    "representation": "Simulated sensor streams, state, contacts and robot controls",
+    "format": "USD assets; HDF5 demonstration workflows",
+    "access": "Framework source and documentation released",
+    "license": "BSD-3-Clause; Mimic: Apache-2.0; dependencies differ",
+    "evidence": [
+      {
+        "label": "Official paper",
+        "url": "https://arxiv.org/abs/2511.04831"
+      },
+      {
+        "label": "Official resource",
+        "url": "https://github.com/isaac-sim/IsaacLab"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "image": "images/research-ego-sim/2511.04831.webp",
+    "imageSource": "https://arxiv.org/html/2511.04831v1/assets/hero_g1.png",
+    "imageAlt": "Isaac Lab — official dataset or data-engine overview",
+    "imagePage": "https://github.com/isaac-sim/IsaacLab",
+    "credit": "Isaac Lab authors",
+    "notes": "Configurable simulator outputs; availability varies by task and export."
+  },
+  {
+    "id": "2410.00425",
+    "name": "ManiSkill3",
+    "summary": "GPU-parallel simulation and rendering with heterogeneous scenes, demonstration collection, and reinforcement and imitation learning baselines.",
+    "resourceType": "Data engine",
+    "scale": "Paper: 12 task domains · millions of demo frames",
+    "modalities": [
+      "RGB",
+      "Depth",
+      "Proprioception"
+    ],
+    "representation": "Simulated RGB-D / segmentation, state and robot actions",
+    "format": "HDF5 + JSON trajectory metadata",
+    "access": "Source, environments and demos released",
+    "license": "Permissive framework; assets: CC BY-NC 4.0",
+    "evidence": [
+      {
+        "label": "Official paper",
+        "url": "https://arxiv.org/abs/2410.00425"
+      },
+      {
+        "label": "Official resource",
+        "url": "https://github.com/mani-skill/ManiSkill"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "notes": "Configurable simulator outputs; availability varies by task and export."
+  },
+  {
+    "id": "2210.02697",
+    "name": "DexGraspNet",
+    "summary": "Simulation-validated Shadow Hand grasp configurations synthesized at scale across diverse object geometry.",
+    "resourceType": "Dataset",
+    "scale": "1.32M grasps · 5,355 objects",
+    "representation": "Shadow Hand configurations; object geometry; grasp validation",
+    "access": "Code and dataset released",
+    "license": "CC BY-NC 4.0",
+    "notes": "A static grasp dataset; grasp count is not a count of full manipulation trajectories.",
+    "evidence": [
+      {
+        "label": "Official paper",
+        "url": "https://arxiv.org/abs/2210.02697"
+      },
+      {
+        "label": "Official resource",
+        "url": "https://pku-epic.github.io/DexGraspNet/"
+      }
+    ],
+    "reviewed": "2026-10-16"
+  }
+]

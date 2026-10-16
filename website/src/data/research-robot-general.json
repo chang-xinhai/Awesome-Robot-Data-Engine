@@ -1,0 +1,784 @@
+[
+  {
+    "id": "2403.12945",
+    "name": "DROID",
+    "summary": "Distributed Franka demonstrations across everyday scenes, with language annotations and a reproducible collection platform.",
+    "resourceType": "Dataset",
+    "evidence": [
+      {
+        "label": "Official project",
+        "url": "https://droid-dataset.github.io/"
+      },
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2403.12945"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "scale": "76K demos · 350 h · 564 scenes (project)",
+    "modalities": [
+      "RGB",
+      "Stereo",
+      "Proprioception",
+      "Language"
+    ],
+    "representation": "Robot states and actions; calibrated camera observations",
+    "format": "RLDS / TensorFlow Datasets",
+    "access": "Public data; calibration updates for 36K episodes",
+    "image": "images/catalog/2403.12945.webp",
+    "imageAlt": "DROID collection platform with Franka arm and calibrated stereo camera views",
+    "imageSource": "https://droid-dataset.github.io/figures/droid_setup.png",
+    "imagePage": "https://droid-dataset.github.io/",
+    "credit": "Stanford",
+    "width": 811,
+    "height": 616
+  },
+  {
+    "id": "2308.12952",
+    "name": "BridgeData V2",
+    "summary": "Language-labelled WidowX trajectories spanning kitchens and tabletop workspaces; teleoperated and scripted subsets remain separate.",
+    "resourceType": "Dataset",
+    "evidence": [
+      {
+        "label": "Official project",
+        "url": "https://rail-berkeley.github.io/bridgedata/"
+      },
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2308.12952"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "scale": "60,096 trajectories · 24 environments (release)",
+    "modalities": [
+      "RGB",
+      "Depth",
+      "Proprioception",
+      "Language"
+    ],
+    "representation": "End-effector actions; camera coverage varies by episode",
+    "format": "JPEG trajectories; separate teleop and scripted downloads",
+    "access": "Public download",
+    "license": "CC BY 4.0 (data)",
+    "image": "images/catalog/2308.12952.webp",
+    "imageAlt": "BridgeData V2 overview showing manipulation scenes, skills and varied objects",
+    "imageSource": "https://rail-berkeley.github.io/bridgedata/figures/teaser.png",
+    "imagePage": "https://rail-berkeley.github.io/bridgedata/",
+    "credit": "UC Berkeley",
+    "width": 1280,
+    "height": 710
+  },
+  {
+    "id": "2310.08864",
+    "name": "Open X-Embodiment",
+    "summary": "A standardized collection of contributed real-robot datasets for studying transfer across embodiments.",
+    "resourceType": "Dataset",
+    "evidence": [
+      {
+        "label": "Official project",
+        "url": "https://robotics-transformer-x.github.io/"
+      },
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2310.08864"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "scale": "1M+ trajectories · 22 embodiments (paper)",
+    "modalities": [
+      "RGB",
+      "Proprioception",
+      "Language"
+    ],
+    "representation": "Per-dataset observations, states and actions",
+    "format": "RLDS",
+    "access": "Public source datasets",
+    "license": "Per-source licenses (data)",
+    "image": "images/catalog/2310.08864.webp",
+    "imageAlt": "Open X-Embodiment dataset overview across contributing robots and institutions",
+    "imageSource": "https://robotics-transformer-x.github.io/img/overview.png",
+    "imagePage": "https://robotics-transformer-x.github.io/",
+    "credit": "Google DeepMind",
+    "width": 1280,
+    "height": 403
+  },
+  {
+    "id": "2412.13877",
+    "name": "RoboMIND",
+    "summary": "Multi-embodiment demonstrations with language annotations, failure cases and aligned digital-twin resources.",
+    "resourceType": "Dataset",
+    "evidence": [
+      {
+        "label": "Official project",
+        "url": "https://x-humanoid-robomind.github.io/"
+      },
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2412.13877"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "scale": "107K trajectories · 4 embodiments · 479 tasks (project)",
+    "modalities": [
+      "RGB",
+      "Depth",
+      "Proprioception",
+      "Language"
+    ],
+    "representation": "Robot trajectories; language and task annotations",
+    "access": "Public dataset links",
+    "image": "images/catalog/2412.13877.webp",
+    "imageAlt": "RoboMIND overview showing four robot embodiments and dataset coverage",
+    "imageSource": "https://x-humanoid-robomind.github.io/static/images/roboMIND_new.png",
+    "imagePage": "https://x-humanoid-robomind.github.io/",
+    "credit": "Beijing Innovation Center of Humanoid Robotics",
+    "width": 1280,
+    "height": 613
+  },
+  {
+    "id": "2512.24653",
+    "name": "RoboMIND 2.0",
+    "summary": "Bimanual and mobile robot demonstrations, including tactile-enhanced episodes and aligned simulated trajectories.",
+    "resourceType": "Dataset",
+    "evidence": [
+      {
+        "label": "Official project",
+        "url": "https://log2r.github.io/RoboMIND2.0/"
+      },
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2512.24653"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "scale": "310K real + 20K sim trajectories (project)",
+    "modalities": [
+      "RGB",
+      "Depth",
+      "Tactile",
+      "Proprioception",
+      "Language"
+    ],
+    "representation": "6 embodiments; tactile and mobile subsets",
+    "access": "Public release linked on ModelScope"
+  },
+  {
+    "id": "2511.17441",
+    "name": "RoboCOIN",
+    "summary": "Bimanual demonstrations packaged with a shared toolkit for discovery, loading, annotation and robot replay.",
+    "resourceType": "Dataset",
+    "evidence": [
+      {
+        "label": "Official repository",
+        "url": "https://github.com/FlagOpen/RoboCOIN"
+      },
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2511.17441"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "scale": "180K trajectories · 15 platforms (paper)",
+    "modalities": [
+      "RGB",
+      "Proprioception",
+      "Language"
+    ],
+    "representation": "State/action trajectories; subtask, scene and motion labels",
+    "format": "LeRobot-compatible",
+    "access": "Public data manager; Hugging Face / ModelScope"
+  },
+  {
+    "id": "2503.06669",
+    "name": "AgiBot World",
+    "summary": "A large bimanual manipulation corpus released with task catalogs and a full robot-learning stack.",
+    "resourceType": "Dataset",
+    "evidence": [
+      {
+        "label": "Official repository",
+        "url": "https://github.com/OpenDriveLab/AgiBot-World"
+      },
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2503.06669"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "scale": "1,003,672 Beta trajectories (release)",
+    "modalities": [
+      "RGB",
+      "Proprioception",
+      "Language"
+    ],
+    "representation": "Robot trajectories; task and subtask annotations",
+    "access": "Public Alpha and Beta releases",
+    "license": "CC BY-NC-SA 4.0 (data)"
+  },
+  {
+    "id": "2509.00576",
+    "name": "Galaxea Open-World",
+    "summary": "Mobile dual-arm demonstrations from residential, kitchen, retail and office environments.",
+    "resourceType": "Dataset",
+    "evidence": [
+      {
+        "label": "Official repository",
+        "url": "https://github.com/OpenGalaxea/GalaxeaVLA"
+      },
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2509.00576"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "scale": "500+ hours (project)",
+    "modalities": [
+      "RGB",
+      "Proprioception",
+      "Language"
+    ],
+    "representation": "Uniform robot embodiment; fine-grained subtask language",
+    "format": "RLDS / LeRobot",
+    "access": "Hugging Face / ModelScope; access terms apply"
+  },
+  {
+    "id": "2606.27375",
+    "name": "ABC-130K",
+    "summary": "Bimanual demonstrations released alongside simulation data, evaluation logs, hardware and a distributed data loader.",
+    "resourceType": "Dataset",
+    "evidence": [
+      {
+        "label": "Official project",
+        "url": "https://abc.bot/"
+      },
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2606.27375"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "scale": "134,806 episodes · 3,553 h · 195 tasks (release)",
+    "modalities": [
+      "RGB",
+      "Proprioception",
+      "Language"
+    ],
+    "representation": "Multi-view episodes; state/action streams",
+    "format": "Stacked-camera MP4 + binary state/action data",
+    "access": "Public ABC-130K release and abcdl loader",
+    "image": "images/research-robot-general/2606.27375.webp",
+    "imageSource": "https://abc.bot/assets/overview/dataset_grid_4to3.jpg",
+    "imagePage": "https://abc.bot/",
+    "credit": "ABC-130K authors",
+    "width": 1168,
+    "height": 876,
+    "imageAlt": "ABC-130K — official dataset overview, collection platform or data workflow"
+  },
+  {
+    "id": "2603.19201",
+    "name": "OmniViTac",
+    "summary": "Contact-rich vision–touch trajectories spanning assembly, cutting, adjustment, peeling, grasping and wiping.",
+    "resourceType": "Dataset",
+    "evidence": [
+      {
+        "label": "Official project",
+        "url": "https://mrsecant.github.io/OmniVTA/"
+      },
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2603.19201"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "scale": "21,879 trajectories (paper)",
+    "modalities": [
+      "RGB",
+      "Tactile",
+      "Proprioception"
+    ],
+    "representation": "Synchronized visuo-tactile observations and robot actions",
+    "access": "Public OmniViTac dataset linked on Hugging Face"
+  },
+  {
+    "id": "2607.05390",
+    "name": "Deform360",
+    "summary": "Synchronized surround-view video and bimanual touch with dense 3D annotations for deformable-object dynamics.",
+    "resourceType": "Dataset",
+    "evidence": [
+      {
+        "label": "Official project",
+        "url": "https://deform360.lhy.xyz/"
+      },
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2607.05390"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "scale": "1,980 interactions · 215.7 cumulative multi-view h (project)",
+    "modalities": [
+      "RGB",
+      "Tactile"
+    ],
+    "representation": "41 camera views; dense reconstructed 3D particles",
+    "access": "Project reports public data and full pipeline",
+    "license": "MIT (data + pipeline; project statement)",
+    "image": "images/research-robot-general/2607.05390.webp",
+    "imageSource": "https://deform360.lhy.xyz/assets/deform360_all_objects.png",
+    "imagePage": "https://deform360.lhy.xyz/",
+    "credit": "Deform360 authors",
+    "width": 826,
+    "height": 620,
+    "imageAlt": "Deform360 — official dataset overview, collection platform or data workflow"
+  },
+  {
+    "id": "2606.04825",
+    "name": "HapTile",
+    "summary": "Contact-rich UR5e demonstrations pair visual and tactile recordings with language instructions and haptic teleoperation.",
+    "resourceType": "Dataset",
+    "evidence": [
+      {
+        "label": "Official project",
+        "url": "https://haptile-dataset.github.io/"
+      },
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2606.04825"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "modalities": [
+      "RGB",
+      "Depth",
+      "Tactile",
+      "Proprioception",
+      "Language"
+    ],
+    "representation": "6-DoF delta actions, gripper and tactile marker motion",
+    "format": "HDF5 with embedded compressed video",
+    "access": "Public Hugging Face data and quickstart",
+    "image": "images/research-robot-general/2606.04825.webp",
+    "imageSource": "https://haptile-dataset.github.io/static/images/fig_setup1.jpg",
+    "imagePage": "https://haptile-dataset.github.io/",
+    "credit": "HapTile authors",
+    "width": 1081,
+    "height": 1000,
+    "imageAlt": "HapTile — official dataset overview, collection platform or data workflow"
+  },
+  {
+    "id": "2608.17962",
+    "name": "PRISM",
+    "summary": "Industrial manipulation episodes combine multi-view RGB-D, force/torque, tactile and robot-state recordings.",
+    "resourceType": "Dataset",
+    "evidence": [
+      {
+        "label": "Official project",
+        "url": "https://tengbo-yu.github.io/PRISM/"
+      },
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2608.17962"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "scale": "5K+ robot + 5K+ human demos · 45+ h (project)",
+    "modalities": [
+      "RGB",
+      "Depth",
+      "Tactile",
+      "Force / torque",
+      "Proprioception"
+    ],
+    "representation": "Synchronized contact-rich trajectories; paired human demos",
+    "access": "Official project and dataset links"
+  },
+  {
+    "id": "2610.10283",
+    "name": "Dexterous Grasp Stability",
+    "summary": "Automated grasp trials record temporal vision, hand state and four Digit 360 streams, with stable/unstable outcome labels.",
+    "resourceType": "Dataset",
+    "evidence": [
+      {
+        "label": "Official project",
+        "url": "https://lasr-lab.github.io/dexterous-grasp-stability/"
+      },
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2610.10283"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "scale": "10K grasp trials · 200 objects (project)",
+    "modalities": [
+      "RGB",
+      "Tactile",
+      "Audio",
+      "IMU",
+      "Proprioception"
+    ],
+    "representation": "Pre-lift multimodal sequences; post-lift stability labels",
+    "access": "Official code and OPARA dataset links"
+  },
+  {
+    "id": "2401.02117",
+    "name": "Mobile ALOHA",
+    "summary": "Whole-body leader–follower teleoperation records bimanual manipulation together with mobile-base movement.",
+    "resourceType": "Collection system",
+    "evidence": [
+      {
+        "label": "Official project",
+        "url": "https://mobile-aloha.github.io/"
+      },
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2401.02117"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "modalities": [
+      "RGB",
+      "Proprioception"
+    ],
+    "representation": "Bimanual joint and mobile-base actions",
+    "access": "Public hardware, code and data links",
+    "image": "images/research-robot-general/2401.02117.webp",
+    "imageSource": "https://arxiv.org/html/2401.02117v1/hardware.png",
+    "imagePage": "https://mobile-aloha.github.io/",
+    "credit": "Mobile ALOHA authors",
+    "width": 1440,
+    "height": 360,
+    "imageAlt": "Mobile ALOHA — official dataset overview, collection platform or data workflow"
+  },
+  {
+    "id": "2410.13126",
+    "name": "ALOHA Unleashed",
+    "summary": "A bimanual teleoperation and policy-training recipe for long-horizon dexterous tasks such as shirt hanging and shoelace tying.",
+    "resourceType": "Collection system",
+    "evidence": [
+      {
+        "label": "Official project",
+        "url": "https://aloha-unleashed.github.io/"
+      },
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2410.13126"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "modalities": [
+      "RGB",
+      "Proprioception"
+    ],
+    "representation": "Multi-camera observations and bimanual action trajectories",
+    "access": "Official paper and demonstrations"
+  },
+  {
+    "id": "2309.13037",
+    "name": "GELLO",
+    "summary": "A 3D-printed joint-space leader arm provides a reusable teleoperation interface across robot manipulators.",
+    "resourceType": "Collection system",
+    "evidence": [
+      {
+        "label": "Official project",
+        "url": "https://wuphilipp.github.io/gello_site/"
+      },
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2309.13037"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "modalities": [
+      "Proprioception"
+    ],
+    "representation": "Leader joint positions mapped to follower arms",
+    "access": "Public hardware and implementation linked by authors"
+  },
+  {
+    "id": "2602.22818",
+    "name": "LeRobot",
+    "summary": "An end-to-end robot-learning library with recording, dataset visualization, policy training and deployment tools.",
+    "resourceType": "Infrastructure",
+    "evidence": [
+      {
+        "label": "Official project",
+        "url": "https://huggingface.co/docs/lerobot/main/en/lerobot-dataset-v3"
+      },
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2602.22818"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "representation": "Episode metadata and synchronized state/action/video streams",
+    "format": "v3: sharded Parquet + MP4 + JSON metadata",
+    "access": "Open-source library; Hub-native streaming",
+    "image": "images/research-robot-general/2602.22818.webp",
+    "imageSource": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/lerobotdataset-v3/asset1datasetv3.png",
+    "imagePage": "https://huggingface.co/docs/lerobot/main/en/lerobot-dataset-v3",
+    "credit": "LeRobot authors",
+    "width": 666,
+    "height": 1000,
+    "imageAlt": "LeRobotDataset file organization compared between v2 and v3"
+  },
+  {
+    "id": "2111.02767",
+    "name": "RLDS",
+    "summary": "An episode-and-step schema with tools for recording, loading and transforming sequential decision-making data.",
+    "resourceType": "Infrastructure",
+    "evidence": [
+      {
+        "label": "Official repository",
+        "url": "https://github.com/google-research/rlds"
+      },
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2111.02767"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "representation": "Episodes containing steps, observations, actions and boundary flags",
+    "format": "TensorFlow Datasets / tf.data",
+    "access": "Public repository; archived 2025-11-29",
+    "license": "Apache-2.0 (code)",
+    "image": "images/research-robot-general/2111.02767.webp",
+    "imageSource": "https://raw.githubusercontent.com/google-research/rlds/main/docs/images/rlds.png",
+    "imagePage": "https://github.com/google-research/rlds",
+    "credit": "RLDS authors",
+    "width": 726,
+    "height": 353,
+    "imageAlt": "RLDS episode-and-step schema with observations, actions and metadata"
+  },
+  {
+    "id": "2505.15558",
+    "name": "Robo-DM",
+    "summary": "A multimodal trajectory format and data manager for collection, compression, conversion and distributed loading.",
+    "resourceType": "Infrastructure",
+    "evidence": [
+      {
+        "label": "Official repository",
+        "url": "https://github.com/BerkeleyAutomation/robodm"
+      },
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2505.15558"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "representation": "Timestamped vision, language, state and action streams",
+    "format": "Robo-DM; adapters for RLDS / HDF5 / Hugging Face",
+    "access": "Public source and integration examples",
+    "image": "images/research-robot-general/2505.15558.webp",
+    "imageSource": "https://arxiv.org/html/2505.15558v1/figures/Overview.png",
+    "imagePage": "https://github.com/BerkeleyAutomation/robodm",
+    "credit": "Robo-DM authors",
+    "width": 1256,
+    "height": 1000,
+    "imageAlt": "Robo-DM collection, trajectory format, replay and training workflow"
+  },
+  {
+    "id": "2506.19121",
+    "name": "CUPID",
+    "summary": "Ranks demonstrations by their estimated influence on closed-loop policy return, using evaluation rollouts.",
+    "resourceType": "Processing method",
+    "evidence": [
+      {
+        "label": "Official project",
+        "url": "https://cupid-curation.github.io/"
+      },
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2506.19121"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "representation": "Demonstration influence scores and selected training subsets",
+    "access": "Public code; simulation and real-robot experiments",
+    "image": "images/research-robot-general/2506.19121.webp",
+    "imageSource": "https://cupid-curation.github.io/static/images/teaser.jpg",
+    "imagePage": "https://cupid-curation.github.io/",
+    "credit": "CUPID authors",
+    "width": 1440,
+    "height": 304,
+    "imageAlt": "CUPID workflow from demonstrations and policy rollouts to influence-based curation"
+  },
+  {
+    "id": "2505.09603",
+    "name": "DataMIL",
+    "summary": "Uses datamodels to choose task-relevant robot demonstrations according to their predicted effect on policy learning.",
+    "resourceType": "Processing method",
+    "evidence": [
+      {
+        "label": "Official project",
+        "url": "https://robin-lab.cs.utexas.edu/datamodels4imitation/"
+      },
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2505.09603"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "representation": "Task-aware sample influence and data selection",
+    "access": "Public code; simulated and real-robot evaluation",
+    "image": "images/research-robot-general/2505.09603.webp",
+    "imageSource": "https://robin-lab.cs.utexas.edu/datamodels4imitation/static/images/fig1_overall.png",
+    "imagePage": "https://robin-lab.cs.utexas.edu/datamodels4imitation/",
+    "credit": "DataMIL authors",
+    "width": 1440,
+    "height": 666,
+    "imageAlt": "DataMIL task-aware data selection and datamodel influence estimators"
+  },
+  {
+    "id": "2505.22626",
+    "name": "SCIZOR",
+    "summary": "Filters suboptimal and redundant state–action pairs using self-supervised progress prediction and deduplication.",
+    "resourceType": "Processing method",
+    "evidence": [
+      {
+        "label": "Official project",
+        "url": "https://ut-austin-rpl.github.io/SCIZOR/"
+      },
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2505.22626"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "representation": "Transition-level curation using visual–action embeddings",
+    "access": "Official project and code links",
+    "image": "images/research-robot-general/2505.22626.webp",
+    "imageSource": "https://ut-austin-rpl.github.io/SCIZOR/images/Figure2_v2.2.png",
+    "imagePage": "https://ut-austin-rpl.github.io/SCIZOR/",
+    "credit": "SCIZOR authors",
+    "width": 1440,
+    "height": 717,
+    "imageAlt": "SCIZOR progress filtering and state-action deduplication modules"
+  },
+  {
+    "id": "2607.02646",
+    "name": "EVA-Client",
+    "summary": "A common real-robot client connects teleoperation, dataset inspection, checkpoint execution and evaluation logging.",
+    "resourceType": "Data engine",
+    "evidence": [
+      {
+        "label": "Official project",
+        "url": "https://colalab.net/projects/eva-client"
+      },
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2607.02646"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "representation": "Collection → replay → deployment → evaluation loop",
+    "format": "LeRobot v2.1/v3.0 / HDF5 / MCAP export",
+    "access": "Public source; versioned capabilities documented",
+    "image": "images/research-robot-general/2607.02646.webp",
+    "imageSource": "https://arxiv.org/html/2607.02646v1/workflow.png",
+    "imagePage": "https://colalab.net/projects/eva-client",
+    "credit": "EVA-Client authors",
+    "width": 1440,
+    "height": 668,
+    "imageAlt": "EVA-Client lifecycle from robot collection through policy deployment and evaluation"
+  },
+  {
+    "id": "2606.22142",
+    "name": "RoboLineage",
+    "summary": "Links rollout reviews, dataset decisions, training runs, evaluations and recollection plans through typed provenance artifacts.",
+    "resourceType": "Data engine",
+    "evidence": [
+      {
+        "label": "Official project",
+        "url": "https://robolineage.github.io/"
+      },
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2606.22142"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "representation": "Typed artifacts and cross-iteration lineage",
+    "access": "Official code and research demonstrations",
+    "image": "images/research-robot-general/2606.22142.webp",
+    "imageSource": "https://robolineage.github.io/assets/figures/frontend_console_preview.png",
+    "imagePage": "https://robolineage.github.io/",
+    "credit": "RoboLineage authors",
+    "width": 1440,
+    "height": 900,
+    "imageAlt": "RoboLineage official frontend console with robot onboarding and lifecycle tools"
+  },
+  {
+    "id": "2108.03298",
+    "name": "robomimic",
+    "summary": "A shared framework and demonstration datasets for comparing offline imitation-learning methods and data quality.",
+    "resourceType": "Infrastructure",
+    "evidence": [
+      {
+        "label": "Official project",
+        "url": "https://robomimic.github.io/"
+      },
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2108.03298"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "representation": "Robot demonstrations with configurable observations and learning baselines",
+    "format": "HDF5 demonstration datasets",
+    "access": "Public datasets, framework and documentation",
+    "image": "images/research-robot-general/2108.03298.webp",
+    "imageSource": "https://arxiv.org/html/2108.03298v2/figures/final_task_6.jpg",
+    "imagePage": "https://robomimic.github.io/",
+    "credit": "robomimic authors",
+    "width": 1000,
+    "height": 1000,
+    "imageAlt": "robomimic real-robot manipulation task shown in the original paper"
+  },
+  {
+    "id": "resource-7a45be121a",
+    "name": "MCAP",
+    "summary": "A self-contained, indexed log container for timestamped multimodal messages, independent of message serialization.",
+    "resourceType": "Infrastructure",
+    "evidence": [
+      {
+        "label": "Official project",
+        "url": "https://mcap.dev/"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "representation": "Timestamped channels, message schemas and optional indexes",
+    "format": "MCAP; Protobuf / CDR / ROS / JSON payloads",
+    "access": "Open-source readers, writers and specification"
+  },
+  {
+    "id": "resource-faed1e11d9",
+    "name": "Rerun",
+    "summary": "A unified data layer for logging, visualizing, querying and preparing time-aligned multimodal robot recordings.",
+    "resourceType": "Infrastructure",
+    "evidence": [
+      {
+        "label": "Official project",
+        "url": "https://rerun.io/docs/overview/what-is-rerun"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "representation": "Multi-rate recordings; spatial data and timeline-aligned streams",
+    "format": "RRD recordings; MCAP and LeRobot integrations",
+    "access": "Open-source SDK and viewer; hosted Hub is separate"
+  },
+  {
+    "id": "resource-a52fa2afd3",
+    "name": "NVIDIA NCore",
+    "summary": "A canonical multi-sensor recording specification with conversion, sensor-model, inspection and data-access tools.",
+    "resourceType": "Infrastructure",
+    "evidence": [
+      {
+        "label": "Official project",
+        "url": "https://nvidia.github.io/ncore/"
+      }
+    ],
+    "reviewed": "2026-10-16",
+    "representation": "Component-based sensor recordings with calibration and metadata",
+    "format": "NCore v4; third-party dataset converters",
+    "access": "Public APIs, source and documentation"
+  }
+]
