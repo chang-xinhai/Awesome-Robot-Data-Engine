@@ -28,14 +28,20 @@ const sourceGroups = [
   <header class="page-intro shell sources-intro">
     <p class="mono-label">Discovery layer</p>
     <h1>Candidate data stays separate.</h1>
-    <p>The archive supports discovery. Nothing enters the curated index until its contribution, placement, and primary sources are reviewed.</p>
+    <p>
+      The archive supports discovery. Nothing enters the curated index until its
+      contribution, placement, and primary sources are reviewed.
+    </p>
   </header>
 
   <section class="source-ledger shell" aria-labelledby="daily-heading">
     <div class="ledger-summary">
       <div>
         <h2 id="daily-heading">arXiv Daily</h2>
-        <p>A high-recall candidate feed refreshed from four robotics data perspectives.</p>
+        <p>
+          A high-recall candidate feed refreshed from four robotics data
+          perspectives.
+        </p>
       </div>
       <dl>
         <div>
@@ -57,7 +63,11 @@ const sourceGroups = [
               <h3>{group.label}</h3>
               <span>{daily.counts[group.key]} candidates</span>
             </div>
-            <a href={`${githubRoot}/blob/main/arXiv_daily/sections/${group.file}`}>Open archive</a>
+            <a
+              href={`${githubRoot}/blob/main/arXiv_daily/sections/${group.file}`}
+            >
+              Open archive
+            </a>
           </header>
           {daily.recentBySource[group.key].length > 0 ? (
             <ol>
@@ -69,7 +79,9 @@ const sourceGroups = [
               ))}
             </ol>
           ) : (
-            <p class="group-empty">No candidates are available in the local archive.</p>
+            <p class="group-empty">
+              No candidates are available in the local archive.
+            </p>
           )}
         </section>
       ))}
@@ -79,7 +91,10 @@ const sourceGroups = [
   <section class="section shell asset-sources" aria-labelledby="asset-heading">
     <div class="section-heading compact-heading">
       <h2 id="asset-heading">External data assets</h2>
-      <p>Manual discovery notes cover releases that arXiv cannot reliably surface, including dataset hubs and official release pages.</p>
+      <p>
+        Manual discovery notes cover releases that arXiv cannot reliably
+        surface, including dataset hubs and official release pages.
+      </p>
     </div>
 
     {assetFiles.length > 0 ? (
@@ -95,9 +110,17 @@ const sourceGroups = [
       <div class="asset-empty">
         <div>
           <h3>The manual asset index is being assembled.</h3>
-          <p>Use the repository data-source policy to add verified Hugging Face, ModelScope, and official dataset releases.</p>
+          <p>
+            Use the repository data-source policy to add verified Hugging Face,
+            ModelScope, and official dataset releases.
+          </p>
         </div>
-        <a class="button button-secondary" href={`${githubRoot}/tree/main/arXiv_daily`}>Review archive files</a>
+        <a
+          class="button button-secondary"
+          href={`${githubRoot}/tree/main/arXiv_daily`}
+        >
+          Review archive files
+        </a>
       </div>
     )}
   </section>
@@ -105,10 +128,22 @@ const sourceGroups = [
   <section class="section shell promotion-rule">
     <h2>Promotion requires evidence.</h2>
     <div class="promotion-steps">
-      <div><strong>Discover</strong><span>Daily papers and external asset releases</span></div>
-      <div><strong>Verify</strong><span>Primary paper, project, dataset, date, and metadata</span></div>
-      <div><strong>Classify</strong><span>One canonical placement based on the main new asset</span></div>
-      <div><strong>Curate</strong><span>Manual update to README and the public explorer</span></div>
+      <div>
+        <strong>Discover</strong>
+        <span>Daily papers and external asset releases</span>
+      </div>
+      <div>
+        <strong>Verify</strong>
+        <span>Primary paper, project, dataset, date, and metadata</span>
+      </div>
+      <div>
+        <strong>Classify</strong>
+        <span>One canonical placement based on the main new asset</span>
+      </div>
+      <div>
+        <strong>Curate</strong>
+        <span>Manual update to README and the public explorer</span>
+      </div>
     </div>
   </section>
 </BaseLayout>

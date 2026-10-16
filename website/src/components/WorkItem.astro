@@ -16,7 +16,9 @@ const searchText = [
   work.publication,
   work.sourceLabel,
   location,
-].join(" ").toLowerCase();
+]
+  .join(" ")
+  .toLowerCase();
 ---
 
 <article
@@ -32,7 +34,9 @@ const searchText = [
       {showSource && <span>{work.sourceLabel}</span>}
       {location && <span>{location}</span>}
     </div>
-    <h2><a href={work.paperUrl}>{work.title}</a></h2>
+    <h2>
+      <a href={work.paperUrl}>{work.title}</a>
+    </h2>
     <p>{work.keywords}</p>
     <div class="work-meta">
       <span>{work.institute}</span>

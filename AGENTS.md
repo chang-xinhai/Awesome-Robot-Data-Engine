@@ -40,8 +40,13 @@ Non-arXiv release candidates are maintained manually under
 `arXiv_daily/data_assets/`. Neither source may automatically promote entries
 into the root `README.md`.
 
-The `website/` subtree is a presentation layer. Keep its source, dependencies,
-and static assets inside that directory. Curated website content and the root
+The `website/` subtree is a presentation layer. Its media manifest may add
+source-backed visual attributes and image attribution for existing README
+works, but must not duplicate canonical paper metadata or introduce new works.
+Unknown device attributes must remain `Not reported`.
+
+The website renders curated content from the canonical README. Keep its source,
+dependencies, and static assets inside that directory. Curated website content and the root
 `README.md` are updated manually in the same maintenance pass; do not treat the
 website as a second canonical database or publish unreviewed archive candidates
 as curated entries.

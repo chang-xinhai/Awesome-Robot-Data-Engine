@@ -1,12 +1,8 @@
 import { existsSync, readFileSync, readdirSync } from "node:fs";
-import { fileURLToPath } from "node:url";
+import { resolve } from "node:path";
 
 export type SourceKey =
-  | "robot-centric"
-  | "umi"
-  | "human-egocentric"
-  | "simulation"
-  | "taxonomy";
+  "robot-centric" | "umi" | "human-egocentric" | "simulation" | "taxonomy";
 
 export interface CuratedWork {
   id: string;
@@ -48,13 +44,9 @@ export interface DataAssetFile {
   updatedHint: string;
 }
 
-const README_PATH = fileURLToPath(new URL("../../../README.md", import.meta.url));
-const DAILY_PATH = fileURLToPath(
-  new URL("../../../arXiv_daily/data/papers.json", import.meta.url),
-);
-const ASSETS_PATH = fileURLToPath(
-  new URL("../../../arXiv_daily/data_assets", import.meta.url),
-);
+const README_PATH = resolve(process.cwd(), "../README.md");
+const DAILY_PATH = resolve(process.cwd(), "../arXiv_daily/data/papers.json");
+const ASSETS_PATH = resolve(process.cwd(), "../arXiv_daily/data_assets");
 
 const SOURCE_HEADINGS: Record<string, { key: SourceKey; label: string }> = {
   "Robot-Centric": { key: "robot-centric", label: "Robot-Centric" },
@@ -161,7 +153,11 @@ export function getCuratedWorks(): CuratedWork[] {
     if (!source || !line.startsWith("|")) continue;
 
     const cells = splitMarkdownRow(line);
-    if (cells.length !== 6 || cells[0] === "Date" || /^:?-{2,}/.test(cells[0])) {
+    if (
+      cells.length !== 6 ||
+      cells[0] === "Date" ||
+      /^:?-{2,}/.test(cells[0])
+    ) {
       continue;
     }
 
@@ -169,7 +165,9 @@ export function getCuratedWorks(): CuratedWork[] {
     if (!paper || !/^\d{4}(?:-\d{2})?(?:-\d{2})?$/.test(cells[0])) continue;
 
     const date = cells[0];
-    const arxivId = paper.url.match(/arxiv\.org\/(?:abs|pdf)\/(\d{4}\.\d{4,5})/)?.[1];
+    const arxivId = paper.url.match(
+      /arxiv\.org\/(?:abs|pdf)\/(\d{4}\.\d{4,5})/,
+    )?.[1];
     const title = cleanVisibleText(paper.label);
 
     works.push({

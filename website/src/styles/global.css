@@ -54,7 +54,11 @@ body {
   margin: 0;
   color: var(--ink);
   background:
-    radial-gradient(circle at 88% 5%, color-mix(in srgb, var(--accent) 7%, transparent), transparent 25rem),
+    radial-gradient(
+      circle at 88% 5%,
+      color-mix(in srgb, var(--accent) 7%, transparent),
+      transparent 25rem
+    ),
     var(--canvas);
   font-family: var(--font-sans);
   font-size: 16px;
@@ -169,7 +173,10 @@ select {
   line-height: 1;
   text-decoration: none;
   white-space: nowrap;
-  transition: transform 160ms ease, background-color 160ms ease, border-color 160ms ease;
+  transition:
+    transform 160ms ease,
+    background-color 160ms ease,
+    border-color 160ms ease;
 }
 
 .button:hover {
@@ -517,7 +524,10 @@ select {
   border: 1px solid var(--line);
   border-radius: var(--radius);
   text-decoration: none;
-  transition: transform 180ms ease, border-color 180ms ease, background-color 180ms ease;
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease,
+    background-color 180ms ease;
 }
 
 .source-block:hover {
@@ -528,8 +538,11 @@ select {
 
 .source-block-1 {
   grid-row: 1 / span 2;
-  background:
-    linear-gradient(155deg, color-mix(in srgb, var(--accent-soft) 64%, var(--surface)), var(--surface) 62%);
+  background: linear-gradient(
+    155deg,
+    color-mix(in srgb, var(--accent-soft) 64%, var(--surface)),
+    var(--surface) 62%
+  );
 }
 
 .source-block-2 {
@@ -543,7 +556,11 @@ select {
 
 .source-block-4 {
   background:
-    repeating-linear-gradient(135deg, transparent 0 24px, color-mix(in srgb, var(--line) 35%, transparent) 24px 25px),
+    repeating-linear-gradient(
+      135deg,
+      transparent 0 24px,
+      color-mix(in srgb, var(--line) 35%, transparent) 24px 25px
+    ),
     var(--surface-muted);
 }
 
@@ -774,7 +791,10 @@ select {
   top: calc(var(--header-height) + 14px);
   z-index: 10;
   display: grid;
-  grid-template-columns: minmax(250px, 1.5fr) minmax(170px, 0.65fr) minmax(140px, 0.45fr) auto;
+  grid-template-columns: minmax(250px, 1.5fr) minmax(170px, 0.65fr) minmax(
+      140px,
+      0.45fr
+    ) auto;
   gap: 10px;
   padding: 12px;
   background: color-mix(in srgb, var(--surface) 94%, transparent);

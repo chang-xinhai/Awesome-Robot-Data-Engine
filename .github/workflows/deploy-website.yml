@@ -49,6 +49,10 @@ jobs:
         id: pages
         uses: actions/configure-pages@v6
 
+      - name: Check website types
+        working-directory: website
+        run: npm run check
+
       - name: Build Astro website
         working-directory: website
         run: >-

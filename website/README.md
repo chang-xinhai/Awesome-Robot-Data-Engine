@@ -1,61 +1,48 @@
-# Website
+# Visual field guide
 
-This directory contains the Astro website for **Awesome Robot Data Engine**.
-It is intentionally isolated from the repository root. The canonical curated
-list remains `../README.md`, while `../arXiv_daily/` remains a candidate data
-source.
+The Astro website renders the canonical root README. Update paper titles, dates,
+institutions, publications, taxonomy, and resource links in `../README.md`.
+Do not create a second paper database in this directory.
 
-## Local development
+`src/data/media.json` adds reviewed presentation metadata: a short display name,
+summary, official image URL, source page, image credit, and reported device
+attributes for visual browsing. Its IDs must already exist in the README.
+Unknown values remain `Not reported`. These records do not add canonical works.
+Locally optimized previews live in `public/images/catalog/`; original project
+sources and credits remain attached to each image. Third-party images remain
+under their original owners' terms; the repository code license does not
+relicense them.
 
-```bash
-cd website
-npm install
+The site offers a visual atlas, a complete deduplicated research index, combined
+filters, deep-linked details, comparison of up to four works, and shareable views.
+The two related sites use the same component structure, with separate content
+and source-specific navigation.
+
+## Development
+
+Requires Node.js 22.22 or newer.
+
+```sh
+npm ci
 npm run dev
-```
-
-Run the production checks before publishing:
-
-```bash
 npm run check
 npm run build
 ```
 
-The static output is written to `website/dist/`.
+GitHub Pages builds and publishes from `main`. The configured repository base
+path is used for every local link, font, script, and image. `explore/` remains a
+working alternate entry point. No backend or user account is required.
 
-## Content model
+## Media maintenance
 
-- **Curated research:** parsed at build time from `../README.md`.
-- **Daily candidates:** parsed at build time from
-  `../arXiv_daily/data/papers.json`.
-- **External data assets:** links to manually maintained Markdown sources under
-  `../arXiv_daily/data_assets/` when that directory is available.
-- **Website copy and presentation:** maintained manually in `website/src/`.
+Choose a clear official hardware photo or research illustration; avoid author
+portraits, logos, and isolated result tables. Use an appropriately sized WebP
+preview and preserve the full source figure for context through its official
+project link. Verify the image visually before adding it. Record the image
+review date and the source of any manually reviewed device attributes.
 
-Candidate records are never promoted automatically. Update the canonical root
-README after primary-source review, then adjust any website narrative that
-needs a manual editorial change.
+Run the check and build commands after changes, then test desktop and mobile
+search, combined filters, details, comparison, and a reloaded shared URL.
 
-## GitHub Pages
-
-`astro.config.mjs` defines the repository Pages defaults:
-
-```text
-site: https://chang-xinhai.github.io
-base: /Awesome-Robot-Data-Engine
-```
-
-Internal links and images use Astro's `BASE_URL`, so deployment workflows may
-override `--site` and `--base` safely. All website code, assets, and local
-configuration stay inside this directory. The Pages workflow is the only
-required repository-level integration.
-
-## Visual system
-
-- Manrope for display and reading text
-- IBM Plex Mono for dates, counts, and research metadata
-- cool laboratory neutrals with one mineral-green accent
-- system light and dark modes
-- reduced-motion and keyboard-focus support
-
-Original visual assets live in `public/images/`. Keep the PNG sources and use
-the optimized WebP versions in production pages.
+The `sources/` page retains the separate high-recall candidate archive. Candidate
+papers are never promoted automatically into the curated catalog.

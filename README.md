@@ -20,6 +20,8 @@
 
 </div>
 
+<p align="center"><a href="https://chang-xinhai.github.io/Awesome-Robot-Data-Engine/"><strong>Explore the visual atlas →</strong></a> · Images, filters, details, and side-by-side comparison</p>
+
 ## About
 
 **Awesome Robot Data Engine** maps the systems that turn experience into

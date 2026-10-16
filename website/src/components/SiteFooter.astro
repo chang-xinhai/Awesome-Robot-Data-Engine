@@ -1,18 +1,21 @@
 ---
-import { sitePath } from "../lib/paths";
+import { SITE } from "../lib/site";
+const sibling =
+  SITE.kind === "umi" ? "Awesome-Robot-Data-Engine" : "Awesome-UMI";
 ---
 
-<footer class="site-footer">
-  <div class="shell footer-grid">
-    <div>
-      <a class="footer-title" href={sitePath()}>Awesome Robot Data Engine</a>
-      <p>A curated map of the systems that make modern robot learning data possible.</p>
-    </div>
-    <nav aria-label="Footer navigation">
-      <a href={sitePath("explore/")}>Explore research</a>
-      <a href={sitePath("sources/")}>Review data sources</a>
-      <a href="https://github.com/chang-xinhai/Awesome-Robot-Data-Engine">Open on GitHub</a>
-    </nav>
-    <p class="footer-note">Curated manually. Candidate feeds remain separate from the canonical list.</p>
+<footer class="atlas-footer shell">
+  <div>
+    <strong>{SITE.name}</strong>
+    <p>A living field guide, maintained by chang-xinhai and contributors.</p>
   </div>
+  <nav aria-label="Related resources">
+    <a href={"https://chang-xinhai.github.io/" + sibling + "/"}>
+      {SITE.kind === "umi"
+        ? "Explore Robot Data Engine"
+        : "Explore Awesome UMI"}{" "}
+      ↗
+    </a>
+    <a href={SITE.github}>Contribute on GitHub ↗</a>
+  </nav>
 </footer>

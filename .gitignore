@@ -3,3 +3,8 @@
 __pycache__/
 *.py[cod]
 .venv/
+
+# Static website
+website/node_modules/
+website/dist/
+website/.astro/
