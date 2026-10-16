@@ -4,12 +4,23 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-10-16 · **Papers:** 2449 · **Unique arXiv IDs:** 2449
+**Coverage:** 2025-01-01 to 2026-10-16 · **Papers:** 2460 · **Unique arXiv IDs:** 2460
 
 ## 2026-10
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-10-15 | [Value as Memory: Online Value-Guided Post-training for General Robot Policies](https://arxiv.org/abs/2610.22368) | Wenye Yu, Yijin Chen, Kaiyi Xiong, et al. | cs.RO | Data Collection | [abs](https://arxiv.org/abs/2610.22368) / [pdf](https://arxiv.org/pdf/2610.22368) |
+| 2026-10-15 | [Spark-0: Scaling Spatially Aligned Tactile Pretraining for Robot Dexterous Manipulation](https://arxiv.org/abs/2610.22342) | Tianxing Chen, Wenwei Lin, Chuqiao Lyu, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2610.22342) / [pdf](https://arxiv.org/pdf/2610.22342) |
+| 2026-10-15 | [Whole-Body Dexterity](https://arxiv.org/abs/2610.22184) | Conor Mc Gartoll, An Dang, Pranay Thangeda, et al. | cs.RO, cs.AI, cs.LG | Teleoperation | [abs](https://arxiv.org/abs/2610.22184) / [pdf](https://arxiv.org/pdf/2610.22184) |
+| 2026-10-15 | [Inertially Significant Humanoid Teleoperation via Whole Body Model Predictive Control and Online Parameter Estimation](https://arxiv.org/abs/2610.22176) | James Foster, Beomyeong Park, Luigi Penco, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2610.22176) / [pdf](https://arxiv.org/pdf/2610.22176) |
+| 2026-10-15 | [DemoStream: Batched Task-and-Motion-Plan Optimization for Automated Learning from Demonstration](https://arxiv.org/abs/2610.22020) | Caelan Garrett, Neel Jawale, Fabio Ramos | cs.RO, cs.AI, cs.LG | Teleoperation, Data Collection | [abs](https://arxiv.org/abs/2610.22020) / [pdf](https://arxiv.org/pdf/2610.22020) |
+| 2026-10-15 | [TS-WAM: Temporal Latent Actions and World-Action Coupling for Vision-Language Robot Control](https://arxiv.org/abs/2610.21922) | Menghao Yin, Jiaju Yin, Xiyue Dong, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2610.21922) / [pdf](https://arxiv.org/pdf/2610.21922) |
+| 2026-10-15 | [Cross-Embodiment Causal Transfer from Human Videos to Robot Manipulation](https://arxiv.org/abs/2610.21798) | Xingyu Zhang, Yingchao Li, Peizheng Guo, et al. | cs.RO, cs.AI | Robot Dataset, Data Collection | [abs](https://arxiv.org/abs/2610.21798) / [pdf](https://arxiv.org/pdf/2610.21798) |
+| 2026-10-15 | [Trajectory-based Diffusion from One-shot Human Video for Generalizable Manipulation](https://arxiv.org/abs/2610.21792) | Guoping Pan, Xinmiao Yu, Wannan Cao, et al. | cs.RO | Teleoperation, Data Collection | [abs](https://arxiv.org/abs/2610.21792) / [pdf](https://arxiv.org/pdf/2610.21792) |
+| 2026-10-15 | [Evo-DexBench: Benchmarking Generalization across Related Tasks for Dexterous Manipulation](https://arxiv.org/abs/2610.21180) | Bing Cheng, Yiran Mao, Zewei Ye, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2610.21180) / [pdf](https://arxiv.org/pdf/2610.21180) |
+| 2026-10-15 | [KODA: Kinematics--Observation Data Alignment for Humanoid Learning from Human Egocentric Demonstration](https://arxiv.org/abs/2610.21152) | Zibo Zhou, Yueru Chen, Junsong Wu, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2610.21152) / [pdf](https://arxiv.org/pdf/2610.21152) |
+| 2026-10-14 | [A Phenomenology of Neural Geometry in Vision-Language-Action Models](https://arxiv.org/abs/2610.20840) | Mozes Jacobs, Aiden Swann, Mathilde Papillon, et al. | cs.RO, cs.LG | Robot Dataset | [abs](https://arxiv.org/abs/2610.20840) / [pdf](https://arxiv.org/pdf/2610.20840) |
 | 2026-10-14 | [Tiered-Resolution Volumetric Mapping for Real-Time Simultaneous Planning and Mapping on Natural Outdoor Environments](https://arxiv.org/abs/2610.20476) | Afonso E. Carvalho, David Portugal, Paulo Peixoto, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2610.20476) / [pdf](https://arxiv.org/pdf/2610.20476) |
 | 2026-10-14 | [AdaRSI: On-Demand Recursive Self-Improvement for Embodied Agents](https://arxiv.org/abs/2610.20474) | Peidong Wang, Ying Chang, Zhiming Ma, et al. | cs.CL, cs.RO | Autonomous Collection | [abs](https://arxiv.org/abs/2610.20474) / [pdf](https://arxiv.org/pdf/2610.20474) |
 | 2026-10-14 | [Towards Agentic Robots: Model, Data, Environment, and Harness](https://arxiv.org/abs/2610.20442) | Chonghan Qin, Dongming Wu, Kaituo Feng, et al. | cs.RO | Robot Dataset, Data Collection | [abs](https://arxiv.org/abs/2610.20442) / [pdf](https://arxiv.org/pdf/2610.20442) |

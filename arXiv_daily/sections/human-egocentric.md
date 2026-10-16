@@ -4,12 +4,25 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-10-16 · **Papers:** 2252 · **Unique arXiv IDs:** 2252
+**Coverage:** 2025-01-01 to 2026-10-16 · **Papers:** 2265 · **Unique arXiv IDs:** 2265
 
 ## 2026-10
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-10-15 | [Perceive, Predict, and Plan: a Unified World Action Model for Egocentric Dexterous Manipulation](https://arxiv.org/abs/2610.22363) | Zirui Wu, Chen Guo, Tianjian Jiang, et al. | cs.CV, cs.RO | Egocentric, Tracking / Reconstruction | [abs](https://arxiv.org/abs/2610.22363) / [pdf](https://arxiv.org/pdf/2610.22363) |
+| 2026-10-15 | [Spark-0: Scaling Spatially Aligned Tactile Pretraining for Robot Dexterous Manipulation](https://arxiv.org/abs/2610.22342) | Tianxing Chen, Wenwei Lin, Chuqiao Lyu, et al. | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2610.22342) / [pdf](https://arxiv.org/pdf/2610.22342) |
+| 2026-10-15 | [REKI: Registering Knowledge in VLAs](https://arxiv.org/abs/2610.22178) | Juliette Marrie, Paul Pacaud, Adrien Ramanana Rahary, et al. | cs.RO, cs.CV, cs.LG | Egocentric | [abs](https://arxiv.org/abs/2610.22178) / [pdf](https://arxiv.org/pdf/2610.22178) |
+| 2026-10-15 | [Compliant GMT: Making General Motion Tracking Compliant via Residual Reference Adaptation](https://arxiv.org/abs/2610.22119) | Venki Parsuram, Michelle Wang, Jin-Hyuk Hong, et al. | cs.RO | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2610.22119) / [pdf](https://arxiv.org/pdf/2610.22119) |
+| 2026-10-15 | [VP-EVT: Active Visibility Preservation for Embodied Visual Tracking](https://arxiv.org/abs/2610.21999) | Yanci Wen, Tianle Zeng, Jianwei Peng, et al. | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2610.21999) / [pdf](https://arxiv.org/pdf/2610.21999) |
+| 2026-10-15 | [TS-WAM: Temporal Latent Actions and World-Action Coupling for Vision-Language Robot Control](https://arxiv.org/abs/2610.21922) | Menghao Yin, Jiaju Yin, Xiyue Dong, et al. | cs.RO | Human Video | [abs](https://arxiv.org/abs/2610.21922) / [pdf](https://arxiv.org/pdf/2610.21922) |
+| 2026-10-15 | [Cross-Embodiment Causal Transfer from Human Videos to Robot Manipulation](https://arxiv.org/abs/2610.21798) | Xingyu Zhang, Yingchao Li, Peizheng Guo, et al. | cs.RO, cs.AI | Human Video | [abs](https://arxiv.org/abs/2610.21798) / [pdf](https://arxiv.org/pdf/2610.21798) |
+| 2026-10-15 | [Trajectory-based Diffusion from One-shot Human Video for Generalizable Manipulation](https://arxiv.org/abs/2610.21792) | Guoping Pan, Xinmiao Yu, Wannan Cao, et al. | cs.RO | Human Video, Human Demonstration | [abs](https://arxiv.org/abs/2610.21792) / [pdf](https://arxiv.org/pdf/2610.21792) |
+| 2026-10-15 | [Hear, Localize, and Reason: Spatially Aware Scene Understanding for Audio-Visual LLMs](https://arxiv.org/abs/2610.21588) | Kim Sung-Bin, Lee Jung-Mok, Jinwoo Jung, et al. | cs.CV, cs.SD | Egocentric | [abs](https://arxiv.org/abs/2610.21588) / [pdf](https://arxiv.org/pdf/2610.21588) |
+| 2026-10-15 | [MuSTMM: Learning Sound-Triggered Mobile Manipulation across Multiple Scenes](https://arxiv.org/abs/2610.21429) | Hao Ju, Feng Yan, Zhihao Zhong, et al. | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2610.21429) / [pdf](https://arxiv.org/pdf/2610.21429) |
+| 2026-10-15 | [KODA: Kinematics--Observation Data Alignment for Humanoid Learning from Human Egocentric Demonstration](https://arxiv.org/abs/2610.21152) | Zibo Zhou, Yueru Chen, Junsong Wu, et al. | cs.RO | Egocentric, Human Video, Human Demonstration | [abs](https://arxiv.org/abs/2610.21152) / [pdf](https://arxiv.org/pdf/2610.21152) |
+| 2026-10-14 | [MoCaP: Mobile Code-as-Policies for Zero-Shot Mobile Manipulation from Passive Human Videos](https://arxiv.org/abs/2610.20998) | Yiyang Cai, Tatsuya Kamijo, Ninghao Lu, et al. | cs.RO | Human Video | [abs](https://arxiv.org/abs/2610.20998) / [pdf](https://arxiv.org/pdf/2610.20998) |
+| 2026-10-14 | [EgoJEPA: Beyond Retargeting for Dexterous Manipulation from Egocentric Videos](https://arxiv.org/abs/2610.20904) | Meng Cao, Can Zhao, Jinjie Wei, et al. | cs.RO, cs.CV | Egocentric, Human Video, Human-to-Robot, Tracking / Reconstruction | [abs](https://arxiv.org/abs/2610.20904) / [pdf](https://arxiv.org/pdf/2610.20904) |
 | 2026-10-14 | [KinoGen: Customizable Humanoid Loco-Manipulation References via Kinematically Grounded Video Generation](https://arxiv.org/abs/2610.20552) | Qi Wu, Lulu Zhao, Sanghyun Hahn, et al. | cs.RO | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2610.20552) / [pdf](https://arxiv.org/pdf/2610.20552) |
 | 2026-10-14 | [AdaRSI: On-Demand Recursive Self-Improvement for Embodied Agents](https://arxiv.org/abs/2610.20474) | Peidong Wang, Ying Chang, Zhiming Ma, et al. | cs.CL, cs.RO | Human Demonstration | [abs](https://arxiv.org/abs/2610.20474) / [pdf](https://arxiv.org/pdf/2610.20474) |
 | 2026-10-14 | [Human Demonstrations as Post-Training Data for Any Robot Body: Retargeting the Object, Not the Hand](https://arxiv.org/abs/2610.20351) | Nagasrikanth Kallakuri | cs.RO, cs.AI | Human Demonstration | [abs](https://arxiv.org/abs/2610.20351) / [pdf](https://arxiv.org/pdf/2610.20351) |
