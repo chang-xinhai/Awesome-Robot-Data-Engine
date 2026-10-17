@@ -1,5 +1,6 @@
 import type { Work } from "../lib/catalog";
 import { compareDates } from "../lib/order";
+import { detailLinks } from "../lib/resource-links";
 const $ = <T extends HTMLElement = HTMLElement>(id: string) =>
   document.getElementById(id)! as T;
 const settings = JSON.parse($("catalog-settings").textContent!) as {
@@ -383,8 +384,7 @@ function showDetail(id: string) {
   const w=byId.get(id); if(!w)return;
   detail.dataset.work=id;
   const p=preview(w);
-  const links=[{label:"Paper / resource",url:w.paperUrl},...w.links];
-  const unique=links.filter((l,i) => links.findIndex(x => x.url === l.url) === i);
+  const unique = detailLinks(w);
   const refs=w.evidence ?? [{label:"Canonical paper / resource",url:w.paperUrl}];
   const detailRows = facts(w).filter(([k,v]) => !["Institution","First published","Code"].includes(k) && (v !== "Not reported" || ["Scale & scope","Resource access","Data format"].includes(k)));
   $("detail-content").innerHTML = `<div class="detail-layout${p ? "" : " no-media"}">${p ? `<div class="detail-media"><img class="detail-cover" src="${e(p.url)}" alt="${e(p.alt)}"/><p class="image-note">${e(w.credit ?? w.institute)} · <a href="${e(p.source)}" target="_blank" rel="noopener noreferrer">Original figure ↗</a></p></div>` : ""}<div class="detail-copy"><p class="detail-kicker">${e(w.institute)} · ${e(w.date)} · ${e(w.publication)}</p><h2>${e(w.name)}</h2><p class="detail-paper-title">${e(w.summary ?? w.title)}</p><div class="detail-links">${unique.map(l=>`<a href="${e(l.url)}" target="_blank" rel="noopener noreferrer">${e(l.label)} ↗</a>`).join("")}</div><section class="detail-section"><h3>At a glance</h3>${factsHtml(detailRows)}</section><details class="detail-sources"><summary>Sources & context · ${refs.length} references</summary><p class="data-note">${e(w.title)}</p><p class="data-note">${e(w.sections.join(" · "))}</p>${w.notes ? `<p class="data-note">${e(w.notes)}</p>` : ""}<ol>${refs.map(r=>`<li><a href="${e(r.url)}" target="_blank" rel="noopener noreferrer">${e(r.label)} ↗</a></li>`).join("")}</ol>${w.reviewed ? `<p class="data-note">Visual facts reviewed ${e(w.reviewed)}.</p>` : ""}</details><button type="button" class="button-dark detail-compare" data-detail-compare="${e(id)}">${selected.has(id) ? "Remove from comparison" : "Add to comparison"}</button></div></div>`;

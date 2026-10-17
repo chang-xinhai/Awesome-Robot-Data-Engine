@@ -378,6 +378,15 @@ This is a review checklist, not a license to invent a score. Mark a field
 `unknown` when the primary source does not provide evidence, and distinguish a
 claimed full corpus from the files currently released.
 
+## Detail resource links
+
+Order website detail links as **Paper → Project → Code → Data → other resources**.
+Normalize common aliases (GitHub/software/SDK and dataset/data) while retaining
+release, access and license qualifiers. The first available link receives the
+dark primary style; prefer Paper whenever one exists. A product or project
+page is not a paper. Sort before deduplicating, preserve distinct data links,
+and apply the same rule across every collection.
+
 ## Maintenance workflow
 
 ### News policy
