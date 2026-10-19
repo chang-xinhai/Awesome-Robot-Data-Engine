@@ -4,12 +4,19 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-10-19 · **Papers:** 2460 · **Unique arXiv IDs:** 2460
+**Coverage:** 2025-01-01 to 2026-10-19 · **Papers:** 2467 · **Unique arXiv IDs:** 2467
 
 ## 2026-10
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-10-16 | [SimpleVLN: Towards Simple and Frontier Vision-Language Navigation](https://arxiv.org/abs/2610.23203) | Lingyi Hong, Weiren Cai, Jiayu Chen, et al. | cs.RO | Human Intervention | [abs](https://arxiv.org/abs/2610.23203) / [pdf](https://arxiv.org/pdf/2610.23203) |
+| 2026-10-16 | [InstAgent: A Recursively Self-Improving Agent Operating System for Heterogeneous Robot Collaboration](https://arxiv.org/abs/2610.23098) | Haoyang Luo, Junhao Qin, Jingyan Cao, et al. | cs.RO | Autonomous Collection | [abs](https://arxiv.org/abs/2610.23098) / [pdf](https://arxiv.org/pdf/2610.23098) |
+| 2026-10-16 | [Foundation Models for Autonomous Space Robotics: Architectures, Physical Adaptation, and Validation](https://arxiv.org/abs/2610.23068) | Zizhe Wang, Jia Deng, Xin Lu, et al. | cs.RO | Human Intervention | [abs](https://arxiv.org/abs/2610.23068) / [pdf](https://arxiv.org/pdf/2610.23068) |
+| 2026-10-16 | [Ego2Contact: Predicting Touch from Egocentric Human Video for Contact-Rich Robot Manipulation](https://arxiv.org/abs/2610.22932) | Qianqian Yang, Dayou Li, Bangya Liu, et al. | cs.RO | Robot Dataset, Data Collection | [abs](https://arxiv.org/abs/2610.22932) / [pdf](https://arxiv.org/pdf/2610.22932) |
+| 2026-10-16 | [Pedicel-Targeted Strawberry Harvesting via Imitation Learning on a Low-Cost Teleoperated Robotic Arm](https://arxiv.org/abs/2610.22765) | Nitin Rai, Won Suk Lee, Hongyoung Leon, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2610.22765) / [pdf](https://arxiv.org/pdf/2610.22765) |
+| 2026-10-15 | [Scaling Online Exploration for Robot Agents](https://arxiv.org/abs/2610.22496) | Runhan Huang, Xiangcheng Zhang, Haoyu Chen, et al. | cs.RO | Teleoperation, Data Collection, Autonomous Collection | [abs](https://arxiv.org/abs/2610.22496) / [pdf](https://arxiv.org/pdf/2610.22496) |
+| 2026-10-15 | [Has GPT-6-Astra Achieved Embodied Intelligence?](https://arxiv.org/abs/2610.22471) | SenseNova, Joint Research Team, :, et al. | cs.RO, cs.CV, cs.LG | Robot Dataset | [abs](https://arxiv.org/abs/2610.22471) / [pdf](https://arxiv.org/pdf/2610.22471) |
 | 2026-10-15 | [Value as Memory: Online Value-Guided Post-training for General Robot Policies](https://arxiv.org/abs/2610.22368) | Wenye Yu, Yijin Chen, Kaiyi Xiong, et al. | cs.RO | Data Collection | [abs](https://arxiv.org/abs/2610.22368) / [pdf](https://arxiv.org/pdf/2610.22368) |
 | 2026-10-15 | [Spark-0: Scaling Spatially Aligned Tactile Pretraining for Robot Dexterous Manipulation](https://arxiv.org/abs/2610.22342) | Tianxing Chen, Wenwei Lin, Chuqiao Lyu, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2610.22342) / [pdf](https://arxiv.org/pdf/2610.22342) |
 | 2026-10-15 | [Whole-Body Dexterity](https://arxiv.org/abs/2610.22184) | Conor Mc Gartoll, An Dang, Pranay Thangeda, et al. | cs.RO, cs.AI, cs.LG | Teleoperation | [abs](https://arxiv.org/abs/2610.22184) / [pdf](https://arxiv.org/pdf/2610.22184) |

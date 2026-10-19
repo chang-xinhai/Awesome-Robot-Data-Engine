@@ -4,12 +4,20 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-10-19 · **Papers:** 2265 · **Unique arXiv IDs:** 2265
+**Coverage:** 2025-01-01 to 2026-10-19 · **Papers:** 2273 · **Unique arXiv IDs:** 2273
 
 ## 2026-10
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-10-16 | [Embodiment-Aware Planning for Heterogeneous Bimanual Manipulation](https://arxiv.org/abs/2610.23551) | Sukhvansh Jain, Anurag Maurya, Shivam Vats, et al. | cs.RO | Human Demonstration | [abs](https://arxiv.org/abs/2610.23551) / [pdf](https://arxiv.org/pdf/2610.23551) |
+| 2026-10-16 | [BeJEPA: A Goal-Conditioned Humanoid Behavior World Model via Unsupervised RL](https://arxiv.org/abs/2610.23127) | Liyun Yan, Haoyang Li, Yang Zhang, et al. | cs.RO | Human Video | [abs](https://arxiv.org/abs/2610.23127) / [pdf](https://arxiv.org/pdf/2610.23127) |
+| 2026-10-16 | [GRASP: Global-Local Representation Alignment and Spatial-Physical Grounding for Bimanual Robotic Manipulation](https://arxiv.org/abs/2610.23123) | Zeyuan Ren, Guanxun Zhao, Qi Li, et al. | cs.RO | Hand-Object Interaction | [abs](https://arxiv.org/abs/2610.23123) / [pdf](https://arxiv.org/pdf/2610.23123) |
+| 2026-10-16 | [Robotic Spatiotemporal Editing: A Unified Interface for Controllable Action Generation via Masked Action Reconstruction](https://arxiv.org/abs/2610.23002) | Yanbang Li, Bu He, Yi Tian, et al. | cs.RO | Affordance / Contact | [abs](https://arxiv.org/abs/2610.23002) / [pdf](https://arxiv.org/pdf/2610.23002) |
+| 2026-10-16 | [Ego2Contact: Predicting Touch from Egocentric Human Video for Contact-Rich Robot Manipulation](https://arxiv.org/abs/2610.22932) | Qianqian Yang, Dayou Li, Bangya Liu, et al. | cs.RO | Egocentric, Human Video, Affordance / Contact | [abs](https://arxiv.org/abs/2610.22932) / [pdf](https://arxiv.org/pdf/2610.22932) |
+| 2026-10-16 | [VISTA: A Multimodal Egocentric Benchmark for Goal-Oriented Perception and Assistance to Blind and Low-Vision Users](https://arxiv.org/abs/2610.22822) | Noé Mosca, Mohamed Rayan Barhdadi, Muhammad Hamza, et al. | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2610.22822) / [pdf](https://arxiv.org/pdf/2610.22822) |
+| 2026-10-15 | [EgoP$^{2}$C: Internalizing Plan-Perceive-Compose for Spatial Reasoning in Egocentric Video](https://arxiv.org/abs/2610.22681) | Chaoyu Li, Arka Sadhu, Yuliang Li, et al. | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2610.22681) / [pdf](https://arxiv.org/pdf/2610.22681) |
+| 2026-10-15 | [Scaling Online Exploration for Robot Agents](https://arxiv.org/abs/2610.22496) | Runhan Huang, Xiangcheng Zhang, Haoyu Chen, et al. | cs.RO | Human Demonstration | [abs](https://arxiv.org/abs/2610.22496) / [pdf](https://arxiv.org/pdf/2610.22496) |
 | 2026-10-15 | [Perceive, Predict, and Plan: a Unified World Action Model for Egocentric Dexterous Manipulation](https://arxiv.org/abs/2610.22363) | Zirui Wu, Chen Guo, Tianjian Jiang, et al. | cs.CV, cs.RO | Egocentric, Tracking / Reconstruction | [abs](https://arxiv.org/abs/2610.22363) / [pdf](https://arxiv.org/pdf/2610.22363) |
 | 2026-10-15 | [Spark-0: Scaling Spatially Aligned Tactile Pretraining for Robot Dexterous Manipulation](https://arxiv.org/abs/2610.22342) | Tianxing Chen, Wenwei Lin, Chuqiao Lyu, et al. | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2610.22342) / [pdf](https://arxiv.org/pdf/2610.22342) |
 | 2026-10-15 | [REKI: Registering Knowledge in VLAs](https://arxiv.org/abs/2610.22178) | Juliette Marrie, Paul Pacaud, Adrien Ramanana Rahary, et al. | cs.RO, cs.CV, cs.LG | Egocentric | [abs](https://arxiv.org/abs/2610.22178) / [pdf](https://arxiv.org/pdf/2610.22178) |

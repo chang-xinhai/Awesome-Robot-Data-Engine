@@ -4,12 +4,18 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-10-19 · **Papers:** 2911 · **Unique arXiv IDs:** 2911
+**Coverage:** 2025-01-01 to 2026-10-19 · **Papers:** 2917 · **Unique arXiv IDs:** 2917
 
 ## 2026-10
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-10-16 | [Blind Precise Assembly: Proprioceptive Sim-to-Real Peg-in-Hole for Diverse Parts](https://arxiv.org/abs/2610.23849) | Antonia Bronars, Younghyo Park, Kushal Kedia, et al. | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2610.23849) / [pdf](https://arxiv.org/pdf/2610.23849) |
+| 2026-10-16 | [No Eyes, No Problem: What Does Touch Contribute to Blind Baoding Ball Manipulation?](https://arxiv.org/abs/2610.23438) | Ayush Deshmukh, Nalin Agarwal, Elle Miller, et al. | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2610.23438) / [pdf](https://arxiv.org/pdf/2610.23438) |
+| 2026-10-16 | [Look Before You Act: Bridging Active Perception and Vision-Language-Action Models via Observation-Aligned Data Adaptation](https://arxiv.org/abs/2610.23378) | Jiawei Geng, Zhenyang Liu, Yuzheng Wu, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2610.23378) / [pdf](https://arxiv.org/pdf/2610.23378) |
+| 2026-10-16 | [Ego2Contact: Predicting Touch from Egocentric Human Video for Contact-Rich Robot Manipulation](https://arxiv.org/abs/2610.22932) | Qianqian Yang, Dayou Li, Bangya Liu, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2610.22932) / [pdf](https://arxiv.org/pdf/2610.22932) |
+| 2026-10-15 | [Embodiment-Classifier Guidance: Transferring Frozen VLAs Across Robot Dynamics without Demonstrations](https://arxiv.org/abs/2610.22576) | Devin Han, Hershraj Niranjani | cs.RO, cs.LG | Simulation Data, Sim-to-Real | [abs](https://arxiv.org/abs/2610.22576) / [pdf](https://arxiv.org/pdf/2610.22576) |
+| 2026-10-15 | [When Plans Change, Remember: Replanning-Guided Visual Memory for Vision-Language-Action Models](https://arxiv.org/abs/2610.22556) | Victoria Smelova, Daniil Kazachkov, Georgiy Kazantsev, et al. | cs.RO, cs.LG | Simulation Data | [abs](https://arxiv.org/abs/2610.22556) / [pdf](https://arxiv.org/pdf/2610.22556) |
 | 2026-10-15 | [Perceive, Predict, and Plan: a Unified World Action Model for Egocentric Dexterous Manipulation](https://arxiv.org/abs/2610.22363) | Zirui Wu, Chen Guo, Tianjian Jiang, et al. | cs.CV, cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2610.22363) / [pdf](https://arxiv.org/pdf/2610.22363) |
 | 2026-10-15 | [CoDA: Co-Evolution of Data Engines and Action Policies](https://arxiv.org/abs/2610.22362) | Tianjiao Yu, Zhilin Ou, Yifan Shen, et al. | cs.RO, cs.AI | Simulation Data | [abs](https://arxiv.org/abs/2610.22362) / [pdf](https://arxiv.org/pdf/2610.22362) |
 | 2026-10-15 | [Spark-0: Scaling Spatially Aligned Tactile Pretraining for Robot Dexterous Manipulation](https://arxiv.org/abs/2610.22342) | Tianxing Chen, Wenwei Lin, Chuqiao Lyu, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2610.22342) / [pdf](https://arxiv.org/pdf/2610.22342) |
