@@ -4,12 +4,13 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-10-21 · **Papers:** 94 · **Unique arXiv IDs:** 94
+**Coverage:** 2025-01-01 to 2026-10-21 · **Papers:** 95 · **Unique arXiv IDs:** 95
 
 ## 2026-10
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-10-20 | [A Head Camera Is (Almost) All You Need: An Electronics-Free UMI Glove Labelled and Observed by One Moving Camera](https://arxiv.org/abs/2610.27622) | Yosub Shin, Yuan Liu, Igor Molybog | cs.RO, cs.AI | Universal Manipulation Interface, Handheld Gripper | [abs](https://arxiv.org/abs/2610.27622) / [pdf](https://arxiv.org/pdf/2610.27622) |
 | 2026-10-14 | [TacClaw-Infinity: A Large-Scale Vision-Tactile-Language-Action Dataset for Dexterous Manipulation](https://arxiv.org/abs/2610.20320) | Fucai Zhu, Xidong Zhang, Yichi Zhang, et al. | cs.RO | Universal Manipulation Interface, Handheld Gripper | [abs](https://arxiv.org/abs/2610.20320) / [pdf](https://arxiv.org/pdf/2610.20320) |
 | 2026-10-14 | [FOMI: A Force-Feedback Manipulation Interface for Teaching Contact-Rich Manipulation](https://arxiv.org/abs/2610.19839) | Yishu Shen, Yiming Luo, Ruilin Wang, et al. | cs.RO | Robot-Free Demonstration | [abs](https://arxiv.org/abs/2610.19839) / [pdf](https://arxiv.org/pdf/2610.19839) |
 | 2026-10-13 | [YUBI-Real2Sim: 3DGS Scene Verification for Reliable Policy Evaluation](https://arxiv.org/abs/2610.17521) | Hiroki Nishizawa, Takehiko Ohkawa, Nicola Scianca, et al. | cs.RO, cs.AI | Handheld Gripper | [abs](https://arxiv.org/abs/2610.17521) / [pdf](https://arxiv.org/pdf/2610.17521) |

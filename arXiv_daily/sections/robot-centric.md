@@ -4,12 +4,18 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-10-21 · **Papers:** 2493 · **Unique arXiv IDs:** 2493
+**Coverage:** 2025-01-01 to 2026-10-21 · **Papers:** 2499 · **Unique arXiv IDs:** 2499
 
 ## 2026-10
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-10-20 | [LocoPilot: Single-Operator Bilateral Teleoperation for Loco-Manipulation Policy Learning](https://arxiv.org/abs/2610.27998) | Antonio Langella, Giovanni Minelli, Giovanni B. Dessy, et al. | cs.RO | Teleoperation, Data Collection | [abs](https://arxiv.org/abs/2610.27998) / [pdf](https://arxiv.org/pdf/2610.27998) |
+| 2026-10-20 | [Learning Tactile-Aware Hand Representations from Human Hand-Object Interaction Data](https://arxiv.org/abs/2610.27995) | Yeonguk Yu, Jaehong Kim, Byungok Han | cs.RO, cs.AI | Data Collection | [abs](https://arxiv.org/abs/2610.27995) / [pdf](https://arxiv.org/pdf/2610.27995) |
+| 2026-10-20 | [Decoupling Action from Egocentric Observation for World Simulation](https://arxiv.org/abs/2610.27946) | Yue Ma, Pengjie Song, Xinyu Wang, et al. | cs.CV | Robot Dataset | [abs](https://arxiv.org/abs/2610.27946) / [pdf](https://arxiv.org/pdf/2610.27946) |
+| 2026-10-20 | [What Novice Operators See Changes What the Policy Learns: A User Study of Keypoint Hand Visual Representation for Teleoperated Demonstration](https://arxiv.org/abs/2610.27907) | Amane Yamaguchi, Shohei Kamiguchi, Masashi Hamaya, et al. | cs.RO, cs.HC | Teleoperation | [abs](https://arxiv.org/abs/2610.27907) / [pdf](https://arxiv.org/pdf/2610.27907) |
+| 2026-10-20 | [Multi-View Latent Action Pretraining for Cross-Embodiment Robot Learning from Videos](https://arxiv.org/abs/2610.27794) | Oliver Hausdörfer, Felix Minzenmay, Mani Majd, et al. | cs.RO | Teleoperation, Robot Dataset | [abs](https://arxiv.org/abs/2610.27794) / [pdf](https://arxiv.org/pdf/2610.27794) |
+| 2026-10-20 | [A Head Camera Is (Almost) All You Need: An Electronics-Free UMI Glove Labelled and Observed by One Moving Camera](https://arxiv.org/abs/2610.27622) | Yosub Shin, Yuan Liu, Igor Molybog | cs.RO, cs.AI | Teleoperation, Data Collection | [abs](https://arxiv.org/abs/2610.27622) / [pdf](https://arxiv.org/pdf/2610.27622) |
 | 2026-10-19 | [Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience](https://arxiv.org/abs/2610.26855) | Tianqi Liu, Hanfei Zhao, Qifeng Liang, et al. | cs.CV, cs.RO | Teleoperation, Robot Dataset, Robot Data Processing | [abs](https://arxiv.org/abs/2610.26855) / [pdf](https://arxiv.org/pdf/2610.26855) |
 | 2026-10-19 | [Where is Physical RSI capability from? An Observational Scaling Law of LLM-as-policy](https://arxiv.org/abs/2610.26848) | Zekai Li, Jiayi Yu, Jinlu Zhang, et al. | cs.RO, cs.AI, cs.CV | Autonomous Collection | [abs](https://arxiv.org/abs/2610.26848) / [pdf](https://arxiv.org/pdf/2610.26848) |
 | 2026-10-19 | [DexOAK: Object-Aware Kinematic Retargeting](https://arxiv.org/abs/2610.26762) | Federica Spinola, Robert Katzschmann, Cordelia Schmid | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2610.26762) / [pdf](https://arxiv.org/pdf/2610.26762) |
