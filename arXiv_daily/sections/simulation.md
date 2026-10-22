@@ -4,12 +4,20 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-10-22 · **Papers:** 2950 · **Unique arXiv IDs:** 2950
+**Coverage:** 2025-01-01 to 2026-10-22 · **Papers:** 2958 · **Unique arXiv IDs:** 2958
 
 ## 2026-10
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-10-21 | [RangeNav: Task-Aligned LiDAR Range-Image Pretraining for Robot Navigation](https://arxiv.org/abs/2610.29845) | Samuel Foo Enze, Manthan Patel, Fan Yang, et al. | cs.RO, cs.LG | Synthetic Data | [abs](https://arxiv.org/abs/2610.29845) / [pdf](https://arxiv.org/pdf/2610.29845) |
+| 2026-10-21 | [Reconstruction-Augmented Visuomotor Pre-Training of 3D-Grounded Bimanual Dexterity from RGB-Only Human Videos](https://arxiv.org/abs/2610.29716) | Xingyi He, Zhiwen Qiu, Adhitya Polavaram, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2610.29716) / [pdf](https://arxiv.org/pdf/2610.29716) |
+| 2026-10-21 | [Distance Field Driven Reinforcement Learning for Reactive and Robust Collision Avoidance](https://arxiv.org/abs/2610.29452) | Taiga Ikeshima, Sheila Sutjipto, Lan Wu, et al. | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2610.29452) / [pdf](https://arxiv.org/pdf/2610.29452) |
+| 2026-10-21 | [PRISM: Learning Realistic Depth via Physics-Grounded Noise Disentanglement with Semantic-Geometric Collaboration](https://arxiv.org/abs/2610.29432) | Xiujian Liang, Jiacheng Liu, Mingyang Sun, et al. | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2610.29432) / [pdf](https://arxiv.org/pdf/2610.29432) |
+| 2026-10-21 | [Integrating Flow Matching and Model Predictive Control for Safe Robot Navigation](https://arxiv.org/abs/2610.29377) | Philipp Holzmann, Maik Pfefferkorn, Joao Carvalho, et al. | cs.RO, eess.SY | Simulation Data, Trajectory Generation | [abs](https://arxiv.org/abs/2610.29377) / [pdf](https://arxiv.org/pdf/2610.29377) |
+| 2026-10-21 | [SimPT: An Automated Simulation Framework for Intervention-Based VLA Post-Training](https://arxiv.org/abs/2610.29161) | Caicheng Wang, Zipeng Ye, Zhexuan Zhou, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2610.29161) / [pdf](https://arxiv.org/pdf/2610.29161) |
+| 2026-10-20 | [COWBOY: A Scalable Sim-to-Real Framework for Learning Contextual Whole-Body Manipulation](https://arxiv.org/abs/2610.28948) | Jiahui Yang, Jason Jingzhou Liu, Ray Muxin Liu, et al. | cs.RO | Simulation Data, Sim-to-Real | [abs](https://arxiv.org/abs/2610.28948) / [pdf](https://arxiv.org/pdf/2610.28948) |
+| 2026-10-20 | [T-WLA: Bridging Slow Vision and Fast Touch](https://arxiv.org/abs/2610.28814) | Kaichen Zhou, Yuzhen Chen, Hannah Yao, et al. | cs.RO | Synthetic Sensor | [abs](https://arxiv.org/abs/2610.28814) / [pdf](https://arxiv.org/pdf/2610.28814) |
 | 2026-10-20 | [Physical Canvas: A Vision Tactile World Model For Robot Policy Evaluation And Learning](https://arxiv.org/abs/2610.28613) | Zebin Xing, Yuhang Zheng, Yupeng Zheng, et al. | cs.RO | World Simulator | [abs](https://arxiv.org/abs/2610.28613) / [pdf](https://arxiv.org/pdf/2610.28613) |
 | 2026-10-20 | [SceneRig: An Agentic System for Simulation-Ready 3D Scene Reconstruction from Single Images](https://arxiv.org/abs/2610.28585) | Rundong Luo, Yunong Liu, Di Cao, et al. | cs.RO, cs.AI, cs.CV | Simulation-Ready Asset | [abs](https://arxiv.org/abs/2610.28585) / [pdf](https://arxiv.org/pdf/2610.28585) |
 | 2026-10-20 | [Fast Motion Retargeting Pipeline for Scalable Humanoid Robot Learning](https://arxiv.org/abs/2610.28470) | Daniel Marew, Sangjun Park, Nisal Perera, et al. | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2610.28470) / [pdf](https://arxiv.org/pdf/2610.28470) |

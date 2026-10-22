@@ -2,16 +2,16 @@
 
 > A high-recall candidate archive for manual curation into [Awesome Robot Data Engine](../README.md). It is intentionally broader than the curated list.
 
-**Coverage:** 2025-01-01 to 2026-10-22 · **Unique papers:** 6377
+**Coverage:** 2025-01-01 to 2026-10-22 · **Unique papers:** 6400
 
 ## Sections
 
 | Section | Papers | Scope |
 | :------ | -----: | :---- |
-| [Robot-Centric](sections/robot-centric.md) | 2499 | Real-robot collection, teleoperation, intervention, datasets, and processing |
+| [Robot-Centric](sections/robot-centric.md) | 2511 | Real-robot collection, teleoperation, intervention, datasets, and processing |
 | [UMI](sections/umi.md) | 95 | Portable manipulation interfaces, robot-free demonstrations, and UMI recovery |
-| [Human / Egocentric](sections/human-egocentric.md) | 2314 | Human video, HOI, tracking, reconstruction, action extraction, and retargeting |
-| [Simulation](sections/simulation.md) | 2950 | Synthetic demonstrations, environments, assets, sensors, and sim–real systems |
+| [Human / Egocentric](sections/human-egocentric.md) | 2323 | Human video, HOI, tracking, reconstruction, action extraction, and retargeting |
+| [Simulation](sections/simulation.md) | 2958 | Synthetic demonstrations, environments, assets, sensors, and sim–real systems |
 
 A paper is stored once in [`data/papers.json`](data/papers.json) but may appear in multiple generated views. The archive uses arXiv `v1` dates and is updated daily by GitHub Actions. Promotion to the root README is always manual.
 
@@ -19,16 +19,16 @@ A paper is stored once in [`data/papers.json`](data/papers.json) but may appear 
 
 ### Robot-Centric
 
-- 2026-10-20 — [LocoPilot: Single-Operator Bilateral Teleoperation for Loco-Manipulation Policy Learning](https://arxiv.org/abs/2610.27998)
-- 2026-10-20 — [Learning Tactile-Aware Hand Representations from Human Hand-Object Interaction Data](https://arxiv.org/abs/2610.27995)
-- 2026-10-20 — [Decoupling Action from Egocentric Observation for World Simulation](https://arxiv.org/abs/2610.27946)
-- 2026-10-20 — [What Novice Operators See Changes What the Policy Learns: A User Study of Keypoint Hand Visual Representation for Teleoperated Demonstration](https://arxiv.org/abs/2610.27907)
-- 2026-10-20 — [Multi-View Latent Action Pretraining for Cross-Embodiment Robot Learning from Videos](https://arxiv.org/abs/2610.27794)
-- 2026-10-20 — [A Head Camera Is (Almost) All You Need: An Electronics-Free UMI Glove Labelled and Observed by One Moving Camera](https://arxiv.org/abs/2610.27622)
-- 2026-10-19 — [Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience](https://arxiv.org/abs/2610.26855)
-- 2026-10-19 — [Where is Physical RSI capability from? An Observational Scaling Law of LLM-as-policy](https://arxiv.org/abs/2610.26848)
-- 2026-10-19 — [DexOAK: Object-Aware Kinematic Retargeting](https://arxiv.org/abs/2610.26762)
-- 2026-10-19 — [Robot Learning with Vision-Language-Action Models for Agricultural Manipulation](https://arxiv.org/abs/2610.26717)
+- 2026-10-21 — [HuMiT: Low-Latency Whole-Body Humanoid Teleoperation via Compact Reference Tracking](https://arxiv.org/abs/2610.29903)
+- 2026-10-21 — [Robot Generalization Beyond Volume: The Diversity Path via Zero-Shot Capabilities](https://arxiv.org/abs/2610.29829)
+- 2026-10-21 — [Reconstruction-Augmented Visuomotor Pre-Training of 3D-Grounded Bimanual Dexterity from RGB-Only Human Videos](https://arxiv.org/abs/2610.29716)
+- 2026-10-21 — [Toward Recursive Self-Improvement in Physical AI](https://arxiv.org/abs/2610.29677)
+- 2026-10-21 — [From Association to Decision Value: Testing Paired Instruction Dependence for VLA Corpus Selection](https://arxiv.org/abs/2610.29646)
+- 2026-10-21 — [Preserving Operator Intent Under Actuation Constraints: Teleoperation of Manipulators with Coupled Transmissions](https://arxiv.org/abs/2610.29565)
+- 2026-10-21 — [Training in Deployment: Human-in-the-loop Online Post-Training for Robot Manipulation](https://arxiv.org/abs/2610.29264)
+- 2026-10-21 — [SimPT: An Automated Simulation Framework for Intervention-Based VLA Post-Training](https://arxiv.org/abs/2610.29161)
+- 2026-10-20 — [RoPT: Robust 6DoF Object Pose Tracking in Video](https://arxiv.org/abs/2610.28962)
+- 2026-10-20 — [Flexible Language-Guided Representation Editing for Adaptive Robot Behavior](https://arxiv.org/abs/2610.28893)
 
 ### UMI
 
@@ -45,29 +45,29 @@ A paper is stored once in [`data/papers.json`](data/papers.json) but may appear 
 
 ### Human / Egocentric
 
+- 2026-10-21 — [Agentic World Action Models](https://arxiv.org/abs/2610.30136)
+- 2026-10-21 — [ProactEgoMem: Benchmarking Proactive Memory in Streaming Egocentric Video](https://arxiv.org/abs/2610.30089)
+- 2026-10-21 — [TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments](https://arxiv.org/abs/2610.30043)
+- 2026-10-21 — [DONIC: Generalist Dexterous Bimanual Tracking Control from Human Demonstrations](https://arxiv.org/abs/2610.29997)
+- 2026-10-21 — [DewHand: Direct Metric World-Space Hand Motion Reconstruction from Egocentric Videos](https://arxiv.org/abs/2610.29936)
+- 2026-10-21 — [HuMiT: Low-Latency Whole-Body Humanoid Teleoperation via Compact Reference Tracking](https://arxiv.org/abs/2610.29903)
+- 2026-10-21 — [Reconstruction-Augmented Visuomotor Pre-Training of 3D-Grounded Bimanual Dexterity from RGB-Only Human Videos](https://arxiv.org/abs/2610.29716)
+- 2026-10-20 — [RoPT: Robust 6DoF Object Pose Tracking in Video](https://arxiv.org/abs/2610.28962)
+- 2026-10-20 — [Real2Sem2Real: 3D Semantic Augmentations for Robot Learning from a Single Human RGB Demonstration](https://arxiv.org/abs/2610.28880)
 - 2026-10-20 — [Learning Adaptable Dexterous Skills via Hybrid Dexterous Mimicking](https://arxiv.org/abs/2610.28628)
-- 2026-10-20 — [OverSeer: Multi-Agent World Models Beyond What Agents See](https://arxiv.org/abs/2610.28554)
-- 2026-10-20 — [VLM-Guided Contact Retargeting and Generative Partner Modeling for Humanoid-Human Interaction](https://arxiv.org/abs/2610.28523)
-- 2026-10-20 — [Touch-JEPA: Tactile Representation Learning from Hand-Object Video with Limited Tactile Supervision](https://arxiv.org/abs/2610.28519)
-- 2026-10-20 — [Deep Learning-Based Road Lane Quality Assessment from Egocentric Dashcam Video](https://arxiv.org/abs/2610.28508)
-- 2026-10-20 — [GazeLens for Efficient Egocentric Video Question Answering with Simple Gaze-Driven Adaptive Token Reduction](https://arxiv.org/abs/2610.28502)
-- 2026-10-20 — [CLOSER: Evidence-Aware Active Visual Verification for Embodied Object-Goal Navigation](https://arxiv.org/abs/2610.28476)
-- 2026-10-20 — [Learning Tactile-Aware Hand Representations from Human Hand-Object Interaction Data](https://arxiv.org/abs/2610.27995)
-- 2026-10-20 — [Decoupling Action from Egocentric Observation for World Simulation](https://arxiv.org/abs/2610.27946)
-- 2026-10-20 — [Gaze2HOI: Gaze-Aware Intention Disambiguation for Egocentric Hand-Object Interaction Forecasting](https://arxiv.org/abs/2610.27877)
 
 ### Simulation
 
+- 2026-10-21 — [RangeNav: Task-Aligned LiDAR Range-Image Pretraining for Robot Navigation](https://arxiv.org/abs/2610.29845)
+- 2026-10-21 — [Reconstruction-Augmented Visuomotor Pre-Training of 3D-Grounded Bimanual Dexterity from RGB-Only Human Videos](https://arxiv.org/abs/2610.29716)
+- 2026-10-21 — [Distance Field Driven Reinforcement Learning for Reactive and Robust Collision Avoidance](https://arxiv.org/abs/2610.29452)
+- 2026-10-21 — [PRISM: Learning Realistic Depth via Physics-Grounded Noise Disentanglement with Semantic-Geometric Collaboration](https://arxiv.org/abs/2610.29432)
+- 2026-10-21 — [Integrating Flow Matching and Model Predictive Control for Safe Robot Navigation](https://arxiv.org/abs/2610.29377)
+- 2026-10-21 — [SimPT: An Automated Simulation Framework for Intervention-Based VLA Post-Training](https://arxiv.org/abs/2610.29161)
+- 2026-10-20 — [COWBOY: A Scalable Sim-to-Real Framework for Learning Contextual Whole-Body Manipulation](https://arxiv.org/abs/2610.28948)
+- 2026-10-20 — [T-WLA: Bridging Slow Vision and Fast Touch](https://arxiv.org/abs/2610.28814)
 - 2026-10-20 — [Physical Canvas: A Vision Tactile World Model For Robot Policy Evaluation And Learning](https://arxiv.org/abs/2610.28613)
 - 2026-10-20 — [SceneRig: An Agentic System for Simulation-Ready 3D Scene Reconstruction from Single Images](https://arxiv.org/abs/2610.28585)
-- 2026-10-20 — [Fast Motion Retargeting Pipeline for Scalable Humanoid Robot Learning](https://arxiv.org/abs/2610.28470)
-- 2026-10-20 — [Physical AI for Intralogistics: Benchmarking the NVIDIA Sim-to-Real Ecosystem for Cosmos-Enhanced COMPASS Navigation on Industrial Mobile Robots](https://arxiv.org/abs/2610.28432)
-- 2026-10-20 — [SPAR: Search-trained Push Action Ranker for Efficient Navigation Among Movable Obstacles](https://arxiv.org/abs/2610.28362)
-- 2026-10-20 — [Perceives but Doesn't Brake: A Perception-Action Binding Gap in Reasoning Driving VLAs](https://arxiv.org/abs/2610.28184)
-- 2026-10-20 — [Decoupling Action from Egocentric Observation for World Simulation](https://arxiv.org/abs/2610.27946)
-- 2026-10-20 — [Gaze2HOI: Gaze-Aware Intention Disambiguation for Egocentric Hand-Object Interaction Forecasting](https://arxiv.org/abs/2610.27877)
-- 2026-10-20 — [NeoWorld-3: From Pixels to Code-Defined Physical Worlds](https://arxiv.org/abs/2610.27690)
-- 2026-10-19 — [Training Controllable World Models via Action Influence Maximization](https://arxiv.org/abs/2610.27387)
 
 ## Method
 
