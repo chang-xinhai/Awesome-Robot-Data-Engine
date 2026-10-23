@@ -4,7 +4,7 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-10-22 · **Papers:** 2323 · **Unique arXiv IDs:** 2323
+**Coverage:** 2025-01-01 to 2026-10-23 · **Papers:** 2323 · **Unique arXiv IDs:** 2323
 
 ## 2026-10
 
