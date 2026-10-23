@@ -2,16 +2,16 @@
 
 > A high-recall candidate archive for manual curation into [Awesome Robot Data Engine](../README.md). It is intentionally broader than the curated list.
 
-**Coverage:** 2025-01-01 to 2026-10-23 · **Unique papers:** 6400
+**Coverage:** 2025-01-01 to 2026-10-23 · **Unique papers:** 6422
 
 ## Sections
 
 | Section | Papers | Scope |
 | :------ | -----: | :---- |
-| [Robot-Centric](sections/robot-centric.md) | 2511 | Real-robot collection, teleoperation, intervention, datasets, and processing |
+| [Robot-Centric](sections/robot-centric.md) | 2518 | Real-robot collection, teleoperation, intervention, datasets, and processing |
 | [UMI](sections/umi.md) | 95 | Portable manipulation interfaces, robot-free demonstrations, and UMI recovery |
-| [Human / Egocentric](sections/human-egocentric.md) | 2323 | Human video, HOI, tracking, reconstruction, action extraction, and retargeting |
-| [Simulation](sections/simulation.md) | 2958 | Synthetic demonstrations, environments, assets, sensors, and sim–real systems |
+| [Human / Egocentric](sections/human-egocentric.md) | 2335 | Human video, HOI, tracking, reconstruction, action extraction, and retargeting |
+| [Simulation](sections/simulation.md) | 2965 | Synthetic demonstrations, environments, assets, sensors, and sim–real systems |
 
 A paper is stored once in [`data/papers.json`](data/papers.json) but may appear in multiple generated views. The archive uses arXiv `v1` dates and is updated daily by GitHub Actions. Promotion to the root README is always manual.
 
@@ -19,16 +19,16 @@ A paper is stored once in [`data/papers.json`](data/papers.json) but may appear 
 
 ### Robot-Centric
 
+- 2026-10-22 — [Learning Robot Behavior Priors from Non-Robotic Synthetic Data](https://arxiv.org/abs/2610.31275)
+- 2026-10-22 — [UniFlowWAM: A Unified World-Action Model with Visual Semantics and 4D Geometry](https://arxiv.org/abs/2610.30991)
+- 2026-10-22 — [LocoManiLab: A Unified Testbed for Data, Policies, Controllers, and Deployment in Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.30876)
+- 2026-10-22 — [TEAR: Task-Evidence Authority Routing for Robotic Manipulation](https://arxiv.org/abs/2610.30819)
+- 2026-10-22 — [Robot Motion Transition with Human Motion Prior](https://arxiv.org/abs/2610.30817)
+- 2026-10-22 — [Co^2Gen: Collaboratively Generating Task Plans for Decentralized Multi-Robot and Human Collaboration](https://arxiv.org/abs/2610.30671)
+- 2026-10-22 — [PATH: Preference-Aware Traversability Estimation for Robotic Teleoperation in Off-Road Navigation](https://arxiv.org/abs/2610.30605)
 - 2026-10-21 — [HuMiT: Low-Latency Whole-Body Humanoid Teleoperation via Compact Reference Tracking](https://arxiv.org/abs/2610.29903)
 - 2026-10-21 — [Robot Generalization Beyond Volume: The Diversity Path via Zero-Shot Capabilities](https://arxiv.org/abs/2610.29829)
 - 2026-10-21 — [Reconstruction-Augmented Visuomotor Pre-Training of 3D-Grounded Bimanual Dexterity from RGB-Only Human Videos](https://arxiv.org/abs/2610.29716)
-- 2026-10-21 — [Toward Recursive Self-Improvement in Physical AI](https://arxiv.org/abs/2610.29677)
-- 2026-10-21 — [From Association to Decision Value: Testing Paired Instruction Dependence for VLA Corpus Selection](https://arxiv.org/abs/2610.29646)
-- 2026-10-21 — [Preserving Operator Intent Under Actuation Constraints: Teleoperation of Manipulators with Coupled Transmissions](https://arxiv.org/abs/2610.29565)
-- 2026-10-21 — [Training in Deployment: Human-in-the-loop Online Post-Training for Robot Manipulation](https://arxiv.org/abs/2610.29264)
-- 2026-10-21 — [SimPT: An Automated Simulation Framework for Intervention-Based VLA Post-Training](https://arxiv.org/abs/2610.29161)
-- 2026-10-20 — [RoPT: Robust 6DoF Object Pose Tracking in Video](https://arxiv.org/abs/2610.28962)
-- 2026-10-20 — [Flexible Language-Guided Representation Editing for Adaptive Robot Behavior](https://arxiv.org/abs/2610.28893)
 
 ### UMI
 
@@ -45,29 +45,29 @@ A paper is stored once in [`data/papers.json`](data/papers.json) but may appear 
 
 ### Human / Egocentric
 
-- 2026-10-21 — [Agentic World Action Models](https://arxiv.org/abs/2610.30136)
-- 2026-10-21 — [ProactEgoMem: Benchmarking Proactive Memory in Streaming Egocentric Video](https://arxiv.org/abs/2610.30089)
-- 2026-10-21 — [TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments](https://arxiv.org/abs/2610.30043)
-- 2026-10-21 — [DONIC: Generalist Dexterous Bimanual Tracking Control from Human Demonstrations](https://arxiv.org/abs/2610.29997)
-- 2026-10-21 — [DewHand: Direct Metric World-Space Hand Motion Reconstruction from Egocentric Videos](https://arxiv.org/abs/2610.29936)
-- 2026-10-21 — [HuMiT: Low-Latency Whole-Body Humanoid Teleoperation via Compact Reference Tracking](https://arxiv.org/abs/2610.29903)
-- 2026-10-21 — [Reconstruction-Augmented Visuomotor Pre-Training of 3D-Grounded Bimanual Dexterity from RGB-Only Human Videos](https://arxiv.org/abs/2610.29716)
-- 2026-10-20 — [RoPT: Robust 6DoF Object Pose Tracking in Video](https://arxiv.org/abs/2610.28962)
-- 2026-10-20 — [Real2Sem2Real: 3D Semantic Augmentations for Robot Learning from a Single Human RGB Demonstration](https://arxiv.org/abs/2610.28880)
-- 2026-10-20 — [Learning Adaptable Dexterous Skills via Hybrid Dexterous Mimicking](https://arxiv.org/abs/2610.28628)
+- 2026-10-22 — [AgentVQA: A Unified Benchmark for Agentic Visual Understanding](https://arxiv.org/abs/2610.31494)
+- 2026-10-22 — [Point-Level Refinable Semantic Mapping for Spatial Understanding](https://arxiv.org/abs/2610.31476)
+- 2026-10-22 — [Skeleton-Grounded Latent Action Model for Robot World Models](https://arxiv.org/abs/2610.31474)
+- 2026-10-22 — [PiHand: Latent Hand-Object Interaction Priors for Physics-Based Policy Learning](https://arxiv.org/abs/2610.31299)
+- 2026-10-22 — [Retrieval-Augmented Online Textual Memory for Episodic Memory Video Question Answering](https://arxiv.org/abs/2610.31284)
+- 2026-10-22 — [RGraph-Eval: Task-Grounded Scene Graphs for Evaluating Robot Video Generation](https://arxiv.org/abs/2610.31121)
+- 2026-10-22 — [Demonstration-Based Robotic Feeding Using Dynamic Movement Primitives](https://arxiv.org/abs/2610.31020)
+- 2026-10-22 — [TEAR: Task-Evidence Authority Routing for Robotic Manipulation](https://arxiv.org/abs/2610.30819)
+- 2026-10-22 — [Robot Motion Transition with Human Motion Prior](https://arxiv.org/abs/2610.30817)
+- 2026-10-21 — [Motion Retargeting with Spatiotemporal Preferences for Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.30540)
 
 ### Simulation
 
+- 2026-10-22 — [OpenTac: An Open Ecosystem for Customizable, Scalable, and Transferable 3D Tactile Sensing](https://arxiv.org/abs/2610.31661)
+- 2026-10-22 — [Learning Robot Behavior Priors from Non-Robotic Synthetic Data](https://arxiv.org/abs/2610.31275)
+- 2026-10-22 — [Revisiting Distribution Matching for State-to-Vision Policy Distillation in Laparoscopic Robotic Manipulation](https://arxiv.org/abs/2610.31010)
+- 2026-10-22 — [In-Context Learning World Models for Robot Dual-Arm Manipulation of Soft Garment with Partial Observations](https://arxiv.org/abs/2610.30988)
+- 2026-10-22 — [LocoManiLab: A Unified Testbed for Data, Policies, Controllers, and Deployment in Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.30876)
+- 2026-10-22 — [Adaptive Aerial Loco-Manipulation Policy Learning via LLM-Assisted Proactive Task Generation](https://arxiv.org/abs/2610.30810)
+- 2026-10-21 — [PhysibleMDM: Enforcing Inference-Time Physical Feasibility Constraints on Motion Diffusion Models via Noise Optimization](https://arxiv.org/abs/2610.30500)
 - 2026-10-21 — [RangeNav: Task-Aligned LiDAR Range-Image Pretraining for Robot Navigation](https://arxiv.org/abs/2610.29845)
 - 2026-10-21 — [Reconstruction-Augmented Visuomotor Pre-Training of 3D-Grounded Bimanual Dexterity from RGB-Only Human Videos](https://arxiv.org/abs/2610.29716)
 - 2026-10-21 — [Distance Field Driven Reinforcement Learning for Reactive and Robust Collision Avoidance](https://arxiv.org/abs/2610.29452)
-- 2026-10-21 — [PRISM: Learning Realistic Depth via Physics-Grounded Noise Disentanglement with Semantic-Geometric Collaboration](https://arxiv.org/abs/2610.29432)
-- 2026-10-21 — [Integrating Flow Matching and Model Predictive Control for Safe Robot Navigation](https://arxiv.org/abs/2610.29377)
-- 2026-10-21 — [SimPT: An Automated Simulation Framework for Intervention-Based VLA Post-Training](https://arxiv.org/abs/2610.29161)
-- 2026-10-20 — [COWBOY: A Scalable Sim-to-Real Framework for Learning Contextual Whole-Body Manipulation](https://arxiv.org/abs/2610.28948)
-- 2026-10-20 — [T-WLA: Bridging Slow Vision and Fast Touch](https://arxiv.org/abs/2610.28814)
-- 2026-10-20 — [Physical Canvas: A Vision Tactile World Model For Robot Policy Evaluation And Learning](https://arxiv.org/abs/2610.28613)
-- 2026-10-20 — [SceneRig: An Agentic System for Simulation-Ready 3D Scene Reconstruction from Single Images](https://arxiv.org/abs/2610.28585)
 
 ## Method
 

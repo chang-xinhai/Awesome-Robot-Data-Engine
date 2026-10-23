@@ -4,12 +4,24 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-10-23 · **Papers:** 2323 · **Unique arXiv IDs:** 2323
+**Coverage:** 2025-01-01 to 2026-10-23 · **Papers:** 2335 · **Unique arXiv IDs:** 2335
 
 ## 2026-10
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-10-22 | [AgentVQA: A Unified Benchmark for Agentic Visual Understanding](https://arxiv.org/abs/2610.31494) | Advait Gupta, Sachin Konan, Tom Yin, et al. | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2610.31494) / [pdf](https://arxiv.org/pdf/2610.31494) |
+| 2026-10-22 | [Point-Level Refinable Semantic Mapping for Spatial Understanding](https://arxiv.org/abs/2610.31476) | Taimeng Fu, Yi Du, Zitong Zhan, et al. | cs.RO | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2610.31476) / [pdf](https://arxiv.org/pdf/2610.31476) |
+| 2026-10-22 | [Skeleton-Grounded Latent Action Model for Robot World Models](https://arxiv.org/abs/2610.31474) | Qi Lv, Jiayi Lin, Yuxin Jiang, et al. | cs.RO | Human-to-Robot | [abs](https://arxiv.org/abs/2610.31474) / [pdf](https://arxiv.org/pdf/2610.31474) |
+| 2026-10-22 | [PiHand: Latent Hand-Object Interaction Priors for Physics-Based Policy Learning](https://arxiv.org/abs/2610.31299) | Niklas Berndt, Xianghui Xie, Enes Duran, et al. | cs.CV | Hand-Object Interaction, Affordance / Contact | [abs](https://arxiv.org/abs/2610.31299) / [pdf](https://arxiv.org/pdf/2610.31299) |
+| 2026-10-22 | [Retrieval-Augmented Online Textual Memory for Episodic Memory Video Question Answering](https://arxiv.org/abs/2610.31284) | Raffaele Cali, Giuseppe Lando, Rosario Forte, et al. | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2610.31284) / [pdf](https://arxiv.org/pdf/2610.31284) |
+| 2026-10-22 | [RGraph-Eval: Task-Grounded Scene Graphs for Evaluating Robot Video Generation](https://arxiv.org/abs/2610.31121) | Aleksandr Lazarev, Sofia Zimina, Roman Kuznetsov, et al. | cs.RO | Human Video | [abs](https://arxiv.org/abs/2610.31121) / [pdf](https://arxiv.org/pdf/2610.31121) |
+| 2026-10-22 | [Demonstration-Based Robotic Feeding Using Dynamic Movement Primitives](https://arxiv.org/abs/2610.31020) | Kenzhi Iskandar Wong, Kitti Thamrongaphichartkul, Sri Harsha Turlapati, et al. | cs.RO | Human Demonstration | [abs](https://arxiv.org/abs/2610.31020) / [pdf](https://arxiv.org/pdf/2610.31020) |
+| 2026-10-22 | [TEAR: Task-Evidence Authority Routing for Robotic Manipulation](https://arxiv.org/abs/2610.30819) | Shicheng Zhang, Hui Liu, Haoliang Li | cs.RO | Affordance / Contact | [abs](https://arxiv.org/abs/2610.30819) / [pdf](https://arxiv.org/pdf/2610.30819) |
+| 2026-10-22 | [Robot Motion Transition with Human Motion Prior](https://arxiv.org/abs/2610.30817) | Taehyun Byun, Taemoon Jeong, Yoonbyung Chai, et al. | cs.RO | Human-to-Robot | [abs](https://arxiv.org/abs/2610.30817) / [pdf](https://arxiv.org/pdf/2610.30817) |
+| 2026-10-21 | [Motion Retargeting with Spatiotemporal Preferences for Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.30540) | Xiongbo Shi, Shihang Du, Zongyou Yu, et al. | cs.RO | Human Demonstration | [abs](https://arxiv.org/abs/2610.30540) / [pdf](https://arxiv.org/pdf/2610.30540) |
+| 2026-10-21 | [Self-Distilling Future Video Representations for World Action Models](https://arxiv.org/abs/2610.30320) | Huiwon Jang, Suhyeok Jang, Hyeonmo Kang, et al. | cs.RO, cs.CV | Human Video, Human-to-Robot | [abs](https://arxiv.org/abs/2610.30320) / [pdf](https://arxiv.org/pdf/2610.30320) |
+| 2026-10-21 | [EgoHand: Monocular 3D Hand Reconstruction from Egocentric Video](https://arxiv.org/abs/2610.30293) | Chao-Yeh Chen, Tiffany Chen, Lin Duan, et al. | cs.CV, cs.LG | Egocentric, Tracking / Reconstruction | [abs](https://arxiv.org/abs/2610.30293) / [pdf](https://arxiv.org/pdf/2610.30293) |
 | 2026-10-21 | [Agentic World Action Models](https://arxiv.org/abs/2610.30136) | Zhuoyang Liu, Dantong Niu, Botong Zhang, et al. | cs.RO | Human Video | [abs](https://arxiv.org/abs/2610.30136) / [pdf](https://arxiv.org/pdf/2610.30136) |
 | 2026-10-21 | [ProactEgoMem: Benchmarking Proactive Memory in Streaming Egocentric Video](https://arxiv.org/abs/2610.30089) | Ruotong Liao, Meikel Kokowski, Xiaoxiao Sun, et al. | cs.CV | Egocentric, Tracking / Reconstruction | [abs](https://arxiv.org/abs/2610.30089) / [pdf](https://arxiv.org/pdf/2610.30089) |
 | 2026-10-21 | [TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments](https://arxiv.org/abs/2610.30043) | Yicheng Xu, Zhikai Xu, Ziyuan Chen, et al. | cs.RO | Affordance / Contact | [abs](https://arxiv.org/abs/2610.30043) / [pdf](https://arxiv.org/pdf/2610.30043) |

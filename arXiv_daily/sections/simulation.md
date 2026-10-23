@@ -4,12 +4,19 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-10-23 · **Papers:** 2958 · **Unique arXiv IDs:** 2958
+**Coverage:** 2025-01-01 to 2026-10-23 · **Papers:** 2965 · **Unique arXiv IDs:** 2965
 
 ## 2026-10
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-10-22 | [OpenTac: An Open Ecosystem for Customizable, Scalable, and Transferable 3D Tactile Sensing](https://arxiv.org/abs/2610.31661) | Ariel Slepyan, Geeta Chandra Raju Bethala, Jiafeng Gu, et al. | cs.RO, eess.SP, eess.SY | Simulation Data | [abs](https://arxiv.org/abs/2610.31661) / [pdf](https://arxiv.org/pdf/2610.31661) |
+| 2026-10-22 | [Learning Robot Behavior Priors from Non-Robotic Synthetic Data](https://arxiv.org/abs/2610.31275) | Mateusz Odrowaz-Sypniewski, Michael Amir, Jasmine Bayrooti, et al. | cs.RO, cs.LG | Synthetic Data | [abs](https://arxiv.org/abs/2610.31275) / [pdf](https://arxiv.org/pdf/2610.31275) |
+| 2026-10-22 | [Revisiting Distribution Matching for State-to-Vision Policy Distillation in Laparoscopic Robotic Manipulation](https://arxiv.org/abs/2610.31010) | Mingyu Sheng, Jianan Fan, Dongnan Liu, et al. | cs.RO, cs.CV | Simulation Data | [abs](https://arxiv.org/abs/2610.31010) / [pdf](https://arxiv.org/pdf/2610.31010) |
+| 2026-10-22 | [In-Context Learning World Models for Robot Dual-Arm Manipulation of Soft Garment with Partial Observations](https://arxiv.org/abs/2610.30988) | Hengyi Sim, Quentin Rouxel, Dennis Hong, et al. | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2610.30988) / [pdf](https://arxiv.org/pdf/2610.30988) |
+| 2026-10-22 | [LocoManiLab: A Unified Testbed for Data, Policies, Controllers, and Deployment in Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.30876) | Dewei Wang, Jinrui Han, Jiyuan Shi, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2610.30876) / [pdf](https://arxiv.org/pdf/2610.30876) |
+| 2026-10-22 | [Adaptive Aerial Loco-Manipulation Policy Learning via LLM-Assisted Proactive Task Generation](https://arxiv.org/abs/2610.30810) | Jingyu Ru, Xiangyuan Xie, Lixuan Jin, et al. | cs.RO | Task / Scene Generation | [abs](https://arxiv.org/abs/2610.30810) / [pdf](https://arxiv.org/pdf/2610.30810) |
+| 2026-10-21 | [PhysibleMDM: Enforcing Inference-Time Physical Feasibility Constraints on Motion Diffusion Models via Noise Optimization](https://arxiv.org/abs/2610.30500) | Maximilian Stölzle, David Müller, Agon Serifi, et al. | cs.RO, cs.AI | Simulation Data | [abs](https://arxiv.org/abs/2610.30500) / [pdf](https://arxiv.org/pdf/2610.30500) |
 | 2026-10-21 | [RangeNav: Task-Aligned LiDAR Range-Image Pretraining for Robot Navigation](https://arxiv.org/abs/2610.29845) | Samuel Foo Enze, Manthan Patel, Fan Yang, et al. | cs.RO, cs.LG | Synthetic Data | [abs](https://arxiv.org/abs/2610.29845) / [pdf](https://arxiv.org/pdf/2610.29845) |
 | 2026-10-21 | [Reconstruction-Augmented Visuomotor Pre-Training of 3D-Grounded Bimanual Dexterity from RGB-Only Human Videos](https://arxiv.org/abs/2610.29716) | Xingyi He, Zhiwen Qiu, Adhitya Polavaram, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2610.29716) / [pdf](https://arxiv.org/pdf/2610.29716) |
 | 2026-10-21 | [Distance Field Driven Reinforcement Learning for Reactive and Robust Collision Avoidance](https://arxiv.org/abs/2610.29452) | Taiga Ikeshima, Sheila Sutjipto, Lan Wu, et al. | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2610.29452) / [pdf](https://arxiv.org/pdf/2610.29452) |

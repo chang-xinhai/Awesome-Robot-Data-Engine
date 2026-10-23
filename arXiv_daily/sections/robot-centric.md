@@ -4,14 +4,21 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-10-23 · **Papers:** 2511 · **Unique arXiv IDs:** 2511
+**Coverage:** 2025-01-01 to 2026-10-23 · **Papers:** 2518 · **Unique arXiv IDs:** 2518
 
 ## 2026-10
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-10-22 | [Learning Robot Behavior Priors from Non-Robotic Synthetic Data](https://arxiv.org/abs/2610.31275) | Mateusz Odrowaz-Sypniewski, Michael Amir, Jasmine Bayrooti, et al. | cs.RO, cs.LG | Robot Dataset, Data Collection | [abs](https://arxiv.org/abs/2610.31275) / [pdf](https://arxiv.org/pdf/2610.31275) |
+| 2026-10-22 | [UniFlowWAM: A Unified World-Action Model with Visual Semantics and 4D Geometry](https://arxiv.org/abs/2610.30991) | Jialin Tian, Zhuofan Li, Xinkai Wang, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2610.30991) / [pdf](https://arxiv.org/pdf/2610.30991) |
+| 2026-10-22 | [LocoManiLab: A Unified Testbed for Data, Policies, Controllers, and Deployment in Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.30876) | Dewei Wang, Jinrui Han, Jiyuan Shi, et al. | cs.RO | Teleoperation, Data Collection | [abs](https://arxiv.org/abs/2610.30876) / [pdf](https://arxiv.org/pdf/2610.30876) |
+| 2026-10-22 | [TEAR: Task-Evidence Authority Routing for Robotic Manipulation](https://arxiv.org/abs/2610.30819) | Shicheng Zhang, Hui Liu, Haoliang Li | cs.RO | Teleoperation, Human Intervention | [abs](https://arxiv.org/abs/2610.30819) / [pdf](https://arxiv.org/pdf/2610.30819) |
+| 2026-10-22 | [Robot Motion Transition with Human Motion Prior](https://arxiv.org/abs/2610.30817) | Taehyun Byun, Taemoon Jeong, Yoonbyung Chai, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2610.30817) / [pdf](https://arxiv.org/pdf/2610.30817) |
+| 2026-10-22 | [Co^2Gen: Collaboratively Generating Task Plans for Decentralized Multi-Robot and Human Collaboration](https://arxiv.org/abs/2610.30671) | Yi Loo, Siddhant Shrivastava, Minh Long Pham, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2610.30671) / [pdf](https://arxiv.org/pdf/2610.30671) |
+| 2026-10-22 | [PATH: Preference-Aware Traversability Estimation for Robotic Teleoperation in Off-Road Navigation](https://arxiv.org/abs/2610.30605) | Xianghao Meng, Wenshuo Wang, Cheng Shao, et al. | cs.RO, cs.HC | Teleoperation | [abs](https://arxiv.org/abs/2610.30605) / [pdf](https://arxiv.org/pdf/2610.30605) |
 | 2026-10-21 | [HuMiT: Low-Latency Whole-Body Humanoid Teleoperation via Compact Reference Tracking](https://arxiv.org/abs/2610.29903) | Liu Cao, Botian Xu, Ruoqu Chen, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2610.29903) / [pdf](https://arxiv.org/pdf/2610.29903) |
-| 2026-10-21 | [Robot Generalization Beyond Volume: The Diversity Path via Zero-Shot Capabilities](https://arxiv.org/abs/2610.29829) | Rafael Felix | cs.RO, cs.AI | Robot Data Processing | [abs](https://arxiv.org/abs/2610.29829) / [pdf](https://arxiv.org/pdf/2610.29829) |
+| 2026-10-21 | [Robot Generalization Beyond Volume: The Diversity Path via Zero-Shot Capabilities](https://arxiv.org/abs/2610.29829) | Rafael Felix, Flavia Yanase | cs.RO, cs.AI | Robot Data Processing | [abs](https://arxiv.org/abs/2610.29829) / [pdf](https://arxiv.org/pdf/2610.29829) |
 | 2026-10-21 | [Reconstruction-Augmented Visuomotor Pre-Training of 3D-Grounded Bimanual Dexterity from RGB-Only Human Videos](https://arxiv.org/abs/2610.29716) | Xingyi He, Zhiwen Qiu, Adhitya Polavaram, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2610.29716) / [pdf](https://arxiv.org/pdf/2610.29716) |
 | 2026-10-21 | [Toward Recursive Self-Improvement in Physical AI](https://arxiv.org/abs/2610.29677) | Meng Luo, Zechen Bai, Shanqing Xu, et al. | cs.RO, cs.AI | Autonomous Collection | [abs](https://arxiv.org/abs/2610.29677) / [pdf](https://arxiv.org/pdf/2610.29677) |
 | 2026-10-21 | [From Association to Decision Value: Testing Paired Instruction Dependence for VLA Corpus Selection](https://arxiv.org/abs/2610.29646) | Nurmukhambet Serikbayev, Abdul Basit, Muhammad Shafique | cs.AI | Robot Dataset | [abs](https://arxiv.org/abs/2610.29646) / [pdf](https://arxiv.org/pdf/2610.29646) |
