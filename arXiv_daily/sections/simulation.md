@@ -4,12 +4,19 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-10-26 · **Papers:** 2965 · **Unique arXiv IDs:** 2965
+**Coverage:** 2025-01-01 to 2026-10-26 · **Papers:** 2972 · **Unique arXiv IDs:** 2972
 
 ## 2026-10
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-10-23 | [SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning](https://arxiv.org/abs/2610.32978) | Yuhan Liu, Lianhui Qin, Shenji Wan | cs.CV, cs.AI, cs.RO | Task / Scene Generation, Simulation-Ready Asset | [abs](https://arxiv.org/abs/2610.32978) / [pdf](https://arxiv.org/pdf/2610.32978) |
+| 2026-10-23 | [HoloBoxing: A Simple Recipe for Humanoid Boxing with 7 Minutes of Single-GPU Training](https://arxiv.org/abs/2610.32909) | Xihan Ma, Bo Zhang, Boxiong Li, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2610.32909) / [pdf](https://arxiv.org/pdf/2610.32909) |
+| 2026-10-23 | [Regularised RL improves sim-to-real transfer](https://arxiv.org/abs/2610.32855) | Danilo Vucetic, Mohamad H. Danesh, Florence Clerc, et al. | cs.LG, cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2610.32855) / [pdf](https://arxiv.org/pdf/2610.32855) |
+| 2026-10-23 | [Coupling Execution Horizon and Sampling Depth in Flow-Matching VLA Policies](https://arxiv.org/abs/2610.32102) | Jiabing Yang, Yuan Xu, Yixiang Chen, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2610.32102) / [pdf](https://arxiv.org/pdf/2610.32102) |
+| 2026-10-22 | [Multimodal MPC via Bayesian Set Optimization for Dynamic Manipulation of Deformable Linear Objects](https://arxiv.org/abs/2610.31852) | Youyuan Long, Gokhan Solak, Arash Ajoudani | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2610.31852) / [pdf](https://arxiv.org/pdf/2610.31852) |
+| 2026-10-22 | [EgoForesight: Effectively Scaling Policy Learning with Noisy Egocentric Actions](https://arxiv.org/abs/2610.31845) | Chubin Zhang, Changyuan Wang, Yirui Wang, et al. | cs.RO, cs.CV | Simulation Data | [abs](https://arxiv.org/abs/2610.31845) / [pdf](https://arxiv.org/pdf/2610.31845) |
+| 2026-10-22 | [WorldMirror: Agentic Real-to-Sim Generation of Interactive Worlds from In-the-Wild Robot Demonstrations](https://arxiv.org/abs/2610.31834) | Tianling Xu, Weijie Wan, Honghao Su, et al. | cs.RO, cs.CV | Sim-to-Real, Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2610.31834) / [pdf](https://arxiv.org/pdf/2610.31834) |
 | 2026-10-22 | [OpenTac: An Open Ecosystem for Customizable, Scalable, and Transferable 3D Tactile Sensing](https://arxiv.org/abs/2610.31661) | Ariel Slepyan, Geeta Chandra Raju Bethala, Jiafeng Gu, et al. | cs.RO, eess.SP, eess.SY | Simulation Data | [abs](https://arxiv.org/abs/2610.31661) / [pdf](https://arxiv.org/pdf/2610.31661) |
 | 2026-10-22 | [Learning Robot Behavior Priors from Non-Robotic Synthetic Data](https://arxiv.org/abs/2610.31275) | Mateusz Odrowaz-Sypniewski, Michael Amir, Jasmine Bayrooti, et al. | cs.RO, cs.LG | Synthetic Data | [abs](https://arxiv.org/abs/2610.31275) / [pdf](https://arxiv.org/pdf/2610.31275) |
 | 2026-10-22 | [Revisiting Distribution Matching for State-to-Vision Policy Distillation in Laparoscopic Robotic Manipulation](https://arxiv.org/abs/2610.31010) | Mingyu Sheng, Jianan Fan, Dongnan Liu, et al. | cs.RO, cs.CV | Simulation Data | [abs](https://arxiv.org/abs/2610.31010) / [pdf](https://arxiv.org/pdf/2610.31010) |
