@@ -4,12 +4,23 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-10-28 · **Papers:** 2550 · **Unique arXiv IDs:** 2550
+**Coverage:** 2025-01-01 to 2026-10-28 · **Papers:** 2561 · **Unique arXiv IDs:** 2561
 
 ## 2026-10
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-10-27 | [ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning](https://arxiv.org/abs/2610.37666) | Chaehyun Kim, Chi-Pin Huang, Jisoo Kim, et al. | cs.RO, cs.AI, cs.CV | Robot Dataset | [abs](https://arxiv.org/abs/2610.37666) / [pdf](https://arxiv.org/pdf/2610.37666) |
+| 2026-10-27 | [Ego-CEVR: Learning Cross-Embodiment Visual Representations from Human Egocentric Videos](https://arxiv.org/abs/2610.37509) | Keru Zhou, Zhirui Fang, Xinrun Xu, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2610.37509) / [pdf](https://arxiv.org/pdf/2610.37509) |
+| 2026-10-27 | [Learning Quality-Controllable Robot Policies with Iterative Hindsight Relabeling](https://arxiv.org/abs/2610.37393) | Sinjae Kang, Dong Kyu Shin, Jaehong Kim, et al. | cs.RO, cs.AI, cs.LG | Robot Data Processing | [abs](https://arxiv.org/abs/2610.37393) / [pdf](https://arxiv.org/pdf/2610.37393) |
+| 2026-10-27 | [Generalizable Target-Less Joint Intrinsic-Extrinsic Camera-LiDAR Calibration using Deep Pixel-Point Correspondences](https://arxiv.org/abs/2610.37350) | Simon Bultmann, Daniele Cattaneo, Abhinav Valada | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2610.37350) / [pdf](https://arxiv.org/pdf/2610.37350) |
+| 2026-10-27 | [Tokens of Motion: Primitive Motion Learning for Human-Humanoid Skill Transfer](https://arxiv.org/abs/2610.37330) | Hanwen Ren, Meng Zheng, Wenzhe Cui, et al. | cs.RO | Human Intervention | [abs](https://arxiv.org/abs/2610.37330) / [pdf](https://arxiv.org/pdf/2610.37330) |
+| 2026-10-27 | [TAPESTRY: A Single Backbone for Video Generation and Robot Control](https://arxiv.org/abs/2610.36823) | Jeremy A. Collins, Seungjae Lee, Rachanon Wachakorn, et al. | cs.RO, cs.AI, cs.CV | Robot Dataset | [abs](https://arxiv.org/abs/2610.36823) / [pdf](https://arxiv.org/pdf/2610.36823) |
+| 2026-10-27 | [RynnWorld-Latent: A Cross-Embodiment World Model Conditioned on Universal Latent Actions](https://arxiv.org/abs/2610.36791) | Haoyu Zhao, Yinzhou Tang, Zixuan Wang, et al. | cs.RO | Teleoperation, Robot Dataset | [abs](https://arxiv.org/abs/2610.36791) / [pdf](https://arxiv.org/pdf/2610.36791) |
+| 2026-10-27 | [OpenJaws: An Open Hardware UMI Framework with Stereo Localization for Generalist Manipulation](https://arxiv.org/abs/2610.36598) | Adithyavairavan Murali, Yash Oza, Karanbir Chahal, et al. | cs.RO | Robot Data Processing | [abs](https://arxiv.org/abs/2610.36598) / [pdf](https://arxiv.org/pdf/2610.36598) |
+| 2026-10-27 | [CARD: Contact-Anchored Retargeting for Dexterous Manipulation](https://arxiv.org/abs/2610.36539) | Cunxi Dai, Botao He, Francois R Hogan, et al. | cs.RO | Teleoperation, Data Collection | [abs](https://arxiv.org/abs/2610.36539) / [pdf](https://arxiv.org/pdf/2610.36539) |
+| 2026-10-27 | [GRAFT: Geometry-Aware Residual Adaptation for Foundation Trackers](https://arxiv.org/abs/2610.36507) | Liang Li, Guoyao Zhang, Xingyu Chen, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2610.36507) / [pdf](https://arxiv.org/pdf/2610.36507) |
+| 2026-10-26 | [Rollback: Experience Backtracking in World Models for Policy Improvement](https://arxiv.org/abs/2610.36068) | Jiayi Luo, Yang Zhang, Liliang Chen, et al. | cs.RO, cs.AI, cs.LG | Teleoperation | [abs](https://arxiv.org/abs/2610.36068) / [pdf](https://arxiv.org/pdf/2610.36068) |
 | 2026-10-26 | [Learning Force-Reactive Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.35862) | Sihang Li, Xiaofeng Guo, Jinkun Cao, et al. | cs.RO, cs.AI, cs.LG | Data Collection | [abs](https://arxiv.org/abs/2610.35862) / [pdf](https://arxiv.org/pdf/2610.35862) |
 | 2026-10-26 | [Pretraining Knows What, Simulation Teaches How: Compositional Generalization in a Sim-Trained Robot Agent](https://arxiv.org/abs/2610.35817) | Benjamin Pikus, Daniel Saunders, Mircea Mironenco, et al. | cs.RO, cs.AI, cs.CV | Robot Dataset | [abs](https://arxiv.org/abs/2610.35817) / [pdf](https://arxiv.org/pdf/2610.35817) |
 | 2026-10-26 | [Robot-Aligned 3D Gaussian Splatting for Precise Reaching with Wrist-Camera VLA Policies](https://arxiv.org/abs/2610.35626) | Zuoxu Wang, Xiao Liang | cs.RO | Teleoperation, Robot Dataset, Data Collection | [abs](https://arxiv.org/abs/2610.35626) / [pdf](https://arxiv.org/pdf/2610.35626) |

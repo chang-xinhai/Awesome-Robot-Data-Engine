@@ -4,12 +4,13 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-10-28 · **Papers:** 98 · **Unique arXiv IDs:** 98
+**Coverage:** 2025-01-01 to 2026-10-28 · **Papers:** 99 · **Unique arXiv IDs:** 99
 
 ## 2026-10
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-10-27 | [OpenJaws: An Open Hardware UMI Framework with Stereo Localization for Generalist Manipulation](https://arxiv.org/abs/2610.36598) | Adithyavairavan Murali, Yash Oza, Karanbir Chahal, et al. | cs.RO | Universal Manipulation Interface, Handheld Gripper | [abs](https://arxiv.org/abs/2610.36598) / [pdf](https://arxiv.org/pdf/2610.36598) |
 | 2026-10-26 | [Learning Force-Reactive Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.35862) | Sihang Li, Xiaofeng Guo, Jinkun Cao, et al. | cs.RO, cs.AI, cs.LG | Universal Manipulation Interface | [abs](https://arxiv.org/abs/2610.35862) / [pdf](https://arxiv.org/pdf/2610.35862) |
 | 2026-10-26 | [Robot-Aligned 3D Gaussian Splatting for Precise Reaching with Wrist-Camera VLA Policies](https://arxiv.org/abs/2610.35626) | Zuoxu Wang, Xiao Liang | cs.RO | Wrist-Sensor Demonstration | [abs](https://arxiv.org/abs/2610.35626) / [pdf](https://arxiv.org/pdf/2610.35626) |
 | 2026-10-26 | [DEX-PHD: A Dexterous Portable Handheld Device for Multimodal Data Collection](https://arxiv.org/abs/2610.35462) | Jooyoung Hong, Noboru Myers, Obin Kwon, et al. | cs.RO | Handheld Gripper | [abs](https://arxiv.org/abs/2610.35462) / [pdf](https://arxiv.org/pdf/2610.35462) |

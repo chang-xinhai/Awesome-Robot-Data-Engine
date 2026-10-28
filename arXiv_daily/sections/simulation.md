@@ -4,12 +4,23 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-10-28 · **Papers:** 2990 · **Unique arXiv IDs:** 2990
+**Coverage:** 2025-01-01 to 2026-10-28 · **Papers:** 3001 · **Unique arXiv IDs:** 3001
 
 ## 2026-10
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-10-27 | [Pushing Dexterity and Safety for In-Hand Object Pose Reaching That Works Remarkably Well](https://arxiv.org/abs/2610.37652) | Ian Chuang, Hiya Shah, Vamsi Chilamkur, et al. | cs.RO, cs.LG, eess.SY | Simulation Data | [abs](https://arxiv.org/abs/2610.37652) / [pdf](https://arxiv.org/pdf/2610.37652) |
+| 2026-10-27 | [Kinematic Constraint-Referenced Evaluation for Articulated Object Manipulation](https://arxiv.org/abs/2610.37550) | Baptiste Bonin, Caro Strickland, Audrey Durand | cs.RO, cs.AI | Simulation Data | [abs](https://arxiv.org/abs/2610.37550) / [pdf](https://arxiv.org/pdf/2610.37550) |
+| 2026-10-27 | [MCP-Net: Real-Time Coronary Perception Network and Topological Analysis for Robotic Guidewire Navigation](https://arxiv.org/abs/2610.37127) | Sahar Nasirihaghighi, Tianyuan Wang, Kenan Niu, et al. | cs.CV, cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2610.37127) / [pdf](https://arxiv.org/pdf/2610.37127) |
+| 2026-10-27 | [RAVEN: A Unified Active SLAM System for Rapid Autonomous Visual Exploration with Aerial Robots under Localization Uncertainty](https://arxiv.org/abs/2610.37111) | Xinyi Chen, Yichen Zhang, Chenxing Jiang, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2610.37111) / [pdf](https://arxiv.org/pdf/2610.37111) |
+| 2026-10-27 | [State estimation for a hybrid rigid-continuum space manipulator system](https://arxiv.org/abs/2610.37043) | Lorenzo Ticozzi, Patricio A. Vela, Panagiotis Tsiotras | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2610.37043) / [pdf](https://arxiv.org/pdf/2610.37043) |
+| 2026-10-27 | [ActiveAlign: Aligning Egocentric Manipulation via Active Perception](https://arxiv.org/abs/2610.36859) | Ri-Zhao Qiu, Bowen Wen, Yifeng Jiang, et al. | cs.RO, cs.AI, cs.CV | Sim-to-Real | [abs](https://arxiv.org/abs/2610.36859) / [pdf](https://arxiv.org/pdf/2610.36859) |
+| 2026-10-27 | [Trace-WAM: Learning to Act via 3D Motion Prediction for World Action Models](https://arxiv.org/abs/2610.36840) | Xu Hu, Changjie Wu, Linzhe Shi, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2610.36840) / [pdf](https://arxiv.org/pdf/2610.36840) |
+| 2026-10-27 | [TAPESTRY: A Single Backbone for Video Generation and Robot Control](https://arxiv.org/abs/2610.36823) | Jeremy A. Collins, Seungjae Lee, Rachanon Wachakorn, et al. | cs.RO, cs.AI, cs.CV | Simulation Data | [abs](https://arxiv.org/abs/2610.36823) / [pdf](https://arxiv.org/pdf/2610.36823) |
+| 2026-10-27 | [From Biological Curves to Soft Modular Robots: Learning-Based Inverse Design with Uncertainty-Guided Refinement](https://arxiv.org/abs/2610.36681) | Dixiang Wang, Minghao Zha, Arifur Rahman, et al. | cs.RO, cs.LG | Sim-to-Real | [abs](https://arxiv.org/abs/2610.36681) / [pdf](https://arxiv.org/pdf/2610.36681) |
+| 2026-10-27 | [LabWorld: Learning Interactive 4D Worlds for Scientific Experimentation](https://arxiv.org/abs/2610.36592) | Suozhi Huang, Kelsey Fu, Binxu Li, et al. | cs.CV | Sim-to-Real | [abs](https://arxiv.org/abs/2610.36592) / [pdf](https://arxiv.org/pdf/2610.36592) |
+| 2026-10-27 | [SO-101 Bench: Accessible Spatial Manipulation](https://arxiv.org/abs/2610.36420) | Truman Hickok | cs.CV | Simulation Data, Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2610.36420) / [pdf](https://arxiv.org/pdf/2610.36420) |
 | 2026-10-26 | [Nonprehensile Robotic Catching Using Virtual Constraints](https://arxiv.org/abs/2610.35851) | Aakash Khandelwal, Ranjan Mukherjee | eess.SY, cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2610.35851) / [pdf](https://arxiv.org/pdf/2610.35851) |
 | 2026-10-26 | [Pretraining Knows What, Simulation Teaches How: Compositional Generalization in a Sim-Trained Robot Agent](https://arxiv.org/abs/2610.35817) | Benjamin Pikus, Daniel Saunders, Mircea Mironenco, et al. | cs.RO, cs.AI, cs.CV | Simulation Data | [abs](https://arxiv.org/abs/2610.35817) / [pdf](https://arxiv.org/pdf/2610.35817) |
 | 2026-10-26 | [Robot-Aligned 3D Gaussian Splatting for Precise Reaching with Wrist-Camera VLA Policies](https://arxiv.org/abs/2610.35626) | Zuoxu Wang, Xiao Liang | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2610.35626) / [pdf](https://arxiv.org/pdf/2610.35626) |
