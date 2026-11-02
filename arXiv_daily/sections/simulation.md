@@ -4,12 +4,22 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-11-02 · **Papers:** 3020 · **Unique arXiv IDs:** 3020
+**Coverage:** 2025-01-01 to 2026-11-02 · **Papers:** 3030 · **Unique arXiv IDs:** 3030
 
 ## 2026-10
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-10-30 | [CausalWAM: Learning the Causes of Actions in World Action Models](https://arxiv.org/abs/2610.42096) | Juntao Cheng, Jinzhou Tang, Fan Feng, et al. | cs.AI, cs.RO, stat.ML | Synthetic Data | [abs](https://arxiv.org/abs/2610.42096) / [pdf](https://arxiv.org/pdf/2610.42096) |
+| 2026-10-30 | [A Hybrid Path Planning Framework for Assistive Wheelchair Navigation in Dynamic Pedestrian Environments](https://arxiv.org/abs/2610.42049) | Damla Leblebicioğlu, Rachel Barume, Taşkın Padır | cs.RO, eess.SY | Trajectory Generation | [abs](https://arxiv.org/abs/2610.42049) / [pdf](https://arxiv.org/pdf/2610.42049) |
+| 2026-10-30 | [Design and Validation of a Robotic Knee Exoskeleton with Musculoskeletal Simulation-Derived Biological Torque Control](https://arxiv.org/abs/2610.41981) | Rajiv V. Joshi, Jimin An, Ilseung Park, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2610.41981) / [pdf](https://arxiv.org/pdf/2610.41981) |
+| 2026-10-30 | [When the Simulator Fails, Not the Policy: Auditing Contact Artifacts in Simulated Robot Benchmarks](https://arxiv.org/abs/2610.41857) | Alex Zhou, Junhao Wu, Xueyang Zhou, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2610.41857) / [pdf](https://arxiv.org/pdf/2610.41857) |
+| 2026-10-30 | [Direct Action-Manifold Modeling for Efficient and Robust Bimanual Manipulation](https://arxiv.org/abs/2610.41643) | Hongren Wang, Mingyu You, Zihan Li, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2610.41643) / [pdf](https://arxiv.org/pdf/2610.41643) |
+| 2026-10-30 | [DiffWBC: Unlocking Steerable General Humanoid Motion Tracking via One-Step Diffusion Whole-Body Control](https://arxiv.org/abs/2610.41354) | Yifei Huang, Yazhao Yang, Weijia Li, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2610.41354) / [pdf](https://arxiv.org/pdf/2610.41354) |
+| 2026-10-30 | [Joint-Health-Aware Reinforcement Learning for Robust Robot Control Under Actuator Degradation](https://arxiv.org/abs/2610.41348) | Haifa Zhang, Yijing Wang, Zhiqiang Zuo | cs.RO, cs.CV | Domain Randomization | [abs](https://arxiv.org/abs/2610.41348) / [pdf](https://arxiv.org/pdf/2610.41348) |
+| 2026-10-30 | [Cross-Embodiment Motion Planning by Coupling Body-Agnostic World Model with Differentiable Ego-Dynamics](https://arxiv.org/abs/2610.41330) | Zhidong Wang, Zirui Li, Haoran Xu, et al. | cs.RO | Synthetic Data | [abs](https://arxiv.org/abs/2610.41330) / [pdf](https://arxiv.org/pdf/2610.41330) |
+| 2026-10-30 | [FlowMoDE: Coarse-to-fine Flow Matching for Detail-aware Sim-to-Real Monocular Depth Estimation](https://arxiv.org/abs/2610.41190) | Liangjing Shao, Wanhao Liu, Jinsong Lin, et al. | cs.CV | Sim-to-Real, Synthetic Data | [abs](https://arxiv.org/abs/2610.41190) / [pdf](https://arxiv.org/pdf/2610.41190) |
+| 2026-10-29 | [CaPtain: A Pipeline for Post-Training Code-as-Policy Robot Agents](https://arxiv.org/abs/2610.40799) | Yijia Fan, Xilin He, Yilei Jiang, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2610.40799) / [pdf](https://arxiv.org/pdf/2610.40799) |
 | 2026-10-29 | [Gym-Anything for Robotics: Scaling physical simulations with digital agents](https://arxiv.org/abs/2610.40565) | Pranjal Aggarwal, Sean Welleck | cs.RO, cs.AI, cs.LG | Simulation Data | [abs](https://arxiv.org/abs/2610.40565) / [pdf](https://arxiv.org/pdf/2610.40565) |
 | 2026-10-29 | [BURGER: Benchmarking and Understanding Robotic Generalization via Embodied Drawing](https://arxiv.org/abs/2610.40532) | Xiangyu Xu, Bangshuai Peng, Ziyi Liu, et al. | cs.RO, cs.AI | Trajectory Generation | [abs](https://arxiv.org/abs/2610.40532) / [pdf](https://arxiv.org/pdf/2610.40532) |
 | 2026-10-29 | [Fundamental Limits of Sampling-Based Reachability: Geometry and Flow Distortion](https://arxiv.org/abs/2610.40473) | Jixian Liu, Ihab Tabbara, Hussein Sibai, et al. | eess.SY, cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2610.40473) / [pdf](https://arxiv.org/pdf/2610.40473) |

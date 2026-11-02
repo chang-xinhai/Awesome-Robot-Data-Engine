@@ -4,12 +4,18 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-11-02 · **Papers:** 2580 · **Unique arXiv IDs:** 2580
+**Coverage:** 2025-01-01 to 2026-11-02 · **Papers:** 2586 · **Unique arXiv IDs:** 2586
 
 ## 2026-10
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-10-30 | [Design and Validation of a Robotic Knee Exoskeleton with Musculoskeletal Simulation-Derived Biological Torque Control](https://arxiv.org/abs/2610.41981) | Rajiv V. Joshi, Jimin An, Ilseung Park, et al. | cs.RO | Data Collection | [abs](https://arxiv.org/abs/2610.41981) / [pdf](https://arxiv.org/pdf/2610.41981) |
+| 2026-10-30 | [Sensorium: An Open-Source Multimodal Data Collection and Curation Library for Embodied Surgical AI](https://arxiv.org/abs/2610.41946) | Lorenzo Mazza, Ariel Rodriguez, Stefanie Speidel | cs.AI, cs.RO | Data Collection | [abs](https://arxiv.org/abs/2610.41946) / [pdf](https://arxiv.org/pdf/2610.41946) |
+| 2026-10-30 | [ResMerge: Residual Policy Learning and Merging for Continual Adaptation of Pre-trained Robot Policies](https://arxiv.org/abs/2610.41663) | Kefei Zhu, Lingyun Xu, Yue Xin, et al. | cs.RO | Data Collection | [abs](https://arxiv.org/abs/2610.41663) / [pdf](https://arxiv.org/pdf/2610.41663) |
+| 2026-10-30 | [Cross-Embodiment Motion Planning by Coupling Body-Agnostic World Model with Differentiable Ego-Dynamics](https://arxiv.org/abs/2610.41330) | Zhidong Wang, Zirui Li, Haoran Xu, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2610.41330) / [pdf](https://arxiv.org/pdf/2610.41330) |
+| 2026-10-30 | [TinyAstral: Transferring Self-Evolving Harnesses to Tiny Generalist Manipulation Agents](https://arxiv.org/abs/2610.41216) | Kehong Gong, Xiaoxu Zheng, Guanli Hou, et al. | cs.RO, cs.CV | Autonomous Collection | [abs](https://arxiv.org/abs/2610.41216) / [pdf](https://arxiv.org/pdf/2610.41216) |
+| 2026-10-29 | [From Teleoperation to Long-Horizon Dexterity: Evaluating Visuomotor Skills and Offline Proxies for Dexterous Manipulation](https://arxiv.org/abs/2610.40828) | Ammar N. Abbas, Aayush Jain, Prashanth Viswanath, et al. | cs.RO, cs.AI, cs.LG | Teleoperation | [abs](https://arxiv.org/abs/2610.40828) / [pdf](https://arxiv.org/pdf/2610.40828) |
 | 2026-10-29 | [SwapBot: Tool-Centric Robot Manipulation via Interchangeable End-Effectors and Tactile Sensing](https://arxiv.org/abs/2610.40646) | Yunchu Zhang, Ray Song, Junhan Jiao, et al. | cs.RO | Teleoperation, Data Collection | [abs](https://arxiv.org/abs/2610.40646) / [pdf](https://arxiv.org/pdf/2610.40646) |
 | 2026-10-29 | [BURGER: Benchmarking and Understanding Robotic Generalization via Embodied Drawing](https://arxiv.org/abs/2610.40532) | Xiangyu Xu, Bangshuai Peng, Ziyi Liu, et al. | cs.RO, cs.AI | Robot Dataset, Human Intervention | [abs](https://arxiv.org/abs/2610.40532) / [pdf](https://arxiv.org/pdf/2610.40532) |
 | 2026-10-29 | [Is It the Curriculum or Just the Easy Start? Benchmarking Unsupervised Environment Design on Quadrupeds](https://arxiv.org/abs/2610.40364) | Jakub Gilewicz, Dominik Galus, Piotr Wojdas | cs.LG, cs.RO | Data Collection | [abs](https://arxiv.org/abs/2610.40364) / [pdf](https://arxiv.org/pdf/2610.40364) |

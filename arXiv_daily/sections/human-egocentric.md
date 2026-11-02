@@ -4,12 +4,23 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-11-02 · **Papers:** 2383 · **Unique arXiv IDs:** 2383
+**Coverage:** 2025-01-01 to 2026-11-02 · **Papers:** 2394 · **Unique arXiv IDs:** 2394
 
 ## 2026-10
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-10-30 | [Nexus-VLA: Bridging Human and Robot Experiences via a Shared Hierarchical Semantic Latent Space](https://arxiv.org/abs/2610.42021) | Biaoliang Guan, Tingyu Yuan, Wen Ye, et al. | cs.RO | Egocentric, Human Video | [abs](https://arxiv.org/abs/2610.42021) / [pdf](https://arxiv.org/pdf/2610.42021) |
+| 2026-10-30 | [Movens-Zero: Scaling Humanoid Motion Foundation Models with Large-Scale Human Videos](https://arxiv.org/abs/2610.41877) | Wendong Bu, Tinghong Ye, Qizhou Wang, et al. | cs.RO, cs.CV | Human Video | [abs](https://arxiv.org/abs/2610.41877) / [pdf](https://arxiv.org/pdf/2610.41877) |
+| 2026-10-30 | [$\nabla$Mimic: Ultra-Efficient Humanoid Control with Differentiable Simulation](https://arxiv.org/abs/2610.41654) | Weyl Lu, Yubei Chen | cs.RO, cs.LG | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2610.41654) / [pdf](https://arxiv.org/pdf/2610.41654) |
+| 2026-10-30 | [DUGO: Dual-Scale Gaussian Memory for Online Temporal Action Localization in Egocentric Procedural Videos](https://arxiv.org/abs/2610.41402) | Mohammed Aman Bhuiyan, Md. Sazzad Hossain Adib, Samiul Basir Bhuiyan, et al. | cs.CV, cs.LG | Egocentric | [abs](https://arxiv.org/abs/2610.41402) / [pdf](https://arxiv.org/pdf/2610.41402) |
+| 2026-10-30 | [Geometry-Aware Humanoid Retargeting via Manifold ODEs](https://arxiv.org/abs/2610.41349) | Pengyu Zhu, Heye Wang, Xi Wang, et al. | cs.RO | Human Demonstration | [abs](https://arxiv.org/abs/2610.41349) / [pdf](https://arxiv.org/pdf/2610.41349) |
+| 2026-10-30 | [HandMimicX: Learning Human-Like Dexterous Manipulation via an Object-Centric Policy from Egocentric Videos](https://arxiv.org/abs/2610.41336) | Zihan Gao, Yufei Liu, Yuhong Zhang, et al. | cs.RO | Egocentric, Hand-Object Interaction, Human Video | [abs](https://arxiv.org/abs/2610.41336) / [pdf](https://arxiv.org/pdf/2610.41336) |
+| 2026-10-30 | [Hawkeye: Reading Illegible Text with Vision Language Models](https://arxiv.org/abs/2610.41254) | Brian Tang, Kang G. Shin | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2610.41254) / [pdf](https://arxiv.org/pdf/2610.41254) |
+| 2026-10-30 | [MotorSense: A Video-EMG Dataset of Motoric Representations for Action Understanding](https://arxiv.org/abs/2610.41127) | Eadom Dessalene, Michael Maynord, Amir-Hossein Shahidzadeh, et al. | cs.CV, cs.RO | Egocentric, Tracking / Reconstruction, Affordance / Contact | [abs](https://arxiv.org/abs/2610.41127) / [pdf](https://arxiv.org/pdf/2610.41127) |
+| 2026-10-29 | [Contact Imitation Interface: Transferring Dexterous Skills by Showing How Contact Unfolds](https://arxiv.org/abs/2610.41028) | Zhixuan Xu, Yichen Li, Bingchen Wu, et al. | cs.RO | Human Demonstration | [abs](https://arxiv.org/abs/2610.41028) / [pdf](https://arxiv.org/pdf/2610.41028) |
+| 2026-10-29 | [EgoHSI3R: Online 4D Hand-Scene Interaction Reconstruction from Egocentric Video](https://arxiv.org/abs/2610.40832) | Mingzhi Pei, Zhangchen Ye, Ruoqu Chen, et al. | cs.CV | Egocentric, Tracking / Reconstruction, Affordance / Contact | [abs](https://arxiv.org/abs/2610.40832) / [pdf](https://arxiv.org/pdf/2610.40832) |
+| 2026-10-29 | [WorldBridge: Bridging Video and Action for Task Generalization in World Action Models](https://arxiv.org/abs/2610.40748) | Jun Cen, Yubo Guo, Hao Li, et al. | cs.RO | Egocentric, Human Video | [abs](https://arxiv.org/abs/2610.40748) / [pdf](https://arxiv.org/pdf/2610.40748) |
 | 2026-10-29 | [Probing Spatial State Representations in Visual Foundation Models](https://arxiv.org/abs/2610.40636) | Baiqiao Yin, Zhongang Cai, Ruisi Wang, et al. | cs.CV, cs.AI | Egocentric | [abs](https://arxiv.org/abs/2610.40636) / [pdf](https://arxiv.org/pdf/2610.40636) |
 | 2026-10-29 | [TouchBridge: Tactile-Conditioned Human-to-Robot Transfer for Dexterous Manipulation](https://arxiv.org/abs/2610.40349) | Haozhe Zhang, Gu Zhang, Zirui Zou, et al. | cs.RO | Human Demonstration, Human-to-Robot, Affordance / Contact | [abs](https://arxiv.org/abs/2610.40349) / [pdf](https://arxiv.org/pdf/2610.40349) |
 | 2026-10-29 | [AcrossDEX 1.0: From Human Motion Pretraining to Bimanual Dexterous Manipulation across Hand Embodiments](https://arxiv.org/abs/2610.40210) | Xiaoyu Yang, Nan Wu | cs.RO | Human Video, Affordance / Contact | [abs](https://arxiv.org/abs/2610.40210) / [pdf](https://arxiv.org/pdf/2610.40210) |
