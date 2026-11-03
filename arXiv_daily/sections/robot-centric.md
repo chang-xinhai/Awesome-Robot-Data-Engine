@@ -4,12 +4,32 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-11-03 · **Papers:** 2586 · **Unique arXiv IDs:** 2586
+**Coverage:** 2025-01-01 to 2026-11-03 · **Papers:** 2601 · **Unique arXiv IDs:** 2601
+
+## 2026-11
+
+| Date | Paper | Authors | Categories | Matched signals | Links |
+| :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-11-02 | [Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation](https://arxiv.org/abs/2611.03648) | Tony Tao, Jason Jingzhou Liu, Ruslan Salakhutdinov, et al. | cs.RO, cs.AI, cs.CV | Teleoperation, Robot Dataset, Data Collection, Scalable Demonstrations | [abs](https://arxiv.org/abs/2611.03648) / [pdf](https://arxiv.org/pdf/2611.03648) |
+| 2026-11-02 | [Pixel-UMI: Learning Environment-Aware Whole-Body Manipulation from Sensorized Human Demonstrations](https://arxiv.org/abs/2611.03647) | Jason Jingzhou Liu, Tony Tao, Deepak Pathak, et al. | cs.RO, cs.AI, cs.CV | Human Intervention | [abs](https://arxiv.org/abs/2611.03647) / [pdf](https://arxiv.org/pdf/2611.03647) |
+| 2026-11-02 | [Mediating Human-Swarm Interactions Through a Robot Helper: A Shepherding-Inspired Approach](https://arxiv.org/abs/2611.03548) | Arihant Yadav, Sophie Jörg, Eakta Jain | cs.RO, cs.HC | Teleoperation | [abs](https://arxiv.org/abs/2611.03548) / [pdf](https://arxiv.org/pdf/2611.03548) |
+| 2026-11-02 | [Rollout then Recycle: 3,718 Labelled Real-Robot Episodes from Benchmarking 7 Policies on 12 Tasks](https://arxiv.org/abs/2611.03168) | Praveen Selvaraj, Lorenzo Uttini, Ville Kuosmanen | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2611.03168) / [pdf](https://arxiv.org/pdf/2611.03168) |
+| 2026-11-02 | [KlaskTron-IL: A Contact-Rich Adversarial Imitation Learning Benchmark with a Validated Sim-to-Real Bridge](https://arxiv.org/abs/2611.03091) | Nicklas Sohm, Aswin Ramachandran, Raffaello D'Andrea | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2611.03091) / [pdf](https://arxiv.org/pdf/2611.03091) |
+| 2026-11-02 | [Beyond Policy Patches: Distilling RL Specialists into Vision-Language-Action Policies](https://arxiv.org/abs/2611.02777) | Zhennan Jiang, Tingying Xie, Shilong Ji, et al. | cs.RO | Data Collection | [abs](https://arxiv.org/abs/2611.02777) / [pdf](https://arxiv.org/pdf/2611.02777) |
+| 2026-11-02 | [DexArena: A Unified Benchmark for Long-Horizon Dexterous Manipulation](https://arxiv.org/abs/2611.02629) | Haonan Ping, Jianshu Hu, Yimin Wang, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2611.02629) / [pdf](https://arxiv.org/pdf/2611.02629) |
+| 2026-11-02 | [Neuro Inspired Robotics: What Robot Learning Can Borrow from the Sensorimotor Brain](https://arxiv.org/abs/2611.02510) | Ruihan Zhang, Davy Deng | cs.RO, cs.AI | Autonomous Collection | [abs](https://arxiv.org/abs/2611.02510) / [pdf](https://arxiv.org/pdf/2611.02510) |
+| 2026-11-01 | [Human Sensorimotor Model Adaptation to Account for Robot Accuracy and Speed Augmentation in Human-Robot Co-Manipulation](https://arxiv.org/abs/2611.02181) | Frits van Hall, Kevin Haninger, Luka Peternel | cs.RO | Robot Data Processing | [abs](https://arxiv.org/abs/2611.02181) / [pdf](https://arxiv.org/pdf/2611.02181) |
+| 2026-11-01 | [Teleoperation System for Service Robots using Virtual Reality Headset and Pose Estimation](https://arxiv.org/abs/2611.01759) | Eduardo Fernandes, Tiago Ribeiro, Antonio Ribeiro, et al. | cs.CV | Teleoperation | [abs](https://arxiv.org/abs/2611.01759) / [pdf](https://arxiv.org/pdf/2611.01759) |
+| 2026-11-01 | [CompliantBot: Learning Whole-Body Compliance across Task Interfaces for Humanoid Control](https://arxiv.org/abs/2611.01748) | Haoyang Li, Keqi Zhu, Zhanxiang Cao, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2611.01748) / [pdf](https://arxiv.org/pdf/2611.01748) |
 
 ## 2026-10
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-10-31 | [WorldSketch: Sketching World Models for Zero-Shot Mobile Manipulation](https://arxiv.org/abs/2611.00513) | Jiaming Wang | cs.RO | Autonomous Collection | [abs](https://arxiv.org/abs/2611.00513) / [pdf](https://arxiv.org/pdf/2611.00513) |
+| 2026-10-30 | [Behavior Graphs: Unsupervised Graph Structures for Interpreting Robot Deployment Data](https://arxiv.org/abs/2611.00405) | Erik Bauer, Jakob Thumm, Christopher Agia, et al. | cs.RO | Data Collection | [abs](https://arxiv.org/abs/2611.00405) / [pdf](https://arxiv.org/pdf/2611.00405) |
+| 2026-10-30 | [Teach, Abstract, Apply: A Framework for Dialogue-Driven Task Learning with Collaborative Robots](https://arxiv.org/abs/2611.00297) | Chalamalasetti Kranti, Sherzod Hakimov, David Schlangen | cs.RO, cs.CL | Human Intervention | [abs](https://arxiv.org/abs/2611.00297) / [pdf](https://arxiv.org/pdf/2611.00297) |
+| 2026-10-30 | [Anchor 1: Precise and Stable Humanoid Control for Whole-Body Manipulation](https://arxiv.org/abs/2611.00193) | Archon Robotics, :, Caojun Wang, et al. | cs.RO | Teleoperation, Data Collection | [abs](https://arxiv.org/abs/2611.00193) / [pdf](https://arxiv.org/pdf/2611.00193) |
 | 2026-10-30 | [Design and Validation of a Robotic Knee Exoskeleton with Musculoskeletal Simulation-Derived Biological Torque Control](https://arxiv.org/abs/2610.41981) | Rajiv V. Joshi, Jimin An, Ilseung Park, et al. | cs.RO | Data Collection | [abs](https://arxiv.org/abs/2610.41981) / [pdf](https://arxiv.org/pdf/2610.41981) |
 | 2026-10-30 | [Sensorium: An Open-Source Multimodal Data Collection and Curation Library for Embodied Surgical AI](https://arxiv.org/abs/2610.41946) | Lorenzo Mazza, Ariel Rodriguez, Stefanie Speidel | cs.AI, cs.RO | Data Collection | [abs](https://arxiv.org/abs/2610.41946) / [pdf](https://arxiv.org/pdf/2610.41946) |
 | 2026-10-30 | [ResMerge: Residual Policy Learning and Merging for Continual Adaptation of Pre-trained Robot Policies](https://arxiv.org/abs/2610.41663) | Kefei Zhu, Lingyun Xu, Yue Xin, et al. | cs.RO | Data Collection | [abs](https://arxiv.org/abs/2610.41663) / [pdf](https://arxiv.org/pdf/2610.41663) |
@@ -23,7 +43,7 @@
 | 2026-10-29 | [AcrossDEX 1.0: From Human Motion Pretraining to Bimanual Dexterous Manipulation across Hand Embodiments](https://arxiv.org/abs/2610.40210) | Xiaoyu Yang, Nan Wu | cs.RO | Robot Dataset, Data Collection | [abs](https://arxiv.org/abs/2610.40210) / [pdf](https://arxiv.org/pdf/2610.40210) |
 | 2026-10-29 | [RoboAtom: Large-scale Atomic-Action Supervision for Robot Learning](https://arxiv.org/abs/2610.40207) | Xueyuan Wei, Xuanxu Wang, Xudong Li, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2610.40207) / [pdf](https://arxiv.org/pdf/2610.40207) |
 | 2026-10-29 | [Gaze-Assisted Supervisory Control for Lunar Robotic Arm Teleoperation Under Concurrent Monitoring](https://arxiv.org/abs/2610.39998) | Jiayu He, Yifan Li, Oliver R. Runswick, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2610.39998) / [pdf](https://arxiv.org/pdf/2610.39998) |
-| 2026-10-29 | [UMI-Live for In-The-Wild Bimanual Robotics Data Collection](https://arxiv.org/abs/2610.39385) | Govind Velamoor, Adrian Lin, Sam Jung, et al. | cs.RO, cs.AI | Teleoperation, Data Collection | [abs](https://arxiv.org/abs/2610.39385) / [pdf](https://arxiv.org/pdf/2610.39385) |
+| 2026-10-29 | [UMI-Live for In-The-Wild Bimanual Robotics Data Collection](https://arxiv.org/abs/2610.39385) | Govind Velamoor, Adrian Lin, Sam Jung, et al. | cs.RO, cs.AI, eess.SY | Teleoperation, Data Collection | [abs](https://arxiv.org/abs/2610.39385) / [pdf](https://arxiv.org/pdf/2610.39385) |
 | 2026-10-29 | [Cross-Controller Transfer via In-Context Behavior Adaptation](https://arxiv.org/abs/2610.39280) | Jonathan Yang, Chelsea Finn, Dorsa Sadigh | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2610.39280) / [pdf](https://arxiv.org/pdf/2610.39280) |
 | 2026-10-29 | [Event2Reward: Learning Robotic Rewards from Progress Relations](https://arxiv.org/abs/2610.39212) | Junnan Nie, Zitian Fan, Jiachen Zhang, et al. | cs.RO, cs.LG | Robot Dataset | [abs](https://arxiv.org/abs/2610.39212) / [pdf](https://arxiv.org/pdf/2610.39212) |
 | 2026-10-29 | [Tracking Task Progress Through Errors and Recovery:A Benchmark and Recurrent Distributional Model](https://arxiv.org/abs/2610.39125) | Chen Wang, Xinze Niu, Zihao Zhu, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2610.39125) / [pdf](https://arxiv.org/pdf/2610.39125) |

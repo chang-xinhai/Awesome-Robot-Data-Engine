@@ -4,12 +4,32 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-11-03 · **Papers:** 3030 · **Unique arXiv IDs:** 3030
+**Coverage:** 2025-01-01 to 2026-11-03 · **Papers:** 3045 · **Unique arXiv IDs:** 3045
+
+## 2026-11
+
+| Date | Paper | Authors | Categories | Matched signals | Links |
+| :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-11-02 | [When Robots Outweigh Objects: How Inertia Mismatch Shapes Robot Policy Learning](https://arxiv.org/abs/2611.03501) | Younghyo Park, Antonia Bronars, Pulkit Agrawal | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2611.03501) / [pdf](https://arxiv.org/pdf/2611.03501) |
+| 2026-11-02 | [Clinician-AI Collaboration in Endovascular Neurointerventions: In-Vitro User Study of Copilot Assistance Modes for Robotic Navigation Across the Autonomy Spectrum](https://arxiv.org/abs/2611.03446) | Nikola Fischer, Harry Robertshaw, S. M. Hadi Sadati, et al. | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2611.03446) / [pdf](https://arxiv.org/pdf/2611.03446) |
+| 2026-11-02 | [TRAILS: Trajectory Generation for Automated Indoor Locomotion Studies](https://arxiv.org/abs/2611.03254) | Juho Kalliokoski, Evan G. Center, Steven M. LaValle, et al. | cs.RO | Task / Scene Generation, Trajectory Generation | [abs](https://arxiv.org/abs/2611.03254) / [pdf](https://arxiv.org/pdf/2611.03254) |
+| 2026-11-02 | [KlaskTron: An Open-Source Platform for Physical Adversarial Multi-Agent RL](https://arxiv.org/abs/2611.03138) | Aswin Ramachandran, Jona Schulz, Maurus Derungs, et al. | cs.RO, cs.AR, cs.MA | Sim-to-Real, Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2611.03138) / [pdf](https://arxiv.org/pdf/2611.03138) |
+| 2026-11-02 | [KlaskTron-IL: A Contact-Rich Adversarial Imitation Learning Benchmark with a Validated Sim-to-Real Bridge](https://arxiv.org/abs/2611.03091) | Nicklas Sohm, Aswin Ramachandran, Raffaello D'Andrea | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2611.03091) / [pdf](https://arxiv.org/pdf/2611.03091) |
+| 2026-11-02 | [Visuo-tactile Diffusion Policy for Robotic Manipulation with Auxiliary Tactile Dynamics Prediction](https://arxiv.org/abs/2611.02677) | Kaihong Ouyang, Zihao Su, Chengxuan Zheng, et al. | cs.RO | Synthetic Sensor | [abs](https://arxiv.org/abs/2611.02677) / [pdf](https://arxiv.org/pdf/2611.02677) |
+| 2026-11-02 | [DexArena: A Unified Benchmark for Long-Horizon Dexterous Manipulation](https://arxiv.org/abs/2611.02629) | Haonan Ping, Jianshu Hu, Yimin Wang, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2611.02629) / [pdf](https://arxiv.org/pdf/2611.02629) |
+| 2026-11-02 | [Energy-Based Policy Orchestration](https://arxiv.org/abs/2611.02546) | Weirui Ye, Yen-Jen Wang, Elvis Hsieh, et al. | cs.RO, cs.LG | Sim-to-Real | [abs](https://arxiv.org/abs/2611.02546) / [pdf](https://arxiv.org/pdf/2611.02546) |
+| 2026-11-01 | [GoalDex: Learning Image-Goal-Conditioned Policies for Dexterous In-Hand Manipulation](https://arxiv.org/abs/2611.02171) | Arjun Bhardwaj, Mayank Mittal, Maximum Wilder-Smith, et al. | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2611.02171) / [pdf](https://arxiv.org/pdf/2611.02171) |
+| 2026-11-01 | [HuG: Learning Humanoid Whole-Body Affordance-Aware Grasping with Active Perception](https://arxiv.org/abs/2611.01659) | Xuanbin Peng, Lai Wei, Yuze Zhai, et al. | cs.RO | Simulation Data, Synthetic Data | [abs](https://arxiv.org/abs/2611.01659) / [pdf](https://arxiv.org/pdf/2611.01659) |
+| 2026-11-01 | [$TF^2$-Steering: Action Refinement with Tactile Forecasts and Feedback via Velocity-Field Steering](https://arxiv.org/abs/2611.01483) | Yiming Chen, Xiaofei Wei, Chun Gu, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2611.01483) / [pdf](https://arxiv.org/pdf/2611.01483) |
 
 ## 2026-10
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-10-31 | [ClothDojo: Learned Data Generation and Benchmarking for Bimanual Garment Flattening and Folding](https://arxiv.org/abs/2611.01190) | Zilong Huang, Zipeng Ye, Caicheng Wang, et al. | cs.RO | Simulation Data, Trajectory Generation | [abs](https://arxiv.org/abs/2611.01190) / [pdf](https://arxiv.org/pdf/2611.01190) |
+| 2026-10-31 | [Auriga Technical Report: A Task-Agnostic Agent Harness for Zero-Shot Embodied Manipulation](https://arxiv.org/abs/2611.01112) | Chengcheng Wang, Yuheng Shi, Siyu Xu, et al. | cs.RO, cs.AI | Simulation Data | [abs](https://arxiv.org/abs/2611.01112) / [pdf](https://arxiv.org/pdf/2611.01112) |
+| 2026-10-31 | [Learning from an Imitable Teacher: Competition Solution for the MetaFine Challenge](https://arxiv.org/abs/2611.00615) | Yanze Zhang, Hao Liu, Haochang Hao, et al. | cs.RO, cs.AI | Simulation Data | [abs](https://arxiv.org/abs/2611.00615) / [pdf](https://arxiv.org/pdf/2611.00615) |
+| 2026-10-30 | [Scaling Trusted Autonomy: Towards Generally Capable Verifiable Robots](https://arxiv.org/abs/2611.00158) | Benedict Quartey | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2611.00158) / [pdf](https://arxiv.org/pdf/2611.00158) |
 | 2026-10-30 | [CausalWAM: Learning the Causes of Actions in World Action Models](https://arxiv.org/abs/2610.42096) | Juntao Cheng, Jinzhou Tang, Fan Feng, et al. | cs.AI, cs.RO, stat.ML | Synthetic Data | [abs](https://arxiv.org/abs/2610.42096) / [pdf](https://arxiv.org/pdf/2610.42096) |
 | 2026-10-30 | [A Hybrid Path Planning Framework for Assistive Wheelchair Navigation in Dynamic Pedestrian Environments](https://arxiv.org/abs/2610.42049) | Damla Leblebicioğlu, Rachel Barume, Taşkın Padır | cs.RO, eess.SY | Trajectory Generation | [abs](https://arxiv.org/abs/2610.42049) / [pdf](https://arxiv.org/pdf/2610.42049) |
 | 2026-10-30 | [Design and Validation of a Robotic Knee Exoskeleton with Musculoskeletal Simulation-Derived Biological Torque Control](https://arxiv.org/abs/2610.41981) | Rajiv V. Joshi, Jimin An, Ilseung Park, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2610.41981) / [pdf](https://arxiv.org/pdf/2610.41981) |

@@ -4,13 +4,20 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-11-03 · **Papers:** 100 · **Unique arXiv IDs:** 100
+**Coverage:** 2025-01-01 to 2026-11-03 · **Papers:** 102 · **Unique arXiv IDs:** 102
+
+## 2026-11
+
+| Date | Paper | Authors | Categories | Matched signals | Links |
+| :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-11-02 | [Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation](https://arxiv.org/abs/2611.03648) | Tony Tao, Jason Jingzhou Liu, Ruslan Salakhutdinov, et al. | cs.RO, cs.AI, cs.CV | Robot-Free Demonstration | [abs](https://arxiv.org/abs/2611.03648) / [pdf](https://arxiv.org/pdf/2611.03648) |
+| 2026-11-02 | [Pixel-UMI: Learning Environment-Aware Whole-Body Manipulation from Sensorized Human Demonstrations](https://arxiv.org/abs/2611.03647) | Jason Jingzhou Liu, Tony Tao, Deepak Pathak, et al. | cs.RO, cs.AI, cs.CV | Universal Manipulation Interface | [abs](https://arxiv.org/abs/2611.03647) / [pdf](https://arxiv.org/pdf/2611.03647) |
 
 ## 2026-10
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
-| 2026-10-29 | [UMI-Live for In-The-Wild Bimanual Robotics Data Collection](https://arxiv.org/abs/2610.39385) | Govind Velamoor, Adrian Lin, Sam Jung, et al. | cs.RO, cs.AI | Universal Manipulation Interface, In-the-Wild Teaching | [abs](https://arxiv.org/abs/2610.39385) / [pdf](https://arxiv.org/pdf/2610.39385) |
+| 2026-10-29 | [UMI-Live for In-The-Wild Bimanual Robotics Data Collection](https://arxiv.org/abs/2610.39385) | Govind Velamoor, Adrian Lin, Sam Jung, et al. | cs.RO, cs.AI, eess.SY | Universal Manipulation Interface, In-the-Wild Teaching | [abs](https://arxiv.org/abs/2610.39385) / [pdf](https://arxiv.org/pdf/2610.39385) |
 | 2026-10-27 | [OpenJaws: An Open Hardware UMI Framework with Stereo Localization for Generalist Manipulation](https://arxiv.org/abs/2610.36598) | Adithyavairavan Murali, Yash Oza, Karanbir Chahal, et al. | cs.RO | Universal Manipulation Interface, Handheld Gripper | [abs](https://arxiv.org/abs/2610.36598) / [pdf](https://arxiv.org/pdf/2610.36598) |
 | 2026-10-26 | [Learning Force-Reactive Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.35862) | Sihang Li, Xiaofeng Guo, Jinkun Cao, et al. | cs.RO, cs.AI, cs.LG | Universal Manipulation Interface | [abs](https://arxiv.org/abs/2610.35862) / [pdf](https://arxiv.org/pdf/2610.35862) |
 | 2026-10-26 | [Robot-Aligned 3D Gaussian Splatting for Precise Reaching with Wrist-Camera VLA Policies](https://arxiv.org/abs/2610.35626) | Zuoxu Wang, Xiao Liang | cs.RO | Wrist-Sensor Demonstration | [abs](https://arxiv.org/abs/2610.35626) / [pdf](https://arxiv.org/pdf/2610.35626) |

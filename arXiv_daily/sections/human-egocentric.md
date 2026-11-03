@@ -4,12 +4,31 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-11-03 · **Papers:** 2394 · **Unique arXiv IDs:** 2394
+**Coverage:** 2025-01-01 to 2026-11-03 · **Papers:** 2408 · **Unique arXiv IDs:** 2408
+
+## 2026-11
+
+| Date | Paper | Authors | Categories | Matched signals | Links |
+| :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-11-02 | [Pixel-UMI: Learning Environment-Aware Whole-Body Manipulation from Sensorized Human Demonstrations](https://arxiv.org/abs/2611.03647) | Jason Jingzhou Liu, Tony Tao, Deepak Pathak, et al. | cs.RO, cs.AI, cs.CV | Human Demonstration | [abs](https://arxiv.org/abs/2611.03647) / [pdf](https://arxiv.org/pdf/2611.03647) |
+| 2026-11-02 | [EgoActionBench: Benchmarking Dense Action Captioning for Egocentric Human Videos](https://arxiv.org/abs/2611.03646) | Yujiao Shen, Jiahe Song, Haitian Li, et al. | cs.CV | Egocentric, Human Video | [abs](https://arxiv.org/abs/2611.03646) / [pdf](https://arxiv.org/pdf/2611.03646) |
+| 2026-11-02 | [KlaskTron-IL: A Contact-Rich Adversarial Imitation Learning Benchmark with a Validated Sim-to-Real Bridge](https://arxiv.org/abs/2611.03091) | Nicklas Sohm, Aswin Ramachandran, Raffaello D'Andrea | cs.RO | Human Demonstration | [abs](https://arxiv.org/abs/2611.03091) / [pdf](https://arxiv.org/pdf/2611.03091) |
+| 2026-11-02 | [ReContact: Reconstruct and Retarget Human Contacts from Video for Contact-Rich Humanoid Manipulation](https://arxiv.org/abs/2611.02968) | Zhongkai Gu, Yang Liu, Wei Zhu, et al. | cs.RO | Human Video, Tracking / Reconstruction, Affordance / Contact | [abs](https://arxiv.org/abs/2611.02968) / [pdf](https://arxiv.org/pdf/2611.02968) |
+| 2026-11-02 | [AnchorHEC: Targetless Hand-Eye Calibration of Wrist and Fixed Cameras](https://arxiv.org/abs/2611.02884) | Guebin Hwang, Taeyeop Lee, Yeonseo Lee, et al. | cs.RO | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2611.02884) / [pdf](https://arxiv.org/pdf/2611.02884) |
+| 2026-11-02 | [ReGATE: Recurrent Gated Visual Fusion for Reactive Humanoid-Object Interaction](https://arxiv.org/abs/2611.02871) | Hao Zhu, Jorge Peña-Queralta | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2611.02871) / [pdf](https://arxiv.org/pdf/2611.02871) |
+| 2026-11-02 | [GEAR: Generative Editing for Scene-Conditioned Outfit Retrieval for VR Travel](https://arxiv.org/abs/2611.02363) | Gia-Huy Dinh, Thinh-Phuc Nguyen, Thanh-Hai Nguyen, et al. | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2611.02363) / [pdf](https://arxiv.org/pdf/2611.02363) |
+| 2026-11-01 | [GoalDex: Learning Image-Goal-Conditioned Policies for Dexterous In-Hand Manipulation](https://arxiv.org/abs/2611.02171) | Arjun Bhardwaj, Mayank Mittal, Maximum Wilder-Smith, et al. | cs.RO | Hand-Object Interaction, Tracking / Reconstruction | [abs](https://arxiv.org/abs/2611.02171) / [pdf](https://arxiv.org/pdf/2611.02171) |
+| 2026-11-01 | [ODE Policy: Robot Learning via Action Dynamics, Not Actions](https://arxiv.org/abs/2611.01729) | Jindou Jia, Jingliang Li, Kuangji Zuo, et al. | cs.RO | Human Demonstration | [abs](https://arxiv.org/abs/2611.01729) / [pdf](https://arxiv.org/pdf/2611.01729) |
+| 2026-11-01 | [HuG: Learning Humanoid Whole-Body Affordance-Aware Grasping with Active Perception](https://arxiv.org/abs/2611.01659) | Xuanbin Peng, Lai Wei, Yuze Zhai, et al. | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2611.01659) / [pdf](https://arxiv.org/pdf/2611.01659) |
+| 2026-11-01 | [EgoMo3R: Joint Egocentric Motion and Scene Reconstruction](https://arxiv.org/abs/2611.01627) | Chaitanya Patel, Yusuke Kato, Rin Takahira, et al. | cs.CV, cs.AI | Egocentric | [abs](https://arxiv.org/abs/2611.01627) / [pdf](https://arxiv.org/pdf/2611.01627) |
+| 2026-11-01 | [FOCUS: Closed-Loop Attention Feedback for Efficient Vision-Language Understanding](https://arxiv.org/abs/2611.01438) | Akul Santhosh, Aastha Jhunjhunwala | cs.AI, cs.CV | Egocentric | [abs](https://arxiv.org/abs/2611.01438) / [pdf](https://arxiv.org/pdf/2611.01438) |
 
 ## 2026-10
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-10-31 | [ClothDojo: Learned Data Generation and Benchmarking for Bimanual Garment Flattening and Folding](https://arxiv.org/abs/2611.01190) | Zilong Huang, Zipeng Ye, Caicheng Wang, et al. | cs.RO | Human Demonstration | [abs](https://arxiv.org/abs/2611.01190) / [pdf](https://arxiv.org/pdf/2611.01190) |
+| 2026-10-30 | [AuroraWorld: Structured 4D World Modeling for Exo-to-Ego Video Generation in Robot Manipulation](https://arxiv.org/abs/2611.00177) | Hao Xue, Peng-Fei Zhang, Ying Cheng, et al. | cs.AI, cs.CV | Egocentric | [abs](https://arxiv.org/abs/2611.00177) / [pdf](https://arxiv.org/pdf/2611.00177) |
 | 2026-10-30 | [Nexus-VLA: Bridging Human and Robot Experiences via a Shared Hierarchical Semantic Latent Space](https://arxiv.org/abs/2610.42021) | Biaoliang Guan, Tingyu Yuan, Wen Ye, et al. | cs.RO | Egocentric, Human Video | [abs](https://arxiv.org/abs/2610.42021) / [pdf](https://arxiv.org/pdf/2610.42021) |
 | 2026-10-30 | [Movens-Zero: Scaling Humanoid Motion Foundation Models with Large-Scale Human Videos](https://arxiv.org/abs/2610.41877) | Wendong Bu, Tinghong Ye, Qizhou Wang, et al. | cs.RO, cs.CV | Human Video | [abs](https://arxiv.org/abs/2610.41877) / [pdf](https://arxiv.org/pdf/2610.41877) |
 | 2026-10-30 | [$\nabla$Mimic: Ultra-Efficient Humanoid Control with Differentiable Simulation](https://arxiv.org/abs/2610.41654) | Weyl Lu, Yubei Chen | cs.RO, cs.LG | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2610.41654) / [pdf](https://arxiv.org/pdf/2610.41654) |
