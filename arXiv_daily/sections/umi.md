@@ -4,12 +4,14 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-11-04 · **Papers:** 102 · **Unique arXiv IDs:** 102
+**Coverage:** 2025-01-01 to 2026-11-04 · **Papers:** 104 · **Unique arXiv IDs:** 104
 
 ## 2026-11
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-11-02 | [AIRoA-0: Long-Horizon, Precise, Cross-Embodiment Manipulation from Handheld Data](https://arxiv.org/abs/2611.03815) | Yueh-Hua Wu, Kei Ota, Hanlong Li, et al. | cs.RO, cs.AI, cs.LG | Handheld Gripper | [abs](https://arxiv.org/abs/2611.03815) / [pdf](https://arxiv.org/pdf/2611.03815) |
+| 2026-11-02 | [Robot-Matched Soft Fingers for UMI Data Collection: Lessons from 100 Hours of Pick and Place](https://arxiv.org/abs/2611.03779) | Kobi Kelemen, Tomasz Niedziałkowski, Marcin Paszczak, et al. | cs.RO | Universal Manipulation Interface, Handheld Gripper | [abs](https://arxiv.org/abs/2611.03779) / [pdf](https://arxiv.org/pdf/2611.03779) |
 | 2026-11-02 | [Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation](https://arxiv.org/abs/2611.03648) | Tony Tao, Jason Jingzhou Liu, Ruslan Salakhutdinov, et al. | cs.RO, cs.AI, cs.CV | Robot-Free Demonstration | [abs](https://arxiv.org/abs/2611.03648) / [pdf](https://arxiv.org/pdf/2611.03648) |
 | 2026-11-02 | [Pixel-UMI: Learning Environment-Aware Whole-Body Manipulation from Sensorized Human Demonstrations](https://arxiv.org/abs/2611.03647) | Jason Jingzhou Liu, Tony Tao, Deepak Pathak, et al. | cs.RO, cs.AI, cs.CV | Universal Manipulation Interface | [abs](https://arxiv.org/abs/2611.03647) / [pdf](https://arxiv.org/pdf/2611.03647) |
 
