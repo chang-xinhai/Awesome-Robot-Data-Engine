@@ -4,12 +4,18 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-11-05 · **Papers:** 2416 · **Unique arXiv IDs:** 2416
+**Coverage:** 2025-01-01 to 2026-11-05 · **Papers:** 2422 · **Unique arXiv IDs:** 2422
 
 ## 2026-11
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-11-04 | [Open-HumanScale: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models](https://arxiv.org/abs/2611.06817) | Juncheng Ma, Jiaxin Li, Jiankai Tu, et al. | cs.CV | Egocentric, Human Video | [abs](https://arxiv.org/abs/2611.06817) / [pdf](https://arxiv.org/pdf/2611.06817) |
+| 2026-11-04 | [Dexterous Robotic Hands in the Foundation-Model Era: A Full-Stack Survey of Hardware, Data, Cross-Embodiment Transfer, Learning, and Evaluation](https://arxiv.org/abs/2611.06724) | Ji Pei | cs.RO, cs.AI, cs.CV | Hand-Object Interaction, Affordance / Contact | [abs](https://arxiv.org/abs/2611.06724) / [pdf](https://arxiv.org/pdf/2611.06724) |
+| 2026-11-04 | [FOSCo-Net: Ego-centric Voxel Completion for Forest LiDAR Occlusions](https://arxiv.org/abs/2611.06588) | Iman Esfandiyar, Dominik Belter | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2611.06588) / [pdf](https://arxiv.org/pdf/2611.06588) |
+| 2026-11-04 | [TouchéWorld tech report : Towards Online Unified Camera--Hand Exploration in Generative Worlds](https://arxiv.org/abs/2611.06061) | Jiaao Yu, Yanjian Zhang, Haoyang Jiang, et al. | cs.CV, cs.AI | Egocentric | [abs](https://arxiv.org/abs/2611.06061) / [pdf](https://arxiv.org/pdf/2611.06061) |
+| 2026-11-04 | [Learning Object-Centric Motion Priors from Human for Robotic Dexterous Manipulation](https://arxiv.org/abs/2611.05979) | Zhengdong Hong, Guofeng Zhang | cs.RO | Hand-Object Interaction, Human Demonstration | [abs](https://arxiv.org/abs/2611.05979) / [pdf](https://arxiv.org/pdf/2611.05979) |
+| 2026-11-03 | [GRASP: Gradient-Guided Sampling for Contact-Rich Physics-Based Motion Retargeting](https://arxiv.org/abs/2611.05754) | Yang Liu, Tong Wang, Yiming Bao, et al. | cs.RO | Human Demonstration | [abs](https://arxiv.org/abs/2611.05754) / [pdf](https://arxiv.org/pdf/2611.05754) |
 | 2026-11-03 | [RoboTryOn: Synthesizing Dexterous Robot Demonstrations from Human Videos via Virtual Try-On](https://arxiv.org/abs/2611.05163) | Seungyong Lee, Suhyeok Jang, Minyoung Kim, et al. | cs.RO, cs.AI | Egocentric, Human Video, Human-to-Robot | [abs](https://arxiv.org/abs/2611.05163) / [pdf](https://arxiv.org/pdf/2611.05163) |
 | 2026-11-03 | [DexHOT: Learning Hand-Object Configuration Transfer for Dexterous Manipulation](https://arxiv.org/abs/2611.05119) | Zhewei Gui, Anthony Bolton, Jiyao Zhang, et al. | cs.RO | Hand-Object Interaction | [abs](https://arxiv.org/abs/2611.05119) / [pdf](https://arxiv.org/pdf/2611.05119) |
 | 2026-11-03 | [FloMo: 3D Scene Flow as a World Action Model Intermediate for Learning from Human Video](https://arxiv.org/abs/2611.05062) | Jeremy Collins, Namra Patel, Ayush Agarwal, et al. | cs.CV, cs.AI | Human Video | [abs](https://arxiv.org/abs/2611.05062) / [pdf](https://arxiv.org/pdf/2611.05062) |
