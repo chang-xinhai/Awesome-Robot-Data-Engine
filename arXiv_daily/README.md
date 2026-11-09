@@ -2,16 +2,16 @@
 
 > A high-recall candidate archive for manual curation into [Awesome Robot Data Engine](../README.md). It is intentionally broader than the curated list.
 
-**Coverage:** 2025-01-01 to 2026-11-09 · **Unique papers:** 6687
+**Coverage:** 2025-01-01 to 2026-11-09 · **Unique papers:** 6706
 
 ## Sections
 
 | Section | Papers | Scope |
 | :------ | -----: | :---- |
-| [Robot-Centric](sections/robot-centric.md) | 2640 | Real-robot collection, teleoperation, intervention, datasets, and processing |
+| [Robot-Centric](sections/robot-centric.md) | 2649 | Real-robot collection, teleoperation, intervention, datasets, and processing |
 | [UMI](sections/umi.md) | 105 | Portable manipulation interfaces, robot-free demonstrations, and UMI recovery |
-| [Human / Egocentric](sections/human-egocentric.md) | 2431 | Human video, HOI, tracking, reconstruction, action extraction, and retargeting |
-| [Simulation](sections/simulation.md) | 3079 | Synthetic demonstrations, environments, assets, sensors, and sim–real systems |
+| [Human / Egocentric](sections/human-egocentric.md) | 2439 | Human video, HOI, tracking, reconstruction, action extraction, and retargeting |
+| [Simulation](sections/simulation.md) | 3086 | Synthetic demonstrations, environments, assets, sensors, and sim–real systems |
 
 A paper is stored once in [`data/papers.json`](data/papers.json) but may appear in multiple generated views. The archive uses arXiv `v1` dates and is updated daily by GitHub Actions. Promotion to the root README is always manual.
 
@@ -19,16 +19,16 @@ A paper is stored once in [`data/papers.json`](data/papers.json) but may appear 
 
 ### Robot-Centric
 
+- 2026-11-06 — [A wearable input/output interface learns personalized models of haptic perception](https://arxiv.org/abs/2611.09708)
+- 2026-11-06 — [ODEAction: From Predicting Chunks to Evolving Actions](https://arxiv.org/abs/2611.09672)
+- 2026-11-06 — [DexDICE: Reconciling Safety and Performance via Dual-Expert Offline Imitation Learning](https://arxiv.org/abs/2611.09433)
+- 2026-11-06 — [SUGARv2: Learning Diverse Visual Humanoid Loco-Manipulation Skills from Synthesized Interaction References](https://arxiv.org/abs/2611.09266)
+- 2026-11-06 — [DobotTrack: Target-Grounded Vision-Language-Action Learning for Embodied Person Tracking](https://arxiv.org/abs/2611.09041)
+- 2026-11-06 — [ToolDex: An Ego-Exo Human Demonstration Dataset for Creative Physical Tool Use](https://arxiv.org/abs/2611.09036)
+- 2026-11-06 — [Flex-RSI: Benchmarking Recursive Self-Improvement of Frontier Agents](https://arxiv.org/abs/2611.08946)
+- 2026-11-05 — [Meituan-Robotics-0: A Vision-Language-Action Foundation Model for Desktop Manipulation](https://arxiv.org/abs/2611.08577)
+- 2026-11-05 — [Q-OIL: Optimistic Exploration in Learning from Human Interventions](https://arxiv.org/abs/2611.08576)
 - 2026-11-05 — [OopsieRecover: Learning Transferable VLA Corrections from Semantic Interventions](https://arxiv.org/abs/2611.08462)
-- 2026-11-05 — [SLA: Scaling Spatial-Language-Action Model via Continual Pre-training](https://arxiv.org/abs/2611.08373)
-- 2026-11-05 — [MOMASPLAT: Dynamic Novel-View Demonstration Augmentation for Mobile Manipulation](https://arxiv.org/abs/2611.08372)
-- 2026-11-05 — [Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement](https://arxiv.org/abs/2611.08318)
-- 2026-11-05 — [Development of Anthropomorphic Arm for collaborative and Home Service Robot CHARMIE](https://arxiv.org/abs/2611.08013)
-- 2026-11-05 — [TactileLab: Sim-to-Real Dexterous Robot Manipulation with Efficient Shear-Sensitive Tactile Simulation](https://arxiv.org/abs/2611.07881)
-- 2026-11-05 — [AffectiveVLA: Safe and Intent-Aware VLA Control for Human-Humanoid Social Interaction](https://arxiv.org/abs/2611.07712)
-- 2026-11-05 — [GraspBench: Execution-Aware Cross-Robot Evaluation of 6-DoF Grasp Generation in MuJoCo](https://arxiv.org/abs/2611.07651)
-- 2026-11-05 — [Semantics-to-Contact: A Stagewise Framework for Robust Contact-Rich Manipulation](https://arxiv.org/abs/2611.07532)
-- 2026-11-05 — [Kinematic Hypothesis Context: Embodiment-Conditioned Learned Video Coding for Bandwidth-Limited Robot Policy Uplinks](https://arxiv.org/abs/2611.07411)
 
 ### UMI
 
@@ -45,29 +45,29 @@ A paper is stored once in [`data/papers.json`](data/papers.json) but may appear 
 
 ### Human / Egocentric
 
+- 2026-11-06 — [TouchAnnotator: Multi-Source Tactile Supervision with Privileged-View Distillation](https://arxiv.org/abs/2611.09129)
+- 2026-11-06 — [EventHOI: Event-Driven Resource-Efficient Hand-Object Interaction Logging on Smartglasses](https://arxiv.org/abs/2611.09089)
+- 2026-11-06 — [DobotTrack: Target-Grounded Vision-Language-Action Learning for Embodied Person Tracking](https://arxiv.org/abs/2611.09041)
+- 2026-11-06 — [ToolDex: An Ego-Exo Human Demonstration Dataset for Creative Physical Tool Use](https://arxiv.org/abs/2611.09036)
+- 2026-11-06 — [HOC2R: Hand-Object Contact Trajectories for Human-to-Robot Motion Transfer](https://arxiv.org/abs/2611.08920)
+- 2026-11-05 — [ForPC: Force-Aware Whole-Body Control for Precise Humanoid Cart Pushing](https://arxiv.org/abs/2611.08664)
+- 2026-11-05 — [HaNDF: Object-Conditioned Geometric Neural Hand Distance Fields](https://arxiv.org/abs/2611.08578)
+- 2026-11-05 — [Q-OIL: Optimistic Exploration in Learning from Human Interventions](https://arxiv.org/abs/2611.08576)
 - 2026-11-05 — [EgoGeneralist: Unifying Egocentric Action-Video Tasks through Video-Native Modeling](https://arxiv.org/abs/2611.08477)
 - 2026-11-05 — [Social Humanoid: Socially Responsive Human-Humanoid Interaction](https://arxiv.org/abs/2611.08407)
-- 2026-11-05 — [Terrain-Indexed Motion Priors and Geometric Support for Extreme Humanoid Parkour](https://arxiv.org/abs/2611.08056)
-- 2026-11-05 — [Development of Anthropomorphic Arm for collaborative and Home Service Robot CHARMIE](https://arxiv.org/abs/2611.08013)
-- 2026-11-05 — [AffectiveVLA: Safe and Intent-Aware VLA Control for Human-Humanoid Social Interaction](https://arxiv.org/abs/2611.07712)
-- 2026-11-05 — [ReferClaw: Disambiguating User Intent for Egocentric Assistance](https://arxiv.org/abs/2611.07683)
-- 2026-11-05 — [Egocentric Action Recognition with Objects and Vision-Language Affordances](https://arxiv.org/abs/2611.07673)
-- 2026-11-05 — [VREgo: Consumer VR Headsets for Learning Robot Manipulation from Egocentric Demonstrations](https://arxiv.org/abs/2611.07272)
-- 2026-11-04 — [Adaptive Hybrid Force-Vision Control with EMG-Derived References for Deformable Bottle Manipulation](https://arxiv.org/abs/2611.07235)
-- 2026-11-04 — [Open-HumanWAM: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models](https://arxiv.org/abs/2611.06817)
 
 ### Simulation
 
+- 2026-11-06 — [Autonomous Whole-body Loco-manipulation Using a Snake Robot](https://arxiv.org/abs/2611.09777)
+- 2026-11-06 — [SUGARv2: Learning Diverse Visual Humanoid Loco-Manipulation Skills from Synthesized Interaction References](https://arxiv.org/abs/2611.09266)
+- 2026-11-06 — [TPS-A*: Path Planning for Any-Shape Vehicles with Certified Collision Checking in Trajectory Parameter Space](https://arxiv.org/abs/2611.09210)
+- 2026-11-06 — [DobotTrack: Target-Grounded Vision-Language-Action Learning for Embodied Person Tracking](https://arxiv.org/abs/2611.09041)
+- 2026-11-06 — [RevoSim: Scalable Multimodal Tactile Simulation for Dexterous Manipulation](https://arxiv.org/abs/2611.08939)
+- 2026-11-06 — [HomeLoop: A Simulation Framework and Benchmark for Robot-IoT Coordination in Everyday Domestic Assistance and Safety](https://arxiv.org/abs/2611.08914)
+- 2026-11-06 — [STRIDE: Learning Humanoid Locomotion in Minutes with Acceleration-Based Rewards](https://arxiv.org/abs/2611.08857)
 - 2026-11-05 — [SHORE: Stability-Hybrid On-Policy Reinforcement Learning for Online Bin Packing](https://arxiv.org/abs/2611.08364)
 - 2026-11-05 — [GPWM: Modeling the World as 3D Particle Motion](https://arxiv.org/abs/2611.08338)
 - 2026-11-05 — [Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement](https://arxiv.org/abs/2611.08318)
-- 2026-11-05 — [Transformer-Based Trajectory Prescription for sEMG-Optimizing Robot-Mediated Rehabilitation](https://arxiv.org/abs/2611.08295)
-- 2026-11-05 — [RoboARCade: Benchmarking Agentic Robot Control](https://arxiv.org/abs/2611.08209)
-- 2026-11-05 — [Structure from Collision via Hypothesis-Space Reasoning](https://arxiv.org/abs/2611.07900)
-- 2026-11-05 — [TactileLab: Sim-to-Real Dexterous Robot Manipulation with Efficient Shear-Sensitive Tactile Simulation](https://arxiv.org/abs/2611.07881)
-- 2026-11-05 — [ArtCrafter: Feed-Forward Generation of Articulated 3D Object with Analytic Joint Derivation](https://arxiv.org/abs/2611.07658)
-- 2026-11-05 — [Concertina: Embodying Manipulation and Cognition in One Diffusion Vision-Language Model](https://arxiv.org/abs/2611.07513)
-- 2026-11-05 — [CRISP: Constraint-Resolved Interactions between Subsystems for Predictive Whole-Body Cooperation](https://arxiv.org/abs/2611.07268)
 
 ## Method
 
