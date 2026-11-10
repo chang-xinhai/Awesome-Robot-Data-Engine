@@ -4,12 +4,14 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-11-10 · **Papers:** 105 · **Unique arXiv IDs:** 105
+**Coverage:** 2025-01-01 to 2026-11-10 · **Papers:** 107 · **Unique arXiv IDs:** 107
 
 ## 2026-11
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-11-09 | [SWAM: Scaling World Action Models with Cross-Modal Alignment](https://arxiv.org/abs/2611.12870) | Yu Zhou, Xinyuan Xia, Xuankun Yang, et al. | cs.CV, cs.RO | Universal Manipulation Interface | [abs](https://arxiv.org/abs/2611.12870) / [pdf](https://arxiv.org/pdf/2611.12870) |
+| 2026-11-07 | [Zero-Shot VLA Adaptation with Retrieved Guidance](https://arxiv.org/abs/2611.10894) | Subin Kim, Anh-Quan Pham, Dinesh Jayaraman | cs.RO, cs.AI, cs.LG | In-the-Wild Teaching | [abs](https://arxiv.org/abs/2611.10894) / [pdf](https://arxiv.org/pdf/2611.10894) |
 | 2026-11-04 | [Spatial-UMI-Dream: Scaling World Action Models with Metric Geometry for UMI Manipulation](https://arxiv.org/abs/2611.07229) | Weiduo Yuan, Ze Yuan, Sihan Liu, et al. | cs.RO | Universal Manipulation Interface | [abs](https://arxiv.org/abs/2611.07229) / [pdf](https://arxiv.org/pdf/2611.07229) |
 | 2026-11-02 | [AIRoA-0: Long-Horizon, Precise, Cross-Embodiment Manipulation from Handheld Data](https://arxiv.org/abs/2611.03815) | Yueh-Hua Wu, Kei Ota, Hanlong Li, et al. | cs.RO, cs.AI, cs.LG | Handheld Gripper | [abs](https://arxiv.org/abs/2611.03815) / [pdf](https://arxiv.org/pdf/2611.03815) |
 | 2026-11-02 | [Robot-Matched Soft Fingers for UMI Data Collection: Lessons from 100 Hours of Pick and Place](https://arxiv.org/abs/2611.03779) | Kobi Kelemen, Tomasz Niedziałkowski, Marcin Paszczak, et al. | cs.RO | Universal Manipulation Interface, Handheld Gripper | [abs](https://arxiv.org/abs/2611.03779) / [pdf](https://arxiv.org/pdf/2611.03779) |
