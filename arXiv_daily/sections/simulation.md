@@ -4,7 +4,7 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-11-09 · **Papers:** 3086 · **Unique arXiv IDs:** 3086
+**Coverage:** 2025-01-01 to 2026-11-10 · **Papers:** 3086 · **Unique arXiv IDs:** 3086
 
 ## 2026-11
 
@@ -109,7 +109,7 @@
 | 2026-10-27 | [Trace-WAM: Learning to Act via 3D Motion Prediction for World Action Models](https://arxiv.org/abs/2610.36840) | Xu Hu, Changjie Wu, Linzhe Shi, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2610.36840) / [pdf](https://arxiv.org/pdf/2610.36840) |
 | 2026-10-27 | [TAPESTRY: A Single Backbone for Video Generation and Robot Control](https://arxiv.org/abs/2610.36823) | Jeremy A. Collins, Seungjae Lee, Rachanon Wachakorn, et al. | cs.RO, cs.AI, cs.CV | Simulation Data | [abs](https://arxiv.org/abs/2610.36823) / [pdf](https://arxiv.org/pdf/2610.36823) |
 | 2026-10-27 | [From Biological Curves to Soft Modular Robots: Learning-Based Inverse Design with Uncertainty-Guided Refinement](https://arxiv.org/abs/2610.36681) | Dixiang Wang, Minghao Zha, Arifur Rahman, et al. | cs.RO, cs.LG | Sim-to-Real | [abs](https://arxiv.org/abs/2610.36681) / [pdf](https://arxiv.org/pdf/2610.36681) |
-| 2026-10-27 | [LabWorld: Learning Interactive 4D Worlds for Scientific Experimentation](https://arxiv.org/abs/2610.36592) | Suozhi Huang, Kelsey Fu, Binxu Li, et al. | cs.CV | Sim-to-Real | [abs](https://arxiv.org/abs/2610.36592) / [pdf](https://arxiv.org/pdf/2610.36592) |
+| 2026-10-27 | [LabWorld: Learning Interactive 4D Worlds for Scientific Experimentation](https://arxiv.org/abs/2610.36592) | Suozhi Huang | cs.CV | Sim-to-Real | [abs](https://arxiv.org/abs/2610.36592) / [pdf](https://arxiv.org/pdf/2610.36592) |
 | 2026-10-27 | [SO-101 Bench: Accessible Spatial Manipulation](https://arxiv.org/abs/2610.36420) | Truman Hickok | cs.CV | Simulation Data, Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2610.36420) / [pdf](https://arxiv.org/pdf/2610.36420) |
 | 2026-10-26 | [Nonprehensile Robotic Catching Using Virtual Constraints](https://arxiv.org/abs/2610.35851) | Aakash Khandelwal, Ranjan Mukherjee | eess.SY, cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2610.35851) / [pdf](https://arxiv.org/pdf/2610.35851) |
 | 2026-10-26 | [Robot-Aligned 3D Gaussian Splatting for Precise Reaching with Wrist-Camera VLA Policies](https://arxiv.org/abs/2610.35626) | Zuoxu Wang, Xiao Liang | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2610.35626) / [pdf](https://arxiv.org/pdf/2610.35626) |
