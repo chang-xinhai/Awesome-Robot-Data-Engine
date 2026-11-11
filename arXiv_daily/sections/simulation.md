@@ -4,12 +4,17 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-11-11 · **Papers:** 3108 · **Unique arXiv IDs:** 3108
+**Coverage:** 2025-01-01 to 2026-11-11 · **Papers:** 3112 · **Unique arXiv IDs:** 3112
 
 ## 2026-11
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-11-10 | [From Depth to Safe Depth: Uncertainty-Aware Monocular Perception for Mobile Robot Navigation](https://arxiv.org/abs/2611.13769) | Saeid Firouzi Daghigh, Saeed Ayat | cs.RO, cs.CV | Simulation Data | [abs](https://arxiv.org/abs/2611.13769) / [pdf](https://arxiv.org/pdf/2611.13769) |
+| 2026-11-10 | [From Egocentric Human Video to Robot Manipulation in the Era of Embodied Intelligence](https://arxiv.org/abs/2611.13610) | Yi Wang, Jingqiu Wu, Lei Yao, et al. | cs.RO | Simulation Data, Synthetic Data | [abs](https://arxiv.org/abs/2611.13610) / [pdf](https://arxiv.org/pdf/2611.13610) |
+| 2026-11-10 | [DeRep: Learning Depth Representations for End-to-End Navigation in Cluttered Environments](https://arxiv.org/abs/2611.13499) | Hanyu Jin, Kenji Shimada | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2611.13499) / [pdf](https://arxiv.org/pdf/2611.13499) |
+| 2026-11-09 | [How Much of Your VLA Is kNN](https://arxiv.org/abs/2611.13160) | Denis Grachev, Damien LaRocque, Omar Moured | cs.RO, cs.AI, cs.LG | Simulation Data | [abs](https://arxiv.org/abs/2611.13160) / [pdf](https://arxiv.org/pdf/2611.13160) |
+| 2026-11-09 | [Robo-MLT: Dual-System Robotic Manipulation for Long-Horizon Medical Laboratory Tasks](https://arxiv.org/abs/2611.13039) | Zequan Zeng, Kai Wang, Delvin Ce Zhang, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2611.13039) / [pdf](https://arxiv.org/pdf/2611.13039) |
 | 2026-11-09 | [World In-Context Learning for Agentic Robot Manipulation](https://arxiv.org/abs/2611.12885) | Heng Fang, Zehui Guo, Yuehan Zhang, et al. | cs.CV, cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2611.12885) / [pdf](https://arxiv.org/pdf/2611.12885) |
 | 2026-11-09 | [Grasping the Future: Joint 3D Hand-Object Forecasting From Internet Videos](https://arxiv.org/abs/2611.12879) | Rustin Soraki, Matthew Wallingford, Ryan Aby, et al. | cs.CV | Trajectory Generation | [abs](https://arxiv.org/abs/2611.12879) / [pdf](https://arxiv.org/pdf/2611.12879) |
 | 2026-11-09 | [Benchmarking Real-World Robotic Manipulation through Stochastic Challenges](https://arxiv.org/abs/2611.12804) | Elias Gläßer, Gülhan Şikaroğlu, Pavlo Kupyn, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2611.12804) / [pdf](https://arxiv.org/pdf/2611.12804) |
@@ -99,7 +104,6 @@
 | 2026-10-30 | [Design and Validation of a Robotic Knee Exoskeleton with Musculoskeletal Simulation-Derived Biological Torque Control](https://arxiv.org/abs/2610.41981) | Rajiv V. Joshi, Jimin An, Ilseung Park, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2610.41981) / [pdf](https://arxiv.org/pdf/2610.41981) |
 | 2026-10-30 | [When the Simulator Fails, Not the Policy: Auditing Contact Artifacts in Simulated Robot Benchmarks](https://arxiv.org/abs/2610.41857) | Alex Zhou, Junhao Wu, Xueyang Zhou, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2610.41857) / [pdf](https://arxiv.org/pdf/2610.41857) |
 | 2026-10-30 | [Direct Action-Manifold Modeling for Efficient and Robust Bimanual Manipulation](https://arxiv.org/abs/2610.41643) | Hongren Wang, Mingyu You, Zihan Li, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2610.41643) / [pdf](https://arxiv.org/pdf/2610.41643) |
-| 2026-10-30 | [DiffWBC: Unlocking Steerable General Humanoid Motion Tracking via One-Step Diffusion Whole-Body Control](https://arxiv.org/abs/2610.41354) | Yifei Huang, Yazhao Yang, Weijia Li, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2610.41354) / [pdf](https://arxiv.org/pdf/2610.41354) |
 | 2026-10-30 | [Joint-Health-Aware Reinforcement Learning for Robust Robot Control Under Actuator Degradation](https://arxiv.org/abs/2610.41348) | Haifa Zhang, Yijing Wang, Zhiqiang Zuo | cs.RO, cs.CV | Domain Randomization | [abs](https://arxiv.org/abs/2610.41348) / [pdf](https://arxiv.org/pdf/2610.41348) |
 | 2026-10-30 | [Cross-Embodiment Motion Planning by Coupling Body-Agnostic World Model with Differentiable Ego-Dynamics](https://arxiv.org/abs/2610.41330) | Zhidong Wang, Zirui Li, Haoran Xu, et al. | cs.RO | Synthetic Data | [abs](https://arxiv.org/abs/2610.41330) / [pdf](https://arxiv.org/pdf/2610.41330) |
 | 2026-10-30 | [FlowMoDE: Coarse-to-fine Flow Matching for Detail-aware Sim-to-Real Monocular Depth Estimation](https://arxiv.org/abs/2610.41190) | Liangjing Shao, Wanhao Liu, Jinsong Lin, et al. | cs.CV | Sim-to-Real, Synthetic Data | [abs](https://arxiv.org/abs/2610.41190) / [pdf](https://arxiv.org/pdf/2610.41190) |

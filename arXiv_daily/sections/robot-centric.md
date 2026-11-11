@@ -4,12 +4,24 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-11-11 · **Papers:** 2666 · **Unique arXiv IDs:** 2666
+**Coverage:** 2025-01-01 to 2026-11-11 · **Papers:** 2678 · **Unique arXiv IDs:** 2678
 
 ## 2026-11
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-11-10 | [One Policy for 100 Household Tasks: Our Solution for the 2026 BEHAVIOR Challenge](https://arxiv.org/abs/2611.14432) | Ilia Larchenko, Gleb Zarin, Atindra Nair, et al. | cs.RO, cs.AI, cs.CV | Teleoperation | [abs](https://arxiv.org/abs/2611.14432) / [pdf](https://arxiv.org/pdf/2611.14432) |
+| 2026-11-10 | [DexSeed: Expanding Human Hand-Object Interactions into Robot Demonstrations for Dexterous Policy Learning](https://arxiv.org/abs/2611.14092) | Huaijin Pi, Zehong Shen, Yong Wang, et al. | cs.RO | Teleoperation, Robot Dataset, Robot Data Processing | [abs](https://arxiv.org/abs/2611.14092) / [pdf](https://arxiv.org/pdf/2611.14092) |
+| 2026-11-10 | [A human-in-the-loop Control Paradigm for Construction Robotics: From VR-Guided Teleoperation to Semi-Autonomous Dual-Arm Operation](https://arxiv.org/abs/2611.14062) | Jinhua Chen, Xiaoji Xu, Zhongyuan Liao, et al. | cs.RO | Teleoperation, Human Intervention | [abs](https://arxiv.org/abs/2611.14062) / [pdf](https://arxiv.org/pdf/2611.14062) |
+| 2026-11-10 | [LaST0.5: A Generalist World Action Model with Interaction-Centric Latent Reasoning](https://arxiv.org/abs/2611.14048) | Xuheng Zhang, Yiming Zhang, Jialin Gao, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2611.14048) / [pdf](https://arxiv.org/pdf/2611.14048) |
+| 2026-11-10 | [WAM is capable in BEHAVIOR-1K: the 2nd-place solution to the 2026 BEHAVIOR Challenge](https://arxiv.org/abs/2611.13818) | Yelin He, Jiaquan Ye, Xinming Wei, et al. | cs.RO | Autonomous Collection | [abs](https://arxiv.org/abs/2611.13818) / [pdf](https://arxiv.org/pdf/2611.13818) |
+| 2026-11-10 | [CIALLO: Learning Shared Intent Representations for Cross-Embodiment Manipulation](https://arxiv.org/abs/2611.13732) | Choo Sin Wai, Dake Zhong, Jingye Zhang, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2611.13732) / [pdf](https://arxiv.org/pdf/2611.13732) |
+| 2026-11-10 | [From Egocentric Human Video to Robot Manipulation in the Era of Embodied Intelligence](https://arxiv.org/abs/2611.13610) | Yi Wang, Jingqiu Wu, Lei Yao, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2611.13610) / [pdf](https://arxiv.org/pdf/2611.13610) |
+| 2026-11-10 | [Rhythmic-Semantic Co-Speech Gestures for Emotional Dialogue in Robots](https://arxiv.org/abs/2611.13472) | Christian Arzate Cruz, Edwin C. Montiel-Vázquez, Stefanos Gkikas, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2611.13472) / [pdf](https://arxiv.org/pdf/2611.13472) |
+| 2026-11-09 | [Curie's Jarvis: Autonomous Robotic Chemistry Experiments from Printed Protocols](https://arxiv.org/abs/2611.13251) | Rumi Loghmani, Bozhang Song, Victor Alvarado, et al. | cs.RO, cs.AI | Human Intervention | [abs](https://arxiv.org/abs/2611.13251) / [pdf](https://arxiv.org/pdf/2611.13251) |
+| 2026-11-09 | [Robo-MLT: Dual-System Robotic Manipulation for Long-Horizon Medical Laboratory Tasks](https://arxiv.org/abs/2611.13039) | Zequan Zeng, Kai Wang, Delvin Ce Zhang, et al. | cs.RO | Human Intervention | [abs](https://arxiv.org/abs/2611.13039) / [pdf](https://arxiv.org/pdf/2611.13039) |
+| 2026-11-09 | [RoboACE: Adversarial Co-Evolution for Robot Self-Improvement](https://arxiv.org/abs/2611.13034) | Delin Zhao, Zhengrong Yue, Junlin He, et al. | cs.RO | Autonomous Collection | [abs](https://arxiv.org/abs/2611.13034) / [pdf](https://arxiv.org/pdf/2611.13034) |
+| 2026-11-09 | [APS-VLA: Action-Guided and Future-Aware Token Pruning for Efficient Vision-Language-Action Models](https://arxiv.org/abs/2611.13030) | Xiaoyang Xing, Chun-Mei Feng, Anthony Cohn, et al. | cs.AI | Robot Dataset | [abs](https://arxiv.org/abs/2611.13030) / [pdf](https://arxiv.org/pdf/2611.13030) |
 | 2026-11-09 | [SWAM: Scaling World Action Models with Cross-Modal Alignment](https://arxiv.org/abs/2611.12870) | Yu Zhou, Xinyuan Xia, Xuankun Yang, et al. | cs.CV, cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2611.12870) / [pdf](https://arxiv.org/pdf/2611.12870) |
 | 2026-11-09 | [Library of Hands: Fix the Hands, Not the World Model](https://arxiv.org/abs/2611.12678) | Hasaan Ahmad, Qizhen Ying, Yuxuan Sun, et al. | cs.RO, cs.AI, cs.LG | Robot Dataset, Robot Data Processing | [abs](https://arxiv.org/abs/2611.12678) / [pdf](https://arxiv.org/pdf/2611.12678) |
 | 2026-11-09 | [VLA Adaptation with Real and Simulated Data: A Case Study on Robotic Chess](https://arxiv.org/abs/2611.12676) | Matěj Kripner, Milan Straka | cs.RO, cs.LG | Teleoperation, Data Collection | [abs](https://arxiv.org/abs/2611.12676) / [pdf](https://arxiv.org/pdf/2611.12676) |
