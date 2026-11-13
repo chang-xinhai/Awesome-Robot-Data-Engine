@@ -4,12 +4,26 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-11-13 · **Papers:** 3112 · **Unique arXiv IDs:** 3112
+**Coverage:** 2025-01-01 to 2026-11-13 · **Papers:** 3126 · **Unique arXiv IDs:** 3126
 
 ## 2026-11
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-11-12 | [Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors](https://arxiv.org/abs/2611.17060) | Hao Li, Fangzhou Hong, Zhaoxi Chen, et al. | cs.CV | Trajectory Generation | [abs](https://arxiv.org/abs/2611.17060) / [pdf](https://arxiv.org/pdf/2611.17060) |
+| 2026-11-12 | [ACE-CaP-0: Real-World Code-as-Policies in the Era of Experience](https://arxiv.org/abs/2611.16872) | ACE-CaP Team, Changxu Wei, Yunpeng Qing, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2611.16872) / [pdf](https://arxiv.org/pdf/2611.16872) |
+| 2026-11-12 | [Reins: Frontier Multimodal Models Driving Real Robot Arms on Long-Horizon Tasks, Zero-Shot](https://arxiv.org/abs/2611.16632) | Pengfei Ye, Zhiyang Dou, Yuxiang Ma, et al. | cs.RO | Simulation-Ready Asset | [abs](https://arxiv.org/abs/2611.16632) / [pdf](https://arxiv.org/pdf/2611.16632) |
+| 2026-11-12 | [ManiLadder: Benchmarking Robot Manipulation Through a Categorized and Multi-Difficulty Level Task Ladder](https://arxiv.org/abs/2611.16374) | Chongkai Gao, Jieao Shi, Zhaoyu Mu, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2611.16374) / [pdf](https://arxiv.org/pdf/2611.16374) |
+| 2026-11-11 | [JustRUA: A Controlled Study of GPT-6 Robot-Use Agents](https://arxiv.org/abs/2611.16009) | Zefan Wang, Yufan Dang, Xuanwei Shi, et al. | cs.RO, cs.AI | Simulation Data | [abs](https://arxiv.org/abs/2611.16009) / [pdf](https://arxiv.org/pdf/2611.16009) |
+| 2026-11-11 | [Video-Action Models for Data-Efficient Industrial Manipulation](https://arxiv.org/abs/2611.15974) | Eugenio Chisari, Stefanos Charalambous, Oliver Sanchez, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2611.15974) / [pdf](https://arxiv.org/pdf/2611.15974) |
+| 2026-11-11 | [Embedded Sim-to-Real Visual Servoing: Learned Reaching and Force-Guided Placement](https://arxiv.org/abs/2611.15658) | Dezhi Sun, Duy Khang Banh, Kenan Niu | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2611.15658) / [pdf](https://arxiv.org/pdf/2611.15658) |
+| 2026-11-11 | [Reading the Table: Sim-to-Real Game State Detection for the Chef's Hat Card Game](https://arxiv.org/abs/2611.15524) | Connor Gäde, Matthias Kerzel, Hauke Bünning, et al. | cs.RO, cs.CV | Sim-to-Real, Synthetic Data, Domain Randomization | [abs](https://arxiv.org/abs/2611.15524) / [pdf](https://arxiv.org/pdf/2611.15524) |
+| 2026-11-11 | [APG-Planner: Learning Vision-Based High-Speed Trajectory Planning via Analytic Policy Gradient](https://arxiv.org/abs/2611.15296) | Jinwoo Lee, Geunsik Bae, Changseung Kim, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2611.15296) / [pdf](https://arxiv.org/pdf/2611.15296) |
+| 2026-11-11 | [Autonomous Trail Racing with a Bicycle Robot](https://arxiv.org/abs/2611.15280) | Fabian Jenelten, Deepana Ishtaweera, Pablo Garcia, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2611.15280) / [pdf](https://arxiv.org/pdf/2611.15280) |
+| 2026-11-11 | [PolyMorphWBC: Whole-Body Control from End-Effector Trajectories for Quadrupedal Mobile Manipulation across Arm Morphologies with Extended Reach](https://arxiv.org/abs/2611.15117) | Heng Li, Yang Li, Yifan Duan, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2611.15117) / [pdf](https://arxiv.org/pdf/2611.15117) |
+| 2026-11-11 | [CFGComposer: Compositional Audio-Text-to-Motion Generation via Copula Score Correction](https://arxiv.org/abs/2611.15101) | Pengyang Shi, Jinlu Zhang, Chunze Lin, et al. | cs.SD, cs.AI | Sim-to-Real | [abs](https://arxiv.org/abs/2611.15101) / [pdf](https://arxiv.org/pdf/2611.15101) |
+| 2026-11-11 | [MiniPose: Miniature-Based Real Data Collection for 6D Pose Estimation of Large Industrial Pipe Segments](https://arxiv.org/abs/2611.15066) | Hyunjun Kim, Youngjin Seo, Sungwon Seo, et al. | cs.RO | Sim-to-Real, Synthetic Data | [abs](https://arxiv.org/abs/2611.15066) / [pdf](https://arxiv.org/pdf/2611.15066) |
+| 2026-11-11 | [Genie Sim Benchmark: Real-to-Sim Fidelity and Evaluation](https://arxiv.org/abs/2611.15020) | Di Yang, Da Huang, Yang Lv, et al. | cs.RO | Simulation Data, Sim-to-Real | [abs](https://arxiv.org/abs/2611.15020) / [pdf](https://arxiv.org/pdf/2611.15020) |
 | 2026-11-10 | [From Depth to Safe Depth: Uncertainty-Aware Monocular Perception for Mobile Robot Navigation](https://arxiv.org/abs/2611.13769) | Saeid Firouzi Daghigh, Saeed Ayat | cs.RO, cs.CV | Simulation Data | [abs](https://arxiv.org/abs/2611.13769) / [pdf](https://arxiv.org/pdf/2611.13769) |
 | 2026-11-10 | [From Egocentric Human Video to Robot Manipulation in the Era of Embodied Intelligence](https://arxiv.org/abs/2611.13610) | Yi Wang, Jingqiu Wu, Lei Yao, et al. | cs.RO | Simulation Data, Synthetic Data | [abs](https://arxiv.org/abs/2611.13610) / [pdf](https://arxiv.org/pdf/2611.13610) |
 | 2026-11-10 | [DeRep: Learning Depth Representations for End-to-End Navigation in Cluttered Environments](https://arxiv.org/abs/2611.13499) | Hanyu Jin, Kenji Shimada | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2611.13499) / [pdf](https://arxiv.org/pdf/2611.13499) |
