@@ -4,12 +4,15 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-11-16 · **Papers:** 2696 · **Unique arXiv IDs:** 2696
+**Coverage:** 2025-01-01 to 2026-11-16 · **Papers:** 2699 · **Unique arXiv IDs:** 2699
 
 ## 2026-11
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-11-13 | [From AI-Enabled Remote Patient Monitoring Toward Agentic Robotics: Embodiment, Governance, and Care Integration](https://arxiv.org/abs/2611.18484) | Ivana Ragusa, Lorenzo Guiducci, Filippo Cavallo | cs.RO, cs.AI, cs.MA | Data Collection | [abs](https://arxiv.org/abs/2611.18484) / [pdf](https://arxiv.org/pdf/2611.18484) |
+| 2026-11-13 | [Vision-Language-Action Models: A Life-Cycle Survey of Design, Training and Deployment](https://arxiv.org/abs/2611.18372) | Suvarna Kadam, Soran Parsa | cs.RO, cs.AI, cs.ET | Teleoperation, Robot Dataset | [abs](https://arxiv.org/abs/2611.18372) / [pdf](https://arxiv.org/pdf/2611.18372) |
+| 2026-11-13 | [ESI: An Embodied Self-Improvement Flywheel for LLM-VLA Agents](https://arxiv.org/abs/2611.18176) | Yundi Cai, Zihan Wang, Chenxi Han, et al. | cs.RO | Autonomous Collection | [abs](https://arxiv.org/abs/2611.18176) / [pdf](https://arxiv.org/pdf/2611.18176) |
 | 2026-11-12 | [HEIR: Harness Egocentric Intent for Human-Robot Interactions](https://arxiv.org/abs/2611.17238) | Yichi Zhang, Bo Wang, Zhenghan Zhu, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2611.17238) / [pdf](https://arxiv.org/pdf/2611.17238) |
 | 2026-11-12 | [XBot-Omni: An Omni-Modal Model for Embodied Understanding and Interaction](https://arxiv.org/abs/2611.17160) | Kerui Gu, Xing Fu, Shuoyang Sun, et al. | cs.RO | Robot Data Processing | [abs](https://arxiv.org/abs/2611.17160) / [pdf](https://arxiv.org/pdf/2611.17160) |
 | 2026-11-12 | [FORGE: Force-Aware Multi-Granularity Control for Efficient Humanoid Loco-Manipulation](https://arxiv.org/abs/2611.17142) | Liangjun Xing, Ke Fan, Kailin Li, et al. | cs.RO | Teleoperation, Data Collection | [abs](https://arxiv.org/abs/2611.17142) / [pdf](https://arxiv.org/pdf/2611.17142) |

@@ -4,12 +4,16 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-11-16 · **Papers:** 2481 · **Unique arXiv IDs:** 2481
+**Coverage:** 2025-01-01 to 2026-11-16 · **Papers:** 2485 · **Unique arXiv IDs:** 2485
 
 ## 2026-11
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-11-13 | [Vision-Language-Action Models: A Life-Cycle Survey of Design, Training and Deployment](https://arxiv.org/abs/2611.18372) | Suvarna Kadam, Soran Parsa | cs.RO, cs.AI, cs.ET | Egocentric, Human Video | [abs](https://arxiv.org/abs/2611.18372) / [pdf](https://arxiv.org/pdf/2611.18372) |
+| 2026-11-13 | [VACO: Vertex-Aligned Decoding for Dense Hand Contact Estimation from a Single Image](https://arxiv.org/abs/2611.17755) | Binhong Ye, Jin-Chuan Shi, Tao Liu, et al. | cs.CV | Hand-Object Interaction, Tracking / Reconstruction, Affordance / Contact | [abs](https://arxiv.org/abs/2611.17755) / [pdf](https://arxiv.org/pdf/2611.17755) |
+| 2026-11-13 | [TouchTwin: Scaling Human Touch Data via Real-to-Sim-to-Real](https://arxiv.org/abs/2611.17619) | Huiwen Han, Nuo Chen, Ziyao Zeng, et al. | cs.RO | Human Demonstration | [abs](https://arxiv.org/abs/2611.17619) / [pdf](https://arxiv.org/pdf/2611.17619) |
+| 2026-11-12 | [Talk to Act: A Synthetic Multi-Turn Dialogue Benchmark for Human Intent Extraction and Action Planning in Robotics](https://arxiv.org/abs/2611.17549) | Deepu Krishnareddy, Mohammad Haziq Khan, Michael Danner, et al. | cs.RO | Affordance / Contact | [abs](https://arxiv.org/abs/2611.17549) / [pdf](https://arxiv.org/pdf/2611.17549) |
 | 2026-11-12 | [HEIR: Harness Egocentric Intent for Human-Robot Interactions](https://arxiv.org/abs/2611.17238) | Yichi Zhang, Bo Wang, Zhenghan Zhu, et al. | cs.RO | Egocentric, Affordance / Contact | [abs](https://arxiv.org/abs/2611.17238) / [pdf](https://arxiv.org/pdf/2611.17238) |
 | 2026-11-12 | [UAV-Flow++: A Unified Suite for Benchmarking and Learning Language-Guided UAV Flight](https://arxiv.org/abs/2611.17163) | Donglin Yang, Xiangyu Wang, Yantong Zhong, et al. | cs.RO, cs.CV | Egocentric | [abs](https://arxiv.org/abs/2611.17163) / [pdf](https://arxiv.org/pdf/2611.17163) |
 | 2026-11-12 | [SALA: Semantically Aligned Latent Actions Enable Dual-Axis Scaling of Embodied Foundation Models](https://arxiv.org/abs/2611.17110) | Jiachun Jin, Zetong Zhou, Haonan Wang, et al. | cs.RO, cs.AI, cs.LG | Egocentric, Human Video | [abs](https://arxiv.org/abs/2611.17110) / [pdf](https://arxiv.org/pdf/2611.17110) |

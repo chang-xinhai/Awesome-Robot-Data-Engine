@@ -4,12 +4,19 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-11-16 · **Papers:** 3126 · **Unique arXiv IDs:** 3126
+**Coverage:** 2025-01-01 to 2026-11-16 · **Papers:** 3133 · **Unique arXiv IDs:** 3133
 
 ## 2026-11
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-11-13 | [Training Reasoning Models in Simulation to Natively Use Real Robots](https://arxiv.org/abs/2611.18562) | Jiaming Tang, Zhuoyang Zhang, Junxian Guo, et al. | cs.RO, cs.LG | Simulation Data | [abs](https://arxiv.org/abs/2611.18562) / [pdf](https://arxiv.org/pdf/2611.18562) |
+| 2026-11-13 | [Vision-Language-Action Models: A Life-Cycle Survey of Design, Training and Deployment](https://arxiv.org/abs/2611.18372) | Suvarna Kadam, Soran Parsa | cs.RO, cs.AI, cs.ET | Simulation Data | [abs](https://arxiv.org/abs/2611.18372) / [pdf](https://arxiv.org/pdf/2611.18372) |
+| 2026-11-13 | [Objectives as Policies: Vision-Language Model Cost Programs for Contact-Rich Manipulation](https://arxiv.org/abs/2611.18298) | Zihao Lu, Trong Gia Hung Nguyen, Fuquan Wang, et al. | cs.RO | Sim-to-Real, Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2611.18298) / [pdf](https://arxiv.org/pdf/2611.18298) |
+| 2026-11-13 | [AI-guided robotic in situ fabrication of curvature- and tissue-adaptive wireless bioelectronics](https://arxiv.org/abs/2611.17638) | Hiroyuki Tetsuka, Jiaju Ma, Naomi Kumano, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2611.17638) / [pdf](https://arxiv.org/pdf/2611.17638) |
+| 2026-11-13 | [TouchTwin: Scaling Human Touch Data via Real-to-Sim-to-Real](https://arxiv.org/abs/2611.17619) | Huiwen Han, Nuo Chen, Ziyao Zeng, et al. | cs.RO | Simulation Data, Sim-to-Real | [abs](https://arxiv.org/abs/2611.17619) / [pdf](https://arxiv.org/pdf/2611.17619) |
+| 2026-11-12 | [X-Nav Technical Report: Real-World Long-Horizon Indoor-to-Outdoor Navigation on a Humanoid Robot](https://arxiv.org/abs/2611.17598) | Jiaxin Huang, Chengxing Lin, Xiaoyu Luo, et al. | cs.RO, cs.AI, cs.CV | Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2611.17598) / [pdf](https://arxiv.org/pdf/2611.17598) |
+| 2026-11-12 | [Agentic-Teacher: An Agentic Data Engine for Failure-Driven VLA Post-Training](https://arxiv.org/abs/2611.17394) | Gongyue Teng, Yuqing Xie, Yixian Zhang, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2611.17394) / [pdf](https://arxiv.org/pdf/2611.17394) |
 | 2026-11-12 | [Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors](https://arxiv.org/abs/2611.17060) | Hao Li, Fangzhou Hong, Zhaoxi Chen, et al. | cs.CV | Trajectory Generation | [abs](https://arxiv.org/abs/2611.17060) / [pdf](https://arxiv.org/pdf/2611.17060) |
 | 2026-11-12 | [ACE-CaP-0: Real-World Code-as-Policies in the Era of Experience](https://arxiv.org/abs/2611.16872) | ACE-CaP Team, Changxu Wei, Yunpeng Qing, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2611.16872) / [pdf](https://arxiv.org/pdf/2611.16872) |
 | 2026-11-12 | [Reins: Frontier Multimodal Models Driving Real Robot Arms on Long-Horizon Tasks, Zero-Shot](https://arxiv.org/abs/2611.16632) | Pengfei Ye, Zhiyang Dou, Yuxiang Ma, et al. | cs.RO | Simulation-Ready Asset | [abs](https://arxiv.org/abs/2611.16632) / [pdf](https://arxiv.org/pdf/2611.16632) |
