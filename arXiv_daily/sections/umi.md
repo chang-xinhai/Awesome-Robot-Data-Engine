@@ -4,13 +4,14 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-11-17 · **Papers:** 110 · **Unique arXiv IDs:** 110
+**Coverage:** 2025-01-01 to 2026-11-17 · **Papers:** 111 · **Unique arXiv IDs:** 111
 
 ## 2026-11
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
-| 2026-11-12 | [PhysCapBench: A Cross-Domain Benchmark for Physically Grounded Video Captioning](https://arxiv.org/abs/2611.16424) | Haofeng Wang, Pengcheng Wen, Ruiqi Li, et al. | cs.CV, cs.AI | Handheld Gripper | [abs](https://arxiv.org/abs/2611.16424) / [pdf](https://arxiv.org/pdf/2611.16424) |
+| 2026-11-16 | [WinDEX: Metric 3D Hand Motion Reconstruction in the Wild for Dexterous Teleoperation and Policy Learning](https://arxiv.org/abs/2611.21143) | Hongyu Ma, Hairong Qu, Shiqi Zhao, et al. | cs.RO | In-the-Wild Teaching | [abs](https://arxiv.org/abs/2611.21143) / [pdf](https://arxiv.org/pdf/2611.21143) |
+| 2026-11-12 | [PhysCapBench: A Cross-Domain Benchmark for Physically Grounded Video Captioning](https://arxiv.org/abs/2611.16424) | Haofeng Wang, Xuanyi Liu, Pengcheng Wen, et al. | cs.CV, cs.AI | Handheld Gripper | [abs](https://arxiv.org/abs/2611.16424) / [pdf](https://arxiv.org/pdf/2611.16424) |
 | 2026-11-11 | [RUMI: A Robotiq-Matched Universal Manipulation Interface for Robot Learning with Augmented Reality and Haptic Feedback](https://arxiv.org/abs/2611.15802) | Kevin Avdiu, Seongjin Bien, Yannik Blei, et al. | cs.RO, cs.AI | Universal Manipulation Interface, Handheld Gripper | [abs](https://arxiv.org/abs/2611.15802) / [pdf](https://arxiv.org/pdf/2611.15802) |
 | 2026-11-11 | [PolyMorphWBC: Whole-Body Control from End-Effector Trajectories for Quadrupedal Mobile Manipulation across Arm Morphologies with Extended Reach](https://arxiv.org/abs/2611.15117) | Heng Li, Yang Li, Yifan Duan, et al. | cs.RO | Universal Manipulation Interface | [abs](https://arxiv.org/abs/2611.15117) / [pdf](https://arxiv.org/pdf/2611.15117) |
 | 2026-11-09 | [SWAM: Scaling World Action Models with Cross-Modal Alignment](https://arxiv.org/abs/2611.12870) | Yu Zhou, Xinyuan Xia, Xuankun Yang, et al. | cs.CV, cs.RO | Universal Manipulation Interface | [abs](https://arxiv.org/abs/2611.12870) / [pdf](https://arxiv.org/pdf/2611.12870) |

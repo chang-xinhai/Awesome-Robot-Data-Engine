@@ -4,12 +4,19 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-11-17 · **Papers:** 2699 · **Unique arXiv IDs:** 2699
+**Coverage:** 2025-01-01 to 2026-11-17 · **Papers:** 2706 · **Unique arXiv IDs:** 2706
 
 ## 2026-11
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-11-16 | [How Much Does Saliency Accuracy Matter for Saliency-Guided 360-degree Image Compression?](https://arxiv.org/abs/2611.21532) | Sakib Ahmed, Sidi-Mohammed Senouci, Philippe Brunet, et al. | eess.IV, cs.CV | Teleoperation | [abs](https://arxiv.org/abs/2611.21532) / [pdf](https://arxiv.org/pdf/2611.21532) |
+| 2026-11-16 | [BoBDeLaN: Bounded-Bandwidth Context Adaptation for Deep Lagrangian Robot Control](https://arxiv.org/abs/2611.21209) | Lucas Schulze, Sucheth Shenoy, Jan Peters, et al. | cs.RO, cs.LG, eess.SY | Robot Dataset | [abs](https://arxiv.org/abs/2611.21209) / [pdf](https://arxiv.org/pdf/2611.21209) |
+| 2026-11-16 | [WinDEX: Metric 3D Hand Motion Reconstruction in the Wild for Dexterous Teleoperation and Policy Learning](https://arxiv.org/abs/2611.21143) | Hongyu Ma, Hairong Qu, Shiqi Zhao, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2611.21143) / [pdf](https://arxiv.org/pdf/2611.21143) |
+| 2026-11-16 | [AsymEEF: Bimanual Manipulation with Asymmetric End Effectors](https://arxiv.org/abs/2611.20557) | Xiaokang Sun, Ningyue Wang, Kunqi Xu, et al. | cs.RO, cs.AI, cs.CV | Teleoperation | [abs](https://arxiv.org/abs/2611.20557) / [pdf](https://arxiv.org/pdf/2611.20557) |
+| 2026-11-15 | [EgoSwarm: Learning Decentralized Robot Swarm Intelligence from Human Swarm Demonstrations](https://arxiv.org/abs/2611.20100) | Ziqiang Liu, Xitong Chen, Min Li, et al. | cs.RO | Robot Dataset, Data Collection | [abs](https://arxiv.org/abs/2611.20100) / [pdf](https://arxiv.org/pdf/2611.20100) |
+| 2026-11-14 | [Ego2Sim2Humanoid: Agentic Real-to-Sim for Learning Loco-Manipulation VLAs without Robot Demonstrations](https://arxiv.org/abs/2611.19196) | Chen Liu, Nikolaus Correll | cs.RO | Teleoperation, Robot Dataset | [abs](https://arxiv.org/abs/2611.19196) / [pdf](https://arxiv.org/pdf/2611.19196) |
+| 2026-11-13 | [Bring Back Language to Actions: Restoring VLM capabilities in VLA Models via Parameter Merging](https://arxiv.org/abs/2611.18891) | Mohamed Salim Aissi, Olivier Sigaud, Laure Soulier, et al. | cs.AI, cs.CV | Robot Dataset | [abs](https://arxiv.org/abs/2611.18891) / [pdf](https://arxiv.org/pdf/2611.18891) |
 | 2026-11-13 | [From AI-Enabled Remote Patient Monitoring Toward Agentic Robotics: Embodiment, Governance, and Care Integration](https://arxiv.org/abs/2611.18484) | Ivana Ragusa, Lorenzo Guiducci, Filippo Cavallo | cs.RO, cs.AI, cs.MA | Data Collection | [abs](https://arxiv.org/abs/2611.18484) / [pdf](https://arxiv.org/pdf/2611.18484) |
 | 2026-11-13 | [Vision-Language-Action Models: A Life-Cycle Survey of Design, Training and Deployment](https://arxiv.org/abs/2611.18372) | Suvarna Kadam, Soran Parsa | cs.RO, cs.AI, cs.ET | Teleoperation, Robot Dataset | [abs](https://arxiv.org/abs/2611.18372) / [pdf](https://arxiv.org/pdf/2611.18372) |
 | 2026-11-13 | [ESI: An Embodied Self-Improvement Flywheel for LLM-VLA Agents](https://arxiv.org/abs/2611.18176) | Yundi Cai, Zihan Wang, Chenxi Han, et al. | cs.RO | Autonomous Collection | [abs](https://arxiv.org/abs/2611.18176) / [pdf](https://arxiv.org/pdf/2611.18176) |

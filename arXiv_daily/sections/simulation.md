@@ -4,12 +4,22 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-11-17 · **Papers:** 3133 · **Unique arXiv IDs:** 3133
+**Coverage:** 2025-01-01 to 2026-11-17 · **Papers:** 3143 · **Unique arXiv IDs:** 3143
 
 ## 2026-11
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-11-16 | [ROSE: A Shared Cross-Embodiment Facial-Motion Latent Space for Humanoid Robot Expression](https://arxiv.org/abs/2611.20950) | Yongji Fu, Man Cao, Yi Zhou, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2611.20950) / [pdf](https://arxiv.org/pdf/2611.20950) |
+| 2026-11-16 | [TRR: A Thermal Interaction Engine for Robot Simulation and RGBT Data Generation](https://arxiv.org/abs/2611.20792) | Biwen Yang, Zhe Cao, Jin Zhang, et al. | cs.CV, cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2611.20792) / [pdf](https://arxiv.org/pdf/2611.20792) |
+| 2026-11-16 | [AsymEEF: Bimanual Manipulation with Asymmetric End Effectors](https://arxiv.org/abs/2611.20557) | Xiaokang Sun, Ningyue Wang, Kunqi Xu, et al. | cs.RO, cs.AI, cs.CV | Trajectory Generation | [abs](https://arxiv.org/abs/2611.20557) / [pdf](https://arxiv.org/pdf/2611.20557) |
+| 2026-11-15 | [DAPPT: Domain-Aware Policies from Procedural Trajectories for Sim-to-Real Dexterous Tool Use](https://arxiv.org/abs/2611.20202) | Beining Han, Jia Deng | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2611.20202) / [pdf](https://arxiv.org/pdf/2611.20202) |
+| 2026-11-15 | [JEPA4R: Embodied JEPA World Models with 4D Point Planning](https://arxiv.org/abs/2611.19771) | Jiarui Dong, Zhiheng Liang, Yanjun Li, et al. | cs.RO, cs.CV | Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2611.19771) / [pdf](https://arxiv.org/pdf/2611.19771) |
+| 2026-11-15 | [Sim-to-Real Room-Mediated Object-Goal Navigation with ROS 2 and Nav2](https://arxiv.org/abs/2611.19720) | Matthew Chua, Adam Scicluna, Gavin Paul | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2611.19720) / [pdf](https://arxiv.org/pdf/2611.19720) |
+| 2026-11-14 | [Residual Reinforcement Learning for Visual Servo Control with Zero-Shot Sim-to-Real Transfer](https://arxiv.org/abs/2611.19318) | Mahdi Nobar, Alisa Rupenyan, John Lygeros, et al. | cs.RO, eess.SY | Sim-to-Real, Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2611.19318) / [pdf](https://arxiv.org/pdf/2611.19318) |
+| 2026-11-14 | [Ego2Sim2Humanoid: Agentic Real-to-Sim for Learning Loco-Manipulation VLAs without Robot Demonstrations](https://arxiv.org/abs/2611.19196) | Chen Liu, Nikolaus Correll | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2611.19196) / [pdf](https://arxiv.org/pdf/2611.19196) |
+| 2026-11-14 | [Leaning Over to Reach Far-Away Objects](https://arxiv.org/abs/2611.19100) | Allen Devaraj, William Xie, Nikolaus Correll | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2611.19100) / [pdf](https://arxiv.org/pdf/2611.19100) |
+| 2026-11-13 | [TMA: Sim-to-Real Forceful Humanoid Manipulation via Tactile-Driven Motor Adaptation](https://arxiv.org/abs/2611.18976) | Yiting Chen, Kelin Yu, Sarthak Kaingade, et al. | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2611.18976) / [pdf](https://arxiv.org/pdf/2611.18976) |
 | 2026-11-13 | [Training Reasoning Models in Simulation to Natively Use Real Robots](https://arxiv.org/abs/2611.18562) | Jiaming Tang, Zhuoyang Zhang, Junxian Guo, et al. | cs.RO, cs.LG | Simulation Data | [abs](https://arxiv.org/abs/2611.18562) / [pdf](https://arxiv.org/pdf/2611.18562) |
 | 2026-11-13 | [Vision-Language-Action Models: A Life-Cycle Survey of Design, Training and Deployment](https://arxiv.org/abs/2611.18372) | Suvarna Kadam, Soran Parsa | cs.RO, cs.AI, cs.ET | Simulation Data | [abs](https://arxiv.org/abs/2611.18372) / [pdf](https://arxiv.org/pdf/2611.18372) |
 | 2026-11-13 | [Objectives as Policies: Vision-Language Model Cost Programs for Contact-Rich Manipulation](https://arxiv.org/abs/2611.18298) | Zihao Lu, Trong Gia Hung Nguyen, Fuquan Wang, et al. | cs.RO | Sim-to-Real, Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2611.18298) / [pdf](https://arxiv.org/pdf/2611.18298) |
