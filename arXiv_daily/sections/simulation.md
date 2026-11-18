@@ -4,18 +4,23 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-11-17 · **Papers:** 3143 · **Unique arXiv IDs:** 3143
+**Coverage:** 2025-01-01 to 2026-11-18 · **Papers:** 3148 · **Unique arXiv IDs:** 3148
 
 ## 2026-11
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-11-16 | [ReuseMem: One Memory, Multiple Goals in Robot Manipulation](https://arxiv.org/abs/2611.21115) | Yoonseok Kang, Dayeon Jung, Seunghoon Jeon, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2611.21115) / [pdf](https://arxiv.org/pdf/2611.21115) |
+| 2026-11-16 | [Multi-CONDOR: Learning Multistable Motion Primitives from Demonstration](https://arxiv.org/abs/2611.21059) | Gabriele Giuseppe Di Marzo, Mariano Ramírez Montero, Maximilian Stölzle, et al. | cs.RO, cs.AI | Simulation Data | [abs](https://arxiv.org/abs/2611.21059) / [pdf](https://arxiv.org/pdf/2611.21059) |
 | 2026-11-16 | [ROSE: A Shared Cross-Embodiment Facial-Motion Latent Space for Humanoid Robot Expression](https://arxiv.org/abs/2611.20950) | Yongji Fu, Man Cao, Yi Zhou, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2611.20950) / [pdf](https://arxiv.org/pdf/2611.20950) |
 | 2026-11-16 | [TRR: A Thermal Interaction Engine for Robot Simulation and RGBT Data Generation](https://arxiv.org/abs/2611.20792) | Biwen Yang, Zhe Cao, Jin Zhang, et al. | cs.CV, cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2611.20792) / [pdf](https://arxiv.org/pdf/2611.20792) |
 | 2026-11-16 | [AsymEEF: Bimanual Manipulation with Asymmetric End Effectors](https://arxiv.org/abs/2611.20557) | Xiaokang Sun, Ningyue Wang, Kunqi Xu, et al. | cs.RO, cs.AI, cs.CV | Trajectory Generation | [abs](https://arxiv.org/abs/2611.20557) / [pdf](https://arxiv.org/pdf/2611.20557) |
 | 2026-11-15 | [DAPPT: Domain-Aware Policies from Procedural Trajectories for Sim-to-Real Dexterous Tool Use](https://arxiv.org/abs/2611.20202) | Beining Han, Jia Deng | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2611.20202) / [pdf](https://arxiv.org/pdf/2611.20202) |
 | 2026-11-15 | [JEPA4R: Embodied JEPA World Models with 4D Point Planning](https://arxiv.org/abs/2611.19771) | Jiarui Dong, Zhiheng Liang, Yanjun Li, et al. | cs.RO, cs.CV | Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2611.19771) / [pdf](https://arxiv.org/pdf/2611.19771) |
+| 2026-11-15 | [M-CROSS: A Multisensor Simulation Dataset for SLAM across Water--Land Transitions](https://arxiv.org/abs/2611.19765) | Yan Dong, Tianyi Wu, Junyu Yang, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2611.19765) / [pdf](https://arxiv.org/pdf/2611.19765) |
 | 2026-11-15 | [Sim-to-Real Room-Mediated Object-Goal Navigation with ROS 2 and Nav2](https://arxiv.org/abs/2611.19720) | Matthew Chua, Adam Scicluna, Gavin Paul | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2611.19720) / [pdf](https://arxiv.org/pdf/2611.19720) |
+| 2026-11-14 | [Depth-Aware Path Planning and Collision Avoidance for Robotic Nursing Assistants Using Real-Time 3D Vision](https://arxiv.org/abs/2611.19534) | Peeyush Thakur, Dharmendra Sharma, Archit Sharma, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2611.19534) / [pdf](https://arxiv.org/pdf/2611.19534) |
+| 2026-11-14 | [MARS: Dynamic Routing of Reinforcement-Learned Atomic Skills for Multi-Stage Robotic Manipulation](https://arxiv.org/abs/2611.19324) | Zequan Zeng, Junqin Yang, Kai Wang | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2611.19324) / [pdf](https://arxiv.org/pdf/2611.19324) |
 | 2026-11-14 | [Residual Reinforcement Learning for Visual Servo Control with Zero-Shot Sim-to-Real Transfer](https://arxiv.org/abs/2611.19318) | Mahdi Nobar, Alisa Rupenyan, John Lygeros, et al. | cs.RO, eess.SY | Sim-to-Real, Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2611.19318) / [pdf](https://arxiv.org/pdf/2611.19318) |
 | 2026-11-14 | [Ego2Sim2Humanoid: Agentic Real-to-Sim for Learning Loco-Manipulation VLAs without Robot Demonstrations](https://arxiv.org/abs/2611.19196) | Chen Liu, Nikolaus Correll | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2611.19196) / [pdf](https://arxiv.org/pdf/2611.19196) |
 | 2026-11-14 | [Leaning Over to Reach Far-Away Objects](https://arxiv.org/abs/2611.19100) | Allen Devaraj, William Xie, Nikolaus Correll | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2611.19100) / [pdf](https://arxiv.org/pdf/2611.19100) |

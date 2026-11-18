@@ -4,7 +4,7 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-11-17 · **Papers:** 2496 · **Unique arXiv IDs:** 2496
+**Coverage:** 2025-01-01 to 2026-11-18 · **Papers:** 2499 · **Unique arXiv IDs:** 2499
 
 ## 2026-11
 
@@ -15,11 +15,14 @@
 | 2026-11-16 | [GRAZE: Text-Free Grasp Synthesis for Unseen Objects from Human Gaze](https://arxiv.org/abs/2611.21104) | Jeongho Lee, Boeun Kim, Hyung Jin Chang, et al. | cs.CV | Hand-Object Interaction | [abs](https://arxiv.org/abs/2611.21104) / [pdf](https://arxiv.org/pdf/2611.21104) |
 | 2026-11-16 | [MetricHand: Geometry-Aware Flow Matching for 4D Hand Reconstruction in Metric World Space](https://arxiv.org/abs/2611.21060) | Yibo Bai, Likui Zhang, Jinglei Zhang, et al. | cs.CV | Egocentric, Hand-Object Interaction, Tracking / Reconstruction | [abs](https://arxiv.org/abs/2611.21060) / [pdf](https://arxiv.org/pdf/2611.21060) |
 | 2026-11-16 | [WiTac: Wrist-Informed Tactile Representations for Contact-Rich Manipulation](https://arxiv.org/abs/2611.21057) | Haotian He, Yiyang Chen, Congsheng Xu, et al. | cs.RO | Affordance / Contact | [abs](https://arxiv.org/abs/2611.21057) / [pdf](https://arxiv.org/pdf/2611.21057) |
+| 2026-11-16 | [Driving the Style: Velocity-Conditioned Whole-Body Control from Motion Demonstrations](https://arxiv.org/abs/2611.20888) | Murad Dawood, Oezge Drama Berkenkamp, Antonio Gonzales Marin, et al. | cs.RO | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2611.20888) / [pdf](https://arxiv.org/pdf/2611.20888) |
 | 2026-11-16 | [Lift, See, Act: Hierarchical Robot Policy Pretraining with 3D Foundation Models](https://arxiv.org/abs/2611.20481) | Yiyuan Ge, Changxing Ding, Ziyu Hao, et al. | cs.RO | Human Video | [abs](https://arxiv.org/abs/2611.20481) / [pdf](https://arxiv.org/pdf/2611.20481) |
 | 2026-11-15 | [DoF-Query Transformer for Adaptive Fusion of Egocentric Vision and Forearm HD-sEMG in Continuous Hand Kinematics](https://arxiv.org/abs/2611.20196) | Jiahang Liu, Wenbo Zhang, Junsong Wang, et al. | cs.CV, cs.HC, cs.LG | Egocentric, Human Demonstration | [abs](https://arxiv.org/abs/2611.20196) / [pdf](https://arxiv.org/pdf/2611.20196) |
 | 2026-11-15 | [EgoSwarm: Learning Decentralized Robot Swarm Intelligence from Human Swarm Demonstrations](https://arxiv.org/abs/2611.20100) | Ziqiang Liu, Xitong Chen, Min Li, et al. | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2611.20100) / [pdf](https://arxiv.org/pdf/2611.20100) |
+| 2026-11-15 | [MoViC: Real-Time Humanoid Whole-Body Control from Monocular Video Streams](https://arxiv.org/abs/2611.19998) | Yimin Han, Jiahui Zhang, Wanyue Li, et al. | cs.RO | Human-to-Robot | [abs](https://arxiv.org/abs/2611.19998) / [pdf](https://arxiv.org/pdf/2611.19998) |
 | 2026-11-14 | [Ego2Sim2Humanoid: Agentic Real-to-Sim for Learning Loco-Manipulation VLAs without Robot Demonstrations](https://arxiv.org/abs/2611.19196) | Chen Liu, Nikolaus Correll | cs.RO | Egocentric, Human Demonstration, Tracking / Reconstruction | [abs](https://arxiv.org/abs/2611.19196) / [pdf](https://arxiv.org/pdf/2611.19196) |
 | 2026-11-13 | [Probing Where Surprise Happens: Localized Violation-of-Expectation Evaluation of Video World Models](https://arxiv.org/abs/2611.18979) | Yanbin Xu, Ming bo Cai | cs.CV, cs.AI, eess.IV | Egocentric | [abs](https://arxiv.org/abs/2611.18979) / [pdf](https://arxiv.org/pdf/2611.18979) |
+| 2026-11-13 | [Correcting Persistent Failures in Point-Cloud Grasping Policies using Human Demonstrations in Virtual Reality](https://arxiv.org/abs/2611.18919) | Achyuthan Unni Krishnan, Karthik Rengarajan, Bharath Narasimhan, et al. | cs.RO | Human Demonstration | [abs](https://arxiv.org/abs/2611.18919) / [pdf](https://arxiv.org/pdf/2611.18919) |
 | 2026-11-13 | [Vision-Language-Action Models: A Life-Cycle Survey of Design, Training and Deployment](https://arxiv.org/abs/2611.18372) | Suvarna Kadam, Soran Parsa | cs.RO, cs.AI, cs.ET | Egocentric, Human Video | [abs](https://arxiv.org/abs/2611.18372) / [pdf](https://arxiv.org/pdf/2611.18372) |
 | 2026-11-13 | [VACO: Vertex-Aligned Decoding for Dense Hand Contact Estimation from a Single Image](https://arxiv.org/abs/2611.17755) | Binhong Ye, Jin-Chuan Shi, Tao Liu, et al. | cs.CV | Hand-Object Interaction, Tracking / Reconstruction, Affordance / Contact | [abs](https://arxiv.org/abs/2611.17755) / [pdf](https://arxiv.org/pdf/2611.17755) |
 | 2026-11-13 | [TouchTwin: Scaling Human Touch Data via Real-to-Sim-to-Real](https://arxiv.org/abs/2611.17619) | Huiwen Han, Nuo Chen, Ziyao Zeng, et al. | cs.RO | Human Demonstration | [abs](https://arxiv.org/abs/2611.17619) / [pdf](https://arxiv.org/pdf/2611.17619) |

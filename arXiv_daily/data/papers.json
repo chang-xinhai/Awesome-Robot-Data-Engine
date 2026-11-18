@@ -94,6 +94,7 @@
       "url": "https://arxiv.org/abs/2611.21209",
       "pdf_url": "https://arxiv.org/pdf/2611.21209",
       "query_sources": [
+        "cs-ro",
         "robot-data"
       ],
       "topics": [
@@ -102,6 +103,41 @@
       "matches": {
         "robot_centric": [
           "Robot Dataset"
+        ]
+      }
+    },
+    "2611.21163": {
+      "arxiv_id": "2611.21163",
+      "title": "Polygraph: Large-Scale Multi-Session Trajectory Optimization using Pose Graphs",
+      "abstract": "Robots, vehicles, and wearable devices often traverse the same environment many times. Each pass produces its own trajectory from onboard visual or visual-inertial odometry. These trajectories are locally accurate but drift over time and live in unrelated coordinate frames. Turning many such independent trajectories into one globally consistent set is the large-scale multi-session trajectory optimization problem. Existing solutions largely work offline. All sessions must be available up front, one session is fixed as the reference frame, and a single fused map is then optimized. This paper presents Polygraph, a multi-session trajectory optimization pipeline that processes sessions online, one keyframe and one spatial cluster at a time, and never builds a 3D map. Keyframes are grouped into local clusters. When a cluster closes, it is matched against every other session through learned image retrieval. Candidate pairs are verified with sparse feature matching, monocular metric depth, and robust pose estimation. A two-tier consensus gate admits a cross-session edge into the shared pose graph only once independent evidence corroborates it. A cheap incremental solve keeps the graph current, and a periodic robust batch solve prunes outliers. We evaluate Polygraph on stereo outdoor driving, HoloLens and iPad indoor traversals, legged indoor locomotion with a Boston Dynamics Spot, and large-scale outdoor vehicle and handheld routes. Against the closest prior work on the same GPU model, using its reported timings, Polygraph runs faster, commits fewer loop-closure edges, and matches or improves on accuracy.",
+      "authors": [
+        "Petar Lukovic",
+        "Tian Yi Lim",
+        "Marc Pollefeys",
+        "Pablo Speciale",
+        "Hermann Blum",
+        "Zuria Bauer"
+      ],
+      "published": "2026-11-16",
+      "updated": "2026-11-16",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.21163",
+      "pdf_url": "https://arxiv.org/pdf/2611.21163",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "robot_centric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Scalable Demonstrations"
         ]
       }
     },
@@ -131,6 +167,7 @@
       "url": "https://arxiv.org/abs/2611.21143",
       "pdf_url": "https://arxiv.org/pdf/2611.21143",
       "query_sources": [
+        "cs-ro",
         "human-egocentric"
       ],
       "topics": [
@@ -148,6 +185,40 @@
         "human_egocentric": [
           "Egocentric",
           "Tracking / Reconstruction"
+        ]
+      }
+    },
+    "2611.21115": {
+      "arxiv_id": "2611.21115",
+      "title": "ReuseMem: One Memory, Multiple Goals in Robot Manipulation",
+      "abstract": "Robots that work alongside people should be able to use what they have seen when new requests arise. The same experience may later support identifying an object or returning it to its original location, although these uses were unknown during observation. ReuseMem learns to use one visual memory for multiple later manipulation goals. It records visual features independently of future goals, retrieves complementary evidence for each request, and combines it with the current scene through a lightweight action interface. Retrieval is supervised by how well candidate evidence supports expert-action prediction across different current states, linking memory selection to its use in manipulation. Repeated visual features are stored once, and memory computations that remain unchanged during action generation are reused. Experiments on four simulation tasks and two physical scenarios demonstrate reuse of a common recording across different requests. With matched action adaptation, ReuseMem improves joint goal completion on the benchmark tasks by 24.5 percentage points over uniform memory. These findings show that one memory can support multiple later manipulation goals as the scene changes.",
+      "authors": [
+        "Yoonseok Kang",
+        "Dayeon Jung",
+        "Seunghoon Jeon",
+        "Wonjib Kim",
+        "Dongchul Park"
+      ],
+      "published": "2026-11-16",
+      "updated": "2026-11-16",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.21115",
+      "pdf_url": "https://arxiv.org/pdf/2611.21115",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Simulation Data"
         ]
       }
     },
@@ -223,6 +294,41 @@
         ]
       }
     },
+    "2611.21059": {
+      "arxiv_id": "2611.21059",
+      "title": "Multi-CONDOR: Learning Multistable Motion Primitives from Demonstration",
+      "abstract": "Dynamical-system-based motion policies provide a framework for learning reactive robot motions with stability and convergence properties. Many manipulation tasks, however, admit several distinct goals or a continuous set of acceptable outcomes, requiring motion primitives that preserve these alternatives. Accommodating both goal structures within a unified framework with continuous, autonomous dynamics remains an open challenge. We propose a CONDOR-based framework, multi-CONDOR, for learning motion primitives with either multiple discrete attractors or a continuous attracting goal contour. The approach combines imitation learning with losses that encourage agreement between the learned task dynamics and latent reference systems encoding the desired attraction structure. We provide a Lyapunov-based analysis of the convergence properties of the learned motion dynamics. We evaluate the framework on simulated benchmarks with discrete goals, qualitative examples with continuous goal contours, and robotic grasping experiments. In simulation, multi-CONDOR reduces trajectory RMSE by approximately 72% compared with separately learned single-goal motion primitives selected by a state machine. For tasks with two and three goals, respectively, it reduces the fraction of evaluated initial states ending outside the goal tolerance from StableNODE's 0.31% and 7.29% to 0% in both settings. Experiments with a Franka Emika robot arm demonstrate successful grasping of a container by either of its two handles using motions learned from demonstrations. Together, these results show multi-CONDOR combines motion reproduction with the flexibility to converge to alternative valid outcomes.",
+      "authors": [
+        "Gabriele Giuseppe Di Marzo",
+        "Mariano Ramírez Montero",
+        "Maximilian Stölzle",
+        "Rodrigo Pérez-Dattari",
+        "Cosimo Della Santina"
+      ],
+      "published": "2026-11-16",
+      "updated": "2026-11-16",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.21059",
+      "pdf_url": "https://arxiv.org/pdf/2611.21059",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Simulation Data"
+        ]
+      }
+    },
     "2611.21057": {
       "arxiv_id": "2611.21057",
       "title": "WiTac: Wrist-Informed Tactile Representations for Contact-Rich Manipulation",
@@ -253,6 +359,7 @@
       "url": "https://arxiv.org/abs/2611.21057",
       "pdf_url": "https://arxiv.org/pdf/2611.21057",
       "query_sources": [
+        "cs-ro",
         "human-egocentric"
       ],
       "topics": [
@@ -289,6 +396,7 @@
       "pdf_url": "https://arxiv.org/pdf/2611.20950",
       "query_sources": [
         "cross-source-data",
+        "cs-ro",
         "human-egocentric"
       ],
       "topics": [
@@ -297,6 +405,39 @@
       "matches": {
         "simulation": [
           "Trajectory Generation"
+        ]
+      }
+    },
+    "2611.20888": {
+      "arxiv_id": "2611.20888",
+      "title": "Driving the Style: Velocity-Conditioned Whole-Body Control from Motion Demonstrations",
+      "abstract": "Achieving human-like behavior on humanoid robots has advanced rapidly by leveraging motion-capture demonstrations rather than hand-crafted cost functions. Adversarial imitation supplies a style signal that lets a policy fulfill a task while adhering to a desired style, but is difficult to transfer to hardware. Whole-body tracking through reinforcement learning instead deploys reliably and imitates demonstrations faithfully, but the resulting policies are conditioned on the future reference, so they require a reference trajectory at runtime and can fail when the motion differs from the training data. We train a humanoid policy directly with whole-body tracking rewards while restricting its actor to compact locomotion commands and robot observations. Reference motion supervises the reward and privileged critic, without supplying reference joint trajectories to the actor or requiring teacher distillation. The demonstrated style is thereby encoded in the policy through the tracking reward, so the robot reproduces the whole-body style under commanded velocities. Trained on a single random-walk motion and commanded with velocity profiles from held-out motions, our policy reaches at least 98\\% success in simulation and completes every trial on the Unitree G1. On held-out slow walking, whole-body tracking drops to 2\\% success and command-conditioned distillation to 56\\%, and both fail on the real robot. On the trained motions, the joint position error of our policy stays within 8\\% of whole-body tracking, and it has a higher style coverage than adversarial motion priors (AMP), which fell on the real robot without a safety crane.",
+      "authors": [
+        "Murad Dawood",
+        "Oezge Drama Berkenkamp",
+        "Antonio Gonzales Marin",
+        "Nutan Chen"
+      ],
+      "published": "2026-11-16",
+      "updated": "2026-11-16",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.20888",
+      "pdf_url": "https://arxiv.org/pdf/2611.20888",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Tracking / Reconstruction"
         ]
       }
     },
@@ -331,6 +472,7 @@
       "url": "https://arxiv.org/abs/2611.20792",
       "pdf_url": "https://arxiv.org/pdf/2611.20792",
       "query_sources": [
+        "cs-ro",
         "simulation-data"
       ],
       "topics": [
@@ -370,6 +512,7 @@
       "url": "https://arxiv.org/abs/2611.20557",
       "pdf_url": "https://arxiv.org/pdf/2611.20557",
       "query_sources": [
+        "cs-ro",
         "robot-data"
       ],
       "topics": [
@@ -408,6 +551,7 @@
       "url": "https://arxiv.org/abs/2611.20481",
       "pdf_url": "https://arxiv.org/pdf/2611.20481",
       "query_sources": [
+        "cs-ro",
         "human-egocentric"
       ],
       "topics": [
@@ -439,6 +583,7 @@
       "url": "https://arxiv.org/abs/2611.20202",
       "pdf_url": "https://arxiv.org/pdf/2611.20202",
       "query_sources": [
+        "cs-ro",
         "simulation-data"
       ],
       "topics": [
@@ -512,6 +657,7 @@
       "url": "https://arxiv.org/abs/2611.20100",
       "pdf_url": "https://arxiv.org/pdf/2611.20100",
       "query_sources": [
+        "cs-ro",
         "human-egocentric"
       ],
       "topics": [
@@ -525,6 +671,52 @@
         ],
         "human_egocentric": [
           "Egocentric"
+        ]
+      }
+    },
+    "2611.19998": {
+      "arxiv_id": "2611.19998",
+      "title": "MoViC: Real-Time Humanoid Whole-Body Control from Monocular Video Streams",
+      "abstract": "Real-time whole-body imitation from monocular video requires both a robust universal tracker and high-quality real-time reconstruction. We present MoViC, a framework that uses live RGB video as a control signal for humanoid robots without wearable tracking devices. The framework combines monocular human motion reconstruction, robot retargeting, and a transformer-based behavior foundation model. The policy receives proprioceptive history, a single explicit next-step reference, and a compact frequency-domain motion representation that supplies temporal context without explicitly stacking future reference frames, which reduces the input dimension and network size. During deployment, our extrapolation method bridges the 10-Hz visual estimation with 50-Hz controller, enabling asynchronous visual processing and policy execution. Hardware experiments further demonstrate highly dynamic motion tracking and device-free teleoperation of bimanual and single-arm manipulation tasks from live monocular RGB input. Project page: https://movicproject.github.io/ .",
+      "authors": [
+        "Yimin Han",
+        "Jiahui Zhang",
+        "Wanyue Li",
+        "Zeren Luo",
+        "Yeke Chen",
+        "Liu Zhao",
+        "Peizhuo Li",
+        "Xiaoyu Ji",
+        "Shihao Dong",
+        "Xuechao Chen",
+        "Zhangguo Yu",
+        "Annan Tang",
+        "Peng Lu"
+      ],
+      "published": "2026-11-15",
+      "updated": "2026-11-15",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": "16 pages, 10 figures",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.19998",
+      "pdf_url": "https://arxiv.org/pdf/2611.19998",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "robot_centric",
+        "human_egocentric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Teleoperation"
+        ],
+        "human_egocentric": [
+          "Human-to-Robot"
         ]
       }
     },
@@ -554,6 +746,7 @@
       "url": "https://arxiv.org/abs/2611.19771",
       "pdf_url": "https://arxiv.org/pdf/2611.19771",
       "query_sources": [
+        "cs-ro",
         "simulation-data"
       ],
       "topics": [
@@ -562,6 +755,42 @@
       "matches": {
         "simulation": [
           "Digital Twin / Real-to-Sim"
+        ]
+      }
+    },
+    "2611.19765": {
+      "arxiv_id": "2611.19765",
+      "title": "M-CROSS: A Multisensor Simulation Dataset for SLAM across Water--Land Transitions",
+      "abstract": "Water--land cross-domain robots require continuous localization across land, transition and underwater phases, where sensor characteristics and availability change abruptly. Existing datasets and conventional metrics are not designed to capture transition-induced degradation and failures. We present \\textbf{M-CROSS}, to the best of our knowledge, the first multisensor simulation dataset and benchmark for SLAM across continuous water--land transitions. It provides synchronized LiDAR, sonar, stereo camera, IMU, DVL, and depth measurements; 6DoF pose ground truth; sensor-wise medium-state annotations; and medium-dependent sensor degradation models. We establish a transition-aware protocol comprising the Trajectory Completion Rate (TCR), Piecewise Absolute Pose Error (PW-APE), Transition End Error (TEE), and Transition Survival Period (TSP), which measure trajectory completion, single-domain accuracy, transition-induced error, and localization survival under prolonged partial immersion, respectively. Experiments with 6 representative SLAM systems show that existing methods fail to maintain both localization accuracy and trajectory continuity across the full set of water--land transitions, exhibiting transition-induced drift, trajectory discontinuities, and tracking failures. M-CROSS is publicly available https://anonymous.4open.science/r/MCross-Dataset",
+      "authors": [
+        "Yan Dong",
+        "Tianyi Wu",
+        "Junyu Yang",
+        "Shaoqiang Qiu",
+        "Zefeng Yan",
+        "Tao Zhang",
+        "Bin Han"
+      ],
+      "published": "2026-11-15",
+      "updated": "2026-11-15",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": "Submitted to ICRA 2027",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.19765",
+      "pdf_url": "https://arxiv.org/pdf/2611.19765",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Simulation Data"
         ]
       }
     },
@@ -586,6 +815,7 @@
       "url": "https://arxiv.org/abs/2611.19720",
       "pdf_url": "https://arxiv.org/pdf/2611.19720",
       "query_sources": [
+        "cs-ro",
         "simulation-data"
       ],
       "topics": [
@@ -594,6 +824,73 @@
       "matches": {
         "simulation": [
           "Sim-to-Real"
+        ]
+      }
+    },
+    "2611.19534": {
+      "arxiv_id": "2611.19534",
+      "title": "Depth-Aware Path Planning and Collision Avoidance for Robotic Nursing Assistants Using Real-Time 3D Vision",
+      "abstract": "This paper presents a depth-aware path planning and collision avoidance framework for the safe navigation of robotic nursing assistants in cluttered environments with low-height obstacles. Conventional LiDAR-based navigation systems, while accurate for mapping and localization, fail to detect transparent or low-height obstacles, whereas vision-based systems are prone to noise and occlusion. The proposed framework integrates RGB-D depth sensing, rule-based obstacle avoidance, and the NavfnROS global path planner to drive the robot from an initial point to a goal point. The proposed approach is implemented on the Husky A200 robot, equipped with a Kinova Gen3 arm, to form a complete setup for a robotic nursing assistant. This system features a multi-layer architecture for global planning, perception fusion, and real-time control in the ROS-Gazebo environment. Experimental evaluations in a simulated cluttered environment demonstrate up to 40\\% higher success rate and 35\\% improvement in minimum clearance compared with single-sensor baselines. Furthermore, real-world experimental results validate the proposed approach as a computationally efficient and safety-aware navigation solution for autonomous healthcare robots.",
+      "authors": [
+        "Peeyush Thakur",
+        "Dharmendra Sharma",
+        "Archit Sharma",
+        "Sandeep Gupta",
+        "Anuj Nandanwar",
+        "Laxmidhar Behera"
+      ],
+      "published": "2026-11-14",
+      "updated": "2026-11-14",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": "12 pages, 14 figures",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.19534",
+      "pdf_url": "https://arxiv.org/pdf/2611.19534",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Simulation Data"
+        ]
+      }
+    },
+    "2611.19324": {
+      "arxiv_id": "2611.19324",
+      "title": "MARS: Dynamic Routing of Reinforcement-Learned Atomic Skills for Multi-Stage Robotic Manipulation",
+      "abstract": "Vision-Language-Action (VLA) models have demonstrated strong capabilities in multi-task robotic manipulation. However, they still face limitations in control precision and execution stability during critical manipulation stages, such as object grasping, alignment and insertion. To combine general-purpose manipulation capabilities with task-specific fine-grained control, while enabling effective coordination between generalist and specialized policies throughout multi-stage manipulation tasks, this paper proposes MARS (Modular Atomic-skill Routing System), a dynamic routing framework for reinforcement learning-based atomic skills. MARS integrates a frozen generalist VLA policy with multiple independently trained atomic skill policies. Using a shared RL Token state representation and the reference action of VLA, specialized control policies are optimized through reinforcement learning for different cr`itical manipulation stages. For high-level policy selection, we develop a dynamic router that integrates temporal context and skill semantics. The router employs Mamba-based recurrent encoding and a historical feature window to capture state evolution during manipulation. Skill descriptions of candidate policies are encoded into semantic queries, and attention mechanisms are used to establish correspondences between skill semantics and temporal state features. Experimental results show that MARS achieves an average Macro-F1 score of 90.47% across four LIBERO task suites under fixed-trajectory evaluation, outperforming an MLP-based router by 7.08 percentage points. In the simulated Tube Transport task, the full-task success rate increases from 20.04% to 85.67%. These results demonstrate that stage-specific reinforcement learning and temporal state-aware dynamic policy routing can improve multi-policy coordination and overall task execution performance in multi-stage robotic manipulation.",
+      "authors": [
+        "Zequan Zeng",
+        "Junqin Yang",
+        "Kai Wang"
+      ],
+      "published": "2026-11-14",
+      "updated": "2026-11-14",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.19324",
+      "pdf_url": "https://arxiv.org/pdf/2611.19324",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Simulation Data"
         ]
       }
     },
@@ -620,6 +917,7 @@
       "url": "https://arxiv.org/abs/2611.19318",
       "pdf_url": "https://arxiv.org/pdf/2611.19318",
       "query_sources": [
+        "cs-ro",
         "simulation-data"
       ],
       "topics": [
@@ -629,6 +927,38 @@
         "simulation": [
           "Sim-to-Real",
           "Digital Twin / Real-to-Sim"
+        ]
+      }
+    },
+    "2611.19198": {
+      "arxiv_id": "2611.19198",
+      "title": "Self-Calibrating Vision-Agent-Action: Deploying Pick-and-Place to New Robot Cells without Demonstrations or Fine-Tuning",
+      "abstract": "In simulation, Vision-Agent-Action (VAA) performs pick-and-place in robot cells with gripper or base-frame changes without robot demonstrations or fine-tuning. It uses pre-trained vision-language and language models for interpretation, measures the command map and camera geometry from its own motion and fingertips, estimates lens distortion, and plans grasps from measured object depth. A controlled study of eight public LIBERO-fine-tuned vision-language-action models (VLAs) varies robot hardware, camera geometry, appearance, and base frame. Gripper and frame changes dominate their losses in the tested fractional design. Across 18 cells with these changes, frozen VAA achieves 230/360 successes (64%), the refined VAA 268/360 (74%), and the strongest released VLA on this subset 76/360 (21%). Paired ablations support the self-calibration bundle, lens estimation under compounded changes, and the measured-depth pipeline. On a two-step LIBERO-Goal chain with object state carried between instructions, VAA completes 54/60 chains in changed cells, while four evaluated VLAs complete none.",
+      "authors": [
+        "Jae Hun Hwang",
+        "Yechan Seo",
+        "Hong-In Won"
+      ],
+      "published": "2026-11-14",
+      "updated": "2026-11-14",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": "7 pages, 7 figures, 4 tables; supplementary video in ancillary files",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.19198",
+      "pdf_url": "https://arxiv.org/pdf/2611.19198",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "robot_centric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Robot Dataset"
         ]
       }
     },
@@ -652,6 +982,7 @@
       "url": "https://arxiv.org/abs/2611.19196",
       "pdf_url": "https://arxiv.org/pdf/2611.19196",
       "query_sources": [
+        "cs-ro",
         "human-egocentric",
         "simulation-data",
         "umi"
@@ -697,6 +1028,7 @@
       "url": "https://arxiv.org/abs/2611.19100",
       "pdf_url": "https://arxiv.org/pdf/2611.19100",
       "query_sources": [
+        "cs-ro",
         "simulation-data"
       ],
       "topics": [
@@ -705,6 +1037,37 @@
       "matches": {
         "simulation": [
           "Sim-to-Real"
+        ]
+      }
+    },
+    "2611.18982": {
+      "arxiv_id": "2611.18982",
+      "title": "Robot Demonstration Videos Should Include Transparency Disclosures",
+      "abstract": "This paper argues that the robotics and AI community should adopt disclosure standards for demonstration videos. As physical and financial constraints limit direct public access to embodied AI, public dissemination of progress in robotics is mainly through curated demonstration videos rather than direct experience with the technology. In a large-scale (N=9,341), pre-registered experiment across six countries, we find that the general public struggles to discern both the visual authenticity (e.g., distinguishing real footage from CGI) and behavioral authenticity (e.g., distinguishing autonomy from teleoperation) of robot demonstration videos. The omission of these details distorts public perception, leading people to overestimate the ability of robots to perform tasks and navigate real world environments. Using evidence from behavioral science, we design a disclosure intervention and demonstrate that the inclusion of clear disclosures in robot demonstration videos significantly improves discernment of visual and behavioral authenticity, as well as understanding robots' capabilities. We propose the adoption of disclosure standards for robot demonstration videos to accurately calibrate public expectations and promote transparency in robotics research.",
+      "authors": [
+        "Nozomi Nakajima"
+      ],
+      "published": "2026-11-13",
+      "updated": "2026-11-13",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.18982",
+      "pdf_url": "https://arxiv.org/pdf/2611.18982",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "robot_centric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Teleoperation",
+          "Robot Dataset"
         ]
       }
     },
@@ -767,6 +1130,7 @@
       "url": "https://arxiv.org/abs/2611.18976",
       "pdf_url": "https://arxiv.org/pdf/2611.18976",
       "query_sources": [
+        "cs-ro",
         "simulation-data"
       ],
       "topics": [
@@ -775,6 +1139,43 @@
       "matches": {
         "simulation": [
           "Sim-to-Real"
+        ]
+      }
+    },
+    "2611.18919": {
+      "arxiv_id": "2611.18919",
+      "title": "Correcting Persistent Failures in Point-Cloud Grasping Policies using Human Demonstrations in Virtual Reality",
+      "abstract": "Robots in homes, warehouses and farms must pick up objects they have never seen, usually without a 3D model or a category label. A grasping policy that works directly on the point cloud from a depth sensor needs only the geometry the robot observes, so it applies to any new object. Offline grasp generators such as Contact-GraspNet work this way, but they rank grasps by learned plausibility rather than by whether the grasp actually lifts the object. Reinforcement learning (RL) can optimize for that directly and make a point-cloud grasping policy much better on average, yet it leaves specific grasps persistently unsolved. We present a human-in-the-loop failure loop that targets those grasps: situations an RL policy keeps failing are mined automatically, sent to a virtual-reality application where a person picks the object up with their own hands, and returned to training as two grasp points. The person contributes only where to grasp; the robot chooses its own approach. In simulation, RL raises success on unseen objects from 55% with Contact-GraspNet to 83%. Adding 58 human demonstrations nearly doubles success on the hard cases RL kept failing, from 24% to 45%, and recovers performance that RL alone loses on similar cases that were never demonstrated, without reducing success on unseen objects.",
+      "authors": [
+        "Achyuthan Unni Krishnan",
+        "Karthik Rengarajan",
+        "Bharath Narasimhan",
+        "Chris von Csefalvay"
+      ],
+      "published": "2026-11-13",
+      "updated": "2026-11-13",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.18919",
+      "pdf_url": "https://arxiv.org/pdf/2611.18919",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "robot_centric",
+        "human_egocentric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Human Intervention"
+        ],
+        "human_egocentric": [
+          "Human Demonstration"
         ]
       }
     },
@@ -983,12 +1384,12 @@
         "Zilei Wang"
       ],
       "published": "2026-11-13",
-      "updated": "2026-11-13",
+      "updated": "2026-11-16",
       "primary_category": "cs.RO",
       "categories": [
         "cs.RO"
       ],
-      "comment": "Technical report. 25 pages, 7 figures. Code: https://github.com/Embodied-Self-Improvement/ESI",
+      "comment": "Technical report. 25 pages, 7 figures. Code: https://github.com/ZERITH-ZLab/ESI",
       "journal_ref": null,
       "doi": null,
       "url": "https://arxiv.org/abs/2611.18176",
@@ -1350,12 +1751,12 @@
         "Shaoli Huang"
       ],
       "published": "2026-11-12",
-      "updated": "2026-11-12",
+      "updated": "2026-11-15",
       "primary_category": "cs.RO",
       "categories": [
         "cs.RO"
       ],
-      "comment": null,
+      "comment": "The data in the report is incomplete as it did not include all the necessary copyrights",
       "journal_ref": null,
       "doi": null,
       "url": "https://arxiv.org/abs/2611.17160",
@@ -3637,7 +4038,9 @@
       "updated": "2026-11-09",
       "primary_category": "cs.RO",
       "categories": [
-        "cs.RO"
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
       ],
       "comment": "13 pages, 5 figures",
       "journal_ref": null,
@@ -262674,7 +263077,7 @@
     }
   },
   "coverage_start": "2025-01-01",
-  "coverage_end": "2026-11-17",
-  "paper_count": 6844,
-  "generated_at": "2026-11-17T12:27:24+00:00"
+  "coverage_end": "2026-11-18",
+  "paper_count": 6855,
+  "generated_at": "2026-11-18T00:25:48+00:00"
 }
