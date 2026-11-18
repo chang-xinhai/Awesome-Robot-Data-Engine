@@ -4,12 +4,22 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-11-18 · **Papers:** 2499 · **Unique arXiv IDs:** 2499
+**Coverage:** 2025-01-01 to 2026-11-18 · **Papers:** 2509 · **Unique arXiv IDs:** 2509
 
 ## 2026-11
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-11-17 | [PAIR: Bringing Household Robots into the Smart Home](https://arxiv.org/abs/2611.23070) | Junseong Pyo, Hyeongjin Kim, Jongwook Han, et al. | cs.RO | Human Demonstration | [abs](https://arxiv.org/abs/2611.23070) / [pdf](https://arxiv.org/pdf/2611.23070) |
+| 2026-11-17 | [Where Do Human-to-Robot Transfer Gains Come From?](https://arxiv.org/abs/2611.22302) | Jiachen Li, Shihao Li, Soovadeep Bakshi, et al. | cs.RO | Human-to-Robot | [abs](https://arxiv.org/abs/2611.22302) / [pdf](https://arxiv.org/pdf/2611.22302) |
+| 2026-11-17 | [ALERT: Extending Humanoid Motion Trackers with a General and Lightweight Human Avoidance Pipeline](https://arxiv.org/abs/2611.22258) | Zhaoyang Li, Chiyu Zhang, Chengxin Xu, et al. | cs.RO | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2611.22258) / [pdf](https://arxiv.org/pdf/2611.22258) |
+| 2026-11-17 | [PhyVGGT: Feed-Forward Articulated Object Reconstruction from Monocular Videos](https://arxiv.org/abs/2611.22244) | Qi Shao, Zhihao Cao, Shuhao Zhai, et al. | cs.CV | Tracking / Reconstruction | [abs](https://arxiv.org/abs/2611.22244) / [pdf](https://arxiv.org/pdf/2611.22244) |
+| 2026-11-17 | [HandRSI: Recursive Self-Improvement for Hand Pose Estimation](https://arxiv.org/abs/2611.22164) | Zhekai Wang, Luqing Luo, Wenhao Yao, et al. | cs.CV | Egocentric, Tracking / Reconstruction | [abs](https://arxiv.org/abs/2611.22164) / [pdf](https://arxiv.org/pdf/2611.22164) |
+| 2026-11-17 | [EgoHandWAM: Probing the Role of Hand Motion in Egocentric World Action Modeling](https://arxiv.org/abs/2611.22151) | Kailin Wang, Haoxiang Jie, Yaoyuan Yan, et al. | cs.CV, cs.AI | Egocentric | [abs](https://arxiv.org/abs/2611.22151) / [pdf](https://arxiv.org/pdf/2611.22151) |
+| 2026-11-16 | [HubEgo-100K: In-the-Wild Egocentric Video of Skilled Work for Robot Learning](https://arxiv.org/abs/2611.21938) | Javad Amirian, Armin Kiani, Loïc Schaeffer, et al. | cs.RO, cs.CV, cs.LG | Egocentric, Human Video | [abs](https://arxiv.org/abs/2611.21938) / [pdf](https://arxiv.org/pdf/2611.21938) |
+| 2026-11-16 | [ALOHA Lightning: Learning Fast and Precise Manipulation](https://arxiv.org/abs/2611.21919) | John Hua Yao. Qi Wu, Yihuai Gao, Chelsea Finn, et al. | cs.RO, cs.AI, cs.LG | Human Video, Human Demonstration | [abs](https://arxiv.org/abs/2611.21919) / [pdf](https://arxiv.org/pdf/2611.21919) |
+| 2026-11-16 | [From Human Videos to Bimanual Dexterous Manipulation Data: Confidence-Guided RL Refinement of Video Priors](https://arxiv.org/abs/2611.21908) | Yanghong Liu, Yang Chen, Kailang Xu, et al. | cs.RO | Human Video, Affordance / Contact | [abs](https://arxiv.org/abs/2611.21908) / [pdf](https://arxiv.org/pdf/2611.21908) |
+| 2026-11-16 | [EgoLink: Egocentric Language-Vision Interactive Network Knowledge Challenge Summary](https://arxiv.org/abs/2611.21690) | Renhe Sun, Yueying Feng, Bohan Yu, et al. | cs.CV, cs.AI | Egocentric | [abs](https://arxiv.org/abs/2611.21690) / [pdf](https://arxiv.org/pdf/2611.21690) |
 | 2026-11-16 | [LynnReal-Hand: Unlocking World Interaction with Hand Control](https://arxiv.org/abs/2611.21479) | Shaohao Rui, Chaoyang Zhang, Xiaofeng Mao, et al. | cs.CV, cs.AI | Hand-Object Interaction | [abs](https://arxiv.org/abs/2611.21479) / [pdf](https://arxiv.org/pdf/2611.21479) |
 | 2026-11-16 | [WinDEX: Metric 3D Hand Motion Reconstruction in the Wild for Dexterous Teleoperation and Policy Learning](https://arxiv.org/abs/2611.21143) | Hongyu Ma, Hairong Qu, Shiqi Zhao, et al. | cs.RO | Egocentric, Tracking / Reconstruction | [abs](https://arxiv.org/abs/2611.21143) / [pdf](https://arxiv.org/pdf/2611.21143) |
 | 2026-11-16 | [GRAZE: Text-Free Grasp Synthesis for Unseen Objects from Human Gaze](https://arxiv.org/abs/2611.21104) | Jeongho Lee, Boeun Kim, Hyung Jin Chang, et al. | cs.CV | Hand-Object Interaction | [abs](https://arxiv.org/abs/2611.21104) / [pdf](https://arxiv.org/pdf/2611.21104) |

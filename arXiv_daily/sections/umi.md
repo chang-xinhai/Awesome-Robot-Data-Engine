@@ -4,12 +4,13 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-11-18 · **Papers:** 111 · **Unique arXiv IDs:** 111
+**Coverage:** 2025-01-01 to 2026-11-18 · **Papers:** 112 · **Unique arXiv IDs:** 112
 
 ## 2026-11
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-11-17 | [HandUMI: A Modular Hand-Worn Parallel-Jaw Interface for Robot-Free Bimanual Data Capture](https://arxiv.org/abs/2611.22146) | Brik Meza, Leonardo Perez, Alvaro Mendoza-Li, et al. | cs.RO | Robot-Free Demonstration | [abs](https://arxiv.org/abs/2611.22146) / [pdf](https://arxiv.org/pdf/2611.22146) |
 | 2026-11-16 | [WinDEX: Metric 3D Hand Motion Reconstruction in the Wild for Dexterous Teleoperation and Policy Learning](https://arxiv.org/abs/2611.21143) | Hongyu Ma, Hairong Qu, Shiqi Zhao, et al. | cs.RO | In-the-Wild Teaching | [abs](https://arxiv.org/abs/2611.21143) / [pdf](https://arxiv.org/pdf/2611.21143) |
 | 2026-11-12 | [PhysCapBench: A Cross-Domain Benchmark for Physically Grounded Video Captioning](https://arxiv.org/abs/2611.16424) | Haofeng Wang, Xuanyi Liu, Pengcheng Wen, et al. | cs.CV, cs.AI | Handheld Gripper | [abs](https://arxiv.org/abs/2611.16424) / [pdf](https://arxiv.org/pdf/2611.16424) |
 | 2026-11-11 | [RUMI: A Robotiq-Matched Universal Manipulation Interface for Robot Learning with Augmented Reality and Haptic Feedback](https://arxiv.org/abs/2611.15802) | Kevin Avdiu, Seongjin Bien, Yannik Blei, et al. | cs.RO, cs.AI | Universal Manipulation Interface, Handheld Gripper | [abs](https://arxiv.org/abs/2611.15802) / [pdf](https://arxiv.org/pdf/2611.15802) |

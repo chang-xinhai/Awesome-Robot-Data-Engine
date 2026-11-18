@@ -4,12 +4,22 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-11-18 · **Papers:** 2711 · **Unique arXiv IDs:** 2711
+**Coverage:** 2025-01-01 to 2026-11-18 · **Papers:** 2721 · **Unique arXiv IDs:** 2721
 
 ## 2026-11
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-11-17 | [Zero-Shot Compositional Generalization for Embodied Manipulation](https://arxiv.org/abs/2611.22797) | Baicheng Li, Wenkang Qin, Youqi Pan, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2611.22797) / [pdf](https://arxiv.org/pdf/2611.22797) |
+| 2026-11-17 | [VLM-guided Grounding Expert for Generalised Referring Expression Comprehension](https://arxiv.org/abs/2611.22625) | Mingcheng Zhu, Wentian Xu, Tao Lin, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2611.22625) / [pdf](https://arxiv.org/pdf/2611.22625) |
+| 2026-11-17 | [InteractVLA: Turning VLAs into Interactive Tools for Agentic Robotic Manipulation](https://arxiv.org/abs/2611.22584) | Chen Zhao, Zipeng Ye, Shifeng Bao, et al. | cs.RO | Autonomous Collection | [abs](https://arxiv.org/abs/2611.22584) / [pdf](https://arxiv.org/pdf/2611.22584) |
+| 2026-11-17 | [Hidden Variables Behind Real-Robot Data Quality: Lessons from Hundreds of Thousands of Hours](https://arxiv.org/abs/2611.22388) | Maniformer Real-World Manipulation Team, Che Tsang Calvin, Xingyu Chen, et al. | cs.RO | Teleoperation, Robot Dataset, Data Collection, Robot Data Processing | [abs](https://arxiv.org/abs/2611.22388) / [pdf](https://arxiv.org/pdf/2611.22388) |
+| 2026-11-17 | [ALERT: Extending Humanoid Motion Trackers with a General and Lightweight Human Avoidance Pipeline](https://arxiv.org/abs/2611.22258) | Zhaoyang Li, Chiyu Zhang, Chengxin Xu, et al. | cs.RO | Teleoperation, Data Collection | [abs](https://arxiv.org/abs/2611.22258) / [pdf](https://arxiv.org/pdf/2611.22258) |
+| 2026-11-17 | [ReLAP: Latent Action Pretraining through Recurrent Video Prediction in JEPA Space](https://arxiv.org/abs/2611.22077) | R. Gnana Praveen, Ali Rouzbayani, Zhiying Jiang, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2611.22077) / [pdf](https://arxiv.org/pdf/2611.22077) |
+| 2026-11-16 | [DreamFAR: Real-Time and Long-Horizon Interaction with Diverse Objects](https://arxiv.org/abs/2611.22001) | Yiming Dou, Botao He, Antonio Loquercio, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2611.22001) / [pdf](https://arxiv.org/pdf/2611.22001) |
+| 2026-11-16 | [HubEgo-100K: In-the-Wild Egocentric Video of Skilled Work for Robot Learning](https://arxiv.org/abs/2611.21938) | Javad Amirian, Armin Kiani, Loïc Schaeffer, et al. | cs.RO, cs.CV, cs.LG | Robot Dataset | [abs](https://arxiv.org/abs/2611.21938) / [pdf](https://arxiv.org/pdf/2611.21938) |
+| 2026-11-16 | [ALOHA Lightning: Learning Fast and Precise Manipulation](https://arxiv.org/abs/2611.21919) | John Hua Yao. Qi Wu, Yihuai Gao, Chelsea Finn, et al. | cs.RO, cs.AI, cs.LG | Data Collection | [abs](https://arxiv.org/abs/2611.21919) / [pdf](https://arxiv.org/pdf/2611.21919) |
+| 2026-11-16 | [From Human Videos to Bimanual Dexterous Manipulation Data: Confidence-Guided RL Refinement of Video Priors](https://arxiv.org/abs/2611.21908) | Yanghong Liu, Yang Chen, Kailang Xu, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2611.21908) / [pdf](https://arxiv.org/pdf/2611.21908) |
 | 2026-11-16 | [How Much Does Saliency Accuracy Matter for Saliency-Guided 360-degree Image Compression?](https://arxiv.org/abs/2611.21532) | Sakib Ahmed, Sidi-Mohammed Senouci, Philippe Brunet, et al. | eess.IV, cs.CV | Teleoperation | [abs](https://arxiv.org/abs/2611.21532) / [pdf](https://arxiv.org/pdf/2611.21532) |
 | 2026-11-16 | [BoBDeLaN: Bounded-Bandwidth Context Adaptation for Deep Lagrangian Robot Control](https://arxiv.org/abs/2611.21209) | Lucas Schulze, Sucheth Shenoy, Jan Peters, et al. | cs.RO, cs.LG, eess.SY | Robot Dataset | [abs](https://arxiv.org/abs/2611.21209) / [pdf](https://arxiv.org/pdf/2611.21209) |
 | 2026-11-16 | [Polygraph: Large-Scale Multi-Session Trajectory Optimization using Pose Graphs](https://arxiv.org/abs/2611.21163) | Petar Lukovic, Tian Yi Lim, Marc Pollefeys, et al. | cs.RO | Scalable Demonstrations | [abs](https://arxiv.org/abs/2611.21163) / [pdf](https://arxiv.org/pdf/2611.21163) |
