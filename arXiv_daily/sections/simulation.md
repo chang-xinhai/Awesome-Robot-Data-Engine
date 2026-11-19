@@ -4,12 +4,19 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-11-19 · **Papers:** 3164 · **Unique arXiv IDs:** 3164
+**Coverage:** 2025-01-01 to 2026-11-19 · **Papers:** 3171 · **Unique arXiv IDs:** 3171
 
 ## 2026-11
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-11-18 | [NereidVLA: Learning to Understand and Navigate the Underwater World](https://arxiv.org/abs/2611.24864) | Chenjie Zhao, Zhiliang Zhu, Quan Chen, et al. | cs.CV, cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2611.24864) / [pdf](https://arxiv.org/pdf/2611.24864) |
+| 2026-11-18 | [HINT-WAM: Hindsight-Informed Training for World Action Models](https://arxiv.org/abs/2611.24789) | Phuong Tuan Dat, Qi Li, Xinchao Wang | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2611.24789) / [pdf](https://arxiv.org/pdf/2611.24789) |
+| 2026-11-18 | [Conceptual full-vehicle modeling of a modular all-wheel-drive robotic ADS test platform as a foundation for a digital twin architecture](https://arxiv.org/abs/2611.24646) | Felix Florian Schwald, Martin Meiners, Michael Viehof, et al. | cs.RO | Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2611.24646) / [pdf](https://arxiv.org/pdf/2611.24646) |
+| 2026-11-18 | [SearchDiffusion: Information-Guided Diffusion Planning for Object Search](https://arxiv.org/abs/2611.24375) | Sausar Karaf, Dmitrii Plotnikov, Alexey Kotcov, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2611.24375) / [pdf](https://arxiv.org/pdf/2611.24375) |
+| 2026-11-18 | [Pixel2Perspective: A Benchmark for Multi-Modal and Multi-View Generalization in Vision-Language Models](https://arxiv.org/abs/2611.24327) | Aditya Gandhamal, Aniruddh Sikdar, Arya Kishor, et al. | cs.CV | Sim-to-Real | [abs](https://arxiv.org/abs/2611.24327) / [pdf](https://arxiv.org/pdf/2611.24327) |
+| 2026-11-18 | [Navigating Robots from Unknown and Uncalibrated Exocentric Cameras via Map Estimation](https://arxiv.org/abs/2611.23894) | Raul Steinmetz, Raphael Druon, Yusuke Yoshiyasu, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2611.23894) / [pdf](https://arxiv.org/pdf/2611.23894) |
+| 2026-11-18 | [RoboBuilder: Agentic Robot Co-Design with Real-world Video Feedback in the Loop](https://arxiv.org/abs/2611.23855) | Ghadi Nehme, Dahyun Nam, Akshay Govind Srinivasan, et al. | cs.AI, cs.CV, cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2611.23855) / [pdf](https://arxiv.org/pdf/2611.23855) |
 | 2026-11-17 | [Capability Composition in Heterogeneous Teams via Barrier-Guided Diffusion Sampling](https://arxiv.org/abs/2611.23149) | Diana Laura Morales, Ruoyu Lin, Magnus Egerstedt, et al. | cs.RO, cs.LG, cs.MA | Trajectory Generation | [abs](https://arxiv.org/abs/2611.23149) / [pdf](https://arxiv.org/pdf/2611.23149) |
 | 2026-11-17 | [TCP4D: A Unified Tool-Center-Point Tracking and Generation Model for Robot Manipulation](https://arxiv.org/abs/2611.23143) | Haosong Peng, Xiangyang Liu, Zhengshen Zhang, et al. | cs.RO, cs.CV | Trajectory Generation | [abs](https://arxiv.org/abs/2611.23143) / [pdf](https://arxiv.org/pdf/2611.23143) |
 | 2026-11-17 | [Auditing a Learned Simulator for Legged Robots: The Robotic World Model on ANYmal D](https://arxiv.org/abs/2611.23118) | Joyjeet Singh | cs.RO, cs.LG | Simulation Data | [abs](https://arxiv.org/abs/2611.23118) / [pdf](https://arxiv.org/pdf/2611.23118) |
