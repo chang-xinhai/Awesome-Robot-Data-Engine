@@ -4,12 +4,27 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-11-20 · **Papers:** 2525 · **Unique arXiv IDs:** 2525
+**Coverage:** 2025-01-01 to 2026-11-20 · **Papers:** 2540 · **Unique arXiv IDs:** 2540
 
 ## 2026-11
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-11-19 | [ACE-Brain-0.7: Learning Execution-Grounded Reasoning for Embodied Agents](https://arxiv.org/abs/2611.26519) | Yinhe Wang, Shijun Shi, Feng Pan, et al. | cs.RO | Egocentric, Human Video | [abs](https://arxiv.org/abs/2611.26519) / [pdf](https://arxiv.org/pdf/2611.26519) |
+| 2026-11-19 | [HumanCOIN: A 12,500-Hour Dataset for Human Intent in Egocentric Manipulation](https://arxiv.org/abs/2611.26434) | Shihan Wu, You Liu, Chunyu He, et al. | cs.CV, cs.RO | Egocentric, First-Person, Affordance / Contact | [abs](https://arxiv.org/abs/2611.26434) / [pdf](https://arxiv.org/pdf/2611.26434) |
+| 2026-11-19 | [Awaken-HI: Scaling Humanoid Intelligence with Whole-Body Human Experience](https://arxiv.org/abs/2611.26420) | EngineAI | cs.RO, cs.AI, cs.CV | Egocentric | [abs](https://arxiv.org/abs/2611.26420) / [pdf](https://arxiv.org/pdf/2611.26420) |
+| 2026-11-19 | [EgoCaptioner: Towards Comprehensive and Fine-Grained Egocentric Video Captioning](https://arxiv.org/abs/2611.26380) | Yuqi Tang, Yang Shi, Yuran Wang, et al. | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2611.26380) / [pdf](https://arxiv.org/pdf/2611.26380) |
+| 2026-11-19 | [StreamEgo: Streaming Exocentric-to-Egocentric Video Generation](https://arxiv.org/abs/2611.26165) | Tianyi Xu, Boyang Lyu, Yunkai Tang, et al. | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2611.26165) / [pdf](https://arxiv.org/pdf/2611.26165) |
+| 2026-11-19 | [Better Retrieval, Not Better Binding: Pretraining Exposure in Egocentric Video Retrieval](https://arxiv.org/abs/2611.26120) | Yuqi Guo, Michael Wray | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2611.26120) / [pdf](https://arxiv.org/pdf/2611.26120) |
+| 2026-11-19 | [Dynamic Human-Robot Role Allocation through Entropy-Based Monitoring and LLM Reasoning](https://arxiv.org/abs/2611.26090) | Elena Merlo, Marta Lagomarsino, Hamidreza Raei, et al. | cs.RO | Hand-Object Interaction | [abs](https://arxiv.org/abs/2611.26090) / [pdf](https://arxiv.org/pdf/2611.26090) |
+| 2026-11-19 | [Reference-Free Humanoid Skateboarding via Termination-Shaped Reinforcement Learning](https://arxiv.org/abs/2611.26054) | Ganeshvar Soenessardien, Michael Przystupa, Kevin Sebastian Luck | cs.RO, cs.LG | Human Demonstration | [abs](https://arxiv.org/abs/2611.26054) / [pdf](https://arxiv.org/pdf/2611.26054) |
+| 2026-11-19 | [Agentic Scaling of Embodied Tasks in Simulation for Synthetic Data Collection and Policy Evaluation](https://arxiv.org/abs/2611.26046) | Kang Wang, Xiaolei Zhou, Xiaoyu Wu, et al. | cs.RO | Affordance / Contact | [abs](https://arxiv.org/abs/2611.26046) / [pdf](https://arxiv.org/pdf/2611.26046) |
+| 2026-11-19 | [MorphTwin: Enriching Deformable Material Responses from Videos for Morphable and Interactive Physical Twins](https://arxiv.org/abs/2611.25963) | Haoqin Hong, Ding Fan, Fubin Dou, et al. | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2611.25963) / [pdf](https://arxiv.org/pdf/2611.25963) |
+| 2026-11-19 | [EgoWitness: Benchmarking Instance-Level Spatial Memory and Reasoning in Egocentric Video Streams](https://arxiv.org/abs/2611.25849) | Zhengru Fang, Zehao Liu, Mingyu Tsoi, et al. | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2611.25849) / [pdf](https://arxiv.org/pdf/2611.25849) |
+| 2026-11-19 | [Online Mistake Detection in Instruction-Conditioned Procedural Video](https://arxiv.org/abs/2611.25567) | Amit Feldman, Ilan Shimshoni, Rotem Dror | cs.CV, cs.AI | Egocentric | [abs](https://arxiv.org/abs/2611.25567) / [pdf](https://arxiv.org/pdf/2611.25567) |
+| 2026-11-19 | [CoachSI: Self-Improvement of Robot Policies with a Language Coach](https://arxiv.org/abs/2611.25529) | Jiachen Tao, Gengyu Zhang, Haoxuan Wang, et al. | cs.RO, cs.AI | Human Demonstration | [abs](https://arxiv.org/abs/2611.25529) / [pdf](https://arxiv.org/pdf/2611.25529) |
+| 2026-11-19 | [LoongForge-Embodied: A Unified Framework for Training Heterogeneous Embodied Models](https://arxiv.org/abs/2611.25460) | LoongForge Team | cs.AI | Egocentric | [abs](https://arxiv.org/abs/2611.25460) / [pdf](https://arxiv.org/pdf/2611.25460) |
+| 2026-11-18 | [EgoPass-Bench: Identifying Objects That May Affect the Wearer's Passage in Egocentric Video](https://arxiv.org/abs/2611.24995) | Hongyu Wang, Chuhan Li, Congjin Xu, et al. | cs.CV | Egocentric | [abs](https://arxiv.org/abs/2611.24995) / [pdf](https://arxiv.org/pdf/2611.24995) |
 | 2026-11-18 | [$Z$-sight: Unifying Vision-Language-Action and Latent World Modeling](https://arxiv.org/abs/2611.24940) | Junjie Ye, Yiqi Zhao, Muchen Xu, et al. | cs.RO, cs.CV | Human Video | [abs](https://arxiv.org/abs/2611.24940) / [pdf](https://arxiv.org/pdf/2611.24940) |
 | 2026-11-18 | [Phoenix: Learning Scene Structure Representations for Generalizable World-Action Models](https://arxiv.org/abs/2611.24938) | Yupeng Zheng, Chaoyue Li, Linbo Wang, et al. | cs.RO | Egocentric | [abs](https://arxiv.org/abs/2611.24938) / [pdf](https://arxiv.org/pdf/2611.24938) |
 | 2026-11-18 | [Communications-free Collective Intelligence Via Allocentric Belief](https://arxiv.org/abs/2611.24858) | Cameron Mehlman, Arjun Mulchandani, Hovik Grigoryan, et al. | cs.RO, eess.SY | Egocentric | [abs](https://arxiv.org/abs/2611.24858) / [pdf](https://arxiv.org/pdf/2611.24858) |

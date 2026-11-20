@@ -4,12 +4,26 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-11-20 · **Papers:** 2737 · **Unique arXiv IDs:** 2737
+**Coverage:** 2025-01-01 to 2026-11-20 · **Papers:** 2751 · **Unique arXiv IDs:** 2751
 
 ## 2026-11
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-11-19 | [JARVIS: An Agent That Designs, Builds, and Tests Circuit Boards on Its Own](https://arxiv.org/abs/2611.26503) | Shibo Zhou, Tianqi Hong, Zheng Yan, et al. | cs.RO, eess.SY | Human Intervention | [abs](https://arxiv.org/abs/2611.26503) / [pdf](https://arxiv.org/pdf/2611.26503) |
+| 2026-11-19 | [PUPPET: Physical-Unified Platform for Presence, Embodiment, and Teleoperation](https://arxiv.org/abs/2611.26350) | Mahika Vats, Milan Groshev, Carlos Gomez Cubero, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2611.26350) / [pdf](https://arxiv.org/pdf/2611.26350) |
+| 2026-11-19 | [StreamEgo: Streaming Exocentric-to-Egocentric Video Generation](https://arxiv.org/abs/2611.26165) | Tianyi Xu, Boyang Lyu, Yunkai Tang, et al. | cs.CV | Scalable Demonstrations | [abs](https://arxiv.org/abs/2611.26165) / [pdf](https://arxiv.org/pdf/2611.26165) |
+| 2026-11-19 | [A Practical Proprioceptive Data Collection Utility for the Unitree GO1](https://arxiv.org/abs/2611.26146) | Jack Anders Smitterberg, Tan Chen | cs.RO, cs.CV | Data Collection | [abs](https://arxiv.org/abs/2611.26146) / [pdf](https://arxiv.org/pdf/2611.26146) |
+| 2026-11-19 | [Spatially Conditioned Trajectory Diffusion](https://arxiv.org/abs/2611.26127) | Yefim Nudelman, Dor Atzmon, Tom Tirer | cs.RO | Robot Dataset, Robot Data Processing | [abs](https://arxiv.org/abs/2611.26127) / [pdf](https://arxiv.org/pdf/2611.26127) |
+| 2026-11-19 | [Agentic Scaling of Embodied Tasks in Simulation for Synthetic Data Collection and Policy Evaluation](https://arxiv.org/abs/2611.26046) | Kang Wang, Xiaolei Zhou, Xiaoyu Wu, et al. | cs.RO | Data Collection | [abs](https://arxiv.org/abs/2611.26046) / [pdf](https://arxiv.org/pdf/2611.26046) |
+| 2026-11-19 | [Learning What Actions Change: Action Effect Matching for Dynamics-Faithful World Models](https://arxiv.org/abs/2611.25980) | John Won, Yonghoon Dong, Jinwoo Shin | cs.RO, cs.CV | Teleoperation | [abs](https://arxiv.org/abs/2611.25980) / [pdf](https://arxiv.org/pdf/2611.25980) |
+| 2026-11-19 | [ECHO: In-Context Behavior foundation model for Humanoid Whole-Body Control](https://arxiv.org/abs/2611.25778) | Xingyi Wang, Bin Li, Jiyuan Shi, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2611.25778) / [pdf](https://arxiv.org/pdf/2611.25778) |
+| 2026-11-19 | [A$^2$-VLA: Adapting Vision-Language-Action Policies to New Tools through Agentic Affordance Discovery](https://arxiv.org/abs/2611.25656) | Chenyuan Zhou, Chaoyi Huang, Zibo Wang, et al. | cs.RO, cs.AI | Teleoperation | [abs](https://arxiv.org/abs/2611.25656) / [pdf](https://arxiv.org/pdf/2611.25656) |
+| 2026-11-19 | [CoachSI: Self-Improvement of Robot Policies with a Language Coach](https://arxiv.org/abs/2611.25529) | Jiachen Tao, Gengyu Zhang, Haoxuan Wang, et al. | cs.RO, cs.AI | Autonomous Collection | [abs](https://arxiv.org/abs/2611.25529) / [pdf](https://arxiv.org/pdf/2611.25529) |
+| 2026-11-19 | [LoongForge-Embodied: A Unified Framework for Training Heterogeneous Embodied Models](https://arxiv.org/abs/2611.25460) | LoongForge Team | cs.AI | Robot Dataset | [abs](https://arxiv.org/abs/2611.25460) / [pdf](https://arxiv.org/pdf/2611.25460) |
+| 2026-11-19 | [RefreshGrad: An Online Adaptive Data-sampling Method for Diffusion-based Visuomotor Learning](https://arxiv.org/abs/2611.25398) | Dijia Zhan, Jinyi Li, Xuemiao Xu, et al. | cs.RO | Robot Data Processing | [abs](https://arxiv.org/abs/2611.25398) / [pdf](https://arxiv.org/pdf/2611.25398) |
+| 2026-11-18 | [WEVO: World Model-Enabled VLA Optimization for Whole-Body Loco-Manipulation](https://arxiv.org/abs/2611.25251) | Qianzhong Chen, Muyuan Lin, Yuyin Sun, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2611.25251) / [pdf](https://arxiv.org/pdf/2611.25251) |
+| 2026-11-18 | [VG-Steer: Visual-Geometric Policy Steering from In-Context Aligned Abstractions](https://arxiv.org/abs/2611.25199) | Arthur Bucker, Pramod Anantharam, Jonathan Francis, et al. | cs.RO, cs.AI | Robot Dataset | [abs](https://arxiv.org/abs/2611.25199) / [pdf](https://arxiv.org/pdf/2611.25199) |
 | 2026-11-18 | [Phoenix: Learning Scene Structure Representations for Generalizable World-Action Models](https://arxiv.org/abs/2611.24938) | Yupeng Zheng, Chaoyue Li, Linbo Wang, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2611.24938) / [pdf](https://arxiv.org/pdf/2611.24938) |
 | 2026-11-18 | [Render the Robot, Generate the World: One Video World Model Across Embodiments](https://arxiv.org/abs/2611.24925) | Yash Jangir, Karan Mirakhor, Renos Zabounidis, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2611.24925) / [pdf](https://arxiv.org/pdf/2611.24925) |
 | 2026-11-18 | [Teleoperated Haircutting with Delay Compensation and Passivity-Based Control for Unilateral Internet Teleoperation under Real Communication Uncertainties](https://arxiv.org/abs/2611.24883) | Viridiana Luna-Zempoalteca, Zhendai Huang, Rosalba Galvan-Guerra, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2611.24883) / [pdf](https://arxiv.org/pdf/2611.24883) |

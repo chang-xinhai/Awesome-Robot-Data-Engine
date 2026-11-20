@@ -2,16 +2,16 @@
 
 > A high-recall candidate archive for manual curation into [Awesome Robot Data Engine](../README.md). It is intentionally broader than the curated list.
 
-**Coverage:** 2025-01-01 to 2026-11-20 · **Unique papers:** 6916
+**Coverage:** 2025-01-01 to 2026-11-20 · **Unique papers:** 6953
 
 ## Sections
 
 | Section | Papers | Scope |
 | :------ | -----: | :---- |
-| [Robot-Centric](sections/robot-centric.md) | 2737 | Real-robot collection, teleoperation, intervention, datasets, and processing |
+| [Robot-Centric](sections/robot-centric.md) | 2751 | Real-robot collection, teleoperation, intervention, datasets, and processing |
 | [UMI](sections/umi.md) | 112 | Portable manipulation interfaces, robot-free demonstrations, and UMI recovery |
-| [Human / Egocentric](sections/human-egocentric.md) | 2525 | Human video, HOI, tracking, reconstruction, action extraction, and retargeting |
-| [Simulation](sections/simulation.md) | 3171 | Synthetic demonstrations, environments, assets, sensors, and sim–real systems |
+| [Human / Egocentric](sections/human-egocentric.md) | 2540 | Human video, HOI, tracking, reconstruction, action extraction, and retargeting |
+| [Simulation](sections/simulation.md) | 3188 | Synthetic demonstrations, environments, assets, sensors, and sim–real systems |
 
 A paper is stored once in [`data/papers.json`](data/papers.json) but may appear in multiple generated views. The archive uses arXiv `v1` dates and is updated daily by GitHub Actions. Promotion to the root README is always manual.
 
@@ -19,16 +19,16 @@ A paper is stored once in [`data/papers.json`](data/papers.json) but may appear 
 
 ### Robot-Centric
 
-- 2026-11-18 — [Phoenix: Learning Scene Structure Representations for Generalizable World-Action Models](https://arxiv.org/abs/2611.24938)
-- 2026-11-18 — [Render the Robot, Generate the World: One Video World Model Across Embodiments](https://arxiv.org/abs/2611.24925)
-- 2026-11-18 — [Teleoperated Haircutting with Delay Compensation and Passivity-Based Control for Unilateral Internet Teleoperation under Real Communication Uncertainties](https://arxiv.org/abs/2611.24883)
-- 2026-11-18 — [DiWALI: Diffusion Policy Learning in World Models via Latent Action Inference from Human and Robot Play](https://arxiv.org/abs/2611.24836)
-- 2026-11-18 — [SHAPE: Discrete Supervision and Parallel Continuous Streams for Learning Dexterous Manipulation from Egocentric Human Data](https://arxiv.org/abs/2611.24585)
-- 2026-11-18 — [TinyARM-X: A Series of Open-Source, Configurable, and Transparent Torque-Controlled Desktop-Scale Robotic Manipulators](https://arxiv.org/abs/2611.24554)
-- 2026-11-18 — [Single-Controller Teleoperation and Multimodal Dataset Generation for a Mobile Manipulator](https://arxiv.org/abs/2611.24499)
-- 2026-11-18 — [SearchDiffusion: Information-Guided Diffusion Planning for Object Search](https://arxiv.org/abs/2611.24375)
-- 2026-11-18 — [Towards Pose-Robust Few-Shot Vision-Language-Action Models](https://arxiv.org/abs/2611.24360)
-- 2026-11-18 — [Remote Teleoperation of Endovascular Robots: A Network Emulation Framework for Systematic Performance Evaluation](https://arxiv.org/abs/2611.24280)
+- 2026-11-19 — [JARVIS: An Agent That Designs, Builds, and Tests Circuit Boards on Its Own](https://arxiv.org/abs/2611.26503)
+- 2026-11-19 — [PUPPET: Physical-Unified Platform for Presence, Embodiment, and Teleoperation](https://arxiv.org/abs/2611.26350)
+- 2026-11-19 — [StreamEgo: Streaming Exocentric-to-Egocentric Video Generation](https://arxiv.org/abs/2611.26165)
+- 2026-11-19 — [A Practical Proprioceptive Data Collection Utility for the Unitree GO1](https://arxiv.org/abs/2611.26146)
+- 2026-11-19 — [Spatially Conditioned Trajectory Diffusion](https://arxiv.org/abs/2611.26127)
+- 2026-11-19 — [Agentic Scaling of Embodied Tasks in Simulation for Synthetic Data Collection and Policy Evaluation](https://arxiv.org/abs/2611.26046)
+- 2026-11-19 — [Learning What Actions Change: Action Effect Matching for Dynamics-Faithful World Models](https://arxiv.org/abs/2611.25980)
+- 2026-11-19 — [ECHO: In-Context Behavior foundation model for Humanoid Whole-Body Control](https://arxiv.org/abs/2611.25778)
+- 2026-11-19 — [A$^2$-VLA: Adapting Vision-Language-Action Policies to New Tools through Agentic Affordance Discovery](https://arxiv.org/abs/2611.25656)
+- 2026-11-19 — [CoachSI: Self-Improvement of Robot Policies with a Language Coach](https://arxiv.org/abs/2611.25529)
 
 ### UMI
 
@@ -45,29 +45,29 @@ A paper is stored once in [`data/papers.json`](data/papers.json) but may appear 
 
 ### Human / Egocentric
 
-- 2026-11-18 — [$Z$-sight: Unifying Vision-Language-Action and Latent World Modeling](https://arxiv.org/abs/2611.24940)
-- 2026-11-18 — [Phoenix: Learning Scene Structure Representations for Generalizable World-Action Models](https://arxiv.org/abs/2611.24938)
-- 2026-11-18 — [Communications-free Collective Intelligence Via Allocentric Belief](https://arxiv.org/abs/2611.24858)
-- 2026-11-18 — [DiWALI: Diffusion Policy Learning in World Models via Latent Action Inference from Human and Robot Play](https://arxiv.org/abs/2611.24836)
-- 2026-11-18 — [HandWorldBench: A Unified Benchmark for Hand-Centric World Models](https://arxiv.org/abs/2611.24731)
-- 2026-11-18 — [EgoJev: Finding Evidence in Egocentric Video by Reading VLM Decisions](https://arxiv.org/abs/2611.24616)
-- 2026-11-18 — [SHAPE: Discrete Supervision and Parallel Continuous Streams for Learning Dexterous Manipulation from Egocentric Human Data](https://arxiv.org/abs/2611.24585)
-- 2026-11-18 — [OCTR2A: Real-Time RGB-to-BEV Trajectory Projection and Forecasting at Urban Intersections](https://arxiv.org/abs/2611.24352)
-- 2026-11-18 — [Allocentric Memory, Egocentric Acting: A Dual-Frame VLA for Urban Aerial Navigation](https://arxiv.org/abs/2611.24247)
-- 2026-11-18 — [Neural Network-Based In-Contact Task Segmentation of Demonstrated Robot Motions via Hand Guiding](https://arxiv.org/abs/2611.24226)
+- 2026-11-19 — [ACE-Brain-0.7: Learning Execution-Grounded Reasoning for Embodied Agents](https://arxiv.org/abs/2611.26519)
+- 2026-11-19 — [HumanCOIN: A 12,500-Hour Dataset for Human Intent in Egocentric Manipulation](https://arxiv.org/abs/2611.26434)
+- 2026-11-19 — [Awaken-HI: Scaling Humanoid Intelligence with Whole-Body Human Experience](https://arxiv.org/abs/2611.26420)
+- 2026-11-19 — [EgoCaptioner: Towards Comprehensive and Fine-Grained Egocentric Video Captioning](https://arxiv.org/abs/2611.26380)
+- 2026-11-19 — [StreamEgo: Streaming Exocentric-to-Egocentric Video Generation](https://arxiv.org/abs/2611.26165)
+- 2026-11-19 — [Better Retrieval, Not Better Binding: Pretraining Exposure in Egocentric Video Retrieval](https://arxiv.org/abs/2611.26120)
+- 2026-11-19 — [Dynamic Human-Robot Role Allocation through Entropy-Based Monitoring and LLM Reasoning](https://arxiv.org/abs/2611.26090)
+- 2026-11-19 — [Reference-Free Humanoid Skateboarding via Termination-Shaped Reinforcement Learning](https://arxiv.org/abs/2611.26054)
+- 2026-11-19 — [Agentic Scaling of Embodied Tasks in Simulation for Synthetic Data Collection and Policy Evaluation](https://arxiv.org/abs/2611.26046)
+- 2026-11-19 — [MorphTwin: Enriching Deformable Material Responses from Videos for Morphable and Interactive Physical Twins](https://arxiv.org/abs/2611.25963)
 
 ### Simulation
 
-- 2026-11-18 — [NereidVLA: Learning to Understand and Navigate the Underwater World](https://arxiv.org/abs/2611.24864)
-- 2026-11-18 — [HINT-WAM: Hindsight-Informed Training for World Action Models](https://arxiv.org/abs/2611.24789)
-- 2026-11-18 — [Conceptual full-vehicle modeling of a modular all-wheel-drive robotic ADS test platform as a foundation for a digital twin architecture](https://arxiv.org/abs/2611.24646)
-- 2026-11-18 — [SearchDiffusion: Information-Guided Diffusion Planning for Object Search](https://arxiv.org/abs/2611.24375)
-- 2026-11-18 — [Pixel2Perspective: A Benchmark for Multi-Modal and Multi-View Generalization in Vision-Language Models](https://arxiv.org/abs/2611.24327)
-- 2026-11-18 — [Navigating Robots from Unknown and Uncalibrated Exocentric Cameras via Map Estimation](https://arxiv.org/abs/2611.23894)
-- 2026-11-18 — [RoboBuilder: Agentic Robot Co-Design with Real-world Video Feedback in the Loop](https://arxiv.org/abs/2611.23855)
-- 2026-11-17 — [Capability Composition in Heterogeneous Teams via Barrier-Guided Diffusion Sampling](https://arxiv.org/abs/2611.23149)
-- 2026-11-17 — [TCP4D: A Unified Tool-Center-Point Tracking and Generation Model for Robot Manipulation](https://arxiv.org/abs/2611.23143)
-- 2026-11-17 — [Auditing a Learned Simulator for Legged Robots: The Robotic World Model on ANYmal D](https://arxiv.org/abs/2611.23118)
+- 2026-11-19 — [JARVIS: An Agent That Designs, Builds, and Tests Circuit Boards on Its Own](https://arxiv.org/abs/2611.26503)
+- 2026-11-19 — [LocoMuJoCo: A Comprehensive Imitation Learning Benchmark for Whole-Body Control](https://arxiv.org/abs/2611.26293)
+- 2026-11-19 — [Spatially Conditioned Trajectory Diffusion](https://arxiv.org/abs/2611.26127)
+- 2026-11-19 — [PhysVAM: Physics-oriented Future Value Action Model for Dynamic Object Manipulation](https://arxiv.org/abs/2611.26105)
+- 2026-11-19 — [UniVEP: Unifying Velocity and Endpoint Prediction for Robot Manipulation](https://arxiv.org/abs/2611.26103)
+- 2026-11-19 — [Agentic Scaling of Embodied Tasks in Simulation for Synthetic Data Collection and Policy Evaluation](https://arxiv.org/abs/2611.26046)
+- 2026-11-19 — [Close&Safe: Maximal Task Preservation for Redundant Manipulators via C-Space Boundary Detour](https://arxiv.org/abs/2611.26031)
+- 2026-11-19 — [Fast and Accurate Body Estimation in Pixels, World Space and Scenes](https://arxiv.org/abs/2611.25801)
+- 2026-11-19 — [TipDex-VTLA: Learning When to Refine Actions with Touch for Dexterous Manipulation](https://arxiv.org/abs/2611.25683)
+- 2026-11-19 — [A$^2$-VLA: Adapting Vision-Language-Action Policies to New Tools through Agentic Affordance Discovery](https://arxiv.org/abs/2611.25656)
 
 ## Method
 
