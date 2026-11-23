@@ -4,12 +4,15 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-11-23 · **Papers:** 3188 · **Unique arXiv IDs:** 3188
+**Coverage:** 2025-01-01 to 2026-11-23 · **Papers:** 3191 · **Unique arXiv IDs:** 3191
 
 ## 2026-11
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-11-20 | [Adesktop learning factory for smart and resilient manufacturing based on digital twin and AI](https://arxiv.org/abs/2611.27579) | Wenxuan Hu, Zhuoxuan Cao, Achraf El Messaoudi, et al. | cs.RO | Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2611.27579) / [pdf](https://arxiv.org/pdf/2611.27579) |
+| 2026-11-20 | [HermiteTwin: Bicubic Hermite Shell Digital Twins for Contact-Rich Deformable Manipulation](https://arxiv.org/abs/2611.27282) | Kangrui Zhang, Mu Huang, Xing Shen, et al. | cs.RO | Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2611.27282) / [pdf](https://arxiv.org/pdf/2611.27282) |
+| 2026-11-20 | [LiDAR Signals for Robot Locomotion: Spherical Range Images Enable Robust Sim-to-Real Transfer](https://arxiv.org/abs/2611.27223) | Nian Liu, Xinyi Tong, Ming Ren, et al. | cs.AI | Sim-to-Real | [abs](https://arxiv.org/abs/2611.27223) / [pdf](https://arxiv.org/pdf/2611.27223) |
 | 2026-11-19 | [JARVIS: An Agent That Designs, Builds, and Tests Circuit Boards on Its Own](https://arxiv.org/abs/2611.26503) | Shibo Zhou, Tianqi Hong, Zheng Yan, et al. | cs.RO, eess.SY | Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2611.26503) / [pdf](https://arxiv.org/pdf/2611.26503) |
 | 2026-11-19 | [LocoMuJoCo: A Comprehensive Imitation Learning Benchmark for Whole-Body Control](https://arxiv.org/abs/2611.26293) | Firas Al-Hafez, Davide Tateo, Oleg Kaidanov, et al. | cs.RO | Sim-to-Real, Domain Randomization | [abs](https://arxiv.org/abs/2611.26293) / [pdf](https://arxiv.org/pdf/2611.26293) |
 | 2026-11-19 | [Spatially Conditioned Trajectory Diffusion](https://arxiv.org/abs/2611.26127) | Yefim Nudelman, Dor Atzmon, Tom Tirer | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2611.26127) / [pdf](https://arxiv.org/pdf/2611.26127) |

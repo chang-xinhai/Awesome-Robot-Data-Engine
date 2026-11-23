@@ -4,12 +4,13 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-11-23 · **Papers:** 2751 · **Unique arXiv IDs:** 2751
+**Coverage:** 2025-01-01 to 2026-11-23 · **Papers:** 2752 · **Unique arXiv IDs:** 2752
 
 ## 2026-11
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-11-20 | [ViewDreamer: A Robot World Model beyond Fixed Camera Setups](https://arxiv.org/abs/2611.26981) | Ye Mao, Jinhui Xiong, Egor Larionov, et al. | cs.CV | Robot Dataset | [abs](https://arxiv.org/abs/2611.26981) / [pdf](https://arxiv.org/pdf/2611.26981) |
 | 2026-11-19 | [JARVIS: An Agent That Designs, Builds, and Tests Circuit Boards on Its Own](https://arxiv.org/abs/2611.26503) | Shibo Zhou, Tianqi Hong, Zheng Yan, et al. | cs.RO, eess.SY | Human Intervention | [abs](https://arxiv.org/abs/2611.26503) / [pdf](https://arxiv.org/pdf/2611.26503) |
 | 2026-11-19 | [PUPPET: Physical-Unified Platform for Presence, Embodiment, and Teleoperation](https://arxiv.org/abs/2611.26350) | Mahika Vats, Milan Groshev, Carlos Gomez Cubero, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2611.26350) / [pdf](https://arxiv.org/pdf/2611.26350) |
 | 2026-11-19 | [StreamEgo: Streaming Exocentric-to-Egocentric Video Generation](https://arxiv.org/abs/2611.26165) | Tianyi Xu, Boyang Lyu, Yunkai Tang, et al. | cs.CV | Scalable Demonstrations | [abs](https://arxiv.org/abs/2611.26165) / [pdf](https://arxiv.org/pdf/2611.26165) |
