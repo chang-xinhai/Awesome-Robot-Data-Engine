@@ -1,6 +1,115 @@
 {
   "schema_version": 1,
   "papers": {
+    "2611.27845": {
+      "arxiv_id": "2611.27845",
+      "title": "Humanoid robots for safety-critical electrical switching: A perception-informed runtime constraint filter",
+      "abstract": "Humanoid robots can reduce personnel exposure in electrical switching, but safe control is challenging because the tool must reach a target switch next to similar devices, where an imprecise operator command can contact a non-target switch. This study proposes a runtime safety filter that checks each operator command during virtual-reality teleoperation of a humanoid robot. The filter integrates a scene model estimated from the robot head camera and a target-conditioned control barrier function quadratic program that keeps the tool away from the non-target switch while passing safe commands unchanged. In real-world experiments on a Unitree G1 humanoid robot, with six rounds at each of two standing positions, target operations succeed in all ten rounds with an unchanged target and no non-target actuation. A simulation study achieves 9/9 safe completions, compared with 5/9 for raw teleoperation, demonstrating the feasibility of the method for humanoid switching operations.",
+      "authors": [
+        "Songyang Liu",
+        "Yu Hou",
+        "Yuqing Hu",
+        "Shuai Li"
+      ],
+      "published": "2026-11-20",
+      "updated": "2026-11-20",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.27845",
+      "pdf_url": "https://arxiv.org/pdf/2611.27845",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "robot_centric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Teleoperation"
+        ]
+      }
+    },
+    "2611.27782": {
+      "arxiv_id": "2611.27782",
+      "title": "An Autonomous Adaptive Learning System for Robotic Grasping in the Circular Factory",
+      "abstract": "Linear manufacturing typically operates in highly structured settings with standardized objects, allowing robots to execute pre-programmed motions based on precise models. In contrast, circular manufacturing involves dynamic and less controlled environments, where product components can vary due to appearance and physical changes across different product generations. In this context, uncertainty arises from both the unknown or partially observed states of components (e.g., damaged surfaces, altered shapes) and the unstructured disassembly environment, often characterized by heavy clutter, occlusions, and limited sensing viewpoints. This demands a flexible and adaptable robotic grasping system that can cope with unexpected object changes. To address these challenges, this paper proposes an autonomous grasp learning framework designed for highly uncertain and variable conditions. The framework explicitly distinguishes between uncertainty due to noisy or incomplete sensory observations (aleatoric uncertainty) and uncertainty due to limited knowledge and distribution shift (epistemic uncertainty). Moreover, the framework employs an active perception strategy to reduce visual ambiguity: semantic and spatial scene understanding is achieved using vision language models (VLMs), while view planning enables the robot to adjust its viewpoint to improve observability. In addition, the approach leverages large-scale human demonstration data to learn interaction patterns, which are then transferred to robotic end-effectors, enabling robust manipulation in these variable settings. Quantitative validation, including the utility of active vision on disassembled components in practice, is expected to form an important part of future work.",
+      "authors": [
+        "Yitian Shi",
+        "Rosa Wolf",
+        "Rania Rayyes"
+      ],
+      "published": "2026-11-20",
+      "updated": "2026-11-20",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.27782",
+      "pdf_url": "https://arxiv.org/pdf/2611.27782",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "robot_centric",
+        "human_egocentric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Scalable Demonstrations"
+        ],
+        "human_egocentric": [
+          "Human Demonstration"
+        ]
+      }
+    },
+    "2611.27689": {
+      "arxiv_id": "2611.27689",
+      "title": "Embodied-Harness: Towards Recursive Self-Improvement for Robotic Manipulation",
+      "abstract": "Vision-language model (VLM)-based agents offer a promising approach to robotic manipulation, yet remain limited by inadequate memory organization, uncertain failure attribution, and limited reuse of execution experience. We propose Embodied-Harness, a dual-agent framework that improves manipulation by refining the execution harness without updating model parameters. The Actor interacts with the environment through a robot-control interface, while the Reflector converts execution evidence into reusable operational guidance. Hierarchical Memory Architecture maintains short-term execution context and long-term experiential knowledge to support execution and reflection. Evidence-based Experience Reflection grounds failure diagnosis in observed interactions, while Recursive Harness Self-Improvement refines operational guidance across successive attempts. Experiments on RoboTwin 2.0, RoboSPA, and RMBench demonstrate the effectiveness of Embodied-Harness in generalization under environmental variations, spatial reasoning, long-horizon planning, and memory-dependent manipulation. Our method achieves success rates of 82.4%, 76.7%, and 94.4% on the three benchmarks, respectively. Real-world evaluation further yields an average success rate of 96.7% across three manipulation tasks. These results highlight the potential of Embodied-Harness to improve robotic manipulation through experience-driven harness self-improvement.",
+      "authors": [
+        "Zhenxuan Fan",
+        "Zhuoya Wang",
+        "Yuqian Yuan",
+        "Wenqiao Zhang",
+        "Juncheng Li",
+        "Jun Xiao",
+        "Siliang Tang",
+        "Yueting Zhuang"
+      ],
+      "published": "2026-11-20",
+      "updated": "2026-11-20",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV",
+        "cs.MA"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.27689",
+      "pdf_url": "https://arxiv.org/pdf/2611.27689",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "robot_centric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Autonomous Collection"
+        ]
+      }
+    },
     "2611.27579": {
       "arxiv_id": "2611.27579",
       "title": "Adesktop learning factory for smart and resilient manufacturing based on digital twin and AI",
@@ -24,6 +133,7 @@
       "url": "https://arxiv.org/abs/2611.27579",
       "pdf_url": "https://arxiv.org/pdf/2611.27579",
       "query_sources": [
+        "cs-ro",
         "simulation-data"
       ],
       "topics": [
@@ -32,6 +142,262 @@
       "matches": {
         "simulation": [
           "Digital Twin / Real-to-Sim"
+        ]
+      }
+    },
+    "2611.27513": {
+      "arxiv_id": "2611.27513",
+      "title": "Ego4Gen: Generating Geometry-Grounded Motion Tokens as a World-Action Interface",
+      "abstract": "We present Ego4Gen (Egocentric 4D Future Generation), a world model for 4D future generation in robotic manipu lation. Given a single egocentric image and a text prompt, Ego4Gen jointly generates temporally aligned RGB frames, dense point maps, and dense scene flow, explicitly pre dicting the evolution of scene appearance, spatial struc ture, and motion. Built on Cosmos3-Nano, Ego4Gen ex tends the pretrained generative backbone through modality routed LoRA and asymmetric attention, using geometric pseudo-labels from MotionCrafter to learn to predict future geometry and motion latents. These latents can either be decoded into explicit 3D structure and motion or mapped to robot actions. To this end, we also introduce FlowIn verse, a lightweight inverse dynamics network trained in two stages to translate predicted 4D latents into robot ac tions. Experiments show that these geometry and motion latents outperform the evaluated latent-action and video latent baselines in out-of-distribution settings. Closed loop policy evaluations further demonstrate their utility for translating predicted 4D futures into robot control. To gether, these results support geometry-grounded motion to kens as a world-action interface, connecting 4D future gen eration with robotic manipulation and suggesting a path to ward reduced reliance on action-labeled data.",
+      "authors": [
+        "Yang Liu",
+        "Chao Ye",
+        "Jiahao Zhang",
+        "Zeyuan Hou",
+        "Ruijie Fang",
+        "Xiyin Ni",
+        "Xinyang Ren",
+        "Weiyang Lin"
+      ],
+      "published": "2026-11-20",
+      "updated": "2026-11-20",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.27513",
+      "pdf_url": "https://arxiv.org/pdf/2611.27513",
+      "query_sources": [
+        "cs-ro",
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric"
+        ]
+      }
+    },
+    "2611.27499": {
+      "arxiv_id": "2611.27499",
+      "title": "NavRSI: Recursive Harness Self-Improvement for Vision-and-Language Navigation",
+      "abstract": "Frontier large language models (LLMs) have enabled vision-and-language navigation (VLN) through direct closed-loop perception and action. However, navigation performance depends strongly on the harness governing LLM-environment interactions, while existing harnesses largely rely on manually designed navigation tools, memory, and agent roles. We introduce NavRSI, a harness-centric recursive self-improvement framework that optimizes the navigation behavior of frozen LLMs through closed-loop experience. In each round, NavRSI iteratively collects navigation trajectories and failure diagnostics, employs a designer agent to rewrite the harness, and retains the revisions that prove effective, while the designer accumulates experience from previous revisions so that the harness and this experience co-evolve. Privileged simulator diagnostics guide only the designer and remain inaccessible to the navigating LLM, enabling deployment with a single RGB camera and primitive actions, without task-specific model training or additional navigation tools. Experiments demonstrate consistent improvements across LLMs from four vendors, with 85.64% success rate on the full R2R-CE val-unseen split with GPT-6-Astra, surpassing the previously reported best by 4.13%. Evaluations on RxR-CE, NavRAG-CE, and a real humanoid robot further demonstrate its generalizability.",
+      "authors": [
+        "Guangzhao Dai",
+        "Guoxin Lian",
+        "Shuo Wang",
+        "Shengbin Yue",
+        "Qianru Sun",
+        "Xiangbo Shu",
+        "Bin Zhu"
+      ],
+      "published": "2026-11-20",
+      "updated": "2026-11-20",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.27499",
+      "pdf_url": "https://arxiv.org/pdf/2611.27499",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "robot_centric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Autonomous Collection"
+        ]
+      }
+    },
+    "2611.27459": {
+      "arxiv_id": "2611.27459",
+      "title": "Ego2Ego: Generative Visual Perspective Taking Across Collaborators",
+      "abstract": "Visual perspective taking, the ability to infer what another person sees from their position, is fundamental to human collaboration. However, prior works reduced perspective taking to state estimation, geometric reconstruction, or discrete question answering, whereas existing cross-view video generation methods either inferred the target view from the input video alone or required an external camera that observes the target person. We introduce generative visual perspective taking: Given an ego person's egocentric video, a scene point cloud, and a collaborator's camera trajectory, the task is to generate the continuous egocentric video from the collaborator's perspective. This task is challenging given extreme viewpoint shifts, dynamic occlusions, and sparse visual overlap. We address these challenges with Ego2Ego -- a set of backbone-agnostic geometric modules that provide a pretrained video diffusion model with the 3D scene geometry shared by both interactants. Ego2Ego renders dense, temporally consistent scene coordinate maps into every view as a shared spatial reference, aligns cross-view tokens in 3D ray space through relative geometric attention, and recovers regions outside the ego person's current view from the ego person's visual memory. Experiments on the CoMind dataset across three video diffusion backbones show that Ego2Ego consistently improves visual quality, Level-2 scene layout accuracy, and collaborator motion, outperforming state-of-the-art cross-view video generation baselines on every backbone. By generating the collaborator's egocentric video more accurately, Ego2Ego brings visual perspective taking to human-robot collaboration, where it can help infer what a human collaborator sees and does, and can turn single-person recordings into synchronised multi-perspective videos for robot learning.",
+      "authors": [
+        "Chuhan Jiao",
+        "John Gideon",
+        "Anshul Gupta",
+        "Guy Rosman",
+        "Andreas Bulling"
+      ],
+      "published": "2026-11-20",
+      "updated": "2026-11-20",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "comment": "Project page: https://chuhan-jiao.github.io/ego2ego/",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.27459",
+      "pdf_url": "https://arxiv.org/pdf/2611.27459",
+      "query_sources": [
+        "cs-ro",
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric"
+        ]
+      }
+    },
+    "2611.27446": {
+      "arxiv_id": "2611.27446",
+      "title": "GenPA: Image Generators as Efficient Robot Policies",
+      "abstract": "Pretrained visual generation models have shown great promise in robotic manipulation. However, a representative line of work still treats future visual prediction as the central link between visual generative pretraining and action learning, retaining it as a training objective even when future scenes are no longer generated at inference time. We argue that the instruction-following, spatial understanding, and visual imagination capabilities acquired through image generation pretraining can support control without future visual prediction: image generation models themselves can be directly adapted into powerful action learners. Building on this perspective, we propose GenPA, which fine-tunes an image generation backbone with a lightweight 19M-parameter action regression adapter and reuses its native generative objective for perception co-training. The native image-editing interface accommodates different visual targets without task-specific perception heads, enabling comparisons of current-scene perception, future prediction, and their combinations within a common policy architecture. At deployment, GenPA requires only a single backbone forward pass and action regression, without visual generation or iterative action denoising. Without additional large-scale robot-data pretraining, GenPA demonstrates strong control performance and robustness to perturbations across simulation benchmarks (99.10% success on LIBERO and 83.79% on LIBERO-Plus) and real-world manipulation tasks. Under compiled inference, GenPA takes 20.9 ms per action chunk on a single H100 GPU, achieving 1.7-3.4x speedups over strong VLA and WAM baselines. Our latency analysis further highlights architectural advantages of visual generation backbones for efficient robot control. Ablations across visual tasks and their combinations identify current-depth supervision as a simple, effective training recipe.",
+      "authors": [
+        "Zian Deng",
+        "Tianyi Zhang",
+        "Zilong Zheng",
+        "Ziyu Liu",
+        "Tao Zhang",
+        "Yao Lyu",
+        "Shengbo Eben Li"
+      ],
+      "published": "2026-11-20",
+      "updated": "2026-11-20",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": "Project page: https://deng-zian.github.io/GenPA-website/",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.27446",
+      "pdf_url": "https://arxiv.org/pdf/2611.27446",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "robot_centric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Robot Dataset"
+        ]
+      }
+    },
+    "2611.27381": {
+      "arxiv_id": "2611.27381",
+      "title": "VMSA: Video Memory Skill Agent for Long Video Understanding",
+      "abstract": "Long-video question answering requires retrieving and integrating relevant evidence from videos spanning hours or even days. Recent agentic approaches organize video information into external memories and iteratively retrieve evidence to answer questions. However, effective retrieval and reasoning remain challenging, as agents must determine what information to search for, which memory sources to access, and how to connect evidence across distant temporal intervals. To address these challenges, we propose Video Memory Skill Agent (VMSA), a framework that jointly designs structured video memories and memory skills for long-video understanding. VMSA constructs three complementary memory components. Segment Caption Memory and Entity Event Memory serve as searchable evidence sources, while Entity-Aware Episode Memory provides broad yet detailed video context to guide evidence retrieval and reasoning. To further support effective memory utilization, VMSA induces memory skills from successful agent trajectories, incrementally refining or extending a compact skill library to guide iterative evidence retrieval, reasoning, and verification. Across seven long-video question-answering benchmarks, VMSA achieves the highest accuracy on all three week-long egocentric benchmarks, outperforming the strongest baseline by up to 9.4% on Ego-R1 Bench, and the best or competitive performance on four additional benchmarks. Ablation studies further demonstrate the contributions of all three memory components and memory skills, with memory skills also improving temporal evidence localization.",
+      "authors": [
+        "Changin Choi",
+        "Jungwon Park",
+        "Jungmin Ko",
+        "Jimyeong Kim",
+        "Wonjong Rhee"
+      ],
+      "published": "2026-11-20",
+      "updated": "2026-11-20",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.27381",
+      "pdf_url": "https://arxiv.org/pdf/2611.27381",
+      "query_sources": [
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric"
+        ]
+      }
+    },
+    "2611.27362": {
+      "arxiv_id": "2611.27362",
+      "title": "NormFlowSDE: Normalizing Flows for Amortized Bayesian State Estimation",
+      "abstract": "Bayesian state estimators, such as Kalman filters, estimate states from noisy observations based on dynamical models. However, obtaining accurate models can be challenging when the system involves effects that are difficult to model faithfully, such as friction, impacts, and deformation in contact-rich manipulation. Uncertainty in system parameters, inputs, and disturbances, together with simplified noise models, can further introduce simulation-to-reality mismatch and degrade estimation accuracy. These limitations motivate learning a distribution over state trajectories conditioned on observations and controls without explicitly specifying the underlying physical models. We introduce NormFlowSDE, an amortized Bayesian state estimator that learns a distribution over state trajectories by combining neural stochastic differential equations with conditional normalizing flows. Its key design choice is to utilize the capability of normalizing flows to learn stochastic behavior of variables, while leveraging the continuous-time dynamics of SDEs to model the evolution of states over time. Once trained, the model draws state paths for new measurement sequences without per-sequence optimization. In addition, we connect NormFlowSDE to stochastic continuous-time dynamics by proving weak convergence of a mean-centered, drift-corrected inference scheme to an Itô diffusion under stated assumptions. Finally, we benchmark NormFlowSDE against direct estimators and learned particle filters based on normalizing flows on partially observed dynamical systems, including simulated systems and real-world robot datasets. The results show that NormFlowSDE attains the lowest estimation error with calibrated uncertainty intervals on both robot datasets and filters four times faster than the fastest particle filter on every dataset.",
+      "authors": [
+        "Yi Zhang",
+        "Lars Mikelsons"
+      ],
+      "published": "2026-11-20",
+      "updated": "2026-11-20",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": "35 pages, 4 figures",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.27362",
+      "pdf_url": "https://arxiv.org/pdf/2611.27362",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "robot_centric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Robot Dataset"
+        ]
+      }
+    },
+    "2611.27290": {
+      "arxiv_id": "2611.27290",
+      "title": "EgoLAM: Learning Latent Actions from Hand and Head Motion",
+      "abstract": "Latent action models let a robot policy learn from video by turning the change between two frames into a training target. In egocentric video, a cup can move across the image because a hand pushes it or because the wearer turns. Both changes help predict the next frame, but only the first describes manipulation. During training, EgoLAM supervises the action code with measured wrist motion and supplies camera motion separately to the forward model. Even when the wearer turns while pushing a cup, the training target still describes how the hand pushed it. The action encoder pools object slots around each hand, and wrist translation and rotation can be decoded from the code in a common reference frame. Extracting a code then requires only two RGB frames. Alongside LARYBench classification and regression, we measure how much wrist motion a frozen code retains and how strongly it responds to a synthetic view or lighting change. EgoLAM has the highest hand-motion decoding score among eight evaluated models. Across three LIBERO suites, policies pretrained on its codes and fine-tuned on expert demonstrations achieve 79.38% mean success, 28.73 points above expert behavior cloning and 9.76 points above the strongest other latent action model in each suite on average.",
+      "authors": [
+        "Ziyi Ding",
+        "Yiwei Wang",
+        "Zhongxing Wei",
+        "Xianxin Lai",
+        "Yechi Liu",
+        "Xiaodi Huang",
+        "Jinghua Hou",
+        "Xiaoquan Sun",
+        "Haijier Chen",
+        "Zhe Liu",
+        "Yinan Chen",
+        "Junqiao Zhao",
+        "Xiao-Ping Zhang",
+        "Jiayu Chen"
+      ],
+      "published": "2026-11-20",
+      "updated": "2026-11-20",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.27290",
+      "pdf_url": "https://arxiv.org/pdf/2611.27290",
+      "query_sources": [
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric"
         ]
       }
     },
@@ -58,6 +424,7 @@
       "url": "https://arxiv.org/abs/2611.27282",
       "pdf_url": "https://arxiv.org/pdf/2611.27282",
       "query_sources": [
+        "cs-ro",
         "simulation-data"
       ],
       "topics": [
@@ -103,6 +470,379 @@
         ]
       }
     },
+    "2611.27182": {
+      "arxiv_id": "2611.27182",
+      "title": "Tripwire: Robot Agents that Program Their Own Interrupts under Human Disturbance",
+      "abstract": "Agent harnesses are turn-based: the agent acts, waits for the result, then reasons. When the action invokes a pretrained robot policy, such as a vision-language-action (VLA) or world action model (WAM), the policy may react continuously to observations, but the agent cannot revisit its decision until the call returns. Meanwhile, a person may step into the robot's path or move the object it is about to grasp. Invoking the agent more often narrows this blind interval, but a reasoning model takes seconds per decision and most control steps need no new one. We propose TRIP, a training-free, event-driven harness in which the agent programs its own interrupts. With each call, the agent writes a tripwire: a lightweight, stateful Python program that runs alongside the policy, can query a compact VLM (for example, to locate a person and measure their distance), and decides whether the call continues or control returns to the agent. When it fires, the harness halts the policy and returns control with the reason; the agent then reassesses, adapts, and continues under a rewritten tripwire. We evaluate TRIP with three VLAs and one WAM on RoboHD, a benchmark of 168 RoboCasa365 scenes in which a simulated person disturbs the robot and any human-robot contact counts as failure. Compared with a turn-based harness using the same agent and tools, TRIP halves the rate of human contact with the strongest policy, raising safety from 61.3% to 81.3%, without sacrificing task success (38.7% vs. 31.0%). Real-robot experiments show that TRIP completes two manipulation tasks under human interference where the turn-based harness and the policy alone largely fail.",
+      "authors": [
+        "Sunli Chen",
+        "Yun Zong",
+        "Qinhong Zhou",
+        "Xiaowen Qiu",
+        "Jiaben Chen",
+        "Zeyuan Yang",
+        "Chuang Gan"
+      ],
+      "published": "2026-11-20",
+      "updated": "2026-11-20",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.27182",
+      "pdf_url": "https://arxiv.org/pdf/2611.27182",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Affordance / Contact"
+        ]
+      }
+    },
+    "2611.27179": {
+      "arxiv_id": "2611.27179",
+      "title": "Inject, Encode, Navigate: Feature-Wise Time Injection for Rectified Flow with Bidirectional Feature Encoding",
+      "abstract": "Vision-model-based robotic navigation has gained increasing popularity, yet existing approaches still struggle to deliver effective and efficient navigation performance, \\textit{e.g.}, diffusion-based policies that require costly iterative denoising. In this work, we propose three improvements to bridge these gaps. First, we adopt a rectified flow framework to reduce the required inference steps to one while achieving comparable or even superior performance. Second, we leverage a bidirectional Mamba-based visual encoder that employs selective state-space modeling to more effectively capture bidirectional temporal dependencies across observation frames, even with longer input sequences. Most importantly, we find that naïvely combining these two components to balance accuracy with inference speed yields no further performance gains or even produces inferior results. Upon extensive analysis, we realized that the root cause lies in the fact that the Hydra-derived temporal context is shared unchanged across all flow timesteps, and timestep information is introduced only within the velocity network. This weak coupling limits the model's ability to adaptively exploit temporal visual features at different flow states. To address this, we propose a feature-wise timestep conditioning design that explicitly conditions the visual embedding on the flow timestep, enabling noise-level-aware trajectory generation, thereby restoring a meaningful gradient pathway and enabling coherent interaction between the rectified flow and the temporal encoder. Extensive quantitative and qualitative experiments across multiple datasets demonstrate that our approach consistently outperforms both baseline and competitive methods.",
+      "authors": [
+        "Xiaogang Wang",
+        "Debasish Mishra",
+        "Jia Hao Toh",
+        "Wangsheng Liu",
+        "Yash Shah"
+      ],
+      "published": "2026-11-20",
+      "updated": "2026-11-20",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "comment": null,
+      "journal_ref": "2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.27179",
+      "pdf_url": "https://arxiv.org/pdf/2611.27179",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Trajectory Generation"
+        ]
+      }
+    },
+    "2611.27171": {
+      "arxiv_id": "2611.27171",
+      "title": "Learning from Incomplete Actions: Interval Motion Supervision for Vision-Language-Action Policies",
+      "abstract": "Visual labeling of egocentric demonstrations often leaves contiguous gaps in action supervision. Reliable poses around a gap still provide its net translation and rotation. We use this information to train vision-language-action policies while preserving ordinary flow matching on reliable local actions. A composition objective constrains the aggregate motion of missing-action estimates, combining multiple fixed windows when a gap exceeds the policy horizon. A shared interval branch learns from reliable endpoints and supplies the composition target. On LIBERO with 20% of demonstrations and 70.5% missing actions, the main method achieves 87.9% mean success over three training runs. In one paired comparison with matched observation exposure and training cost, its advantage over masking is 10.5%. On Ego-informed RoboTwin gaps, success is 45.4%, versus 40.3% for masking. On five real-robot tasks, mean success is 59.6%, versus 54.8% for interval flow matching alone and 48.8% for masking.",
+      "authors": [
+        "Yunpeng Mei",
+        "Chenyu Wang",
+        "Xiaowen Zhu",
+        "Chenbo Xin",
+        "Hongjie Cao",
+        "Yiyuan Li",
+        "Chengye Zhang",
+        "YuAn Wang",
+        "Gang Wang"
+      ],
+      "published": "2026-11-20",
+      "updated": "2026-11-20",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": "17 pages, including supplementary material",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.27171",
+      "pdf_url": "https://arxiv.org/pdf/2611.27171",
+      "query_sources": [
+        "cs-ro",
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric"
+        ]
+      }
+    },
+    "2611.27144": {
+      "arxiv_id": "2611.27144",
+      "title": "Simulation-Based Testing of RCM-Constrained Robotic Software via Task Manifolds",
+      "abstract": "System-level testing of surgical robots requires generating executable test scenarios that exercise diverse, safety-critical behaviors. However, remote-center-of-motion (RCM) surgical manipulators operate within tightly constrained workspaces governed by coupled task geometry, inverse kinematics, and motor limits. Direct sampling in motor-command or Cartesian spaces frequently wastes testing budgets on physically unfeasible configurations. To address this limitation, we present a manifold-centered testing framework that decouples feasible test-domain construction from downstream test-generation strategies. Candidate inputs are generated directly within this constructed feasible domain and mapped to lower-level joint commands for simulation execution. Offline trajectory safety oracles and a spatial reference grid then evaluate failure yield and coverage. We compare our task-manifold representation against Cartesian XYZ and principal component analysis (PCA) under random testing, systematic traversal, and genetic search strategies. Results demonstrate that the feasible task domain improves test-generation efficiency and enables systematic reference-cell coverage. Crucially, random and genetic search strategies detect a broader spectrum of failure patterns than baseline representations, revealing that complete reference-cell coverage alone does not exhaust intra-cell behavioral dynamics. Furthermore, differential testing between defective and patched controller versions reveals that targeted evolutionary search detects aggregate failure-rate shifts from software repairs. Finally, a cross-platform study on a 7-DoF Kinova Gen3 arm in MoveIt 2 confirms workflow transferability to kinematically redundant manipulators. Together, these findings highlight the necessity of combining feasibility-aware domain modeling with complementary search strategies for systematic testing of robot software.",
+      "authors": [
+        "Zhenyu Jiang",
+        "Yanlin Li",
+        "Rongjie Yan",
+        "Rihui Song",
+        "Kai Huang"
+      ],
+      "published": "2026-11-20",
+      "updated": "2026-11-20",
+      "primary_category": "cs.SE",
+      "categories": [
+        "cs.SE",
+        "cs.RO"
+      ],
+      "comment": "20 pages, 5 figures",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.27144",
+      "pdf_url": "https://arxiv.org/pdf/2611.27144",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Simulation Data"
+        ]
+      }
+    },
+    "2611.27129": {
+      "arxiv_id": "2611.27129",
+      "title": "Opto-Electronic Hybrid Reinforcement Learning Based on MZI for Robotic Manipulator Control",
+      "abstract": "Precise motion control for autonomous robots is a core technical enabler for the large-scale deployment of embodied intelligence. In particular, basic manipulation tasks, such as point-to-point reaching and target grasping with robotic manipulators, impose stringent requirements on control accuracy, real-time response, and energy efficiency for edge deployment. As a prevailing end-to-end control paradigm, reinforcement learning (RL) has demonstrated remarkable capabilities in autonomous learning and generalization for decision-making in continuous action spaces. Nevertheless, constrained by electronic computing architectures, it generally suffers from substantial computing overhead, high inference latency and limited energy efficiency, making low-power edge deployment challenging. Optical computing, benefiting from its high-speed parallelism, offers a promising route to break energy-efficiency bottlenecks; however, research on the integration of optical computing and RL remains at an early stage. In this work, we propose a Mach-Zehnder Interferometer (MZI)-based opto-electronic hybrid RL architecture. We adopted two algorithm structures: Deep Deterministic Policy Gradient combined with Hindsight Experience Replay (DDPG-HER) and Twin Delayed Deep Deterministic Policy Gradient combined with HER (TD3-HER). We implemented the key layer linear computation of the spiking neural network (SNN) Actor on an optical MZI chip for the reaching task of a Franka Emika Panda robotic manipulator. The architecture is evaluated in the PyBullet simulation environment. Experimental results demonstrate that the proposed architecture achieves an energy efficiency of 1.39 TOPS/W and an inference latency of 120ps while maintaining control accuracy, which provide a feasible pathway toward energy-efficient and precise control for robots.",
+      "authors": [
+        "Mengting Yu",
+        "Shuiying Xiang",
+        "Changjian Xie",
+        "Yonghang Chen",
+        "Haowen Zhao",
+        "Xingxing Guo",
+        "Zhijian Hao",
+        "Yahui Zhang",
+        "Yanan Han",
+        "Yue Hao"
+      ],
+      "published": "2026-11-20",
+      "updated": "2026-11-20",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": "18 pages, 5 figures, 2 tables",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.27129",
+      "pdf_url": "https://arxiv.org/pdf/2611.27129",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Simulation Data"
+        ]
+      }
+    },
+    "2611.27101": {
+      "arxiv_id": "2611.27101",
+      "title": "EgoSurgHands: An Egocentric 3D Hand Pose Dataset & Benchmark for Open Surgery Training",
+      "abstract": "Surgical skill assessment, AR guidance, and robot learning from demonstration all benefit from 3D tracking of the surgeon's hands, yet no surgical dataset offers real egocentric articulated 3D hand pose. We introduce EgoSurgHands, a benchmark for real-captured egocentric hand pose estimation in open surgery training on synthetic pads. Captured with multi-sensor glasses, it contains 41,909 training hand-instance rows across 55 procedure recordings and 9,476 human-validated evaluation rows across 13 held-out recordings, spanning 13 tasks, 3 glove colors, and 4 trainees from first-year medical student to third-year resident. Each frame carries a multi-sensor stack: intrinsics, hand landmarks with per-hand confidence, timestamps, and eye gaze, plus SLAM extrinsics where SLAM succeeded. Evaluation labels combine sensor-fused pseudo-ground truth, human cross-review of every frame, surgeon adjudication of flagged cases, and an independent multi-view triangulated reference. Alongside the within-corpus, procedure-disjoint split, a leave-one-wearer-out protocol tested unseen trainees. Across eight methods evaluated zero-shot, from MANO-based reconstructors to the two-hand IntagHand and the keypoint-only MediaPipe Hands, egocentric pretraining was associated with stronger transfer on every held-out wearer. WildHands and JointTransformer had 18\\% and 40\\% lower PA-MPJPE, respectively, than the non-egocentric HaMeR. JointTransformer was the best performing model with an error of 14.95 mm. A substantial surgical domain gap remains, and the widely deployed MediaPipe Hands detected a hand in only 24.1\\% of evaluation rows. As a baseline, a 58K-parameter residual corrector (JRN) on frozen backbones reached 10.96-14.85 mm PA-MPJPE on held-out wearers for the two ego-pretrained backbones. We release the dataset and benchmark code at https://egosurghands.github.io",
+      "authors": [
+        "Ankit Pal",
+        "Guillaume Kugener",
+        "Sofia Volpi",
+        "Joshua Schwartz",
+        "Alex Idarraga",
+        "Pranav Rajpurkar",
+        "Gabriel A. Brat"
+      ],
+      "published": "2026-11-20",
+      "updated": "2026-11-20",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "comment": "Accepted at NeurIPS 2026. Code, dataset, and benchmark leaderboard available at https://egosurghands.github.io",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.27101",
+      "pdf_url": "https://arxiv.org/pdf/2611.27101",
+      "query_sources": [
+        "cs-ro",
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric",
+          "Tracking / Reconstruction"
+        ]
+      }
+    },
+    "2611.27061": {
+      "arxiv_id": "2611.27061",
+      "title": "PACE: Policy Augmentation and Compensation With Explicit Disturbance Estimation for Robust Locomotion",
+      "abstract": "Reinforcement learning has made quadrupedal locomotion remarkably robust. To handle unmodeled dynamics and external disturbances, domain randomization is usually employed to make a policy hedge against every condition it might meet. However, maintaining accurate tracking across varying dynamics and generalizing beyond the sampled range remain challenging. Here we show that explicitly estimating the disturbance and feeding the resulting estimation back into both the policy and the controller can relax this compromise. We introduce Policy Augmentation and Compensation with Explicit disturbance estimation (PACE). The framework lumps payload variations, center-of-mass (CoM) shifts, actuator degradation, and external forces into one joint-space disturbance. A nonlinear observer subsequently recovers this disturbance online without requiring joint acceleration measurements. The disturbance estimation provides feedforward torque compensation as the foundational control pathway and further augments the policy observation to enable disturbance-aware action generation. Considering the learning difficulty of fast-varying contact effects, we further provide an analytical contact estimation approach from joint and inertial measurements, without demanding force sensors. Across eleven simulated dynamics conditions, PACE reduces velocity-tracking error by 18.1% to 57.0% against state-of-the-art baselines, and maintains improved tracking under out-of-distribution (OOD) commands. Notably, in real-world experiments, the deployed real robot carried an 11.5 kg payload, nearly equal to its own mass. It also negotiated unseen 16 cm step-downs and crossed five outdoor terrains. The policy was trained exclusively on flat ground in simulation with at most 3 kg of added mass.",
+      "authors": [
+        "Shixuan Han",
+        "Yuyang Wang",
+        "Jingting Jia",
+        "Zeshuai Chen",
+        "Jindou Jia",
+        "Kexin Guo",
+        "Xiang Yu"
+      ],
+      "published": "2026-11-20",
+      "updated": "2026-11-20",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "comment": "12 pages, 9 figures",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.27061",
+      "pdf_url": "https://arxiv.org/pdf/2611.27061",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Domain Randomization"
+        ]
+      }
+    },
+    "2611.27047": {
+      "arxiv_id": "2611.27047",
+      "title": "BeyondEgo: Learning to Act Beyond Egocentric Perception via Humanoid Ego-Exo Foresight",
+      "abstract": "Humanoid loco-manipulation requires coordinating whole-body motion to perform manipulation tasks in complex environments. Yet egocentric vision-language-action (VLA) policies can miss critical body--scene relationships, and action imitation alone provides no explicit supervision for future scene evolution. We propose BeyondEgo to extend VLA perception in space and time. Spatially, we encode a synchronized exocentric view with frozen DINOv3 and concatenate the resulting tokens with egocentric VLM tokens to condition the action expert. Temporally, we use future observations from both views as privileged supervision for a residual adapter on task-conditioned VLM features. A foresight expert regresses DINOv3 representations of both views 0.6s ahead. At deployment, the foresight expert is discarded and the 4.2M-parameter adapter is retained. We also introduce HELM, to our knowledge, the first closed-loop humanoid loco-manipulation benchmark with synchronized egocentric and exocentric views across five whole-body tasks.On HELM, BeyondEgo improves success from 48.0% to 92.0% in distribution and from 23.5% to 65.0% on 200 held-out scenes with layout, asset, material, and lighting shifts. Ablations show that dual-view DINOv3 foresight yields the best transfer results.",
+      "authors": [
+        "Zhaoshan Yang",
+        "Chenglei Li",
+        "Haoyu Lei",
+        "Yutao Zhang",
+        "Yuyu Yang",
+        "Zhuo Chen",
+        "Ling Ding",
+        "Zhongxing Ren",
+        "Yi Gu",
+        "Heyang Zhang",
+        "Peng Su",
+        "Jin Pan"
+      ],
+      "published": "2026-11-20",
+      "updated": "2026-11-20",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.27047",
+      "pdf_url": "https://arxiv.org/pdf/2611.27047",
+      "query_sources": [
+        "cs-ro",
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric"
+        ]
+      }
+    },
+    "2611.27029": {
+      "arxiv_id": "2611.27029",
+      "title": "Mind World Models: Joint Learning of Motor EEG Representations and Action-Conditioned World Dynamics",
+      "abstract": "Motor decoding from electroencephalography (EEG) supports non-invasive brain-computer interfaces, yet existing methods either rely on costly cue-based trials and coarse categorical labels or use pretraining objectives that do not directly capture how movement unfolds, limiting their ability to learn transferable motor representations. To this end, we propose the Mind World Model (MWM), a framework that learns motor EEG representations from scalable naturalistic EEG and egocentric video without action annotations. MWM treats EEG observed up to the current frame as the latent action of a world model: a mind model encodes the EEG, and a world model uses it to predict the representation of a future frame, yielding a movement-grounded pretraining objective. We further introduce the Lateralization-Aware Transformer (LAT), which uses frame averaging to separate shared bilateral from side-specific lateral features, encoding hemispheric correspondence to reduce the burden of learning left-right relationships from data. MWM pretraining produces two models: a mind model for downstream motor decoding and a world model that can be adapted to prediction conditioned on real actions, opening a scalable and flexible path to collect egocentric data for embodied AI. Across 9 classification and 7 regression tasks, the mind model improves task-averaged balanced accuracy by 5.9% and Pearson correlation by 16.2% relative to the strongest baseline in each task family. Compared with an inverse-dynamics latent-action baseline, the world model achieves lower prediction error and benefits 3.3 times more from matched real actions within recordings and 4.7 times more on held-out subjects.",
+      "authors": [
+        "Weikang Qiu",
+        "Zheng Huang",
+        "Tinglin Huang",
+        "Yujun Yan",
+        "Rex Ying"
+      ],
+      "published": "2026-11-20",
+      "updated": "2026-11-20",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.27029",
+      "pdf_url": "https://arxiv.org/pdf/2611.27029",
+      "query_sources": [
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric"
+        ]
+      }
+    },
+    "2611.27011": {
+      "arxiv_id": "2611.27011",
+      "title": "FoRe: A Force-Guided Framework for Autonomous Grasp Recovery in Vision-Language-Action Models",
+      "abstract": "Vision-language-action (VLA) models have demonstrated strong performance in grasp-based manipulation, yet reliable recovery from local grasping failures remains challenging. Specifically, in pick-and-place tasks, policies may continue transport after a failed grasp instead of retrying, potentially reflecting overreliance on proprioceptive cues for stage progression and limited retry supervision. Existing recovery approaches typically rely on deployment-time guidance or demonstration augmentation. We introduce Force-guided Recovery (FoRe), a framework for autonomous recovery from local grasping failures. Using force feedback, FoRe partitions demonstrations into approach-grasp and transport-placement stages to train separate policies. To supplement limited retry supervision, FoRe then initializes a dedicated retry policy from the approach-grasp policy and refines it through local reinforcement learning (RL) from post-failure states. To avoid inappropriate stage progression, a controller combines force feedback with grasp-command status at inference to coordinate the stage policies, detect grasp failures, and invoke the retry policy. We also construct LIBERO-SUCTION, a force-augmented suction manipulation benchmark adapted from LIBERO, with complete demonstration trajectories for policy training. FoRe consistently improves task success rates for VLA-Adapter and $π_{0.5}$ on LIBERO-SUCTION, LIBERO, and real-world tasks. On LIBERO-SUCTION, average absolute gains are 18.4% and 6.5%, respectively. The corresponding real-world absolute gains are 25.0% and 21.7%. FoRe also remains effective with only one demonstration per task on both simulation benchmarks.",
+      "authors": [
+        "Shuai Peng",
+        "Yongkai Liao",
+        "Yuxin Cheng",
+        "Haoyuan Wang",
+        "Jian Huang"
+      ],
+      "published": "2026-11-20",
+      "updated": "2026-11-20",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.27011",
+      "pdf_url": "https://arxiv.org/pdf/2611.27011",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Simulation Data"
+        ]
+      }
+    },
     "2611.26981": {
       "arxiv_id": "2611.26981",
       "title": "ViewDreamer: A Robot World Model beyond Fixed Camera Setups",
@@ -135,6 +875,202 @@
       "matches": {
         "robot_centric": [
           "Robot Dataset"
+        ]
+      }
+    },
+    "2611.26916": {
+      "arxiv_id": "2611.26916",
+      "title": "RoboCap-10k: A Metrically Accurate Egocentric Dataset for Robot Learning",
+      "abstract": "Egocentric video is the most scalable source of manipulation data for robot learning, but its difficulty lies in producing high-quality supervision. Existing large corpora lack metric 3D labels or rely on heterogeneous devices, motion-capture labs, or a headset's built-in real-time tracker, whose accuracy is not reported for the released data. We introduce RoboCap-10k: 10,000 curated hours of unscripted manipulation recorded during workers' paid shifts in 11 countries, spanning 18 task families, 200 task types, and 2,000 tasks. Every hour is captured on one device, the RoboCap, a 250 g hat with six synchronized global-shutter cameras and dual IMUs. Online calibration brings every device below 1 px of epipolar error, visual-inertial SLAM yields gravity-aligned 6-DoF head trajectories, and a multi-view hand tracker yields metric cm-precise hand poses. Each episode is annotated with task and sub-task language captions. Project page: https://robocap10k.com",
+      "authors": [
+        "Kheri Hughes",
+        "Qasim Ali",
+        "Nikash Bhardwaj",
+        "Owen Akhibi",
+        "Niresh Dravin",
+        "Vivek Sharma",
+        "Sam Cho",
+        "Ethan Lee",
+        "Paul Luo",
+        "Sunny Yu",
+        "Jonathan Victor",
+        "Amanda Young",
+        "Michael Cho",
+        "Ademi Adeniji",
+        "Vincent Liu"
+      ],
+      "published": "2026-11-20",
+      "updated": "2026-11-20",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": "24 pages, 9 figures, 11 tables. Project page: https://robocap10k.com",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.26916",
+      "pdf_url": "https://arxiv.org/pdf/2611.26916",
+      "query_sources": [
+        "cs-ro",
+        "human-egocentric"
+      ],
+      "topics": [
+        "robot_centric",
+        "human_egocentric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Robot Dataset",
+          "Robot Data Processing"
+        ],
+        "human_egocentric": [
+          "Egocentric"
+        ]
+      }
+    },
+    "2611.26883": {
+      "arxiv_id": "2611.26883",
+      "title": "TouchBench: Can Vision-Language Models Feel Invisible Physical Properties?",
+      "abstract": "Vision-language models (VLMs) are increasingly used for embodied perception and reasoning, yet their physical understanding is largely evaluated on questions answerable from images. Many properties critical to manipulation, such as an opaque bottle's fill level or an object's compliance, may only be revealed through touch. We introduce TouchBench, an egocentric vision-language-tactile benchmark that distinguishes visually answerable questions (Tier A) from those involving properties hidden from the camera (Tier B). It pairs head-mounted video with synchronized 137-channel whole-hand tactile sensing, comprising 900 clips from five participants across 11 tasks, with 900 absolute and 4,102 relative questions. Four state-of-the-art VLMs average 66.4% accuracy on Tier A relative questions but only 49.8% on Tier B, near chance (50%). To bridge this gap, we propose Tactile-as-Prompt (TaP), which presents 34 interpretable tactile statistics as text, enabling VLMs to reason with touch without a learned tactile encoder. TaP raises zero-shot Tier B relative accuracy to 62.9% and reaches 73.1% after leave-one-user-out fine-tuning, outperforming video alone (67.4%) and a learned tactile-token encoder (67.3%). The gains extend to unseen objects and users. On a separate 20-hour in-the-wild corpus, tactile text improves fine-tuned contact-question accuracy from 67.1% to 75.5%. These results highlight the limits of vision-only physical reasoning and establish language as an effective interface for tactile perception.",
+      "authors": [
+        "Ziyao Zeng",
+        "Ziyi Kou",
+        "Chuan Qin",
+        "Mia Huang",
+        "Roger Boldu",
+        "Zhiwen Fan",
+        "Daniel Rakita",
+        "Eric Whitmire",
+        "Li Guan"
+      ],
+      "published": "2026-11-19",
+      "updated": "2026-11-19",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.26883",
+      "pdf_url": "https://arxiv.org/pdf/2611.26883",
+      "query_sources": [
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric"
+        ]
+      }
+    },
+    "2611.26865": {
+      "arxiv_id": "2611.26865",
+      "title": "FlowScope: 3D Scene Flow Pretraining Improves Surgical Robot Policies",
+      "abstract": "Imitation learning for surgical robots is limited by the cost of collecting demonstrations. Meanwhile, many robot-assisted procedures are recorded as stereo video, yet policies cannot learn from them directly; clinical video carries no action labels. We present FlowScope, which pretrains a surgical policy network on unlabeled clinical video by forecasting scene flow, the metric 3D motion of scene points, with labels computed by off-the-shelf stereo depth and optical flow models. We pretrain the trunk of an Action Chunking Transformer (ACT) on a dataset of 1,149 clinical procedures (1.35M clips) and discard the flow head afterward, so the deployed policy is a standard ACT with no added inference cost. On a real surgical robotic system, FlowScope raises needle pickup success from 54% to 90% and first-handover success on needle regrasp from 4% to 52% (full task: 2% to 14%) over training from scratch (n=50 trials each), and retains its gains with a generative flow-matching action head. Ablations indicate that metric 3D motion is the strongest pretraining signal among those tested; kinematics, 2D tracks, depth alone, and scale-free 3D flow, each paired with kinematics, yield smaller or no gains. Representation analyses suggest that scene-flow pretraining encodes metric needle depth more accurately, that kinematics pretraining increases reliance on the robot state, and that needle-depth probes follow the ordering of real-robot success where offline validation error does not.",
+      "authors": [
+        "John J. Han",
+        "Adam Schmidt",
+        "Jingpei Lu",
+        "Zooey He",
+        "Muhammad Abdullah Jamal",
+        "Jie Ying Wu",
+        "Omid Mohareri"
+      ],
+      "published": "2026-11-19",
+      "updated": "2026-11-19",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.26865",
+      "pdf_url": "https://arxiv.org/pdf/2611.26865",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "robot_centric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Data Collection"
+        ]
+      }
+    },
+    "2611.26810": {
+      "arxiv_id": "2611.26810",
+      "title": "Acoustic Markers of Engagement in Children with Autism Spectrum Disorder and Their Caregivers",
+      "abstract": "Characterizing user engagement is essential for developing effective human-computer interaction (HCI) applications, particularly for children with autism spectrum disorder (ASD). Because home-based HCI naturally involves caregivers as conversational facilitators, analyzing both child and caregiver vocalizations can provide critical insights into characterizing interaction dynamics. Using a dataset of home-based socially assistive robot (SAR) interventions, this work demonstrates how child and caregiver vocalization patterns can model engagement in HCI contexts. We employed linear mixed-effects models (LMMs) with child and caregiver acoustic data to identify acoustic features that significantly differentiated engagement from disengagement. The results demonstrated that children and caregivers share three significant acoustic markers of engagement: mean Alpha Ratio (AlphaRatio), mean Harmonics-to-Noise Ratio (HNR), and mean Spectral Slope 500-1500 (SlopeV500-1500). This reflects cleaner and smoother vocalizations during engagement across both groups. Furthermore, we evaluated a State x Group interaction model to compare the magnitudes of standardized state-dependent differences between children and caregivers. The results indicated that children exhibit significantly greater state-related variation than caregivers in three acoustic features: AlphaRatio, HNR, and SlopeV500-1500.",
+      "authors": [
+        "Young Suh Hong",
+        "Kaleen Shrestha",
+        "Austin Joel Dympep",
+        "Maja Matarić"
+      ],
+      "published": "2026-11-19",
+      "updated": "2026-11-19",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": "Preprints allowed for IEEE paper submissions under review",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.26810",
+      "pdf_url": "https://arxiv.org/pdf/2611.26810",
+      "query_sources": [
+        "cs-ro"
+      ],
+      "topics": [
+        "robot_centric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Robot Dataset"
+        ]
+      }
+    },
+    "2611.26764": {
+      "arxiv_id": "2611.26764",
+      "title": "TacHOI: Contact-Aware Object Reconstruction and Tracking for Egocentric Videos",
+      "abstract": "Egocentric videos offer a scalable source of human demonstrations for robot learning. However, recovering metric object geometry and motion from monocular video is hindered by scale-depth ambiguity and hand-induced occlusion, while image-derived contact and shape priors alone cannot uniquely determine metric scale. We introduce TacHOI, a training-free framework that integrates tactile contact with monocular vision for joint hand-object reconstruction and tracking, without requiring object templates or depth sensors. Starting from pretrained visual estimates, TacHOI uses tactile contact to constrain object depth relative to the estimated hand, while spatially separated contacts on a metrically calibrated hand provide a physical ruler for object extent. It incorporates these constraints into a joint optimization of hand poses, object trajectories, and anisotropic object scale alongside visual alignment. Across 100 ARCTIC and HO3D sequences with synthesized tactile observations, TacHOI achieves the lowest median ADD-S* among the evaluated baselines, reducing error from 15.6 to 3.6 cm on ARCTIC and achieving 2.8 cm on HO3D. Additional experiments on OpenTouch demonstrate its applicability to measured tactile observations.",
+      "authors": [
+        "Jackson Codd",
+        "Haoyu Li",
+        "Xianyi Cheng"
+      ],
+      "published": "2026-11-19",
+      "updated": "2026-11-19",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.26764",
+      "pdf_url": "https://arxiv.org/pdf/2611.26764",
+      "query_sources": [
+        "cs-ro",
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric",
+          "Hand-Object Interaction",
+          "Human Demonstration",
+          "Tracking / Reconstruction",
+          "Affordance / Contact"
         ]
       }
     },
@@ -3757,7 +4693,8 @@
       "title": "ALOHA Lightning: Learning Fast and Precise Manipulation",
       "abstract": "Learning from human demonstrations has enabled robots to acquire a wide range of manipulation skills, but learned policies typically execute far slower than ordinary humans. This speed gap is mainly due to lack of an interface for collecting demonstration data at high speed, and the difficulty in training policies that can robustly execute high-speed motions. In this paper, we present ALOHA Lightning (Flash ALOHA), a system for learning fast and precise robotic manipulation. Our system uses kinesthetic teaching to intuitively collect near-human-speed demonstrations on a backdrivable bimanual platform, yielding natural and fast trajectories. We also present a learning pipeline that enables smooth high-speed execution through test-time action smoothing and aligns the visual data distribution between data collection and deployment with masking. Given 50 demonstrations for each task, ALOHA Lightning autonomously completes bimanual tasks such as ball tossing and catching, folding shorts, battery insertion, and bussing tables for over 80% success rates while close to human speed. Project website: https://flash-aloha.github.io/",
       "authors": [
-        "John Hua Yao. Qi Wu",
+        "John Hua Yao",
+        "Qi Wu",
         "Yihuai Gao",
         "Chelsea Finn",
         "Zipeng Fu"
@@ -4259,7 +5196,7 @@
         "Yiyang Chen",
         "Congsheng Xu",
         "Wenchao Yue",
-        "Mingze Ye",
+        "Mingzhe Ye",
         "Shuai Chen",
         "Yi Yang",
         "Yaping Li",
@@ -4269,7 +5206,7 @@
         "Zhijie Deng"
       ],
       "published": "2026-11-16",
-      "updated": "2026-11-17",
+      "updated": "2026-11-20",
       "primary_category": "cs.RO",
       "categories": [
         "cs.RO"
@@ -5152,7 +6089,7 @@
         "Song Han"
       ],
       "published": "2026-11-13",
-      "updated": "2026-11-13",
+      "updated": "2026-11-20",
       "primary_category": "cs.RO",
       "categories": [
         "cs.RO",
@@ -266994,7 +267931,7 @@
     }
   },
   "coverage_start": "2025-01-01",
-  "coverage_end": "2026-11-23",
-  "paper_count": 6957,
-  "generated_at": "2026-11-23T12:39:23+00:00"
+  "coverage_end": "2026-11-24",
+  "paper_count": 6982,
+  "generated_at": "2026-11-24T00:23:48+00:00"
 }

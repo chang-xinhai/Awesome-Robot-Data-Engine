@@ -4,7 +4,7 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-11-23 · **Papers:** 3191 · **Unique arXiv IDs:** 3191
+**Coverage:** 2025-01-01 to 2026-11-24 · **Papers:** 3196 · **Unique arXiv IDs:** 3196
 
 ## 2026-11
 
@@ -13,6 +13,11 @@
 | 2026-11-20 | [Adesktop learning factory for smart and resilient manufacturing based on digital twin and AI](https://arxiv.org/abs/2611.27579) | Wenxuan Hu, Zhuoxuan Cao, Achraf El Messaoudi, et al. | cs.RO | Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2611.27579) / [pdf](https://arxiv.org/pdf/2611.27579) |
 | 2026-11-20 | [HermiteTwin: Bicubic Hermite Shell Digital Twins for Contact-Rich Deformable Manipulation](https://arxiv.org/abs/2611.27282) | Kangrui Zhang, Mu Huang, Xing Shen, et al. | cs.RO | Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2611.27282) / [pdf](https://arxiv.org/pdf/2611.27282) |
 | 2026-11-20 | [LiDAR Signals for Robot Locomotion: Spherical Range Images Enable Robust Sim-to-Real Transfer](https://arxiv.org/abs/2611.27223) | Nian Liu, Xinyi Tong, Ming Ren, et al. | cs.AI | Sim-to-Real | [abs](https://arxiv.org/abs/2611.27223) / [pdf](https://arxiv.org/pdf/2611.27223) |
+| 2026-11-20 | [Inject, Encode, Navigate: Feature-Wise Time Injection for Rectified Flow with Bidirectional Feature Encoding](https://arxiv.org/abs/2611.27179) | Xiaogang Wang, Debasish Mishra, Jia Hao Toh, et al. | cs.RO, cs.CV | Trajectory Generation | [abs](https://arxiv.org/abs/2611.27179) / [pdf](https://arxiv.org/pdf/2611.27179) |
+| 2026-11-20 | [Simulation-Based Testing of RCM-Constrained Robotic Software via Task Manifolds](https://arxiv.org/abs/2611.27144) | Zhenyu Jiang, Yanlin Li, Rongjie Yan, et al. | cs.SE, cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2611.27144) / [pdf](https://arxiv.org/pdf/2611.27144) |
+| 2026-11-20 | [Opto-Electronic Hybrid Reinforcement Learning Based on MZI for Robotic Manipulator Control](https://arxiv.org/abs/2611.27129) | Mengting Yu, Shuiying Xiang, Changjian Xie, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2611.27129) / [pdf](https://arxiv.org/pdf/2611.27129) |
+| 2026-11-20 | [PACE: Policy Augmentation and Compensation With Explicit Disturbance Estimation for Robust Locomotion](https://arxiv.org/abs/2611.27061) | Shixuan Han, Yuyang Wang, Jingting Jia, et al. | cs.RO, cs.AI | Domain Randomization | [abs](https://arxiv.org/abs/2611.27061) / [pdf](https://arxiv.org/pdf/2611.27061) |
+| 2026-11-20 | [FoRe: A Force-Guided Framework for Autonomous Grasp Recovery in Vision-Language-Action Models](https://arxiv.org/abs/2611.27011) | Shuai Peng, Yongkai Liao, Yuxin Cheng, et al. | cs.RO, cs.AI | Simulation Data | [abs](https://arxiv.org/abs/2611.27011) / [pdf](https://arxiv.org/pdf/2611.27011) |
 | 2026-11-19 | [JARVIS: An Agent That Designs, Builds, and Tests Circuit Boards on Its Own](https://arxiv.org/abs/2611.26503) | Shibo Zhou, Tianqi Hong, Zheng Yan, et al. | cs.RO, eess.SY | Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2611.26503) / [pdf](https://arxiv.org/pdf/2611.26503) |
 | 2026-11-19 | [LocoMuJoCo: A Comprehensive Imitation Learning Benchmark for Whole-Body Control](https://arxiv.org/abs/2611.26293) | Firas Al-Hafez, Davide Tateo, Oleg Kaidanov, et al. | cs.RO | Sim-to-Real, Domain Randomization | [abs](https://arxiv.org/abs/2611.26293) / [pdf](https://arxiv.org/pdf/2611.26293) |
 | 2026-11-19 | [Spatially Conditioned Trajectory Diffusion](https://arxiv.org/abs/2611.26127) | Yefim Nudelman, Dor Atzmon, Tom Tirer | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2611.26127) / [pdf](https://arxiv.org/pdf/2611.26127) |
