@@ -1,6 +1,1031 @@
 {
   "schema_version": 1,
   "papers": {
+    "2611.31098": {
+      "arxiv_id": "2611.31098",
+      "title": "Real2Worlds2Real: Scaling Self-Improving Agentic Real2Sim2Real for Robot Manipulation",
+      "abstract": "Scaling robot manipulation learning remains challenging due to the high cost of collecting real-world interaction data. Real-to-Sim-to-Real (Real2Sim2Real) offers a promising route by enabling policy learning in simulation grounded in real-world observations, yet scaling this paradigm across diverse tasks and physical interactions remains difficult. We introduce Real2Worlds2Real, a self-improving agentic framework that integrates scalable simulation-world construction with policy development. Given limited visual observations and task descriptions, its tool-orchestration harness constructs faithful digital twins and expands them into diverse, physically executable digital cousins. The agent adaptively selects tools and revisits construction decisions, using visual and execution feedback to refine geometry and physical behavior. Building on these worlds, the agent orchestrates policy development by coordinating data generation, policy learning, and refinement based on task requirements and simulation rollout feedback. Across both stages, the agent distills validated procedures into reusable skills that guide subsequent tasks. Experiments demonstrate improved world fidelity and successful real-world policy transfer, with performance gains from increasing world diversity and interaction-data volume. Skill reuse further improves world-building efficiency and long-horizon task success.",
+      "authors": [
+        "Jinzhong Gu",
+        "Jiakai Chen",
+        "Xinyi Cao",
+        "Yan Shen",
+        "Hangke Sui",
+        "Shutian Zheng",
+        "Xiang Xiao",
+        "Haoran Lu",
+        "Fan Xu",
+        "Lu Shi",
+        "Daochen Shi",
+        "Ruihua Zhang",
+        "Wei Zhan",
+        "Masayoshi Tomizuka",
+        "Ruihai Wu"
+      ],
+      "published": "2026-11-23",
+      "updated": "2026-11-23",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.31098",
+      "pdf_url": "https://arxiv.org/pdf/2611.31098",
+      "query_sources": [
+        "simulation-data"
+      ],
+      "topics": [
+        "robot_centric",
+        "simulation"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Autonomous Collection"
+        ],
+        "simulation": [
+          "Simulation Data",
+          "Sim-to-Real",
+          "Digital Twin / Real-to-Sim"
+        ]
+      }
+    },
+    "2611.31002": {
+      "arxiv_id": "2611.31002",
+      "title": "RoboUniverse-10K: Toward the Scaling Era of Agentic Robotics via Real-to-Sim Environments",
+      "abstract": "Agentic Robotics, in which foundation models act as coding agents to control robots through executable programs, has emerged as a compelling paradigm for embodied intelligence. Yet unlike software engineering, where massive executable environments power post-training, robotics remains constrained by small, manual benchmarks and in-distribution evaluation. To bridge this gap, we introduce RoboUniverse-10K, 10,807 interactive, resettable, and verifiable physics environments built from real-world videos via an automated Real2Sim and quality assurance pipeline. Each runs in an isolated, Harbor-compatible harness that hides privileged states and grading logic to mirror real-world sensing. From the same pipeline, we hold out 500 unseen tasks to establish RoboUniverse-Verified, an expert-verified zero-shot benchmark. Evaluating 11 closed- and open-source models reveals a huge gap: frontier models reach 85.8\\% success, while open-source baselines lag at 2.6\\% to 10.0\\%, bottlenecked by low-level grasping, deformable-object manipulation, and post-contact physical control. Finally, we collect about 17K multi-turn trajectories totaling 0.79B tokens with GPT-6 Astra and perform full-parameter supervised fine-tuning on Qwen3.6-35B-A3B, yielding RoboUniverse-35B-A3B. Our model achieves substantial zero-shot gains on RoboUniverse-Verified, lifting the success rate from 0.8\\% to 21.2\\%, while achieving zero-shot task completions across LIBERO-MAX, RoboCasa, RoboTwin 2.0, and a real Franka arm. We open-source the RL-ready environments and model to lay the foundation for large-scale reinforcement learning in Agentic Robotics.",
+      "authors": [
+        "Jinkun Liu",
+        "Yingze Wang",
+        "Situ Wang",
+        "Deyao Hong",
+        "Mingju Gao",
+        "Wenyi Li",
+        "Yizhe Chi",
+        "Youjie Zheng",
+        "Kaisen Yang",
+        "Xiangyang Wang",
+        "Bingxiang He",
+        "Yuxin Zuo",
+        "Boyuan Chen",
+        "Yue Chen",
+        "Cheng Qian",
+        "Tianxing Chen",
+        "Huichi Zhou",
+        "Huaxiu Yao",
+        "Hao Tang",
+        "Hao Zhou",
+        "Ya-Qin Zhang",
+        "Calvin Xiao",
+        "Tiga Altman",
+        "Huan-ang Gao"
+      ],
+      "published": "2026-11-23",
+      "updated": "2026-11-23",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.CL"
+      ],
+      "comment": "Project Page: https://lab.einsia.ai/robo-universe/",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.31002",
+      "pdf_url": "https://arxiv.org/pdf/2611.31002",
+      "query_sources": [
+        "simulation-data"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Sim-to-Real"
+        ]
+      }
+    },
+    "2611.30898": {
+      "arxiv_id": "2611.30898",
+      "title": "World Models as Native Latent Action Models",
+      "abstract": "Large and diverse video sources, such as egocentric human video and heterogeneous robot recordings, carry rich dynamics but come either without actions or without a shared action space. Latent action models (LAMs) can recover these dynamics, but they train their inverse- and forward-dynamics models (IDM, FDM) from scratch, trading off pixel reconstruction against latent capacity and accuracy. Pretrained video world models natively generate high-fidelity dynamics, yet represent them densely, entangled across all layers. Viewing the world model as a LAM, we show that these dynamics can be extracted with minimal changes to the model. Native LAM operates one pretrained video diffusion transformer as both IDM and FDM, with learnable dynamics registers as the only causal bridge between the two, and trains on counterfactual temporal pairs that differ in motion alone, so that the registers distill a video's dynamics into a compact native latent action. We further propose a pretraining paradigm for vision-language-action (VLA) policies, Pretraining Actions from World models (PAWlicy), in which Native LAM serves as a dynamics teacher on large-scale video; unlike world action models, it never generates video. Native latent actions outperform existing LAMs on the LARY benchmark in both action classification and control regression, and replay the same motion on new robots, in new scenes, and from human hands to robots, although no transfer objective is used in training. With a 3.8B model, PAWlicy reaches a 93.6% average success rate on RoboTwin 2.0 trained with domain-randomized demonstrations, the highest among VLAs. On RoboDojo, it is competitive on every dimension we evaluate, and its Precision, evaluated by us, is on par with the leading leaderboard entries. On real robots, it improves over the pi_0.5 baseline on both tasks. Both stages use only public data and a publicly released world model.",
+      "authors": [
+        "Qinyue Li",
+        "Weijie Qiao",
+        "Qingyi Tao",
+        "Zerui Gong",
+        "Zhe Yang",
+        "Quanzhou Li",
+        "Taolin Zhang",
+        "Jinglin He",
+        "Zhonghua Wu",
+        "Chen Change Loy"
+      ],
+      "published": "2026-11-23",
+      "updated": "2026-11-23",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "comment": "19 pages, 7 figures, 6 tables. Project page: https://pawteam-eai.github.io/native-lam/",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.30898",
+      "pdf_url": "https://arxiv.org/pdf/2611.30898",
+      "query_sources": [
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric",
+          "Human Video"
+        ]
+      }
+    },
+    "2611.30813": {
+      "arxiv_id": "2611.30813",
+      "title": "HIVE-Bench: Evaluating Patch-Level Visual Representations for Egocentric Robot Manipulation",
+      "abstract": "Pretrained vision is a common start for robot learning, but most comparisons still score one pooled vector from a third-person image. Bimanual policies instead read dense patch tokens from cameras on the robot. We introduce HIVE-Bench: one shared flow-matching policy reads 20 encoders from seven families on 24 egocentric bimanual tasks, across adaptation, task sharing, and sweeps of data, model size, and layer. Keeping the patches matters. Averaging each view to one token removes most of the success, adaptation helps every pair we test, and one shared policy keeps most of the success of separate policies at a fraction of the updates. The same tokens are then scored with statistics, state and object readouts, published vision scores, and an inverse-dynamics readout. That readout of the commanded motion is one of the strongest measurements available before a policy is trained. Recognition, depth, and correspondence do not transfer reliably. Fine-tuning can improve the action readout even when other measurements move the other way, and no statistic is stable enough to replace a rollout before any deployment.",
+      "authors": [
+        "Qiwei Liang",
+        "Zhengtu Liang",
+        "Minghao Lai",
+        "Yikeng Chen",
+        "Yiming Wang",
+        "Boyang Cai",
+        "Yuetong Fang",
+        "Taowen Wang",
+        "Baiqiao Yin",
+        "Tianxing Chen",
+        "Yue Chen",
+        "Jiaming Liang",
+        "Guangyu Chen",
+        "Shaolong Zhu",
+        "Daolin Ma",
+        "Renjing Xu"
+      ],
+      "published": "2026-11-23",
+      "updated": "2026-11-23",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "comment": "39 pages, 12 figures",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.30813",
+      "pdf_url": "https://arxiv.org/pdf/2611.30813",
+      "query_sources": [
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric"
+        ]
+      }
+    },
+    "2611.30734": {
+      "arxiv_id": "2611.30734",
+      "title": "EgoDepth-Bench: Benchmarking Metric Depth for Egocentric Manipulation",
+      "abstract": "We introduce EgoDepth-Bench, comprising 941,233 synchronized samples collected across 37 distinct physical environments. Each sample combines six calibrated RGB views with metric depth in the native fisheye view, reconstructed from five active-infrared stereo modules. A calibrated ball-bar confirms millimeter-level geometric accuracy, with a median error of 1.27 mm on a known sphere spacing. Environment-held-out splits enable evaluation of generalization to unseen environments. Across monocular, stereo, and multi-view models, the benchmark measures both depth accuracy and prediction coverage, including on hands and objects. Fine-tuning MapAnything on EgoDepth-Bench reduces metric AbsRel from 0.708 to 0.091 and scale-aligned AbsRel from 0.327 to 0.072 on unseen environments. These results demonstrate that EgoDepth-Bench provides effective supervision and enables rigorous evaluation of metric and relative depth estimation in egocentric manipulation. The project page provides the evaluation code and interactive RGB-depth sequences.",
+      "authors": [
+        "Yuan Gao",
+        "Dongchen Wei",
+        "Xinyang Lin",
+        "Shuhua Cao",
+        "Xueliang Guo",
+        "Zhuohan Li",
+        "Yihao Wang"
+      ],
+      "published": "2026-11-23",
+      "updated": "2026-11-23",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "comment": "8 pages, 5 figures, 6 tables. Project page: https://egodepth-bench.github.io/",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.30734",
+      "pdf_url": "https://arxiv.org/pdf/2611.30734",
+      "query_sources": [
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric"
+        ]
+      }
+    },
+    "2611.30646": {
+      "arxiv_id": "2611.30646",
+      "title": "Part-wise Certified State Estimation of Articulated Objects from Passive Stereo",
+      "abstract": "Robots in manufacturing often handle thin, hinged objects known from CAD models that change shape during the task, like folding cartons. Monitoring such tasks requires estimating the object's articulation state, its pose and the shape of any semi-deformable part. Learning-based estimators generalise across objects but lose precision while handling thin parts. Model-based fitting is precise but often needs accurate depth, a close initial estimate and a clean object mask. We present part-wise certification of an articulated object's state, estimated from passive stereo. Our estimator rivals the precision of the best model-based fitting method without using depth, a close initial estimate or a mask. We detect the corners that the CAD model defines in both stereo images and fit the articulated model to them. Geometric certificates, which we extend from rigid to articulated objects, then tell whether to trust each part, because the fit returns a state even for hidden parts. Certified estimates on unlabelled video become labels that improve sim-to-real transfer. On five of seven simulated objects, we locate the parts we certify three to five times more precisely than the strongest learned baseline on the same readings, given depth and true masks. On a real folding carton, our median corner error on the end panels is 2.1% of the carton's size, at least 40% lower than every learned baseline and also lower than a depth-based fit initialised near the true state.",
+      "authors": [
+        "Orion Desbonnet",
+        "Kei Higuchi",
+        "Alex Sykes",
+        "Ayush Deshmukh",
+        "Victor Leve",
+        "Joao Moura",
+        "Sethu Vijayakumar"
+      ],
+      "published": "2026-11-23",
+      "updated": "2026-11-23",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "comment": "11 pages, 4 figures",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.30646",
+      "pdf_url": "https://arxiv.org/pdf/2611.30646",
+      "query_sources": [
+        "simulation-data"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Sim-to-Real"
+        ]
+      }
+    },
+    "2611.30607": {
+      "arxiv_id": "2611.30607",
+      "title": "Tri-DNO: Trilateral Diffusion Noise Optimization for 3D Human Object Interaction",
+      "abstract": "Generating realistic 3D human object interactions (HOI) is essential for applications, such as augmented or virtual reality (AR/VR) or character animation of interactive entertainment. A particular challenge lies in the faithful generation of hand grasps in human object interaction scenes, where even minor geometric inconsistencies, such as insufficient contact or interpenetration, can significantly compromise realism. While diffusion-based generative models have shown promising results in HOI synthesis, ensuring physically plausible hand-object interactions remains challenging. We present Tri-DNO, a diffusion noise optimization strategy to sample from a pretrained multimodal HOI diffusion model, improving hand-object contact. Rather than modifying or retraining the generative model, our approach iteratively optimizes the initial noise of the diffusion generator, thereby generating firm hand object contact, while mitigating penetration and keeping the hand position realistic. Experiments on the GRAB dataset demonstrate improvements over the baseline in grasp quality without additional model training or increased computational cost compared to existing methods. We further demonstrate the applicability of our approach to practical media production scenarios.",
+      "authors": [
+        "Paul Hinzer",
+        "Niklas Gard",
+        "Anna Hilsmann",
+        "Peter Eisert"
+      ],
+      "published": "2026-11-23",
+      "updated": "2026-11-23",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": "10.1145/3828644.3857001",
+      "url": "https://arxiv.org/abs/2611.30607",
+      "pdf_url": "https://arxiv.org/pdf/2611.30607",
+      "query_sources": [
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Hand-Object Interaction",
+          "Affordance / Contact"
+        ]
+      }
+    },
+    "2611.30597": {
+      "arxiv_id": "2611.30597",
+      "title": "ViDiHand2: Unifying Video Diffusion Priors and Hand Geometry for 3D Hand Motion Reconstruction in the Wild",
+      "abstract": "Learning robot manipulation from egocentric human videos requires accurate metric 3D hand motion. Recent methods leverage pretrained video diffusion model (VDM) priors to recover occluded hands directly from full-frame videos, but their appearance-based depth regression generalizes poorly to unseen cameras. In this work, we propose ViDiHand2, a geometry-driven framework that reformulates VDM-based hand depth estimation from direct regression into fine-grained geometric constraint solving. Specifically, we introduce Fine-Grained Geometric Lifting and Clip-Level Ray Fitting, which recover metric depth by enforcing geometric consistency between pixel-aligned 2D joints and the metric structure of MANO hands, while leveraging temporal observations across the clip. Since the lifting relies on these 2D joints, to improve robustness under occlusion and image truncation, we further develop Confidence-Gated Fusion to adaptively combine geometrically lifted joints with MANO predictions according to localization confidence. Finally, we enhance the VDM backbone to better capture spatial-temporal representations and produce the per-frame 2D joint and MANO predictions that both steps rely on. Extensive experiments on seven public datasets demonstrate that ViDiHand2 consistently outperforms 18 baselines, reducing in-the-wild absolute joint error by 42% and detection failures by 8.82x compared with the best baseline on each metric, while running at 57 FPS. The code is available at https://github.com/NTUYWANG103/ViDiHand.",
+      "authors": [
+        "Yuxi Wang",
+        "Yufei Liu",
+        "Chengkai Jin",
+        "Qingyue Chen",
+        "Wenqi Ouyang",
+        "Tianyi Wei",
+        "Kerui Ren",
+        "Siyuan Huang",
+        "Zhiqi Shen",
+        "Hongsheng Li",
+        "Xingang Pan"
+      ],
+      "published": "2026-11-23",
+      "updated": "2026-11-23",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "comment": "Main text 8 pages with supplementary material, 54 pages in total",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.30597",
+      "pdf_url": "https://arxiv.org/pdf/2611.30597",
+      "query_sources": [
+        "human-egocentric"
+      ],
+      "topics": [
+        "umi",
+        "human_egocentric"
+      ],
+      "matches": {
+        "umi": [
+          "In-the-Wild Teaching"
+        ],
+        "human_egocentric": [
+          "Egocentric",
+          "Human Video",
+          "Tracking / Reconstruction"
+        ]
+      }
+    },
+    "2611.30495": {
+      "arxiv_id": "2611.30495",
+      "title": "DexDuet: Learning Contact-Preserving Bimanual Dexterity from Human Demonstrations",
+      "abstract": "Human demonstrations provide a rich source of bimanual dexterous skills, yet transferring them to robot hands remains challenging. Existing methods primarily optimize object trajectory tracking, often overlooking how human hands interact with the object. Even with accurate tracking, robots may contact incorrect object parts or slide their fingers, resulting in unstable manipulation. We present DexDuet, a framework that learns contact-preserving bimanual dexterity from a single human demonstration. DexDuet employs two interaction rewards to preserve human hand-object configurations and contacts. To enable coordinated manipulation, we factorize the bimanual policy into two weight-sharing per-hand policies that condition on each other's states. We further propose assisted reference-state initialization (A-RSI), an adaptive curriculum that adjusts object assistance and training starts across demonstration segments to overcome difficult manipulation phases. Across four benchmarks spanning three simulators and five robot embodiments, DexDuet improves object-tracking ADD-AUC by 11 to 41 points over the corresponding baselines while consistently achieving better contact preservation. Notably, among 122 paired runs with comparable object-tracking accuracy, DexDuet preserves the human's contacts better in 117 cases. Code and videos are available at https://rcl-robotics.github.io/Dexduet.io/",
+      "authors": [
+        "Haoran Zhang",
+        "Haokai Ding",
+        "Han Zhou",
+        "Zuxing Lu",
+        "Heng Zhang",
+        "Xingxing Zuo"
+      ],
+      "published": "2026-11-23",
+      "updated": "2026-11-23",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.30495",
+      "pdf_url": "https://arxiv.org/pdf/2611.30495",
+      "query_sources": [
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Hand-Object Interaction",
+          "Human Demonstration",
+          "Tracking / Reconstruction"
+        ]
+      }
+    },
+    "2611.30492": {
+      "arxiv_id": "2611.30492",
+      "title": "Policy Invariance Is Not Learning Invariance: Potential-Based Reward Shaping for Navigation with a Limited View",
+      "abstract": "Potential-based reward shaping (PBRS) does not change the optimal policy, but how much it speeds up learning depends on the potential and on effects outside this guarantee. We analyse how PBRS changes the one-step reward while it preserves the discounted return: a per-step $(γ-1)Φ$ term, the terminal-state rule, a constant shift of the potential, and positive cycles in a bonus that is not potential-based. We then measure these consequences in pre-registered experiments with a PPO agent. The agent has a limited egocentric view and is tested on two MiniGrid navigation tasks (160 runs, 10 seeds per condition). On LavaCrossing, a geodesic (BFS) potential learned faster than both the sparse baseline and a Euclidean potential with a 7x7 and a 5x5 view (AUC difference +0.27 to +0.39, Holm p between 0.007 and 0.0499). The Euclidean potential did not differ from the baseline. In 20 runs with a non-potential bonus, none of the agents learned the task. The Euclidean potential caused more than twice as many deaths in lava during early training. View size did not detectably change the benefit of shaping. With a 5x5 view on SimpleCrossing, some BFS runs got stuck in loops and never learned; shifting the potential did not remove this, so the per-step term alone does not explain it.",
+      "authors": [
+        "Nodirjon Khabibullaev",
+        "Rajat Dandekar"
+      ],
+      "published": "2026-11-23",
+      "updated": "2026-11-23",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "comment": "10 pages, 3 figures, 5 tables. Under review at the MATH4AI Workshop at AAAI 2027",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.30492",
+      "pdf_url": "https://arxiv.org/pdf/2611.30492",
+      "query_sources": [
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric"
+        ]
+      }
+    },
+    "2611.30490": {
+      "arxiv_id": "2611.30490",
+      "title": "EgoStudy: How Does Scaling Egocentric Data Affect VLA and WAM Pretraining?",
+      "abstract": "Egocentric human manipulation data offer a scalable resource for training dexterous robot policies. However, how effectively robots can learn and benefit from these data remains unclear due to the embodiment gap between humans and robots. We present EgoStudy, a systematic, controlled study of egocentric data for robot learning. Holding the robot dataset fixed, we vary the scale and diversity of egocentric data, data processing strategies, and co-training configurations. We investigate three questions: (1) Which data processing and pretraining choices most effectively exploit egocentric data? (2) Which components of robot action prediction benefit most from scaling these data? (3) How do scaling effects differ between vision-language-action models (VLAs) and world-action models (WAMs)? Our experiments yield three main findings. First, data diversity, alignment between trajectories, and detailed language annotations are key factors in effective transfer. Second, scaling egocentric data yields larger gains in predicting end-effector translation than in predicting fine-grained finger movements. Third, WAMs perform better when egocentric data are limited, whereas VLAs exhibit greater gains as the amount of egocentric data increases. Together, these findings provide practical guidance on processing and using egocentric data to train VLAs and WAMs, while clarifying the benefits and limitations of scaling these data.",
+      "authors": [
+        "Puzhen Yuan",
+        "Yanjiang Guo",
+        "Yichen Liu",
+        "Xiang Zhu",
+        "Qingzhou Lu",
+        "Chenxin Liu",
+        "Tun Ban",
+        "Haodong Yan",
+        "Zhide Zhong",
+        "Jianyu Chen"
+      ],
+      "published": "2026-11-23",
+      "updated": "2026-11-23",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "comment": "Project Page: https://puzhenyuan.github.io/EgoStudy-website",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.30490",
+      "pdf_url": "https://arxiv.org/pdf/2611.30490",
+      "query_sources": [
+        "human-egocentric",
+        "robot-data"
+      ],
+      "topics": [
+        "robot_centric",
+        "human_egocentric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Robot Dataset"
+        ],
+        "human_egocentric": [
+          "Egocentric"
+        ]
+      }
+    },
+    "2611.30449": {
+      "arxiv_id": "2611.30449",
+      "title": "CHAMP: Coordinated Humanoid Loco-Manipulation with Whole-Body Motion Priors",
+      "abstract": "Coordinating locomotion and dexterous manipulation is fundamental to humanoid robots operating in human environments. A key challenge is learning motion priors from diverse data and using them effectively for coordinated robot control. We present CHAMP, a unified framework for humanoid loco-manipulation that combines whole-body motion pretraining with adaptive feature extraction. CHAMP pretrains a vision-language model to predict future body and hand motion from approximately 2,298 hours of heterogeneous human and robot data. A shared motion representation enables unified whole-body motion learning across embodiments from datasets with body annotations, hand annotations, or both. To ground these motion priors in robot control, we introduce a Coordination-oriented Action Expert (CAE) and train it on replay data generated using the target controller. Through sparse routing, CAE adaptively selects, transforms, and fuses features from multiple layers of the pretrained model to jointly generate body and hand actions. In experiments, CHAMP achieves overall success rates of 84.8% on seven simulated tasks and 91.4% on seven real-world tasks with a Unitree G1, outperforming the evaluated baselines in both settings. In particular, CHAMP achieves 70.0% success on the long-horizon popcorn-serving task, compared with 40.0% for the best-performing baseline.",
+      "authors": [
+        "Lijun Han",
+        "Muyuan Ma",
+        "Zichen Wang",
+        "Siyuan Liu",
+        "Yuxi Liu",
+        "Yutong Wang",
+        "Bohao Zhang",
+        "Heng Zhou",
+        "Wei Sui"
+      ],
+      "published": "2026-11-23",
+      "updated": "2026-11-23",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.30449",
+      "pdf_url": "https://arxiv.org/pdf/2611.30449",
+      "query_sources": [
+        "human-egocentric"
+      ],
+      "topics": [
+        "robot_centric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Robot Dataset"
+        ]
+      }
+    },
+    "2611.30310": {
+      "arxiv_id": "2611.30310",
+      "title": "Seeing Together, Acting Apart: Shared Environmental Understanding for Multi-Robot Navigation",
+      "abstract": "Multi-robot embodied systems are typically designed to collaborate by coordinating actions, sharing trajectories, or learning joint policies. We ask a complementary question: can collaboration emerge before decision-making, by first building a shared understanding of the environment? We introduce Shared Environmental Understanding, a policy-agnostic representation that aggregates partial egocentric observations from multiple robots into a shared latent world model. This shifts collaboration from the policy space to the representation space, enabling decentralized decision-making with shared environmental context. To this end, we propose Shared Environment Encoding and Retrieval (SEER), a framework that organizes multi-robot observations into a shared memory, retrieves relevant context via spatio-temporal similarity, and encodes it using a predictive latent world model. The resulting representations are injected into downstream navigation agents as tokens. Experimental results demonstrate that SEER captures action-relevant environmental structure and consistently improves navigation performance across both specialized VLN agents and general vision-language model agents, while preserving single-agent capabilities.",
+      "authors": [
+        "Haihong Hao",
+        "Lei Chen",
+        "Mingfei Han",
+        "Chenglong Yan",
+        "Dong An",
+        "Yuqiang Yang",
+        "Changlin Li",
+        "Minghao Guo",
+        "Salman Khan",
+        "Xiaojun Chang"
+      ],
+      "published": "2026-11-23",
+      "updated": "2026-11-23",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "comment": "NeurIPS 2026",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.30310",
+      "pdf_url": "https://arxiv.org/pdf/2611.30310",
+      "query_sources": [
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric"
+        ]
+      }
+    },
+    "2611.29850": {
+      "arxiv_id": "2611.29850",
+      "title": "Ego2Wrist: Bootstrapping Wrist-View Synthesis from Egocentric Video",
+      "abstract": "Wrist cameras provide an action-centric view that is directly relevant to robot manipulation. However, collecting human wrist-camera videos at scale is challenging due to cumbersome setups that can interfere with natural hand movements. In contrast, head-mounted human egocentric videos are much easier to scale. We introduce Ego2Wrist, which synthesizes synchronized wrist-camera views from human egocentric videos and task descriptions. Trained on approximately 940 hours of paired head- and wrist-camera recordings, Ego2Wrist jointly generates three views. To evaluate generated wrist views without ground truth, we propose hand-centric cross-view consistency (HCC), which measures consistency between generated wrist views and corresponding hand regions in the input head view. HCC ranks model checkpoints comparably to ground-truth-based LPIPS, and human evaluators prefer HCC-selected generations in 77% of responses. Evaluated on four datasets, Ego2Wrist outperforms fine-tuned WorldWander, reducing LPIPS by 28% and receiving human preference in 76% of responses. More importantly, HCC facilitates recursive self-improvement on in-the-wild egocentric videos by selecting generated wrist views for further training. Generation quality progressively improves over three rounds. These results demonstrate a scalable approach to generating real-world wrist-view human manipulation videos for robot policy training.",
+      "authors": [
+        "Ziyao Zeng",
+        "Xiatao Sun",
+        "Hao Wang",
+        "Ziyu Guo",
+        "Youheng Yao",
+        "Jingcheng Ni",
+        "Shenyuan Gao",
+        "Fengyu Yang",
+        "Renrui Zhang",
+        "Bangya Liu",
+        "Daniel Rakita"
+      ],
+      "published": "2026-11-23",
+      "updated": "2026-11-23",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "comment": "27 pages (13 main + 14 appendix), 9 figures, 20 tables. Project page: https://adonis-galaxy.github.io/Ego2Wrist/",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.29850",
+      "pdf_url": "https://arxiv.org/pdf/2611.29850",
+      "query_sources": [
+        "human-egocentric"
+      ],
+      "topics": [
+        "robot_centric",
+        "human_egocentric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Autonomous Collection"
+        ],
+        "human_egocentric": [
+          "Egocentric"
+        ]
+      }
+    },
+    "2611.29693": {
+      "arxiv_id": "2611.29693",
+      "title": "HandiVid: A High-Quality Dataset for Hand-Driven Interactive Video Generation",
+      "abstract": "Hand-driven egocentric interactive video generation aims to generate dynamic scenes with realistic interaction responses conditioned on hand movements and camera motion. However, existing egocentric video datasets struggle to provide scene diversity, meaningful hand-object interactions, and reliable motion annotations simultaneously. To address these limitations, we introduce HandiVid, a high-quality dataset comprising 200K curated and annotated egocentric interaction video clips for hand-driven interactive video generation. We develop a unified data processing pipeline that integrates public datasets, online videos and synthetic videos. Through video quality assessment, hand detection filtering, and multi-stage interaction validation using vision-language models (VLMs), we select high-quality video clips with meaningful hand-object interactions. Since 3D hand reconstruction relies on initial hand detections, we integrate SAM 3 into the hand detection pipeline to reduce missed detections and improve the completeness of 3D hand annotations. Each video clip is provided with high-quality hand renderings, camera trajectories, and interaction descriptions. Comprehensive dataset analysis and downstream video generation experiments demonstrate the effectiveness of HandiVid in terms of data diversity, annotation quality, and controllable video generation.",
+      "authors": [
+        "Chaoyang Zhang",
+        "Shaohao Rui",
+        "Xiaofeng Mao",
+        "Yuanxun Xu",
+        "Haoyuan Xia",
+        "Xiaohong Liu",
+        "Qinghe Du",
+        "Weijie Ma"
+      ],
+      "published": "2026-11-22",
+      "updated": "2026-11-22",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.29693",
+      "pdf_url": "https://arxiv.org/pdf/2611.29693",
+      "query_sources": [
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric",
+          "Hand-Object Interaction",
+          "Tracking / Reconstruction"
+        ]
+      }
+    },
+    "2611.29240": {
+      "arxiv_id": "2611.29240",
+      "title": "Tacinf: A Unified Tactile Infrastructure for Robot Manipulation",
+      "abstract": "Force-aware manipulation requires robots to infer appropriate interaction forces from task context and tactile feedback. We present Tacinf, a low-cost, modular infrastructure that enables policies to predict robot actions and fingertip forces from task language, vision, and touch. Task instructions can optionally specify the desired force level. Tacinf integrates simulation data synthesis and tactile benchmarking (Tabero), vision-tactile-language-action (VTLA) policy learning, handheld data collection using the same gripper as robot deployment (Tacumi), and task-aligned sim-to-real evaluation (Taco). Together, these components form an integrated workflow connecting data collection from multiple sources, foundation-model training, and hardware deployment. We validate each component, including the simulation data, benchmark, controller, and Tacumi, and are releasing the full stack as open source. A foundation model fine-tuned solely on tactile simulation data transfers zero-shot to different real-robot tasks. Across eight policy variants, mean task success rates are strongly correlated between simulation and the real robot (Pearson r=0.998, mean maximum rank violation MMRV=0.010). For the four policies with reported force measurements, mean grip force is higher under firm instructions than under gentle instructions on all three tasks in both domains. When both object positions and instances are randomized, a mixture of teleoperation, simulation, and Tacumi data raises mean real-robot task success from 20% with teleoperation alone to 60%.",
+      "authors": [
+        "Qiwei Wu",
+        "Xiangyu Chen",
+        "Xin Xiang",
+        "Rui Zhang",
+        "Yihang Kang",
+        "Weiran Chen",
+        "Zikang Xie",
+        "Yangfan Li",
+        "Tao Wang",
+        "Xiangzheng Wang",
+        "Tianyi Bi",
+        "Zhiyan Zhang",
+        "Xianpeng Wang",
+        "Mingqian Zhou",
+        "Yan Yu",
+        "Chuanyu Li",
+        "Wenjie Zhang",
+        "Tao Li",
+        "Weihua Zhang",
+        "Renjing Xu",
+        "Junjie Lai"
+      ],
+      "published": "2026-11-22",
+      "updated": "2026-11-22",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.29240",
+      "pdf_url": "https://arxiv.org/pdf/2611.29240",
+      "query_sources": [
+        "simulation-data"
+      ],
+      "topics": [
+        "robot_centric",
+        "umi",
+        "simulation"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Teleoperation",
+          "Data Collection"
+        ],
+        "umi": [
+          "Handheld Gripper"
+        ],
+        "simulation": [
+          "Simulation Data",
+          "Sim-to-Real",
+          "Synthetic Sensor"
+        ]
+      }
+    },
+    "2611.29218": {
+      "arxiv_id": "2611.29218",
+      "title": "Ego-HMB: Human Motion Bridging from Egocentric Images via A Motion Bridge Diffusion Model",
+      "abstract": "We introduce Egocentric Human Motion Bridging, a task that generates a coherent 3D human motion sequence from two endpoint egocentric images. Unlike conventional motion in-betweening, which requires structured 3D endpoint poses, this setting uses raw first-person observations available from wearable devices in VR/AR and robotics. It presents challenges due to viewpoint variations, partial body visibility, and temporal ambiguity under cross-modal endpoint constraints. To address these challenges, we propose Ego-HMB, a unified diffusion-based framework that learns endpoint pose estimation and temporally consistent motion infilling within a single model through two training stages. First, Egocentric-to-Canonical Pretraining uses a hierarchical curriculum with progressively increasing temporal spans to strengthen endpoint pose priors. Second, Motion Bridge Diffusion Training incorporates endpoint and physics awareness, diffusing from neighboring poses to promote temporal continuity while preserving global endpoint constraints. Extensive experiments compare our approach with one-stage methods that directly generate motion from two egocentric images and two-stage pipelines that combine endpoint pose estimation with motion interpolation. Ego-HMB consistently outperforms these baselines in endpoint accuracy and motion generation quality. Code is available at https://github.com/gaogehan/Ego-HMB.",
+      "authors": [
+        "Gaoge Han",
+        "Yongkang Cheng",
+        "Shaoli Huang",
+        "Jing Zhang",
+        "Mingming Gong",
+        "Fakhri Karray",
+        "Tongliang Liu"
+      ],
+      "published": "2026-11-22",
+      "updated": "2026-11-22",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comment": "Accepted at NeurIPS 2026",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.29218",
+      "pdf_url": "https://arxiv.org/pdf/2611.29218",
+      "query_sources": [
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric"
+        ]
+      }
+    },
+    "2611.29195": {
+      "arxiv_id": "2611.29195",
+      "title": "FunGrasp-Zero: Field-Conditioned Graph Attention Policy for Zero-Shot Cross-Embodiment Dexterous Functional Grasping",
+      "abstract": "Dexterous functional grasping is critical for robotic tool use, yet current dexterous hands exhibit substantial morphological diversity. This hardware heterogeneity makes cross-embodiment functional grasping a fundamental but largely unexplored problem. Existing functional grasping methods use retargeted hand poses as guidance, tying task representation to a specific embodiment and failing to explicitly capture object-centric functional contact intent, limiting generalization across hands. To address this, we propose FunGrasp-Zero, a reinforcement learning framework for zero-shot cross-embodiment functional grasping. Instead of relying on embodiment-specific joint configuration, FunGrasp-Zero captures functional intent via an object-centric, cross-embodiment-consistent contact map, adapted to heterogeneous hands through morphological mapping. We construct a hand-object potential field from mapped contact regions, yielding attractive and repulsive guidance vectors. A Field-Conditioned Graph Attention Network (FC-GAT) leverages these vectors to coordinate multi-finger motion across hands, while a potential field reward guides fingers toward target regions and penalizes non-target collisions to enforce functional alignment and stability. We further establish X-FunBench for cross-embodiment functional grasping, evaluating both physical grasp success and functional intent preservation across hands. Evaluated on X-FunBench, our unified policy, co-trained on four embodiments, achieves 86% average grasp success rate across five unseen hands on novel objects. Deployed on four unseen physical hands (Leap, Inspire, Sharpa, Wuji) for novel object grasping, the policy achieves 80% average success rate without fine-tuning. To our knowledge, FunGrasp-Zero is the first RL-based framework to achieve zero-shot cross-embodiment functional grasping across unseen hands in both simulation and the real world.",
+      "authors": [
+        "Yanhan Lin",
+        "Yuliang Wu",
+        "Yihao Guo",
+        "Wei-Jin Huang",
+        "Jianwen Li",
+        "Jiawei Tang",
+        "Xiaolong Huang",
+        "Yuquan Wang",
+        "Ancong Wu",
+        "Wei-Shi Zheng"
+      ],
+      "published": "2026-11-22",
+      "updated": "2026-11-22",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.29195",
+      "pdf_url": "https://arxiv.org/pdf/2611.29195",
+      "query_sources": [
+        "cross-source-data",
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Hand-Object Interaction",
+          "Affordance / Contact"
+        ]
+      }
+    },
+    "2611.29101": {
+      "arxiv_id": "2611.29101",
+      "title": "DUO Policy: Bridging Human Video Coverage and Robot Precision for Fine-Grained Manipulation",
+      "abstract": "Human videos promise a scalable way to reduce expensive robot data collection, but the embodiment gap limits the resulting policies to coarse behaviors, and they fail at precise tasks such as insertion. Existing methods co-train or finetune a single policy on both data sources, treating each source as equally useful in every state: the policy either absorbs the embodiment error at precision-critical steps or spends scarce robot data relearning free-space motion. We observe that the value of each source depends on the state: human data is useful where precision requirements are low, while robot data is disproportionately valuable near precision-critical states. We therefore propose \\textbf{DUO Policy} (Dual-Actor Policy), which decouples a manipulation skill into a hand policy, pretrained on human videos for global free-space motion, and a robot policy, trained on sparse in-hand data for local precise corrections, with a gate learned from human interventions switching between them. This design is robust to moderate embodiment error in human data and generalizes to scene layouts beyond the coverage of the robot data. On tasks such as K-cup coffee making, desk cleanup, and cluttered candy sorting, DUO Policy outperforms the baseline with the highest average success by 12.9 percentage points over four simulated tasks and by 51.7 points over three real-world tasks, and matches robot-only training with 2.75$\\times$ less data-collection time. Project Webpage: https://mingxi-jia.github.io/duo_policy_site/",
+      "authors": [
+        "Mingxi Jia",
+        "Patton Jiyang Yin",
+        "Haojie Huang",
+        "Ivy Xiao He",
+        "Xuanru Liu",
+        "Gefei Liu",
+        "Dian Wang",
+        "Stefanie Tellex"
+      ],
+      "published": "2026-11-21",
+      "updated": "2026-11-21",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "comment": "Project Webpage: https://mingxi-jia.github.io/duo_policy_site/",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.29101",
+      "pdf_url": "https://arxiv.org/pdf/2611.29101",
+      "query_sources": [
+        "human-egocentric",
+        "robot-data"
+      ],
+      "topics": [
+        "robot_centric",
+        "human_egocentric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Robot Dataset",
+          "Data Collection",
+          "Scalable Demonstrations"
+        ],
+        "human_egocentric": [
+          "Human Video"
+        ]
+      }
+    },
+    "2611.29096": {
+      "arxiv_id": "2611.29096",
+      "title": "JEPA-Tuner: From Predictive Fine-Tuning to Asynchronous Execution of Vision-Language-Action Models",
+      "abstract": "Vision-Language-Action (VLA) models generate sequences of actions from visual observations, proprioceptive states, and language instructions. In embodied interaction, executing these actions influences subsequent observations and robot states, providing a natural predictive signal for policy learning. However, standard action-supervised fine-tuning does not explicitly capture these action-conditioned temporal dependencies in the guidance consumed by the action predictor. We introduce JEPA-Tuner, a predictive fine-tuning framework that regularizes the VLA's native policy guidance through action-conditioned future prediction. During fine-tuning, a predictor in JEPA-Tuner learns to match guidance encoded from a future observation given the current guidance and committed actions. This objective encourages a cross-modal guidance adapter to capture how the scene and robot state evolve under those actions, while jointly training the action expert on both observed and predicted guidance keeps the representation informative for control. In addition, when deploying the VLA model with asynchronous action-chunk inference, the pre-trained predictor will anticipate the guidance needed at the next chunk boundary. The policy can thus generate the next chunk in advance and execute it from its first action without overlap correction or additional predictor training, enabling efficient and high-quality asynchronous execution. Experiments on LIBERO and Meta-World show that JEPA-Tuner improves task success under synchronous inference with better multi-modal guidance embeddings. For asynchronous control, JEPA-Tuner improves performance and smoothness across different latency settings on both LIBERO simulator and multi-size real robot demonstrations. The project website with video demos is at https://qujx.github.io/JEPA-Tuner-Website.",
+      "authors": [
+        "Jingxiang Qu",
+        "Tian Xie",
+        "Youngjin Hong",
+        "Changhyun Choi",
+        "Yang Katie Zhao",
+        "Yi Liu"
+      ],
+      "published": "2026-11-21",
+      "updated": "2026-11-21",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.29096",
+      "pdf_url": "https://arxiv.org/pdf/2611.29096",
+      "query_sources": [
+        "robot-data"
+      ],
+      "topics": [
+        "robot_centric"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Robot Dataset"
+        ]
+      }
+    },
+    "2611.28978": {
+      "arxiv_id": "2611.28978",
+      "title": "World Models for Ocean Engineering: A Critical Review of Maritime Autonomy, Adaptive Latent Prediction, Digital Twins, and Biodiversity Monitoring",
+      "abstract": "Marine robots face partial observability, non-stationary dynamics, and sparse communication, motivating WMs that learn compact predictive states for planning. This review develops a functional taxonomy of WMs for ocean engineering, focusing on Joint-Embedding Predictive Architectures (JEPAs) and AdaJEPA's test-time adaptation within model predictive control, mapping them to navigation, adaptive sampling, digital twins, and biodiversity monitoring, and separating demonstrated evidence from prospective applications. The synthesis identifies key Gaps: benchmarks, uncertainty calibration, safe adaptation and proposes a research agenda for physics-informed, deployment-adaptive marine WMs validated through simulation and field missions.",
+      "authors": [
+        "Basma Dokkara",
+        "Esteban W. G. Cluab",
+        "Luiz M. G. Goncalves",
+        "Paolo Spagnolo",
+        "Cosimo Distante"
+      ],
+      "published": "2026-11-21",
+      "updated": "2026-11-21",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.28978",
+      "pdf_url": "https://arxiv.org/pdf/2611.28978",
+      "query_sources": [
+        "simulation-data"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Digital Twin / Real-to-Sim"
+        ]
+      }
+    },
+    "2611.28901": {
+      "arxiv_id": "2611.28901",
+      "title": "Gaze Graphs: A Scene-Level Representation of Visual Attention in the Operating Room",
+      "abstract": "Purpose: Analyzing clinicians' visual attention from exocentric camera views can support surgical scene understanding without requiring wearable eye trackers. However, existing gaze-following research in the operating room (OR) estimates only 2D gaze locations without identifying attended scene entities or localizing gaze targets in 3D space. In this work, we investigate gaze graphs as a scene-level representation of visual attention that connects clinicians to attended scene entities, and evaluate their utility for fine-grained surgical action recognition and semantic scene graph (SSG) generation. Methods: We extend the public EgoExOR dataset with gaze annotations to create EgoExOR-Gaze, the first benchmark for multi-view gaze graph generation in the OR. We propose a novel architecture that jointly estimates 3D gaze targets and predicts attended entities using only exocentric camera views. Specifically, our approach exploits 3D gaze geometry to sample local visual features across multiple views for attended entity prediction. We further utilize predicted gaze graphs for fine-grained surgical action recognition and SSG generation. Results: For gaze graph generation, our model outperforms both exocentric-only and combined exocentric-egocentric baselines. For surgical action recognition, our model incorporating predicted gaze graphs outperforms both exocentric and egocentric baselines across all evaluated metrics, with particularly strong gains in temporal metrics. For SSG generation, incorporating gaze graphs improves macro-F1 from 0.42 to 0.52 compared to exocentric inputs alone, although performance remains below that achieved with egocentric inputs. Conclusion: Our results demonstrate the value of gaze graphs for surgical action recognition and SSG generation, highlighting the importance of explicitly modeling scene-level visual attention even when egocentric views are unavailable.",
+      "authors": [
+        "Séraphin Baributsa",
+        "Keqi Chen",
+        "Vinkle Srivastav",
+        "Nicolas Padoy"
+      ],
+      "published": "2026-11-21",
+      "updated": "2026-11-21",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.28901",
+      "pdf_url": "https://arxiv.org/pdf/2611.28901",
+      "query_sources": [
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric"
+        ]
+      }
+    },
+    "2611.28873": {
+      "arxiv_id": "2611.28873",
+      "title": "NAT: Scaling Causal Neural Action Tokenizers Across Embodiments",
+      "abstract": "Action tokenizers let robot policies treat control as autoregressive next-token prediction. As these policies are trained on larger and more diverse datasets, they will need a universal tokenizer that can encode actions from many embodiments and data sources, including ones it has not seen. We study action tokenization at scale, training on 49k hours of action data from real-world robots, handheld grippers, simulation, and humans. We introduce Neural Action Tokenizer (NAT), a causal tokenizer whose decoder lets actions be executed as their tokens are generated. Across four simulation benchmarks, NAT outperforms FAST and prior neural action tokenizers when tokenizing unseen robot embodiments, and in vision-language-action models it outperforms FAST+ across four benchmarks and on a real robot when acting through its tokens. NAT tokens also close the performance gap to a flow-matching action head on some benchmarks while lowering the inference latency for first actions. Our experiments also find that robot data may not be necessary to learn an effective action space: a NAT trained only on human hand motion performs close to tokenizers trained on robot data.",
+      "authors": [
+        "Ahad Jawaid",
+        "Alexander Swerdlow",
+        "Yu Xiang"
+      ],
+      "published": "2026-11-21",
+      "updated": "2026-11-21",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "comment": null,
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.28873",
+      "pdf_url": "https://arxiv.org/pdf/2611.28873",
+      "query_sources": [
+        "robot-data",
+        "umi"
+      ],
+      "topics": [
+        "robot_centric",
+        "simulation"
+      ],
+      "matches": {
+        "robot_centric": [
+          "Robot Dataset"
+        ],
+        "simulation": [
+          "Simulation Data"
+        ]
+      }
+    },
+    "2611.28732": {
+      "arxiv_id": "2611.28732",
+      "title": "Entangle: Scaling Human-Video In-Context World-Action Models across Unseen Tasks and Contexts",
+      "abstract": "In-context learning (ICL) enables foundation models to perform unseen tasks from context without parameter updates. In robotic manipulation, a human video provides the context that specifies how a task should be performed. However, scaling human-video ICL on world-action models (WAMs) faces two challenges: task-level human-robot pairs are not temporally aligned with robot actions, and standard action losses allow policies to rely on initial-scene or task-identity shortcuts rather than tracking the context. We present Entangle, an in-context world-action model that maps a single human video and current robot observations to future visual states and executable actions. To scale temporally aligned training data, we convert recorded robot videos into matched human contexts via video-to-video generation, supplemented by real paired recordings. For model training, we combine variable-length video windows with an intra-task contrastive objective that distinguishes the paired action trajectory from other executions of the same task, preventing task-identity shortcuts. Without task-specific fine-tuning, Entangle improves steadily as aligned training data scales, reaching an average score of 83.5/100 across six unseen tasks on an Astribot S1 robot, and achieves a 69.5% average success rate on seven unseen RoboTwin tasks, outperforming Zero-WAM by 22.6 percentage points. Under Context-OOD, although trained only on scene-aligned pairs, Entangle transfers context-specified behaviors across rearranged layouts and substituted tools.",
+      "authors": [
+        "Chendong Xiang",
+        "Chengwen Zhang",
+        "Ruowen Zhao",
+        "Zeyuan Wang",
+        "Shuhe Huang",
+        "Rongxu Cui",
+        "Min Zhao",
+        "Fan Bao",
+        "Hengkai Tan",
+        "Jun Zhu"
+      ],
+      "published": "2026-11-21",
+      "updated": "2026-11-21",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "comment": "26 pages, 13 figures, including the appendix",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.28732",
+      "pdf_url": "https://arxiv.org/pdf/2611.28732",
+      "query_sources": [
+        "cross-source-data",
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Human Video"
+        ]
+      }
+    },
+    "2611.28274": {
+      "arxiv_id": "2611.28274",
+      "title": "Neural Fidelity Calibration for Informative Sim-to-Real Adaptation",
+      "abstract": "Deep reinforcement learning (RL) can transfer agile robot skills from simulation to the real world, but closing the sim-to-real gap by domain randomization requires expert physics knowledge, and simulator calibration from real data typically targets a few hand-picked parameters. Even then, simulators miss real-world effects, and environments reconstructed from onboard perception inherit sensing errors that limit policy improvement. We propose Neural Fidelity Calibration (NFC), which uses conditional flow matching to calibrate simulator physical parameters and residual fidelity domains online during deployment. Residual fidelity captures sim-to-real dynamics discrepancies and perception-induced environment uncertainty. NFC operates in a latent space so that realistic environments can be sampled from the inferred posterior for real-to-sim policy fine-tuning. The framework is informative: the pretrained policy is fine-tuned only when an anomaly is detected, sequential NFC seeds its proposal from the simulation-pretrained estimator, and a hallucination policy modulates posterior uncertainty following optimism in the face of uncertainty. NFC attains the most accurate posteriors among established simulation-based inference methods on five robots with up to 39 physical parameters and a 128x128 residual terrain. On a wheeled robot with a broken wheel axle deployed on snow, mud, and wet grass, NFC raises success on rough terrain from 26% to 70% and reduces orientation jerk by 88%. Code and videos will be released upon publication.",
+      "authors": [
+        "Youwei Yu",
+        "Lantao Liu"
+      ],
+      "published": "2026-11-20",
+      "updated": "2026-11-20",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.LG",
+        "eess.SY"
+      ],
+      "comment": "The code and demonstration videos are available at https://www.youwei-yu.com/nfc/",
+      "journal_ref": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2611.28274",
+      "pdf_url": "https://arxiv.org/pdf/2611.28274",
+      "query_sources": [
+        "simulation-data"
+      ],
+      "topics": [
+        "simulation"
+      ],
+      "matches": {
+        "simulation": [
+          "Simulation Data",
+          "Sim-to-Real",
+          "Domain Randomization"
+        ]
+      }
+    },
     "2611.27845": {
       "arxiv_id": "2611.27845",
       "title": "Humanoid robots for safety-critical electrical switching: A perception-informed runtime constraint filter",
@@ -272,7 +1297,8 @@
       "updated": "2026-11-20",
       "primary_category": "cs.RO",
       "categories": [
-        "cs.RO"
+        "cs.RO",
+        "cs.CV"
       ],
       "comment": "Project page: https://deng-zian.github.io/GenPA-website/",
       "journal_ref": null,
@@ -280,7 +1306,8 @@
       "url": "https://arxiv.org/abs/2611.27446",
       "pdf_url": "https://arxiv.org/pdf/2611.27446",
       "query_sources": [
-        "cs-ro"
+        "cs-ro",
+        "robot-data"
       ],
       "topics": [
         "robot_centric"
@@ -735,7 +1762,7 @@
     "2611.27047": {
       "arxiv_id": "2611.27047",
       "title": "BeyondEgo: Learning to Act Beyond Egocentric Perception via Humanoid Ego-Exo Foresight",
-      "abstract": "Humanoid loco-manipulation requires coordinating whole-body motion to perform manipulation tasks in complex environments. Yet egocentric vision-language-action (VLA) policies can miss critical body--scene relationships, and action imitation alone provides no explicit supervision for future scene evolution. We propose BeyondEgo to extend VLA perception in space and time. Spatially, we encode a synchronized exocentric view with frozen DINOv3 and concatenate the resulting tokens with egocentric VLM tokens to condition the action expert. Temporally, we use future observations from both views as privileged supervision for a residual adapter on task-conditioned VLM features. A foresight expert regresses DINOv3 representations of both views 0.6s ahead. At deployment, the foresight expert is discarded and the 4.2M-parameter adapter is retained. We also introduce HELM, to our knowledge, the first closed-loop humanoid loco-manipulation benchmark with synchronized egocentric and exocentric views across five whole-body tasks.On HELM, BeyondEgo improves success from 48.0% to 92.0% in distribution and from 23.5% to 65.0% on 200 held-out scenes with layout, asset, material, and lighting shifts. Ablations show that dual-view DINOv3 foresight yields the best transfer results.",
+      "abstract": "Humanoid loco-manipulation requires coordinating whole-body motion to perform manipulation tasks in complex environments. Yet egocentric vision-language-action (VLA) policies can miss critical body--scene relationships, and action imitation alone provides no explicit supervision for future scene evolution. We propose BeyondEgo to extend VLA perception in space and time. Spatially, we encode a synchronized exocentric view with frozen DINOv3 and concatenate the resulting tokens with egocentric VLM tokens to condition the action expert. Temporally, we use future observations from both views as privileged supervision for a residual adapter on task-conditioned VLM features. A foresight expert regresses DINOv3 representations of both views 0.6s ahead. At deployment, the foresight expert is discarded and the 4.2M-parameter adapter is retained. We also introduce HELM, to our knowledge, the first closed-loop humanoid loco-manipulation benchmark with synchronized egocentric and exocentric views across five whole-body tasks. On HELM, BeyondEgo improves success from 48.0% to 92.0% in distribution and from 23.5% to 65.0% on 200 held-out scenes with layout, asset, material, and lighting shifts. Ablations show that dual-view DINOv3 foresight yields the best transfer results.",
       "authors": [
         "Zhaoshan Yang",
         "Chenglei Li",
@@ -751,7 +1778,7 @@
         "Jin Pan"
       ],
       "published": "2026-11-20",
-      "updated": "2026-11-20",
+      "updated": "2026-11-23",
       "primary_category": "cs.RO",
       "categories": [
         "cs.RO"
@@ -1294,17 +2321,18 @@
         "Shujie Li",
         "Shixuan Liu",
         "Haotian Wang",
+        "Jialu Chen",
         "Yuanxing Zhang",
         "Pengfei Wan",
         "Chengwei Qin"
       ],
       "published": "2026-11-19",
-      "updated": "2026-11-19",
+      "updated": "2026-11-23",
       "primary_category": "cs.CV",
       "categories": [
         "cs.CV"
       ],
-      "comment": "17 pages",
+      "comment": "44 pages",
       "journal_ref": null,
       "doi": null,
       "url": "https://arxiv.org/abs/2611.26380",
@@ -2830,7 +3858,7 @@
         "Zhibo Chen"
       ],
       "published": "2026-11-18",
-      "updated": "2026-11-18",
+      "updated": "2026-11-21",
       "primary_category": "cs.CV",
       "categories": [
         "cs.CV"
@@ -3734,6 +4762,40 @@
         ]
       }
     },
+    "2611.28090": {
+      "arxiv_id": "2611.28090",
+      "title": "Teacher-Guided Multimodal Dual Representation Reconstruction for Egocentric Human Activity Recognition",
+      "abstract": "Multimodal Egocentric Human Activity Recognition (Ego-HAR) leverages complementary cues from first-person vision (V) and inertial sensor data (S) to recognize daily activities, where video mainly captures appearance and object-related context while inertial signals capture motion cues that video may miss. However, existing pre-training methods typically supervise the fused representation with a single joint objective, which may underemphasize the complementarity between the two modalities and limit the model's ability to learn from distinct modality-oriented signals. To address this issue, we propose Multimodal Dual Representation Reconstruction (MDR2), a teacher-guided pre-training framework in which frozen, label-informed video and inertial teachers each provide dense, modality-specific targets to a multimodal student trained on temporally sparse inputs. On the EvIs-Kitchen dataset, MDR2 improves noun/verb F1-macro over the supervised M-Baseline by 9.20/6.17 points at K=4 video key frames and by 1.21/1.82 points at K=32. These results show that MDR2 consistently achieves higher mean recognition performance across the evaluated video-observation settings under the unified backbone setting, with more pronounced gains under sparse inputs.",
+      "authors": [
+        "Yuzhe Hao",
+        "Ikuro Sato",
+        "Rei Kawakami",
+        "Koichi Shinoda"
+      ],
+      "published": "2026-11-17",
+      "updated": "2026-11-17",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.MM"
+      ],
+      "comment": null,
+      "journal_ref": "Sensors-115721-2026",
+      "doi": "10.1109/JSEN.2026.3751877",
+      "url": "https://arxiv.org/abs/2611.28090",
+      "pdf_url": "https://arxiv.org/pdf/2611.28090",
+      "query_sources": [
+        "human-egocentric"
+      ],
+      "topics": [
+        "human_egocentric"
+      ],
+      "matches": {
+        "human_egocentric": [
+          "Egocentric"
+        ]
+      }
+    },
     "2611.23149": {
       "arxiv_id": "2611.23149",
       "title": "Capability Composition in Heterogeneous Teams via Barrier-Guided Diffusion Sampling",
@@ -4374,11 +5436,11 @@
         "Shuhao Zhai",
         "Anh Nguyen",
         "Hong Liang",
-        "Baoru Huang",
-        "Liang Li"
+        "Liang Li",
+        "Baoru Huang"
       ],
       "published": "2026-11-17",
-      "updated": "2026-11-17",
+      "updated": "2026-11-22",
       "primary_category": "cs.CV",
       "categories": [
         "cs.CV"
@@ -6048,7 +7110,7 @@
         "Nicolas Thome"
       ],
       "published": "2026-11-13",
-      "updated": "2026-11-13",
+      "updated": "2026-11-23",
       "primary_category": "cs.AI",
       "categories": [
         "cs.AI",
@@ -267932,6 +268994,6 @@
   },
   "coverage_start": "2025-01-01",
   "coverage_end": "2026-11-24",
-  "paper_count": 6982,
-  "generated_at": "2026-11-24T00:23:48+00:00"
+  "paper_count": 7008,
+  "generated_at": "2026-11-24T12:25:07+00:00"
 }

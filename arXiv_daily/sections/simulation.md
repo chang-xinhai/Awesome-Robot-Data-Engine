@@ -4,12 +4,19 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-11-24 · **Papers:** 3196 · **Unique arXiv IDs:** 3196
+**Coverage:** 2025-01-01 to 2026-11-24 · **Papers:** 3203 · **Unique arXiv IDs:** 3203
 
 ## 2026-11
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-11-23 | [Real2Worlds2Real: Scaling Self-Improving Agentic Real2Sim2Real for Robot Manipulation](https://arxiv.org/abs/2611.31098) | Jinzhong Gu, Jiakai Chen, Xinyi Cao, et al. | cs.RO | Simulation Data, Sim-to-Real, Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2611.31098) / [pdf](https://arxiv.org/pdf/2611.31098) |
+| 2026-11-23 | [RoboUniverse-10K: Toward the Scaling Era of Agentic Robotics via Real-to-Sim Environments](https://arxiv.org/abs/2611.31002) | Jinkun Liu, Yingze Wang, Situ Wang, et al. | cs.RO, cs.CL | Sim-to-Real | [abs](https://arxiv.org/abs/2611.31002) / [pdf](https://arxiv.org/pdf/2611.31002) |
+| 2026-11-23 | [Part-wise Certified State Estimation of Articulated Objects from Passive Stereo](https://arxiv.org/abs/2611.30646) | Orion Desbonnet, Kei Higuchi, Alex Sykes, et al. | cs.CV | Sim-to-Real | [abs](https://arxiv.org/abs/2611.30646) / [pdf](https://arxiv.org/pdf/2611.30646) |
+| 2026-11-22 | [Tacinf: A Unified Tactile Infrastructure for Robot Manipulation](https://arxiv.org/abs/2611.29240) | Qiwei Wu, Xiangyu Chen, Xin Xiang, et al. | cs.RO | Simulation Data, Sim-to-Real, Synthetic Sensor | [abs](https://arxiv.org/abs/2611.29240) / [pdf](https://arxiv.org/pdf/2611.29240) |
+| 2026-11-21 | [World Models for Ocean Engineering: A Critical Review of Maritime Autonomy, Adaptive Latent Prediction, Digital Twins, and Biodiversity Monitoring](https://arxiv.org/abs/2611.28978) | Basma Dokkara, Esteban W. G. Cluab, Luiz M. G. Goncalves, et al. | cs.RO, cs.AI, cs.CV | Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2611.28978) / [pdf](https://arxiv.org/pdf/2611.28978) |
+| 2026-11-21 | [NAT: Scaling Causal Neural Action Tokenizers Across Embodiments](https://arxiv.org/abs/2611.28873) | Ahad Jawaid, Alexander Swerdlow, Yu Xiang | cs.RO, cs.AI, cs.LG | Simulation Data | [abs](https://arxiv.org/abs/2611.28873) / [pdf](https://arxiv.org/pdf/2611.28873) |
+| 2026-11-20 | [Neural Fidelity Calibration for Informative Sim-to-Real Adaptation](https://arxiv.org/abs/2611.28274) | Youwei Yu, Lantao Liu | cs.RO, cs.LG, eess.SY | Simulation Data, Sim-to-Real, Domain Randomization | [abs](https://arxiv.org/abs/2611.28274) / [pdf](https://arxiv.org/pdf/2611.28274) |
 | 2026-11-20 | [Adesktop learning factory for smart and resilient manufacturing based on digital twin and AI](https://arxiv.org/abs/2611.27579) | Wenxuan Hu, Zhuoxuan Cao, Achraf El Messaoudi, et al. | cs.RO | Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2611.27579) / [pdf](https://arxiv.org/pdf/2611.27579) |
 | 2026-11-20 | [HermiteTwin: Bicubic Hermite Shell Digital Twins for Contact-Rich Deformable Manipulation](https://arxiv.org/abs/2611.27282) | Kangrui Zhang, Mu Huang, Xing Shen, et al. | cs.RO | Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2611.27282) / [pdf](https://arxiv.org/pdf/2611.27282) |
 | 2026-11-20 | [LiDAR Signals for Robot Locomotion: Spherical Range Images Enable Robust Sim-to-Real Transfer](https://arxiv.org/abs/2611.27223) | Nian Liu, Xinyi Tong, Ming Ren, et al. | cs.AI | Sim-to-Real | [abs](https://arxiv.org/abs/2611.27223) / [pdf](https://arxiv.org/pdf/2611.27223) |

@@ -4,17 +4,25 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-11-24 · **Papers:** 2761 · **Unique arXiv IDs:** 2761
+**Coverage:** 2025-01-01 to 2026-11-24 · **Papers:** 2769 · **Unique arXiv IDs:** 2769
 
 ## 2026-11
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-11-23 | [Real2Worlds2Real: Scaling Self-Improving Agentic Real2Sim2Real for Robot Manipulation](https://arxiv.org/abs/2611.31098) | Jinzhong Gu, Jiakai Chen, Xinyi Cao, et al. | cs.RO | Autonomous Collection | [abs](https://arxiv.org/abs/2611.31098) / [pdf](https://arxiv.org/pdf/2611.31098) |
+| 2026-11-23 | [EgoStudy: How Does Scaling Egocentric Data Affect VLA and WAM Pretraining?](https://arxiv.org/abs/2611.30490) | Puzhen Yuan, Yanjiang Guo, Yichen Liu, et al. | cs.RO, cs.CV | Robot Dataset | [abs](https://arxiv.org/abs/2611.30490) / [pdf](https://arxiv.org/pdf/2611.30490) |
+| 2026-11-23 | [CHAMP: Coordinated Humanoid Loco-Manipulation with Whole-Body Motion Priors](https://arxiv.org/abs/2611.30449) | Lijun Han, Muyuan Ma, Zichen Wang, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2611.30449) / [pdf](https://arxiv.org/pdf/2611.30449) |
+| 2026-11-23 | [Ego2Wrist: Bootstrapping Wrist-View Synthesis from Egocentric Video](https://arxiv.org/abs/2611.29850) | Ziyao Zeng, Xiatao Sun, Hao Wang, et al. | cs.CV | Autonomous Collection | [abs](https://arxiv.org/abs/2611.29850) / [pdf](https://arxiv.org/pdf/2611.29850) |
+| 2026-11-22 | [Tacinf: A Unified Tactile Infrastructure for Robot Manipulation](https://arxiv.org/abs/2611.29240) | Qiwei Wu, Xiangyu Chen, Xin Xiang, et al. | cs.RO | Teleoperation, Data Collection | [abs](https://arxiv.org/abs/2611.29240) / [pdf](https://arxiv.org/pdf/2611.29240) |
+| 2026-11-21 | [DUO Policy: Bridging Human Video Coverage and Robot Precision for Fine-Grained Manipulation](https://arxiv.org/abs/2611.29101) | Mingxi Jia, Patton Jiyang Yin, Haojie Huang, et al. | cs.RO, cs.LG | Robot Dataset, Data Collection, Scalable Demonstrations | [abs](https://arxiv.org/abs/2611.29101) / [pdf](https://arxiv.org/pdf/2611.29101) |
+| 2026-11-21 | [JEPA-Tuner: From Predictive Fine-Tuning to Asynchronous Execution of Vision-Language-Action Models](https://arxiv.org/abs/2611.29096) | Jingxiang Qu, Tian Xie, Youngjin Hong, et al. | cs.RO, cs.AI | Robot Dataset | [abs](https://arxiv.org/abs/2611.29096) / [pdf](https://arxiv.org/pdf/2611.29096) |
+| 2026-11-21 | [NAT: Scaling Causal Neural Action Tokenizers Across Embodiments](https://arxiv.org/abs/2611.28873) | Ahad Jawaid, Alexander Swerdlow, Yu Xiang | cs.RO, cs.AI, cs.LG | Robot Dataset | [abs](https://arxiv.org/abs/2611.28873) / [pdf](https://arxiv.org/pdf/2611.28873) |
 | 2026-11-20 | [Humanoid robots for safety-critical electrical switching: A perception-informed runtime constraint filter](https://arxiv.org/abs/2611.27845) | Songyang Liu, Yu Hou, Yuqing Hu, et al. | cs.RO | Teleoperation | [abs](https://arxiv.org/abs/2611.27845) / [pdf](https://arxiv.org/pdf/2611.27845) |
 | 2026-11-20 | [An Autonomous Adaptive Learning System for Robotic Grasping in the Circular Factory](https://arxiv.org/abs/2611.27782) | Yitian Shi, Rosa Wolf, Rania Rayyes | cs.RO | Scalable Demonstrations | [abs](https://arxiv.org/abs/2611.27782) / [pdf](https://arxiv.org/pdf/2611.27782) |
 | 2026-11-20 | [Embodied-Harness: Towards Recursive Self-Improvement for Robotic Manipulation](https://arxiv.org/abs/2611.27689) | Zhenxuan Fan, Zhuoya Wang, Yuqian Yuan, et al. | cs.RO, cs.AI, cs.CV | Autonomous Collection | [abs](https://arxiv.org/abs/2611.27689) / [pdf](https://arxiv.org/pdf/2611.27689) |
 | 2026-11-20 | [NavRSI: Recursive Harness Self-Improvement for Vision-and-Language Navigation](https://arxiv.org/abs/2611.27499) | Guangzhao Dai, Guoxin Lian, Shuo Wang, et al. | cs.RO | Autonomous Collection | [abs](https://arxiv.org/abs/2611.27499) / [pdf](https://arxiv.org/pdf/2611.27499) |
-| 2026-11-20 | [GenPA: Image Generators as Efficient Robot Policies](https://arxiv.org/abs/2611.27446) | Zian Deng, Tianyi Zhang, Zilong Zheng, et al. | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2611.27446) / [pdf](https://arxiv.org/pdf/2611.27446) |
+| 2026-11-20 | [GenPA: Image Generators as Efficient Robot Policies](https://arxiv.org/abs/2611.27446) | Zian Deng, Tianyi Zhang, Zilong Zheng, et al. | cs.RO, cs.CV | Robot Dataset | [abs](https://arxiv.org/abs/2611.27446) / [pdf](https://arxiv.org/pdf/2611.27446) |
 | 2026-11-20 | [NormFlowSDE: Normalizing Flows for Amortized Bayesian State Estimation](https://arxiv.org/abs/2611.27362) | Yi Zhang, Lars Mikelsons | cs.RO | Robot Dataset | [abs](https://arxiv.org/abs/2611.27362) / [pdf](https://arxiv.org/pdf/2611.27362) |
 | 2026-11-20 | [ViewDreamer: A Robot World Model beyond Fixed Camera Setups](https://arxiv.org/abs/2611.26981) | Ye Mao, Jinhui Xiong, Egor Larionov, et al. | cs.CV | Robot Dataset | [abs](https://arxiv.org/abs/2611.26981) / [pdf](https://arxiv.org/pdf/2611.26981) |
 | 2026-11-20 | [RoboCap-10k: A Metrically Accurate Egocentric Dataset for Robot Learning](https://arxiv.org/abs/2611.26916) | Kheri Hughes, Qasim Ali, Nikash Bhardwaj, et al. | cs.RO | Robot Dataset, Robot Data Processing | [abs](https://arxiv.org/abs/2611.26916) / [pdf](https://arxiv.org/pdf/2611.26916) |
