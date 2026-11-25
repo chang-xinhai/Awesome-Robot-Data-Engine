@@ -4,12 +4,24 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-11-25 · **Papers:** 3222 · **Unique arXiv IDs:** 3222
+**Coverage:** 2025-01-01 to 2026-11-25 · **Papers:** 3234 · **Unique arXiv IDs:** 3234
 
 ## 2026-11
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-11-24 | [OmniAct: One Policy, One Million Embodiments](https://arxiv.org/abs/2611.33158) | Xiang Fan, Yuheng Wang, Jiayuan Yan, et al. | cs.RO, cs.AI, cs.CV | Trajectory Generation | [abs](https://arxiv.org/abs/2611.33158) / [pdf](https://arxiv.org/pdf/2611.33158) |
+| 2026-11-24 | [Exploratory Midtraining for Robot Policies](https://arxiv.org/abs/2611.33130) | Kshitiz, Zheyuan Hu, Robyn Wu, et al. | cs.RO, cs.LG | Simulation Data | [abs](https://arxiv.org/abs/2611.33130) / [pdf](https://arxiv.org/pdf/2611.33130) |
+| 2026-11-24 | [RoboRecast: Intent-Preserving Demonstration Augmentation via Diagnosis-Driven Optimization](https://arxiv.org/abs/2611.32622) | Yushi Long, Juzhan Xu, Haibin Huang, et al. | cs.RO, cs.AI | Simulation Data, Synthetic Data | [abs](https://arxiv.org/abs/2611.32622) / [pdf](https://arxiv.org/pdf/2611.32622) |
+| 2026-11-24 | [EmbodiedStudio: A Task-Driven Simulation Generation Platform for Embodied Learning and Evaluation](https://arxiv.org/abs/2611.32534) | Yang Zhao, Xubo Yang | cs.RO | Simulation Data, Task / Scene Generation | [abs](https://arxiv.org/abs/2611.32534) / [pdf](https://arxiv.org/pdf/2611.32534) |
+| 2026-11-24 | [AirLeg: A Robust and Accurate Self-Supervised Visual-Inertial-Leg SLAM System](https://arxiv.org/abs/2611.32523) | Kuan Xu, Tianxin Hu, Ruofei Bai, et al. | cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2611.32523) / [pdf](https://arxiv.org/pdf/2611.32523) |
+| 2026-11-24 | [ViTacLab: Physically Consistent Visuo-Tactile Simulation, Benchmarking, and Representation Learning for Robotic Manipulation](https://arxiv.org/abs/2611.32476) | Linjing You, Zeming Yang, Zhenhao Shen, et al. | cs.RO | Synthetic Sensor | [abs](https://arxiv.org/abs/2611.32476) / [pdf](https://arxiv.org/pdf/2611.32476) |
+| 2026-11-24 | [RoboDemo: Reconciling Demonstration Intent and Execution Progress for Long-Horizon Manipulation](https://arxiv.org/abs/2611.32256) | Xiangkai Ma, Zhihao Yuan, Linbo Zhai, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2611.32256) / [pdf](https://arxiv.org/pdf/2611.32256) |
+| 2026-11-24 | [Motion Chain of Thought: Disentangling Motion Semantics from Visual Appearance for Robotic Manipulation](https://arxiv.org/abs/2611.32241) | Xiangkai Ma, Xinyi Wang, Junjie Wang, et al. | cs.RO, cs.CV | Trajectory Generation | [abs](https://arxiv.org/abs/2611.32241) / [pdf](https://arxiv.org/pdf/2611.32241) |
+| 2026-11-24 | [RESET: One Demonstration, One Verified World, Self-Improved Skills Across Embodiments](https://arxiv.org/abs/2611.31894) | Zheng Sun, Zhuo Li, Zhihao Li, et al. | cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2611.31894) / [pdf](https://arxiv.org/pdf/2611.31894) |
+| 2026-11-24 | [G0.7: Scaling Up a Fast World Action Model with Long Context](https://arxiv.org/abs/2611.31822) | Tianyuan Yuan, Baijun Ye, Shicheng Cao, et al. | cs.CV, cs.RO | Simulation Data | [abs](https://arxiv.org/abs/2611.31822) / [pdf](https://arxiv.org/pdf/2611.31822) |
+| 2026-11-23 | [One Phase Is Enough: Sim-to-Real Transfer with Direct Visual Reinforcement Learning](https://arxiv.org/abs/2611.31588) | John Marangola, Antonia Bronars, Younghyo Park, et al. | cs.LG, cs.RO | Sim-to-Real | [abs](https://arxiv.org/abs/2611.31588) / [pdf](https://arxiv.org/pdf/2611.31588) |
+| 2026-11-23 | [FabricBench: A Standardized Policy Benchmark for Bimanual Fabric Manipulation with a Contact-Driven Deformable Simulator](https://arxiv.org/abs/2611.31577) | Wenkang Hu, Haoran Wang, Liu Liu, et al. | cs.RO | Simulation-Ready Asset | [abs](https://arxiv.org/abs/2611.31577) / [pdf](https://arxiv.org/pdf/2611.31577) |
 | 2026-11-23 | [Embo-Harness: Towards Understanding Frontier-Model-as-Policy Harness](https://arxiv.org/abs/2611.31201) | Xiao-Ming Wu, Kang Liao, Yuexiao Ma, et al. | cs.RO | Trajectory Generation | [abs](https://arxiv.org/abs/2611.31201) / [pdf](https://arxiv.org/pdf/2611.31201) |
 | 2026-11-23 | [Real2Worlds2Real: Scaling Self-Improving Agentic Real2Sim2Real for Robot Manipulation](https://arxiv.org/abs/2611.31098) | Jinzhong Gu, Jiakai Chen, Xinyi Cao, et al. | cs.RO | Simulation Data, Sim-to-Real, Digital Twin / Real-to-Sim | [abs](https://arxiv.org/abs/2611.31098) / [pdf](https://arxiv.org/pdf/2611.31098) |
 | 2026-11-23 | [RoboUniverse-10K: Toward the Scaling Era of Agentic Robotics via Real-to-Sim Environments](https://arxiv.org/abs/2611.31002) | Jinkun Liu, Yingze Wang, Situ Wang, et al. | cs.RO, cs.CL | Sim-to-Real | [abs](https://arxiv.org/abs/2611.31002) / [pdf](https://arxiv.org/pdf/2611.31002) |

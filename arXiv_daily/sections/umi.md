@@ -4,12 +4,13 @@
 
 > Automatically generated high-recall candidate feed. Inclusion here is not an endorsement or promotion to the curated root README.
 
-**Coverage:** 2025-01-01 to 2026-11-25 · **Papers:** 114 · **Unique arXiv IDs:** 114
+**Coverage:** 2025-01-01 to 2026-11-25 · **Papers:** 115 · **Unique arXiv IDs:** 115
 
 ## 2026-11
 
 | Date | Paper | Authors | Categories | Matched signals | Links |
 | :--: | :---- | :------ | :--------: | :-------------- | :----: |
+| 2026-11-24 | [Any2Act: Scaling In-Context Robot Learning from Heterogeneous Demonstrations](https://arxiv.org/abs/2611.32353) | Ziang Ren, Zifan Wang, Zhuoyang Li, et al. | cs.RO | Universal Manipulation Interface | [abs](https://arxiv.org/abs/2611.32353) / [pdf](https://arxiv.org/pdf/2611.32353) |
 | 2026-11-23 | [ViDiHand2: Unifying Video Diffusion Priors and Hand Geometry for 3D Hand Motion Reconstruction in the Wild](https://arxiv.org/abs/2611.30597) | Yuxi Wang, Yufei Liu, Chengkai Jin, et al. | cs.CV | In-the-Wild Teaching | [abs](https://arxiv.org/abs/2611.30597) / [pdf](https://arxiv.org/pdf/2611.30597) |
 | 2026-11-22 | [Tacinf: A Unified Tactile Infrastructure for Robot Manipulation](https://arxiv.org/abs/2611.29240) | Qiwei Wu, Xiangyu Chen, Xin Xiang, et al. | cs.RO | Handheld Gripper | [abs](https://arxiv.org/abs/2611.29240) / [pdf](https://arxiv.org/pdf/2611.29240) |
 | 2026-11-17 | [HandUMI: A Modular Hand-Worn Parallel-Jaw Interface for Robot-Free Bimanual Data Capture](https://arxiv.org/abs/2611.22146) | Brik Meza, Leonardo Perez, Alvaro Mendoza-Li, et al. | cs.RO | Robot-Free Demonstration | [abs](https://arxiv.org/abs/2611.22146) / [pdf](https://arxiv.org/pdf/2611.22146) |
